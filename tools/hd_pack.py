@@ -143,6 +143,7 @@ def glow_fx(sil, dirs, fpd, act, scale):
         core = np.exp(-(dist / (0.9 * r)) ** 2)
         inner = 1.0 / (1.0 + np.exp((dist - 2.6 * r * wid) / (0.7 * r)))   # the blade body: a soft-edged capsule
         halo = np.exp(-(dist / (5.0 * r * wid)) ** 2)
+        bloom = np.exp(-(dist / (10.0 * r * wid)) ** 2)
         pulse = np.zeros_like(core)
         for p0 in (0.0, 0.5):
             p = (f / fpd * 2 + p0 + 0.13 * d) % 1.0
@@ -164,9 +165,9 @@ def glow_fx(sil, dirs, fpd, act, scale):
                 dd, tt = _dist(gx, gy, sa, sb)
                 trail = np.maximum(trail, amt * (1 - u * 0.75) * (0.4 + 0.6 * tt) * np.exp(-(dd / (2.0 * r)) ** 2))
             cur = pv
-        rgb = ((core * 1.0 * tipfade)[:, :, None] * C['core'] + (inner * 0.45)[:, :, None] * C['inner']
-               + (halo * 0.22)[:, :, None] * C['halo'] + (pulse * 0.45)[:, :, None] * C['core']
-               + (trail * 0.75)[:, :, None] * C['trail'])
+        rgb = ((core * 1.2 * tipfade)[:, :, None] * C['core'] + (inner * 0.70)[:, :, None] * C['inner']
+               + (halo * 0.40)[:, :, None] * C['halo'] + (bloom * 0.14)[:, :, None] * C['halo']
+               + (pulse * 0.60)[:, :, None] * C['core'] + (trail * 0.95)[:, :, None] * C['trail'])
         rgb = (rgb * flick).clip(0, 1)
         al = np.where(rgb.max(2) > 2 / 255, 1.0, 0.0)
         out.append(Image.fromarray((np.dstack([rgb, al]) * 255 + 0.5).astype(np.uint8), 'RGBA'))
