@@ -16,7 +16,7 @@ typedef IDirect3D9 *(WINAPI *create9_fn)(UINT);
 static HMODULE g_d3d9_dll;
 static IDirect3D9 *g_d3d;
 static IDirect3DDevice9 *g_dev;
-static IDirect3DTexture9 *g_tex, *g_ovt;
+static IDirect3DTexture9 *g_tex, *g_ovt, *g_hdm;   /* g_hdm: HD unit masks (below) */
 static int g_ovt_w, g_ovt_h, g_ovt_ver = -1;
 static int g_tex_w, g_tex_h, g_tex_565;
 static int g_bb_w, g_bb_h, g_need_reset, g_failed;
@@ -31,6 +31,7 @@ static void release_tex(void)
 {
     if (g_tex) { IDirect3DTexture9_Release(g_tex); g_tex = NULL; }
     if (g_ovt) { IDirect3DTexture9_Release(g_ovt); g_ovt = NULL; g_ovt_ver = -1; }
+    if (g_hdm) { IDirect3DTexture9_Release(g_hdm); g_hdm = NULL; }   /* D3DPOOL_DEFAULT: gone with a Reset */
 }
 
 /* the native-resolution overlay (premultiplied BGRA) -> a texture of the client size */
@@ -175,60 +176,111 @@ static int upload(void)
 
 
 /* ---- HD field units (11-03, plan claude/HD_UNIT_OVERLAY_PLAN.md): the sprites the game drew this frame for the HD
-   art codes (sghd.h / F58) are drawn again at screen resolution from hd\<code>\<file>.hds (tools/hd_pack.py) ---- */
-typedef struct { unsigned short x, y, w, h; short px, py; } HdCell;
-typedef struct {
-    char name[16];               /* "a008mo" */
-    int state;                   /* 1 loaded, -1 missing / bad */
-    IDirect3DTexture9 *tex;
-    int aw, ah, dirs, fpd, blend, scale;
-    HdCell *cells;
-} HdAsset;
-#define HD_MAXASSETS 96
-static HdAsset g_hda[HD_MAXASSETS]; static int g_hda_n;
-static DWORD g_hd_ms, g_hd_frames, g_hd_quads;
+   art codes (sghd.h / F58) are drawn again at screen resolution from their .hds atlases, each multiplied by its own
+   mask (step 3): the final frame compared with the reference pixels sghd.h kept for that sprite.  1 = still showing
+   (the HD picture shows), k < 1 = the same colour darker (fog: the HD picture darkened by k), 0 = something else drawn
+   over it (cut out). ---- */
+typedef struct { float x, y, z, rhw, u, v, u2, v2; } VTX2;
+#define VTX2_FVF (D3DFVF_XYZRHW | D3DFVF_TEX2)
+#define HDM_W 2048
+#define HDM_H 2048
+static unsigned short *g_hdm_buf;                    /* CPU copy (A8L8) */
+static int g_hdm_ok = -1;
+static DWORD g_hd_us, g_hd_mask_us, g_hd_frames, g_hd_quads, g_hd_masked;
+typedef struct { int u, v, w, h; } HdMaskCell;
+static HdMaskCell g_hdmc[2048];
 
-static HdAsset *hd_asset(const char *xpf)
+static int hd_tex(SGHdAsset *a)
 {
-    char base[16]; int i = 0;
-    for (; xpf[i] && xpf[i] != '.' && i < 15; i++) base[i] = xpf[i];
-    base[i] = 0;
-    for (int k = 0; k < g_hda_n; k++) if (!strcmp(g_hda[k].name, base)) return g_hda[k].state > 0 ? &g_hda[k] : NULL;
-    if (g_hda_n >= HD_MAXASSETS) return NULL;
-    HdAsset *a = &g_hda[g_hda_n++]; memset(a, 0, sizeof *a); strcpy(a->name, base); a->state = -1;
-    char path[MAX_PATH]; char code[5]; memcpy(code, base, 4); code[4] = 0;
-    wsprintfA(path, "hd\\%s\\%s.hds", code, base);
-    HANDLE f = CreateFileA(path, GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, 0, NULL);
-    if (f == INVALID_HANDLE_VALUE) return NULL;
-    DWORD sz = GetFileSize(f, NULL), got = 0;
-    unsigned char *b = sz > 16 ? (unsigned char *)malloc(sz) : NULL;
-    if (b) ReadFile(f, b, sz, &got, NULL);
-    CloseHandle(f);
-    if (!b || got != sz || memcmp(b, "HDS1", 4)) { free(b); sgr_log("hd: %s unreadable", path); return NULL; }
-    const unsigned short *h = (const unsigned short *)(b + 4);
-    a->aw = h[0]; a->ah = h[1]; a->dirs = h[2]; a->fpd = h[3]; a->blend = b[12]; a->scale = b[13] ? b[13] : 1;
-    size_t nc = (size_t)a->dirs * a->fpd, off = 16 + nc * sizeof(HdCell);
-    if (!a->dirs || !a->fpd || off + (size_t)a->aw * a->ah * 4 != sz) { free(b); sgr_log("hd: %s bad size", path); return NULL; }
-    a->cells = (HdCell *)malloc(nc * sizeof(HdCell));
-    memcpy(a->cells, b + 16, nc * sizeof(HdCell));
-    if (FAILED(IDirect3DDevice9_CreateTexture(g_dev, a->aw, a->ah, 1, 0, D3DFMT_A8R8G8B8, D3DPOOL_MANAGED, &a->tex, NULL))) {
-        free(b); sgr_log("hd: %s texture %dx%d failed", path, a->aw, a->ah); a->tex = NULL; return NULL;
+    if (a->tex) return 1;
+    if (a->state != 1) return 0;
+    unsigned char *px = sgr_hd_pixels(a);
+    IDirect3DTexture9 *t = NULL;
+    if (!px || FAILED(IDirect3DDevice9_CreateTexture(g_dev, a->aw, a->ah, 1, 0, D3DFMT_A8R8G8B8, D3DPOOL_MANAGED, &t, NULL))) {
+        free(px); a->state = -1; sgr_log("hd: %s texture %dx%d failed", a->path, a->aw, a->ah); return 0;
     }
     D3DLOCKED_RECT lr;
-    if (SUCCEEDED(IDirect3DTexture9_LockRect(a->tex, 0, &lr, NULL, 0))) {
-        for (int y = 0; y < a->ah; y++) memcpy((unsigned char *)lr.pBits + (size_t)y * lr.Pitch, b + off + (size_t)y * a->aw * 4, (size_t)a->aw * 4);
-        IDirect3DTexture9_UnlockRect(a->tex, 0);
+    if (SUCCEEDED(IDirect3DTexture9_LockRect(t, 0, &lr, NULL, 0))) {
+        for (int y = 0; y < a->ah; y++) memcpy((unsigned char *)lr.pBits + (size_t)y * lr.Pitch, px + (size_t)y * a->aw * 4, (size_t)a->aw * 4);
+        IDirect3DTexture9_UnlockRect(t, 0);
     }
-    free(b);
-    a->state = 1;
-    sgr_log("hd: %s loaded (%dx%d, %d dirs x %d frames, blend %d, x%d)", path, a->aw, a->ah, a->dirs, a->fpd, a->blend, a->scale);
-    return a;
+    free(px);
+    a->tex = t;
+    sgr_log("hd: %s loaded (%dx%d, %d dirs x %d frames, blend %d, x%d)", a->path, a->aw, a->ah, a->dirs, a->fpd, a->blend, a->scale);
+    return 1;
 }
 
 static void hd_release(void)
 {
-    for (int k = 0; k < g_hda_n; k++) { if (g_hda[k].tex) IDirect3DTexture9_Release(g_hda[k].tex); free(g_hda[k].cells); }
-    g_hda_n = 0;
+    SGHdAsset *a; int n = sgr_hd_assets(&a);
+    for (int k = 0; k < n; k++) if (a[k].tex) { IDirect3DTexture9_Release((IDirect3DTexture9 *)a[k].tex); a[k].tex = NULL; }
+    if (g_hdm) { IDirect3DTexture9_Release(g_hdm); g_hdm = NULL; }
+    g_hdm_ok = -1;
+}
+
+/* k (0..255) for one pixel: final F against reference R, both RGB565 */
+static int hd_k(unsigned short R, unsigned short F)
+{
+    if (R == F) return 255;
+    int r[3] = { (R >> 11) << 3, ((R >> 5) & 63) << 2, (R & 31) << 3 };
+    int f[3] = { (F >> 11) << 3, ((F >> 5) & 63) << 2, (F & 31) << 3 };
+    int num = 0, den = 0;
+    for (int c = 0; c < 3; c++) { num += f[c] * r[c]; den += r[c] * r[c]; }
+    if (den < 3 * 24 * 24) return (f[0] + f[1] + f[2] < 3 * 40) ? -1 : 0;     /* dark reference: decided below */
+    int k = num * 255 / den;                          /* least squares F = k R */
+    if (k > 255) k = 255;
+    for (int c = 0; c < 3; c++) { int e = f[c] - k * r[c] / 255; if (e > 24 || e < -24) return 0; }
+    return k;
+}
+
+/* build every snapshot's mask into the atlas (shelf packing); cell 0 = 4x4 white for sprites without a snapshot */
+static int hd_masks(const SGHdRec *r, int n)
+{
+    unsigned char *bits; int pitch, w, h;
+    if (!sgr_primary_info(&bits, &pitch, &w, &h)) return 0;
+    const unsigned short *pool = sgr_hd_pool();
+    if (!g_hdm_buf) g_hdm_buf = (unsigned short *)malloc((size_t)HDM_W * HDM_H * 2);
+    if (!g_hdm_buf || !pool) return 0;
+    for (int y = 0; y < 4; y++) for (int x = 0; x < 4; x++) g_hdm_buf[y * HDM_W + x] = 0xffff;
+    int px = 6, py = 0, rowh = 4, used = 4;
+    for (int i = 0; i < n && i < 2048; i++) {
+        g_hdmc[i].w = 0;
+        if (r[i].bw <= 0) continue;
+        int bw = r[i].bw, bh = r[i].bh;
+        if (px + bw + 2 > HDM_W) { px = 0; py += rowh + 2; rowh = 0; }
+        if (py + bh + 2 > HDM_H) break;                   /* atlas full: the rest draw without a mask */
+        const unsigned short *ref = pool + r[i].ref;
+        long sum = 0; int cnt = 0;
+        for (int y = 0; y < bh; y++) {
+            const unsigned short *fr = (const unsigned short *)(bits + (size_t)(r[i].by + y) * pitch) + r[i].bx;
+            unsigned short *m = g_hdm_buf + (size_t)(py + y) * HDM_W + px;
+            for (int x = 0; x < bw; x++) {
+                int k = hd_k(ref[y * bw + x], fr[x]);
+                if (k > 0) { sum += k; cnt++; }
+                m[x] = (unsigned short)(k < 0 ? 0xfffe : k * 0x0101);
+            }
+        }
+        int avg = cnt ? (int)(sum / cnt) : 255;           /* dark pixels: the sprite's average darkening */
+        for (int y = 0; y < bh; y++) {
+            unsigned short *m = g_hdm_buf + (size_t)(py + y) * HDM_W + px;
+            for (int x = 0; x < bw; x++) if (m[x] == 0xfffe) m[x] = (unsigned short)(avg * 0x0101);
+        }
+        g_hdmc[i].u = px; g_hdmc[i].v = py; g_hdmc[i].w = bw; g_hdmc[i].h = bh;
+        px += bw + 2; if (bh > rowh) rowh = bh;
+        if (py + rowh > used) used = py + rowh;
+        g_hd_masked++;
+    }
+    if (!g_hdm) {
+        if (FAILED(IDirect3DDevice9_CreateTexture(g_dev, HDM_W, HDM_H, 1, D3DUSAGE_DYNAMIC, D3DFMT_A8L8, D3DPOOL_DEFAULT, &g_hdm, NULL))) {
+            g_hdm = NULL; if (g_hdm_ok) sgr_log("hd: A8L8 mask texture not supported: no occlusion"); g_hdm_ok = 0; return 0;
+        }
+        g_hdm_ok = 1;
+    }
+    D3DLOCKED_RECT lr; RECT rc = { 0, 0, HDM_W, used + 2 > HDM_H ? HDM_H : used + 2 };
+    if (FAILED(IDirect3DTexture9_LockRect(g_hdm, 0, &lr, &rc, 0))) return 0;
+    for (int y = 0; y < rc.bottom; y++) memcpy((unsigned char *)lr.pBits + (size_t)y * lr.Pitch, g_hdm_buf + (size_t)y * HDM_W, HDM_W * 2);
+    IDirect3DTexture9_UnlockRect(g_hdm, 0);
+    return 1;
 }
 
 /* frame pixel (fx, fy) -> client: dest is where the W x 600 frame lands */
@@ -236,40 +288,73 @@ static void hd_draw(const RECT *dest)
 {
     const SGHdRec *r; int n = sgr_hd_list(&r);
     if (n <= 0 || g_disp.gw <= 0) return;
-    LARGE_INTEGER q0, q1, qf; QueryPerformanceCounter(&q0);
+    sgr_hd_gpu();
+    LARGE_INTEGER q0, q1, q2, qf; QueryPerformanceCounter(&q0);
+    int masks = hd_masks(r, n);
+    QueryPerformanceCounter(&q1);
     float s = (float)(dest->right - dest->left) / (float)g_disp.gw;
     int blend = -1, quads = 0;
-    IDirect3DDevice9_SetSamplerState(g_dev, 0, D3DSAMP_MINFILTER, D3DTEXF_LINEAR);
-    IDirect3DDevice9_SetSamplerState(g_dev, 0, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR);
+    IDirect3DDevice9_SetFVF(g_dev, VTX2_FVF);
+    for (int st = 0; st < 2; st++) {
+        IDirect3DDevice9_SetSamplerState(g_dev, st, D3DSAMP_MINFILTER, D3DTEXF_LINEAR);
+        IDirect3DDevice9_SetSamplerState(g_dev, st, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR);
+        IDirect3DDevice9_SetSamplerState(g_dev, st, D3DSAMP_ADDRESSU, D3DTADDRESS_CLAMP);
+        IDirect3DDevice9_SetSamplerState(g_dev, st, D3DSAMP_ADDRESSV, D3DTADDRESS_CLAMP);
+    }
     IDirect3DDevice9_SetRenderState(g_dev, D3DRS_ALPHABLENDENABLE, TRUE);
+    IDirect3DDevice9_SetTextureStageState(g_dev, 0, D3DTSS_COLOROP, D3DTOP_SELECTARG1);
+    IDirect3DDevice9_SetTextureStageState(g_dev, 0, D3DTSS_COLORARG1, D3DTA_TEXTURE);
     IDirect3DDevice9_SetTextureStageState(g_dev, 0, D3DTSS_ALPHAOP, D3DTOP_SELECTARG1);
     IDirect3DDevice9_SetTextureStageState(g_dev, 0, D3DTSS_ALPHAARG1, D3DTA_TEXTURE);
+    IDirect3DDevice9_SetTextureStageState(g_dev, 0, D3DTSS_TEXCOORDINDEX, 0);
+    if (masks) {                                          /* stage 1: x mask (premultiplied: colour and alpha) */
+        IDirect3DDevice9_SetTexture(g_dev, 1, (IDirect3DBaseTexture9 *)g_hdm);
+        IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_TEXCOORDINDEX, 1);
+        IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_COLOROP, D3DTOP_MODULATE);
+        IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_COLORARG1, D3DTA_TEXTURE);
+        IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_COLORARG2, D3DTA_CURRENT);
+        IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_ALPHAOP, D3DTOP_MODULATE);
+        IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_ALPHAARG1, D3DTA_TEXTURE);
+        IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_ALPHAARG2, D3DTA_CURRENT);
+    } else IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_COLOROP, D3DTOP_DISABLE);
     for (int i = 0; i < n; i++) {
-        HdAsset *a = hd_asset(r[i].name);
-        if (!a) continue;
-        int d = r[i].dir, f = r[i].frame;
-        if (d < 0 || d >= a->dirs || f < 0) continue;
-        const HdCell *c = &a->cells[(f % a->fpd) * a->dirs + d];
-        if (!c->w) continue;
+        SGHdAsset *a = r[i].asset;
+        if (!a || r[i].cell < 0 || !hd_tex(a)) continue;
+        const SGHdCell *c = &a->cells[r[i].cell];
         if (a->blend != blend) {
             blend = a->blend;
             IDirect3DDevice9_SetRenderState(g_dev, D3DRS_SRCBLEND, D3DBLEND_ONE);
             IDirect3DDevice9_SetRenderState(g_dev, D3DRS_DESTBLEND, blend == 1 ? D3DBLEND_ONE : D3DBLEND_INVSRCALPHA);
         }
         float k = s / (float)a->scale;
-        float x0 = dest->left + r[i].fx * s - c->px * k - 0.5f, y0 = dest->top + r[i].fy * s - c->py * k - 0.5f;
+        float fx0 = r[i].fx - c->px / (float)a->scale, fy0 = r[i].fy - c->py / (float)a->scale;   /* frame coords */
+        float fx1 = fx0 + c->w / (float)a->scale, fy1 = fy0 + c->h / (float)a->scale;
+        float x0 = dest->left + fx0 * s - 0.5f, y0 = dest->top + fy0 * s - 0.5f;
         float x1 = x0 + c->w * k, y1 = y0 + c->h * k;
         float u0 = (float)c->x / a->aw, v0 = (float)c->y / a->ah, u1 = (float)(c->x + c->w) / a->aw, v1 = (float)(c->y + c->h) / a->ah;
-        VTX v[4] = { { x0, y0, 0, 1, u0, v0 }, { x1, y0, 0, 1, u1, v0 }, { x0, y1, 0, 1, u0, v1 }, { x1, y1, 0, 1, u1, v1 } };
+        float m0 = 2.0f / HDM_W, n0 = 2.0f / HDM_H, m1 = m0, n1 = n0;            /* no snapshot: the white cell */
+        if (masks && i < 2048 && g_hdmc[i].w) {                                   /* frame box -> its mask cell */
+            const HdMaskCell *mc = &g_hdmc[i];
+            m0 = (mc->u + fx0 - r[i].bx) / HDM_W; m1 = (mc->u + fx1 - r[i].bx) / HDM_W;
+            n0 = (mc->v + fy0 - r[i].by) / HDM_H; n1 = (mc->v + fy1 - r[i].by) / HDM_H;
+        }
+        VTX2 v[4] = { { x0, y0, 0, 1, u0, v0, m0, n0 }, { x1, y0, 0, 1, u1, v0, m1, n0 },
+                      { x0, y1, 0, 1, u0, v1, m0, n1 }, { x1, y1, 0, 1, u1, v1, m1, n1 } };
         IDirect3DDevice9_SetTexture(g_dev, 0, (IDirect3DBaseTexture9 *)a->tex);
-        IDirect3DDevice9_DrawPrimitiveUP(g_dev, D3DPT_TRIANGLESTRIP, 2, v, sizeof(VTX));
+        IDirect3DDevice9_DrawPrimitiveUP(g_dev, D3DPT_TRIANGLESTRIP, 2, v, sizeof(VTX2));
         quads++;
     }
-    QueryPerformanceCounter(&q1); QueryPerformanceFrequency(&qf);
-    g_hd_ms += (DWORD)((q1.QuadPart - q0.QuadPart) * 1000000 / qf.QuadPart); g_hd_quads += quads;
+    IDirect3DDevice9_SetTexture(g_dev, 1, NULL);
+    IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_COLOROP, D3DTOP_DISABLE);
+    IDirect3DDevice9_SetTextureStageState(g_dev, 1, D3DTSS_ALPHAOP, D3DTOP_DISABLE);
+    IDirect3DDevice9_SetFVF(g_dev, VTX_FVF);
+    QueryPerformanceCounter(&q2); QueryPerformanceFrequency(&qf);
+    g_hd_mask_us += (DWORD)((q1.QuadPart - q0.QuadPart) * 1000000 / qf.QuadPart);
+    g_hd_us += (DWORD)((q2.QuadPart - q0.QuadPart) * 1000000 / qf.QuadPart); g_hd_quads += quads;
     if (++g_hd_frames == 600) {
-        if (sgr_hd_debug()) sgr_log("hd: %lu quads/frame, %lu us/frame (CPU side)", g_hd_quads / 600, g_hd_ms / 600);
-        g_hd_frames = 0; g_hd_ms = 0; g_hd_quads = 0;
+        if (sgr_hd_debug()) sgr_log("hd: %lu quads/frame (%lu masked), %lu us/frame CPU (masks %lu us)", g_hd_quads / 600,
+                                    g_hd_masked / 600, g_hd_us / 600, g_hd_mask_us / 600);
+        g_hd_frames = 0; g_hd_us = 0; g_hd_mask_us = 0; g_hd_quads = 0; g_hd_masked = 0;
     }
 }
 

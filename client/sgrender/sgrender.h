@@ -46,7 +46,17 @@ void sghud_key(UINT msg, WPARAM w);           /* WM_KEYDOWN: Enter opens a folde
 int sghud_mouse(UINT msg, int x, int y, WPARAM w);/* client pixels; 1 = the HUD took it */
 void sghud_mapped(int *gx, int *gy);              /* sghud_mouse returned 3: the game sees the mouse here (frame px) */
 int sghud_over(int x, int y);                     /* client pixels over a HUD part (system cursor there) */
-/* sghd.h (HD field units): the sprites of the HD art codes the game drew in this frame, in draw order (frame px) */
+/* sghd.h (HD field units): the sprites of the HD art codes the game drew in this frame, in draw order (frame px).
+   Assets (hd\<code>\<file>.hds, tools/hd_pack.py) are loaded by sghd.h; sgd3d9.c makes their textures. */
+typedef struct { unsigned short x, y, w, h; short px, py; } SGHdCell;
+typedef struct SGHdAsset {
+    char name[16];               /* "g039mo" */
+    int state;                   /* 1 loaded, -1 missing / bad */
+    int aw, ah, dirs, fpd, blend, scale;   /* blend: 0 normal, 1 add, 2 shadow */
+    SGHdCell *cells;
+    char path[64]; unsigned pix_off;       /* BGRA premultiplied pixels in the file */
+    void *tex;                   /* sgd3d9.c: IDirect3DTexture9 */
+} SGHdAsset;
 typedef struct SGHdRec {
     unsigned char site;          /* F58 site 0..6 */
     char name[15];               /* sprite file, lower case ("g039mo.xpf") */
@@ -54,7 +64,14 @@ typedef struct SGHdRec {
     int fx, fy;                  /* frame position of the sprite's pivot */
     int dir, frame, a5, a6;
     unsigned seq;                /* draw order in the frame (all sprites) */
+    SGHdAsset *asset; int cell;  /* NULL / -1: no HD picture */
+    int bx, by, bw, bh;          /* snapshot box in the frame (bw = 0: none) */
+    unsigned ref;                /* its reference pixels in sgr_hd_pool(): what the frame should show there at the end */
 } SGHdRec;
 int sgr_hd_list(const SGHdRec **recs);        /* -> count; valid until the next frame begins */
+const unsigned short *sgr_hd_pool(void);      /* RGB565 reference pixels of the snapshots */
 int sgr_hd_debug(void);
+int sgr_hd_assets(SGHdAsset **arr);           /* every asset loaded so far (to release textures) */
+unsigned char *sgr_hd_pixels(const SGHdAsset *a);   /* the atlas pixels (malloc'd, caller frees) */
+void sgr_hd_gpu(void);                        /* the presenter drew the HD units this frame */
 #endif
