@@ -9,6 +9,7 @@
 #include <windows.h>
 #include <d3d9.h>
 #include <stdlib.h>
+#include <string.h>
 #include "sgrender.h"
 
 typedef IDirect3D9 *(WINAPI *create9_fn)(UINT);
@@ -172,13 +173,113 @@ static int upload(void)
     return 1;
 }
 
+
+/* ---- HD field units (11-03, plan claude/HD_UNIT_OVERLAY_PLAN.md): the sprites the game drew this frame for the HD
+   art codes (sghd.h / F58) are drawn again at screen resolution from hd\<code>\<file>.hds (tools/hd_pack.py) ---- */
+typedef struct { unsigned short x, y, w, h; short px, py; } HdCell;
+typedef struct {
+    char name[16];               /* "a008mo" */
+    int state;                   /* 1 loaded, -1 missing / bad */
+    IDirect3DTexture9 *tex;
+    int aw, ah, dirs, fpd, blend, scale;
+    HdCell *cells;
+} HdAsset;
+#define HD_MAXASSETS 96
+static HdAsset g_hda[HD_MAXASSETS]; static int g_hda_n;
+static DWORD g_hd_ms, g_hd_frames, g_hd_quads;
+
+static HdAsset *hd_asset(const char *xpf)
+{
+    char base[16]; int i = 0;
+    for (; xpf[i] && xpf[i] != '.' && i < 15; i++) base[i] = xpf[i];
+    base[i] = 0;
+    for (int k = 0; k < g_hda_n; k++) if (!strcmp(g_hda[k].name, base)) return g_hda[k].state > 0 ? &g_hda[k] : NULL;
+    if (g_hda_n >= HD_MAXASSETS) return NULL;
+    HdAsset *a = &g_hda[g_hda_n++]; memset(a, 0, sizeof *a); strcpy(a->name, base); a->state = -1;
+    char path[MAX_PATH]; char code[5]; memcpy(code, base, 4); code[4] = 0;
+    wsprintfA(path, "hd\\%s\\%s.hds", code, base);
+    HANDLE f = CreateFileA(path, GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, 0, NULL);
+    if (f == INVALID_HANDLE_VALUE) return NULL;
+    DWORD sz = GetFileSize(f, NULL), got = 0;
+    unsigned char *b = sz > 16 ? (unsigned char *)malloc(sz) : NULL;
+    if (b) ReadFile(f, b, sz, &got, NULL);
+    CloseHandle(f);
+    if (!b || got != sz || memcmp(b, "HDS1", 4)) { free(b); sgr_log("hd: %s unreadable", path); return NULL; }
+    const unsigned short *h = (const unsigned short *)(b + 4);
+    a->aw = h[0]; a->ah = h[1]; a->dirs = h[2]; a->fpd = h[3]; a->blend = b[12]; a->scale = b[13] ? b[13] : 1;
+    size_t nc = (size_t)a->dirs * a->fpd, off = 16 + nc * sizeof(HdCell);
+    if (!a->dirs || !a->fpd || off + (size_t)a->aw * a->ah * 4 != sz) { free(b); sgr_log("hd: %s bad size", path); return NULL; }
+    a->cells = (HdCell *)malloc(nc * sizeof(HdCell));
+    memcpy(a->cells, b + 16, nc * sizeof(HdCell));
+    if (FAILED(IDirect3DDevice9_CreateTexture(g_dev, a->aw, a->ah, 1, 0, D3DFMT_A8R8G8B8, D3DPOOL_MANAGED, &a->tex, NULL))) {
+        free(b); sgr_log("hd: %s texture %dx%d failed", path, a->aw, a->ah); a->tex = NULL; return NULL;
+    }
+    D3DLOCKED_RECT lr;
+    if (SUCCEEDED(IDirect3DTexture9_LockRect(a->tex, 0, &lr, NULL, 0))) {
+        for (int y = 0; y < a->ah; y++) memcpy((unsigned char *)lr.pBits + (size_t)y * lr.Pitch, b + off + (size_t)y * a->aw * 4, (size_t)a->aw * 4);
+        IDirect3DTexture9_UnlockRect(a->tex, 0);
+    }
+    free(b);
+    a->state = 1;
+    sgr_log("hd: %s loaded (%dx%d, %d dirs x %d frames, blend %d, x%d)", path, a->aw, a->ah, a->dirs, a->fpd, a->blend, a->scale);
+    return a;
+}
+
+static void hd_release(void)
+{
+    for (int k = 0; k < g_hda_n; k++) { if (g_hda[k].tex) IDirect3DTexture9_Release(g_hda[k].tex); free(g_hda[k].cells); }
+    g_hda_n = 0;
+}
+
+/* frame pixel (fx, fy) -> client: dest is where the W x 600 frame lands */
+static void hd_draw(const RECT *dest)
+{
+    const SGHdRec *r; int n = sgr_hd_list(&r);
+    if (n <= 0 || g_disp.gw <= 0) return;
+    LARGE_INTEGER q0, q1, qf; QueryPerformanceCounter(&q0);
+    float s = (float)(dest->right - dest->left) / (float)g_disp.gw;
+    int blend = -1, quads = 0;
+    IDirect3DDevice9_SetSamplerState(g_dev, 0, D3DSAMP_MINFILTER, D3DTEXF_LINEAR);
+    IDirect3DDevice9_SetSamplerState(g_dev, 0, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR);
+    IDirect3DDevice9_SetRenderState(g_dev, D3DRS_ALPHABLENDENABLE, TRUE);
+    IDirect3DDevice9_SetTextureStageState(g_dev, 0, D3DTSS_ALPHAOP, D3DTOP_SELECTARG1);
+    IDirect3DDevice9_SetTextureStageState(g_dev, 0, D3DTSS_ALPHAARG1, D3DTA_TEXTURE);
+    for (int i = 0; i < n; i++) {
+        HdAsset *a = hd_asset(r[i].name);
+        if (!a) continue;
+        int d = r[i].dir, f = r[i].frame;
+        if (d < 0 || d >= a->dirs || f < 0) continue;
+        const HdCell *c = &a->cells[(f % a->fpd) * a->dirs + d];
+        if (!c->w) continue;
+        if (a->blend != blend) {
+            blend = a->blend;
+            IDirect3DDevice9_SetRenderState(g_dev, D3DRS_SRCBLEND, D3DBLEND_ONE);
+            IDirect3DDevice9_SetRenderState(g_dev, D3DRS_DESTBLEND, blend == 1 ? D3DBLEND_ONE : D3DBLEND_INVSRCALPHA);
+        }
+        float k = s / (float)a->scale;
+        float x0 = dest->left + r[i].fx * s - c->px * k - 0.5f, y0 = dest->top + r[i].fy * s - c->py * k - 0.5f;
+        float x1 = x0 + c->w * k, y1 = y0 + c->h * k;
+        float u0 = (float)c->x / a->aw, v0 = (float)c->y / a->ah, u1 = (float)(c->x + c->w) / a->aw, v1 = (float)(c->y + c->h) / a->ah;
+        VTX v[4] = { { x0, y0, 0, 1, u0, v0 }, { x1, y0, 0, 1, u1, v0 }, { x0, y1, 0, 1, u0, v1 }, { x1, y1, 0, 1, u1, v1 } };
+        IDirect3DDevice9_SetTexture(g_dev, 0, (IDirect3DBaseTexture9 *)a->tex);
+        IDirect3DDevice9_DrawPrimitiveUP(g_dev, D3DPT_TRIANGLESTRIP, 2, v, sizeof(VTX));
+        quads++;
+    }
+    QueryPerformanceCounter(&q1); QueryPerformanceFrequency(&qf);
+    g_hd_ms += (DWORD)((q1.QuadPart - q0.QuadPart) * 1000000 / qf.QuadPart); g_hd_quads += quads;
+    if (++g_hd_frames == 600) {
+        if (sgr_hd_debug()) sgr_log("hd: %lu quads/frame, %lu us/frame (CPU side)", g_hd_quads / 600, g_hd_ms / 600);
+        g_hd_frames = 0; g_hd_ms = 0; g_hd_quads = 0;
+    }
+}
+
 extern int g_hide_game;          /* sgwindow.c boot_hide_update: the game's own start-up pictures are not shown */
 int sgr_d3d9_present(HWND h, const RECT *client, const RECT *dest)
 {
     if (g_failed) return 0;
     int w = client->right, hh = client->bottom;
     if (!g_dev || g_dev_hwnd != h) {
-        if (g_dev) { release_tex(); IDirect3DDevice9_Release(g_dev); g_dev = NULL; }
+        if (g_dev) { release_tex(); hd_release(); IDirect3DDevice9_Release(g_dev); g_dev = NULL; }
         if (!create_device(h, w, hh)) { g_failed = 1; return 0; }
     }
     HRESULT co = IDirect3DDevice9_TestCooperativeLevel(g_dev);
@@ -203,6 +304,7 @@ int sgr_d3d9_present(HWND h, const RECT *client, const RECT *dest)
         IDirect3DDevice9_SetRenderState(g_dev, D3DRS_ZENABLE, FALSE);
         IDirect3DDevice9_SetRenderState(g_dev, D3DRS_ALPHABLENDENABLE, FALSE);
         if (!g_hide_game) IDirect3DDevice9_DrawPrimitiveUP(g_dev, D3DPT_TRIANGLESTRIP, 2, q, sizeof(VTX));   /* (11-02) start-up: black */
+        if (!g_hide_game) hd_draw(dest);                    /* (11-03) HD field units over the frame, under the HUD */
         const SGOverlay *ov = sgr_overlay();
         if (ov && upload_overlay(ov)) {                     /* the HUD, 1:1 pixels, premultiplied alpha */
             float R = (float)ov->w - 0.5f, B = (float)ov->h - 0.5f;

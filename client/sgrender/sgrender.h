@@ -46,4 +46,15 @@ void sghud_key(UINT msg, WPARAM w);           /* WM_KEYDOWN: Enter opens a folde
 int sghud_mouse(UINT msg, int x, int y, WPARAM w);/* client pixels; 1 = the HUD took it */
 void sghud_mapped(int *gx, int *gy);              /* sghud_mouse returned 3: the game sees the mouse here (frame px) */
 int sghud_over(int x, int y);                     /* client pixels over a HUD part (system cursor there) */
+/* sghd.h (HD field units): the sprites of the HD art codes the game drew in this frame, in draw order (frame px) */
+typedef struct SGHdRec {
+    unsigned char site;          /* F58 site 0..6 */
+    char name[15];               /* sprite file, lower case ("g039mo.xpf") */
+    void *cxpf;
+    int fx, fy;                  /* frame position of the sprite's pivot */
+    int dir, frame, a5, a6;
+    unsigned seq;                /* draw order in the frame (all sprites) */
+} SGHdRec;
+int sgr_hd_list(const SGHdRec **recs);        /* -> count; valid until the next frame begins */
+int sgr_hd_debug(void);
 #endif

@@ -14,14 +14,7 @@
 #define TBL_HDREC 17
 #define HD_MAXREC 2048
 #define HD_MAXCODES 32
-typedef struct {
-    unsigned char site;          /* F58 site 0..6: 0 normal, 1 alpha, 2/4/5 add, 3 tint, 6 Cxpf::Draw dispatch */
-    char name[15];               /* sprite file, lower case ("g039mo.xpf") */
-    void *cxpf;
-    int fx, fy;                  /* frame position of the pivot */
-    int dir, frame, a5, a6;
-    unsigned seq;                /* draw order in the frame (all sprites, HD or not) */
-} HdRec;
+typedef SGHdRec HdRec;
 static HdRec g_hd[2][HD_MAXREC];
 static int g_hd_n[2], g_hd_cur;
 static unsigned g_hd_seq, g_hd_frames;
@@ -95,3 +88,7 @@ static void hd_frame(void)
         }
     }
 }
+
+/* sgd3d9.c draws them at present time (end of the same frame, game thread): the list being filled is complete */
+int sgr_hd_list(const SGHdRec **recs) { if (g_hd_on <= 0) return 0; *recs = g_hd[g_hd_cur]; return g_hd_n[g_hd_cur]; }
+int sgr_hd_debug(void) { return g_hd_dbg; }
