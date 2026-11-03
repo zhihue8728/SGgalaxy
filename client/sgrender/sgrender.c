@@ -61,6 +61,7 @@ static void logf_(const char *fmt, ...)
     va_list ap; va_start(ap, fmt); vfprintf(g_log, fmt, ap); va_end(ap);
     fputc('\n', g_log); fflush(g_log);
 }
+#include "sghd.h"
 
 static int in_image(const void *p) { DWORD a = (DWORD)p; return a >= 0x401000 && a < 0xEB5000; }
 
@@ -551,6 +552,7 @@ static void __cdecl on_frame(void *cg, void *app)
 {
     static int once;
     g_app = app;
+    hd_frame();
     if (g_dbg && !once && app && !IsBadReadPtr(app, 0x150)) {
         const int *a = (const int *)app; once = 1;
         logf_("APP %p %s +0x140=%d,%d,%d,%d", app, rtti_name(app), a[0x50], a[0x51], a[0x52], a[0x53]);
@@ -664,6 +666,7 @@ __declspec(dllexport) int __cdecl SGR_Init(volatile DWORD *table)
     if (g_DX || g_MH != 462) { table[TBL_FOG_DRAW] = (DWORD)fog_draw; table[TBL_FOG_VIS] = (DWORD)fog_vis; }
     table[TBL_QMSLIDE] = (DWORD)qm_slide;
     table[TBL_PATH] = (DWORD)path_build;               /* (11-02) every client the same: lock-step (sgpath.h) */
+    hd_init(table);                                    /* (11-03) F58: record the unit sprite draws (sghd.h) */
     if (g_DX) edge_scroll_hook();
     table[TBL_PRESENT] = (DWORD)on_present;
     table[TBL_CREATE] = (DWORD)on_create;
