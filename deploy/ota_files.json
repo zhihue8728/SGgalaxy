@@ -17,7 +17,19 @@
     "GOHud.pak": "out/enc/SGHud.pak",
     "NTFB.dat": "out/enc/NTFB.dat",
     "ODVB.dat": "out/enc/ODVB.dat",
-    "oml.dat": "out/enc/oml.dat"
+    "oml.dat": "out/enc/oml.dat",
+    "hd/g039/g039at.hds": "client/sgrender/hd/g039/g039at.hds",
+    "hd/g039/g039atb.hds": "client/sgrender/hd/g039/g039atb.hds",
+    "hd/g039/g039ats.hds": "client/sgrender/hd/g039/g039ats.hds",
+    "hd/g039/g039da.hds": "client/sgrender/hd/g039/g039da.hds",
+    "hd/g039/g039dab.hds": "client/sgrender/hd/g039/g039dab.hds",
+    "hd/g039/g039das.hds": "client/sgrender/hd/g039/g039das.hds",
+    "hd/g039/g039mo.hds": "client/sgrender/hd/g039/g039mo.hds",
+    "hd/g039/g039mob.hds": "client/sgrender/hd/g039/g039mob.hds",
+    "hd/g039/g039mos.hds": "client/sgrender/hd/g039/g039mos.hds",
+    "hd/g039/g039st.hds": "client/sgrender/hd/g039/g039st.hds",
+    "hd/g039/g039stb.hds": "client/sgrender/hd/g039/g039stb.hds",
+    "hd/g039/g039sts.hds": "client/sgrender/hd/g039/g039sts.hds"
   },
   "channels": {
     "cn": {
