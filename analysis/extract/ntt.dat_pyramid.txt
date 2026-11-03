@@ -1,0 +1,20 @@
+ksSelectUnit		Select the unit\nyou wish to\nreceive XP.
+ksNoAvailableExp	No XP received\nfrom your Subordinates
+ksSelectExp		Select the Subordinate\n whose bonus XP you wish\n to distribute.
+ksLevelLimit	This unit's level is too high for you to distribute XP to it.
+ksInfoName	Name
+ksInfoLevel	Level
+ksInfoExp	Exp
+ksInfoLevel2	Level %d
+
+ksWrongSenderName	Please enter a valid name for the sender.
+ksWrongReceiverName	Please enter a valid name for the recipient.
+ksWrongReceiverAddress	Please enter a valid e-mail address for the recipient.
+
+ksPyramidWelcomeMailTitle	%s has become your Subordinate.
+ksPyramidWelcomeMailContents	%s has just entered Shattered Galaxy! Because you invited them, they are now your Subordinate. You will receive bonus XP from their adventures and you also gain an XP bonus when fighting alongside them.
+ksPyramidTitleStudent		Subordinate
+ksPyramidTitleLevel		Level
+
+kPyramidStudentLevelOver	This Subordinate outranks you!\nYou cannot use XP gained\nfrom higher ranking Subordinates.\nProve your superiority and the XP is yours!
+kPyramidSelectUnit		First select the unit\nyou wish to receive XP.

@@ -1,0 +1,5 @@
+0-https://secure.nexon.net/newsg/main_game.asp
+1-https://secure.nexon.net/newsg/Character/hero_create_process.asp
+2-https://secure.nexon.net/newsg/Character/hero_create_check.asp
+3-https://secure.nexon.net/newsg/account_input.html
+4-http://sgpage.html

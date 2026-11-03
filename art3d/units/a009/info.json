@@ -1,0 +1,879 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a009",
+ "kind": "air",
+ "chassis": [
+  "Lyssa-Extrema",
+  "Lyssa-Magna",
+  "Lyssa-Maxima",
+  "Lyssa-Prima"
+ ],
+ "base_chassis": [
+  "Lyssa-Extrema",
+  "Lyssa-Magna",
+  "Lyssa-Maxima",
+  "Lyssa-Prima"
+ ],
+ "names_cn": {
+  "Lyssa-Extrema": "莉莎究极",
+  "Lyssa-Magna": "莉莎强化",
+  "Lyssa-Maxima": "莉莎极致",
+  "Lyssa-Prima": "莉莎初阶"
+ },
+ "names_tw": {
+  "Lyssa-Extrema": "莉莎究極",
+  "Lyssa-Magna": "莉莎強化",
+  "Lyssa-Maxima": "莉莎極致",
+  "Lyssa-Prima": "莉莎初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Lyssa-Extrema",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4545,
+   "base_armor": 0,
+   "speed_m_s": 12,
+   "view_range_m": 21,
+   "view_type": "Omni",
+   "chassis_code": "a009",
+   "chassis_image": "a009st.xpf"
+  },
+  {
+   "name": "Lyssa-Magna",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 100,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3282,
+   "base_armor": 0,
+   "speed_m_s": 10.5,
+   "view_range_m": 20,
+   "view_type": "Omni",
+   "chassis_code": "a009",
+   "chassis_image": "a009st.xpf"
+  },
+  {
+   "name": "Lyssa-Maxima",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 110,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3867,
+   "base_armor": 0,
+   "speed_m_s": 11,
+   "view_range_m": 20.5,
+   "view_type": "Omni",
+   "chassis_code": "a009",
+   "chassis_image": "a009st.xpf"
+  },
+  {
+   "name": "Lyssa-Prima",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2775,
+   "base_armor": 0,
+   "speed_m_s": 10,
+   "view_range_m": 19.5,
+   "view_type": "Omni",
+   "chassis_code": "a009",
+   "chassis_image": "a009st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a009at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      110,
+      94
+     ]
+    ],
+    "1": [
+     [
+      101,
+      107
+     ]
+    ],
+    "2": [
+     [
+      76,
+      104
+     ]
+    ],
+    "3": [
+     [
+      53,
+      105
+     ]
+    ],
+    "4": [
+     [
+      44,
+      94
+     ]
+    ],
+    "5": [
+     [
+      54,
+      79
+     ]
+    ],
+    "6": [
+     [
+      79,
+      75
+     ]
+    ],
+    "7": [
+     [
+      101,
+      81
+     ]
+    ],
+    "8": [
+     [
+      107,
+      87
+     ]
+    ],
+    "9": [
+     [
+      100,
+      101
+     ]
+    ],
+    "10": [
+     [
+      76,
+      104
+     ]
+    ],
+    "11": [
+     [
+      53,
+      101
+     ]
+    ],
+    "12": [
+     [
+      46,
+      90
+     ]
+    ],
+    "13": [
+     [
+      57,
+      74
+     ]
+    ],
+    "14": [
+     [
+      79,
+      75
+     ]
+    ],
+    "15": [
+     [
+      100,
+      74
+     ]
+    ],
+    "16": [
+     [
+      106,
+      82
+     ]
+    ],
+    "17": [
+     [
+      101,
+      93
+     ]
+    ],
+    "18": [
+     [
+      76,
+      104
+     ]
+    ],
+    "19": [
+     [
+      55,
+      94
+     ]
+    ],
+    "20": [
+     [
+      46,
+      83
+     ]
+    ],
+    "21": [
+     [
+      57,
+      70
+     ]
+    ],
+    "22": [
+     [
+      79,
+      75
+     ]
+    ],
+    "23": [
+     [
+      97,
+      69
+     ]
+    ],
+    "24": [
+     [
+      103,
+      78
+     ]
+    ],
+    "25": [
+     [
+      97,
+      88
+     ]
+    ],
+    "26": [
+     [
+      76,
+      104
+     ]
+    ],
+    "27": [
+     [
+      56,
+      91
+     ]
+    ],
+    "28": [
+     [
+      50,
+      78
+     ]
+    ],
+    "29": [
+     [
+      59,
+      68
+     ]
+    ],
+    "30": [
+     [
+      79,
+      75
+     ]
+    ],
+    "31": [
+     [
+      98,
+      64
+     ]
+    ],
+    "32": [
+     [
+      101,
+      77
+     ]
+    ],
+    "33": [
+     [
+      95,
+      86
+     ]
+    ],
+    "34": [
+     [
+      76,
+      104
+     ]
+    ],
+    "35": [
+     [
+      58,
+      86
+     ]
+    ],
+    "36": [
+     [
+      52,
+      75
+     ]
+    ],
+    "37": [
+     [
+      59,
+      67
+     ]
+    ],
+    "38": [
+     [
+      79,
+      75
+     ]
+    ],
+    "39": [
+     [
+      96,
+      66
+     ]
+    ],
+    "40": [
+     [
+      106,
+      83
+     ]
+    ],
+    "41": [
+     [
+      97,
+      93
+     ]
+    ],
+    "42": [
+     [
+      76,
+      104
+     ]
+    ],
+    "43": [
+     [
+      52,
+      93
+     ]
+    ],
+    "44": [
+     [
+      50,
+      80
+     ]
+    ],
+    "45": [
+     [
+      58,
+      68
+     ]
+    ],
+    "46": [
+     [
+      79,
+      75
+     ]
+    ],
+    "47": [
+     [
+      100,
+      71
+     ]
+    ],
+    "48": [
+     [
+      110,
+      94
+     ]
+    ],
+    "49": [
+     [
+      101,
+      107
+     ]
+    ],
+    "50": [
+     [
+      76,
+      104
+     ]
+    ],
+    "51": [
+     [
+      50,
+      103
+     ]
+    ],
+    "52": [
+     [
+      45,
+      90
+     ]
+    ],
+    "53": [
+     [
+      57,
+      73
+     ]
+    ],
+    "54": [
+     [
+      79,
+      75
+     ]
+    ],
+    "55": [
+     [
+      101,
+      76
+     ]
+    ],
+    "56": [
+     [
+      110,
+      94
+     ]
+    ],
+    "57": [
+     [
+      101,
+      107
+     ]
+    ],
+    "58": [
+     [
+      76,
+      104
+     ]
+    ],
+    "59": [
+     [
+      53,
+      105
+     ]
+    ],
+    "60": [
+     [
+      45,
+      90
+     ]
+    ],
+    "61": [
+     [
+      54,
+      79
+     ]
+    ],
+    "62": [
+     [
+      79,
+      75
+     ]
+    ],
+    "63": [
+     [
+      101,
+      81
+     ]
+    ],
+    "64": [
+     [
+      110,
+      94
+     ]
+    ],
+    "65": [
+     [
+      101,
+      107
+     ]
+    ],
+    "66": [
+     [
+      76,
+      104
+     ]
+    ],
+    "67": [
+     [
+      53,
+      105
+     ]
+    ],
+    "68": [
+     [
+      44,
+      94
+     ]
+    ],
+    "69": [
+     [
+      54,
+      79
+     ]
+    ],
+    "70": [
+     [
+      79,
+      75
+     ]
+    ],
+    "71": [
+     [
+      101,
+      81
+     ]
+    ],
+    "72": [
+     [
+      110,
+      94
+     ]
+    ],
+    "73": [
+     [
+      101,
+      107
+     ]
+    ],
+    "74": [
+     [
+      76,
+      104
+     ]
+    ],
+    "75": [
+     [
+      53,
+      105
+     ]
+    ],
+    "76": [
+     [
+      44,
+      94
+     ]
+    ],
+    "77": [
+     [
+      54,
+      79
+     ]
+    ],
+    "78": [
+     [
+      79,
+      75
+     ]
+    ],
+    "79": [
+     [
+      101,
+      81
+     ]
+    ]
+   },
+   "sheet": "sheets/a009at.png",
+   "sheet_crop": [
+    27,
+    48,
+    131,
+    136
+   ],
+   "cell": [
+    104,
+    88
+   ],
+   "pivot_in_cell": [
+    49,
+    56
+   ]
+  },
+  {
+   "file": "a009atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/a009atd.png",
+   "sheet_crop": [
+    25,
+    50,
+    131,
+    142
+   ],
+   "cell": [
+    106,
+    92
+   ],
+   "pivot_in_cell": [
+    51,
+    54
+   ]
+  },
+  {
+   "file": "a009ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a009da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a009da.png",
+   "sheet_crop": [
+    51,
+    70,
+    119,
+    115
+   ],
+   "cell": [
+    68,
+    45
+   ],
+   "pivot_in_cell": [
+    25,
+    34
+   ]
+  },
+  {
+   "file": "a009mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a009mo.png",
+   "sheet_crop": [
+    26,
+    48,
+    131,
+    136
+   ],
+   "cell": [
+    105,
+    88
+   ],
+   "pivot_in_cell": [
+    50,
+    56
+   ]
+  },
+  {
+   "file": "a009mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a009st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a009st.png",
+   "sheet_crop": [
+    44,
+    67,
+    113,
+    136
+   ],
+   "cell": [
+    69,
+    69
+   ],
+   "pivot_in_cell": [
+    32,
+    37
+   ]
+  },
+  {
+   "file": "a009sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

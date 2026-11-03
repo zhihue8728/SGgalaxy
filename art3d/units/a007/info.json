@@ -1,0 +1,710 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a007",
+ "kind": "air",
+ "chassis": [
+  "Eris-Ampla",
+  "Eris-Magna",
+  "Eris-Prima"
+ ],
+ "base_chassis": [
+  "Eris-Ampla",
+  "Eris-Magna",
+  "Eris-Prima"
+ ],
+ "names_cn": {
+  "Eris-Ampla": "厄莉丝进阶",
+  "Eris-Magna": "厄莉丝强化",
+  "Eris-Prima": "厄莉丝初阶"
+ },
+ "names_tw": {
+  "Eris-Ampla": "厄莉絲進階",
+  "Eris-Magna": "厄莉絲強化",
+  "Eris-Prima": "厄莉絲初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Eris-Ampla",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 70,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1983,
+   "base_armor": 0,
+   "speed_m_s": 9,
+   "view_range_m": 18.5,
+   "view_type": "Omni",
+   "chassis_code": "a007",
+   "chassis_image": "a007st.xpf"
+  },
+  {
+   "name": "Eris-Magna",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 80,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2346,
+   "base_armor": 0,
+   "speed_m_s": 9.6,
+   "view_range_m": 19,
+   "view_type": "Omni",
+   "chassis_code": "a007",
+   "chassis_image": "a007st.xpf"
+  },
+  {
+   "name": "Eris-Prima",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1683,
+   "base_armor": 0,
+   "speed_m_s": 8.8,
+   "view_range_m": 18,
+   "view_type": "Omni",
+   "chassis_code": "a007",
+   "chassis_image": "a007st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a007at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    97,
+    135
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      110,
+      140
+     ]
+    ],
+    "1": [
+     [
+      108,
+      148
+     ]
+    ],
+    "2": [
+     [
+      100,
+      149
+     ]
+    ],
+    "3": [
+     [
+      92,
+      147
+     ]
+    ],
+    "4": [
+     [
+      85,
+      141
+     ]
+    ],
+    "5": [
+     [
+      90,
+      135
+     ]
+    ],
+    "6": [
+     [
+      98,
+      126
+     ]
+    ],
+    "7": [
+     [
+      106,
+      135
+     ]
+    ],
+    "8": [
+     [
+      110,
+      137
+     ]
+    ],
+    "9": [
+     [
+      108,
+      148
+     ]
+    ],
+    "10": [
+     [
+      97,
+      150
+     ]
+    ],
+    "11": [
+     [
+      87,
+      146
+     ]
+    ],
+    "12": [
+     [
+      83,
+      139
+     ]
+    ],
+    "13": [
+     [
+      89,
+      131
+     ]
+    ],
+    "14": [
+     [
+      98,
+      126
+     ]
+    ],
+    "15": [
+     [
+      108,
+      132
+     ]
+    ],
+    "16": [
+     [
+      110,
+      140
+     ]
+    ],
+    "17": [
+     [
+      108,
+      148
+     ]
+    ],
+    "18": [
+     [
+      100,
+      149
+     ]
+    ],
+    "19": [
+     [
+      92,
+      147
+     ]
+    ],
+    "20": [
+     [
+      85,
+      141
+     ]
+    ],
+    "21": [
+     [
+      90,
+      135
+     ]
+    ],
+    "22": [
+     [
+      98,
+      126
+     ]
+    ],
+    "23": [
+     [
+      106,
+      135
+     ]
+    ],
+    "24": [
+     [
+      110,
+      140
+     ]
+    ],
+    "25": [
+     [
+      108,
+      148
+     ]
+    ],
+    "26": [
+     [
+      100,
+      149
+     ]
+    ],
+    "27": [
+     [
+      92,
+      147
+     ]
+    ],
+    "28": [
+     [
+      85,
+      141
+     ]
+    ],
+    "29": [
+     [
+      90,
+      135
+     ]
+    ],
+    "30": [
+     [
+      98,
+      126
+     ]
+    ],
+    "31": [
+     [
+      106,
+      135
+     ]
+    ],
+    "32": [
+     [
+      110,
+      140
+     ]
+    ],
+    "33": [
+     [
+      108,
+      148
+     ]
+    ],
+    "34": [
+     [
+      100,
+      149
+     ]
+    ],
+    "35": [
+     [
+      92,
+      147
+     ]
+    ],
+    "36": [
+     [
+      85,
+      141
+     ]
+    ],
+    "37": [
+     [
+      90,
+      135
+     ]
+    ],
+    "38": [
+     [
+      98,
+      126
+     ]
+    ],
+    "39": [
+     [
+      106,
+      135
+     ]
+    ],
+    "40": [
+     [
+      110,
+      140
+     ]
+    ],
+    "41": [
+     [
+      108,
+      148
+     ]
+    ],
+    "42": [
+     [
+      100,
+      149
+     ]
+    ],
+    "43": [
+     [
+      92,
+      147
+     ]
+    ],
+    "44": [
+     [
+      85,
+      141
+     ]
+    ],
+    "45": [
+     [
+      90,
+      135
+     ]
+    ],
+    "46": [
+     [
+      98,
+      126
+     ]
+    ],
+    "47": [
+     [
+      106,
+      135
+     ]
+    ],
+    "48": [
+     [
+      110,
+      140
+     ]
+    ],
+    "49": [
+     [
+      108,
+      148
+     ]
+    ],
+    "50": [
+     [
+      100,
+      149
+     ]
+    ],
+    "51": [
+     [
+      92,
+      147
+     ]
+    ],
+    "52": [
+     [
+      85,
+      141
+     ]
+    ],
+    "53": [
+     [
+      90,
+      135
+     ]
+    ],
+    "54": [
+     [
+      98,
+      126
+     ]
+    ],
+    "55": [
+     [
+      106,
+      135
+     ]
+    ]
+   },
+   "sheet": "sheets/a007at.png",
+   "sheet_crop": [
+    39,
+    60,
+    159,
+    156
+   ],
+   "cell": [
+    120,
+    96
+   ],
+   "pivot_in_cell": [
+    58,
+    75
+   ]
+  },
+  {
+   "file": "a007atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 63499,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    97,
+    135
+   ],
+   "frame_count": 55,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a007atd.png",
+   "sheet_crop": [
+    68,
+    115,
+    135,
+    163
+   ],
+   "cell": [
+    67,
+    48
+   ],
+   "pivot_in_cell": [
+    29,
+    20
+   ]
+  },
+  {
+   "file": "a007ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    97,
+    135
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a007da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1793,
+   "canvas": [
+    161,
+    161
+   ],
+   "pivot": [
+    81,
+    106
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a007da.png",
+   "sheet_crop": [
+    47,
+    67,
+    125,
+    124
+   ],
+   "cell": [
+    78,
+    57
+   ],
+   "pivot_in_cell": [
+    34,
+    39
+   ]
+  },
+  {
+   "file": "a007mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    97,
+    135
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a007mo.png",
+   "sheet_crop": [
+    42,
+    55,
+    155,
+    161
+   ],
+   "cell": [
+    113,
+    106
+   ],
+   "pivot_in_cell": [
+    55,
+    80
+   ]
+  },
+  {
+   "file": "a007mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    97,
+    135
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a007st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    97,
+    135
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a007st.png",
+   "sheet_crop": [
+    39,
+    56,
+    159,
+    149
+   ],
+   "cell": [
+    120,
+    93
+   ],
+   "pivot_in_cell": [
+    58,
+    79
+   ]
+  },
+  {
+   "file": "a007sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    97,
+    135
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

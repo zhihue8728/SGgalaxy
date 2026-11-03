@@ -1,0 +1,354 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g028",
+ "kind": "ground",
+ "chassis": [
+  "Scave-Amplus",
+  "Scave-Magnus",
+  "Scave-Maximus",
+  "Scave-Primus"
+ ],
+ "base_chassis": [
+  "Scave-Amplus",
+  "Scave-Magnus",
+  "Scave-Maximus",
+  "Scave-Primus"
+ ],
+ "names_cn": {
+  "Scave-Amplus": "斯凯夫进阶",
+  "Scave-Magnus": "斯凯夫强化",
+  "Scave-Maximus": "斯凯夫极致",
+  "Scave-Primus": "斯凯夫初阶"
+ },
+ "names_tw": {
+  "Scave-Amplus": "斯凱夫進階",
+  "Scave-Magnus": "斯凱夫強化",
+  "Scave-Maximus": "斯凱夫極致",
+  "Scave-Primus": "斯凱夫初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Scave-Amplus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 50,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2751,
+   "base_armor": 0,
+   "speed_m_s": 6.4,
+   "view_range_m": 11.25,
+   "view_type": "Cone",
+   "chassis_code": "g028",
+   "chassis_image": "g028st.xpf"
+  },
+  {
+   "name": "Scave-Magnus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3216,
+   "base_armor": 0,
+   "speed_m_s": 6.5,
+   "view_range_m": 11.5,
+   "view_type": "Cone",
+   "chassis_code": "g028",
+   "chassis_image": "g028st.xpf"
+  },
+  {
+   "name": "Scave-Maximus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 70,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3786,
+   "base_armor": 0,
+   "speed_m_s": 6.6,
+   "view_range_m": 11.75,
+   "view_type": "Cone",
+   "chassis_code": "g028",
+   "chassis_image": "g028st.xpf"
+  },
+  {
+   "name": "Scave-Primus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 40,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2379,
+   "base_armor": 0,
+   "speed_m_s": 6.2,
+   "view_range_m": 11,
+   "view_type": "Cone",
+   "chassis_code": "g028",
+   "chassis_image": "g028st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g028at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    89
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g028at.png",
+   "sheet_crop": [
+    41,
+    66,
+    116,
+    120
+   ],
+   "cell": [
+    75,
+    54
+   ],
+   "pivot_in_cell": [
+    36,
+    23
+   ]
+  },
+  {
+   "file": "g028ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    89
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g028da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    89
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g028da.png",
+   "sheet_crop": [
+    34,
+    57,
+    115,
+    129
+   ],
+   "cell": [
+    81,
+    72
+   ],
+   "pivot_in_cell": [
+    43,
+    32
+   ]
+  },
+  {
+   "file": "g028mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    89
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g028mo.png",
+   "sheet_crop": [
+    41,
+    66,
+    116,
+    120
+   ],
+   "cell": [
+    75,
+    54
+   ],
+   "pivot_in_cell": [
+    36,
+    23
+   ]
+  },
+  {
+   "file": "g028mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    89
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g028st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    89
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g028st.png",
+   "sheet_crop": [
+    41,
+    66,
+    116,
+    120
+   ],
+   "cell": [
+    75,
+    54
+   ],
+   "pivot_in_cell": [
+    36,
+    23
+   ]
+  },
+  {
+   "file": "g028sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    89
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

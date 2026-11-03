@@ -1,0 +1,7 @@
+ksShout			shout
+ksDeclareMartial		Declare Martial Law
+ksReleaseMartial		End Martial Law
+ksProhibitChat		Silence
+ksReceiver		 :  
+ksExile			Exile
+ksClose			Close

@@ -1,0 +1,1238 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g018",
+ "kind": "ground",
+ "chassis": [
+  "Wraith",
+  "Wraith-Mk2",
+  "Wraith-Mk3",
+  "Wraith-Mk4",
+  "Wraith-Mk5",
+  "Wraith-Mk6",
+  "Wraith-Mk7",
+  "Wraith-Mk8",
+  "Wraith-Mk9"
+ ],
+ "base_chassis": [
+  "Wraith"
+ ],
+ "names_cn": {
+  "Wraith": "怨灵"
+ },
+ "names_tw": {
+  "Wraith": "怨靈"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Wraith",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 2,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 17,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 1680,
+   "base_armor": 12,
+   "speed_m_s": 1.6,
+   "view_range_m": 11,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "description_summary": "Heavy frontline shock troop chassis of the Imperial Brotherhood, naturally repairable."
+  },
+  {
+   "name": "Wraith-Mk2",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 16,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 18,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 1920,
+   "base_armor": 16,
+   "speed_m_s": 1.6,
+   "view_range_m": 11.25,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy frontline shock trooper for the Imperial Brotherhood, able to self-repair."
+  },
+  {
+   "name": "Wraith-Mk3",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 30,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 20,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 2280,
+   "base_armor": 21,
+   "speed_m_s": 1.6,
+   "view_range_m": 11.5,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy frontline shock troops of the Imperial Brotherhood, self-repairable."
+  },
+  {
+   "name": "Wraith-Mk4",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 21,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 2760,
+   "base_armor": 25,
+   "speed_m_s": 1.8,
+   "view_range_m": 11.75,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy shock troop frontline unit of the Imperial Brotherhood, naturally repairable."
+  },
+  {
+   "name": "Wraith-Mk5",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 58,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 23,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 3420,
+   "base_armor": 30,
+   "speed_m_s": 1.8,
+   "view_range_m": 12,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy shock troop chassis of the Imperial Brotherhood, naturally repairable."
+  },
+  {
+   "name": "Wraith-Mk6",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 72,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 24,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 4290,
+   "base_armor": 39,
+   "speed_m_s": 1.9,
+   "view_range_m": 12.25,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy-duty frontline shock troops of the Imperial Brotherhood, self-repairing chassis"
+  },
+  {
+   "name": "Wraith-Mk7",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 86,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 26,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 5370,
+   "base_armor": 45,
+   "speed_m_s": 1.9,
+   "view_range_m": 12.5,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy frontline shock trooper of the Imperial Brotherhood, naturally repairable."
+  },
+  {
+   "name": "Wraith-Mk8",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 100,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 28,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 6690,
+   "base_armor": 54,
+   "speed_m_s": 2.1,
+   "view_range_m": 12.75,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy shock troop frontline unit of the Imperial Brotherhood; naturally repairable."
+  },
+  {
+   "name": "Wraith-Mk9",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 114,
+   "slots": 10,
+   "max_weight_kg": 92,
+   "max_space_l": 29,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 8280,
+   "base_armor": 63,
+   "speed_m_s": 2.3,
+   "view_range_m": 13,
+   "view_type": "Cone",
+   "chassis_code": "g018",
+   "chassis_image": "g018st.xpf",
+   "description_summary": "Heavy shock troop frontline chassis of the Imperial Brotherhood, naturally repairable."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g018at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 101,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      104,
+      100
+     ]
+    ],
+    "1": [
+     [
+      97,
+      106
+     ]
+    ],
+    "2": [
+     [
+      90,
+      109
+     ]
+    ],
+    "3": [
+     [
+      77,
+      109
+     ]
+    ],
+    "4": [
+     [
+      66,
+      107
+     ]
+    ],
+    "5": [
+     [
+      58,
+      105
+     ]
+    ],
+    "6": [
+     [
+      50,
+      101
+     ]
+    ],
+    "7": [
+     [
+      47,
+      94
+     ]
+    ],
+    "8": [
+     [
+      50,
+      84
+     ]
+    ],
+    "9": [
+     [
+      55,
+      81
+     ]
+    ],
+    "10": [
+     [
+      65,
+      77
+     ]
+    ],
+    "11": [
+     [
+      84,
+      77
+     ]
+    ],
+    "12": [
+     [
+      86,
+      74
+     ]
+    ],
+    "13": [
+     [
+      95,
+      79
+     ]
+    ],
+    "14": [
+     [
+      104,
+      85
+     ]
+    ],
+    "15": [
+     [
+      106,
+      91
+     ]
+    ],
+    "16": [
+     [
+      104,
+      100
+     ]
+    ],
+    "17": [
+     [
+      97,
+      106
+     ]
+    ],
+    "18": [
+     [
+      90,
+      109
+     ]
+    ],
+    "19": [
+     [
+      77,
+      109
+     ]
+    ],
+    "20": [
+     [
+      66,
+      107
+     ]
+    ],
+    "21": [
+     [
+      58,
+      105
+     ]
+    ],
+    "22": [
+     [
+      50,
+      101
+     ]
+    ],
+    "23": [
+     [
+      47,
+      94
+     ]
+    ],
+    "24": [
+     [
+      50,
+      84
+     ]
+    ],
+    "25": [
+     [
+      55,
+      81
+     ]
+    ],
+    "26": [
+     [
+      65,
+      77
+     ]
+    ],
+    "27": [
+     [
+      84,
+      77
+     ]
+    ],
+    "28": [
+     [
+      86,
+      74
+     ]
+    ],
+    "29": [
+     [
+      95,
+      79
+     ]
+    ],
+    "30": [
+     [
+      104,
+      85
+     ]
+    ],
+    "31": [
+     [
+      106,
+      91
+     ]
+    ],
+    "32": [
+     [
+      104,
+      100
+     ]
+    ],
+    "33": [
+     [
+      97,
+      106
+     ]
+    ],
+    "34": [
+     [
+      90,
+      109
+     ]
+    ],
+    "35": [
+     [
+      77,
+      109
+     ]
+    ],
+    "36": [
+     [
+      66,
+      107
+     ]
+    ],
+    "37": [
+     [
+      58,
+      105
+     ]
+    ],
+    "38": [
+     [
+      50,
+      101
+     ]
+    ],
+    "39": [
+     [
+      47,
+      94
+     ]
+    ],
+    "40": [
+     [
+      50,
+      84
+     ]
+    ],
+    "41": [
+     [
+      55,
+      81
+     ]
+    ],
+    "42": [
+     [
+      65,
+      77
+     ]
+    ],
+    "43": [
+     [
+      84,
+      77
+     ]
+    ],
+    "44": [
+     [
+      86,
+      74
+     ]
+    ],
+    "45": [
+     [
+      95,
+      79
+     ]
+    ],
+    "46": [
+     [
+      104,
+      85
+     ]
+    ],
+    "47": [
+     [
+      106,
+      91
+     ]
+    ],
+    "48": [
+     [
+      104,
+      100
+     ]
+    ],
+    "49": [
+     [
+      97,
+      106
+     ]
+    ],
+    "50": [
+     [
+      90,
+      109
+     ]
+    ],
+    "51": [
+     [
+      77,
+      109
+     ]
+    ],
+    "52": [
+     [
+      66,
+      107
+     ]
+    ],
+    "53": [
+     [
+      58,
+      105
+     ]
+    ],
+    "54": [
+     [
+      50,
+      101
+     ]
+    ],
+    "55": [
+     [
+      47,
+      94
+     ]
+    ],
+    "56": [
+     [
+      50,
+      84
+     ]
+    ],
+    "57": [
+     [
+      55,
+      81
+     ]
+    ],
+    "58": [
+     [
+      65,
+      77
+     ]
+    ],
+    "59": [
+     [
+      84,
+      77
+     ]
+    ],
+    "60": [
+     [
+      86,
+      74
+     ]
+    ],
+    "61": [
+     [
+      95,
+      79
+     ]
+    ],
+    "62": [
+     [
+      104,
+      85
+     ]
+    ],
+    "63": [
+     [
+      106,
+      91
+     ]
+    ],
+    "64": [
+     [
+      104,
+      100
+     ]
+    ],
+    "65": [
+     [
+      97,
+      106
+     ]
+    ],
+    "66": [
+     [
+      90,
+      109
+     ]
+    ],
+    "67": [
+     [
+      77,
+      109
+     ]
+    ],
+    "68": [
+     [
+      66,
+      107
+     ]
+    ],
+    "69": [
+     [
+      58,
+      105
+     ]
+    ],
+    "70": [
+     [
+      50,
+      101
+     ]
+    ],
+    "71": [
+     [
+      47,
+      94
+     ]
+    ],
+    "72": [
+     [
+      50,
+      84
+     ]
+    ],
+    "73": [
+     [
+      55,
+      81
+     ]
+    ],
+    "74": [
+     [
+      65,
+      77
+     ]
+    ],
+    "75": [
+     [
+      84,
+      77
+     ]
+    ],
+    "76": [
+     [
+      86,
+      74
+     ]
+    ],
+    "77": [
+     [
+      95,
+      79
+     ]
+    ],
+    "78": [
+     [
+      104,
+      85
+     ]
+    ],
+    "79": [
+     [
+      106,
+      91
+     ]
+    ]
+   },
+   "sheet": "sheets/g018at.png",
+   "sheet_crop": [
+    46,
+    59,
+    109,
+    125
+   ],
+   "cell": [
+    63,
+    66
+   ],
+   "pivot_in_cell": [
+    27,
+    53
+   ]
+  },
+  {
+   "file": "g018atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 8257,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g018atb.png",
+   "sheet_crop": [
+    60,
+    64,
+    95,
+    118
+   ],
+   "cell": [
+    35,
+    54
+   ],
+   "pivot_in_cell": [
+    13,
+    48
+   ]
+  },
+  {
+   "file": "g018atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g018atd.png",
+   "sheet_crop": [
+    23,
+    45,
+    131,
+    137
+   ],
+   "cell": [
+    108,
+    92
+   ],
+   "pivot_in_cell": [
+    50,
+    67
+   ]
+  },
+  {
+   "file": "g018ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.06,
+   "mask_only": true
+  },
+  {
+   "file": "g018da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    75,
+    101
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g018da.png",
+   "sheet_crop": [
+    47,
+    75,
+    108,
+    132
+   ],
+   "cell": [
+    61,
+    57
+   ],
+   "pivot_in_cell": [
+    28,
+    26
+   ]
+  },
+  {
+   "file": "g018dt.xpf",
+   "dat": "tc.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g018dt.png",
+   "sheet_crop": [
+    44,
+    59,
+    111,
+    125
+   ],
+   "cell": [
+    67,
+    66
+   ],
+   "pivot_in_cell": [
+    29,
+    53
+   ]
+  },
+  {
+   "file": "g018dtb.xpf",
+   "dat": "tc.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g018dtb.png",
+   "sheet_crop": [
+    61,
+    64,
+    94,
+    118
+   ],
+   "cell": [
+    33,
+    54
+   ],
+   "pivot_in_cell": [
+    12,
+    48
+   ]
+  },
+  {
+   "file": "g018dts.xpf",
+   "dat": "tc.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g018mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g018mo.png",
+   "sheet_crop": [
+    44,
+    59,
+    111,
+    125
+   ],
+   "cell": [
+    67,
+    66
+   ],
+   "pivot_in_cell": [
+    29,
+    53
+   ]
+  },
+  {
+   "file": "g018mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g018mob.png",
+   "sheet_crop": [
+    61,
+    64,
+    94,
+    118
+   ],
+   "cell": [
+    33,
+    54
+   ],
+   "pivot_in_cell": [
+    12,
+    48
+   ]
+  },
+  {
+   "file": "g018mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 48387,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g018mop.png",
+   "sheet_crop": [
+    64,
+    104,
+    91,
+    123
+   ],
+   "cell": [
+    27,
+    19
+   ],
+   "pivot_in_cell": [
+    9,
+    8
+   ]
+  },
+  {
+   "file": "g018mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g018st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g018st.png",
+   "sheet_crop": [
+    48,
+    59,
+    106,
+    125
+   ],
+   "cell": [
+    58,
+    66
+   ],
+   "pivot_in_cell": [
+    25,
+    53
+   ]
+  },
+  {
+   "file": "g018stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g018stb.png",
+   "sheet_crop": [
+    59,
+    66,
+    95,
+    118
+   ],
+   "cell": [
+    36,
+    52
+   ],
+   "pivot_in_cell": [
+    14,
+    46
+   ]
+  },
+  {
+   "file": "g018sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    112
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

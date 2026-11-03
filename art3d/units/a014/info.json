@@ -1,0 +1,886 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a014",
+ "kind": "air",
+ "chassis": [
+  "Falcon",
+  "Falcon-Mk2",
+  "Falcon-Mk3",
+  "Falcon-Mk4",
+  "Falcon-Mk5"
+ ],
+ "base_chassis": [
+  "Falcon"
+ ],
+ "names_cn": {
+  "Falcon": "猎隼"
+ },
+ "names_tw": {
+  "Falcon": "獵隼"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Falcon",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 60,
+   "slots": 10,
+   "max_weight_kg": 55,
+   "max_space_l": 8,
+   "unit_weight_kg": 80,
+   "type": "Mechanical",
+   "base_health": 2250,
+   "base_armor": 0,
+   "speed_m_s": 9.5,
+   "view_range_m": 10,
+   "view_type": "Omni",
+   "chassis_code": "a014",
+   "description_summary": "Fast Firefly uses air-to-air weapons to destroy enemy air drones."
+  },
+  {
+   "name": "Falcon-Mk2",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 75,
+   "slots": 10,
+   "max_weight_kg": 55,
+   "max_space_l": 9,
+   "unit_weight_kg": 80,
+   "type": "Mechanical",
+   "base_health": 2850,
+   "base_armor": 3,
+   "speed_m_s": 10,
+   "view_range_m": 10.25,
+   "view_type": "Omni",
+   "chassis_code": "a014",
+   "description_summary": "Agile Firefly quickly destroys enemy aerial drones using strong air-to-air weapons."
+  },
+  {
+   "name": "Falcon-Mk3",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 90,
+   "slots": 10,
+   "max_weight_kg": 55,
+   "max_space_l": 9,
+   "unit_weight_kg": 80,
+   "type": "Mechanical",
+   "base_health": 3630,
+   "base_armor": 6,
+   "speed_m_s": 10.5,
+   "view_range_m": 10.5,
+   "view_type": "Omni",
+   "chassis_code": "a014",
+   "chassis_image": "a014st.xpf",
+   "description_summary": "Agile Firefly uses strong air-to-air arms to quickly destroy hostile drones."
+  },
+  {
+   "name": "Falcon-Mk4",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 105,
+   "slots": 10,
+   "max_weight_kg": 55,
+   "max_space_l": 10,
+   "unit_weight_kg": 80,
+   "type": "Mechanical",
+   "base_health": 4590,
+   "base_armor": 9,
+   "speed_m_s": 11,
+   "view_range_m": 10.75,
+   "view_type": "Omni",
+   "chassis_code": "a014",
+   "description_summary": "Nimble Firefly uses air-to-air weaponry to quickly destroy enemy air drones."
+  },
+  {
+   "name": "Falcon-Mk5",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 120,
+   "slots": 10,
+   "max_weight_kg": 55,
+   "max_space_l": 11,
+   "unit_weight_kg": 80,
+   "type": "Mechanical",
+   "base_health": 5760,
+   "base_armor": 12,
+   "speed_m_s": 12.5,
+   "view_range_m": 11,
+   "view_type": "Omni",
+   "chassis_code": "a014",
+   "chassis_image": "a014st.xpf",
+   "description_summary": "Agile craft using strong air-to-air weapons to quickly down enemy drones."
+  }
+ ],
+ "layers": [
+  {
+   "file": "a014at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 63301,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      103,
+      80
+     ],
+     [
+      102,
+      88
+     ]
+    ],
+    "1": [
+     [
+      104,
+      83
+     ],
+     [
+      98,
+      93
+     ]
+    ],
+    "2": [
+     [
+      103,
+      88
+     ],
+     [
+      92,
+      94
+     ]
+    ],
+    "3": [
+     [
+      100,
+      92
+     ],
+     [
+      88,
+      95
+     ]
+    ],
+    "4": [
+     [
+      95,
+      93
+     ],
+     [
+      82,
+      93
+     ]
+    ],
+    "5": [
+     [
+      88,
+      95
+     ],
+     [
+      77,
+      90
+     ]
+    ],
+    "6": [
+     [
+      84,
+      94
+     ],
+     [
+      74,
+      88
+     ]
+    ],
+    "7": [
+     [
+      78,
+      93
+     ],
+     [
+      74,
+      83
+     ]
+    ],
+    "8": [
+     [
+      74,
+      88
+     ],
+     [
+      74,
+      80
+     ]
+    ],
+    "9": [
+     [
+      74,
+      84
+     ],
+     [
+      78,
+      77
+     ]
+    ],
+    "10": [
+     [
+      74,
+      81
+     ],
+     [
+      84,
+      75
+     ]
+    ],
+    "11": [
+     [
+      77,
+      78
+     ],
+     [
+      88,
+      73
+     ]
+    ],
+    "12": [
+     [
+      83,
+      75
+     ],
+     [
+      95,
+      75
+     ]
+    ],
+    "13": [
+     [
+      88,
+      73
+     ],
+     [
+      99,
+      77
+     ]
+    ],
+    "14": [
+     [
+      92,
+      75
+     ],
+     [
+      103,
+      82
+     ]
+    ],
+    "15": [
+     [
+      99,
+      77
+     ],
+     [
+      104,
+      85
+     ]
+    ]
+   },
+   "sheet": "sheets/a014at.png",
+   "sheet_crop": [
+    58,
+    62,
+    121,
+    111
+   ],
+   "cell": [
+    63,
+    49
+   ],
+   "pivot_in_cell": [
+    30,
+    20
+   ]
+  },
+  {
+   "file": "a014atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a014atb.png",
+   "sheet_crop": [
+    66,
+    68,
+    113,
+    102
+   ],
+   "cell": [
+    47,
+    34
+   ],
+   "pivot_in_cell": [
+    22,
+    14
+   ]
+  },
+  {
+   "file": "a014ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 84,
+   "type_raw": 63316,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true,
+   "muzzle_points": {
+    "0": [
+     [
+      103,
+      80
+     ],
+     [
+      102,
+      88
+     ]
+    ],
+    "1": [
+     [
+      104,
+      83
+     ],
+     [
+      98,
+      93
+     ]
+    ],
+    "2": [
+     [
+      103,
+      88
+     ],
+     [
+      92,
+      94
+     ]
+    ],
+    "3": [
+     [
+      100,
+      92
+     ],
+     [
+      88,
+      95
+     ]
+    ],
+    "4": [
+     [
+      95,
+      93
+     ],
+     [
+      82,
+      93
+     ]
+    ],
+    "5": [
+     [
+      88,
+      95
+     ],
+     [
+      77,
+      90
+     ]
+    ],
+    "6": [
+     [
+      84,
+      94
+     ],
+     [
+      74,
+      88
+     ]
+    ],
+    "7": [
+     [
+      78,
+      93
+     ],
+     [
+      74,
+      83
+     ]
+    ],
+    "8": [
+     [
+      74,
+      88
+     ],
+     [
+      74,
+      80
+     ]
+    ],
+    "9": [
+     [
+      74,
+      84
+     ],
+     [
+      78,
+      77
+     ]
+    ],
+    "10": [
+     [
+      74,
+      81
+     ],
+     [
+      84,
+      75
+     ]
+    ],
+    "11": [
+     [
+      77,
+      78
+     ],
+     [
+      88,
+      73
+     ]
+    ],
+    "12": [
+     [
+      83,
+      75
+     ],
+     [
+      95,
+      75
+     ]
+    ],
+    "13": [
+     [
+      88,
+      73
+     ],
+     [
+      99,
+      77
+     ]
+    ],
+    "14": [
+     [
+      92,
+      75
+     ],
+     [
+      103,
+      82
+     ]
+    ],
+    "15": [
+     [
+      99,
+      77
+     ],
+     [
+      104,
+      85
+     ]
+    ]
+   }
+  },
+  {
+   "file": "a014da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a014da.png",
+   "sheet_crop": [
+    68,
+    69,
+    118,
+    107
+   ],
+   "cell": [
+    50,
+    38
+   ],
+   "pivot_in_cell": [
+    20,
+    13
+   ]
+  },
+  {
+   "file": "a014das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "a014mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 63553,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a014mo.png",
+   "sheet_crop": [
+    58,
+    62,
+    121,
+    111
+   ],
+   "cell": [
+    63,
+    49
+   ],
+   "pivot_in_cell": [
+    30,
+    20
+   ]
+  },
+  {
+   "file": "a014mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a014mob.png",
+   "sheet_crop": [
+    66,
+    68,
+    113,
+    102
+   ],
+   "cell": [
+    47,
+    34
+   ],
+   "pivot_in_cell": [
+    22,
+    14
+   ]
+  },
+  {
+   "file": "a014mod.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a014mod.png",
+   "sheet_crop": [
+    58,
+    57,
+    122,
+    111
+   ],
+   "cell": [
+    64,
+    54
+   ],
+   "pivot_in_cell": [
+    30,
+    25
+   ]
+  },
+  {
+   "file": "a014mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 63568,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a014st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a014st.png",
+   "sheet_crop": [
+    58,
+    62,
+    121,
+    111
+   ],
+   "cell": [
+    63,
+    49
+   ],
+   "pivot_in_cell": [
+    30,
+    20
+   ]
+  },
+  {
+   "file": "a014stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a014stb.png",
+   "sheet_crop": [
+    66,
+    68,
+    113,
+    102
+   ],
+   "cell": [
+    47,
+    34
+   ],
+   "pivot_in_cell": [
+    22,
+    14
+   ]
+  },
+  {
+   "file": "a014sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    88,
+    82
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

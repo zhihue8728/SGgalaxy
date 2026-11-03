@@ -1,0 +1,990 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a019",
+ "kind": "air",
+ "chassis": [
+  "Miasam-Evo1",
+  "Miasam-Evo2",
+  "Miasam-Evo3",
+  "Miasam-Evo4",
+  "Miasam-Evo5",
+  "Miasam-Evo6",
+  "Miasam-Evo7",
+  "Miasam-Evo8",
+  "Miasam-Evo9"
+ ],
+ "base_chassis": [
+  "Miasam-Evo1",
+  "Miasam-Evo2",
+  "Miasam-Evo3",
+  "Miasam-Evo4",
+  "Miasam-Evo5",
+  "Miasam-Evo6",
+  "Miasam-Evo7",
+  "Miasam-Evo8",
+  "Miasam-Evo9"
+ ],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": "Miasam",
+ "manual": [
+  {
+   "name": "Miasam-Evo1",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 3,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 15,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 4200,
+   "base_armor": 27,
+   "speed_m_s": 4.6,
+   "view_range_m": 75,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  },
+  {
+   "name": "Miasam-Evo2",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 17,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 16,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 4800,
+   "base_armor": 33,
+   "speed_m_s": 4.8,
+   "view_range_m": 77.5,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  },
+  {
+   "name": "Miasam-Evo3",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 31,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 17,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 5700,
+   "base_armor": 39,
+   "speed_m_s": 4.8,
+   "view_range_m": 80,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  },
+  {
+   "name": "Miasam-Evo4",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 45,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 19,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 6960,
+   "base_armor": 48,
+   "speed_m_s": 5,
+   "view_range_m": 82.5,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  },
+  {
+   "name": "Miasam-Evo5",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 59,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 20,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 8640,
+   "base_armor": 54,
+   "speed_m_s": 5,
+   "view_range_m": 85,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  },
+  {
+   "name": "Miasam-Evo6",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 73,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 21,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 10770,
+   "base_armor": 63,
+   "speed_m_s": 5.2,
+   "view_range_m": 87.5,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  },
+  {
+   "name": "Miasam-Evo7",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 87,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 23,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 13500,
+   "base_armor": 72,
+   "speed_m_s": 5.2,
+   "view_range_m": 90,
+   "view_type": "Omni",
+   "chassis_code": "a019",
+   "chassis_image": "a019st.xpf"
+  },
+  {
+   "name": "Miasam-Evo8",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 101,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 24,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 16830,
+   "base_armor": 78,
+   "speed_m_s": 5.4,
+   "view_range_m": 92.5,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  },
+  {
+   "name": "Miasam-Evo9",
+   "category": "Organic",
+   "group": "Miasam",
+   "unit_quality": 115,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 26,
+   "unit_weight_kg": 375,
+   "type": "Biological",
+   "base_health": 20850,
+   "base_armor": 90,
+   "speed_m_s": 5.6,
+   "view_range_m": 95,
+   "view_type": "Omni",
+   "chassis_code": "a019"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a019at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 37,
+   "type_raw": 37,
+   "canvas": [
+    429,
+    429
+   ],
+   "pivot": [
+    204,
+    200
+   ],
+   "frame_count": 12,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      144,
+      131
+     ],
+     [
+      281,
+      143
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      245,
+      113
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      200,
+      108
+     ]
+    ],
+    "1": [
+     [
+      146,
+      131
+     ],
+     [
+      277,
+      145
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      244,
+      116
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      200,
+      111
+     ]
+    ],
+    "2": [
+     [
+      146,
+      133
+     ],
+     [
+      272,
+      147
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      241,
+      116
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      198,
+      113
+     ]
+    ],
+    "3": [
+     [
+      151,
+      134
+     ],
+     [
+      271,
+      149
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      239,
+      117
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      195,
+      115
+     ]
+    ],
+    "4": [
+     [
+      154,
+      135
+     ],
+     [
+      267,
+      149
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      236,
+      119
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      191,
+      116
+     ]
+    ],
+    "5": [
+     [
+      156,
+      140
+     ],
+     [
+      264,
+      150
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      234,
+      122
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      191,
+      120
+     ]
+    ],
+    "6": [
+     [
+      160,
+      137
+     ],
+     [
+      261,
+      152
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      232,
+      124
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      188,
+      121
+     ]
+    ],
+    "7": [
+     [
+      162,
+      140
+     ],
+     [
+      260,
+      152
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      228,
+      125
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      184,
+      123
+     ]
+    ],
+    "8": [
+     [
+      166,
+      141
+     ],
+     [
+      257,
+      153
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      227,
+      126
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      183,
+      124
+     ]
+    ],
+    "9": [
+     [
+      169,
+      141
+     ],
+     [
+      254,
+      152
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      225,
+      132
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      181,
+      126
+     ]
+    ],
+    "10": [
+     [
+      173,
+      142
+     ],
+     [
+      249,
+      156
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      222,
+      133
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      177,
+      129
+     ]
+    ],
+    "11": [
+     [
+      170,
+      142
+     ],
+     [
+      250,
+      157
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      225,
+      132
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      177,
+      128
+     ]
+    ]
+   },
+   "sheet": "sheets/a019at.png",
+   "sheet_crop": [
+    127,
+    104,
+    312,
+    302
+   ],
+   "cell": [
+    185,
+    198
+   ],
+   "pivot_in_cell": [
+    77,
+    96
+   ]
+  },
+  {
+   "file": "a019ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 52,
+   "type_raw": 52,
+   "canvas": [
+    429,
+    429
+   ],
+   "pivot": [
+    204,
+    200
+   ],
+   "frame_count": 12,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": true,
+   "muzzle_points": {
+    "0": [
+     [
+      144,
+      131
+     ],
+     [
+      281,
+      143
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      245,
+      113
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      200,
+      108
+     ]
+    ],
+    "1": [
+     [
+      146,
+      131
+     ],
+     [
+      277,
+      145
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      244,
+      116
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      200,
+      111
+     ]
+    ],
+    "2": [
+     [
+      146,
+      133
+     ],
+     [
+      272,
+      147
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      241,
+      116
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      198,
+      113
+     ]
+    ],
+    "3": [
+     [
+      151,
+      134
+     ],
+     [
+      271,
+      149
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      239,
+      117
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      195,
+      115
+     ]
+    ],
+    "4": [
+     [
+      154,
+      135
+     ],
+     [
+      267,
+      149
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      236,
+      119
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      191,
+      116
+     ]
+    ],
+    "5": [
+     [
+      156,
+      140
+     ],
+     [
+      264,
+      150
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      234,
+      122
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      191,
+      120
+     ]
+    ],
+    "6": [
+     [
+      160,
+      137
+     ],
+     [
+      261,
+      152
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      232,
+      124
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      188,
+      121
+     ]
+    ],
+    "7": [
+     [
+      162,
+      140
+     ],
+     [
+      260,
+      152
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      228,
+      125
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      184,
+      123
+     ]
+    ],
+    "8": [
+     [
+      166,
+      141
+     ],
+     [
+      257,
+      153
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      227,
+      126
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      183,
+      124
+     ]
+    ],
+    "9": [
+     [
+      169,
+      141
+     ],
+     [
+      254,
+      152
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      225,
+      132
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      181,
+      126
+     ]
+    ],
+    "10": [
+     [
+      173,
+      142
+     ],
+     [
+      249,
+      156
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      222,
+      133
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      177,
+      129
+     ]
+    ],
+    "11": [
+     [
+      170,
+      142
+     ],
+     [
+      250,
+      157
+     ],
+     [
+      199,
+      108
+     ],
+     [
+      225,
+      132
+     ],
+     [
+      130,
+      154
+     ],
+     [
+      177,
+      128
+     ]
+    ]
+   }
+  },
+  {
+   "file": "a019da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1793,
+   "canvas": [
+    429,
+    429
+   ],
+   "pivot": [
+    204,
+    200
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a019da.png",
+   "sheet_crop": [
+    124,
+    148,
+    297,
+    275
+   ],
+   "cell": [
+    173,
+    127
+   ],
+   "pivot_in_cell": [
+    80,
+    52
+   ]
+  },
+  {
+   "file": "a019mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 33,
+   "type_raw": 33,
+   "canvas": [
+    429,
+    429
+   ],
+   "pivot": [
+    204,
+    200
+   ],
+   "frame_count": 12,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a019mo.png",
+   "sheet_crop": [
+    127,
+    104,
+    312,
+    302
+   ],
+   "cell": [
+    185,
+    198
+   ],
+   "pivot_in_cell": [
+    77,
+    96
+   ]
+  },
+  {
+   "file": "a019mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 48,
+   "type_raw": 48,
+   "canvas": [
+    429,
+    429
+   ],
+   "pivot": [
+    204,
+    200
+   ],
+   "frame_count": 12,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": true
+  }
+ ],
+ "views": [],
+ "pictures": [],
+ "turnaround": null
+}

@@ -1,0 +1,26 @@
+ksProvince	Faction Provinces : %d
+ksRecord	Faction Record :
+ksRecordV	     %d victories
+ksRecordD	     %d defeats
+ksRecordTO	Record Against %s :
+ksXpDesc	base XP Gain       : %4.1f %%\nTerritorial bonus  : %4.1f %%\nTotal XP Gain      : %4.1f %%\n
+ksUprade	You can now upgrade this unit in the Lab.
+ksWait		The dust is still settling from a previous battle. You should be able to attack this province after %d seconds.
+ksCantEnter	This battle is full. Please aid your faction by joining a different battle.
+ksNoUnitActive	That province is controlled by hostile forces. You must deploy your units before you can attack it. Press <ASSIGN TROOPS> to deploy your units.
+
+ksWaitTooLong		The battle has ended.\nPlease aid your faction by joining a different battle. Click "Cancel" to continue.
+ksPermitOK		The Battlefield Commander accepted your entrance.\nYou will be viewing the battle in %d seconds.
+ksReject		The Battlefield Commander Rejected your entrance.\nClick "Cancel" to continue.
+ksRejectInstantJoinNoAlly	Your faction's defenders have been wiped out. You can only reinforce this province by walking there.
+ksRejectInstantWatchNoAlly	Your faction's defenders have been wiped out. You can only reinforce this province by walking there.
+ksRejectInstanceJoinByDustTime	The dust is still settling from a previous battle.\nYou should be able to attack this province after %d seconds.
+ksNoUnitActive2		You must deploy your units before you can attack.
+ksRequestPermission	
+ksRejectUserFull	The battle is full.\nPress "Cancel" and reinforce another battle.
+ksRejectTimeEnd		This battle is almost over.\nYou cannot reinforce a battle during the last few minutes.\nPlease support your faction elsewhere.
+
+ksPermissionMessage	Set your battlefield acceptance policy.
+ksAutoPermission	Allow any allies to join battles you command.
+ksAutoReject		Prevent anyone from joining battles you command.
+ksManualSelect		Manually screen heroes who want to join battles you command.

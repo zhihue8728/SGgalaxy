@@ -1,0 +1,32 @@
+_scratch/
+
+# local backups of edited files / scratch
+server/_history/
+tools/_history/
+tools/mptest/_history/
+
+# archived / stale
+archive/
+out/_old/
+*.log
+
+# Blender render frames (large, re-renderable with art3d/units/<code>/render/g039_pipeline.py)
+art3d/units/*/render/frames/
+art3d/units/*/render/test*/
+
+# build outputs, installers and data variants (kept locally, too big for GitHub) - keep only out/tc/tc.dat, tc2.dat
+out/*
+!out/tc/
+out/tc/*
+!out/tc/tc.dat
+!out/tc/tc2.dat
+SGalaxy185.exe
+*.exe.zip
+*.before_*
+# AI-generated unit models (45-82 MB each); keep g039 (current prototype)
+art3d/units/*/*.glb
+art3d/units/*/*.zip
+!art3d/units/g039/g039.glb
+art3d/units/*/render/tc2_*.dat
+__pycache__/
+*.crdownload

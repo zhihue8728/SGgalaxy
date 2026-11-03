@@ -1,0 +1,535 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g050",
+ "kind": "ground",
+ "chassis": [
+  "Rayoks-Evo1",
+  "Rayoks-Evo2",
+  "Rayoks-Evo3",
+  "Rayoks-Evo4",
+  "Rayoks-Evo5",
+  "Rayoks-Evo6",
+  "Rayoks-Evo7"
+ ],
+ "base_chassis": [
+  "Rayoks-Evo1",
+  "Rayoks-Evo2",
+  "Rayoks-Evo3",
+  "Rayoks-Evo4",
+  "Rayoks-Evo5",
+  "Rayoks-Evo6",
+  "Rayoks-Evo7"
+ ],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": "Rayoks",
+ "manual": [
+  {
+   "name": "Rayoks-Evo1",
+   "category": "Organic",
+   "group": "Rayoks",
+   "unit_quality": 2,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 16,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 2520,
+   "base_armor": 21,
+   "speed_m_s": 2.8,
+   "view_range_m": 3.5,
+   "view_type": "Cone",
+   "chassis_code": "g050"
+  },
+  {
+   "name": "Rayoks-Evo2",
+   "category": "Organic",
+   "group": "Rayoks",
+   "unit_quality": 21,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 17,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 3060,
+   "base_armor": 27,
+   "speed_m_s": 3.1,
+   "view_range_m": 3.75,
+   "view_type": "Cone",
+   "chassis_code": "g050"
+  },
+  {
+   "name": "Rayoks-Evo3",
+   "category": "Organic",
+   "group": "Rayoks",
+   "unit_quality": 40,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 18,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 3900,
+   "base_armor": 33,
+   "speed_m_s": 3.6,
+   "view_range_m": 4,
+   "view_type": "Cone",
+   "chassis_code": "g050"
+  },
+  {
+   "name": "Rayoks-Evo4",
+   "category": "Organic",
+   "group": "Rayoks",
+   "unit_quality": 59,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 20,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 5220,
+   "base_armor": 39,
+   "speed_m_s": 3.8,
+   "view_range_m": 4.25,
+   "view_type": "Cone",
+   "chassis_code": "g050"
+  },
+  {
+   "name": "Rayoks-Evo5",
+   "category": "Organic",
+   "group": "Rayoks",
+   "unit_quality": 78,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 21,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 7080,
+   "base_armor": 45,
+   "speed_m_s": 4,
+   "view_range_m": 4.5,
+   "view_type": "Cone",
+   "chassis_code": "g050"
+  },
+  {
+   "name": "Rayoks-Evo6",
+   "category": "Organic",
+   "group": "Rayoks",
+   "unit_quality": 97,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 23,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 9570,
+   "base_armor": 57,
+   "speed_m_s": 4.4,
+   "view_range_m": 4.75,
+   "view_type": "Cone",
+   "chassis_code": "g050"
+  },
+  {
+   "name": "Rayoks-Evo7",
+   "category": "Organic",
+   "group": "Rayoks",
+   "unit_quality": 116,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 24,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 12810,
+   "base_armor": 66,
+   "speed_m_s": 4.8,
+   "view_range_m": 5,
+   "view_type": "Cone",
+   "chassis_code": "g050"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g050at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 1893,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "muzzle_points": {
+    "64": [
+     [
+      155,
+      116
+     ]
+    ],
+    "65": [
+     [
+      152,
+      129
+     ]
+    ],
+    "66": [
+     [
+      146,
+      141
+     ]
+    ],
+    "67": [
+     [
+      129,
+      152
+     ]
+    ],
+    "68": [
+     [
+      106,
+      155
+     ]
+    ],
+    "69": [
+     [
+      85,
+      151
+     ]
+    ],
+    "70": [
+     [
+      69,
+      141
+     ]
+    ],
+    "71": [
+     [
+      59,
+      128
+     ]
+    ],
+    "72": [
+     [
+      63,
+      114
+     ]
+    ],
+    "73": [
+     [
+      68,
+      104
+     ]
+    ],
+    "74": [
+     [
+      79,
+      93
+     ]
+    ],
+    "75": [
+     [
+      93,
+      88
+     ]
+    ],
+    "76": [
+     [
+      108,
+      88
+     ]
+    ],
+    "77": [
+     [
+      124,
+      88
+     ]
+    ],
+    "78": [
+     [
+      139,
+      94
+     ]
+    ],
+    "79": [
+     [
+      150,
+      104
+     ]
+    ]
+   },
+   "sheet": "sheets/g050at.png",
+   "sheet_crop": [
+    51,
+    72,
+    166,
+    166
+   ],
+   "cell": [
+    115,
+    94
+   ],
+   "pivot_in_cell": [
+    55,
+    73
+   ]
+  },
+  {
+   "file": "g050ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 1872,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.06,
+   "mask_only": true
+  },
+  {
+   "file": "g050da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g050da.png",
+   "sheet_crop": [
+    82,
+    94,
+    151,
+    150
+   ],
+   "cell": [
+    69,
+    56
+   ],
+   "pivot_in_cell": [
+    24,
+    51
+   ]
+  },
+  {
+   "file": "g050mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 88,
+   "dirs": 8,
+   "frames_per_dir": 11,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g050mo.png",
+   "sheet_crop": [
+    59,
+    75,
+    157,
+    174
+   ],
+   "cell": [
+    98,
+    99
+   ],
+   "pivot_in_cell": [
+    47,
+    70
+   ]
+  },
+  {
+   "file": "g050mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g050mop.png",
+   "sheet_crop": [
+    83,
+    126,
+    134,
+    166
+   ],
+   "cell": [
+    51,
+    40
+   ],
+   "pivot_in_cell": [
+    23,
+    19
+   ]
+  },
+  {
+   "file": "g050mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 88,
+   "dirs": 8,
+   "frames_per_dir": 11,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g050st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 1827,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g050st.png",
+   "sheet_crop": [
+    63,
+    77,
+    153,
+    164
+   ],
+   "cell": [
+    90,
+    87
+   ],
+   "pivot_in_cell": [
+    43,
+    68
+   ]
+  },
+  {
+   "file": "g050sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    106,
+    145
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

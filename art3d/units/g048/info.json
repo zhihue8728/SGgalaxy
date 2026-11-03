@@ -1,0 +1,326 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g048",
+ "kind": "ground",
+ "chassis": [],
+ "base_chassis": [],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": "Arachnid",
+ "manual": [],
+ "layers": [
+  {
+   "file": "g048at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g048at.png",
+   "sheet_crop": [
+    20,
+    37,
+    134,
+    140
+   ],
+   "cell": [
+    114,
+    103
+   ],
+   "pivot_in_cell": [
+    57,
+    37
+   ]
+  },
+  {
+   "file": "g048ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    152,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g048da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1793,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g048da.png",
+   "sheet_crop": [
+    35,
+    48,
+    121,
+    102
+   ],
+   "cell": [
+    86,
+    54
+   ],
+   "pivot_in_cell": [
+    42,
+    26
+   ]
+  },
+  {
+   "file": "g048das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 1808,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g048mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g048mo.png",
+   "sheet_crop": [
+    13,
+    37,
+    142,
+    142
+   ],
+   "cell": [
+    129,
+    105
+   ],
+   "pivot_in_cell": [
+    64,
+    37
+   ]
+  },
+  {
+   "file": "g048mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g048mop.png",
+   "sheet_crop": [
+    28,
+    51,
+    127,
+    129
+   ],
+   "cell": [
+    99,
+    78
+   ],
+   "pivot_in_cell": [
+    49,
+    23
+   ]
+  },
+  {
+   "file": "g048mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    153,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g048st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g048st.png",
+   "sheet_crop": [
+    19,
+    37,
+    135,
+    134
+   ],
+   "cell": [
+    116,
+    97
+   ],
+   "pivot_in_cell": [
+    58,
+    37
+   ]
+  },
+  {
+   "file": "g048sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    153,
+    145
+   ],
+   "pivot": [
+    77,
+    74
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

@@ -1,0 +1,703 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a013",
+ "kind": "air",
+ "chassis": [
+  "Albatross",
+  "Albatross-Mk2",
+  "Albatross-Mk3",
+  "Albatross-Mk4",
+  "Albatross-Mk5",
+  "Albatross-Mk6",
+  "Albatross-Mk7"
+ ],
+ "base_chassis": [
+  "Albatross"
+ ],
+ "names_cn": {
+  "Albatross": "信天翁"
+ },
+ "names_tw": {
+  "Albatross": "信天翁"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Albatross",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 25,
+   "slots": 10,
+   "max_weight_kg": 100,
+   "max_space_l": 17,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 1140,
+   "base_armor": 9,
+   "speed_m_s": 3,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a013",
+   "chassis_image": "a013st.xpf",
+   "description_summary": "Web-spinning sky defense (Spider) that makes the field dangerous for aircraft"
+  },
+  {
+   "name": "Albatross-Mk2",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 39,
+   "slots": 10,
+   "max_weight_kg": 100,
+   "max_space_l": 18,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 1380,
+   "base_armor": 12,
+   "speed_m_s": 3.2,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a013",
+   "chassis_image": "a013st.xpf",
+   "description_summary": "Sky-spanning alt-charge web makes the field hazardous for aircraft."
+  },
+  {
+   "name": "Albatross-Mk3",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 53,
+   "slots": 10,
+   "max_weight_kg": 100,
+   "max_space_l": 20,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 1680,
+   "base_armor": 15,
+   "speed_m_s": 3.2,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a013",
+   "chassis_image": "a013st.xpf",
+   "description_summary": "Blankets the sky with alt-charges, making wandering aircraft's lives difficult."
+  },
+  {
+   "name": "Albatross-Mk4",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 67,
+   "slots": 10,
+   "max_weight_kg": 100,
+   "max_space_l": 21,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 2100,
+   "base_armor": 18,
+   "speed_m_s": 3.6,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a013",
+   "chassis_image": "a013st.xpf",
+   "description_summary": "Web of alt-charges across the sky makes it dangerous for aircraft"
+  },
+  {
+   "name": "Albatross-Mk5",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 81,
+   "slots": 10,
+   "max_weight_kg": 100,
+   "max_space_l": 23,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 2640,
+   "base_armor": 21,
+   "speed_m_s": 3.6,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a013",
+   "chassis_image": "a013st.xpf",
+   "description_summary": "Sky-blanketing alt-charge web threatens any aircraft passing through"
+  },
+  {
+   "name": "Albatross-Mk6",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 95,
+   "slots": 10,
+   "max_weight_kg": 100,
+   "max_space_l": 24,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 3300,
+   "base_armor": 24,
+   "speed_m_s": 3.8,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a013",
+   "chassis_image": "a013st.xpf",
+   "description_summary": "Blankets the sky with alt-charge webs, making wandering aircraft's life hard."
+  },
+  {
+   "name": "Albatross-Mk7",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 109,
+   "slots": 10,
+   "max_weight_kg": 100,
+   "max_space_l": 26,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 4110,
+   "base_armor": 27,
+   "speed_m_s": 4,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a013",
+   "chassis_image": "a013st.xpf",
+   "description_summary": "Its sky-blanketing alt-charge web makes the field dangerous for aircraft."
+  }
+ ],
+ "layers": [
+  {
+   "file": "a013at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      109,
+      84
+     ]
+    ],
+    "1": [
+     [
+      107,
+      92
+     ]
+    ],
+    "2": [
+     [
+      101,
+      99
+     ]
+    ],
+    "3": [
+     [
+      92,
+      104
+     ]
+    ],
+    "4": [
+     [
+      81,
+      103
+     ]
+    ],
+    "5": [
+     [
+      69,
+      102
+     ]
+    ],
+    "6": [
+     [
+      61,
+      97
+     ]
+    ],
+    "7": [
+     [
+      55,
+      91
+     ]
+    ],
+    "8": [
+     [
+      54,
+      84
+     ]
+    ],
+    "9": [
+     [
+      55,
+      76
+     ]
+    ],
+    "10": [
+     [
+      61,
+      69
+     ]
+    ],
+    "11": [
+     [
+      71,
+      65
+     ]
+    ],
+    "12": [
+     [
+      81,
+      64
+     ]
+    ],
+    "13": [
+     [
+      92,
+      65
+     ]
+    ],
+    "14": [
+     [
+      102,
+      70
+     ]
+    ],
+    "15": [
+     [
+      108,
+      77
+     ]
+    ]
+   },
+   "sheet": "sheets/a013at.png",
+   "sheet_crop": [
+    48,
+    49,
+    116,
+    115
+   ],
+   "cell": [
+    68,
+    66
+   ],
+   "pivot_in_cell": [
+    32,
+    37
+   ]
+  },
+  {
+   "file": "a013atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a013atb.png",
+   "sheet_crop": [
+    51,
+    52,
+    113,
+    99
+   ],
+   "cell": [
+    62,
+    47
+   ],
+   "pivot_in_cell": [
+    29,
+    34
+   ]
+  },
+  {
+   "file": "a013ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a013da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a013da.png",
+   "sheet_crop": [
+    50,
+    63,
+    121,
+    120
+   ],
+   "cell": [
+    71,
+    57
+   ],
+   "pivot_in_cell": [
+    30,
+    23
+   ]
+  },
+  {
+   "file": "a013das.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "a013m.xpf",
+   "dat": "tc.dat",
+   "action": "m",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    47,
+    47
+   ],
+   "pivot": [
+    23,
+    23
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a013m.png",
+   "sheet_crop": [
+    17,
+    17,
+    32,
+    31
+   ],
+   "cell": [
+    15,
+    14
+   ],
+   "pivot_in_cell": [
+    6,
+    6
+   ]
+  },
+  {
+   "file": "a013mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a013mo.png",
+   "sheet_crop": [
+    48,
+    49,
+    116,
+    115
+   ],
+   "cell": [
+    68,
+    66
+   ],
+   "pivot_in_cell": [
+    32,
+    37
+   ]
+  },
+  {
+   "file": "a013mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a013mob.png",
+   "sheet_crop": [
+    51,
+    52,
+    113,
+    99
+   ],
+   "cell": [
+    62,
+    47
+   ],
+   "pivot_in_cell": [
+    29,
+    34
+   ]
+  },
+  {
+   "file": "a013mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a013st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a013st.png",
+   "sheet_crop": [
+    48,
+    49,
+    116,
+    115
+   ],
+   "cell": [
+    68,
+    66
+   ],
+   "pivot_in_cell": [
+    32,
+    37
+   ]
+  },
+  {
+   "file": "a013stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a013stb.png",
+   "sheet_crop": [
+    51,
+    52,
+    113,
+    99
+   ],
+   "cell": [
+    62,
+    47
+   ],
+   "pivot_in_cell": [
+    29,
+    34
+   ]
+  },
+  {
+   "file": "a013sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    159,
+    155
+   ],
+   "pivot": [
+    80,
+    86
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

@@ -1,0 +1,1016 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g001",
+ "kind": "ground",
+ "chassis": [
+  "Daeva",
+  "Daeva-Mk2",
+  "Daeva-Mk3",
+  "Daeva-Mk4",
+  "Daeva-Mk5",
+  "Daeva-Mk6",
+  "Daeva-Mk7"
+ ],
+ "base_chassis": [
+  "Daeva"
+ ],
+ "names_cn": {
+  "Daeva": "迪瓦"
+ },
+ "names_tw": {
+  "Daeva": "迪瓦"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Daeva",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 34,
+   "slots": 10,
+   "max_weight_kg": 73,
+   "max_space_l": 13,
+   "unit_weight_kg": 75,
+   "type": "Biological",
+   "base_health": 1200,
+   "base_armor": 6,
+   "speed_m_s": 3.6,
+   "view_range_m": 6.5,
+   "view_type": "Cone",
+   "chassis_code": "g001",
+   "description_summary": "A fast guerrilla-era scout chassis that performs well on any battlefield and can self-repair naturally."
+  },
+  {
+   "name": "Daeva-Mk2",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 48,
+   "slots": 10,
+   "max_weight_kg": 73,
+   "max_space_l": 14,
+   "unit_weight_kg": 75,
+   "type": "Biological",
+   "base_health": 1470,
+   "base_armor": 10,
+   "speed_m_s": 3.6,
+   "view_range_m": 6.75,
+   "view_type": "Cone",
+   "chassis_code": "g001",
+   "description_summary": "Built for guerrilla warfare, this fast chassis serves well as a battlefield scout and can be repaired naturally."
+  },
+  {
+   "name": "Daeva-Mk3",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 62,
+   "slots": 10,
+   "max_weight_kg": 73,
+   "max_space_l": 15,
+   "unit_weight_kg": 75,
+   "type": "Biological",
+   "base_health": 1830,
+   "base_armor": 15,
+   "speed_m_s": 3.8,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g001",
+   "description_summary": "Fast guerrilla-era scout chassis that can be naturally repaired."
+  },
+  {
+   "name": "Daeva-Mk4",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 76,
+   "slots": 10,
+   "max_weight_kg": 73,
+   "max_space_l": 16,
+   "unit_weight_kg": 75,
+   "type": "Biological",
+   "base_health": 2280,
+   "base_armor": 19,
+   "speed_m_s": 3.8,
+   "view_range_m": 7.25,
+   "view_type": "Cone",
+   "chassis_code": "g001",
+   "description_summary": "Guerilla-era scout chassis, fast and agile on any battlefield; naturally repairable."
+  },
+  {
+   "name": "Daeva-Mk5",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 90,
+   "slots": 10,
+   "max_weight_kg": 73,
+   "max_space_l": 17,
+   "unit_weight_kg": 75,
+   "type": "Biological",
+   "base_health": 2850,
+   "base_armor": 24,
+   "speed_m_s": 4,
+   "view_range_m": 7.5,
+   "view_type": "Cone",
+   "chassis_code": "g001",
+   "description_summary": "Built for guerrilla warfare, this fast chassis works well as a battlefield scout and can be repaired naturally."
+  },
+  {
+   "name": "Daeva-Mk6",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 104,
+   "slots": 10,
+   "max_weight_kg": 73,
+   "max_space_l": 19,
+   "unit_weight_kg": 75,
+   "type": "Biological",
+   "base_health": 3570,
+   "base_armor": 28,
+   "speed_m_s": 4,
+   "view_range_m": 7.75,
+   "view_type": "Cone",
+   "chassis_code": "g001",
+   "description_summary": "Built for guerrilla warfare, this fast, fleet-footed scout performs well on any battlefield and can be repaired naturally."
+  },
+  {
+   "name": "Daeva-Mk7",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 118,
+   "slots": 10,
+   "max_weight_kg": 73,
+   "max_space_l": 20,
+   "unit_weight_kg": 75,
+   "type": "Biological",
+   "base_health": 4410,
+   "base_armor": 33,
+   "speed_m_s": 4.2,
+   "view_range_m": 8,
+   "view_type": "Cone",
+   "chassis_code": "g001",
+   "description_summary": "Fast guerrilla-era scout chassis that performs well on any battlefield and can self-repair."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g001at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 101,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.06,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      84,
+      66
+     ]
+    ],
+    "1": [
+     [
+      77,
+      72
+     ]
+    ],
+    "2": [
+     [
+      65,
+      76
+     ]
+    ],
+    "3": [
+     [
+      56,
+      78
+     ]
+    ],
+    "4": [
+     [
+      42,
+      75
+     ]
+    ],
+    "5": [
+     [
+      32,
+      72
+     ]
+    ],
+    "6": [
+     [
+      26,
+      63
+     ]
+    ],
+    "7": [
+     [
+      23,
+      56
+     ]
+    ],
+    "8": [
+     [
+      25,
+      47
+     ]
+    ],
+    "9": [
+     [
+      33,
+      40
+     ]
+    ],
+    "10": [
+     [
+      41,
+      37
+     ]
+    ],
+    "11": [
+     [
+      55,
+      35
+     ]
+    ],
+    "12": [
+     [
+      67,
+      38
+     ]
+    ],
+    "13": [
+     [
+      77,
+      40
+     ]
+    ],
+    "14": [
+     [
+      83,
+      49
+     ]
+    ],
+    "15": [
+     [
+      84,
+      56
+     ]
+    ],
+    "16": [
+     [
+      84,
+      66
+     ]
+    ],
+    "17": [
+     [
+      77,
+      72
+     ]
+    ],
+    "18": [
+     [
+      65,
+      76
+     ]
+    ],
+    "19": [
+     [
+      56,
+      78
+     ]
+    ],
+    "20": [
+     [
+      42,
+      75
+     ]
+    ],
+    "21": [
+     [
+      32,
+      72
+     ]
+    ],
+    "22": [
+     [
+      26,
+      63
+     ]
+    ],
+    "23": [
+     [
+      23,
+      56
+     ]
+    ],
+    "24": [
+     [
+      25,
+      47
+     ]
+    ],
+    "25": [
+     [
+      33,
+      40
+     ]
+    ],
+    "26": [
+     [
+      41,
+      37
+     ]
+    ],
+    "27": [
+     [
+      55,
+      35
+     ]
+    ],
+    "28": [
+     [
+      67,
+      38
+     ]
+    ],
+    "29": [
+     [
+      77,
+      40
+     ]
+    ],
+    "30": [
+     [
+      83,
+      49
+     ]
+    ],
+    "31": [
+     [
+      84,
+      56
+     ]
+    ],
+    "32": [
+     [
+      84,
+      66
+     ]
+    ],
+    "33": [
+     [
+      77,
+      72
+     ]
+    ],
+    "34": [
+     [
+      65,
+      76
+     ]
+    ],
+    "35": [
+     [
+      56,
+      78
+     ]
+    ],
+    "36": [
+     [
+      42,
+      75
+     ]
+    ],
+    "37": [
+     [
+      32,
+      72
+     ]
+    ],
+    "38": [
+     [
+      26,
+      63
+     ]
+    ],
+    "39": [
+     [
+      23,
+      56
+     ]
+    ],
+    "40": [
+     [
+      25,
+      47
+     ]
+    ],
+    "41": [
+     [
+      33,
+      40
+     ]
+    ],
+    "42": [
+     [
+      41,
+      37
+     ]
+    ],
+    "43": [
+     [
+      55,
+      35
+     ]
+    ],
+    "44": [
+     [
+      67,
+      38
+     ]
+    ],
+    "45": [
+     [
+      77,
+      40
+     ]
+    ],
+    "46": [
+     [
+      83,
+      49
+     ]
+    ],
+    "47": [
+     [
+      84,
+      56
+     ]
+    ],
+    "48": [
+     [
+      84,
+      66
+     ]
+    ],
+    "49": [
+     [
+      77,
+      72
+     ]
+    ],
+    "50": [
+     [
+      65,
+      76
+     ]
+    ],
+    "51": [
+     [
+      56,
+      78
+     ]
+    ],
+    "52": [
+     [
+      42,
+      75
+     ]
+    ],
+    "53": [
+     [
+      32,
+      72
+     ]
+    ],
+    "54": [
+     [
+      26,
+      63
+     ]
+    ],
+    "55": [
+     [
+      23,
+      56
+     ]
+    ],
+    "56": [
+     [
+      25,
+      47
+     ]
+    ],
+    "57": [
+     [
+      33,
+      40
+     ]
+    ],
+    "58": [
+     [
+      41,
+      37
+     ]
+    ],
+    "59": [
+     [
+      55,
+      35
+     ]
+    ],
+    "60": [
+     [
+      67,
+      38
+     ]
+    ],
+    "61": [
+     [
+      77,
+      40
+     ]
+    ],
+    "62": [
+     [
+      83,
+      49
+     ]
+    ],
+    "63": [
+     [
+      84,
+      56
+     ]
+    ]
+   },
+   "sheet": "sheets/g001at.png",
+   "sheet_crop": [
+    22,
+    29,
+    88,
+    91
+   ],
+   "cell": [
+    66,
+    62
+   ],
+   "pivot_in_cell": [
+    30,
+    51
+   ]
+  },
+  {
+   "file": "g001atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 97,
+   "type_raw": 97,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 64,
+   "dirs": 32,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g001atb.png",
+   "sheet_crop": [
+    41,
+    39,
+    70,
+    63
+   ],
+   "cell": [
+    29,
+    24
+   ],
+   "pivot_in_cell": [
+    11,
+    41
+   ]
+  },
+  {
+   "file": "g001atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 105,
+   "type_raw": 105,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 33,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g001atd.png",
+   "sheet_crop": [
+    17,
+    25,
+    92,
+    88
+   ],
+   "cell": [
+    75,
+    63
+   ],
+   "pivot_in_cell": [
+    35,
+    55
+   ]
+  },
+  {
+   "file": "g001ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    121,
+    105
+   ],
+   "pivot": [
+    54,
+    78
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g001da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    54,
+    78
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g001da.png",
+   "sheet_crop": [
+    22,
+    54,
+    73,
+    85
+   ],
+   "cell": [
+    51,
+    31
+   ],
+   "pivot_in_cell": [
+    32,
+    24
+   ]
+  },
+  {
+   "file": "g001das.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    54,
+    78
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g001mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g001mo.png",
+   "sheet_crop": [
+    29,
+    32,
+    81,
+    91
+   ],
+   "cell": [
+    52,
+    59
+   ],
+   "pivot_in_cell": [
+    23,
+    48
+   ]
+  },
+  {
+   "file": "g001mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g001mob.png",
+   "sheet_crop": [
+    41,
+    39,
+    69,
+    61
+   ],
+   "cell": [
+    28,
+    22
+   ],
+   "pivot_in_cell": [
+    11,
+    41
+   ]
+  },
+  {
+   "file": "g001mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g001mop.png",
+   "sheet_crop": [
+    37,
+    63,
+    73,
+    91
+   ],
+   "cell": [
+    36,
+    28
+   ],
+   "pivot_in_cell": [
+    15,
+    17
+   ]
+  },
+  {
+   "file": "g001mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    118,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g001st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 88,
+   "dirs": 8,
+   "frames_per_dir": 11,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g001st.png",
+   "sheet_crop": [
+    29,
+    27,
+    81,
+    89
+   ],
+   "cell": [
+    52,
+    62
+   ],
+   "pivot_in_cell": [
+    23,
+    53
+   ]
+  },
+  {
+   "file": "g001stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 88,
+   "dirs": 8,
+   "frames_per_dir": 11,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g001stb.png",
+   "sheet_crop": [
+    41,
+    40,
+    70,
+    62
+   ],
+   "cell": [
+    29,
+    22
+   ],
+   "pivot_in_cell": [
+    11,
+    40
+   ]
+  },
+  {
+   "file": "g001sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    121,
+    105
+   ],
+   "pivot": [
+    52,
+    80
+   ],
+   "frame_count": 88,
+   "dirs": 8,
+   "frames_per_dir": 11,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

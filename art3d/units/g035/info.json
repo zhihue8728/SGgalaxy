@@ -1,0 +1,1092 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g035",
+ "kind": "ground",
+ "chassis": [
+  "Orbus",
+  "Orbus-Mk2",
+  "Orbus-Mk3",
+  "Orbus-Mk4",
+  "Orbus-Mk5",
+  "Orbus-Mk6",
+  "Orbus-Mk7"
+ ],
+ "base_chassis": [
+  "Orbus"
+ ],
+ "names_cn": {
+  "Orbus": "欧伯斯"
+ },
+ "names_tw": {
+  "Orbus": "歐伯斯"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Orbus",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 26,
+   "slots": 10,
+   "max_weight_kg": 90,
+   "max_space_l": 17,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 1728,
+   "base_armor": 9,
+   "speed_m_s": 2.8,
+   "view_range_m": 3,
+   "view_type": "Omni",
+   "chassis_code": "g035",
+   "description_summary": "Resupplies frontline allies when they run low on supplies."
+  },
+  {
+   "name": "Orbus-Mk2",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 40,
+   "slots": 10,
+   "max_weight_kg": 90,
+   "max_space_l": 18,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 2100,
+   "base_armor": 12,
+   "speed_m_s": 2.9,
+   "view_range_m": 3.25,
+   "view_type": "Omni",
+   "chassis_code": "g035",
+   "chassis_image": "g035st.xpf",
+   "description_summary": "Orbus resupplies frontline allies when their supplies run low."
+  },
+  {
+   "name": "Orbus-Mk3",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 54,
+   "slots": 10,
+   "max_weight_kg": 90,
+   "max_space_l": 20,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 2580,
+   "base_armor": 15,
+   "speed_m_s": 3,
+   "view_range_m": 3.5,
+   "view_type": "Omni",
+   "chassis_code": "g035",
+   "description_summary": "Resupplies frontline allies when their supply stocks run low."
+  },
+  {
+   "name": "Orbus-Mk4",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 68,
+   "slots": 10,
+   "max_weight_kg": 90,
+   "max_space_l": 21,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 3210,
+   "base_armor": 19,
+   "speed_m_s": 3.2,
+   "view_range_m": 3.75,
+   "view_type": "Omni",
+   "chassis_code": "g035",
+   "chassis_image": "g035st.xpf",
+   "description_summary": "Resupplies frontline allies when their supplies run low"
+  },
+  {
+   "name": "Orbus-Mk5",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 82,
+   "slots": 10,
+   "max_weight_kg": 90,
+   "max_space_l": 23,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 4020,
+   "base_armor": 22,
+   "speed_m_s": 3.3,
+   "view_range_m": 4,
+   "view_type": "Omni",
+   "chassis_code": "g035",
+   "chassis_image": "g035st.xpf",
+   "description_summary": "Resupplies frontline allies when they run low on supplies"
+  },
+  {
+   "name": "Orbus-Mk6",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 96,
+   "slots": 10,
+   "max_weight_kg": 90,
+   "max_space_l": 24,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 5010,
+   "base_armor": 25,
+   "speed_m_s": 3.4,
+   "view_range_m": 4.25,
+   "view_type": "Omni",
+   "chassis_code": "g035",
+   "chassis_image": "g035st.xpf",
+   "description_summary": "Resupplies frontline allies when they run low on supplies"
+  },
+  {
+   "name": "Orbus-Mk7",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 110,
+   "slots": 10,
+   "max_weight_kg": 90,
+   "max_space_l": 26,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 6240,
+   "base_armor": 29,
+   "speed_m_s": 3.5,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "g035",
+   "chassis_image": "g035st.xpf",
+   "description_summary": "Orbus resupplies frontline allies when their supplies run low"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g035atl.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "l",
+   "layer_doc": "extra layer (purpose not confirmed)",
+   "type": 9,
+   "type_raw": 9,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 30,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g035atl.png",
+   "sheet_crop": [
+    101,
+    84,
+    120,
+    122
+   ],
+   "cell": [
+    19,
+    38
+   ],
+   "pivot_in_cell": [
+    7,
+    50
+   ]
+  },
+  {
+   "file": "g035da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1793,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g035da.png",
+   "sheet_crop": [
+    71,
+    88,
+    148,
+    159
+   ],
+   "cell": [
+    77,
+    71
+   ],
+   "pivot_in_cell": [
+    37,
+    46
+   ]
+  },
+  {
+   "file": "g035mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g035mo.png",
+   "sheet_crop": [
+    82,
+    75,
+    137,
+    156
+   ],
+   "cell": [
+    55,
+    81
+   ],
+   "pivot_in_cell": [
+    26,
+    59
+   ]
+  },
+  {
+   "file": "g035mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g035mob.png",
+   "sheet_crop": [
+    85,
+    75,
+    135,
+    125
+   ],
+   "cell": [
+    50,
+    50
+   ],
+   "pivot_in_cell": [
+    23,
+    59
+   ]
+  },
+  {
+   "file": "g035mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g035mop.png",
+   "sheet_crop": [
+    82,
+    115,
+    137,
+    156
+   ],
+   "cell": [
+    55,
+    41
+   ],
+   "pivot_in_cell": [
+    26,
+    19
+   ]
+  },
+  {
+   "file": "g035mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  },
+  {
+   "file": "g035sg.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 39,
+   "type_raw": 39,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      62,
+      134
+     ],
+     [
+      154,
+      134
+     ]
+    ],
+    "1": [
+     [
+      70,
+      108
+     ],
+     [
+      135,
+      162
+     ]
+    ],
+    "2": [
+     [
+      109,
+      92
+     ],
+     [
+      109,
+      173
+     ]
+    ],
+    "3": [
+     [
+      144,
+      108
+     ],
+     [
+      75,
+      166
+     ]
+    ],
+    "4": [
+     [
+      154,
+      134
+     ],
+     [
+      61,
+      134
+     ]
+    ],
+    "5": [
+     [
+      135,
+      166
+     ],
+     [
+      66,
+      108
+     ]
+    ],
+    "6": [
+     [
+      109,
+      173
+     ],
+     [
+      108,
+      101
+     ]
+    ],
+    "7": [
+     [
+      77,
+      161
+     ],
+     [
+      142,
+      111
+     ]
+    ],
+    "8": [
+     [
+      62,
+      134
+     ],
+     [
+      154,
+      134
+     ]
+    ],
+    "9": [
+     [
+      70,
+      108
+     ],
+     [
+      135,
+      162
+     ]
+    ],
+    "10": [
+     [
+      109,
+      92
+     ],
+     [
+      109,
+      173
+     ]
+    ],
+    "11": [
+     [
+      144,
+      108
+     ],
+     [
+      75,
+      166
+     ]
+    ],
+    "12": [
+     [
+      154,
+      134
+     ],
+     [
+      61,
+      134
+     ]
+    ],
+    "13": [
+     [
+      135,
+      166
+     ],
+     [
+      66,
+      108
+     ]
+    ],
+    "14": [
+     [
+      109,
+      173
+     ],
+     [
+      108,
+      101
+     ]
+    ],
+    "15": [
+     [
+      77,
+      161
+     ],
+     [
+      142,
+      111
+     ]
+    ],
+    "16": [
+     [
+      62,
+      134
+     ],
+     [
+      154,
+      134
+     ]
+    ],
+    "17": [
+     [
+      70,
+      108
+     ],
+     [
+      135,
+      162
+     ]
+    ],
+    "18": [
+     [
+      109,
+      92
+     ],
+     [
+      109,
+      173
+     ]
+    ],
+    "19": [
+     [
+      144,
+      108
+     ],
+     [
+      75,
+      166
+     ]
+    ],
+    "20": [
+     [
+      154,
+      134
+     ],
+     [
+      61,
+      134
+     ]
+    ],
+    "21": [
+     [
+      135,
+      166
+     ],
+     [
+      66,
+      108
+     ]
+    ],
+    "22": [
+     [
+      109,
+      173
+     ],
+     [
+      108,
+      101
+     ]
+    ],
+    "23": [
+     [
+      77,
+      161
+     ],
+     [
+      142,
+      111
+     ]
+    ],
+    "24": [
+     [
+      62,
+      134
+     ],
+     [
+      154,
+      134
+     ]
+    ],
+    "25": [
+     [
+      70,
+      108
+     ],
+     [
+      135,
+      162
+     ]
+    ],
+    "26": [
+     [
+      109,
+      92
+     ],
+     [
+      109,
+      173
+     ]
+    ],
+    "27": [
+     [
+      144,
+      108
+     ],
+     [
+      75,
+      166
+     ]
+    ],
+    "28": [
+     [
+      154,
+      134
+     ],
+     [
+      61,
+      134
+     ]
+    ],
+    "29": [
+     [
+      135,
+      166
+     ],
+     [
+      66,
+      108
+     ]
+    ],
+    "30": [
+     [
+      109,
+      173
+     ],
+     [
+      108,
+      101
+     ]
+    ],
+    "31": [
+     [
+      77,
+      161
+     ],
+     [
+      142,
+      111
+     ]
+    ],
+    "32": [
+     [
+      62,
+      134
+     ],
+     [
+      154,
+      134
+     ]
+    ],
+    "33": [
+     [
+      70,
+      108
+     ],
+     [
+      135,
+      162
+     ]
+    ],
+    "34": [
+     [
+      109,
+      92
+     ],
+     [
+      109,
+      173
+     ]
+    ],
+    "35": [
+     [
+      144,
+      108
+     ],
+     [
+      75,
+      166
+     ]
+    ],
+    "36": [
+     [
+      154,
+      134
+     ],
+     [
+      61,
+      134
+     ]
+    ],
+    "37": [
+     [
+      135,
+      166
+     ],
+     [
+      66,
+      108
+     ]
+    ],
+    "38": [
+     [
+      109,
+      173
+     ],
+     [
+      108,
+      101
+     ]
+    ],
+    "39": [
+     [
+      77,
+      161
+     ],
+     [
+      142,
+      111
+     ]
+    ],
+    "40": [
+     [
+      62,
+      134
+     ],
+     [
+      154,
+      134
+     ]
+    ],
+    "41": [
+     [
+      70,
+      108
+     ],
+     [
+      135,
+      162
+     ]
+    ],
+    "42": [
+     [
+      109,
+      92
+     ],
+     [
+      109,
+      173
+     ]
+    ],
+    "43": [
+     [
+      144,
+      108
+     ],
+     [
+      75,
+      166
+     ]
+    ],
+    "44": [
+     [
+      154,
+      134
+     ],
+     [
+      61,
+      134
+     ]
+    ],
+    "45": [
+     [
+      135,
+      166
+     ],
+     [
+      66,
+      108
+     ]
+    ],
+    "46": [
+     [
+      109,
+      173
+     ],
+     [
+      108,
+      101
+     ]
+    ],
+    "47": [
+     [
+      77,
+      161
+     ],
+     [
+      142,
+      111
+     ]
+    ]
+   },
+   "sheet": "sheets/g035sg.png",
+   "sheet_crop": [
+    49,
+    49,
+    170,
+    159
+   ],
+   "cell": [
+    121,
+    110
+   ],
+   "pivot_in_cell": [
+    59,
+    85
+   ]
+  },
+  {
+   "file": "g035sgb.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g035sgb.png",
+   "sheet_crop": [
+    49,
+    49,
+    170,
+    159
+   ],
+   "cell": [
+    121,
+    110
+   ],
+   "pivot_in_cell": [
+    59,
+    85
+   ]
+  },
+  {
+   "file": "g035sgs.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    227,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  },
+  {
+   "file": "g035st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g035st.png",
+   "sheet_crop": [
+    82,
+    75,
+    137,
+    156
+   ],
+   "cell": [
+    55,
+    81
+   ],
+   "pivot_in_cell": [
+    26,
+    59
+   ]
+  },
+  {
+   "file": "g035stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g035stb.png",
+   "sheet_crop": [
+    85,
+    75,
+    135,
+    125
+   ],
+   "cell": [
+    50,
+    50
+   ],
+   "pivot_in_cell": [
+    23,
+    59
+   ]
+  },
+  {
+   "file": "g035sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    219,
+    211
+   ],
+   "pivot": [
+    108,
+    134
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

@@ -1,0 +1,1902 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a023",
+ "kind": "air",
+ "chassis": [
+  "Pelican",
+  "Pelican-Mk2",
+  "Pelican-Mk3",
+  "Pelican-Mk4",
+  "Pelican-Mk5",
+  "Pelican-Mk6",
+  "Pelican-Mk7",
+  "Pelican-Mk8",
+  "Pelican-Mk9"
+ ],
+ "base_chassis": [
+  "Pelican"
+ ],
+ "names_cn": {
+  "Pelican": "鹈鹕"
+ },
+ "names_tw": {
+  "Pelican": "鵜鶘"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Pelican",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 4,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 10,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 1680,
+   "base_armor": 0,
+   "speed_m_s": 4,
+   "view_range_m": 5.5,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "description_summary": "Versatile aircraft fitting many battles, dealing major damage."
+  },
+  {
+   "name": "Pelican-Mk2",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 18,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 11,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 1920,
+   "base_armor": 3,
+   "speed_m_s": 4.2,
+   "view_range_m": 5.75,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "chassis_image": "a023st.xpf",
+   "description_summary": "Versatile aircraft that fits many battles and deals heavy damage."
+  },
+  {
+   "name": "Pelican-Mk3",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 32,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 12,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 2310,
+   "base_armor": 6,
+   "speed_m_s": 4.4,
+   "view_range_m": 6,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "chassis_image": "a023st.xpf",
+   "description_summary": "Versatile aircraft that buzzes into many battles and deals heavy damage."
+  },
+  {
+   "name": "Pelican-Mk4",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 46,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 12,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 2790,
+   "base_armor": 9,
+   "speed_m_s": 4.8,
+   "view_range_m": 6.25,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "chassis_image": "a023st.xpf",
+   "description_summary": "Versatile aircraft that fits many combat roles and deals heavy damage."
+  },
+  {
+   "name": "Pelican-Mk5",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 60,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 13,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 3480,
+   "base_armor": 12,
+   "speed_m_s": 5,
+   "view_range_m": 6.5,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "chassis_image": "a023st.xpf",
+   "description_summary": "Versatile aircraft that buzzes into many battles and deals major damage."
+  },
+  {
+   "name": "Pelican-Mk6",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 74,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 14,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 4350,
+   "base_armor": 15,
+   "speed_m_s": 5.2,
+   "view_range_m": 6.75,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "description_summary": "Versatile aircraft that buzzes into many battles and deals heavy damage."
+  },
+  {
+   "name": "Pelican-Mk7",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 88,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 15,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 5430,
+   "base_armor": 18,
+   "speed_m_s": 5.4,
+   "view_range_m": 7,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "chassis_image": "a023st.xpf",
+   "description_summary": "Versatile aircraft that adapts to many battles and deals heavy damage."
+  },
+  {
+   "name": "Pelican-Mk8",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 102,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 16,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 6780,
+   "base_armor": 21,
+   "speed_m_s": 5.6,
+   "view_range_m": 7.25,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "chassis_image": "a023st.xpf",
+   "description_summary": "Versatile aircraft that dives into many battles and deals heavy damage."
+  },
+  {
+   "name": "Pelican-Mk9",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 116,
+   "slots": 10,
+   "max_weight_kg": 80,
+   "max_space_l": 18,
+   "unit_weight_kg": 150,
+   "type": "Mechanical",
+   "base_health": 8400,
+   "base_armor": 24,
+   "speed_m_s": 6,
+   "view_range_m": 7.5,
+   "view_type": "Omni",
+   "chassis_code": "a023",
+   "chassis_image": "a023st.xpf",
+   "description_summary": "Versatile aircraft that fits many battles and deals heavy damage."
+  }
+ ],
+ "layers": [
+  {
+   "file": "a023at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "1": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "2": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "3": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "4": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "5": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "6": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "7": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "8": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "9": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "10": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "11": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "12": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "13": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "14": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "15": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ],
+    "16": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "17": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "18": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "19": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "20": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "21": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "22": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "23": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "24": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "25": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "26": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "27": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "28": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "29": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "30": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "31": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ],
+    "32": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "33": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "34": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "35": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "36": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "37": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "38": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "39": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "40": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "41": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "42": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "43": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "44": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "45": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "46": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "47": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ],
+    "48": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "49": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "50": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "51": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "52": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "53": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "54": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "55": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "56": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "57": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "58": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "59": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "60": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "61": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "62": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "63": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ]
+   },
+   "sheet": "sheets/a023at.png",
+   "sheet_crop": [
+    54,
+    61,
+    131,
+    124
+   ],
+   "cell": [
+    77,
+    63
+   ],
+   "pivot_in_cell": [
+    35,
+    24
+   ]
+  },
+  {
+   "file": "a023atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a023atb.png",
+   "sheet_crop": [
+    54,
+    61,
+    131,
+    122
+   ],
+   "cell": [
+    77,
+    61
+   ],
+   "pivot_in_cell": [
+    35,
+    24
+   ]
+  },
+  {
+   "file": "a023ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 84,
+   "type_raw": 84,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true,
+   "muzzle_points": {
+    "0": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "1": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "2": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "3": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "4": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "5": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "6": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "7": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "8": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "9": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "10": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "11": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "12": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "13": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "14": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "15": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ],
+    "16": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "17": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "18": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "19": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "20": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "21": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "22": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "23": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "24": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "25": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "26": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "27": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "28": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "29": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "30": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "31": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ],
+    "32": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "33": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "34": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "35": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "36": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "37": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "38": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "39": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "40": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "41": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "42": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "43": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "44": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "45": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "46": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "47": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ],
+    "48": [
+     [
+      93,
+      81
+     ],
+     [
+      94,
+      109
+     ]
+    ],
+    "49": [
+     [
+      100,
+      83
+     ],
+     [
+      85,
+      108
+     ]
+    ],
+    "50": [
+     [
+      107,
+      85
+     ],
+     [
+      78,
+      105
+     ]
+    ],
+    "51": [
+     [
+      109,
+      90
+     ],
+     [
+      73,
+      99
+     ]
+    ],
+    "52": [
+     [
+      109,
+      96
+     ],
+     [
+      71,
+      94
+     ]
+    ],
+    "53": [
+     [
+      107,
+      101
+     ],
+     [
+      72,
+      88
+     ]
+    ],
+    "54": [
+     [
+      103,
+      105
+     ],
+     [
+      77,
+      85
+     ]
+    ],
+    "55": [
+     [
+      94,
+      108
+     ],
+     [
+      82,
+      83
+     ]
+    ],
+    "56": [
+     [
+      87,
+      109
+     ],
+     [
+      89,
+      81
+     ]
+    ],
+    "57": [
+     [
+      81,
+      106
+     ],
+     [
+      94,
+      82
+     ]
+    ],
+    "58": [
+     [
+      75,
+      101
+     ],
+     [
+      101,
+      83
+     ]
+    ],
+    "59": [
+     [
+      71,
+      95
+     ],
+     [
+      105,
+      85
+     ]
+    ],
+    "60": [
+     [
+      72,
+      90
+     ],
+     [
+      110,
+      90
+     ]
+    ],
+    "61": [
+     [
+      75,
+      85
+     ],
+     [
+      110,
+      96
+     ]
+    ],
+    "62": [
+     [
+      81,
+      83
+     ],
+     [
+      107,
+      101
+     ]
+    ],
+    "63": [
+     [
+      86,
+      81
+     ],
+     [
+      101,
+      106
+     ]
+    ]
+   }
+  },
+  {
+   "file": "a023da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a023da.png",
+   "sheet_crop": [
+    69,
+    65,
+    124,
+    121
+   ],
+   "cell": [
+    55,
+    56
+   ],
+   "pivot_in_cell": [
+    20,
+    20
+   ]
+  },
+  {
+   "file": "a023mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a023mo.png",
+   "sheet_crop": [
+    54,
+    61,
+    131,
+    124
+   ],
+   "cell": [
+    77,
+    63
+   ],
+   "pivot_in_cell": [
+    35,
+    24
+   ]
+  },
+  {
+   "file": "a023mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a023mob.png",
+   "sheet_crop": [
+    54,
+    61,
+    131,
+    122
+   ],
+   "cell": [
+    77,
+    61
+   ],
+   "pivot_in_cell": [
+    35,
+    24
+   ]
+  },
+  {
+   "file": "a023mod.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/a023mod.png",
+   "sheet_crop": [
+    46,
+    55,
+    137,
+    129
+   ],
+   "cell": [
+    91,
+    74
+   ],
+   "pivot_in_cell": [
+    43,
+    30
+   ]
+  },
+  {
+   "file": "a023mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a023st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a023st.png",
+   "sheet_crop": [
+    54,
+    61,
+    131,
+    124
+   ],
+   "cell": [
+    77,
+    63
+   ],
+   "pivot_in_cell": [
+    35,
+    24
+   ]
+  },
+  {
+   "file": "a023stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a023stb.png",
+   "sheet_crop": [
+    54,
+    61,
+    131,
+    122
+   ],
+   "cell": [
+    77,
+    61
+   ],
+   "pivot_in_cell": [
+    35,
+    24
+   ]
+  },
+  {
+   "file": "a023sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    180,
+    180
+   ],
+   "pivot": [
+    89,
+    85
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

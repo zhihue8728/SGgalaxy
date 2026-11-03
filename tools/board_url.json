@@ -1,0 +1,2 @@
+{"_comment": "host:port of the server's update/HTTP port (--update-port). The game client's BOARD and SGMAIL windows load their pages from http://<host>/b/<channel>/ (server/sgs/board_mail.py). 38 characters at most in total.",
+ "host": "43.135.15.91:3001"}

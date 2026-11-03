@@ -1,0 +1,125 @@
+{
+ "version": 1,
+ "units": {
+  "g020": {
+   "file": "models/g020.glb",
+   "size": 313536,
+   "chassis": [
+    "Behemoth"
+   ],
+   "cn": [
+    "巨兽"
+   ],
+   "kind": "ground",
+   "frame": "Geo-rig",
+   "clips": {
+    "idle": 2.033,
+    "move": 1.033,
+    "attack": 0.5,
+    "death": 1.5
+   },
+   "sockets": [
+    "socket_weapon"
+   ],
+   "meshes": 36,
+   "bones": [
+    "barrel",
+    "turret",
+    "hull",
+    "root"
+   ],
+   "materials": [
+    "SG_Plate_Gunmetal",
+    "SG_Hull_DarkMetal",
+    "SG_Neon_Amber",
+    "SG_Neon_Magenta",
+    "SG_Neon_Cyan",
+    "SG_Trim_Carbon"
+   ]
+  },
+  "g004": {
+   "file": "models/g004.glb",
+   "size": 212032,
+   "chassis": [
+    "Imp"
+   ],
+   "cn": [
+    "小鬼"
+   ],
+   "kind": "ground",
+   "frame": "Geo-frame",
+   "clips": {
+    "idle": 2.033,
+    "move": 0.833,
+    "attack": 0.4,
+    "death": 1.333
+   },
+   "sockets": [
+    "socket_weapon.001"
+   ],
+   "meshes": 32,
+   "bones": [
+    "forearm_L",
+    "upperarm_L",
+    "forearm_R",
+    "upperarm_R",
+    "spine",
+    "shin_L",
+    "thigh_L",
+    "shin_R",
+    "thigh_R",
+    "pelvis",
+    "root"
+   ],
+   "materials": [
+    "SG_Hull_DarkMetal",
+    "SG_Plate_Gunmetal",
+    "SG_Trim_Carbon",
+    "SG_Neon_Amber",
+    "SG_Neon_Magenta",
+    "SG_Neon_Cyan"
+   ]
+  },
+  "a004": {
+   "file": "models/a004.glb",
+   "size": 83516,
+   "chassis": [
+    "Hawk"
+   ],
+   "cn": [
+    "鹞鹰"
+   ],
+   "kind": "air",
+   "frame": "Cyclo-raptor",
+   "clips": {
+    "idle": 2.7,
+    "move": 2.033,
+    "attack": 0.433,
+    "death": 1.333
+   },
+   "sockets": [
+    "socket_weapon_L",
+    "socket_weapon_R"
+   ],
+   "meshes": 18,
+   "bones": [
+    "body",
+    "root"
+   ],
+   "materials": [
+    "SG_Neon_Cyan",
+    "SG_Neon_Magenta",
+    "SG_Hull_DarkMetal",
+    "SG_Plate_Gunmetal"
+   ]
+  }
+ },
+ "conventions": {
+  "up": "+Y",
+  "forward": "+Z (glTF); the unit faces +Z at rotation 0",
+  "scale": "1 unit = 1 m",
+  "origin": "ground contact point at the unit centre (air units: root on the ground, body bone at flight height)",
+  "sprite_direction": "sprite dir d of D faces screen-right at 0, clockwise; three.js yaw = (90 - d*360/D) degrees about +Y when the camera looks north",
+  "clips": "idle, move (loop) / attack, death (once); 30 fps"
+ }
+}

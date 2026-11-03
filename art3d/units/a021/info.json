@@ -1,0 +1,585 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a021",
+ "kind": "air",
+ "chassis": [
+  "Dythe-Evo1",
+  "Dythe-Evo2",
+  "Dythe-Evo3",
+  "Dythe-Evo4",
+  "Dythe-Evo5"
+ ],
+ "base_chassis": [
+  "Dythe-Evo1",
+  "Dythe-Evo2",
+  "Dythe-Evo3",
+  "Dythe-Evo4",
+  "Dythe-Evo5"
+ ],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Dythe-Evo1",
+   "category": "Organic",
+   "group": "Dythe",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 17,
+   "unit_weight_kg": 360,
+   "type": "Biological",
+   "base_health": 7350,
+   "base_armor": 63,
+   "speed_m_s": 6,
+   "view_range_m": 15,
+   "view_type": "Omni",
+   "chassis_code": "a021"
+  },
+  {
+   "name": "Dythe-Evo2",
+   "category": "Organic",
+   "group": "Dythe",
+   "unit_quality": 75,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 18,
+   "unit_weight_kg": 360,
+   "type": "Biological",
+   "base_health": 9330,
+   "base_armor": 72,
+   "speed_m_s": 6.4,
+   "view_range_m": 16,
+   "view_type": "Omni",
+   "chassis_code": "a021"
+  },
+  {
+   "name": "Dythe-Evo3",
+   "category": "Organic",
+   "group": "Dythe",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 20,
+   "unit_weight_kg": 360,
+   "type": "Biological",
+   "base_health": 11880,
+   "base_armor": 84,
+   "speed_m_s": 6.8,
+   "view_range_m": 17,
+   "view_type": "Omni",
+   "chassis_code": "a021",
+   "chassis_image": "a021st.xpf"
+  },
+  {
+   "name": "Dythe-Evo4",
+   "category": "Organic",
+   "group": "Dythe",
+   "unit_quality": 105,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 21,
+   "unit_weight_kg": 360,
+   "type": "Biological",
+   "base_health": 15000,
+   "base_armor": 99,
+   "speed_m_s": 7.2,
+   "view_range_m": 18,
+   "view_type": "Omni",
+   "chassis_code": "a021"
+  },
+  {
+   "name": "Dythe-Evo5",
+   "category": "Organic",
+   "group": "Dythe",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 23,
+   "unit_weight_kg": 360,
+   "type": "Biological",
+   "base_health": 18840,
+   "base_armor": 108,
+   "speed_m_s": 7.6,
+   "view_range_m": 19,
+   "view_type": "Omni",
+   "chassis_code": "a021"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a021at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 77,
+   "type_raw": 77,
+   "canvas": [
+    171,
+    171
+   ],
+   "pivot": [
+    86,
+    87
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      100,
+      88
+     ]
+    ],
+    "1": [
+     [
+      100,
+      92
+     ]
+    ],
+    "2": [
+     [
+      97,
+      96
+     ]
+    ],
+    "3": [
+     [
+      92,
+      98
+     ]
+    ],
+    "4": [
+     [
+      87,
+      97
+     ]
+    ],
+    "5": [
+     [
+      81,
+      97
+     ]
+    ],
+    "6": [
+     [
+      77,
+      96
+     ]
+    ],
+    "7": [
+     [
+      73,
+      92
+     ]
+    ],
+    "8": [
+     [
+      73,
+      88
+     ]
+    ],
+    "9": [
+     [
+      76,
+      86
+     ]
+    ],
+    "10": [
+     [
+      77,
+      80
+     ]
+    ],
+    "11": [
+     [
+      83,
+      77
+     ]
+    ],
+    "12": [
+     [
+      86,
+      75
+     ]
+    ],
+    "13": [
+     [
+      90,
+      75
+     ]
+    ],
+    "14": [
+     [
+      93,
+      78
+     ]
+    ],
+    "15": [
+     [
+      94,
+      79
+     ]
+    ],
+    "16": [
+     [
+      100,
+      88
+     ]
+    ],
+    "17": [
+     [
+      100,
+      92
+     ]
+    ],
+    "18": [
+     [
+      97,
+      96
+     ]
+    ],
+    "19": [
+     [
+      92,
+      98
+     ]
+    ],
+    "20": [
+     [
+      87,
+      97
+     ]
+    ],
+    "21": [
+     [
+      81,
+      97
+     ]
+    ],
+    "22": [
+     [
+      77,
+      96
+     ]
+    ],
+    "23": [
+     [
+      73,
+      92
+     ]
+    ],
+    "24": [
+     [
+      73,
+      88
+     ]
+    ],
+    "25": [
+     [
+      76,
+      86
+     ]
+    ],
+    "26": [
+     [
+      77,
+      80
+     ]
+    ],
+    "27": [
+     [
+      83,
+      77
+     ]
+    ],
+    "28": [
+     [
+      86,
+      75
+     ]
+    ],
+    "29": [
+     [
+      90,
+      75
+     ]
+    ],
+    "30": [
+     [
+      93,
+      78
+     ]
+    ],
+    "31": [
+     [
+      94,
+      79
+     ]
+    ],
+    "32": [
+     [
+      100,
+      88
+     ]
+    ],
+    "33": [
+     [
+      100,
+      92
+     ]
+    ],
+    "34": [
+     [
+      97,
+      96
+     ]
+    ],
+    "35": [
+     [
+      92,
+      98
+     ]
+    ],
+    "36": [
+     [
+      87,
+      97
+     ]
+    ],
+    "37": [
+     [
+      81,
+      97
+     ]
+    ],
+    "38": [
+     [
+      77,
+      96
+     ]
+    ],
+    "39": [
+     [
+      73,
+      92
+     ]
+    ],
+    "40": [
+     [
+      73,
+      88
+     ]
+    ],
+    "41": [
+     [
+      76,
+      86
+     ]
+    ],
+    "42": [
+     [
+      77,
+      80
+     ]
+    ],
+    "43": [
+     [
+      83,
+      77
+     ]
+    ],
+    "44": [
+     [
+      86,
+      75
+     ]
+    ],
+    "45": [
+     [
+      90,
+      75
+     ]
+    ],
+    "46": [
+     [
+      93,
+      78
+     ]
+    ],
+    "47": [
+     [
+      94,
+      79
+     ]
+    ]
+   },
+   "sheet": "sheets/a021at.png",
+   "sheet_crop": [
+    41,
+    41,
+    135,
+    133
+   ],
+   "cell": [
+    94,
+    92
+   ],
+   "pivot_in_cell": [
+    45,
+    46
+   ]
+  },
+  {
+   "file": "a021ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    171,
+    171
+   ],
+   "pivot": [
+    86,
+    87
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a021da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    171,
+    171
+   ],
+   "pivot": [
+    86,
+    87
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a021da.png",
+   "sheet_crop": [
+    75,
+    67,
+    127,
+    102
+   ],
+   "cell": [
+    52,
+    35
+   ],
+   "pivot_in_cell": [
+    11,
+    20
+   ]
+  },
+  {
+   "file": "a021mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 43,
+   "type_raw": 43,
+   "canvas": [
+    171,
+    171
+   ],
+   "pivot": [
+    86,
+    87
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a021mo.png",
+   "sheet_crop": [
+    41,
+    41,
+    135,
+    135
+   ],
+   "cell": [
+    94,
+    94
+   ],
+   "pivot_in_cell": [
+    45,
+    46
+   ]
+  },
+  {
+   "file": "a021mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    171,
+    171
+   ],
+   "pivot": [
+    86,
+    87
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

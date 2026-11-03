@@ -1,0 +1,51 @@
+tab	base	code	influence	advanced	code	UQ	zh
+Infantry	Imp	g004	1	Imp-MK2	g004	15	戰猿2代
+Infantry	Imp	g004	1	Daeva	g001	34	榴彈兵
+Infantry	Imp	g004	1	Mephit	g044	55	巴茲尼德
+Infantry	Wraith	g018	2	Wraith-MK2	g018	16	鈦拉諾2代
+Infantry	Wraith	g018	2	Spectre	g006	36	GTA火箭兵
+Infantry	Wraith	g018	2	Liche	g021	50	虎鯊
+Infantry	Sapper	g017	2	Medic	g016	7	救護兵
+Infantry	Sapper	g017	2	Sapper-MK2	g017	16	地雷兵2代
+Infantry	Sapper	g017	2	Virus	g057	32	生化兵
+Infantry	Shade	g019	3	Shade-MK2	g019	17	艾克斯諾2代
+Infantry	Shade	g019	3	Banshee	g005	25	雙管巴爾幹
+Infantry	Shade	g019	3	Phantom	g040	36	歌利亞
+Infantry	Ghast	g039	3	Ghast-MK2	g039	17	刀鋒者2代
+Infantry	Ghast	g039	3	Revenant	g003	48	巨人
+Infantry	Spirit	g041	10	Spirit-MK2	g041	24	魅影2代
+Infantry	Spirit	g041	10	Apparition	g042	50	狙擊者
+Mobile	Pegasus	g009	1	Pegasus-MK2	g009	15	輕型摩托車2代
+Mobile	Pegasus	g009	1	Gryphon	g043	35	氣墊掠奪者
+Mobile	Red-Eye	g002	1	Red-Eye-MK2	g002	15	搜尋者2代
+Mobile	Red-Eye	g002	1	Gear-Doc	g023	22	修理者
+Mobile	Red-Eye	g002	1	Orbus	g035	26	日蝕
+Mobile	Behemoth	g020	2	Behemoth-MK2	g020	16	中戰車2代
+Mobile	Behemoth	g020	2	Leviathan	g045	40	重戰車
+Mobile	Manticore	g032	3	Manticore-MK2	g032	17	公爵2代
+Mobile	Manticore	g032	3	Chimera	g008	25	輕型甲車
+Mobile	Manticore	g032	3	Hydra	g038	47	幽靈公爵
+Mobile	Triage	g056	5	Triage-MK2	g056	19	野戰醫院2代
+Mobile	Triage	g056	5	Volte	g055	25	能源車
+Mobile	Triage	g056	5	Mantlet	g058	50	碉堡車
+Mobile	Arbalest	g010	14	Arbalest-MK2	g010	28	自走砲2代
+Mobile	Arbalest	g010	14	Ballista	g034	30	對空砲
+Mobile	Arbalest	g010	14	Trebuchet	g037	50	突岩
+Aviation	Hawk	a004	2	Hawk-MK2	a004	16	蛇夫座2代
+Aviation	Hawk	a004	2	Owl	a002	30	占薩克
+Aviation	Hawk	a004	2	Falcon	a014	60	艾洛比
+Aviation	Pelican	a023	4	War Pigeon	a011	16	空中判官
+Aviation	Pelican	a023	4	Pelican-MK2	a023	18	地戰機2代
+Aviation	Pelican	a023	4	Vulture	a024	55	雷霆弩
+Aviation	Eagle	a008	7	Eagle-MK2	a008	21	獵戶座2代
+Aviation	Eagle	a008	7	Phoenix	a015	30	火之鷹
+Aviation	Eagle	a008	7	Condor	a016	35	執法者
+Aviation	Roc	a001	10	Albatross	a013	25	派勒斯
+Aviation	Roc	a001	10	Roc-MK2	a001	27	支援者2代
+Organic	Oizys	a006	1				
+Organic	Ubik	g011	1				
+Organic	Manta	a017	1				
+Organic	Slanth	g015	1				
+Organic	Mamos	a010	1				
+Organic	Poda	g024	1				
+Organic	Larva	g025	1				

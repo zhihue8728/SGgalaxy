@@ -1,0 +1,1272 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g040",
+ "kind": "ground",
+ "chassis": [
+  "Phantom",
+  "Phantom-Mk2",
+  "Phantom-Mk3",
+  "Phantom-Mk4",
+  "Phantom-Mk5",
+  "Phantom-Mk6",
+  "Phantom-Mk7"
+ ],
+ "base_chassis": [
+  "Phantom"
+ ],
+ "names_cn": {
+  "Phantom": "幻影"
+ },
+ "names_tw": {
+  "Phantom": "幻影"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Phantom",
+   "category": "Infantry",
+   "group": "Aero-frame",
+   "influence": 36,
+   "slots": 10,
+   "max_weight_kg": 75,
+   "max_space_l": 8,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 2250,
+   "base_armor": 9,
+   "speed_m_s": 4.2,
+   "view_range_m": 9,
+   "view_type": "Cone",
+   "chassis_code": "g040",
+   "description_summary": "Biological anti-air battery converted from a Ranger chassis after failed cloaking attempts; naturally phasic."
+  },
+  {
+   "name": "Phantom-Mk2",
+   "category": "Infantry",
+   "group": "Aero-frame",
+   "influence": 50,
+   "slots": 10,
+   "max_weight_kg": 75,
+   "max_space_l": 9,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 2760,
+   "base_armor": 12,
+   "speed_m_s": 4.5,
+   "view_range_m": 9.25,
+   "view_type": "Cone",
+   "chassis_code": "g040",
+   "description_summary": "Converted Ranger chassis; a naturally phasic anti-air battery after failed cloaking infantry attempts."
+  },
+  {
+   "name": "Phantom-Mk3",
+   "category": "Infantry",
+   "group": "Aero-frame",
+   "influence": 64,
+   "slots": 10,
+   "max_weight_kg": 75,
+   "max_space_l": 9,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 3450,
+   "base_armor": 15,
+   "speed_m_s": 4.5,
+   "view_range_m": 9.5,
+   "view_type": "Cone",
+   "chassis_code": "g040",
+   "description_summary": "Converted Ranger chassis turned into a powerful anti-air battery; naturally phasic."
+  },
+  {
+   "name": "Phantom-Mk4",
+   "category": "Infantry",
+   "group": "Aero-frame",
+   "influence": 78,
+   "slots": 10,
+   "max_weight_kg": 75,
+   "max_space_l": 10,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 4290,
+   "base_armor": 18,
+   "speed_m_s": 4.8,
+   "view_range_m": 9.75,
+   "view_type": "Cone",
+   "chassis_code": "g040",
+   "description_summary": "Converted Ranger-based chassis; a powerful anti-air battery that is naturally phasic."
+  },
+  {
+   "name": "Phantom-Mk5",
+   "category": "Infantry",
+   "group": "Aero-frame",
+   "influence": 92,
+   "slots": 10,
+   "max_weight_kg": 75,
+   "max_space_l": 11,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 5370,
+   "base_armor": 21,
+   "speed_m_s": 4.8,
+   "view_range_m": 10,
+   "view_type": "Cone",
+   "chassis_code": "g040",
+   "description_summary": "Former Ranger chassis rebuilt as a strong anti-air battery, naturally phasic."
+  },
+  {
+   "name": "Phantom-Mk6",
+   "category": "Infantry",
+   "group": "Aero-frame",
+   "influence": 106,
+   "slots": 10,
+   "max_weight_kg": 75,
+   "max_space_l": 11,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 6690,
+   "base_armor": 24,
+   "speed_m_s": 5.4,
+   "view_range_m": 10.25,
+   "view_type": "Cone",
+   "chassis_code": "g040",
+   "description_summary": "Converted ranger chassis; naturally phasic anti-air battery after cloaking infantry attempts failed."
+  },
+  {
+   "name": "Phantom-Mk7",
+   "category": "Infantry",
+   "group": "Aero-frame",
+   "influence": 120,
+   "slots": 10,
+   "max_weight_kg": 75,
+   "max_space_l": 12,
+   "unit_weight_kg": 80,
+   "type": "Biological",
+   "base_health": 8280,
+   "base_armor": 27,
+   "speed_m_s": 5.6,
+   "view_range_m": 10.5,
+   "view_type": "Cone",
+   "chassis_code": "g040",
+   "description_summary": "Ranger chassis repurposed into a strong anti-air battery; naturally phasic."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g040at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      96,
+      78
+     ],
+     [
+      99,
+      86
+     ]
+    ],
+    "1": [
+     [
+      97,
+      86
+     ],
+     [
+      94,
+      94
+     ]
+    ],
+    "2": [
+     [
+      94,
+      95
+     ],
+     [
+      87,
+      102
+     ]
+    ],
+    "3": [
+     [
+      84,
+      100
+     ],
+     [
+      74,
+      103
+     ]
+    ],
+    "4": [
+     [
+      74,
+      101
+     ],
+     [
+      59,
+      103
+     ]
+    ],
+    "5": [
+     [
+      60,
+      103
+     ],
+     [
+      49,
+      99
+     ]
+    ],
+    "6": [
+     [
+      49,
+      102
+     ],
+     [
+      40,
+      93
+     ]
+    ],
+    "7": [
+     [
+      44,
+      92
+     ],
+     [
+      36,
+      85
+     ]
+    ],
+    "8": [
+     [
+      42,
+      84
+     ],
+     [
+      43,
+      77
+     ]
+    ],
+    "9": [
+     [
+      45,
+      77
+     ],
+     [
+      47,
+      70
+     ]
+    ],
+    "10": [
+     [
+      48,
+      72
+     ],
+     [
+      56,
+      66
+     ]
+    ],
+    "11": [
+     [
+      54,
+      66
+     ],
+     [
+      62,
+      63
+     ]
+    ],
+    "12": [
+     [
+      64,
+      64
+     ],
+     [
+      75,
+      63
+     ]
+    ],
+    "13": [
+     [
+      72,
+      64
+     ],
+     [
+      83,
+      66
+     ]
+    ],
+    "14": [
+     [
+      78,
+      66
+     ],
+     [
+      90,
+      72
+     ]
+    ],
+    "15": [
+     [
+      91,
+      72
+     ],
+     [
+      98,
+      78
+     ]
+    ],
+    "16": [
+     [
+      96,
+      78
+     ],
+     [
+      99,
+      86
+     ]
+    ],
+    "17": [
+     [
+      97,
+      86
+     ],
+     [
+      94,
+      94
+     ]
+    ],
+    "18": [
+     [
+      94,
+      95
+     ],
+     [
+      87,
+      102
+     ]
+    ],
+    "19": [
+     [
+      84,
+      100
+     ],
+     [
+      74,
+      103
+     ]
+    ],
+    "20": [
+     [
+      74,
+      101
+     ],
+     [
+      59,
+      103
+     ]
+    ],
+    "21": [
+     [
+      60,
+      103
+     ],
+     [
+      49,
+      99
+     ]
+    ],
+    "22": [
+     [
+      49,
+      102
+     ],
+     [
+      40,
+      93
+     ]
+    ],
+    "23": [
+     [
+      44,
+      92
+     ],
+     [
+      36,
+      85
+     ]
+    ],
+    "24": [
+     [
+      42,
+      84
+     ],
+     [
+      43,
+      77
+     ]
+    ],
+    "25": [
+     [
+      45,
+      77
+     ],
+     [
+      47,
+      70
+     ]
+    ],
+    "26": [
+     [
+      48,
+      72
+     ],
+     [
+      56,
+      66
+     ]
+    ],
+    "27": [
+     [
+      54,
+      66
+     ],
+     [
+      62,
+      63
+     ]
+    ],
+    "28": [
+     [
+      64,
+      64
+     ],
+     [
+      75,
+      63
+     ]
+    ],
+    "29": [
+     [
+      72,
+      64
+     ],
+     [
+      83,
+      66
+     ]
+    ],
+    "30": [
+     [
+      78,
+      66
+     ],
+     [
+      90,
+      72
+     ]
+    ],
+    "31": [
+     [
+      91,
+      72
+     ],
+     [
+      98,
+      78
+     ]
+    ],
+    "32": [
+     [
+      96,
+      78
+     ],
+     [
+      99,
+      86
+     ]
+    ],
+    "33": [
+     [
+      97,
+      86
+     ],
+     [
+      94,
+      94
+     ]
+    ],
+    "34": [
+     [
+      94,
+      95
+     ],
+     [
+      87,
+      102
+     ]
+    ],
+    "35": [
+     [
+      84,
+      100
+     ],
+     [
+      74,
+      103
+     ]
+    ],
+    "36": [
+     [
+      74,
+      101
+     ],
+     [
+      59,
+      103
+     ]
+    ],
+    "37": [
+     [
+      60,
+      103
+     ],
+     [
+      49,
+      99
+     ]
+    ],
+    "38": [
+     [
+      49,
+      102
+     ],
+     [
+      40,
+      93
+     ]
+    ],
+    "39": [
+     [
+      44,
+      92
+     ],
+     [
+      36,
+      85
+     ]
+    ],
+    "40": [
+     [
+      42,
+      84
+     ],
+     [
+      43,
+      77
+     ]
+    ],
+    "41": [
+     [
+      45,
+      77
+     ],
+     [
+      47,
+      70
+     ]
+    ],
+    "42": [
+     [
+      48,
+      72
+     ],
+     [
+      56,
+      66
+     ]
+    ],
+    "43": [
+     [
+      54,
+      66
+     ],
+     [
+      62,
+      63
+     ]
+    ],
+    "44": [
+     [
+      64,
+      64
+     ],
+     [
+      75,
+      63
+     ]
+    ],
+    "45": [
+     [
+      72,
+      64
+     ],
+     [
+      83,
+      66
+     ]
+    ],
+    "46": [
+     [
+      78,
+      66
+     ],
+     [
+      90,
+      72
+     ]
+    ],
+    "47": [
+     [
+      91,
+      72
+     ],
+     [
+      98,
+      78
+     ]
+    ],
+    "48": [
+     [
+      96,
+      78
+     ],
+     [
+      99,
+      86
+     ]
+    ],
+    "49": [
+     [
+      97,
+      86
+     ],
+     [
+      94,
+      94
+     ]
+    ],
+    "50": [
+     [
+      94,
+      95
+     ],
+     [
+      87,
+      102
+     ]
+    ],
+    "51": [
+     [
+      84,
+      100
+     ],
+     [
+      74,
+      103
+     ]
+    ],
+    "52": [
+     [
+      74,
+      101
+     ],
+     [
+      59,
+      103
+     ]
+    ],
+    "53": [
+     [
+      60,
+      103
+     ],
+     [
+      49,
+      99
+     ]
+    ],
+    "54": [
+     [
+      49,
+      102
+     ],
+     [
+      40,
+      93
+     ]
+    ],
+    "55": [
+     [
+      44,
+      92
+     ],
+     [
+      36,
+      85
+     ]
+    ],
+    "56": [
+     [
+      42,
+      84
+     ],
+     [
+      43,
+      77
+     ]
+    ],
+    "57": [
+     [
+      45,
+      77
+     ],
+     [
+      47,
+      70
+     ]
+    ],
+    "58": [
+     [
+      48,
+      72
+     ],
+     [
+      56,
+      66
+     ]
+    ],
+    "59": [
+     [
+      54,
+      66
+     ],
+     [
+      62,
+      63
+     ]
+    ],
+    "60": [
+     [
+      64,
+      64
+     ],
+     [
+      75,
+      63
+     ]
+    ],
+    "61": [
+     [
+      72,
+      64
+     ],
+     [
+      83,
+      66
+     ]
+    ],
+    "62": [
+     [
+      78,
+      66
+     ],
+     [
+      90,
+      72
+     ]
+    ],
+    "63": [
+     [
+      91,
+      72
+     ],
+     [
+      98,
+      78
+     ]
+    ]
+   },
+   "sheet": "sheets/g040at.png",
+   "sheet_crop": [
+    37,
+    63,
+    99,
+    117
+   ],
+   "cell": [
+    62,
+    54
+   ],
+   "pivot_in_cell": [
+    30,
+    44
+   ]
+  },
+  {
+   "file": "g040atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g040atb.png",
+   "sheet_crop": [
+    51,
+    66,
+    85,
+    90
+   ],
+   "cell": [
+    34,
+    24
+   ],
+   "pivot_in_cell": [
+    16,
+    41
+   ]
+  },
+  {
+   "file": "g040atd.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 1865,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g040atd.png",
+   "sheet_crop": [
+    21,
+    40,
+    114,
+    126
+   ],
+   "cell": [
+    93,
+    86
+   ],
+   "pivot_in_cell": [
+    46,
+    67
+   ]
+  },
+  {
+   "file": "g040ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 64,
+   "dirs": 32,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g040da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 63489,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g040da.png",
+   "sheet_crop": [
+    40,
+    70,
+    95,
+    118
+   ],
+   "cell": [
+    55,
+    48
+   ],
+   "pivot_in_cell": [
+    27,
+    37
+   ]
+  },
+  {
+   "file": "g040das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 63504,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g040mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g040mo.png",
+   "sheet_crop": [
+    33,
+    57,
+    103,
+    122
+   ],
+   "cell": [
+    70,
+    65
+   ],
+   "pivot_in_cell": [
+    34,
+    50
+   ]
+  },
+  {
+   "file": "g040mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g040mob.png",
+   "sheet_crop": [
+    54,
+    64,
+    82,
+    88
+   ],
+   "cell": [
+    28,
+    24
+   ],
+   "pivot_in_cell": [
+    13,
+    43
+   ]
+  },
+  {
+   "file": "g040mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g040mop.png",
+   "sheet_crop": [
+    42,
+    79,
+    94,
+    120
+   ],
+   "cell": [
+    52,
+    41
+   ],
+   "pivot_in_cell": [
+    25,
+    28
+   ]
+  },
+  {
+   "file": "g040mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    135,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g040st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 1827,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g040st.png",
+   "sheet_crop": [
+    37,
+    62,
+    99,
+    117
+   ],
+   "cell": [
+    62,
+    55
+   ],
+   "pivot_in_cell": [
+    30,
+    45
+   ]
+  },
+  {
+   "file": "g040stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g040stb.png",
+   "sheet_crop": [
+    54,
+    68,
+    83,
+    88
+   ],
+   "cell": [
+    29,
+    20
+   ],
+   "pivot_in_cell": [
+    13,
+    39
+   ]
+  },
+  {
+   "file": "g040sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    133,
+    133
+   ],
+   "pivot": [
+    67,
+    107
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

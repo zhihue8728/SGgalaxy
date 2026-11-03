@@ -1,0 +1,701 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a001",
+ "kind": "air",
+ "chassis": [
+  "Roc",
+  "Roc-Mk2",
+  "Roc-Mk3",
+  "Roc-Mk4",
+  "Roc-Mk5",
+  "Roc-Mk6",
+  "Roc-Mk7"
+ ],
+ "base_chassis": [
+  "Roc"
+ ],
+ "names_cn": {
+  "Roc": "大鹏"
+ },
+ "names_tw": {
+  "Roc": "大鵬"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Roc",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 10,
+   "slots": 10,
+   "max_weight_kg": 310,
+   "max_space_l": 16,
+   "unit_weight_kg": 350,
+   "type": "Mechanical",
+   "base_health": 1680,
+   "base_armor": 6,
+   "speed_m_s": 2.4,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a001",
+   "chassis_image": "a001st.xpf",
+   "description_summary": "Armored cargo carrier moving allies safely to strategic positions."
+  },
+  {
+   "name": "Roc-Mk2",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 27,
+   "slots": 10,
+   "max_weight_kg": 310,
+   "max_space_l": 17,
+   "unit_weight_kg": 350,
+   "type": "Mechanical",
+   "base_health": 2040,
+   "base_armor": 9,
+   "speed_m_s": 2.6,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a001",
+   "chassis_image": "a001st.xpf",
+   "description_summary": "Armored cargo carrier moving allies to strategic positions."
+  },
+  {
+   "name": "Roc-Mk3",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 310,
+   "max_space_l": 18,
+   "unit_weight_kg": 350,
+   "type": "Mechanical",
+   "base_health": 2580,
+   "base_armor": 12,
+   "speed_m_s": 2.6,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a001",
+   "chassis_image": "a001st.xpf",
+   "description_summary": "Armored cargo carrier moving allies safely to key locations."
+  },
+  {
+   "name": "Roc-Mk4",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 61,
+   "slots": 10,
+   "max_weight_kg": 310,
+   "max_space_l": 20,
+   "unit_weight_kg": 350,
+   "type": "Mechanical",
+   "base_health": 3330,
+   "base_armor": 15,
+   "speed_m_s": 2.8,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a001",
+   "description_summary": "Armored cargo carrier moving allied forces to strategic locations"
+  },
+  {
+   "name": "Roc-Mk5",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 78,
+   "slots": 10,
+   "max_weight_kg": 310,
+   "max_space_l": 21,
+   "unit_weight_kg": 350,
+   "type": "Mechanical",
+   "base_health": 4380,
+   "base_armor": 18,
+   "speed_m_s": 2.8,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a001",
+   "chassis_image": "a001st.xpf",
+   "description_summary": "Heavily armored cargo hauler moving allies to strategic locations."
+  },
+  {
+   "name": "Roc-Mk6",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 95,
+   "slots": 10,
+   "max_weight_kg": 310,
+   "max_space_l": 23,
+   "unit_weight_kg": 350,
+   "type": "Mechanical",
+   "base_health": 5760,
+   "base_armor": 21,
+   "speed_m_s": 3,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a001",
+   "chassis_image": "a001st.xpf",
+   "description_summary": "Heavy armor and large cargo bay transport allies to strategic locations."
+  },
+  {
+   "name": "Roc-Mk7",
+   "category": "Aviation",
+   "group": "Gyro-raptor",
+   "influence": 112,
+   "slots": 10,
+   "max_weight_kg": 310,
+   "max_space_l": 24,
+   "unit_weight_kg": 350,
+   "type": "Mechanical",
+   "base_health": 7470,
+   "base_armor": 24,
+   "speed_m_s": 3.2,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a001",
+   "description_summary": "Armored cargo transport ferrying allies safely to strategic locations."
+  }
+ ],
+ "layers": [
+  {
+   "file": "a001at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    87,
+    73
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      131,
+      75
+     ]
+    ],
+    "1": [
+     [
+      127,
+      91
+     ]
+    ],
+    "2": [
+     [
+      118,
+      101
+     ]
+    ],
+    "3": [
+     [
+      104,
+      110
+     ]
+    ],
+    "4": [
+     [
+      85,
+      111
+     ]
+    ],
+    "5": [
+     [
+      65,
+      108
+     ]
+    ],
+    "6": [
+     [
+      52,
+      100
+     ]
+    ],
+    "7": [
+     [
+      45,
+      90
+     ]
+    ],
+    "8": [
+     [
+      42,
+      75
+     ]
+    ],
+    "9": [
+     [
+      43,
+      63
+     ]
+    ],
+    "10": [
+     [
+      51,
+      54
+     ]
+    ],
+    "11": [
+     [
+      67,
+      45
+     ]
+    ],
+    "12": [
+     [
+      87,
+      41
+     ]
+    ],
+    "13": [
+     [
+      104,
+      45
+     ]
+    ],
+    "14": [
+     [
+      116,
+      51
+     ]
+    ],
+    "15": [
+     [
+      127,
+      64
+     ]
+    ]
+   },
+   "sheet": "sheets/a001at.png",
+   "sheet_crop": [
+    44,
+    43,
+    128,
+    109
+   ],
+   "cell": [
+    84,
+    66
+   ],
+   "pivot_in_cell": [
+    43,
+    30
+   ]
+  },
+  {
+   "file": "a001atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    86,
+    72
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a001atb.png",
+   "sheet_crop": [
+    75,
+    64,
+    96,
+    82
+   ],
+   "cell": [
+    21,
+    18
+   ],
+   "pivot_in_cell": [
+    11,
+    8
+   ]
+  },
+  {
+   "file": "a001ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    87,
+    73
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a001da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    85,
+    76
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a001da.png",
+   "sheet_crop": [
+    53,
+    48,
+    116,
+    104
+   ],
+   "cell": [
+    63,
+    56
+   ],
+   "pivot_in_cell": [
+    32,
+    28
+   ]
+  },
+  {
+   "file": "a001das.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    83,
+    76
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "a001m.xpf",
+   "dat": "tc.dat",
+   "action": "m",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    47,
+    47
+   ],
+   "pivot": [
+    23,
+    23
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a001m.png",
+   "sheet_crop": [
+    17,
+    17,
+    32,
+    31
+   ],
+   "cell": [
+    15,
+    14
+   ],
+   "pivot_in_cell": [
+    6,
+    6
+   ]
+  },
+  {
+   "file": "a001mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    87,
+    73
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a001mo.png",
+   "sheet_crop": [
+    44,
+    43,
+    128,
+    109
+   ],
+   "cell": [
+    84,
+    66
+   ],
+   "pivot_in_cell": [
+    43,
+    30
+   ]
+  },
+  {
+   "file": "a001mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    86,
+    72
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a001mob.png",
+   "sheet_crop": [
+    75,
+    64,
+    96,
+    82
+   ],
+   "cell": [
+    21,
+    18
+   ],
+   "pivot_in_cell": [
+    11,
+    8
+   ]
+  },
+  {
+   "file": "a001mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    87,
+    73
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a001st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    86,
+    72
+   ],
+   "frame_count": 128,
+   "dirs": 16,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a001st.png",
+   "sheet_crop": [
+    43,
+    41,
+    128,
+    109
+   ],
+   "cell": [
+    85,
+    68
+   ],
+   "pivot_in_cell": [
+    43,
+    31
+   ]
+  },
+  {
+   "file": "a001stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    86,
+    72
+   ],
+   "frame_count": 128,
+   "dirs": 16,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a001stb.png",
+   "sheet_crop": [
+    75,
+    62,
+    96,
+    82
+   ],
+   "cell": [
+    21,
+    20
+   ],
+   "pivot_in_cell": [
+    11,
+    10
+   ]
+  },
+  {
+   "file": "a001sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    159,
+    153
+   ],
+   "pivot": [
+    86,
+    72
+   ],
+   "frame_count": 128,
+   "dirs": 16,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

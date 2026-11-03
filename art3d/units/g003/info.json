@@ -1,0 +1,532 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g003",
+ "kind": "ground",
+ "chassis": [
+  "Revenant",
+  "Revenant-Mk2",
+  "Revenant-Mk3",
+  "Revenant-Mk4",
+  "Revenant-Mk5"
+ ],
+ "base_chassis": [
+  "Revenant"
+ ],
+ "names_cn": {
+  "Revenant": "亡魂"
+ },
+ "names_tw": {
+  "Revenant": "亡魂"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Revenant",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 48,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 16,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1920,
+   "base_armor": 21,
+   "speed_m_s": 3,
+   "view_range_m": 7.5,
+   "view_type": "Cone",
+   "chassis_code": "g003",
+   "chassis_image": "g003st.xpf",
+   "description_summary": "Berserker-like melee brute that rips slow units apart, naturally repairable."
+  },
+  {
+   "name": "Revenant-Mk2",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 63,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 19,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2430,
+   "base_armor": 27,
+   "speed_m_s": 3.2,
+   "view_range_m": 8,
+   "view_type": "Cone",
+   "chassis_code": "g003",
+   "chassis_image": "g003st.xpf",
+   "description_summary": "Berserker-like brute that tears slow units apart; naturally repairable."
+  },
+  {
+   "name": "Revenant-Mk3",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 78,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 22,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3090,
+   "base_armor": 33,
+   "speed_m_s": 3.2,
+   "view_range_m": 8.5,
+   "view_type": "Cone",
+   "chassis_code": "g003",
+   "chassis_image": "g003st.xpf",
+   "description_summary": "Berserker-like strength; tears slow units apart barehanded. Naturally repairable melee brute."
+  },
+  {
+   "name": "Revenant-Mk4",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 93,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 25,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3900,
+   "base_armor": 39,
+   "speed_m_s": 3.2,
+   "view_range_m": 9,
+   "view_type": "Cone",
+   "chassis_code": "g003",
+   "chassis_image": "g003st.xpf",
+   "description_summary": "Berserker-like brute that tears slow units apart, naturally repairable melee powerhouse."
+  },
+  {
+   "name": "Revenant-Mk5",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 108,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 28,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4950,
+   "base_armor": 48,
+   "speed_m_s": 3.4,
+   "view_range_m": 9.5,
+   "view_type": "Cone",
+   "chassis_code": "g003",
+   "chassis_image": "g003st.xpf",
+   "description_summary": "Berserker-strength melee brute that tears slow units apart; naturally repairable."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g003at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 97,
+   "type_raw": 97,
+   "canvas": [
+    171,
+    165
+   ],
+   "pivot": [
+    91,
+    108
+   ],
+   "frame_count": 160,
+   "dirs": 16,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g003at.png",
+   "sheet_crop": [
+    38,
+    41,
+    145,
+    131
+   ],
+   "cell": [
+    107,
+    90
+   ],
+   "pivot_in_cell": [
+    53,
+    67
+   ]
+  },
+  {
+   "file": "g003atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 13377,
+   "canvas": [
+    171,
+    165
+   ],
+   "pivot": [
+    91,
+    108
+   ],
+   "frame_count": 160,
+   "dirs": 16,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g003atb.png",
+   "sheet_crop": [
+    47,
+    51,
+    136,
+    119
+   ],
+   "cell": [
+    89,
+    68
+   ],
+   "pivot_in_cell": [
+    44,
+    57
+   ]
+  },
+  {
+   "file": "g003ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    184,
+    165
+   ],
+   "pivot": [
+    91,
+    108
+   ],
+   "frame_count": 160,
+   "dirs": 16,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g003da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 14593,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    61,
+    77
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g003da.png",
+   "sheet_crop": [
+    27,
+    52,
+    95,
+    104
+   ],
+   "cell": [
+    68,
+    52
+   ],
+   "pivot_in_cell": [
+    34,
+    25
+   ]
+  },
+  {
+   "file": "g003mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    69,
+    85
+   ],
+   "frame_count": 128,
+   "dirs": 8,
+   "frames_per_dir": 16,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g003mo.png",
+   "sheet_crop": [
+    46,
+    43,
+    94,
+    100
+   ],
+   "cell": [
+    48,
+    57
+   ],
+   "pivot_in_cell": [
+    23,
+    42
+   ]
+  },
+  {
+   "file": "g003mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    69,
+    85
+   ],
+   "frame_count": 128,
+   "dirs": 8,
+   "frames_per_dir": 16,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g003mob.png",
+   "sheet_crop": [
+    52,
+    51,
+    89,
+    84
+   ],
+   "cell": [
+    37,
+    33
+   ],
+   "pivot_in_cell": [
+    17,
+    34
+   ]
+  },
+  {
+   "file": "g003mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    69,
+    85
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g003mop.png",
+   "sheet_crop": [
+    51,
+    72,
+    91,
+    99
+   ],
+   "cell": [
+    40,
+    27
+   ],
+   "pivot_in_cell": [
+    18,
+    13
+   ]
+  },
+  {
+   "file": "g003mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    69,
+    85
+   ],
+   "frame_count": 128,
+   "dirs": 8,
+   "frames_per_dir": 16,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  },
+  {
+   "file": "g003st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    69,
+    85
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g003st.png",
+   "sheet_crop": [
+    44,
+    41,
+    96,
+    96
+   ],
+   "cell": [
+    52,
+    55
+   ],
+   "pivot_in_cell": [
+    25,
+    44
+   ]
+  },
+  {
+   "file": "g003stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    69,
+    83
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g003stb.png",
+   "sheet_crop": [
+    50,
+    42,
+    90,
+    84
+   ],
+   "cell": [
+    40,
+    42
+   ],
+   "pivot_in_cell": [
+    19,
+    41
+   ]
+  },
+  {
+   "file": "g003sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    69,
+    85
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

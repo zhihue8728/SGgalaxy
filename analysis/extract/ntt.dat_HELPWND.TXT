@@ -1,0 +1,329 @@
+khiNewGame			Create a new hero.
+khiContinue			Resume your adventures.
+khiOption				Modify audio/visual settings.
+khiBriefingRoom			Review previous battles.
+khiCredits			
+khiUnitManage			
+
+khiNewUserNation			
+khiNewUserName			Your hero's name can be a maximum of 12 letters and cannot contain special characters or reserved strings, such as \Nexon\. Your hero's name cannot be changed, so choose a name you can be proud of.
+khiNewUserPassword		Choose a password of eight characters that contains both letters and numbers. Never tell anyone your password. Nexon will NEVER ask you for your hero's password.
+khiNewUserPassword2		Retype your password to confirm that it was typed correctly.
+khiNewUserEmail			Providing a correct email address will help us to confirm your identity and contact you regarding your hero.
+khiNewUserFlag			The flag of the selected faction. Use the arrow keys rotate through the available factions. The current territories of the selected faction are highlighted on the below map.
+
+khiNewUserNextPlanet		Go to next planet
+khiNewUserPrevPlanet		Go to previous planet
+khiNewUserNextNation		Go to next faction
+khiNewUserPrevNation		Go to previous faction
+khiNewUserNextHero		Next hero appearance
+khiNewUserPrevHero		Previous appearance
+khiNewUserSelectPlanet		Choose planet and faction, then click here
+khiNewUserSelectNation		Choose planet and faction, then click here
+khiNewUserSelectHero		Choose hero and click here
+	
+khiNewUserPortrait			
+khiNewUserHero			Your appearance. Appearance has no effect on game play and cannot be changed after the hero is created.
+khiNewUserFaceButtonL		
+khiNewUserFaceButtonR		
+khiNewUserModelButtonL		
+khiNewUserModelButtonR		
+khiNewUserAttrDefault		Resets all attributes to 10
+khiNewUserNationButtonL		
+khiNewUserNationButtonR		
+khiNewUserSpinAttribute0	Modify the value of Tactics
+khiNewUserSpinAttribute1	Modify the value of Clout
+khiNewUserSpinAttribute2	Modify the value of Education
+khiNewUserSpinAttribute3	Modify the value of MechApt
+khiNewUserButtonLock0		Toggles whether this attribute is saved or not. Use this feature to fix this attribute while changing others.
+khiNewUserButtonLock1		Toggles whether this attribute is saved or not. Use this feature to fix this attribute while changing others.
+khiNewUserButtonLock2		Toggles whether this attribute is saved or not. Use this feature to fix this attribute while changing others.
+khiNewUserButtonLock3		Toggles whether this attribute is saved or not. Use this feature to fix this attribute while changing others.
+khiNewUserButtonOK		Create this hero(ine).
+khiNewUserButtonCancel		Return to the previous menu.
+
+khiJoinBattleOK			Communique dispatched to the battle commander requesting permission to join battle. Upon their approval, click "OK" to enter the fray.
+khiJoinBattleCancel			Communique dispatched to the battle commander requesting permission to join battle. Press "Cancel" to withdraw your request.
+
+khiAlertAccept			
+khiAlertReject			
+
+khiBattleCtrlOK			The province is being contested. Press <ATTACK> or <ASSIST> to join the battle. Use 'Deploy troops' to decide what units you will send to the battle.
+khiBattleCtrlCancel			The province is being contested. Press "Cancel" to withdraw.
+khiBattleCtrlAssignTroops		Press "Assign Troops" to deploy your units for battle.
+
+khiBoardAlly			Displays your allies. Not implemented.
+khiBoardEnemy			Displays your enemies. Not implemented.
+khiBoardRefresh			Download the most recent provincial reports.
+khiBoardGrid			Identify provinces by faction color.
+khiBoardExit			Return to active mode.
+khiBoardDetailFindWay		
+khiBoardDetailExit			
+
+khiAddList			Type a hero's name and press <ENTER> to add that name to your Recipient List.
+khiListFriends			Recipient List. Add names to this list using the text box above. Click on a name to send a private transmission to that hero. Use <CTRL>-click to select multiple recipients.
+khiListWhisperPrevent		
+khiChat0				Public transmission mode. When activated, type a message to send to those around you (hero mode) or on the same map (battle mode).
+khiChat1				Private transmission mode. When activated, type a message to send to your recipient. Enter a recipient's name in the text window to the right or click on a recipient from the Recipient List to the left.
+khiChat2				Allies transmission mode. When activated, type a message to send to your allies in the same province.
+khiColorSelect			Set color of your messages.
+khiItemShow			Unit Outfitting. Allows units to be reequipped.
+khiButtonMsg0			
+khiButtonUserList			Hero list (active heroes), Regiment list, and Hall of Fame (most prestigious heroes).
+khiButtonMsg2			Incoming message indicator. Click when lit to receive transmission.
+khiButtonBBS			Bulletin board system.
+
+khiButtonUnitManage		Unit Deployment. Use to decide which troops to use in battle.
+khiButtonBoard			Strategic Map. Use to find a battle.
+khiButtonAutoPermission		Set your battle acceptance policy.
+
+khiButtonWhisperPrevent		View/Edit Ignore List
+khiButtonWhisperList		View/Edit Recipient List
+
+khiUnitManageDeployedUnit		These units are deployed for combat. The number/character next to the unit represents the hot key you should use to select that unit in battle. Double-click a deployed unit to move it to the reserves. Repaired destroyed units and newly purchased units are automatically deployed if possible.
+khiUnitManageReserves		Double-click a reserve unit to deploy it. Improperly equipped units and destroyed units cannot be deployed.
+khiUnitManageClear		Clear all unit deployment.
+khiUnitManageCancel		Undo recent assignments (also accomplished by <ESC>).
+khiUnitManageOK			Complete deployment (also accomplished by <ENTER>).
+khiUnitManageLeft			Scroll left (also accomplished by left arrow key).
+khiUnitManageRight		Scroll right (also accomplished by right arrow key).
+
+khiUserInfoFace			Hero face
+khiUserInfoFlag			
+khiUserInfoName				Hero name.
+khiUserInfoNationName		The name of your faction.
+khiUserInfoTitle			The hero's position within his faction.
+khiUserInfoSpecialty		The Division in which the hero has the most experience.
+khiUserInfoRankSpecialty		The hero's rank in his specialty.
+
+khiUserInfoLevel			Experience Level for this Division. Maximum is 60.
+khiUserInfoRank			Rank in this Division. An alphabetic translation of level.
+khiUserInfoUnit			The combined level of the units owned that belong to this Division.
+khiUserInfoXP			Experience earned for this Division. You earn experience when your units gain levels.
+khiUserInfoXPNeeded		How much experience must be earned before reaching the next level in this division.
+
+khiUserInfoPrestige			Prestige ranks battle prowess against other heroes.
+khiUserInfoRecord			Battles won/Battles lost. Battles against aliens count.
+khiUserInfoHonor			Honor. Your units will earn extra health for every 100 honor.
+khiUserInfoTeacher			This hero's Superior.
+khiUserInfoRegiment			The regiment to which this hero belongs.
+khiUserInfoAccomplishments		Medals and Accomplishments earned during this hero's adventures. Some medals provide special bonuses.
+
+khiUserInfoBonus			The number of attribute points available for spending. One attribute point is earned every time you gain a level (if that level is 50 or less).
+
+khiUserInfoTactics			Tactics represents a hero's ability to command troops in battle. For every 20 tactics, one additional unit (above 6) can be commanded.
+khiUserInfoClout			Clout represents a hero's socio-political power. High clout allows heroes access to new chassis types at lower ranks by increasing hero Influence.
+khiUserInfoEducation		Education represents a hero's intellectual training, specifically in the sciences. Education, combined with unit level, determines the technology level of equipment a unit can equip.
+khiUserInfoMechApt		Mechanical aptitude represents a hero's mechanical engineering training. Mech Apt increases the weight capacity of units (Unit weight capacity): (Default weight capacity)x(1 + (Mech Apt)/120)
+
+khiUserInfoMoney			Current resources available.
+khiUserInfoOre			Current resources available.
+khiUserInfoSilicon			Current resources available.
+khiUserInfoUranium		Current resources available.
+khiUserInfoSulfur			Current resources available.
+
+khiUnitShopEntranceSell		Scrap a unit. Units are scrapped at no cost or profit.
+khiUnitShopEntranceBuy		Purchase a predesigned unit.
+khiUnitShopEntranceRepair		Repair a damaged unit.
+khiUnitShopEntranceExit		Exit the Factory. No further transactions are made.
+khiUnitShopInsideListMerchant	These are the predesigned units of this type sold at this shop. The currently selected unit is highlighted. Click "Buy" or press <ENTER> to buy that unit for the price shown. A hero may own up to 48 units.
+khiUnitShopInsideListUser		These are the units you own. The currently selected unit is highlighted. Click "Sell" or press <ENTER> to scrap that unit.
+khiUnitShopInsideListRepair		These units are in need of repair. The currently selected unit is highlighted. Click "Repair" or press <ENTER> to repair that unit at the cost shown. Units cannot be partially repaired
+khiUnitShopInsideButtonOK		Complete the appropriate transaction (also accomplished by <ENTER>).
+khiUnitShopInsideButtonPrev		Scroll left (also accomplished by left arrow key).
+khiUnitShopInsideButtonNext		Scroll right (also accomplished by right arrow key).
+
+khiItemShopEntranceSell		
+khiItemShopEntranceBuy		
+khiItemShopEntranceUpgrade	
+khiItemShopEntranceExit		
+khiItemShopInsideListMerchant	
+khiItemShopInsideListUser		
+
+khiItemShopInsideButtonOK		
+khiItemShopInsideButtonPrev		
+khiItemShopInsideButtonNext		
+khiItemShopInsideButtonUp		
+khiItemShopInsideButtonDown	
+khiItemShopInsideButtonUnitLeft	
+khiItemShopInsideButtonUnitRight	
+
+khiIntegratedShopCategory0		View chassis available at this shop given your clout and rank. Different chassis have different speeds and carrying capacities.
+khiIntegratedShopCategory1		View engine types available at this shop given your education and your unit's level. An engine is required for movement and plays a large role in the durability (health) of a unit. Any engine strain (caused by using too small of an engine) results in increased drain on your power supply.
+khiIntegratedShopCategory2		View power supplies available at this shop given your education and your unit's level. If a unit runs out of energy during battle, it is unable to move or attack. Batteries and Methane reactors only recharge at special locations on the battlefield.
+khiIntegratedShopCategory3		View computers available at this shop given your education and your unit's level. The total complexity of all of your unit's equipment cannot exceed the computer's maximum complexity.
+khiIntegratedShopCategory4		View weapons available at this shop given your education and your unit's level.
+khiIntegratedShopCategory5		View armor available at this shop given your education and your unit's level. Armor can increase unit health and/or absorb damage from attacks. Some types of armor are better suited against certain types of weapons.
+khiIntegratedShopCategory6		View sensors available at this shop given your education and your unit's level. Sensors determine the viewing range of your unit. Units can only fire at units that they can see, even if weapon range is sufficient.
+khiIntegratedShopCategory7		View miscellaneous equipment available at this shop given your education and your unit's level. Miscellaneous equipment includes cargo holds for gathering resources and much of the equipment used by specialist units.
+khiIntegratedShopInsufficientForPay	You do not have enough resources to purchase this item. 
+khiIntegratedShopDone		Complete your design changes. The game server will confirm the legality of your design.
+khiIntegratedShopClear		Undo all changes made thus far.
+khiUpgradeWndDragPossible		You can scroll this screen by moving mouse while holding the left button down.
+khiUpgradeWndPossedItem		View items in your inventory.
+khiUpgradeWndSelectUnit		Select a unit to equip.
+
+khiItemUpgradeGrayedOutItem	This item does not fit in your current design because of weight, space, and/or complexity issues. You can equip it and then further modify your design.
+khiItemUpgradeCrossLineItem	This item is too advanced for your unit. When your unit's level or your Education increases sufficiently, you will be able to use it.
+khiItemUpgradeSelectUnit		Choose another unit to upgrade without changing this unit.
+khiItemUpgradeDone		Complete this design.
+khiItemUpgradeClear		Undo any changes made.
+khiItemUpgradeExit		Exit without making any changes to this unit.
+khiItemUpgradeCostBox		The price of these changes and your current resources.
+khiItemUpgradeWeight		Your unit can only hold so much weight worth of items. Higher Mechanical Aptitude will increase your maximum weight.
+khiItemUpgradeSpace		Your unit can only hold so much space worth of items. Upgrading your unit will increase your maximum space.
+khiItemUpgradeComplexity		Your unit's computer determines how complicated of equipment it can use. Equip a different computer to change your maximum complexity.
+khiItemUpgradeTechLevel		Higher tech items are overall more powerful. Increasing your unit's level or your Education will allow access to higher tech level items.
+khiItemUpgradeHealth		The contribution of this item to your unit's health.
+khiItemUpgradePower		If your engine's power is insufficient for its total weight, your unit's energy drain will be increased.
+khiItemUpgradeEnergyUse		Energy is drained from your power supply every second even when not moving or firing.
+khiItemUpgradeMaxEnergy		The initial and maximum storage capacity of your unit. When a unit runs out of energy, it cannot move or fire. After any battle, your units return to maximum energy.
+khiItemUpgradeEnegryRegen		The rate at which your power supply refuels. Solar, Gamma, and Nuclear power supplies regenerate constantly. Methane and Battery power supplies can be refueled at special locations on the battlefield.
+khiItemUpgradeMaxComplex		The maximum allowed complexity of all equipped items. Current and maximum complexity appears in the bottom right, below the unit diagram.
+khiItemUpgradeXPBonus		The increase in XP gain this unit will receive because of advanced learning algorithms.
+khiItemUpgradeArmor		Any damage received is reduced by your unit's armor. Some armor types are more effective against certain kinds of weapons.
+khiItemUpgradeEffectiveness		The effectiveness (damage, for example) of the special ability conveyed by this item.
+khiItemUpgradeFirePower		The damage inflicted every time this weapon fires. Damage is reduced by the target's Armor.
+khiItemUpgradeCoolDown		How often this weapon can fire.
+khiItemUpgradeRange		The distance at which this unit can reach its target. Note that you cannot hit a target you cannot see, even if it is within range.
+khiItemUpgradeView		The bonus this item provides to your unit's view range.
+khiItemUpgradeCurrentEquipped	This item is currently equipped.
+
+khiExchangeRate0			Exchange rate for ore. To purchase one ore, this much money is required.
+khiExchangeRate1			Exchange rate for silicon. To purchase one silicon, this much money is required.
+khiExchangeRate2			Exchange rate for uranium. To purchase one uranium, this much money is required.
+khiExchangeRate3			Exchange rate for sulfur. To purchase one sulfur, this much money is required.
+khiQuantity0			Amount of ore you are trading. Green indicates a purchase, red indicates a sale.
+khiQuantity1			Amount of silicon you are trading. Green indicates a purchase, red indicates a sale.
+khiQuantity2			Amount of uranium you are trading. Green indicates a purchase, red indicates a sale.
+khiQuantity3			Amount of sulfur you are trading. Green indicates a purchase, red indicates a sale.
+khiQuantitySpin0			Alter the quantity traded.
+khiQuantitySpin1			Alter the quantity traded.
+khiQuantitySpin2			Alter the quantity traded.
+khiQuantitySpin3			Alter the quantity traded.
+khiSubTotal0			Subtotal of cost or profit for ore.
+khiSubTotal1			Subtotal of cost or profit for silicon.
+khiSubTotal2			Subtotal of cost or profit for uranium.
+khiSubTotal3			Subtotal of cost or profit for sulfur.
+khiReserve0			The current quantity of ore.
+khiReserve1			The current quantity of silicon.
+khiReserve2			The current quantity of uranium.
+khiReserve3			The current quantity of sulfur.
+khiCurrentGold			Your current supply of money.
+khiCost				Cost (red) or profit (green) from this transaction.
+khiTax				The amount of tax you will pay. All exchanges are taxed so that repair costs can be subsidized.
+khiFinalGold			Total money after the transaction is complete.
+
+khiHallOfFameSortByName		Sort list alphabetically by name.
+khiHallOfFameSortByNation		Sort list by nation.
+khiHallOfFameSortByLevel		Sort list by prestige.
+khiHallOfFameSortByFame		Sort list by rank.
+khiHallOfFameSortByScore		Sort list by win percentage.
+
+khiHallOfFameHOF			List of the 300 most prestigious heroes.
+khiHallOfFameUL			List of heroes online.
+khiHallOfFameRL			List of all regiments.
+
+khiBBSAnnouncement		Notices from Nexon.
+khiBBSHope			Player suggestions.
+khiBBSGossip			Open forum.
+khiBBSBug			Bug reports.
+khiBBSNation			Faction private BBS
+khiBBSExit			Return to active mode.
+khiBBSWrite			Post a new article.
+khiBBSPage			Go to the specified page.
+khiBBSFindMethod			Choose the field by which to search.
+khiBBSFindText			Search query.
+khiBBSSearchButton			Execute search.
+khiBBSReturnToList			Return to article list.
+khiBBSDelete			Delete this article (author only).
+khiBBSModify			Edit this article (author only).
+khiBBSSend			Submit this article.
+khiBBSCancel			Clear this article.
+
+khiMailExit			Return to active mode.
+khiMailWrite			Mail a message
+khiMailReply			Reply
+khiMailReplyAll			Reply All
+khiMailForward			Forward
+khiMailPage			Go to the specified page.
+khiMailFindMethod			Choose the field by which to search.
+khiMailFindText			Search query.
+khiMailSearchButton		Execute search.
+khiMailReturnToList		Return to article list.
+khiMailDelete			Delete this article.
+khiMailSend			Submit this article.
+khiMailCancel			Clear this article.
+
+khiBDETitle			Assign title to current battle record.
+khiBDEInfo			Assign subtitle to current battle record.
+khiBDEEtc			Take notes on the current battle record.
+khiBDESave			Save changes to this battle record description.
+khiBDECancel			Cancel all edits.
+
+khiBRFManual			Display all available tutorials.
+khiBRFWarRecord			Display all battle records.
+khiBRFPrev			List previous 15 files.
+khiBRFPlay			Play the selected file
+khiBRFNext			List next 15 files.
+khiBRFTitle			
+khiBRFInfo			
+khiBRFEtc				
+khiBRFEdit			khiBRFOK	Edit the battle record's description.
+khiBRFOK				Return to main menu.
+
+khiSysSound			Adjust the volume of sound.
+khiSysMusic			Adjust the volume of background music.
+khiSysFootPrint			Toggle unit footprint feature. When on, ground units leave slowly fading tracks on the ground as they move through most areas.
+khiSysIllumination			Not implemented.
+khiSysEnv				Not implemented.
+khiSysOk				Not implemented.
+khiSysCancel			
+
+khiSBEnter			Enter the simulation province.
+khiSBExit				Return to planetary map.
+
+khiFldLeaderConsole		
+khiFldStart			Begin battle! (Only the first to enter the simulation map can begin the battle.
+khiFldExit				Leave the simulation province.
+khiFldBan				Exile a disruptive hero from this simulated battle. (Only the first to enter the simulation map can begin the battle.
+khiFldBanUser			Name of the hero to be exiled.
+
+khiRoyalRumbleOK			
+khiRoyalRumbleCancel		
+
+khiVoteCampaign			Begins your campaign for election. Only advanced heroes can run for office.
+khiVoteCampaignCancel		Withdraw your candidacy from the election.
+khiVoteNominate			Nominate this candidate for this office. You may only nominate one candidate.
+khiVoteVote			Cast your vote for this candidate. You can only vote for one candidate.
+khiVoteSupport			Support this office-holder. You may either support or oppose each office-holder each day. If the opposition exceeds 70%, the office-holder will be overthrown and a new election period will begin.
+khiVoteOppose			Oppose this office-holder. You may either support or oppose each office-holder each day. If the opposition exceeds 70%, the office-holder will be overthrown and a new election period will begin.
+khiVoteStatement			The candidates official statement. Candidates cannot change their statements after the voting period begins.
+khiVoteStatementOK		Submit your statement.
+
+khiStarCenterWeakestNation		You can get 50% of bonus for each of your units when you join this faction because this faction is the weakest one in this planet.
+
+khiNTCPrev			
+khiNTCNext			
+khiNTCExit			
+
+khiRecordFileVersionInvalid		The version of this battle record is incompatible with the current client.
+
+khiPyramidSetTeacher		Click to pledge your Word of Honor.
+khiPyramidUseExp		Distribute XP from your subordinates.
+khiPyramidInviteEmail		Send email to invite your friends to play SG with you.
+khiPyramidChatTeacher		Whisper your Superior.
+khiPyramidChatStudents		Whisper all of your Subordinates.
+khiPyramidUseExpAutoDistri	Automatically distribute XP to your units.
+khiPyramidUndo			Undo the previous action.
+khiPyramidUseExpClear		Reset the XP distribution.
+khiPyramidInviteEmailSenderName		Enter your name here.
+khiPyramidInviteEmailSenderAddress	Enter your e-mail address.
+khiPyramidInviteEmailReceiverName	Enter your friend's name.
+khiPyramidInviteEmailReceiverAddress	Enter your friend's e-mail address.
+khiPyramidInviteEmailContents	  	Enter the message you want to give.
+khiPyramidInviteEmailSend		Send e-mail to the designated e-mail address
+khiUserInfoReturnCount			The number of times this hero has been reincarnated.
+	 
+ksNationality	The province is under the control of %s.	
+ksWarSave	This battle was saved as %s.\nYou can replay it from the Briefing Room.	

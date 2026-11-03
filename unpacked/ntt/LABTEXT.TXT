@@ -1,0 +1,156 @@
+kFolderCategoryInf	Infantry
+kFolderCategoryMob	Mobile
+kFolderCategoryAvn	Aviation
+kFolderCategorySpc	Organic
+kFolderUnitLevel	 ( Lev : %d )
+kFolderNoUnit		You don't have any %s units
+kGraphCantUpgrade	This unit cannot be upgraded in this planet
+
+kListSensorIcon		Sensor \nIcon
+kListGndAttackIcon	Ground \nAttack
+kListAirAttackIcon	Air  \nAttack
+kListSpecialIcon	Ability \nIcon
+kListItemNameAttr	Name
+kListTechLevel		Tech Lev
+kListMaxWeight		WeightMax
+kListMaxSpace		SpaceMax
+kListSpeed		Speed
+kListEngineEndurance	Health
+kListArmorEndurance	Health
+kListFirePower		Fire \nPower
+kListRange		Range(m)
+kListCoolDown		Cooldown \n(s)
+kListActiveEnergyUse	Energy/\nAmmo Cost
+kListPassiveEnergyUse	Energy/\nAmmo Cost
+kListPower		Power
+kListMaxEnergy		Max
+kListEnergyRegen	Regen
+kListMaxComplexity	Max \ncomplexity
+kListXpBonus		XP \nBonus
+kListArmor		Armor
+kListSensorRange	Damage
+kListArgument		Eff.
+kListAmmoDamage		Damage
+kListAmmoEnergyUse	Energy \nCost
+
+kListGndAtk		Ground Attack Available
+kListAirAtk		Air Attack Available
+kListDSensor		Directional Sensor
+kListOSensor		Omni Sensor
+kListMoreAvailable	More items available at higher tech level
+
+ksItemLevelOver		Some of these items are too advanced for this unit. Please modify your design.
+ksItemNoEngine		No Engine
+ksItemWeightOver	Insufficient weight capacity. Please modify your design.
+ksItemSpaceOver		Insufficient space! Please modify your design.
+ksItemComplexityOver	Your equipment is too complex for this unit's computer. Please modify your design.
+
+ksItemSellDeny		This shop doesn't buy the item that your unit has on that equip slot and you cannot hold any more items. Sell some of your items first and then try this again.
+ksItemUnequipNotify	This shop doesn't buy the item that you want to discard. Press "Unequip" to put the item in your inventory.
+ksItemSellUnequip	You already have the %s equipped there. Do you want to sell it or just unequip it and put it in your inventory?
+ksItemMerchantNotBuy	The shop doesn't buy this item
+ksItemUnequip		This shop doesn't buy the item that your unit has on that equip slot. Press "Unequip" to put the item in your inventory and equip the new item.
+ksItemAskSellUnequip	Do you want to sell the item or just want to keep it in your inventory for later use?
+
+ksUpgradeIntroduce		Here is Laboratory where player can upgrade. \n Please click the left button for unit upgrade, right button for item upgrade.
+ksUnitUpgradeIntroduce	This section is for unit upgrades. Please select the unit which you wish to upgrade.
+ksUnitUpgradeSelect		Please double click the upgrade unit to complete your unit upgrade.
+ksUnitUpgradeBlank		Please select a unit.
+ksItemUpgradeIntroduce	This section is for upgrading your items. Please select the unit which you want to upgrade.
+ksItemUpgradeSelect		Please select the items you wish to upgrade.  Please click the "DONE" button to complete the upgrade.
+ksItemUpgradeDone		Upgrade process complete. If you wish to upgrade more units then please select another unit to be upgraded.
+
+
+ksItemMaxTechLevel	Max Tech Level : %d
+
+ksItemChassisName	Chassis:       %s
+ksItemLevel		Level:         %5d(%4.1f%%)
+ksItemKill		Kills:         %5d
+
+ksItemFirePower		Firepower:     %5d
+ksItemCoolDown		Cooldown:      %5.1f s
+ksItemRange		Range:         %5d m
+ksItemView		View:          %5d m
+ksItemHealth		Health:        %5d
+ksItemArmor		Armor:         %5d
+ksItemSpeed		Speed:         %5.1f m/s
+ksItemEngStrain		Eng. Usage:    %5.1f %%
+ksItemSupply		Enrgy Supply:  %5d kJ
+ksItemWeaponUse		Weapon Enrgy:  %5d kJ/use
+ksItemDrain		Enrgy Drain:   %5d kJ/s
+ksItemRegen		Enrgy Regen:   %5d kJ/s
+ksItemAmmoDamage	Ammo Damage : %5d
+ksItemAmmoCost		Ammo Energy Cost : %5d kJ/use
+
+ksItemHeroItemSell	Items were sold successfully.
+ksWellDone		Unit upgrade successful.
+ksJobFail		Your design has been rejected. Please modify.
+ksWaitServerConfirm	The server is verifying your design...
+
+ksUnitStatus		Current U.Q. : %d   Xp : %d   \nWeight : %d   Space : %d
+ksUpgradeStatus		Required U.Q : %d
+ksDiffWeight		Weight : %d ( %d )
+ksDiffSpace		Space : %d ( %d )
+ksDiffEndurance		Endurance : %d ( %d )
+ksDiffHealth		Health : %d ( %d )
+ksDiffSpeed		Speed : %3.1f m/s ( %3.1f m/s )
+ksDiffView		View : %3.1f m ( %3.1f m )
+ksDiffWeightPlus	Weight : +%d ( %d )
+ksDiffSpacePlus		Space : +%d ( %d )
+ksDiffEndurancePlus	Endurance : +%d ( %d )
+ksDiffHealthPlus	Health : +%d ( %d )
+ksDiffSpeedPlus		Speed : +%3.1f m/s ( %3.1f m/s )
+ksDiffViewPlus		View : +%3.1f m ( %3.1f m )
+ksUpgradePossible	\nUpgrade Possible
+ksUpgradeImpossible	\nUpgrade Impossible
+ksConfirmUpgrade	Are you certain you want to upgrade from %s to %s? Your currently equipped items will be lost.
+
+ksDlgItemStockFull	Your item stock is full. Sell some item in your stock to unequip this item.
+ksDlgItemCantBeSold	The shop doesn't accept %s item. Unequip this instead of selling it.
+ksDlgNeedUnitName	Unit name must be submitted.
+ksDlgCurseWordDetected	That unit name contains a restricted word. Please choose another name.
+ksDlgEngine		Engine
+ksDlgPower		Power
+ksDlgComputer		Computer
+ksDlgWeapon		Weapon
+ksDlgArmor		Armor
+ksDlgSensor		Sensor
+ksDlgMisc		Misc
+ksDlgAmmo		Ammo
+
+ksShopFirePower			Fire Power
+ksShopNoMoreUnits		You cannot own any more units. You already have %d units.\n
+ksShopRecruitOK			Recruiting %s\nOK!!!\n
+ksShopInsufficientResource	Insufficient Resources to recruit\n%s\n
+ksShopThrowAway			Throwing %s away\nOK!!!\n
+ksShopRepair			Repairing %s\nOK!!!\n
+ksShopRepairDone		All units are repaired.
+ksShopInsufficientResourceToRepair	Insufficient resources to repair\n%s\n
+ksShopLevelLow			You need to be at least influence %d to buy this unit.\n
+ksShopInfluenceAcquired		%s's Influence : %d
+ksShopInfluence			Influence Rqd : %d
+ksShopSellConfirm		Are you certain you want to sell %s?
+ksShopBuyCapitalOnly		You can only do this transaction in your capital.
+ksShopRepairAll			All units are repaired.
+ksShopUnitBasicInfo		Weight  %d\nSpace   %d
+ksShopCurrentHealth		Health
+ksShopCurrentLevel		Level %d
+ksShopMyUnitLevel		%s\nlev:%d
+ksShopMyUnitUnitCount		Total : %d
+ksShopMyUnitCountNew	UNITS (CUR/MAX): %d/%d
+ksShopUnitInfo			Your division influence : %d\nInfluence required      : %d\nWeight : %d\nSpace  : %d
+
+ksShopBuyConfirm		Are you certain you want to recruit this unit?<%s>
+ksShopRepairAllConfirm		Are you certain you want to repair all units?
+ksShopSellConfirm		Are you sure you want to sell <%s>?
+ksShopIntroduce			This is the FACTORY where you can BUY, SELL and REPAIR units. To buy units, please select a unit on the left.  To sell or repair, select a unit from your reserve and click the command.
+
+ksRepairAllInsufficientResource		Insufficient resources.
+ksRepairAllTotalUnits			Inf:%d Mob:%d Avi:%d Org:%d \n             Total : %d
+
+ksMaxEnergyOver			Max unit entry is %d. You need to enhance your Tactics to use more units in the battle.
+ksDeathUnit			Destroyed units cannot be deployed.
+ksEquippingInvalidItem		The unit is equipped with items which cannot be equipped. Go to the lab and equip it properly.
+ksBubbleHelp1			%s (lvl: %d)
+ksBubbleHelp2			Health : %d / %d
+ksTopHelp				Help\nF2 : Move Back\nF3 : Sort by Name\nF4 : Sort by Type\nF5 : Clear\nF6 : Auto Deploy\nF7 : Complete\nShift+Arrow :\n     Move 1 slot\nPress A-Z:\n     Move to the\n     first letter of\n     the unit's name

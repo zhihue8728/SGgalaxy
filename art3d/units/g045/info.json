@@ -1,0 +1,1324 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g045",
+ "kind": "ground",
+ "chassis": [
+  "Leviathan",
+  "Leviathan-Mk2",
+  "Leviathan-Mk3",
+  "Leviathan-Mk4",
+  "Leviathan-Mk5",
+  "Leviathan-Mk6",
+  "Leviathan-Mk7"
+ ],
+ "base_chassis": [
+  "Leviathan"
+ ],
+ "names_cn": {
+  "Leviathan": "利维坦"
+ },
+ "names_tw": {
+  "Leviathan": "利維坦"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Leviathan",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 40,
+   "slots": 10,
+   "max_weight_kg": 140,
+   "max_space_l": 3,
+   "unit_weight_kg": 300,
+   "type": "Mechanical",
+   "base_health": 3060,
+   "base_armor": 45,
+   "speed_m_s": 2,
+   "view_range_m": 10,
+   "view_type": "Cone",
+   "chassis_code": "g045",
+   "chassis_image": "g045st.xpf",
+   "description_summary": "Twin cannons make this anti-tank fast enough to catch fleeing tanks."
+  },
+  {
+   "name": "Leviathan-Mk2",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 52,
+   "slots": 10,
+   "max_weight_kg": 140,
+   "max_space_l": 3,
+   "unit_weight_kg": 300,
+   "type": "Mechanical",
+   "base_health": 3660,
+   "base_armor": 46,
+   "speed_m_s": 2,
+   "view_range_m": 10.25,
+   "view_type": "Cone",
+   "chassis_code": "g045",
+   "chassis_image": "g045st.xpf",
+   "description_summary": "Dual-cannon antitank with light armor, fast enough to chase retreating tanks."
+  },
+  {
+   "name": "Leviathan-Mk3",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 65,
+   "slots": 10,
+   "max_weight_kg": 140,
+   "max_space_l": 3,
+   "unit_weight_kg": 300,
+   "type": "Mechanical",
+   "base_health": 4500,
+   "base_armor": 49,
+   "speed_m_s": 2.1,
+   "view_range_m": 10.5,
+   "view_type": "Cone",
+   "chassis_code": "g045",
+   "description_summary": "Dual-cannon antitank unit; light armor lets it chase retreating tanks."
+  },
+  {
+   "name": "Leviathan-Mk4",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 77,
+   "slots": 10,
+   "max_weight_kg": 140,
+   "max_space_l": 3,
+   "unit_weight_kg": 300,
+   "type": "Mechanical",
+   "base_health": 5520,
+   "base_armor": 54,
+   "speed_m_s": 2.2,
+   "view_range_m": 10.75,
+   "view_type": "Cone",
+   "chassis_code": "g045",
+   "chassis_image": "g045st.xpf",
+   "description_summary": "Dual-cannon antitank with light armor, chasing down slower retreating tanks."
+  },
+  {
+   "name": "Leviathan-Mk5",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 90,
+   "slots": 10,
+   "max_weight_kg": 140,
+   "max_space_l": 3,
+   "unit_weight_kg": 300,
+   "type": "Mechanical",
+   "base_health": 6900,
+   "base_armor": 57,
+   "speed_m_s": 2.3,
+   "view_range_m": 11,
+   "view_type": "Cone",
+   "chassis_code": "g045",
+   "chassis_image": "g045st.xpf",
+   "description_summary": "Outlaw antitank unit with dual cannons, light armor, and good speed."
+  },
+  {
+   "name": "Leviathan-Mk6",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 102,
+   "slots": 10,
+   "max_weight_kg": 140,
+   "max_space_l": 3,
+   "unit_weight_kg": 300,
+   "type": "Mechanical",
+   "base_health": 8370,
+   "base_armor": 66,
+   "speed_m_s": 2.4,
+   "view_range_m": 11.25,
+   "view_type": "Cone",
+   "chassis_code": "g045",
+   "description_summary": "Dual-cannon antitank unit; light armor lets it chase retreating tanks."
+  },
+  {
+   "name": "Leviathan-Mk7",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 115,
+   "slots": 10,
+   "max_weight_kg": 140,
+   "max_space_l": 3,
+   "unit_weight_kg": 300,
+   "type": "Mechanical",
+   "base_health": 10380,
+   "base_armor": 75,
+   "speed_m_s": 2.5,
+   "view_range_m": 11.5,
+   "view_type": "Cone",
+   "chassis_code": "g045",
+   "description_summary": "Dual-cannon antitank unit; light armor lets it chase retreating tanks."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g045at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 101,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      112,
+      66
+     ],
+     [
+      113,
+      77
+     ]
+    ],
+    "1": [
+     [
+      112,
+      77
+     ],
+     [
+      109,
+      85
+     ]
+    ],
+    "2": [
+     [
+      107,
+      85
+     ],
+     [
+      98,
+      92
+     ]
+    ],
+    "3": [
+     [
+      98,
+      91
+     ],
+     [
+      86,
+      92
+     ]
+    ],
+    "4": [
+     [
+      87,
+      97
+     ],
+     [
+      72,
+      94
+     ]
+    ],
+    "5": [
+     [
+      71,
+      96
+     ],
+     [
+      60,
+      92
+     ]
+    ],
+    "6": [
+     [
+      61,
+      92
+     ],
+     [
+      52,
+      84
+     ]
+    ],
+    "7": [
+     [
+      52,
+      84
+     ],
+     [
+      45,
+      76
+     ]
+    ],
+    "8": [
+     [
+      46,
+      76
+     ],
+     [
+      46,
+      67
+     ]
+    ],
+    "9": [
+     [
+      45,
+      67
+     ],
+     [
+      52,
+      58
+     ]
+    ],
+    "10": [
+     [
+      51,
+      58
+     ],
+     [
+      59,
+      50
+     ]
+    ],
+    "11": [
+     [
+      60,
+      51
+     ],
+     [
+      71,
+      48
+     ]
+    ],
+    "12": [
+     [
+      73,
+      47
+     ],
+     [
+      87,
+      47
+     ]
+    ],
+    "13": [
+     [
+      88,
+      47
+     ],
+     [
+      101,
+      51
+     ]
+    ],
+    "14": [
+     [
+      99,
+      52
+     ],
+     [
+      112,
+      58
+     ]
+    ],
+    "15": [
+     [
+      111,
+      58
+     ],
+     [
+      115,
+      66
+     ]
+    ],
+    "16": [
+     [
+      112,
+      66
+     ],
+     [
+      113,
+      77
+     ]
+    ],
+    "17": [
+     [
+      112,
+      77
+     ],
+     [
+      109,
+      85
+     ]
+    ],
+    "18": [
+     [
+      107,
+      85
+     ],
+     [
+      98,
+      92
+     ]
+    ],
+    "19": [
+     [
+      98,
+      91
+     ],
+     [
+      86,
+      92
+     ]
+    ],
+    "20": [
+     [
+      87,
+      97
+     ],
+     [
+      72,
+      94
+     ]
+    ],
+    "21": [
+     [
+      71,
+      96
+     ],
+     [
+      60,
+      92
+     ]
+    ],
+    "22": [
+     [
+      61,
+      92
+     ],
+     [
+      52,
+      84
+     ]
+    ],
+    "23": [
+     [
+      52,
+      84
+     ],
+     [
+      45,
+      76
+     ]
+    ],
+    "24": [
+     [
+      46,
+      76
+     ],
+     [
+      46,
+      67
+     ]
+    ],
+    "25": [
+     [
+      45,
+      67
+     ],
+     [
+      52,
+      58
+     ]
+    ],
+    "26": [
+     [
+      51,
+      58
+     ],
+     [
+      59,
+      50
+     ]
+    ],
+    "27": [
+     [
+      60,
+      51
+     ],
+     [
+      71,
+      48
+     ]
+    ],
+    "28": [
+     [
+      73,
+      47
+     ],
+     [
+      87,
+      47
+     ]
+    ],
+    "29": [
+     [
+      88,
+      47
+     ],
+     [
+      101,
+      51
+     ]
+    ],
+    "30": [
+     [
+      99,
+      52
+     ],
+     [
+      112,
+      58
+     ]
+    ],
+    "31": [
+     [
+      111,
+      58
+     ],
+     [
+      115,
+      66
+     ]
+    ],
+    "32": [
+     [
+      112,
+      66
+     ],
+     [
+      113,
+      77
+     ]
+    ],
+    "33": [
+     [
+      112,
+      77
+     ],
+     [
+      109,
+      85
+     ]
+    ],
+    "34": [
+     [
+      107,
+      85
+     ],
+     [
+      98,
+      92
+     ]
+    ],
+    "35": [
+     [
+      98,
+      91
+     ],
+     [
+      86,
+      92
+     ]
+    ],
+    "36": [
+     [
+      87,
+      97
+     ],
+     [
+      72,
+      94
+     ]
+    ],
+    "37": [
+     [
+      71,
+      96
+     ],
+     [
+      60,
+      92
+     ]
+    ],
+    "38": [
+     [
+      61,
+      92
+     ],
+     [
+      52,
+      84
+     ]
+    ],
+    "39": [
+     [
+      52,
+      84
+     ],
+     [
+      45,
+      76
+     ]
+    ],
+    "40": [
+     [
+      46,
+      76
+     ],
+     [
+      46,
+      67
+     ]
+    ],
+    "41": [
+     [
+      45,
+      67
+     ],
+     [
+      52,
+      58
+     ]
+    ],
+    "42": [
+     [
+      51,
+      58
+     ],
+     [
+      59,
+      50
+     ]
+    ],
+    "43": [
+     [
+      60,
+      51
+     ],
+     [
+      71,
+      48
+     ]
+    ],
+    "44": [
+     [
+      73,
+      47
+     ],
+     [
+      87,
+      47
+     ]
+    ],
+    "45": [
+     [
+      88,
+      47
+     ],
+     [
+      101,
+      51
+     ]
+    ],
+    "46": [
+     [
+      99,
+      52
+     ],
+     [
+      112,
+      58
+     ]
+    ],
+    "47": [
+     [
+      111,
+      58
+     ],
+     [
+      115,
+      66
+     ]
+    ],
+    "48": [
+     [
+      112,
+      66
+     ],
+     [
+      113,
+      77
+     ]
+    ],
+    "49": [
+     [
+      112,
+      77
+     ],
+     [
+      109,
+      85
+     ]
+    ],
+    "50": [
+     [
+      107,
+      85
+     ],
+     [
+      98,
+      92
+     ]
+    ],
+    "51": [
+     [
+      98,
+      91
+     ],
+     [
+      86,
+      92
+     ]
+    ],
+    "52": [
+     [
+      87,
+      97
+     ],
+     [
+      72,
+      94
+     ]
+    ],
+    "53": [
+     [
+      71,
+      96
+     ],
+     [
+      60,
+      92
+     ]
+    ],
+    "54": [
+     [
+      61,
+      92
+     ],
+     [
+      52,
+      84
+     ]
+    ],
+    "55": [
+     [
+      52,
+      84
+     ],
+     [
+      45,
+      76
+     ]
+    ],
+    "56": [
+     [
+      46,
+      76
+     ],
+     [
+      46,
+      67
+     ]
+    ],
+    "57": [
+     [
+      45,
+      67
+     ],
+     [
+      52,
+      58
+     ]
+    ],
+    "58": [
+     [
+      51,
+      58
+     ],
+     [
+      59,
+      50
+     ]
+    ],
+    "59": [
+     [
+      60,
+      51
+     ],
+     [
+      71,
+      48
+     ]
+    ],
+    "60": [
+     [
+      73,
+      47
+     ],
+     [
+      87,
+      47
+     ]
+    ],
+    "61": [
+     [
+      88,
+      47
+     ],
+     [
+      101,
+      51
+     ]
+    ],
+    "62": [
+     [
+      99,
+      52
+     ],
+     [
+      112,
+      58
+     ]
+    ],
+    "63": [
+     [
+      111,
+      58
+     ],
+     [
+      115,
+      66
+     ]
+    ]
+   },
+   "sheet": "sheets/g045at.png",
+   "sheet_crop": [
+    41,
+    46,
+    119,
+    114
+   ],
+   "cell": [
+    78,
+    68
+   ],
+   "pivot_in_cell": [
+    39,
+    37
+   ]
+  },
+  {
+   "file": "g045atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g045atb.png",
+   "sheet_crop": [
+    49,
+    53,
+    112,
+    102
+   ],
+   "cell": [
+    63,
+    49
+   ],
+   "pivot_in_cell": [
+    31,
+    30
+   ]
+  },
+  {
+   "file": "g045atc.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "c",
+   "layer_doc": "extra layer (purpose not confirmed)",
+   "type": 9,
+   "type_raw": 63497,
+   "canvas": [
+    56,
+    90
+   ],
+   "pivot": [
+    30,
+    62
+   ],
+   "frame_count": 7,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g045atc.png",
+   "sheet_crop": [
+    12,
+    30,
+    48,
+    75
+   ],
+   "cell": [
+    36,
+    45
+   ],
+   "pivot_in_cell": [
+    18,
+    32
+   ]
+  },
+  {
+   "file": "g045ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g045da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g045da.png",
+   "sheet_crop": [
+    44,
+    51,
+    113,
+    99
+   ],
+   "cell": [
+    69,
+    48
+   ],
+   "pivot_in_cell": [
+    36,
+    32
+   ]
+  },
+  {
+   "file": "g045das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g045mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g045mo.png",
+   "sheet_crop": [
+    43,
+    46,
+    117,
+    113
+   ],
+   "cell": [
+    74,
+    67
+   ],
+   "pivot_in_cell": [
+    37,
+    37
+   ]
+  },
+  {
+   "file": "g045mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g045mob.png",
+   "sheet_crop": [
+    57,
+    57,
+    103,
+    93
+   ],
+   "cell": [
+    46,
+    36
+   ],
+   "pivot_in_cell": [
+    23,
+    26
+   ]
+  },
+  {
+   "file": "g045mod.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g045mod.png",
+   "sheet_crop": [
+    32,
+    35,
+    132,
+    126
+   ],
+   "cell": [
+    100,
+    91
+   ],
+   "pivot_in_cell": [
+    48,
+    48
+   ]
+  },
+  {
+   "file": "g045mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g045mop.png",
+   "sheet_crop": [
+    47,
+    56,
+    113,
+    109
+   ],
+   "cell": [
+    66,
+    53
+   ],
+   "pivot_in_cell": [
+    33,
+    27
+   ]
+  },
+  {
+   "file": "g045mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g045st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g045st.png",
+   "sheet_crop": [
+    41,
+    46,
+    119,
+    114
+   ],
+   "cell": [
+    78,
+    68
+   ],
+   "pivot_in_cell": [
+    39,
+    37
+   ]
+  },
+  {
+   "file": "g045stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g045stb.png",
+   "sheet_crop": [
+    55,
+    57,
+    105,
+    94
+   ],
+   "cell": [
+    50,
+    37
+   ],
+   "pivot_in_cell": [
+    25,
+    26
+   ]
+  },
+  {
+   "file": "g045sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    157,
+    157
+   ],
+   "pivot": [
+    80,
+    83
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

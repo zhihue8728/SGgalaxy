@@ -1,0 +1,667 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a006",
+ "kind": "air",
+ "chassis": [
+  "Oizys-Ampla",
+  "Oizys-Magna",
+  "Oizys-Prima"
+ ],
+ "base_chassis": [
+  "Oizys-Ampla",
+  "Oizys-Magna",
+  "Oizys-Prima"
+ ],
+ "names_cn": {
+  "Oizys-Ampla": "欧伊兹进阶",
+  "Oizys-Magna": "欧伊兹强化",
+  "Oizys-Prima": "欧伊兹初阶"
+ },
+ "names_tw": {
+  "Oizys-Ampla": "歐伊茲進階",
+  "Oizys-Magna": "歐伊茲強化",
+  "Oizys-Prima": "歐伊茲初階"
+ },
+ "alien_role": "Oizys",
+ "manual": [
+  {
+   "name": "Oizys-Ampla",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 10,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 894,
+   "base_armor": 0,
+   "speed_m_s": 7.8,
+   "view_range_m": 15.5,
+   "view_type": "Omni",
+   "chassis_code": "a006",
+   "chassis_image": "a006st.xpf",
+   "description_summary": "Exceptionally fast hunter that takes prey down with scorching magma-hot breath."
+  },
+  {
+   "name": "Oizys-Magna",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 20,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 981,
+   "base_armor": 0,
+   "speed_m_s": 8,
+   "view_range_m": 16,
+   "view_type": "Omni",
+   "chassis_code": "a006",
+   "description_summary": "Exceptionally fast hunter that defeats prey with scorching magma-hot breath."
+  },
+  {
+   "name": "Oizys-Prima",
+   "category": "Organic",
+   "group": "Xeno-ignus",
+   "unit_quality": 0,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 825,
+   "base_armor": 0,
+   "speed_m_s": 7.6,
+   "view_range_m": 15,
+   "view_type": "Omni",
+   "chassis_code": "a006",
+   "chassis_image": "a006st.xpf",
+   "description_summary": "Fast magma-breathing hunter that kills prey with scorching breath."
+  }
+ ],
+ "layers": [
+  {
+   "file": "a006at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    54,
+    54
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      54,
+      57
+     ]
+    ],
+    "1": [
+     [
+      54,
+      55
+     ]
+    ],
+    "2": [
+     [
+      54,
+      55
+     ]
+    ],
+    "3": [
+     [
+      54,
+      58
+     ]
+    ],
+    "4": [
+     [
+      56,
+      56
+     ]
+    ],
+    "5": [
+     [
+      54,
+      57
+     ]
+    ],
+    "6": [
+     [
+      54,
+      54
+     ]
+    ],
+    "7": [
+     [
+      55,
+      57
+     ]
+    ],
+    "8": [
+     [
+      54,
+      60
+     ]
+    ],
+    "9": [
+     [
+      54,
+      60
+     ]
+    ],
+    "10": [
+     [
+      54,
+      55
+     ]
+    ],
+    "11": [
+     [
+      54,
+      58
+     ]
+    ],
+    "12": [
+     [
+      54,
+      61
+     ]
+    ],
+    "13": [
+     [
+      54,
+      57
+     ]
+    ],
+    "14": [
+     [
+      54,
+      54
+     ]
+    ],
+    "15": [
+     [
+      55,
+      57
+     ]
+    ],
+    "16": [
+     [
+      59,
+      65
+     ]
+    ],
+    "17": [
+     [
+      58,
+      67
+     ]
+    ],
+    "18": [
+     [
+      54,
+      65
+     ]
+    ],
+    "19": [
+     [
+      53,
+      65
+     ]
+    ],
+    "20": [
+     [
+      49,
+      64
+     ]
+    ],
+    "21": [
+     [
+      51,
+      64
+     ]
+    ],
+    "22": [
+     [
+      55,
+      62
+     ]
+    ],
+    "23": [
+     [
+      58,
+      64
+     ]
+    ],
+    "24": [
+     [
+      62,
+      69
+     ]
+    ],
+    "25": [
+     [
+      60,
+      74
+     ]
+    ],
+    "26": [
+     [
+      54,
+      72
+     ]
+    ],
+    "27": [
+     [
+      51,
+      72
+     ]
+    ],
+    "28": [
+     [
+      50,
+      69
+     ]
+    ],
+    "29": [
+     [
+      49,
+      63
+     ]
+    ],
+    "30": [
+     [
+      54,
+      60
+     ]
+    ],
+    "31": [
+     [
+      58,
+      63
+     ]
+    ],
+    "32": [
+     [
+      55,
+      65
+     ]
+    ],
+    "33": [
+     [
+      55,
+      67
+     ]
+    ],
+    "34": [
+     [
+      54,
+      65
+     ]
+    ],
+    "35": [
+     [
+      53,
+      67
+     ]
+    ],
+    "36": [
+     [
+      49,
+      66
+     ]
+    ],
+    "37": [
+     [
+      51,
+      66
+     ]
+    ],
+    "38": [
+     [
+      54,
+      62
+     ]
+    ],
+    "39": [
+     [
+      55,
+      67
+     ]
+    ],
+    "40": [
+     [
+      54,
+      63
+     ]
+    ],
+    "41": [
+     [
+      54,
+      60
+     ]
+    ],
+    "42": [
+     [
+      54,
+      58
+     ]
+    ],
+    "43": [
+     [
+      54,
+      60
+     ]
+    ],
+    "44": [
+     [
+      54,
+      60
+     ]
+    ],
+    "45": [
+     [
+      50,
+      62
+     ]
+    ],
+    "46": [
+     [
+      54,
+      61
+     ]
+    ],
+    "47": [
+     [
+      55,
+      63
+     ]
+    ]
+   },
+   "sheet": "sheets/a006at.png",
+   "sheet_crop": [
+    34,
+    24,
+    75,
+    88
+   ],
+   "cell": [
+    41,
+    64
+   ],
+   "pivot_in_cell": [
+    20,
+    30
+   ]
+  },
+  {
+   "file": "a006atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    54,
+    54
+   ],
+   "frame_count": 48,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/a006atd.png",
+   "sheet_crop": [
+    38,
+    44,
+    70,
+    83
+   ],
+   "cell": [
+    32,
+    39
+   ],
+   "pivot_in_cell": [
+    16,
+    10
+   ]
+  },
+  {
+   "file": "a006ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    54,
+    54
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a006da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    46,
+    60
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a006da.png",
+   "sheet_crop": [
+    25,
+    42,
+    68,
+    81
+   ],
+   "cell": [
+    43,
+    39
+   ],
+   "pivot_in_cell": [
+    21,
+    18
+   ]
+  },
+  {
+   "file": "a006mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    107,
+    105
+   ],
+   "pivot": [
+    54,
+    54
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a006mo.png",
+   "sheet_crop": [
+    20,
+    24,
+    87,
+    89
+   ],
+   "cell": [
+    67,
+    65
+   ],
+   "pivot_in_cell": [
+    34,
+    30
+   ]
+  },
+  {
+   "file": "a006mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    107,
+    105
+   ],
+   "pivot": [
+    54,
+    54
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a006st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    54,
+    54
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a006st.png",
+   "sheet_crop": [
+    35,
+    24,
+    75,
+    79
+   ],
+   "cell": [
+    40,
+    55
+   ],
+   "pivot_in_cell": [
+    19,
+    30
+   ]
+  },
+  {
+   "file": "a006sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    54,
+    54
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

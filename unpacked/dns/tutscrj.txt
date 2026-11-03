@@ -1,0 +1,132 @@
+131
+0 In Shattered Galaxy, you will operate in one of two modes.
+1 This mode is hero mode.  It is used for interaction with other players, buying and designing units, and assorted organizational purposes.
+2 In this tutorial, I will demonstrate the user interface for hero mode.
+3 The second mode is unit mode.  Unit mode is used during combat.
+4 Clicking on your hero shows your hero's status.
+5 On the left side are your hero's stats for one of the four divisions of units.
+6 These buttons allow you to change the division shown.
+7 Experience level for this division.  Maximum is 99.
+8 Rank in that division.  An alphabetic translation of level.
+9 The combined level of the units you own that belong to this division.
+10 Experience your hero has earned in this division.  Heros earn experience when their units gain levels.
+11 How much experience must be earned before reaching the next level in this division.
+12 Prestige will provide a system of ranking between players.  Currently, an implementation similar to the USCF ranking system is planned.
+13 Battles won/Battles lost.  Battles against aliens count.
+14 Medals, honors, etc.  Currently not implemented.
+15 Testing characters will be cleared of possessions and levels before commercial service begins.  We intend to permanently acknowledge testers through Accomplishments.
+16 Political Title.
+17 The division in which the hero has the most experience.
+18 The hero's rank in his specialty.
+19 Hero attributes.
+20 The number of attribute points available for spending.  One attribute point is earned every time a hero gains a level.
+21 Attribute points are spent using the appropriate arrow buttons.
+22 Money and resources.  Wealth.  
+23 We have plans for a dynamic economy, with different nations and planets and provinces having different reserves for each of the four resources.
+24 Such a system will place strategic importance on warfare, as nations struggle for resources they lack.
+25 This aspect of the game will be developed early on in testing.
+26 The Resource Market allows players to convert money into resources and vice versa.  Exchange rates are dynamic and will later vary from nation to nation.
+27 Unit Deployment.  The units in the section on top are deployed for battle.  The units on the bottom will not fight.
+28 Single-clicking on a unit selects it.
+29 Double-clicking on a unit switches it from active to reserve duty and vice versa.
+30 Each deployment position corresponds to a hot key as shown.
+31 Pressing a hot key during battle selects that unit.  Pressing a hot key twice centers the action on that unit.  Backspace selects all units.
+32 Information on the active unit is shown in the bottom portion of the screen.
+33 Except for Passive Energy, these should be self-explanatory.
+34 Each unit has limited energy reserves with which to fight a battle.  If a unit runs out of energy, it cannot move or attack.
+35 Energy usage is divided into two types: Passive and Active energy.
+36 Active energy is energy spent by firing weapons or using special abilities.  You have control over active energy spent, since you control your unit's actions.
+37 Passive energy is used by your unit's computer, engine, armor, sensors, and miscellaneous equipment.  It is constant throughout battle.
+38 This gauge provides an estimate of your unit's energy reserves.
+39 This dark region shows what portion of your unit's total energy will be spent as passive energy in the time frame shown.
+40 Planet Map.  Provinces controlled by each nation are shown.
+41 Small hero icons show where other users are located.  
+42 If your hero moves into a region not owned by his own nation (or an allied nation), you will enter unit mode and fight a battle for the province.
+43 Provinces not owned by any nation are swarming with alien lifeforms that must be defeated to conquer the province.
+44 The alien lifeforms spawn from underground caverns whose air is too corrosive for permanent control by humans.
+45 Unoccupied provinces will eventually be reclaimed by the aliens.
+46 Shattered Galaxy has three communication modes.  For each, you communicate by pressing <Enter> and then the text you wish to transmit.
+47 The first mode is speech.  Anything spoken appears above your hero and all around you will hear.
+48 The second mode is through a com channel.  Enter the name of the person you wish to transmit to.  Only they will receive your transmission.
+49 The third mode is an encoded transmission.  This mode is only used in the battlefield.  Only your allies will be able to decode your transmission.
+50 The eventual purpose of this button is a secret.
+51 Even from me.
+52 Hero Census.  All heroes are shown in the Hall of Fame.  Only online heroes are shown in the User List.
+53 Not used in hero mode.
+54 Unit Outfitting.  The format and usage of this screen is very similar to Unit Design, which is explained in another tutorial.
+55 Bulletin Board System.  Not yet implemented.
+56 To move your hero, right click on your destination in either the action window or the map window.
+57 You can communicate with other heroes or visit other screens while your hero is moving.
+58 Our tour of the hero mode user interface in complete.
+59 Please send any questions or comments to beta@sgalaxy.com.
+60 In this tutorial, I will demonstrate how to buy and modify units.
+61 Premade units can be bought at the factory.
+62 Units can also be sold and repaired at the factory.
+63 At the top the division of unit being considered is selected.
+64 All available units in the highlighted division are displayed here.
+65 In the lower left, a schematic of the selected unit is shown, along with a brief description.
+66 In the lower right, the cost of the unit and your available resources are shown.
+67 Let's buy a Footman.
+68 We will now visit the lab to upgrade the Footman's weaponry.
+69 The 'New' option allows units to be designed completely from scratch.  We want to upgrade Roland.
+70 First, we must choose which unit to upgrade.  
+71 The selected unit's stats are shown in the equipment summary window.  In this case, the equipment is Roland.
+72 Note that your hero is one of the options.
+73 By 'upgrading' your hero, you can buy equipment that can later be used to outfit your units without returning to the lab.
+74 Double-clicking on a chassis begins the upgrading process.
+75 The menu at the top shows the various equipment types available.
+76 Below this menu are items available to you of that type.
+77 How many items you will see will depend upon your unit's level and your education.
+78 To the bottom left is a schematic of your unit, shown with the equipment it currently uses.
+79 When an item is selected, its attributes appear in the equipment summary window.
+80 Below the equipment summary window is the design summary window.
+81 Each chassis can hold only a certain amount of weight.  The amount of weight your unit can hold increases as your Mechanical Aptitude increases.
+82 The space restriction is currently not implemented.
+83 Your unit's computer governs the maximum complexity of items your unit can use.
+84 Engine strain measures how overburdened your unit's engine is.  The higher the engine strain, the more passive energy your unit will consume in battle.
+85 When an item is selected, the design summary window shows the change to your unit that using that item will have.
+86 For example, upgrading Roland's engine to the Light Javelin increases how much weight Roland is carrying, but decreases his engine strain.
+87 Note that even though the Light Javelin uses more energy than Roland's Tinker Gizmo, passive energy requirements decrease because of the lower engine strain.
+88 Double-clicking on an item in the lab equips it, automatically unequipping the old item.
+89 The old item can either be sold or put into your hero's inventory for later use.
+90 Let's upgrade Roland's weapon.
+91 For weapons, several standard prefixes are used: V = Versatile (can attack both air and ground units); X = eXtra range; C = Cooling system (shorter cooldown time); H = Heavy (more damage)
+92 Let's give Roland a powerful Gatling Rifle.
+93 Now Roland's items are too complex for his computer to support.  We must upgrade his computer.
+94 The Orion Mark III is the smallest computer that will be capable of handling Roland's new equipment.
+95 Now the complexity requirement has been satisfied.  But Roland's chassis cannot hold so much weight.  If my hero's Mech Apt were high enough, I would not have this problem.
+96 Selling Roland's armor makes his design acceptable.
+97 The resource icons show how much these changes will cost.  If I had insufficient resources available, the icon would appear red to indicate an error.
+98 The 'Done' button completes the upgrade of Roland.  Our tour of the unit design interface is complete.
+99 In this tutorial, I will demonstrate the basics of tactical combat.
+100 It is time for battle!  Let's find some aliens to pulverize!
+101 The previous tutorials were partially scripted.  Once we get to the battlefield, this will be ad lib.
+102 Please excuse my slow typing and any typographical errors.
+103 Note that I have my units in active position before entering the battlefield.
+104 Hello and welcome to Shattered Galaxy: Massive Online Warfare!
+105 My name is Kevin and I'll be the game director throughout this testing period.
+106 As you've seen from our website, we have an ambitious project planned.
+107 You will soon note that many features are not yet implemented, many edges are still rough.
+108 But you will also notice great potential; potential for a game unlike any yet created.
+109 That is why you are here.
+110 I look forward to working with all of you and hope that I have the opportunity to interact with many of you individually.
+111 Together we will make a fantastic game.
+112 Let's get started with a brief overview of this testing phase and then character creation.
+113 In this first phase of testing, the emphasis is on the tactical aspects of the game.
+114 These aspects include the balancing of character attributes, item and unit designs, and the economy.
+115 Additionally, the features intended to increase the enjoyment and tactical nature of combat will be developed and emphasized.
+116 The purpose of these tutorials is to introduce you to many of the games' basic features.  These tutorials are by no means complete.
+117 But you are all intelligent people and I am confident you will figure it out.
+118 'Connect' establishes a connection between your client and our game server.
+119 Here is the hero creation screen.
+120 Your hero's name, appearance, and nation can all be chosen.  The map shows the current territory controlled by the nation you have selected.
+121 Heroes have four attributes.
+122 All heroes can command up to six units in battle.  For every 20 points of Tactics an additional unit can be commanded.
+123 Tactics also has a slight effect on unit health.
+124 Clout directly affects how much tribute your character gains from provinces.
+125 High clout will also result in more thorough intelligence reports and heroes with high clout will gain access to new chassis types more rapidly.
+126 Education greatly impacts what items your units will be able to equip.  Heroes with higher education can acquire items involving a higher level of technology.
+127 Mechanical Aptitude (Mech Apt) reduces weight restrictions when designing units.  This effect can result in heavier armor or more powerful weapons or lesser energy concerns.
+128 Clicking on the disk icon saves that attribute, so that it is not altered when changing other attributes.
+129 For example, suppose I want my character to have 15 Education and 15 Mech Apt.
+130 The tutorial for character creation is complete.

@@ -1,0 +1,1557 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g006",
+ "kind": "ground",
+ "chassis": [
+  "Spectre",
+  "Spectre-Mk2",
+  "Spectre-Mk3",
+  "Spectre-Mk4",
+  "Spectre-Mk5",
+  "Spectre-Mk6",
+  "Spectre-Mk7"
+ ],
+ "base_chassis": [
+  "Spectre"
+ ],
+ "names_cn": {
+  "Spectre": "幽魂"
+ },
+ "names_tw": {
+  "Spectre": "幽魂"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Spectre",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 36,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 15,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 1440,
+   "base_armor": 0,
+   "speed_m_s": 1.6,
+   "view_range_m": 11.5,
+   "view_type": "Cone",
+   "chassis_code": "g006",
+   "description_summary": "Anti-air chassis carrying powerful nuclear devices for mass destruction; naturally phasic."
+  },
+  {
+   "name": "Spectre-Mk2",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 50,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 17,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 1770,
+   "base_armor": 3,
+   "speed_m_s": 1.6,
+   "view_range_m": 11.75,
+   "view_type": "Cone",
+   "chassis_code": "g006",
+   "description_summary": "Anti-air chassis carrying nuclear devices for area destruction; naturally phasic."
+  },
+  {
+   "name": "Spectre-Mk3",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 64,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 18,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 2190,
+   "base_armor": 6,
+   "speed_m_s": 1.6,
+   "view_range_m": 12,
+   "view_type": "Cone",
+   "chassis_code": "g006",
+   "chassis_image": "g006st.xpf",
+   "description_summary": "Anti-air chassis carrying nuclear devices; naturally phasic."
+  },
+  {
+   "name": "Spectre-Mk4",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 78,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 20,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 2760,
+   "base_armor": 9,
+   "speed_m_s": 1.7,
+   "view_range_m": 12.25,
+   "view_type": "Cone",
+   "chassis_code": "g006",
+   "description_summary": "Anti-air chassis built to carry powerful nuclear devices for mass destruction."
+  },
+  {
+   "name": "Spectre-Mk5",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 92,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 22,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 3450,
+   "base_armor": 12,
+   "speed_m_s": 1.7,
+   "view_range_m": 12.5,
+   "view_type": "Cone",
+   "chassis_code": "g006",
+   "chassis_image": "g006st.xpf",
+   "description_summary": "Anti-air chassis carrying nuclear devices for mass destruction; naturally phasic."
+  },
+  {
+   "name": "Spectre-Mk6",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 106,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 24,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 4290,
+   "base_armor": 15,
+   "speed_m_s": 1.9,
+   "view_range_m": 12.75,
+   "view_type": "Cone",
+   "chassis_code": "g006",
+   "description_summary": "Anti-air chassis carrying nuclear devices for mass destruction; naturally phasic."
+  },
+  {
+   "name": "Spectre-Mk7",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 120,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 26,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 5280,
+   "base_armor": 18,
+   "speed_m_s": 2.1,
+   "view_range_m": 13,
+   "view_type": "Cone",
+   "chassis_code": "g006",
+   "chassis_image": "g006st.xpf",
+   "description_summary": "Anti-air chassis built to carry nuclear devices for mass destruction."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g006at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      83,
+      68
+     ],
+     [
+      81,
+      86
+     ]
+    ],
+    "1": [
+     [
+      88,
+      73
+     ],
+     [
+      70,
+      86
+     ]
+    ],
+    "2": [
+     [
+      87,
+      80
+     ],
+     [
+      63,
+      80
+     ]
+    ],
+    "3": [
+     [
+      81,
+      87
+     ],
+     [
+      65,
+      71
+     ]
+    ],
+    "4": [
+     [
+      71,
+      86
+     ],
+     [
+      70,
+      68
+     ]
+    ],
+    "5": [
+     [
+      63,
+      82
+     ],
+     [
+      83,
+      68
+     ]
+    ],
+    "6": [
+     [
+      63,
+      73
+     ],
+     [
+      88,
+      75
+     ]
+    ],
+    "7": [
+     [
+      71,
+      66
+     ],
+     [
+      88,
+      82
+     ]
+    ],
+    "8": [
+     [
+      83,
+      68
+     ],
+     [
+      81,
+      86
+     ]
+    ],
+    "9": [
+     [
+      88,
+      73
+     ],
+     [
+      70,
+      86
+     ]
+    ],
+    "10": [
+     [
+      87,
+      80
+     ],
+     [
+      63,
+      80
+     ]
+    ],
+    "11": [
+     [
+      81,
+      87
+     ],
+     [
+      65,
+      71
+     ]
+    ],
+    "12": [
+     [
+      71,
+      86
+     ],
+     [
+      70,
+      68
+     ]
+    ],
+    "13": [
+     [
+      63,
+      82
+     ],
+     [
+      83,
+      68
+     ]
+    ],
+    "14": [
+     [
+      63,
+      73
+     ],
+     [
+      88,
+      75
+     ]
+    ],
+    "15": [
+     [
+      71,
+      66
+     ],
+     [
+      88,
+      82
+     ]
+    ],
+    "16": [
+     [
+      83,
+      68
+     ],
+     [
+      81,
+      86
+     ]
+    ],
+    "17": [
+     [
+      88,
+      73
+     ],
+     [
+      70,
+      86
+     ]
+    ],
+    "18": [
+     [
+      87,
+      80
+     ],
+     [
+      63,
+      80
+     ]
+    ],
+    "19": [
+     [
+      81,
+      87
+     ],
+     [
+      65,
+      71
+     ]
+    ],
+    "20": [
+     [
+      71,
+      86
+     ],
+     [
+      70,
+      68
+     ]
+    ],
+    "21": [
+     [
+      63,
+      82
+     ],
+     [
+      83,
+      68
+     ]
+    ],
+    "22": [
+     [
+      63,
+      73
+     ],
+     [
+      88,
+      75
+     ]
+    ],
+    "23": [
+     [
+      71,
+      66
+     ],
+     [
+      88,
+      82
+     ]
+    ],
+    "24": [
+     [
+      75,
+      68
+     ],
+     [
+      74,
+      86
+     ]
+    ],
+    "25": [
+     [
+      83,
+      70
+     ],
+     [
+      68,
+      84
+     ]
+    ],
+    "26": [
+     [
+      87,
+      80
+     ],
+     [
+      63,
+      75
+     ]
+    ],
+    "27": [
+     [
+      84,
+      82
+     ],
+     [
+      70,
+      69
+     ]
+    ],
+    "28": [
+     [
+      76,
+      87
+     ],
+     [
+      79,
+      68
+     ]
+    ],
+    "29": [
+     [
+      68,
+      83
+     ],
+     [
+      83,
+      68
+     ]
+    ],
+    "30": [
+     [
+      63,
+      73
+     ],
+     [
+      88,
+      75
+     ]
+    ],
+    "31": [
+     [
+      64,
+      73
+     ],
+     [
+      83,
+      82
+     ]
+    ],
+    "32": [
+     [
+      79,
+      66
+     ],
+     [
+      76,
+      85
+     ]
+    ],
+    "33": [
+     [
+      85,
+      72
+     ],
+     [
+      65,
+      84
+     ]
+    ],
+    "34": [
+     [
+      87,
+      80
+     ],
+     [
+      62,
+      77
+     ]
+    ],
+    "35": [
+     [
+      85,
+      85
+     ],
+     [
+      66,
+      71
+     ]
+    ],
+    "36": [
+     [
+      73,
+      84
+     ],
+     [
+      73,
+      66
+     ]
+    ],
+    "37": [
+     [
+      63,
+      82
+     ],
+     [
+      83,
+      68
+     ]
+    ],
+    "38": [
+     [
+      63,
+      73
+     ],
+     [
+      88,
+      75
+     ]
+    ],
+    "39": [
+     [
+      68,
+      68
+     ],
+     [
+      88,
+      82
+     ]
+    ]
+   },
+   "sheet": "sheets/g006at.png",
+   "sheet_crop": [
+    52,
+    61,
+    102,
+    112
+   ],
+   "cell": [
+    50,
+    51
+   ],
+   "pivot_in_cell": [
+    23,
+    38
+   ]
+  },
+  {
+   "file": "g006atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g006atb.png",
+   "sheet_crop": [
+    61,
+    68,
+    93,
+    94
+   ],
+   "cell": [
+    32,
+    26
+   ],
+   "pivot_in_cell": [
+    14,
+    31
+   ]
+  },
+  {
+   "file": "g006ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g006da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g006da.png",
+   "sheet_crop": [
+    54,
+    81,
+    101,
+    119
+   ],
+   "cell": [
+    47,
+    38
+   ],
+   "pivot_in_cell": [
+    21,
+    18
+   ]
+  },
+  {
+   "file": "g006mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g006mo.png",
+   "sheet_crop": [
+    54,
+    58,
+    100,
+    114
+   ],
+   "cell": [
+    46,
+    56
+   ],
+   "pivot_in_cell": [
+    21,
+    41
+   ]
+  },
+  {
+   "file": "g006mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g006mob.png",
+   "sheet_crop": [
+    63,
+    65,
+    90,
+    89
+   ],
+   "cell": [
+    27,
+    24
+   ],
+   "pivot_in_cell": [
+    12,
+    34
+   ]
+  },
+  {
+   "file": "g006mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g006mop.png",
+   "sheet_crop": [
+    59,
+    84,
+    94,
+    114
+   ],
+   "cell": [
+    35,
+    30
+   ],
+   "pivot_in_cell": [
+    16,
+    15
+   ]
+  },
+  {
+   "file": "g006mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g006sg.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 39,
+   "type_raw": 39,
+   "canvas": [
+    145,
+    141
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      75,
+      86
+     ]
+    ],
+    "1": [
+     [
+      76,
+      88
+     ]
+    ],
+    "2": [
+     [
+      75,
+      87
+     ]
+    ],
+    "3": [
+     [
+      76,
+      87
+     ]
+    ],
+    "4": [
+     [
+      76,
+      88
+     ]
+    ],
+    "5": [
+     [
+      75,
+      87
+     ]
+    ],
+    "6": [
+     [
+      76,
+      89
+     ]
+    ],
+    "7": [
+     [
+      76,
+      89
+     ]
+    ],
+    "8": [
+     [
+      75,
+      86
+     ]
+    ],
+    "9": [
+     [
+      76,
+      88
+     ]
+    ],
+    "10": [
+     [
+      75,
+      87
+     ]
+    ],
+    "11": [
+     [
+      76,
+      87
+     ]
+    ],
+    "12": [
+     [
+      76,
+      88
+     ]
+    ],
+    "13": [
+     [
+      75,
+      87
+     ]
+    ],
+    "14": [
+     [
+      76,
+      89
+     ]
+    ],
+    "15": [
+     [
+      76,
+      89
+     ]
+    ],
+    "16": [
+     [
+      75,
+      86
+     ]
+    ],
+    "17": [
+     [
+      76,
+      88
+     ]
+    ],
+    "18": [
+     [
+      75,
+      87
+     ]
+    ],
+    "19": [
+     [
+      76,
+      87
+     ]
+    ],
+    "20": [
+     [
+      76,
+      88
+     ]
+    ],
+    "21": [
+     [
+      75,
+      87
+     ]
+    ],
+    "22": [
+     [
+      76,
+      89
+     ]
+    ],
+    "23": [
+     [
+      76,
+      89
+     ]
+    ],
+    "24": [
+     [
+      75,
+      86
+     ]
+    ],
+    "25": [
+     [
+      76,
+      88
+     ]
+    ],
+    "26": [
+     [
+      75,
+      87
+     ]
+    ],
+    "27": [
+     [
+      76,
+      87
+     ]
+    ],
+    "28": [
+     [
+      76,
+      88
+     ]
+    ],
+    "29": [
+     [
+      75,
+      87
+     ]
+    ],
+    "30": [
+     [
+      76,
+      89
+     ]
+    ],
+    "31": [
+     [
+      76,
+      89
+     ]
+    ],
+    "32": [
+     [
+      75,
+      86
+     ]
+    ],
+    "33": [
+     [
+      76,
+      88
+     ]
+    ],
+    "34": [
+     [
+      75,
+      87
+     ]
+    ],
+    "35": [
+     [
+      76,
+      87
+     ]
+    ],
+    "36": [
+     [
+      76,
+      88
+     ]
+    ],
+    "37": [
+     [
+      75,
+      87
+     ]
+    ],
+    "38": [
+     [
+      76,
+      89
+     ]
+    ],
+    "39": [
+     [
+      76,
+      89
+     ]
+    ],
+    "40": [
+     [
+      75,
+      86
+     ]
+    ],
+    "41": [
+     [
+      76,
+      88
+     ]
+    ],
+    "42": [
+     [
+      75,
+      87
+     ]
+    ],
+    "43": [
+     [
+      76,
+      87
+     ]
+    ],
+    "44": [
+     [
+      76,
+      88
+     ]
+    ],
+    "45": [
+     [
+      75,
+      87
+     ]
+    ],
+    "46": [
+     [
+      76,
+      89
+     ]
+    ],
+    "47": [
+     [
+      76,
+      89
+     ]
+    ],
+    "48": [
+     [
+      75,
+      86
+     ]
+    ],
+    "49": [
+     [
+      76,
+      88
+     ]
+    ],
+    "50": [
+     [
+      75,
+      87
+     ]
+    ],
+    "51": [
+     [
+      76,
+      87
+     ]
+    ],
+    "52": [
+     [
+      76,
+      88
+     ]
+    ],
+    "53": [
+     [
+      75,
+      87
+     ]
+    ],
+    "54": [
+     [
+      76,
+      89
+     ]
+    ],
+    "55": [
+     [
+      76,
+      89
+     ]
+    ],
+    "56": [
+     [
+      75,
+      86
+     ]
+    ],
+    "57": [
+     [
+      76,
+      88
+     ]
+    ],
+    "58": [
+     [
+      75,
+      87
+     ]
+    ],
+    "59": [
+     [
+      76,
+      87
+     ]
+    ],
+    "60": [
+     [
+      76,
+      88
+     ]
+    ],
+    "61": [
+     [
+      75,
+      87
+     ]
+    ],
+    "62": [
+     [
+      76,
+      89
+     ]
+    ],
+    "63": [
+     [
+      76,
+      89
+     ]
+    ],
+    "64": [
+     [
+      75,
+      86
+     ]
+    ],
+    "65": [
+     [
+      76,
+      88
+     ]
+    ],
+    "66": [
+     [
+      75,
+      87
+     ]
+    ],
+    "67": [
+     [
+      76,
+      87
+     ]
+    ],
+    "68": [
+     [
+      76,
+      88
+     ]
+    ],
+    "69": [
+     [
+      75,
+      87
+     ]
+    ],
+    "70": [
+     [
+      76,
+      89
+     ]
+    ],
+    "71": [
+     [
+      76,
+      89
+     ]
+    ],
+    "72": [
+     [
+      75,
+      86
+     ]
+    ],
+    "73": [
+     [
+      76,
+      88
+     ]
+    ],
+    "74": [
+     [
+      75,
+      87
+     ]
+    ],
+    "75": [
+     [
+      76,
+      87
+     ]
+    ],
+    "76": [
+     [
+      76,
+      88
+     ]
+    ],
+    "77": [
+     [
+      75,
+      87
+     ]
+    ],
+    "78": [
+     [
+      76,
+      89
+     ]
+    ],
+    "79": [
+     [
+      76,
+      89
+     ]
+    ]
+   },
+   "sheet": "sheets/g006sg.png",
+   "sheet_crop": [
+    54,
+    61,
+    100,
+    115
+   ],
+   "cell": [
+    46,
+    54
+   ],
+   "pivot_in_cell": [
+    21,
+    38
+   ]
+  },
+  {
+   "file": "g006sgb.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    141
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g006sgb.png",
+   "sheet_crop": [
+    60,
+    68,
+    93,
+    99
+   ],
+   "cell": [
+    33,
+    31
+   ],
+   "pivot_in_cell": [
+    15,
+    31
+   ]
+  },
+  {
+   "file": "g006sgs.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    141
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  },
+  {
+   "file": "g006st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g006st.png",
+   "sheet_crop": [
+    55,
+    61,
+    98,
+    112
+   ],
+   "cell": [
+    43,
+    51
+   ],
+   "pivot_in_cell": [
+    20,
+    38
+   ]
+  },
+  {
+   "file": "g006stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g006stb.png",
+   "sheet_crop": [
+    64,
+    68,
+    89,
+    94
+   ],
+   "cell": [
+    25,
+    26
+   ],
+   "pivot_in_cell": [
+    11,
+    31
+   ]
+  },
+  {
+   "file": "g006sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    75,
+    99
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

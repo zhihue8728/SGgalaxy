@@ -1,0 +1,826 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g011",
+ "kind": "ground",
+ "chassis": [
+  "Ubik-Amplus",
+  "Ubik-Magnus",
+  "Ubik-Maximus",
+  "Ubik-Primus"
+ ],
+ "base_chassis": [
+  "Ubik-Amplus",
+  "Ubik-Magnus",
+  "Ubik-Maximus",
+  "Ubik-Primus"
+ ],
+ "names_cn": {
+  "Ubik-Amplus": "尤比克进阶",
+  "Ubik-Magnus": "尤比克强化",
+  "Ubik-Maximus": "尤比克极致",
+  "Ubik-Primus": "尤比克初阶"
+ },
+ "names_tw": {
+  "Ubik-Amplus": "尤比克進階",
+  "Ubik-Magnus": "尤比克強化",
+  "Ubik-Maximus": "尤比克極致",
+  "Ubik-Primus": "尤比克初階"
+ },
+ "alien_role": "Ubik",
+ "manual": [
+  {
+   "name": "Ubik-Amplus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 10,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1629,
+   "base_armor": 0,
+   "speed_m_s": 4.1,
+   "view_range_m": 15.5,
+   "view_type": "Cone",
+   "chassis_code": "g011",
+   "chassis_image": "g011st.xpf",
+   "description_summary": "Common across Morgana Galaxy, spits acid at ground and air forces."
+  },
+  {
+   "name": "Ubik-Magnus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 20,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1782,
+   "base_armor": 0,
+   "speed_m_s": 4.1,
+   "view_range_m": 16,
+   "view_type": "Cone",
+   "chassis_code": "g011",
+   "chassis_image": "g011st.xpf",
+   "description_summary": "Common across Morgana Galaxy; spits acid at ground and air forces."
+  },
+  {
+   "name": "Ubik-Maximus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 30,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1992,
+   "base_armor": 0,
+   "speed_m_s": 4.5,
+   "view_range_m": 16.5,
+   "view_type": "Cone",
+   "chassis_code": "g011",
+   "description_summary": "Common across Morgana Galaxy; spits acid at ground and air forces."
+  },
+  {
+   "name": "Ubik-Primus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 0,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1500,
+   "base_armor": 0,
+   "speed_m_s": 3.8,
+   "view_range_m": 15,
+   "view_type": "Cone",
+   "chassis_code": "g011",
+   "chassis_image": "g011st.xpf",
+   "description_summary": "Common across Morgana Galaxy; spits acid at ground and air forces."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g011at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      51,
+      46
+     ]
+    ],
+    "1": [
+     [
+      48,
+      49
+     ]
+    ],
+    "2": [
+     [
+      44,
+      49
+     ]
+    ],
+    "3": [
+     [
+      40,
+      48
+     ]
+    ],
+    "4": [
+     [
+      38,
+      46
+     ]
+    ],
+    "5": [
+     [
+      40,
+      42
+     ]
+    ],
+    "6": [
+     [
+      45,
+      39
+     ]
+    ],
+    "7": [
+     [
+      49,
+      44
+     ]
+    ],
+    "8": [
+     [
+      51,
+      46
+     ]
+    ],
+    "9": [
+     [
+      48,
+      49
+     ]
+    ],
+    "10": [
+     [
+      44,
+      49
+     ]
+    ],
+    "11": [
+     [
+      40,
+      48
+     ]
+    ],
+    "12": [
+     [
+      38,
+      46
+     ]
+    ],
+    "13": [
+     [
+      40,
+      42
+     ]
+    ],
+    "14": [
+     [
+      45,
+      39
+     ]
+    ],
+    "15": [
+     [
+      49,
+      44
+     ]
+    ],
+    "16": [
+     [
+      51,
+      46
+     ]
+    ],
+    "17": [
+     [
+      48,
+      49
+     ]
+    ],
+    "18": [
+     [
+      44,
+      49
+     ]
+    ],
+    "19": [
+     [
+      40,
+      48
+     ]
+    ],
+    "20": [
+     [
+      38,
+      46
+     ]
+    ],
+    "21": [
+     [
+      40,
+      42
+     ]
+    ],
+    "22": [
+     [
+      45,
+      39
+     ]
+    ],
+    "23": [
+     [
+      49,
+      44
+     ]
+    ],
+    "24": [
+     [
+      51,
+      46
+     ]
+    ],
+    "25": [
+     [
+      48,
+      49
+     ]
+    ],
+    "26": [
+     [
+      44,
+      49
+     ]
+    ],
+    "27": [
+     [
+      40,
+      48
+     ]
+    ],
+    "28": [
+     [
+      38,
+      46
+     ]
+    ],
+    "29": [
+     [
+      40,
+      42
+     ]
+    ],
+    "30": [
+     [
+      45,
+      39
+     ]
+    ],
+    "31": [
+     [
+      49,
+      44
+     ]
+    ],
+    "32": [
+     [
+      51,
+      46
+     ]
+    ],
+    "33": [
+     [
+      48,
+      49
+     ]
+    ],
+    "34": [
+     [
+      44,
+      49
+     ]
+    ],
+    "35": [
+     [
+      40,
+      48
+     ]
+    ],
+    "36": [
+     [
+      38,
+      46
+     ]
+    ],
+    "37": [
+     [
+      40,
+      42
+     ]
+    ],
+    "38": [
+     [
+      45,
+      39
+     ]
+    ],
+    "39": [
+     [
+      49,
+      44
+     ]
+    ],
+    "40": [
+     [
+      51,
+      46
+     ]
+    ],
+    "41": [
+     [
+      48,
+      49
+     ]
+    ],
+    "42": [
+     [
+      44,
+      49
+     ]
+    ],
+    "43": [
+     [
+      40,
+      48
+     ]
+    ],
+    "44": [
+     [
+      38,
+      46
+     ]
+    ],
+    "45": [
+     [
+      40,
+      42
+     ]
+    ],
+    "46": [
+     [
+      45,
+      39
+     ]
+    ],
+    "47": [
+     [
+      49,
+      44
+     ]
+    ],
+    "48": [
+     [
+      51,
+      46
+     ]
+    ],
+    "49": [
+     [
+      48,
+      49
+     ]
+    ],
+    "50": [
+     [
+      44,
+      49
+     ]
+    ],
+    "51": [
+     [
+      40,
+      48
+     ]
+    ],
+    "52": [
+     [
+      38,
+      46
+     ]
+    ],
+    "53": [
+     [
+      40,
+      42
+     ]
+    ],
+    "54": [
+     [
+      45,
+      39
+     ]
+    ],
+    "55": [
+     [
+      49,
+      44
+     ]
+    ],
+    "56": [
+     [
+      58,
+      48
+     ]
+    ],
+    "57": [
+     [
+      48,
+      49
+     ]
+    ],
+    "58": [
+     [
+      44,
+      49
+     ]
+    ],
+    "59": [
+     [
+      40,
+      49
+     ]
+    ],
+    "60": [
+     [
+      31,
+      46
+     ]
+    ],
+    "61": [
+     [
+      34,
+      41
+     ]
+    ],
+    "62": [
+     [
+      45,
+      39
+     ]
+    ],
+    "63": [
+     [
+      54,
+      41
+     ]
+    ]
+   },
+   "sheet": "sheets/g011at.png",
+   "sheet_crop": [
+    20,
+    34,
+    70,
+    75
+   ],
+   "cell": [
+    50,
+    41
+   ],
+   "pivot_in_cell": [
+    23,
+    29
+   ]
+  },
+  {
+   "file": "g011atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g011atd.png",
+   "sheet_crop": [
+    23,
+    32,
+    67,
+    64
+   ],
+   "cell": [
+    44,
+    32
+   ],
+   "pivot_in_cell": [
+    20,
+    31
+   ]
+  },
+  {
+   "file": "g011ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": true
+  },
+  {
+   "file": "g011da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g011da.png",
+   "sheet_crop": [
+    23,
+    39,
+    57,
+    65
+   ],
+   "cell": [
+    34,
+    26
+   ],
+   "pivot_in_cell": [
+    18,
+    13
+   ]
+  },
+  {
+   "file": "g011mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g011mo.png",
+   "sheet_crop": [
+    27,
+    36,
+    64,
+    75
+   ],
+   "cell": [
+    37,
+    39
+   ],
+   "pivot_in_cell": [
+    16,
+    27
+   ]
+  },
+  {
+   "file": "g011mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g011mop.png",
+   "sheet_crop": [
+    27,
+    47,
+    62,
+    75
+   ],
+   "cell": [
+    35,
+    28
+   ],
+   "pivot_in_cell": [
+    16,
+    16
+   ]
+  },
+  {
+   "file": "g011mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g011st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g011st.png",
+   "sheet_crop": [
+    29,
+    31,
+    61,
+    70
+   ],
+   "cell": [
+    32,
+    39
+   ],
+   "pivot_in_cell": [
+    14,
+    32
+   ]
+  },
+  {
+   "file": "g011sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    43,
+    63
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

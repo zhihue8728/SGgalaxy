@@ -1,0 +1,441 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g046",
+ "kind": "ground",
+ "chassis": [
+  "Mlortha-Amplus",
+  "Mlortha-Extremus",
+  "Mlortha-Magnus",
+  "Mlortha-Maximus",
+  "Mlortha-Primus"
+ ],
+ "base_chassis": [
+  "Mlortha-Amplus",
+  "Mlortha-Extremus",
+  "Mlortha-Magnus",
+  "Mlortha-Maximus",
+  "Mlortha-Primus"
+ ],
+ "names_cn": {
+  "Mlortha-Amplus": "姆洛萨进阶",
+  "Mlortha-Extremus": "姆洛萨究极",
+  "Mlortha-Magnus": "姆洛萨强化",
+  "Mlortha-Maximus": "姆洛萨极致",
+  "Mlortha-Primus": "姆洛萨初阶"
+ },
+ "names_tw": {
+  "Mlortha-Amplus": "姆洛薩進階",
+  "Mlortha-Extremus": "姆洛薩究極",
+  "Mlortha-Magnus": "姆洛薩強化",
+  "Mlortha-Maximus": "姆洛薩極致",
+  "Mlortha-Primus": "姆洛薩初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Mlortha-Amplus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 9081,
+   "base_armor": 18,
+   "speed_m_s": 5.6,
+   "view_range_m": 12.25,
+   "view_type": "Cone",
+   "chassis_code": "g046",
+   "chassis_image": "g046st.xpf"
+  },
+  {
+   "name": "Mlortha-Extremus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 14871,
+   "base_armor": 30,
+   "speed_m_s": 6,
+   "view_range_m": 13,
+   "view_type": "Cone",
+   "chassis_code": "g046",
+   "chassis_image": "g046st.xpf"
+  },
+  {
+   "name": "Mlortha-Magnus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 100,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 10737,
+   "base_armor": 21,
+   "speed_m_s": 5.6,
+   "view_range_m": 12.5,
+   "view_type": "Cone",
+   "chassis_code": "g046",
+   "chassis_image": "g046st.xpf"
+  },
+  {
+   "name": "Mlortha-Maximus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 110,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 12660,
+   "base_armor": 25,
+   "speed_m_s": 6,
+   "view_range_m": 12.75,
+   "view_type": "Cone",
+   "chassis_code": "g046",
+   "chassis_image": "g046st.xpf"
+  },
+  {
+   "name": "Mlortha-Primus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 80,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 7674,
+   "base_armor": 15,
+   "speed_m_s": 5.2,
+   "view_range_m": 12,
+   "view_type": "Cone",
+   "chassis_code": "g046",
+   "chassis_image": "g046st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g046at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g046at.png",
+   "sheet_crop": [
+    22,
+    21,
+    147,
+    133
+   ],
+   "cell": [
+    125,
+    112
+   ],
+   "pivot_in_cell": [
+    62,
+    66
+   ]
+  },
+  {
+   "file": "g046ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g046da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g046da.png",
+   "sheet_crop": [
+    50,
+    55,
+    130,
+    123
+   ],
+   "cell": [
+    80,
+    68
+   ],
+   "pivot_in_cell": [
+    34,
+    32
+   ]
+  },
+  {
+   "file": "g046das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g046mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g046mo.png",
+   "sheet_crop": [
+    38,
+    24,
+    133,
+    135
+   ],
+   "cell": [
+    95,
+    111
+   ],
+   "pivot_in_cell": [
+    46,
+    63
+   ]
+  },
+  {
+   "file": "g046mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g046mop.png",
+   "sheet_crop": [
+    37,
+    67,
+    131,
+    136
+   ],
+   "cell": [
+    94,
+    69
+   ],
+   "pivot_in_cell": [
+    47,
+    20
+   ]
+  },
+  {
+   "file": "g046mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g046st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 32,
+   "dirs": 8,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g046st.png",
+   "sheet_crop": [
+    40,
+    23,
+    129,
+    133
+   ],
+   "cell": [
+    89,
+    110
+   ],
+   "pivot_in_cell": [
+    44,
+    64
+   ]
+  },
+  {
+   "file": "g046sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    175,
+    175
+   ],
+   "pivot": [
+    84,
+    87
+   ],
+   "frame_count": 32,
+   "dirs": 8,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

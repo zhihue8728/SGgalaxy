@@ -1,0 +1,157 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "h010",
+ "kind": "hero",
+ "chassis": [],
+ "base_chassis": [],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": null,
+ "manual": [],
+ "layers": [
+  {
+   "file": "h010mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    111,
+    111
+   ],
+   "pivot": [
+    55,
+    87
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/h010mo.png",
+   "sheet_crop": [
+    28,
+    26,
+    84,
+    107
+   ],
+   "cell": [
+    56,
+    81
+   ],
+   "pivot_in_cell": [
+    27,
+    61
+   ]
+  },
+  {
+   "file": "h010mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    111,
+    111
+   ],
+   "pivot": [
+    55,
+    87
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "h010st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    111,
+    111
+   ],
+   "pivot": [
+    55,
+    87
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/h010st.png",
+   "sheet_crop": [
+    39,
+    24,
+    74,
+    98
+   ],
+   "cell": [
+    35,
+    74
+   ],
+   "pivot_in_cell": [
+    16,
+    63
+   ]
+  },
+  {
+   "file": "h010sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    111,
+    111
+   ],
+   "pivot": [
+    55,
+    87
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png",
+ "note": "commander body (look 10)"
+}

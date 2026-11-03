@@ -1,0 +1,15 @@
+kPortalNone		**Subterranean Cavern\n \nAliens lurk in the deep recesses of the planet. Left unattended, they will erupt from their underground homes to reclaim the planet's surface.
+kPortalGen		**Field Portal\n \nAllows you to move between provinces. In battle, units can retreat through a field portal.
+kPortalShop		**Unit Assembly Factory (Factory)\n \nAllows you to buy, sell, and repair units.
+kPortalLab		**Unit Development Facility\n \nAllows you to upgrade units with different equipment and technologies.
+kPortalSim		**Simulation Center (Sim)\n \nAllows your units to participate in virtual battle simulations with heroes anywhere in the star system. Winners of Sim battles gain no prizes, losers suffer no losses.
+kPortalExchangeShop	**Resource Exchange Market (REM)\n \nAllows you to buy and sell resources. The faction taxes all transactions.
+kPortalRR		**Royal Rumble\n \nAllows your units to compete in a King-of-the-Hill style Sim battle. The hero whose units survive the longest wins all bets.
+kPortalCityHall		**Faction Headquarters (FHQ)\n \nAllows you to vote in elections and view the domestic and foreign policies of the faction.
+kPortalExercise		**Combat Training Facility (CTF)\n \nAllows you to fight practice battles with premade units. The CTF is the best place to learn basic combat skills.
+kPortalCave		**Artificial Alien Cave (Zoo)\n \nAllows you to fight weak aliens alone. The Zoo is the best place to fight your first battles.
+kPortalStarCenter	**Faction Pledge Center\n \nAllows you to move to a more advanced planet.
+kPortalStarGate		**Dimensional Matrix\n \nAllows you to transport to a Space Station orbiting another planet. Depending upon your faction's technology, some planets in this star system may not be within range.
+kPortalStarView		**Observatory\n \nAllows you to view planets in this star system.
+kPortalNewbieBattle	**Cadet Combat Field\n \nA gathering place for new players to get a taste of real war without the risk of fighting the more powerful heroes.
+kPortalGenToSpaceStation	**Star Portal\n \nAllows you to transport between the planet and the Space Station that orbits it.

@@ -1,0 +1,1101 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g008",
+ "kind": "ground",
+ "chassis": [
+  "Chimera",
+  "Chimera-Mk2",
+  "Chimera-Mk3",
+  "Chimera-Mk4",
+  "Chimera-Mk5",
+  "Chimera-Mk6",
+  "Chimera-Mk7"
+ ],
+ "base_chassis": [
+  "Chimera"
+ ],
+ "names_cn": {
+  "Chimera": "奇美拉"
+ },
+ "names_tw": {
+  "Chimera": "奇美拉"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Chimera",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 25,
+   "slots": 10,
+   "max_weight_kg": 128,
+   "max_space_l": 14,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 2895,
+   "base_armor": 6,
+   "speed_m_s": 2.4,
+   "view_range_m": 9.5,
+   "view_type": "Cone",
+   "chassis_code": "g008",
+   "description_summary": "Lightly armored but far-ranging and fast, it hunts enemy tanks effectively."
+  },
+  {
+   "name": "Chimera-Mk2",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 39,
+   "slots": 10,
+   "max_weight_kg": 128,
+   "max_space_l": 15,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 3738,
+   "base_armor": 8,
+   "speed_m_s": 2.5,
+   "view_range_m": 9.75,
+   "view_type": "Cone",
+   "chassis_code": "g008",
+   "chassis_image": "g008st.xpf",
+   "description_summary": "Weak armor, yet this Tiger uses range and speed against tanks"
+  },
+  {
+   "name": "Chimera-Mk3",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 53,
+   "slots": 10,
+   "max_weight_kg": 128,
+   "max_space_l": 16,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 4581,
+   "base_armor": 11,
+   "speed_m_s": 2.6,
+   "view_range_m": 10,
+   "view_type": "Cone",
+   "chassis_code": "g008",
+   "chassis_image": "g008st.xpf",
+   "description_summary": "Weak armor, but strong range and speed let it destroy tanks."
+  },
+  {
+   "name": "Chimera-Mk4",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 67,
+   "slots": 10,
+   "max_weight_kg": 128,
+   "max_space_l": 18,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 6267,
+   "base_armor": 16,
+   "speed_m_s": 2.8,
+   "view_range_m": 10.25,
+   "view_type": "Cone",
+   "chassis_code": "g008",
+   "chassis_image": "g008st.xpf",
+   "description_summary": "Weak armor, yet long range and speed easily beat tanks."
+  },
+  {
+   "name": "Chimera-Mk5",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 81,
+   "slots": 10,
+   "max_weight_kg": 128,
+   "max_space_l": 21,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 7953,
+   "base_armor": 21,
+   "speed_m_s": 3,
+   "view_range_m": 10.5,
+   "view_type": "Cone",
+   "chassis_code": "g008",
+   "chassis_image": "g008st.xpf",
+   "description_summary": "Fragile yet potent, it uses range and speed to hunt tanks."
+  },
+  {
+   "name": "Chimera-Mk6",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 95,
+   "slots": 10,
+   "max_weight_kg": 128,
+   "max_space_l": 23,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 9639,
+   "base_armor": 26,
+   "speed_m_s": 3.2,
+   "view_range_m": 10.75,
+   "view_type": "Cone",
+   "chassis_code": "g008",
+   "chassis_image": "g008st.xpf",
+   "description_summary": "Lightly armored but long-range and fast, it destroys enemy tanks easily."
+  },
+  {
+   "name": "Chimera-Mk7",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 109,
+   "slots": 10,
+   "max_weight_kg": 128,
+   "max_space_l": 25,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 11325,
+   "base_armor": 31,
+   "speed_m_s": 3.4,
+   "view_range_m": 11,
+   "view_type": "Cone",
+   "chassis_code": "g008",
+   "chassis_image": "g008st.xpf",
+   "description_summary": "Lacks armor but uses range and speed to destroy enemy tanks"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g008at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      70,
+      43
+     ],
+     [
+      68,
+      56
+     ]
+    ],
+    "1": [
+     [
+      71,
+      47
+     ],
+     [
+      64,
+      57
+     ]
+    ],
+    "2": [
+     [
+      71,
+      52
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "3": [
+     [
+      70,
+      57
+     ],
+     [
+      52,
+      60
+     ]
+    ],
+    "4": [
+     [
+      64,
+      60
+     ],
+     [
+      47,
+      57
+     ]
+    ],
+    "5": [
+     [
+      57,
+      60
+     ],
+     [
+      41,
+      55
+     ]
+    ],
+    "6": [
+     [
+      52,
+      60
+     ],
+     [
+      38,
+      52
+     ]
+    ],
+    "7": [
+     [
+      43,
+      58
+     ],
+     [
+      39,
+      46
+     ]
+    ],
+    "8": [
+     [
+      41,
+      56
+     ],
+     [
+      41,
+      41
+     ]
+    ],
+    "9": [
+     [
+      39,
+      50
+     ],
+     [
+      46,
+      38
+     ]
+    ],
+    "10": [
+     [
+      37,
+      47
+     ],
+     [
+      51,
+      36
+     ]
+    ],
+    "11": [
+     [
+      43,
+      42
+     ],
+     [
+      57,
+      38
+     ]
+    ],
+    "12": [
+     [
+      45,
+      38
+     ],
+     [
+      64,
+      38
+     ]
+    ],
+    "13": [
+     [
+      52,
+      37
+     ],
+     [
+      69,
+      42
+     ]
+    ],
+    "14": [
+     [
+      60,
+      36
+     ],
+     [
+      70,
+      46
+     ]
+    ],
+    "15": [
+     [
+      64,
+      38
+     ],
+     [
+      72,
+      50
+     ]
+    ],
+    "16": [
+     [
+      70,
+      43
+     ],
+     [
+      68,
+      56
+     ]
+    ],
+    "17": [
+     [
+      71,
+      47
+     ],
+     [
+      64,
+      57
+     ]
+    ],
+    "18": [
+     [
+      71,
+      52
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "19": [
+     [
+      70,
+      57
+     ],
+     [
+      52,
+      60
+     ]
+    ],
+    "20": [
+     [
+      64,
+      60
+     ],
+     [
+      47,
+      57
+     ]
+    ],
+    "21": [
+     [
+      57,
+      60
+     ],
+     [
+      41,
+      55
+     ]
+    ],
+    "22": [
+     [
+      52,
+      60
+     ],
+     [
+      38,
+      52
+     ]
+    ],
+    "23": [
+     [
+      43,
+      58
+     ],
+     [
+      39,
+      46
+     ]
+    ],
+    "24": [
+     [
+      41,
+      56
+     ],
+     [
+      41,
+      41
+     ]
+    ],
+    "25": [
+     [
+      39,
+      50
+     ],
+     [
+      46,
+      38
+     ]
+    ],
+    "26": [
+     [
+      37,
+      47
+     ],
+     [
+      51,
+      36
+     ]
+    ],
+    "27": [
+     [
+      43,
+      42
+     ],
+     [
+      57,
+      38
+     ]
+    ],
+    "28": [
+     [
+      45,
+      38
+     ],
+     [
+      64,
+      38
+     ]
+    ],
+    "29": [
+     [
+      52,
+      37
+     ],
+     [
+      69,
+      42
+     ]
+    ],
+    "30": [
+     [
+      60,
+      36
+     ],
+     [
+      70,
+      46
+     ]
+    ],
+    "31": [
+     [
+      64,
+      38
+     ],
+     [
+      72,
+      50
+     ]
+    ],
+    "32": [
+     [
+      70,
+      43
+     ],
+     [
+      68,
+      56
+     ]
+    ],
+    "33": [
+     [
+      71,
+      47
+     ],
+     [
+      64,
+      57
+     ]
+    ],
+    "34": [
+     [
+      71,
+      52
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "35": [
+     [
+      70,
+      57
+     ],
+     [
+      52,
+      60
+     ]
+    ],
+    "36": [
+     [
+      64,
+      60
+     ],
+     [
+      47,
+      57
+     ]
+    ],
+    "37": [
+     [
+      57,
+      60
+     ],
+     [
+      41,
+      55
+     ]
+    ],
+    "38": [
+     [
+      52,
+      60
+     ],
+     [
+      38,
+      52
+     ]
+    ],
+    "39": [
+     [
+      43,
+      58
+     ],
+     [
+      39,
+      46
+     ]
+    ],
+    "40": [
+     [
+      41,
+      56
+     ],
+     [
+      41,
+      41
+     ]
+    ],
+    "41": [
+     [
+      39,
+      50
+     ],
+     [
+      46,
+      38
+     ]
+    ],
+    "42": [
+     [
+      37,
+      47
+     ],
+     [
+      51,
+      36
+     ]
+    ],
+    "43": [
+     [
+      43,
+      42
+     ],
+     [
+      57,
+      38
+     ]
+    ],
+    "44": [
+     [
+      45,
+      38
+     ],
+     [
+      64,
+      38
+     ]
+    ],
+    "45": [
+     [
+      52,
+      37
+     ],
+     [
+      69,
+      42
+     ]
+    ],
+    "46": [
+     [
+      60,
+      36
+     ],
+     [
+      70,
+      46
+     ]
+    ],
+    "47": [
+     [
+      64,
+      38
+     ],
+     [
+      72,
+      50
+     ]
+    ]
+   },
+   "sheet": "sheets/g008at.png",
+   "sheet_crop": [
+    32,
+    32,
+    80,
+    81
+   ],
+   "cell": [
+    48,
+    49
+   ],
+   "pivot_in_cell": [
+    23,
+    25
+   ]
+  },
+  {
+   "file": "g008atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g008atb.png",
+   "sheet_crop": [
+    33,
+    38,
+    79,
+    77
+   ],
+   "cell": [
+    46,
+    39
+   ],
+   "pivot_in_cell": [
+    22,
+    19
+   ]
+  },
+  {
+   "file": "g008atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g008atd.png",
+   "sheet_crop": [
+    20,
+    18,
+    92,
+    81
+   ],
+   "cell": [
+    72,
+    63
+   ],
+   "pivot_in_cell": [
+    35,
+    39
+   ]
+  },
+  {
+   "file": "g008ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": true
+  },
+  {
+   "file": "g008da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g008da.png",
+   "sheet_crop": [
+    32,
+    37,
+    80,
+    84
+   ],
+   "cell": [
+    48,
+    47
+   ],
+   "pivot_in_cell": [
+    23,
+    20
+   ]
+  },
+  {
+   "file": "g008mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g008mo.png",
+   "sheet_crop": [
+    32,
+    33,
+    80,
+    81
+   ],
+   "cell": [
+    48,
+    48
+   ],
+   "pivot_in_cell": [
+    23,
+    24
+   ]
+  },
+  {
+   "file": "g008mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g008mob.png",
+   "sheet_crop": [
+    33,
+    39,
+    79,
+    77
+   ],
+   "cell": [
+    46,
+    38
+   ],
+   "pivot_in_cell": [
+    22,
+    18
+   ]
+  },
+  {
+   "file": "g008mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g008mop.png",
+   "sheet_crop": [
+    31,
+    46,
+    80,
+    79
+   ],
+   "cell": [
+    49,
+    33
+   ],
+   "pivot_in_cell": [
+    24,
+    11
+   ]
+  },
+  {
+   "file": "g008mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": true
+  },
+  {
+   "file": "g008st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g008st.png",
+   "sheet_crop": [
+    32,
+    33,
+    80,
+    81
+   ],
+   "cell": [
+    48,
+    48
+   ],
+   "pivot_in_cell": [
+    23,
+    24
+   ]
+  },
+  {
+   "file": "g008stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g008stb.png",
+   "sheet_crop": [
+    33,
+    39,
+    79,
+    77
+   ],
+   "cell": [
+    46,
+    38
+   ],
+   "pivot_in_cell": [
+    22,
+    18
+   ]
+  },
+  {
+   "file": "g008sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    55,
+    57
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

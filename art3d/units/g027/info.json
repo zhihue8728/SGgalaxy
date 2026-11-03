@@ -1,0 +1,393 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g027",
+ "kind": "ground",
+ "chassis": [
+  "Kritsk-Amplus",
+  "Kritsk-Magnus",
+  "Kritsk-Maximus",
+  "Kritsk-Primus"
+ ],
+ "base_chassis": [
+  "Kritsk-Amplus",
+  "Kritsk-Magnus",
+  "Kritsk-Maximus",
+  "Kritsk-Primus"
+ ],
+ "names_cn": {
+  "Kritsk-Amplus": "克里斯克进阶",
+  "Kritsk-Magnus": "克里斯克强化",
+  "Kritsk-Maximus": "克里斯克极致",
+  "Kritsk-Primus": "克里斯克初阶"
+ },
+ "names_tw": {
+  "Kritsk-Amplus": "克里斯克進階",
+  "Kritsk-Magnus": "克里斯克強化",
+  "Kritsk-Maximus": "克里斯克極致",
+  "Kritsk-Primus": "克里斯克初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Kritsk-Amplus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 50,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4716,
+   "base_armor": 8,
+   "speed_m_s": 4.9,
+   "view_range_m": 11.25,
+   "view_type": "Cone",
+   "chassis_code": "g027",
+   "chassis_image": "g027st.xpf"
+  },
+  {
+   "name": "Kritsk-Magnus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 5511,
+   "base_armor": 10,
+   "speed_m_s": 5,
+   "view_range_m": 11.5,
+   "view_type": "Cone",
+   "chassis_code": "g027",
+   "chassis_image": "g027st.xpf"
+  },
+  {
+   "name": "Kritsk-Maximus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 70,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 6489,
+   "base_armor": 12,
+   "speed_m_s": 5.1,
+   "view_range_m": 11.75,
+   "view_type": "Cone",
+   "chassis_code": "g027",
+   "chassis_image": "g027st.xpf"
+  },
+  {
+   "name": "Kritsk-Primus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 40,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4080,
+   "base_armor": 6,
+   "speed_m_s": 4.8,
+   "view_range_m": 11,
+   "view_type": "Cone",
+   "chassis_code": "g027"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g027at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g027at.png",
+   "sheet_crop": [
+    43,
+    54,
+    115,
+    133
+   ],
+   "cell": [
+    72,
+    79
+   ],
+   "pivot_in_cell": [
+    35,
+    41
+   ]
+  },
+  {
+   "file": "g027ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": true
+  },
+  {
+   "file": "g027da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g027da.png",
+   "sheet_crop": [
+    62,
+    72,
+    105,
+    108
+   ],
+   "cell": [
+    43,
+    36
+   ],
+   "pivot_in_cell": [
+    16,
+    23
+   ]
+  },
+  {
+   "file": "g027mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g027mo.png",
+   "sheet_crop": [
+    36,
+    63,
+    122,
+    124
+   ],
+   "cell": [
+    86,
+    61
+   ],
+   "pivot_in_cell": [
+    42,
+    32
+   ]
+  },
+  {
+   "file": "g027mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g027mop.png",
+   "sheet_crop": [
+    68,
+    100,
+    90,
+    115
+   ],
+   "cell": [
+    22,
+    15
+   ],
+   "pivot_in_cell": [
+    10,
+    -5
+   ]
+  },
+  {
+   "file": "g027mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g027st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g027st.png",
+   "sheet_crop": [
+    36,
+    63,
+    122,
+    123
+   ],
+   "cell": [
+    86,
+    60
+   ],
+   "pivot_in_cell": [
+    42,
+    32
+   ]
+  },
+  {
+   "file": "g027sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    78,
+    95
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

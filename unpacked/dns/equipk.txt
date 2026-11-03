@@ -1,0 +1,470 @@
+g001
+1001	Engine_Infantry	109	79
+2001	Power_Infantry	109	147
+3001	Computer_Infantry	109	11
+4001	Weapon_Infantry	22	95
+5001	Armor_Infantry	177	79
+6001	Sensor_Infantry	204	8
+7001	Misc_infantry	206	273
+8001	Misc_Rail	5	273
+-1
+g002
+1001	Engine_Infantry	109	103
+2001	Power_Infantry	109	170
+3001	Computer_Infantry	109	36
+4999	Wepon_Noncombat	22	95
+5001	Armor_Infantry	177	103
+6001	Sensor_Infantry	177	36
+7031	Misc	206	273
+8302	Misc_Radar	5	273
+-1
+g003
+1001	Engine_Infantry	106	97
+2001	Power_Infantry	106	165
+3001	Computer_Infantry	106	29
+4011	Weapon_Fist	10	182
+5001	Armor_Infantry	174	97
+6001	Sensor_Infantry	184	14
+7002	Misc_Infan	206	273
+8002	Misc_Giant	5	273
+-1
+g004
+1001	Engine_Infantry	109	79
+2001	Power_Infantry	109	147
+3001	Computer_Infantry	109	11
+4002	Weapon_Humanoid	22	95
+5001	Armor_Infantry	177	79
+6001	Sensor_Infantry	204	8
+7001	Misc_infantry	206	273
+8003	Misc_Humanoid	5	273
+-1
+g005
+1001	Engine_Infantry	107	139
+2001	Power_Infantry	107	208
+3001	Computer_Infantry	107	69
+4003	Weapon_Vulcan	12	142
+5001	Armor_Infantry	177	139
+6001	Sensor_Infantry	191	43
+7001	Misc_infantry	206	273
+8004	Misc_Twin	5	273
+-1
+g006
+1001	Engine_Infantry	100	145
+2001	Power_Infantry	26	185
+3001	Computer_Infantry	100	76
+4004	Weapon_GTA	6	75
+5001	Armor_Infantry	168	145
+6001	Sensor_Infantry	174	25
+7001	Misc_infantry	206	273
+8005	Misc_GTA	5	273
+-1
+g008
+1101	Engine_Panzer	77	156
+2101	Power_Panzer	181	169
+3101	Computer_Panzer	99	89
+4101	Weapon_Panzer	13	89
+5101	Armor_Panzer	171	88
+6101	Sensor_Panzer	155	12
+7101	Misc_Panzer	206	273
+8101	Misc_Light_Tank	5	273
+-1
+g009
+1101	Engine_Panzer	116	160
+2101	Power_Panzer	22	222
+3101	Computer_Panzer	106	83
+4101	Weapon_Panzer	85	13
+5101	Armor_Panzer	183	89
+6101	Sensor_Panzer	5	102
+7101	Misc_Panzer	206	273
+8102	Misc_Bike	5	273
+-1
+g010
+1101	Engine_Panzer	128	121
+2101	Power_Panzer	129	195
+3101	Computer_Panzer	109	49
+4301	Weapon_Artillery	39	155
+5101	Armor_Panzer	34	71
+6101	Sensor_Panzer	195	9
+7999	Misc_No	206	273
+8103	Misc_Artil	5	273
+-1
+g016
+1001	Engine_Infantry	109	79
+2001	Power_Infantry	109	147
+3001	Computer_Infantry	109	11
+4999	Wepon_Noncombat	36	129
+5001	Armor_Infantry	177	79
+6001	Sensor_Infantry	204	8
+7011	Misc_Medic	206	273
+8303	Misc_Medic	5	273
+-1
+g017
+1001	Engine_Infantry	109	79
+2001	Power_Infantry	109	147
+3001	Computer_Infantry	109	11
+4311	Weapon_Miner	36	129
+5001	Armor_Infantry	177	79
+6001	Sensor_Infantry	204	8
+7041	Misc_Mine	206	273
+8304	Misc_Bomb	5	273
+-1
+g018
+1001	Engine_Infantry	109	79
+2001	Power_Infantry	109	147
+3001	Computer_Infantry	109	11
+4021	Weapon_Heavy_Infan	22	95
+5001	Armor_Infantry	177	79
+6001	Sensor_Infantry	204	8
+7001	Misc_infantry	206	273
+8006	Misc_Tila	5	273
+-1
+g019
+1001	Engine_Infantry	109	79
+2001	Power_Infantry	109	147
+3001	Computer_Infantry	109	11
+4003	Weapon_Vulcan	22	95
+5001	Armor_Infantry	177	79
+6001	Sensor_Infantry	204	8
+7001	Misc_infantry	206	273
+8007	Misc_Exonoid	5	273
+-1
+g020
+1101	Engine_Panzer	77	156
+2101	Power_Panzer	181	169
+3101	Computer_Panzer	99	89
+4102	Weapon_Tank	13	89
+5101	Armor_Panzer	171	88
+6101	Sensor_Panzer	155	12
+7101	Misc_Panzer	206	273
+8104	Misc_M_Tank	5	273
+-1
+g021
+1001	Engine_Infantry	146	166
+2001	Power_Infantry	66	221
+3001	Computer_Infantry	76	143
+4103	Weapon_Launcher	32	41
+5001	Armor_Infantry	190	86
+6001	Sensor_Infantry	106	60
+7001	Misc_infantry	206	273
+8403	Misc2_Shark	5	273
+-1
+g023
+1201	Engine_Air	197	79
+2201	Power_Air	67	63
+3201	Computer_Air	134	129
+4999	Wepon_Noncombat	5	132
+5201	Armor_Air	134	200
+6201	Sensor_Air	61	200
+7012	Misc_Patron	206	273
+8305	Misc_Repair	5	273
+-1
+g032
+1101	Engine_Panzer	190	190
+2101	Power_Panzer	106	190
+3101	Computer_Panzer	85	10
+4103	Weapon_Launcher	99	97
+5101	Armor_Panzer	22	191
+6101	Sensor_Panzer	198	67
+7101	Misc_Panzer	205	270
+8105	Misc_A-AGUN2	5	273
+-1
+g034
+1101	Engine_Panzer	182	182
+2101	Power_Panzer	101	187
+3101	Computer_Panzer	183	87
+4303	AIRTIL_WEAPON	101	100
+5101	Armor_Panzer	20	187
+6101	Sensor_Panzer	99	16
+7101	Misc_Panzer	21	263
+8106	AIRTIL_MISC2	184	264
+-1
+g035
+1101	Engine_Panzer	91	132
+2101	Power_Panzer	21	157
+3101	Computer_Panzer	179	43
+4999	Wepon_Noncombat	104	274
+5101	Armor_Panzer	160	161
+6101	Sensor_Panzer	103	46
+7307	Misc-Gate	4	273
+8307	Misc-Gate2	208	275
+-1
+g037
+1101	Engine_Panzer	188	144
+2101	Power_Panzer	9	21
+3101	Computer_Panzer	98	20
+4302	Weapon_ArtilUp	12	144
+5101	Armor_Panzer	100	123
+6101	Sensor_Panzer	188	19
+7101	Misc_Panzer	16	259
+8407	Misc2_ArtilUp	195	260
+-1
+g038
+1101	Engine_Panzer	189	174
+2101	Power_Panzer	185	88
+3101	Computer_Panzer	90	11
+4402	Weapon_DukeUp	14	78
+5101	Armor_Panzer	89	178
+6101	Sensor_Panzer	183	11
+7101	Misc_Panzer	13	253
+8408	Misc2_DukeUp	191	251
+-1
+g039
+1001	Engine_Infantry	107	218
+2001	Power_Infantry	198	137
+3001	Computer_Infantry	108	7
+4401	Weapon_Blade	18	80
+5001	Armor_Infantry	106	99
+6001	Sensor_Infantry	198	8
+7001	Misc_infantry	12	267
+8409	Misc2_Blade	199	266
+-1
+g040
+1001	Engine_Infantry	12	139
+2001	Power_Infantry	17	26
+3001	Computer_Infantry	102	26
+4004	Weapon_GTA	201	140
+5001	Armor_Infantry	105	140
+6001	Sensor_Infantry	193	26
+7001	Misc_infantry	11	257
+8404	Misc2_Golliat	201	259
+-1
+g041
+1001	Engine_Infantry	106	191
+2001	Power_Infantry	17	21
+3001	Computer_Infantry	109	20
+4001	Weapon_Infantry	17	139
+5001	Armor_Infantry	108	109
+6001	Sensor_Infantry	189	21
+7001	Misc_infantry	14	255
+8401	Misc2_Ghost	194	255
+-1
+g042
+1001	Engine_Infantry	106	191
+2001	Power_Infantry	12	12
+3001	Computer_Infantry	107	12
+4406	Weapon_GhostUp	14	101
+5001	Armor_Infantry	105	97
+6001	Sensor_Infantry	191	15
+7001	Misc_infantry	13	252
+8502	Misc2_GhostUp	198	253
+-1
+g043
+1101	Engine_Panzer	189	120
+2101	Power_Panzer	21	25
+3101	Computer_Panzer	106	25
+4101	Weapon_Panzer	24	149
+5101	Armor_Panzer	108	150
+6101	Sensor_Panzer	194	22
+7101	Misc_Panzer	15	255
+8503	Misc2_Hover	190	256
+-1
+g044
+1001	Engine_Infantry	89	171
+2001	Power_Infantry	11	13
+3001	Computer_Infantry	91	11
+4405	Unknown	181	171
+5001	Armor_Infantry	90	93
+6001	Sensor_Infantry	181	13
+7001	Misc_infantry	9	257
+8501	Misc2_Roket	181	257
+-1
+g045
+1101	Engine_Panzer	184	128
+2101	Power_Panzer	13	13
+3101	Computer_Panzer	95	14
+4404	Unknown	12	132
+5101	Armor_Panzer	98	130
+6101	Sensor_Panzer	182	14
+7101	Misc_Panzer	14	256
+8504	Misc2_HeavyTank	186	253
+-1
+g049
+1001	Engine_Infantry	101	204
+2001	Power_Infantry	10	121
+3001	Computer_Infantry	11	32
+4012	Blood_Weapon	190	119
+5001	Armor_Infantry	101	119
+6001	Sensor_Infantry	104	31
+7003	Misc_Blood	13	255
+8008	Misc2_Blood	188	256
+-1
+g053
+1101	Engine_Panzer	188	173
+2101	Power_Panzer	16	21
+3101	Computer_Panzer	104	22
+4701	WEAPOM_BCOM	19	113
+5101	Armor_Panzer	108	111
+6101	Sensor_Panzer	192	19
+7501	MISC_BCOM	18	260
+8701	MISC2_BCOM	188	261
+-1
+g054
+1101	Engine_Panzer	108	171
+2101	Power_Panzer	23	168
+3101	Computer_Panzer	30	19
+4702	WEAPON_ANTENA	186	170
+5101	Armor_Panzer	111	92
+6101	Sensor_Panzer	188	20
+7502	MISC_ANTENA	21	259
+8702	MISC2_ANTENA	186	257
+-1
+g055
+1101	Engine_Panzer	101	253
+2101	Power_Panzer	179	113
+3101	Computer_Panzer	96	25
+4703	WEAPON_ANT2	20	164
+5101	Armor_Panzer	99	111
+6101	Sensor_Panzer	179	20
+7503	MISC_ANT2	19	253
+8703	MISC2_ANT2	183	252
+-1
+g056
+1101	Engine_Panzer	102	180
+2101	Power_Panzer	21	21
+3101	Computer_Panzer	103	94
+4602	Weapon_healFielder	187	138
+5101	Armor_Panzer	18	140
+6101	Sensor_Panzer	186	20
+7604	MISC_healFielder	20	255
+8704	MISC2_healFielder	181	254
+-1
+g057
+1001	Engine_Infantry	105	208
+2001	Power_Infantry	194	102
+3001	Computer_Infantry	104	15
+4603	Weapon_Virus	8	15
+5001	Armor_Infantry	105	100
+6001	Sensor_Infantry	192	15
+7605	MISC_Virus	18	260
+8705	Misc2_Virus	190	259
+-1
+g058
+1101	Engine_Panzer	98	212
+2101	Power_Panzer	186	117
+3101	Computer_Panzer	96	16
+4604	Weapon_Bunker	9	120
+5101	Armor_Panzer	97	116
+6101	Sensor_Panzer	185	16
+7606	Misc_Bunker	14	256
+8706	Misc2_Bunker	184	256
+-1
+a001
+1201	Engine_Air	80	147
+2201	Power_Air	103	65
+3201	Computer_Air	13	195
+4999	Wepon_Noncombat	10	12
+5201	Armor_Air	101	258
+6201	Sensor_Air	206	12
+7021	Misc_AeroContainer	206	273
+8301	Misc_Drop	5	273
+-1
+a002
+1201	Engine_Air	89	113
+2201	Power_Air	179	128
+3201	Computer_Air	10	11
+4201	Weapon_Air	96	213
+5201	Armor_Air	200	14
+6201	Sensor_Air	12	201
+7201	Misc_Air	206	273
+8201	Misc_Zanac	5	273
+-1
+a004
+1201	Engine_Air	110	103
+2201	Power_Air	160	33
+3201	Computer_Air	108	273
+4203	Weapon_Exorion	18	69
+5201	Armor_Air	109	176
+6201	Sensor_Air	38	206
+7201	Misc_Air	206	273
+8202	Misc_Exo	5	273
+-1
+a008
+1201	Engine_Air	145	102
+2201	Power_Air	202	32
+3201	Computer_Air	78	160
+4202	Weapon_Orion	10	210
+5201	Armor_Air	147	174
+6201	Sensor_Air	9	13
+7201	Misc_Air	206	273
+8203	Misc_Orion	5	273
+-1
+a009
+1301	MORPH_ENGINE	171	44
+2301	MORPH_POWER	91	256
+3301	MORPH_COMPUTER	17	76
+4601	MORPH_WEAPON	15	162
+5301	MORPH_ARMOR	147	160
+6301	MORPH_SENSOR	92	43
+7401	MORPH_MISC	14	257
+8601	MORPH_MISC2	192	256
+-1
+a011
+1201	Engine_Air	10	90
+2201	Power_Air	10	170
+3201	Computer_Air	85	10
+4999	Wepon_Noncombat	85	90
+5201	Armor_Air	85	170
+6211	Sensor_Detect	160	10
+7999	Misc_No	160	90
+8505	Misc_Detector	160	170
+-1
+a013
+1201	Engine_Air	119	89
+2201	Power_Air	47	165
+3201	Computer_Air	38	39
+4999	Wepon_Noncombat	89	255
+5201	Armor_Air	119	162
+6201	Sensor_Air	202	38
+7999	Misc_No	7	272
+8306	Misc2_Air_Bomb	150	275
+-1
+a014
+1201	Engine_Air	96	89
+2201	Power_Air	10	165
+3201	Computer_Air	9	40
+4501	Weapon_killa	95	251
+5201	Armor_Air	92	166
+6201	Sensor_Air	171	23
+7201	Misc_Air	7	256
+8406	Misc_killa	176	250
+-1
+a015
+1201	Engine_Air	181	99
+2201	Power_Air	13	103
+3201	Computer_Air	97	14
+4213	Weapon_ExoUp	62	183
+5201	Armor_Air	98	99
+6201	Sensor_Air	180	14
+7999	Misc_No	15	260
+8405	Misc2_ExoUp	198	259
+-1
+a016
+1201	Engine_Air	194	93
+2201	Power_Air	25	10
+3201	Computer_Air	106	13
+4403	Weapon_Executer	22	93
+5201	Armor_Air	105	161
+6201	Sensor_Air	193	12
+7999	Misc_No	21	258
+8402	Misc2_Executer	191	252
+-1
+a023
+1201	Engine_Air	102	25
+2201	Power_Air	18	115
+3201	Computer_Air	104	114
+4502	Weapon_TROY	103	206
+5201	Armor_Air	191	147
+6201	Sensor_Air	193	47
+7202	Misc1_TROY	13	252
+8410	Misc2_TROY	193	250
+-1
+a024
+1201	Engine_Air	103	13
+2201	Power_Air	15	153
+3201	Computer_Air	103	94
+4503	Weapon_ATIL	103	189
+5201	Armor_Air	14	51
+6201	Sensor_Air	184	90
+7203	Misc_ATIL	15	252
+8411	Misc2_ATIL	188	254
+-1

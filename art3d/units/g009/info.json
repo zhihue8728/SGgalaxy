@@ -1,0 +1,1887 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g009",
+ "kind": "ground",
+ "chassis": [
+  "Pegasus",
+  "Pegasus-Mk2",
+  "Pegasus-Mk3",
+  "Pegasus-Mk4",
+  "Pegasus-Mk5",
+  "Pegasus-Mk6",
+  "Pegasus-Mk7",
+  "Pegasus-Mk8",
+  "Pegasus-Mk9"
+ ],
+ "base_chassis": [
+  "Pegasus"
+ ],
+ "names_cn": {
+  "Pegasus": "天马"
+ },
+ "names_tw": {
+  "Pegasus": "天馬"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Pegasus",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 1,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 8,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 1248,
+   "base_armor": 0,
+   "speed_m_s": 7.2,
+   "view_range_m": 7.5,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Brotherhood's quick support vehicle that harasses and delays enemies."
+  },
+  {
+   "name": "Pegasus-Mk2",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 15,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 9,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 1410,
+   "base_armor": 2,
+   "speed_m_s": 7.6,
+   "view_range_m": 7.75,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Swift Brotherhood support craft that hampers and slows opponents."
+  },
+  {
+   "name": "Pegasus-Mk3",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 29,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 9,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 1680,
+   "base_armor": 4,
+   "speed_m_s": 7.6,
+   "view_range_m": 8,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Fast Brotherhood support vehicle that harasses and delays enemies."
+  },
+  {
+   "name": "Pegasus-Mk4",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 43,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 10,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 2040,
+   "base_armor": 7,
+   "speed_m_s": 8,
+   "view_range_m": 8.25,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Agile backup craft that pesters and hinders opponents."
+  },
+  {
+   "name": "Pegasus-Mk5",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 57,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 11,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 2520,
+   "base_armor": 9,
+   "speed_m_s": 8,
+   "view_range_m": 8.5,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Brotherhood fast support craft that disrupts and slows opposing forces."
+  },
+  {
+   "name": "Pegasus-Mk6",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 71,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 11,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 3150,
+   "base_armor": 13,
+   "speed_m_s": 8.4,
+   "view_range_m": 8.75,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Quick support vehicle that harasses and delays enemies."
+  },
+  {
+   "name": "Pegasus-Mk7",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 85,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 12,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 3960,
+   "base_armor": 17,
+   "speed_m_s": 8.4,
+   "view_range_m": 9,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Fast Brotherhood support vehicle that harasses and slows enemies"
+  },
+  {
+   "name": "Pegasus-Mk8",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 99,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 13,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 4920,
+   "base_armor": 19,
+   "speed_m_s": 8.8,
+   "view_range_m": 9.25,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "The Brotherhood's quick support vehicle harasses and delays enemies."
+  },
+  {
+   "name": "Pegasus-Mk9",
+   "category": "Mobile",
+   "group": "Aero-rig",
+   "influence": 113,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 14,
+   "unit_weight_kg": 120,
+   "type": "Mechanical",
+   "base_health": 6120,
+   "base_armor": 21,
+   "speed_m_s": 9,
+   "view_range_m": 9.5,
+   "view_type": "Cone",
+   "chassis_code": "g009",
+   "chassis_image": "g009st.xpf",
+   "description_summary": "Quick support vehicle that harasses and delays enemies"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g009at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      41,
+      30
+     ],
+     [
+      41,
+      45
+     ],
+     [
+      41,
+      34
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      42,
+      34
+     ],
+     [
+      41,
+      46
+     ]
+    ],
+    "1": [
+     [
+      44,
+      31
+     ],
+     [
+      37,
+      44
+     ],
+     [
+      41,
+      35
+     ],
+     [
+      38,
+      42
+     ],
+     [
+      44,
+      35
+     ],
+     [
+      36,
+      46
+     ]
+    ],
+    "2": [
+     [
+      47,
+      32
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      44,
+      34
+     ],
+     [
+      36,
+      40
+     ],
+     [
+      46,
+      35
+     ],
+     [
+      35,
+      44
+     ]
+    ],
+    "3": [
+     [
+      49,
+      34
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      45,
+      35
+     ],
+     [
+      35,
+      38
+     ],
+     [
+      49,
+      38
+     ],
+     [
+      34,
+      42
+     ]
+    ],
+    "4": [
+     [
+      52,
+      35
+     ],
+     [
+      31,
+      35
+     ],
+     [
+      46,
+      37
+     ],
+     [
+      38,
+      38
+     ],
+     [
+      50,
+      39
+     ],
+     [
+      34,
+      40
+     ]
+    ],
+    "5": [
+     [
+      51,
+      38
+     ],
+     [
+      34,
+      33
+     ],
+     [
+      47,
+      38
+     ],
+     [
+      38,
+      35
+     ],
+     [
+      50,
+      42
+     ],
+     [
+      34,
+      37
+     ]
+    ],
+    "6": [
+     [
+      49,
+      41
+     ],
+     [
+      34,
+      32
+     ],
+     [
+      45,
+      39
+     ],
+     [
+      40,
+      35
+     ],
+     [
+      49,
+      44
+     ],
+     [
+      37,
+      35
+     ]
+    ],
+    "7": [
+     [
+      47,
+      44
+     ],
+     [
+      40,
+      29
+     ],
+     [
+      45,
+      41
+     ],
+     [
+      40,
+      34
+     ],
+     [
+      46,
+      46
+     ],
+     [
+      41,
+      34
+     ]
+    ],
+    "8": [
+     [
+      43,
+      44
+     ],
+     [
+      42,
+      29
+     ],
+     [
+      42,
+      41
+     ],
+     [
+      42,
+      33
+     ],
+     [
+      43,
+      46
+     ],
+     [
+      42,
+      33
+     ]
+    ],
+    "9": [
+     [
+      39,
+      44
+     ],
+     [
+      47,
+      30
+     ],
+     [
+      42,
+      42
+     ],
+     [
+      46,
+      35
+     ],
+     [
+      40,
+      46
+     ],
+     [
+      48,
+      35
+     ]
+    ],
+    "10": [
+     [
+      38,
+      44
+     ],
+     [
+      50,
+      33
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      47,
+      35
+     ],
+     [
+      38,
+      47
+     ],
+     [
+      50,
+      38
+     ]
+    ],
+    "11": [
+     [
+      34,
+      40
+     ],
+     [
+      52,
+      34
+     ],
+     [
+      39,
+      41
+     ],
+     [
+      48,
+      36
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      52,
+      41
+     ]
+    ],
+    "12": [
+     [
+      33,
+      39
+     ],
+     [
+      52,
+      38
+     ],
+     [
+      38,
+      40
+     ],
+     [
+      48,
+      37
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      50,
+      42
+     ]
+    ],
+    "13": [
+     [
+      33,
+      35
+     ],
+     [
+      52,
+      41
+     ],
+     [
+      38,
+      37
+     ],
+     [
+      47,
+      40
+     ],
+     [
+      34,
+      40
+     ],
+     [
+      48,
+      43
+     ]
+    ],
+    "14": [
+     [
+      34,
+      34
+     ],
+     [
+      48,
+      42
+     ],
+     [
+      38,
+      37
+     ],
+     [
+      45,
+      40
+     ],
+     [
+      34,
+      40
+     ],
+     [
+      46,
+      45
+     ]
+    ],
+    "15": [
+     [
+      38,
+      31
+     ],
+     [
+      45,
+      44
+     ],
+     [
+      40,
+      35
+     ],
+     [
+      43,
+      41
+     ],
+     [
+      37,
+      38
+     ],
+     [
+      42,
+      46
+     ]
+    ],
+    "16": [
+     [
+      41,
+      30
+     ],
+     [
+      41,
+      45
+     ],
+     [
+      41,
+      34
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      42,
+      34
+     ],
+     [
+      41,
+      46
+     ]
+    ],
+    "17": [
+     [
+      44,
+      31
+     ],
+     [
+      37,
+      44
+     ],
+     [
+      41,
+      35
+     ],
+     [
+      38,
+      42
+     ],
+     [
+      44,
+      35
+     ],
+     [
+      36,
+      46
+     ]
+    ],
+    "18": [
+     [
+      47,
+      32
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      44,
+      34
+     ],
+     [
+      36,
+      40
+     ],
+     [
+      46,
+      35
+     ],
+     [
+      35,
+      44
+     ]
+    ],
+    "19": [
+     [
+      49,
+      34
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      45,
+      35
+     ],
+     [
+      35,
+      38
+     ],
+     [
+      49,
+      38
+     ],
+     [
+      34,
+      42
+     ]
+    ],
+    "20": [
+     [
+      52,
+      35
+     ],
+     [
+      31,
+      35
+     ],
+     [
+      46,
+      37
+     ],
+     [
+      38,
+      38
+     ],
+     [
+      50,
+      39
+     ],
+     [
+      34,
+      40
+     ]
+    ],
+    "21": [
+     [
+      51,
+      38
+     ],
+     [
+      34,
+      33
+     ],
+     [
+      47,
+      38
+     ],
+     [
+      38,
+      35
+     ],
+     [
+      50,
+      42
+     ],
+     [
+      34,
+      37
+     ]
+    ],
+    "22": [
+     [
+      49,
+      41
+     ],
+     [
+      34,
+      32
+     ],
+     [
+      45,
+      39
+     ],
+     [
+      40,
+      35
+     ],
+     [
+      49,
+      44
+     ],
+     [
+      37,
+      35
+     ]
+    ],
+    "23": [
+     [
+      47,
+      44
+     ],
+     [
+      40,
+      29
+     ],
+     [
+      45,
+      41
+     ],
+     [
+      40,
+      34
+     ],
+     [
+      46,
+      46
+     ],
+     [
+      41,
+      34
+     ]
+    ],
+    "24": [
+     [
+      43,
+      44
+     ],
+     [
+      42,
+      29
+     ],
+     [
+      42,
+      41
+     ],
+     [
+      42,
+      33
+     ],
+     [
+      43,
+      46
+     ],
+     [
+      42,
+      33
+     ]
+    ],
+    "25": [
+     [
+      39,
+      44
+     ],
+     [
+      47,
+      30
+     ],
+     [
+      42,
+      42
+     ],
+     [
+      46,
+      35
+     ],
+     [
+      40,
+      46
+     ],
+     [
+      48,
+      35
+     ]
+    ],
+    "26": [
+     [
+      38,
+      44
+     ],
+     [
+      50,
+      33
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      47,
+      35
+     ],
+     [
+      38,
+      47
+     ],
+     [
+      50,
+      38
+     ]
+    ],
+    "27": [
+     [
+      34,
+      40
+     ],
+     [
+      52,
+      34
+     ],
+     [
+      39,
+      41
+     ],
+     [
+      48,
+      36
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      52,
+      41
+     ]
+    ],
+    "28": [
+     [
+      33,
+      39
+     ],
+     [
+      52,
+      38
+     ],
+     [
+      38,
+      40
+     ],
+     [
+      48,
+      37
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      50,
+      42
+     ]
+    ],
+    "29": [
+     [
+      33,
+      35
+     ],
+     [
+      52,
+      41
+     ],
+     [
+      38,
+      37
+     ],
+     [
+      47,
+      40
+     ],
+     [
+      34,
+      40
+     ],
+     [
+      48,
+      43
+     ]
+    ],
+    "30": [
+     [
+      34,
+      34
+     ],
+     [
+      48,
+      42
+     ],
+     [
+      38,
+      37
+     ],
+     [
+      45,
+      40
+     ],
+     [
+      34,
+      40
+     ],
+     [
+      46,
+      45
+     ]
+    ],
+    "31": [
+     [
+      38,
+      31
+     ],
+     [
+      45,
+      44
+     ],
+     [
+      40,
+      35
+     ],
+     [
+      43,
+      41
+     ],
+     [
+      37,
+      38
+     ],
+     [
+      42,
+      46
+     ]
+    ],
+    "32": [
+     [
+      41,
+      30
+     ],
+     [
+      41,
+      45
+     ],
+     [
+      41,
+      34
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      42,
+      34
+     ],
+     [
+      41,
+      46
+     ]
+    ],
+    "33": [
+     [
+      44,
+      31
+     ],
+     [
+      37,
+      44
+     ],
+     [
+      41,
+      35
+     ],
+     [
+      38,
+      42
+     ],
+     [
+      44,
+      35
+     ],
+     [
+      36,
+      46
+     ]
+    ],
+    "34": [
+     [
+      47,
+      32
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      44,
+      34
+     ],
+     [
+      36,
+      40
+     ],
+     [
+      46,
+      35
+     ],
+     [
+      35,
+      44
+     ]
+    ],
+    "35": [
+     [
+      49,
+      34
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      45,
+      35
+     ],
+     [
+      35,
+      38
+     ],
+     [
+      49,
+      38
+     ],
+     [
+      34,
+      42
+     ]
+    ],
+    "36": [
+     [
+      52,
+      35
+     ],
+     [
+      31,
+      35
+     ],
+     [
+      46,
+      37
+     ],
+     [
+      38,
+      38
+     ],
+     [
+      50,
+      39
+     ],
+     [
+      34,
+      40
+     ]
+    ],
+    "37": [
+     [
+      51,
+      38
+     ],
+     [
+      34,
+      33
+     ],
+     [
+      47,
+      38
+     ],
+     [
+      38,
+      35
+     ],
+     [
+      50,
+      42
+     ],
+     [
+      34,
+      37
+     ]
+    ],
+    "38": [
+     [
+      49,
+      41
+     ],
+     [
+      34,
+      32
+     ],
+     [
+      45,
+      39
+     ],
+     [
+      40,
+      35
+     ],
+     [
+      49,
+      44
+     ],
+     [
+      37,
+      35
+     ]
+    ],
+    "39": [
+     [
+      47,
+      44
+     ],
+     [
+      40,
+      29
+     ],
+     [
+      45,
+      41
+     ],
+     [
+      40,
+      34
+     ],
+     [
+      46,
+      46
+     ],
+     [
+      41,
+      34
+     ]
+    ],
+    "40": [
+     [
+      43,
+      44
+     ],
+     [
+      42,
+      29
+     ],
+     [
+      42,
+      41
+     ],
+     [
+      42,
+      33
+     ],
+     [
+      43,
+      46
+     ],
+     [
+      42,
+      33
+     ]
+    ],
+    "41": [
+     [
+      39,
+      44
+     ],
+     [
+      47,
+      30
+     ],
+     [
+      42,
+      42
+     ],
+     [
+      46,
+      35
+     ],
+     [
+      40,
+      46
+     ],
+     [
+      48,
+      35
+     ]
+    ],
+    "42": [
+     [
+      38,
+      44
+     ],
+     [
+      50,
+      33
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      47,
+      35
+     ],
+     [
+      38,
+      47
+     ],
+     [
+      50,
+      38
+     ]
+    ],
+    "43": [
+     [
+      34,
+      40
+     ],
+     [
+      52,
+      34
+     ],
+     [
+      39,
+      41
+     ],
+     [
+      48,
+      36
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      52,
+      41
+     ]
+    ],
+    "44": [
+     [
+      33,
+      39
+     ],
+     [
+      52,
+      38
+     ],
+     [
+      38,
+      40
+     ],
+     [
+      48,
+      37
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      50,
+      42
+     ]
+    ],
+    "45": [
+     [
+      33,
+      35
+     ],
+     [
+      52,
+      41
+     ],
+     [
+      38,
+      37
+     ],
+     [
+      47,
+      40
+     ],
+     [
+      34,
+      40
+     ],
+     [
+      48,
+      43
+     ]
+    ],
+    "46": [
+     [
+      34,
+      34
+     ],
+     [
+      48,
+      42
+     ],
+     [
+      38,
+      37
+     ],
+     [
+      45,
+      40
+     ],
+     [
+      34,
+      40
+     ],
+     [
+      46,
+      45
+     ]
+    ],
+    "47": [
+     [
+      38,
+      31
+     ],
+     [
+      45,
+      44
+     ],
+     [
+      40,
+      35
+     ],
+     [
+      43,
+      41
+     ],
+     [
+      37,
+      38
+     ],
+     [
+      42,
+      46
+     ]
+    ]
+   },
+   "sheet": "sheets/g009at.png",
+   "sheet_crop": [
+    16,
+    19,
+    70,
+    72
+   ],
+   "cell": [
+    54,
+    53
+   ],
+   "pivot_in_cell": [
+    25,
+    33
+   ]
+  },
+  {
+   "file": "g009atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g009atb.png",
+   "sheet_crop": [
+    21,
+    20,
+    66,
+    61
+   ],
+   "cell": [
+    45,
+    41
+   ],
+   "pivot_in_cell": [
+    20,
+    32
+   ]
+  },
+  {
+   "file": "g009ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    86,
+    84
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g009da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g009da.png",
+   "sheet_crop": [
+    20,
+    26,
+    69,
+    71
+   ],
+   "cell": [
+    49,
+    45
+   ],
+   "pivot_in_cell": [
+    21,
+    26
+   ]
+  },
+  {
+   "file": "g009das.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g009mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g009mo.png",
+   "sheet_crop": [
+    16,
+    22,
+    70,
+    72
+   ],
+   "cell": [
+    54,
+    50
+   ],
+   "pivot_in_cell": [
+    25,
+    30
+   ]
+  },
+  {
+   "file": "g009mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g009mob.png",
+   "sheet_crop": [
+    23,
+    23,
+    62,
+    61
+   ],
+   "cell": [
+    39,
+    38
+   ],
+   "pivot_in_cell": [
+    18,
+    29
+   ]
+  },
+  {
+   "file": "g009mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g009mop.png",
+   "sheet_crop": [
+    19,
+    30,
+    66,
+    69
+   ],
+   "cell": [
+    47,
+    39
+   ],
+   "pivot_in_cell": [
+    22,
+    22
+   ]
+  },
+  {
+   "file": "g009mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    86,
+    84
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g009st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g009st.png",
+   "sheet_crop": [
+    16,
+    22,
+    70,
+    72
+   ],
+   "cell": [
+    54,
+    50
+   ],
+   "pivot_in_cell": [
+    25,
+    30
+   ]
+  },
+  {
+   "file": "g009stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g009stb.png",
+   "sheet_crop": [
+    23,
+    23,
+    62,
+    61
+   ],
+   "cell": [
+    39,
+    38
+   ],
+   "pivot_in_cell": [
+    18,
+    29
+   ]
+  },
+  {
+   "file": "g009sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    86,
+    84
+   ],
+   "pivot": [
+    41,
+    52
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

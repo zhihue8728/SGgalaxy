@@ -1,0 +1,184 @@
+<C=0,YELLOW>CREDITS
+
+<C=0,RED>NEXON USA
+<C=0,RED>www.nexon.net
+
+<L=0,RED>PRODUCTION
+<L=1,GREEN>Scott Lee<R=0,YELLOW>Executive Producer
+<L=1,GREEN>Omari-Jamal Miller<R=0,YELLOW>Producer
+<L=1,GREEN>Kevin Saunders<R=0,YELLOW>Producer
+
+<L=0,RED>DESIGN, OPERATION, & QUALITY ASSURANCE
+<L=1,GREEN>Kevin Saunders<R=0,YELLOW>Project Director
+<L=1,GREEN>David Huang<R=0,YELLOW>Associate Director
+<L=1,GREEN>Terence Park<R=0,YELLOW>Community Coordinator
+<L=1,GREEN>Steve Dobos<R=0,YELLOW>Technology Coordinator
+<L=1,GREEN>Torri Granger<R=0,YELLOW>Assistant Director
+<L=1,GREEN>Anuj Bhatia<R=0,YELLOW>Assistant Director
+
+<L=0,RED>PROGRAMMING
+<L=1,GREEN>David Huang<R=0,YELLOW>Tools Programmer
+
+<L=0,RED>GRAPHIC AND WEB DESIGN
+<L=1,GREEN>Helen Lee<R=0,YELLOW>Art Director
+<L=1,GREEN>Randy Gallegos<R=0,YELLOW>Graphic Artist
+<L=1,GREEN>Sam Dulay<R=0,YELLOW>Graphic Artist
+<L=1,GREEN>Kyunghee Kim<R=0,YELLOW>Graphic Artist
+<L=1,GREEN>Matt Ellison<R=0,YELLOW>Assistant Graphic Artist
+
+<L=0,RED>SOUND DESIGN
+<L=1,GREEN>Erich Showman<R=0,YELLOW>Sound Design Intern
+
+<L=0,RED>BACKGROUND MUSIC
+<L=1,GREEN>Creativeway Services<R=0,YELLOW>Studio
+
+<L=0,RED>VOICE TALENT
+<L=1,GREEN>Creativeway Services<R=0,YELLOW>Studio
+
+<L=0,RED>CINEMATICS
+<L=1,GREEN>Helen Lee<R=0,YELLOW>Story Cinematic Director
+<L=1,GREEN>Randy Gallegos<R=0,YELLOW>Story Cinematic Artist
+<L=1,GREEN>Creativeway Services<R=0,YELLOW>Music, Sound, and
+<R=0,YELLOW>Voice Design and Direction
+<L=1,GREEN>Secret Weapon<R=0,YELLOW>Nexon Splash Screen
+<L=1,GREEN>Bink by RAD Software<R=0,YELLOW>Video Playback Code
+
+<L=0,RED>MANUAL
+<L=1,GREEN>Helen Lee<R=0,YELLOW>Lead Designer
+<L=1,GREEN>Randy Gallegos<R=0,YELLOW>Layout Designer
+<L=1,GREEN>Kyunghee Kim<R=0,YELLOW>Layout Designer
+<L=1,GREEN>David Huang<R=0,YELLOW>Layout Designer
+
+<L=1,GREEN>Kevin Saunders<R=0,YELLOW>Writer and Editor
+<L=1,GREEN>Terence Park<R=0,YELLOW>Writer and Layout Designer
+<L=1,GREEN>Steve Toribio<R=0,YELLOW>Proofreader
+<L=1,GREEN>Ethan Cary<R=0,YELLOW>Proofreader
+<L=1,GREEN>Matt Ellison<R=0,YELLOW>Proofreader
+
+<L=0,RED>TECHNICAL SERVICES
+<L=1,GREEN>Jung Hyun Bae<R=0,YELLOW>Network Administration
+<L=1,GREEN>Stewart Steel<R=0,YELLOW>Network Administration
+<L=1,GREEN>Marcel Munro<R=0,YELLOW>Information Technologies
+<L=1,GREEN>Thaddeus Aid<R=0,YELLOW>Information Technologies
+<L=1,GREEN>Tae Yong Kim<R=0,YELLOW>Network Administration
+
+<L=0,RED>PUBLIC RELATIONS
+<L=1,GREEN>Jenny Suh<R=0,YELLOW>PR Director
+<L=1,GREEN>Paul Philleo<R=0,YELLOW>PR Coordinator
+
+<L=0,RED>ADMINISTRATIVE SUPPORT
+<L=1,GREEN>Kevin Dinapoli<R=0,YELLOW>Accounts Manager
+<L=1,GREEN>Jennifer Baker<R=0,YELLOW>Administrative Assistant
+<L=1,GREEN>Maria Morales<R=0,YELLOW>Administrative Assistant
+<L=1,GREEN>Joanne Laroche<R=0,YELLOW>Accounts Manager
+<L=1,GREEN>Elaine Barnes<R=0,YELLOW>Accounts Manager
+
+
+<C=0,RED>NEXON CORPORATION
+<C=0,RED>www.nexon.com
+
+<L=0,RED>PRODUCTION
+<L=1,GREEN>Sangwon Chung<R=0,YELLOW>Executive Producer
+<L=1,GREEN>JungJu Kim<R=0,YELLOW>Executive Producer
+
+<L=0,RED>DESIGN
+<L=1,GREEN>Sangwon Chung<R=0,YELLOW>Original Concept and Design
+<L=1,GREEN>Daesung Lee<R=0,YELLOW>TC Gamemaster
+<L=1,GREEN>Dongsoo Oh<R=0,YELLOW>TC Gamemaster
+
+<L=0,RED>PROGRAMMING
+<L=1,GREEN>Jongheum Park<R=0,YELLOW>Lead Client Programmer
+<L=1,GREEN>Kyungmin Bang<R=0,YELLOW>Client Programmer
+<L=1,GREEN>Seungchan Lee<R=0,YELLOW>Client Programmer
+
+<L=1,GREEN>Min Seo<R=0,YELLOW>Lead Server Programmer
+<L=1,GREEN>Sangwon Chung<R=0,YELLOW>Server Programmer
+<L=1,GREEN>Kyungmin Park<R=0,YELLOW>Server Programmer
+<L=1,GREEN>Kyungkook Park<R=0,YELLOW>Server Programmer
+<L=1,GREEN>Daekyung Moon<R=0,YELLOW>Server Programmer
+
+<L=1,GREEN>Jihun Yoo<R=0,YELLOW>Tools Programmer
+
+<L=0,RED>ART
+<L=1,GREEN>Doo Burm Hur<R=0,YELLOW>Lead Graphic Artist
+<L=1,GREEN>Minsu Kim<R=0,YELLOW>Lead Graphic Artist
+<L=1,GREEN>Dongho Lee<R=0,YELLOW>3-D Modeler
+<L=1,GREEN>Hochul Yoon<R=0,YELLOW>3-D Modeler
+<L=1,GREEN>Soo-Oak Hong<R=0,YELLOW>Graphic Artist
+<L=1,GREEN>Jinhwan Jung<R=0,YELLOW>Graphic Artist
+
+<L=0,RED>WEB DESIGN
+<L=1,GREEN>Kyung Ja Lee<R=0,YELLOW>Web Designer
+<L=1,GREEN>Sung Moon Youn<R=0,YELLOW>Web Designer
+<L=1,GREEN>Ji Eun Kim<R=0,YELLOW>Web Designer
+
+<L=0,RED>SOUND DESIGN
+<L=1,GREEN>Ji Eun Kim<R=0,YELLOW>Sound Designer
+<L=1,GREEN>WorkSpace<R=0,YELLOW>Studio
+
+<L=0,RED>CINEMATICS
+<L=1,GREEN>Xeno Studios<R=0,YELLOW>3-D Cinematics
+
+
+<C=0,RED>CREATIVEWAY SERVICES
+<C=0,RED>creativeway@home.com
+
+<L=1,GREEN>Ronnie Way<R=0,YELLOW>Head Producer/Composer/Writer
+<L=1,GREEN>Bill Buckingham <R=0,YELLOW>Producer/Composer/Engineer
+<L=1,GREEN>William Moysey<R=0,YELLOW>SFX and Foley
+<L=1,GREEN>Gordon Hiller<R=0,YELLOW>SFX and Foley
+<L=1,GREEN>David Dawneway<R=0,YELLOW>Creative Consultant
+<L=1,GREEN>Katherine St. Germaine<R=0,YELLOW>Voices
+<L=1,GREEN>Sarah Richardson<R=0,YELLOW>Voices
+<L=1,GREEN>Dean Aylesworth<R=0,YELLOW>Voices
+
+
+<C=0,RED>TRI SYNERGY (Publishing Assistance)
+<C=0,RED>www.trisynergy.com
+
+<L=1,GREEN>Tamra Nestler<R=0,YELLOW>President & CEO
+<L=1,GREEN>Shane Nestler<R=0,YELLOW>Executive Vice President
+<L=1,GREEN>Robin Frisby<R=0,YELLOW>Vice President of Sales
+<L=1,GREEN>Kristina Junger<R=0,YELLOW>V.P. of Public Relations
+
+
+<C=0,BLUE>SPECIAL THANKS TO
+<C=0,GREEN>Dave Kennerly
+<C=0,GREEN>Landra Lin
+<C=0,GREEN>Mark Mensch 
+<C=0,GREEN>Jason Morales
+<C=0,GREEN>Jinho Park
+
+
+<C=0,BLUE>ADDITIONAL THANKS TO
+<C=0,GREEN>AMD
+<C=0,GREEN>Stephen Chandler
+<C=0,GREEN>Derrick Chiu
+<C=0,GREEN>Coast Engraving
+<C=0,GREEN>Michael Cowie 
+<C=0,GREEN>Alex Dunne
+<C=0,GREEN>Barry Franklin
+<C=0,GREEN>Gama Network
+<C=0,GREEN>GameSpy
+<C=0,GREEN>James Hayes 
+<C=0,GREEN>Mark Hafner 
+<C=0,GREEN>Randy Hedgecock 
+<C=0,GREEN>Dustin L. Hopper
+<C=0,GREEN>Tamsen Huver
+<C=0,GREEN>Ben Keeble
+<C=0,GREEN>Media Resource Advertising
+<C=0,GREEN>Marti Nagi
+<C=0,GREEN>Darby N. Plentl
+<C=0,GREEN>Debra Pugh
+<C=0,GREEN>Robert Yaquinto Printing Co., Inc.
+<C=0,GREEN>Renee Schoenfelder
+<C=0,GREEN>Ramin Shokrizade 
+<C=0,GREEN>Ben Silone
+<C=0,GREEN>Software Packaging Associates
+<C=0,GREEN>Shane D. Weber
+<C=0,GREEN>Todd Young
+<C=0,GREEN>Arjan Zoer
+
+<C=0,YELLOW>And all of our devoted beta testers,
+<C=0,YELLOW>without whom Shattered Galaxy would
+<C=0,YELLOW>not have been possible.

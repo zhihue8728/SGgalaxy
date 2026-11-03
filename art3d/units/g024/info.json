@@ -1,0 +1,921 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g024",
+ "kind": "ground",
+ "chassis": [
+  "Poda-Amplus",
+  "Poda-Magnus",
+  "Poda-Maximus",
+  "Poda-Primus"
+ ],
+ "base_chassis": [
+  "Poda-Amplus",
+  "Poda-Magnus",
+  "Poda-Maximus",
+  "Poda-Primus"
+ ],
+ "names_cn": {
+  "Poda-Amplus": "波达进阶",
+  "Poda-Magnus": "波达强化",
+  "Poda-Maximus": "波达极致",
+  "Poda-Primus": "波达初阶"
+ },
+ "names_tw": {
+  "Poda-Amplus": "波達進階",
+  "Poda-Magnus": "波達強化",
+  "Poda-Maximus": "波達極致",
+  "Poda-Primus": "波達初階"
+ },
+ "alien_role": "Poda",
+ "manual": [
+  {
+   "name": "Poda-Amplus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 10,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2931,
+   "base_armor": 1,
+   "speed_m_s": 3.9,
+   "view_range_m": 10.25,
+   "view_type": "Cone",
+   "chassis_code": "g024",
+   "description_summary": "Fast brawler inflicting heavy melee damage on anything in its way."
+  },
+  {
+   "name": "Poda-Magnus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 20,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3207,
+   "base_armor": 2,
+   "speed_m_s": 3.9,
+   "view_range_m": 10.5,
+   "view_type": "Cone",
+   "chassis_code": "g024",
+   "description_summary": "Quick, powerful unit dealing heavy melee damage to anything blocking it."
+  },
+  {
+   "name": "Poda-Maximus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 30,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3585,
+   "base_armor": 4,
+   "speed_m_s": 4.2,
+   "view_range_m": 10.75,
+   "view_type": "Cone",
+   "chassis_code": "g024",
+   "chassis_image": "g024st.xpf",
+   "description_summary": "Swift unit dealing heavy melee damage to foes in its path."
+  },
+  {
+   "name": "Poda-Primus",
+   "category": "Organic",
+   "group": "Xeno-motus",
+   "unit_quality": 0,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2700,
+   "base_armor": 0,
+   "speed_m_s": 3.6,
+   "view_range_m": 10,
+   "view_type": "Cone",
+   "chassis_code": "g024",
+   "chassis_image": "g024st.xpf",
+   "description_summary": "Fast unit dealing heavy melee damage to foes in its path."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g024at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      99,
+      89
+     ]
+    ],
+    "1": [
+     [
+      94,
+      99
+     ]
+    ],
+    "2": [
+     [
+      77,
+      101
+     ]
+    ],
+    "3": [
+     [
+      63,
+      96
+     ]
+    ],
+    "4": [
+     [
+      57,
+      89
+     ]
+    ],
+    "5": [
+     [
+      62,
+      80
+     ]
+    ],
+    "6": [
+     [
+      77,
+      75
+     ]
+    ],
+    "7": [
+     [
+      94,
+      78
+     ]
+    ],
+    "8": [
+     [
+      99,
+      89
+     ]
+    ],
+    "9": [
+     [
+      94,
+      99
+     ]
+    ],
+    "10": [
+     [
+      77,
+      101
+     ]
+    ],
+    "11": [
+     [
+      63,
+      96
+     ]
+    ],
+    "12": [
+     [
+      57,
+      89
+     ]
+    ],
+    "13": [
+     [
+      62,
+      80
+     ]
+    ],
+    "14": [
+     [
+      77,
+      75
+     ]
+    ],
+    "15": [
+     [
+      94,
+      78
+     ]
+    ],
+    "16": [
+     [
+      99,
+      89
+     ]
+    ],
+    "17": [
+     [
+      94,
+      99
+     ]
+    ],
+    "18": [
+     [
+      77,
+      101
+     ]
+    ],
+    "19": [
+     [
+      63,
+      96
+     ]
+    ],
+    "20": [
+     [
+      57,
+      89
+     ]
+    ],
+    "21": [
+     [
+      62,
+      80
+     ]
+    ],
+    "22": [
+     [
+      77,
+      75
+     ]
+    ],
+    "23": [
+     [
+      94,
+      78
+     ]
+    ],
+    "24": [
+     [
+      99,
+      89
+     ]
+    ],
+    "25": [
+     [
+      94,
+      99
+     ]
+    ],
+    "26": [
+     [
+      77,
+      101
+     ]
+    ],
+    "27": [
+     [
+      63,
+      96
+     ]
+    ],
+    "28": [
+     [
+      57,
+      89
+     ]
+    ],
+    "29": [
+     [
+      62,
+      80
+     ]
+    ],
+    "30": [
+     [
+      77,
+      75
+     ]
+    ],
+    "31": [
+     [
+      94,
+      78
+     ]
+    ],
+    "32": [
+     [
+      99,
+      89
+     ]
+    ],
+    "33": [
+     [
+      94,
+      99
+     ]
+    ],
+    "34": [
+     [
+      77,
+      101
+     ]
+    ],
+    "35": [
+     [
+      63,
+      96
+     ]
+    ],
+    "36": [
+     [
+      57,
+      89
+     ]
+    ],
+    "37": [
+     [
+      62,
+      80
+     ]
+    ],
+    "38": [
+     [
+      77,
+      75
+     ]
+    ],
+    "39": [
+     [
+      94,
+      78
+     ]
+    ],
+    "40": [
+     [
+      99,
+      89
+     ]
+    ],
+    "41": [
+     [
+      94,
+      99
+     ]
+    ],
+    "42": [
+     [
+      77,
+      101
+     ]
+    ],
+    "43": [
+     [
+      63,
+      96
+     ]
+    ],
+    "44": [
+     [
+      57,
+      89
+     ]
+    ],
+    "45": [
+     [
+      62,
+      80
+     ]
+    ],
+    "46": [
+     [
+      77,
+      75
+     ]
+    ],
+    "47": [
+     [
+      94,
+      78
+     ]
+    ],
+    "48": [
+     [
+      106,
+      90
+     ]
+    ],
+    "49": [
+     [
+      98,
+      100
+     ]
+    ],
+    "50": [
+     [
+      77,
+      109
+     ]
+    ],
+    "51": [
+     [
+      58,
+      102
+     ]
+    ],
+    "52": [
+     [
+      48,
+      92
+     ]
+    ],
+    "53": [
+     [
+      58,
+      79
+     ]
+    ],
+    "54": [
+     [
+      77,
+      75
+     ]
+    ],
+    "55": [
+     [
+      99,
+      76
+     ]
+    ],
+    "56": [
+     [
+      99,
+      89
+     ]
+    ],
+    "57": [
+     [
+      94,
+      99
+     ]
+    ],
+    "58": [
+     [
+      77,
+      101
+     ]
+    ],
+    "59": [
+     [
+      63,
+      96
+     ]
+    ],
+    "60": [
+     [
+      57,
+      89
+     ]
+    ],
+    "61": [
+     [
+      62,
+      80
+     ]
+    ],
+    "62": [
+     [
+      77,
+      75
+     ]
+    ],
+    "63": [
+     [
+      94,
+      78
+     ]
+    ],
+    "64": [
+     [
+      99,
+      89
+     ]
+    ],
+    "65": [
+     [
+      94,
+      99
+     ]
+    ],
+    "66": [
+     [
+      77,
+      101
+     ]
+    ],
+    "67": [
+     [
+      63,
+      96
+     ]
+    ],
+    "68": [
+     [
+      57,
+      89
+     ]
+    ],
+    "69": [
+     [
+      62,
+      80
+     ]
+    ],
+    "70": [
+     [
+      77,
+      75
+     ]
+    ],
+    "71": [
+     [
+      94,
+      78
+     ]
+    ],
+    "72": [
+     [
+      99,
+      89
+     ]
+    ],
+    "73": [
+     [
+      94,
+      99
+     ]
+    ],
+    "74": [
+     [
+      77,
+      101
+     ]
+    ],
+    "75": [
+     [
+      63,
+      96
+     ]
+    ],
+    "76": [
+     [
+      57,
+      89
+     ]
+    ],
+    "77": [
+     [
+      62,
+      80
+     ]
+    ],
+    "78": [
+     [
+      77,
+      75
+     ]
+    ],
+    "79": [
+     [
+      94,
+      78
+     ]
+    ]
+   },
+   "sheet": "sheets/g024at.png",
+   "sheet_crop": [
+    45,
+    70,
+    112,
+    124
+   ],
+   "cell": [
+    67,
+    54
+   ],
+   "pivot_in_cell": [
+    32,
+    34
+   ]
+  },
+  {
+   "file": "g024atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 32,
+   "dirs": 8,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g024atd.png",
+   "sheet_crop": [
+    29,
+    58,
+    132,
+    131
+   ],
+   "cell": [
+    103,
+    73
+   ],
+   "pivot_in_cell": [
+    48,
+    46
+   ]
+  },
+  {
+   "file": "g024ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": true
+  },
+  {
+   "file": "g024da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g024da.png",
+   "sheet_crop": [
+    49,
+    82,
+    102,
+    120
+   ],
+   "cell": [
+    53,
+    38
+   ],
+   "pivot_in_cell": [
+    28,
+    22
+   ]
+  },
+  {
+   "file": "g024mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.31,
+   "mask_only": false,
+   "sheet": "sheets/g024mo.png",
+   "sheet_crop": [
+    47,
+    72,
+    111,
+    124
+   ],
+   "cell": [
+    64,
+    52
+   ],
+   "pivot_in_cell": [
+    30,
+    32
+   ]
+  },
+  {
+   "file": "g024mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g024mop.png",
+   "sheet_crop": [
+    47,
+    85,
+    110,
+    124
+   ],
+   "cell": [
+    63,
+    39
+   ],
+   "pivot_in_cell": [
+    30,
+    19
+   ]
+  },
+  {
+   "file": "g024mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.31,
+   "mask_only": true
+  },
+  {
+   "file": "g024st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g024st.png",
+   "sheet_crop": [
+    50,
+    72,
+    109,
+    124
+   ],
+   "cell": [
+    59,
+    52
+   ],
+   "pivot_in_cell": [
+    27,
+    32
+   ]
+  },
+  {
+   "file": "g024sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    77,
+    104
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

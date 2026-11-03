@@ -1,0 +1,2758 @@
+2	Hawk	a004
+2	Owl	a002
+2	Falcon	a014
+2	Pelican	a023
+2	War Pigeon	a011
+2	Vulture	a024
+2	Eagle	a008
+2	Condor	a016
+2	Phoenix	a015
+2	Roc	a001
+2	Albatross	a013
+2	Imp	g004
+2	Daeva	g001
+2	Mephit	g044
+2	Shade	g019
+2	Banshee	g005
+2	Phantom	g040
+2	Wraith	g018
+2	Spectre	g006
+2	Liche	g021
+2	Ghast	g039
+2	Revenant	g003
+2	Spirit	g041
+2	Apparition	g042
+2	Sapper	g017
+2	Medic	g016
+2	Virus	g057
+2	Wight	g059
+2	Pegasus	g009
+2	Gryphon	g043
+2	Behemoth	g020
+2	Leviathan	g045
+2	Manticore	g032
+2	Chimera	g008
+2	Hydra	g038
+2	Red-Eye	g002
+2	Orbus	g035
+2	Gear-Doc	g023
+2	Triage	g056
+2	Mantlet	g058
+2	Volte	g055
+2	Arbalest	g010
+2	Ballista	g034
+2	Trebuchet	g037
+2	SatCom	g054
+2	Oizys-Prima	a006
+2	Oizys-Prima	a006
+2	Ubik-Primus	g011
+2	Slanth-Primus	g015
+2	Poda-Primus	g024
+2	Manta-Primus	a017
+2	Mamos-Primus	a010
+2	Larva-Primus	g025
+2	Abomination	g049
+1	Tinker Contraption	00153
+1	Tinker Gadget	00155
+1	Tinker Gizmo	00154
+1	Dorian Light Engine	00107
+1	Economy Nautilus	00148
+1	Dorian Light Matrix	00177
+1	Optima 2200	00150
+1	Genus FSN-B	00342
+1	Centris TEngine	00152
+1	Dorian Light Drive	00178
+1	Deluxe Nautilus	00149
+1	Genus FSN-P	00343
+1	Optima 3000	00151
+1	Deluxe Dorian LD	00179
+1	Genus FSN-Y	00344
+1	H-Tinker Contraption	02153
+1	H-Tinker Gadget	02155
+1	H-Tinker Gizmo	02154
+1	H-Dorian Light Engine	02107
+1	H-Economy Nautilus	02148
+1	H-Dorian Light Matrix	02177
+1	H-Optima 2200	02150
+1	H-Genus FSN-B	02342
+1	H-Centris TEngine	02152
+1	H-Dorian Light Drive	02178
+1	H-Deluxe Nautilus	02149
+1	H-Genus FSN-P	02343
+1	H-Optima 3000	02151
+1	H-Deluxe Dorian LD	02179
+1	H-Genus FSN-Y	02344
+1	A-Tinker Contraption	04153
+1	A-Tinker Gadget	04155
+1	A-Tinker Gizmo	04154
+1	A-Dorian Light Engine	04107
+1	A-Economy Nautilus	04148
+1	A-Dorian Light Matrix	04177
+1	A-Optima 2200	04150
+1	A-Genus FSN-B	04342
+1	A-Centris TEngine	04152
+1	A-Dorian Light Drive	04178
+1	A-Deluxe Nautilus	04149
+1	A-Genus FSN-P	04343
+1	A-Optima 3000	04151
+1	A-Deluxe Dorian LD	04179
+1	A-Genus FSN-Y	04344
+1	AH-Tinker Contraption	06153
+1	AH-Tinker Gadget	06155
+1	AH-Tinker Gizmo	06154
+1	AH-Dorian Light Engine	06107
+1	AH-Economy Nautilus	06148
+1	AH-Dorian Light Matrix	06177
+1	AH-Optima 2200	06150
+1	AH-Genus FSN-B	06342
+1	AH-Centris TEngine	06152
+1	AH-Dorian Light Drive	06178
+1	AH-Deluxe Nautilus	06149
+1	AH-Genus FSN-P	06343
+1	AH-Optima 3000	06151
+1	AH-Deluxe Dorian LD	06179
+1	AH-Genus FSN-Y	06344
+1	Alien Biodrive	25800
+1	Primordial Biodrive	00333
+1	Developed Biodrive	00331
+1	Evolved Biodrive	00332
+1	Cohesive Biodrive	00434
+1	Mutated Biodrive	00334
+1	Terminus Biodrive	00862
+1	Resilient Biodrive	00437
+1	Sentient Biodrive	00436
+1	Basic Biocase	00350
+1	Phasic Biodrive	00435
+1	Refined Biocase	00351
+1	Mutated Biocase	00352
+1	Advanced Biocase	00353
+1	Charged Biocase	00354
+1	H-Primordial Biodrive	02333
+1	H-Developed Biodrive	02331
+1	H-Evolved Biodrive	02332
+1	H-Cohesive Biodrive	02434
+1	H-Mutated Biodrive	02334
+1	H-Terminus Biodrive	02862
+1	H-Resilient Biodrive	02437
+1	H-Sentient Biodrive	02436
+1	H-Basic Biocase	02350
+1	H-Phasic Biodrive	02435
+1	H-Refined Biocase	02351
+1	H-Mutated Biocase	02352
+1	H-Advanced Biocase	02353
+1	H-Charged Biocase	02354
+1	Broken Heart	00939
+1	Noxious Heart	00940
+1	Bane Heart	00941
+1	Dread Heart	00942
+1	Sinister Heart	00944
+1	Cursed Heart	00945
+1	Aceof Heart	00946
+1	H-Broken Heart	02939
+1	H-Noxious Heart	02940
+1	H-Bane Heart	02941
+1	H-Dread Heart	02942
+1	H-Sinister Heart	02944
+1	H-Cursed Heart	02945
+1	H-Aceof Heart	02946
+1	Basic Nucleoid	00931
+1	Enhanced Nucleoid	00932
+1	Improved Nucleoid	00933
+1	Optimized Nucleoid	00934
+1	Augmented Nucleoid	00935
+1	Superior Nucleoid	00936
+1	Intelligent Nucleoid	00937
+1	Primary Biocore	00938
+1	Strengthened Biocore	00950
+1	Reinforced Biocore	00951
+1	Amplified Biocore	00953
+1	Boosted Biocore	00954
+1	Ultimate Biocore	00955
+1	H-Basic Nucleoid	02931
+1	H-Enhanced Nucleoid	02932
+1	H-Improved Nucleoid	02933
+1	H-Optimized Nucleoid	02934
+1	H-Augmented Nucleoid	02935
+1	H-Superior Nucleoid	02936
+1	H-Intelligent Nucleoid	02937
+1	H-Primary Biocore	02938
+1	H-Strengthened Biocore	02950
+1	H-Reinforced Biocore	02951
+1	H-Amplified Biocore	02953
+1	H-Boosted Biocore	02954
+1	H-Ultimate Biocore	02955
+1	Alien Power	30001
+1	Monster Power	30002
+1	Edison Accumulator	00160
+1	Methane Reactor	00164
+1	Photovoltaic Cell	00172
+1	Dual Methane Reactor	00165
+1	Sodium-Sulfur Accumulator	00158
+1	Advanced Photovoltaic Cell	00173
+1	Fallout A-1 Reactor	00359
+1	Photovoltaic Matrix	00174
+1	Lovinac Accumulator	00162
+1	Advanced Methane Reactor	00166
+1	Fallout A-4 Reactor	00358
+1	Solar Collectors	00347
+1	Crowfoot Cell	00156
+1	Leclanche Cell	04156
+1	I-Sodium-Sulfur Accumulator	00161
+1	Solar Array	00170
+1	Gamma Collectors	00374
+1	Fallout B-5 Reactor	00356
+1	Methane Extractor	00167
+1	Radial Solar Array	00345
+1	Lead-acid Accumulator	00159
+1	Gamma Array	00375
+1	Dual Methane Extractor	00168
+1	Solar Cluster	00349
+1	Fallout C-8 Reactor	00355
+1	Gamma Cluster	00373
+1	Daniell Cell	00157
+1	Gravity Cell	04157
+1	Methane Refiner	00169
+1	I-Lovinac Accumulator	00163
+1	Radial Gamma Cluster	00372
+1	Fallout C-10 Reactor	00357
+1	H-Edison Accumulator	02160
+1	H-Methane Reactor	02164
+1	H-Photovoltaic Cell	02172
+1	H-Dual Methane Reactor	02165
+1	H-Sodium-Sulfur Accumulator	02158
+1	H-Advanced Photovoltaic Cell	02173
+1	H-Fallout A-1 Reactor	02359
+1	H-Photovoltaic Matrix	02174
+1	H-Lovinac Accumulator	02162
+1	H-Advanced Methane Reactor	02166
+1	H-Fallout A-4 Reactor	02358
+1	H-Solar Collectors	02347
+1	H-Crowfoot Cell	02156
+1	H-Leclanche Cell	06156
+1	H-I-Sodium-Sulfur Accumulator	02161
+1	H-Solar Array	02170
+1	H-Gamma Collectors	02374
+1	H-Fallout B-5 Reactor	02356
+1	H-Methane Extractor	02167
+1	H-Radial Solar Array	02345
+1	H-Lead-acid Accumulator	02159
+1	H-Gamma Array	02375
+1	H-Dual Methane Extractor	02168
+1	H-Solar Cluster	02349
+1	H-Fallout C-8 Reactor	02355
+1	H-Gamma Cluster	02373
+1	H-Daniell Cell	02157
+1	H-Gravity Cell	06157
+1	H-Methane Refiner	02169
+1	H-I-Lovinac Accumulator	02163
+1	H-Radial Gamma Cluster	02372
+1	H-Fallout C-10 Reactor	02357
+1	Surge Battery	01168
+1	Surge Accumulator	01169
+1	Surge Methane	01170
+1	Surge Extractor	01171
+1	Ultimate Surge Bat	00876
+1	Ultimate Surge Meth	02876
+1	H-Surge Battery	03168
+1	H-Surge Accumulator	03169
+1	H-Surge Methane	03170
+1	H-Surge Extractor	03171
+1	Galvatron	04876
+1	Orion Mark I	00140
+1	Orion Mark II	00142
+1	Orion Supercomputer	00550
+1	Orion Mark III	00141
+1	Centris Learning Adapter	00143
+1	Orion Neural Network	00144
+1	Orion Parallel Processor	00145
+1	Centris Knowledge Array	00147
+1	Gnossis Machine	00146
+1	Gnossis Parallel Circuit	00438
+1	Gnossis Central Processor	00440
+1	Centris MegaLink	00551
+1	Centris HyperLink	00552
+1	Mg15-Crawler-W	30005
+1	Mg26-Slurst-W	30006
+1	Mg25-Knell Larva-W	30007
+1	Ma10-Mamos-W	30008
+1	Ma6-Oizys-W	30009
+1	Mg11-Ubik-W	30010
+1	Mg15-Slanth-W	30011
+1	Mg24-Poda-W	30012
+1	Ma10-Momos-W	30013
+1	Mg13-Tyr-W	30014
+1	Ma7-Eris-W	30015
+1	Mg48-Wipin-W	30016
+1	Mg27-Kritsk-W	30017
+1	Mg29-Knell-W	30018
+1	Mg14-Crudgin-W	30019
+1	Ma5-Boreas-W	30020
+1	Ma10-Momas-W	30021
+1	Mg28-Scave-W	30022
+1	Mg22-Jorias-W	30023
+1	Mg47-Slurven-W	30024
+1	Mg52-Vytyr-W	30025
+1	Mg51-Quarg-W	30026
+1	Ma21-Dythe-W	30027
+1	Ma22-Charis-W	30028
+1	Ma12-Miasmal-W	30029
+1	T Power	30034
+1	T Ouch	30035
+1	T Bam	30036
+1	ghastmon	30042
+1	impmon	30043
+1	spectremon	30044
+1	mothmon	30045
+1	levimon	30046
+1	hydramon	30047
+1	mantmon	30048
+1	gryphonmon	30049
+1	hawkmon	30050
+1	falconmon	30051
+1	owlmon	30052
+1	eaglemon	30053
+1	erismon	30054
+1	roukemon	30055
+1	miasmalmon	30056
+1	miasammon	30057
+1	Ma5-bat-W	30058
+1	Ma5-bat2-W	30059
+1	Mg22-drac-W	30060
+1	Mg22-drac2-W	30061
+1	Mg51-frank-W	30062
+1	Mg51-frank2-W	30063
+1	ctfrange	30064
+1	ctfmelee	30065
+1	ctf-a	30066
+1	ctf-b	30067
+1	ctf-d	30068
+1	ctf-g	30069
+1	Tinker Widget	00391
+1	Autorifle	00054
+1	Prism Opal	00002
+1	Prism Sapphire	00004
+1	Dorian Pulse	00392
+1	MA Musket	00446
+1	Prism Emerald	00019
+1	MA Carbine	00450
+1	Dorian Maser	00442
+1	Tinker Masterpiece	00443
+1	Dorian Ultra-Pulse	00451
+1	MA Shotgun	00449
+1	Fireball	00452
+1	MA Tommy Gun	00445
+1	H-Tinker Widget	02391
+1	H-Autorifle	02054
+1	H-Prism Opal	02002
+1	H-Prism Sapphire	02004
+1	H-Dorian Pulse	02392
+1	H-MA Musket	02446
+1	H-Prism Emerald	02019
+1	H-MA Carbine	02450
+1	H-Dorian Maser	02442
+1	H-Tinker Masterpiece	02443
+1	H-Dorian Ultra-Pulse	02451
+1	H-MA Shotgun	02449
+1	H-Fireball	02452
+1	H-MA Tommy Gun	02445
+1	Titanium Fist	00053
+1	Titanium Claw	00133
+1	Spiked Fist	00413
+1	Charged Fist	00328
+1	Blade Fist	00330
+1	Clawed Fist	00737
+1	Lightning Fist	00329
+1	Burst Fist	00768
+1	Hammer Fist	00415
+1	Shock Fist	00703
+1	Sabre Fist	00414
+1	Polar Fist	00720
+1	Plutonic Fist	00134
+1	H-Titanium Fist	02053
+1	H-Titanium Claw	02133
+1	H-Spiked Fist	02413
+1	H-Charged Fist	02328
+1	H-Blade Fist	02330
+1	H-Clawed Fist	02737
+1	H-Lightning Fist	02329
+1	H-Burst Fist	02768
+1	H-Hammer Fist	02415
+1	H-Shock Fist	02703
+1	H-Sabre Fist	02414
+1	H-Polar Fist	02720
+1	H-Plutonic Fist	02134
+1	Trillian SM10	00507
+1	MA Match	00458
+1	MA Ignite	00456
+1	Trillian SM20	00508
+1	MA Fuse	00457
+1	MA Cinerate	00454
+1	Trillian SM40	00509
+1	MA Radiate	00455
+1	Pyro Burn	00523
+1	Pyro Blaze	00520
+1	Trillian SM100	00510
+1	Pyro Singe	00521
+1	Trillian SM200	00511
+1	Pyro Sear	00524
+1	Pyro Scorch	00522
+1	H-Trillian SM10	02507
+1	H-MA Match	02458
+1	H-MA Ignite	02456
+1	H-Trillian SM20	02508
+1	H-MA Fuse	02457
+1	H-MA Cinerate	02454
+1	H-Trillian SM40	02509
+1	H-MA Radiate	02455
+1	H-Pyro Burn	02523
+1	H-Pyro Blaze	02520
+1	H-Trillian SM100	02510
+1	H-Pyro Singe	02521
+1	H-Trillian SM200	02511
+1	H-Pyro Sear	02524
+1	H-Pyro Scorch	02522
+1	RedcoatFlame	04522
+1	Trillian VS10	00075
+1	Terminus Flock-V11	00078
+1	Maxus Jabber	00074
+1	Terminus Flock-V17	00079
+1	Trillian TVS10	00073
+1	Terminus Swarm-V22	00080
+1	Maxus Flame Prodder	00077
+1	Terminus Swarm-V25	00081
+1	Trillian TVS Flame	00076
+1	Trillian TVS20	04073
+1	Maxus Flame Smolder	00573
+1	Terminus Flock-V9	00575
+1	Trillian MVS18	00576
+1	Maxus Flame Ender	00578
+1	Trillian NVS14	00577
+1	H-Trillian VS10	02075
+1	H-Terminus Flock-V11	02078
+1	H-Maxus Jabber	02074
+1	H-Terminus Flock-V17	02079
+1	H-Trillian TVS10	02073
+1	H-Terminus Swarm-V22	02080
+1	H-Maxus Flame Prodder	02077
+1	H-Terminus Swarm-V25	02081
+1	H-Trillian TVS Flame	02076
+1	H-Trillian TVS20	06073
+1	H-Maxus Flame Smolder	02573
+1	H-Terminus Flock-V9	02575
+1	H-Trillian MVS18	02576
+1	H-Maxus Flame Ender	02578
+1	H-Trillian NVS14	02577
+1	Lotus GT	00082
+1	Odin Needle	00461
+1	Lotus ATA	00459
+1	Odin Pick	00466
+1	Lotus ATS	00464
+1	Odin Spike	00467
+1	Lotus AGA	00460
+1	Synker JS	00532
+1	Synker JST	00525
+1	Odin Thorn	00468
+1	Lotus AGS	00465
+1	Synker DJST	00528
+1	Lotus ASA	00064
+1	Lotus TASA	00058
+1	H-Lotus GT	02082
+1	H-Odin Needle	02461
+1	H-Lotus ATA	02459
+1	H-Odin Pick	02466
+1	H-Lotus ATS	02464
+1	H-Odin Spike	02467
+1	H-Lotus AGA	02460
+1	H-Synker JS	02532
+1	H-Synker JST	02525
+1	H-Odin Thorn	02468
+1	H-Lotus AGS	02465
+1	H-Synker DJST	02528
+1	H-Lotus ASA	02064
+1	H-Lotus TASA	02058
+1	Tinker Doohickey	00396
+1	Lotus LG	00001
+1	Prism Thunderbolt	00398
+1	Tinker Thingamajig	00060
+1	Dorian Blaster	00393
+1	Terminus Persecutor	00447
+1	MA Marksman	00394
+1	MA Drizzler	00061
+1	Terminus Torturer	00448
+1	Terminus Tormentor	00397
+1	Lotus MG	00017
+1	Prism Firebolt	00399
+1	MA Sniper	00395
+1	Terminus Punisher	00444
+1	H-Tinker Doohickey	02396
+1	H-Lotus LG	02001
+1	H-Prism Thunderbolt	02398
+1	H-Tinker Thingamajig	02060
+1	H-Dorian Blaster	02393
+1	H-Terminus Persecutor	02447
+1	H-MA Marksman	02394
+1	H-MA Drizzler	02061
+1	H-Terminus Torturer	02448
+1	H-Terminus Tormentor	02397
+1	H-Lotus MG	02017
+1	H-Prism Firebolt	02399
+1	H-MA Sniper	02395
+1	H-Terminus Punisher	02444
+1	MA VT-33	00007
+1	MA VX-5	00020
+1	MA VT-46	00008
+1	MA VX-7	00021
+1	Maxus Infliction	00481
+1	Prism Topaz	00469
+1	Maxus Affliction	00482
+1	MA VX-8	00022
+1	Prism Citrinite	00470
+1	Maxus Casualty	00483
+1	Prism Aureolite	00471
+1	Maxus Calamity	00484
+1	Prism Xanthite	00472
+1	Maxus Catastrophe	00485
+1	Prism Saffronite	00473
+1	H-MA VT-33	02007
+1	H-MA VX-5	02020
+1	H-MA VT-46	02008
+1	H-MA VX-7	02021
+1	H-Maxus Infliction	02481
+1	H-Prism Topaz	02469
+1	H-Maxus Affliction	02482
+1	H-MA VX-8	02022
+1	H-Prism Citrinite	02470
+1	H-Maxus Casualty	02483
+1	H-Prism Aureolite	02471
+1	H-Maxus Calamity	02484
+1	H-Prism Xanthite	02472
+1	H-Maxus Catastrophe	02485
+1	H-Prism Saffronite	02473
+1	RedcoatShade	06473
+1	Ion Blade	00622
+1	AM Blade	00794
+1	Charged Blade	00623
+1	Ion Cutlass	00625
+1	Charged Cutlass	00624
+1	E-AM Blade	00795
+1	Plasma Sword	00798
+1	C-AM Blade	00796
+1	Ion Flamberge	00626
+1	Plasma Edge	00800
+1	C-PAM Blade	00797
+1	C-Plasma Edge	00801
+1	Blood Blade	00627
+1	H-Ion Blade	02622
+1	H-AM Blade	02794
+1	H-Charged Blade	02623
+1	H-Ion Cutlass	02625
+1	H-Charged Cutlass	02624
+1	H-E-AM Blade	02795
+1	H-Plasma Sword	02798
+1	H-C-AM Blade	02796
+1	H-Ion Flamberge	02626
+1	H-Plasma Edge	02800
+1	H-C-PAM Blade	02797
+1	H-C-Plasma Edge	02801
+1	H-Blood Blade	02627
+1	Tinker Gimmick	00390
+1	Prism F-Opal	00016
+1	MA SR2	00052
+1	MA SR71	01057
+1	Trillian SM8	00512
+1	Trillian NFG	01058
+1	Tinker Excel	00757
+1	Tinker Trickster	01059
+1	Trillian SM9	00513
+1	MA Stripes	01060
+1	Trillian AAR	01061
+1	MA SR3	00546
+1	H-Tinker Gimmick	02390
+1	H-Prism F-Opal	02016
+1	H-MA SR2	02052
+1	H-MA SR71	03057
+1	H-Trillian SM8	02512
+1	H-Trillian NFG	03058
+1	H-Tinker Excel	02757
+1	H-Tinker Trickster	03059
+1	H-Trillian SM9	02513
+1	H-MA Stripes	03060
+1	H-Trillian AAR	03061
+1	H-MA SR3	02546
+1	Falerian Shiv	00697
+1	Odin Hammer	00611
+1	Odin Flintlock	00705
+1	Falerian Shank	00714
+1	Odin Dart	00722
+1	Falerian Skean	00731
+1	Odin Bolt	00783
+1	Falerian Buckshot	00748
+1	Odin Cleave	00615
+1	Falerian Plasma Bolt	00779
+1	Odin Javelin	00770
+1	Odin Bazooka	00789
+1	Falerian Masershot	00707
+1	Odin Firepod	00724
+1	Odin Jackhammer	00756
+1	H-Falerian Shiv	02697
+1	H-Odin Hammer	02611
+1	H-Odin Flintlock	02705
+1	H-Falerian Shank	02714
+1	H-Odin Dart	02722
+1	H-Falerian Skean	02731
+1	H-Odin Bolt	02783
+1	H-Falerian Buckshot	02748
+1	H-Odin Cleave	02615
+1	H-Falerian Plasma Bolt	02779
+1	H-Odin Javelin	02770
+1	H-Odin Bazooka	02789
+1	H-Falerian Masershot	02707
+1	H-Odin Firepod	02724
+1	H-Odin Jackhammer	02756
+1	Tinker Pea Shooter	00696
+1	Trillian P-12 Shell	00701
+1	Trillian P-14 Shell	00713
+1	Terminus Stormbrand	00718
+1	Trillian P-21 Buckshot	00730
+1	Terminus Fury	00706
+1	Terminus Thunderclap	00747
+1	Trillian P-29 Buckshot	00752
+1	Tinker Perfection	00735
+1	Trillian P-33 Shell	00764
+1	Terminus Bloodlust	00723
+1	Terminus Rage	00740
+1	Terminus Razorbolt	00765
+1	Trillian P-40 Buckshot	00766
+1	Terminus Rampage	00784
+1	H-Tinker Pea Shooter	02696
+1	H-Trillian P-12 Shell	02701
+1	H-Trillian P-14 Shell	02713
+1	H-Terminus Stormbrand	02718
+1	H-Trillian P-21 Buckshot	02730
+1	H-Terminus Fury	02706
+1	H-Terminus Thunderclap	02747
+1	H-Trillian P-29 Buckshot	02752
+1	H-Tinker Perfection	02735
+1	H-Trillian P-33 Shell	02764
+1	H-Terminus Bloodlust	02723
+1	H-Terminus Rage	02740
+1	H-Terminus Razorbolt	02765
+1	H-Trillian P-40 Buckshot	02766
+1	H-Terminus Rampage	02784
+1	Lovinac Defender	00868
+1	Lotus Drag Missile	00867
+1	Lovinac Shield	00882
+1	Lovinac Guard	00891
+1	Lotus Dyn Missile	00881
+1	Lovinac Escort	00898
+1	Lovinac Stabilizer	00904
+1	Lotus Warp Missile	00890
+1	Lovinac Wall	00909
+1	Lotus Striker III	00897
+1	Lovinac Lash	00912
+1	Lotus Striker V	00903
+1	Lotus Striker VI	00908
+1	Lovinac Angel	00915
+1	H-Lovinac Defender	02868
+1	H-Lotus Drag Missile	02867
+1	H-Lovinac Shield	02882
+1	H-Lovinac Guard	02891
+1	H-Lotus Dyn Missile	02881
+1	H-Lovinac Escort	02898
+1	H-Lovinac Stabilizer	02904
+1	H-Lotus Warp Missile	02890
+1	H-Lovinac Wall	02909
+1	H-Lotus Striker III	02897
+1	H-Lovinac Lash	02912
+1	H-Lotus Striker V	02903
+1	H-Lotus Striker VI	02908
+1	H-Lovinac Angel	02915
+1	Virus Decay	05175
+1	Venom Decay	05174
+1	Acid Decay	05167
+1	Doom Decay	05161
+1	H-Virus Decay	07175
+1	H-Venom Decay	07174
+1	H-Acid Decay	07167
+1	H-Doom Decay	07161
+1	Tinker Lute	00857
+1	Tinker Recorder	00860
+1	Tinker Harp	00874
+1	Tinker Viol	00886
+1	Tinker Gamba	00871
+1	Tinker Dulcimer	01139
+1	Tinker Harpsicord	01140
+1	Tinker Rebec	01141
+1	Tinker Gemshorn	00057
+1	Tinker Shawm	00553
+1	Tinker Sackbut	00554
+1	Tinker Bagpipe	00563
+1	Tinker Hurdy-Gurdy	00584
+1	Terminus Disarray	01144
+1	Terminus Tumult	01145
+1	Terminus Disorder	01146
+1	Terminus Lawless	01147
+1	Terminus Discord	01148
+1	Terminus Chaos	01149
+1	Terminus Turmoil	01150
+1	Terminus Anarchy	00556
+1	Terminus Pandemonium	00555
+1	Terminus Bedlam	00986
+1	H-Tinker Lute	02857
+1	H-Tinker Recorder	02860
+1	H-Tinker Harp	02874
+1	H-Tinker Viol	02886
+1	H-Tinker Gamba	02871
+1	H-Tinker Dulcimer	03139
+1	H-Tinker Harpsicord	03140
+1	H-Tinker Rebec	03141
+1	H-Tinker Gemshorn	02057
+1	H-Tinker Shawm	02553
+1	H-Tinker Sackbut	02554
+1	H-Tinker Bagpipe	02563
+1	H-Tinker Hurdy-Gurdy	02584
+1	H-Terminus Disarray	03144
+1	H-Terminus Tumult	03145
+1	H-Terminus Disorder	03146
+1	H-Terminus Lawless	03147
+1	H-Terminus Discord	03148
+1	H-Terminus Chaos	03149
+1	H-Terminus Turmoil	03150
+1	H-Terminus Anarchy	02556
+1	H-Terminus Pandemonium	02555
+1	H-Terminus Bedlam	02986
+1	Prism Peridot	00059
+1	Odin Smasher	00009
+1	Trillian XG10	00011
+1	MA Driller	00055
+1	Trillian Butcher	00382
+1	Dorian Mounted Pulse	00383
+1	Trillian XG20	00012
+1	Lynx GLB-I	00543
+1	Lynx GLC-I	00545
+1	Prism Zircon	00384
+1	MA Piercer	00006
+1	Trillian XG50	00013
+1	Trillian Cutthroat	00388
+1	Lynx GLB-2	00547
+1	H-Prism Peridot	02059
+1	H-Odin Smasher	02009
+1	H-Trillian XG10	02011
+1	H-MA Driller	02055
+1	H-Trillian Butcher	02382
+1	H-Dorian Mounted Pulse	02383
+1	H-Trillian XG20	02012
+1	H-Lynx GLB-I	02543
+1	H-Lynx GLC-I	02545
+1	H-Prism Zircon	02384
+1	H-MA Piercer	02006
+1	H-Trillian XG50	02013
+1	H-Trillian Cutthroat	02388
+1	H-Lynx GLB-2	02547
+1	Dorian Light Laser	00003
+1	Odin Crusher	00010
+1	Prism Azurite	00135
+1	Maxus Skyhopper	00005
+1	Dorian Flex Laser	00389
+1	Dorian Mounted Beam	00381
+1	Prism Crossfire	00407
+1	Dorian Ultra Flex	00380
+1	Lotus Jolt	00462
+1	Dorian Plasma Laser	00385
+1	Grimwell Hawk	00405
+1	Lotus Thrust	00463
+1	Synker SK149	00540
+1	Maxus Striker	00538
+1	Synker SK216	00537
+1	Maxus M-Striker	00535
+1	H-Dorian Light Laser	02003
+1	H-Odin Crusher	02010
+1	H-Prism Azurite	02135
+1	H-Maxus Skyhopper	02005
+1	H-Dorian Flex Laser	02389
+1	H-Dorian Mounted Beam	02381
+1	H-Prism Crossfire	02407
+1	H-Dorian Ultra Flex	02380
+1	H-Lotus Jolt	02462
+1	H-Dorian Plasma Laser	02385
+1	H-Grimwell Hawk	02405
+1	H-Lotus Thrust	02463
+1	H-Synker SK149	02540
+1	H-Maxus Stiker	02538
+1	H-Synker SK216	02537
+1	H-Maxus M-Striker	02535
+1	RedcoatPeg	04535
+1	Prism Rhodonite	00062
+1	Lynx MC-I	00514
+1	Prism Malachite	00136
+1	Maxus Ordnance	00495
+1	Lynx MC-II	00515
+1	Prism Obsidian	00137
+1	Maxus Carronade	00493
+1	Lynx MC-III	00516
+1	Maxus Mortar	00496
+1	Lynx LC-R	00519
+1	Maxus Culverin	00494
+1	Lynx LC-S	00518
+1	Lynx LC-X	00517
+1	Maxus Howitzer	00497
+1	H-Prism Rhodonite	02062
+1	H-Lynx MC-I	02514
+1	H-Prism Malachite	02136
+1	H-Maxus Ordnance	02495
+1	H-Lynx MC-II	02515
+1	H-Prism Obsidian	02137
+1	H-Maxus Carronade	02493
+1	H-Lynx MC-III	02516
+1	H-Maxus Mortar	02496
+1	H-Lynx LC-R	02519
+1	H-Maxus Culverin	02494
+1	H-Lynx LC-S	02518
+1	H-Lynx LC-X	02517
+1	H-Maxus Howitzer	02497
+1	Terminus Crow	00403
+1	Odin Executioner	00023
+1	Grimwell Vulture	00404
+1	Odin Exterminator	00063
+1	Odin Suppressor	00108
+1	Prism Spitfire	00408
+1	Odin Redeemer	00401
+1	Odin Widowmaker	00402
+1	Grimwell Eagle	00406
+1	Odin Peacekeeper	00410
+1	Grimwell Ox	00561
+1	Prism Hellfire	00409
+1	Grimwell Bull	00562
+1	H-Terminus Crow	02403
+1	H-Odin Executioner	02023
+1	H-Grimwell Vulture	02404
+1	H-Odin Exterminator	02063
+1	H-Odin Suppressor	02108
+1	H-Prism Spitfire	02408
+1	H-Odin Redeemer	02401
+1	H-Odin Widowmaker	02402
+1	H-Grimwell Eagle	02406
+1	H-Odin Peacekeeper	02410
+1	H-Grimwell Ox	02561
+1	H-Prism Hellfire	02409
+1	H-Grimwell Bull	02562
+1	Lotus CB-11	00708
+1	MA RX-7	00710
+1	Lotus CB-13	00725
+1	MA RX-8	00727
+1	Lotus CB-14	00742
+1	MA RX-8B	00744
+1	Lotus CNB-21	00759
+1	MA RX-8C	00761
+1	Lotus CNB-22	00773
+1	MA RX-8D	00775
+1	Lotus CNB-25	00786
+1	MA RX-9	00788
+1	Lotus CUB-31	00790
+1	MA RX-9B	00792
+1	H-Lotus CB-11	02708
+1	H-MA RX-7	02710
+1	H-Lotus CB-13	02725
+1	H-MA RX-8	02727
+1	H-Lotus CB-14	02742
+1	H-MA RX-8B	02744
+1	H-Lotus CNB-21	02759
+1	H-MA RX-8C	02761
+1	H-Lotus CNB-22	02773
+1	H-MA RX-8D	02775
+1	H-Lotus CNB-25	02786
+1	H-MA RX-9	02788
+1	H-Lotus CUB-31	02790
+1	H-MA RX-9B	02792
+1	MA Piston	00099
+1	MA Stopple	00559
+1	Linshear Burst I	00865
+1	MA Spigot	00560
+1	Linshear Spray	00879
+1	MA Bozar	00631
+1	Linshear Burst II	00888
+1	Linshear Discharge	00895
+1	MA Flux Torpedo	00632
+1	MA Drill Torpedo	00633
+1	Linshear Detonate	00901
+1	MA Bolt Torpedo	00634
+1	Nose-hair Torpedo	00635
+1	H-MA Piston	02099
+1	H-MA Stopple	02559
+1	H-Linshear Burst I	02865
+1	H-MA Spigot	02560
+1	H-Linshear Spray	02879
+1	H-MA Bozar	02631
+1	H-Linshear Burst II	02888
+1	H-Linshear Discharge	02895
+1	H-MA Flux Torpedo	02632
+1	H-MA Drill Torpedo	02633
+1	H-Linshear Detonate	02901
+1	H-MA Bolt Torpedo	02634
+1	H-Nose-hair Torpedo	02635
+1	Linshear 105mm	00661
+1	Falerian Vortex	00662
+1	CRB G3	00663
+1	Linshear 247mm	00664
+1	CRB G4	00665
+1	Falerian Orion	00666
+1	Linshear 135mm	00386
+1	Falerian Nebula	00387
+1	Falerian Maelstrom	00695
+1	Linshear 122mm	00712
+1	Falerian Nova	00729
+1	Falerian Efflux	00763
+1	CRB G5	00777
+1	H-Linshear 105mm	02661
+1	H-Falerian Vortex	02662
+1	H-CRB G3	02663
+1	H-Linshear 247mm	02664
+1	H-CRB G4	02665
+1	H-Falerian Orion	02666
+1	H-Linshear 135mm	02386
+1	H-Falerian Nebula	02387
+1	H-Falerian Maelstrom	02695
+1	H-Linshear 122mm	02712
+1	H-Falerian Nova	02729
+1	H-Falerian Efflux	02763
+1	H-CRB G5	02777
+1	Terminus Marauder	00091
+1	Terminus Forayer	00090
+1	Terminus Despoiler	00093
+1	Terminus Looter	00092
+1	Maxus Shatterer-C	00288
+1	Maxus Mauler-C	00298
+1	Maxus Shatterer-H	00290
+1	Maxus Mauler-H	00300
+1	Maxus Shatterer-X	00294
+1	Maxus Mauler-X	00304
+1	H-Terminus Marauder	02091
+1	H-Terminus Forayer	02090
+1	H-Terminus Despoiler	02093
+1	H-Terminus Looter	02092
+1	H-Maxus Shatterer-C	02288
+1	H-Maxus Mauler-C	02298
+1	H-Maxus Shatterer-H	02290
+1	H-Maxus Mauler-H	02300
+1	H-Maxus Shatterer-X	02294
+1	H-Maxus Mauler-X	02304
+1	Terminus N-Plunger	00114
+1	Terminus S-Plunger	00119
+1	Terminus N-Diver	00116
+1	Maxus Flake	00698
+1	Terminus H-Plunger	00120
+1	Maxus N-Flake	00732
+1	Terminus S-Diver	00117
+1	Maxus S-Flake	00749
+1	Terminus H-Diver	00118
+1	H-Terminus N-Plunger	02114
+1	H-Terminus S-Plunger	02119
+1	H-Terminus N-Diver	02116
+1	H-Maxus Flake	02698
+1	H-Terminus H-Plunger	02120
+1	H-Maxus N-Flake	02732
+1	H-Terminus S-Diver	02117
+1	H-Maxus S-Flake	02749
+1	H-Terminus H-Diver	02118
+1	Astral Rubberband	00977
+1	Astral Fling	00978
+1	Astral Sling	00979
+1	Astral Propel	00980
+1	Astral Project	00981
+1	Astral Pitch	00982
+1	Astral Heave	00983
+1	Astral Hurl	00984
+1	Astral Launch	00985
+1	X-Astral Rubberband	06977
+1	X-Astral Fling	06978
+1	X-Astral Sling	06979
+1	X-Astral Propel	06980
+1	X-Astral Project	06981
+1	X-Astral Pitch	06982
+1	X-Astral Heave	06983
+1	X-Astral Hurl	06984
+1	X-Astral Launch	06985
+1	Cougar M1 Shell	00694
+1	Cougar M2 Shell	00702
+1	Cougar M3 Shell	00711
+1	Cougar S1 Shell	00762
+1	Cougar S2 Shell	00728
+1	Cougar S3 Shell	00776
+1	Cougar T Shell	00745
+1	H-Cougar M1 Shell	02694
+1	H-Cougar M2 Shell	02702
+1	H-Cougar M3 Shell	02711
+1	H-Cougar S1 Shell	02762
+1	H-Cougar S2 Shell	02728
+1	H-Cougar S3 Shell	02776
+1	H-Cougar T Shell	02745
+1	Astral Ram	00719
+1	Astral Maul	00736
+1	Astral Flak	00870
+1	Astral Toss	00884
+1	Astral Slam	00892
+1	Astral Jolt	00899
+1	H-Astral Ram	02719
+1	H-Astral Maul	02736
+1	H-Astral Flak	02870
+1	H-Astral Toss	02884
+1	H-Astral Slam	02892
+1	H-Astral Jolt	02899
+1	Surge EMP Facilitator	01072
+1	Surge EMP Facilitator	01072
+1	Linshear Plunk	01073
+1	Linshear Bop	01074
+1	Linshear Pow	01075
+1	Linshear Zam	01076
+1	H-Linshear Plunk	03073
+1	H-Linshear Bop	03074
+1	H-Linshear Pow	03075
+1	H-Linshear Zam	03076
+1	LG Generator	02316
+1	LG Disperser	02314
+1	LG Centralizer	02315
+1	Linshear Plink	05072
+1	Linshear Doink	05073
+1	Linshear Ping	05074
+1	Linshear Zza	05075
+1	H-Linshear Plink	07073
+1	H-Linshear Doink	07074
+1	H-Linshear Ping	07075
+1	H-Linshear Zza	07076
+1	Tinker Thingum	00066
+1	Effective Negation	00056
+1	Grimwell Shout	00367
+1	Excessive Negation	00100
+1	Grimwell Howl	00368
+1	Genus Mosquito	00486
+1	Maxus Chaser	00086
+1	Genus Fly	00487
+1	Maxus Hunter	00087
+1	Genus Moth	00488
+1	Synker Sidewiper	00529
+1	Genus Bat	00539
+1	Synker Sidewinder	00533
+1	Genus Crow	00531
+1	H-Tinker Thingum	02066
+1	H-Effective Negation	02056
+1	H-Grimwell Shout	02367
+1	H-Excessive Negation	02100
+1	H-Grimwell Howl	02368
+1	H-Genus Mosquito	02486
+1	H-Maxus Chaser	02086
+1	H-Genus Fly	02487
+1	H-Maxus Hunter	02087
+1	H-Genus Moth	02488
+1	H-Synker Sidewiper	02529
+1	H-Genus Bat	02539
+1	H-Synker Sidewinder	02533
+1	H-Genus Crow	02531
+1	Tinker Doodad	00065
+1	Extreme Negation	00018
+1	Grimwell Shriek	00369
+1	Dorian Dual Beam	00138
+1	Lynx CNB	00544
+1	Skysweeper	00113
+1	Grimwell Scream	00370
+1	Dorian Tri-Beam	00139
+1	Lynx DCNB	00569
+1	Dorian Quad-Beam	00564
+1	Lynx TCNB	00570
+1	Lynx TSNB	00571
+1	Dorian Sync-Beam	00583
+1	Lynx DCSNB	00572
+1	H-Tinker Doodad	02065
+1	H-Extreme Negation	02018
+1	H-Grimwell Shriek	02369
+1	H-Dorian Dual Beam	02138
+1	H-Lynx CNB	02544
+1	H-Skysweeper	02113
+1	H-Grimwell Scream	02370
+1	H-Dorian Tri-Beam	02139
+1	H-Lynx DCNB	02569
+1	H-Dorian Quad-Beam	02564
+1	H-Lynx TCNB	02570
+1	H-Lynx TSNB	02571
+1	H-Dorian Sync-Beam	02583
+1	H-Lynx DCSNB	02572
+1	RedcoatHawk	04572
+1	Lynx Pu	00502
+1	Genus Splash	00489
+1	Lynx Pl	00503
+1	Genus Gush	00490
+1	Lynx EPl	00506
+1	Genus Flush	00491
+1	Lynx Ph	00504
+1	Genus Flux	00492
+1	Lynx EPh	00505
+1	Lynx NuB	00565
+1	Lynx CNuB	00566
+1	Lynx QCNuB	00567
+1	Lynx AMB	00568
+1	H-Lynx Pu	02502
+1	H-Genus Splash	02489
+1	H-Lynx Pl	02503
+1	H-Genus Gush	02490
+1	H-Lynx EPl	02506
+1	H-Genus Flush	02491
+1	H-Lynx Ph	02504
+1	H-Genus Flux	02492
+1	H-Lynx EPh	02505
+1	H-Lynx NuB	02565
+1	H-Lynx CNuB	02566
+1	H-Lynx QCNuB	02567
+1	H-Lynx AMB	02568
+1	Pyro Warm	01142
+1	Genus Blind	00526
+1	Pyro Mild	01143
+1	Genus Sighter	00530
+1	Pyro Hot	01151
+1	Pyro Spice	01152
+1	Pyro Traditional	01153
+1	Pyro Atomic	01154
+1	Pyro Thermo	01155
+1	Genus Blazer	00534
+1	Pyro Nuclear	01156
+1	Pyro Global	01157
+1	Pyro Emergency	01158
+1	H-Pyro Warm	03142
+1	H-Genus Blind	02526
+1	H-Pyro Mild	03143
+1	H-Genus Sighter	02530
+1	H-Pyro Hot	03151
+1	H-Pyro Spice	03152
+1	H-Pyro Traditional	03153
+1	H-Pyro Atomic	03154
+1	H-Pyro Thermo	03155
+1	H-Genus Blazer	02534
+1	H-Pyro Nuclear	03156
+1	H-Pyro Global	03157
+1	H-Pyro Emergency	03158
+1	Edison AAA-Bolt	00640
+1	Edison AA-Bolt	00643
+1	Cerulean Ripple	00656
+1	Edison C-Bolt	00642
+1	Cerulean Splash	00657
+1	Edison D-Bolt	00641
+1	Dorian Shocker	00667
+1	Edison A-Bolt	04640
+1	Cerulean Wave	00655
+1	Dorian Zapper	04643
+1	Cerulean Torrent	00654
+1	Edison S-Bolt	04656
+1	Dorian Jolter	00668
+1	H-Edison AAA-Bolt	02640
+1	H-Edison AA-Bolt	02643
+1	H-Cerulean Ripple	02656
+1	H-Edison C-Bolt	02642
+1	H-Cerulean Splash	02657
+1	H-Edison D-Bolt	02641
+1	H-Dorian Shocker	02667
+1	H-Edison A-Bolt	06640
+1	H-Cerulean Wave	02655
+1	H-Dorian Zapper	06643
+1	H-Cerulean Torrent	02654
+1	H-Edison S-Bolt	06656
+1	H-Dorian Jolter	02668
+1	Mystifire	00104
+1	Surge AK064 Cap	00670
+1	Surge AK096 Cap	00669
+1	Surge AX1011 Cap	00675
+1	Surge AK128 Cap	00677
+1	Surge BX1 Cap	00671
+1	Surge AX2011 Cap	00674
+1	Surge AK256 Cap	00678
+1	Surge BX2 Cap	00672
+1	Surge AX3011 Cap	00676
+1	Surge BX3 Cap	00673
+1	Surge BZ2 Cap	00684
+1	Surge AK900 Cap	00679
+1	Surge BZ3 Cap	00680
+1	Surge CX Cap	00681
+1	H-Surge AK064 Cap	04670
+1	H-Surge AK096 Cap	04669
+1	H-Surge AX1011 Cap	04675
+1	H-Surge AK128 Cap	04677
+1	H-Surge BX1 Cap	04671
+1	H-Surge AX2011 Cap	04674
+1	H-Surge AK256 Cap	04678
+1	H-Surge BX2 Cap	04672
+1	H-Surge AX3011 Cap	04676
+1	H-Surge BX3 Cap	04673
+1	H-Surge BZ2 Cap	04684
+1	H-Surge AK900 Cap	04679
+1	H-Surge BZ3 Cap	04680
+1	H-Surge CX Cap	04681
+1	Genus Manta	00866
+1	Genus Thornback	00880
+1	Genus Piranha	00889
+1	Genus Barracuda	00896
+1	Genus Devilray	00902
+1	Genus Horn	00709
+1	Genus Porbeagle	00787
+1	Genus Stingray	00907
+1	Genus Dusky	00726
+1	Genus Galapagos	00793
+1	Genus Mako	00743
+1	Genus Hammerhead	00774
+1	Genus Thresher	00760
+1	Genus MegaMouth	00791
+1	H-Genus Manta	02866
+1	H-Genus Thornback	02880
+1	H-Genus Piranha	02889
+1	H-Genus Barracuda	02896
+1	H-Genus Devilray	02902
+1	H-Genus Horn	02709
+1	H-Genus Porbeagle	02787
+1	H-Genus Stingray	02907
+1	H-Genus Dusky	02726
+1	H-Genus Galapagos	02793
+1	H-Genus Mako	02743
+1	H-Genus Hammerhead	02774
+1	H-Genus Thresher	02760
+1	H-Genus MegaMouth	02791
+1	Terminus Havocblast	00682
+1	Terminus Tombstone	00683
+1	Terminus Craterbomb	00685
+1	Terminus Aftershock	00687
+1	Terminus Ragerunner	00688
+1	Terminus Blazebringer	00689
+1	Terminus Tormentstorm	00690
+1	Terminus Torrentblaze	04682
+1	Terminus Earthcrusher	00691
+1	Terminus Shatterpulse	04683
+1	Terminus Gravedigger	00692
+1	Terminus Cometflume	04685
+1	Terminus Shootingstar	00693
+1	H-Terminus Havocblast	02682
+1	H-Terminus Tombstone	02683
+1	H-Terminus Craterbomb	02685
+1	H-Terminus Aftershock	02687
+1	H-Terminus Ragerunner	02688
+1	H-Terminus Blazebringer	02689
+1	H-Terminus Tormentstorm	02690
+1	H-Terminus Torrentblaze	06682
+1	H-Terminus Earthcrusher	02691
+1	H-Terminus Shatterpulse	06683
+1	H-Terminus Gravedigger	02692
+1	H-Terminus Cometflume	06685
+1	H-Terminus Shootingstar	02693
+1	W-301-000	30100
+1	W-301-010	30101
+1	W-301-020	30102
+1	W-301-030	30103
+1	W-301-040	30104
+1	W-301-050	30105
+1	W-301-060	30106
+1	W-301-070	30107
+1	W-301-080	30108
+1	W-301-090	30109
+1	W-301-100	30110
+1	W-301-110	30111
+1	W-301-120	30112
+1	W-301-130	30113
+1	W-301-140	30114
+1	W-301-150	30115
+1	W-301-160	30116
+1	W-301-170	30117
+1	W-301-180	30118
+1	W-302-000	30200
+1	W-302-010	30201
+1	W-302-020	30202
+1	W-302-030	30203
+1	W-302-040	30204
+1	W-302-050	30205
+1	W-302-060	30206
+1	W-302-070	30207
+1	W-302-080	30208
+1	W-302-090	30209
+1	W-302-100	30210
+1	W-302-110	30211
+1	W-302-120	30212
+1	W-302-130	30213
+1	W-302-140	30214
+1	W-302-150	30215
+1	W-302-160	30216
+1	W-302-170	30217
+1	W-302-180	30218
+1	W-303-000	30300
+1	W-303-010	30301
+1	W-303-020	30302
+1	W-303-030	30303
+1	W-303-040	30304
+1	W-303-050	30305
+1	W-303-060	30306
+1	W-303-070	30307
+1	W-303-080	30308
+1	W-303-090	30309
+1	W-303-100	30310
+1	W-303-110	30311
+1	W-303-120	30312
+1	W-303-130	30313
+1	W-303-140	30314
+1	W-303-150	30315
+1	W-303-160	30316
+1	W-303-170	30317
+1	W-303-180	30318
+1	W-304-000	30400
+1	W-304-010	30401
+1	W-304-020	30402
+1	W-304-030	30403
+1	W-304-040	30404
+1	W-304-050	30405
+1	W-304-060	30406
+1	W-304-070	30407
+1	W-304-080	30408
+1	W-304-090	30409
+1	W-304-100	30410
+1	W-304-110	30411
+1	W-304-120	30412
+1	W-304-130	30413
+1	W-304-140	30414
+1	W-304-150	30415
+1	W-304-160	30416
+1	W-304-170	30417
+1	W-304-180	30418
+1	W-306-000	30500
+1	W-306-010	30501
+1	W-306-020	30502
+1	W-306-030	30503
+1	W-306-040	30504
+1	W-306-050	30505
+1	W-306-060	30506
+1	W-306-070	30507
+1	W-306-080	30508
+1	W-306-090	30509
+1	W-306-100	30510
+1	W-306-110	30511
+1	W-306-120	30512
+1	W-306-130	30513
+1	W-306-140	30514
+1	W-306-150	30515
+1	W-306-160	30516
+1	W-306-170	30517
+1	W-306-180	30518
+1	W-308-000	30600
+1	W-308-010	30601
+1	W-308-020	30602
+1	W-308-030	30603
+1	W-308-040	30604
+1	W-308-050	30605
+1	W-308-060	30606
+1	W-308-070	30607
+1	W-308-080	30608
+1	W-308-090	30609
+1	W-308-100	30610
+1	W-308-110	30611
+1	W-308-120	30612
+1	W-308-130	30613
+1	W-308-140	30614
+1	W-308-150	30615
+1	W-308-160	30616
+1	W-308-170	30617
+1	W-308-180	30618
+1	W-309-000	30700
+1	W-309-010	30701
+1	W-309-020	30702
+1	W-309-030	30703
+1	W-309-040	30704
+1	W-309-050	30705
+1	W-309-060	30706
+1	W-309-070	30707
+1	W-309-080	30708
+1	W-309-090	30709
+1	W-309-100	30710
+1	W-309-110	30711
+1	W-309-120	30712
+1	W-309-130	30713
+1	W-309-140	30714
+1	W-309-150	30715
+1	W-309-160	30716
+1	W-309-170	30717
+1	W-309-180	30718
+1	Razor Slicer	00966
+1	Razor Dicer	00967
+1	Razor Talon	00968
+1	Razor Claw	00969
+1	Razor Death Hook	00970
+1	Razor Ripper	00971
+1	Razor Cleaver	00972
+1	Razor Shredder	00973
+1	Razor Lacerator	00974
+1	Razor Sabre	00975
+1	H-Razor Slicer	02966
+1	H-Razor Dicer	02967
+1	H-Razor Talon	02968
+1	H-Razor Claw	02969
+1	H-Razor Death Hook	02970
+1	H-Razor Ripper	02971
+1	H-Razor Cleaver	02972
+1	H-Razor Shredder	02973
+1	H-Razor Lacerator	02974
+1	H-Razor Sabre	02975
+1	Ventus Camouflage	00960
+1	Ventus Carpace	01127
+1	Ventus Extender	01132
+1	Humus Booster	00965
+1	Humus Suicide	00927
+1	Humus Cloak	00958
+1	Humus Shot Regenerator	01131
+1	Motus Suicide	00929
+1	Motus Levitate	03128
+1	Motus Carpace	00926
+1	Xeno Flame Concentrator	00964
+1	Xeno Carpace	00976
+1	Xeno Shadow	00923
+1	Xeno Scrambler	02928
+1	Frigus Soulgiver	00952
+1	Frigus Scrambler	00930
+1	Frigus Guardian	03129
+1	Iron Scratcher	00859
+1	Iron Scraper	00873
+1	Searing Claw	01134
+1	Searing Swiper	01135
+1	Titanium Scratcher	04859
+1	Searing Slicer	01136
+1	Searing Cleaver	01137
+1	Titanium Scaper	04873
+1	Bloody Claw	05134
+1	Bloody Swiper	05135
+1	Bloody Slicer	05136
+1	Bloody Cleaver	05137
+1	Ultimate Cutter	01138
+1	H-Iron Scratcher	02859
+1	H-Iron Scraper	02873
+1	H-Searing Claw	03134
+1	H-Searing Swiper	03135
+1	H-Titanium Scratcher	06859
+1	H-Searing Slicer	03136
+1	H-Searing Cleaver	03137
+1	H-Titanium Scaper	06873
+1	H-Bloody Claw	07134
+1	H-Bloody Swiper	07135
+1	H-Bloody Slicer	07136
+1	H-Bloody Cleaver	07137
+1	H-Ultimate Cutter	03138
+1	Solarian Pow	01004
+1	Alterion Acid	01005
+1	Opticon Spit	01006
+1	Sauri Halo	01007
+1	Twin Spigot	01003
+1	Dual Liss Cannon	01008
+1	Jorian Acid Generator	01009
+1	Killtonic Teaser	01010
+1	Caustic Fireball	01011
+1	Hellsfire Flinger	01012
+1	H-Solarian Pow	03004
+1	H-Alterion Acid	03005
+1	H-Opticon Spit	03006
+1	H-Sauri Halo	03007
+1	H-Twin Spigot	03003
+1	H-Dual Liss Cannon	03008
+1	H-Jorian Acid Generator	03009
+1	H-Killtonic Teaser	03010
+1	H-Caustic Fireball	03011
+1	H-Hellsfire Flinger	03012
+1	Globular Volume	01067
+1	Hyper Sphere	01068
+1	Circular Lightning	01069
+1	Doma Doom	01070
+1	Light Globe	01071
+1	Surge Sphere	05067
+1	Nightstorm Plate	05068
+1	Callisto Ball	05069
+1	Terma Globe	05070
+1	Chaos Disk	05071
+1	H-Globular Volume	03067
+1	H-Hyper Sphere	03068
+1	H-Circular Lightning	03069
+1	H-Doma Doom	03070
+1	H-Light Globe	03071
+1	H-Surge Sphere	07067
+1	H-Nightstorm Plate	07068
+1	H-Callisto Ball	07069
+1	H-Terma Globe	07070
+1	H-Chaos Disk	07071
+1	Quark	01062
+1	Electron	01063
+1	Neutron	01064
+1	Proton	01065
+1	DarkMatter	01066
+1	AntiMatter	05062
+1	Crab Nebula	05063
+1	Neutron Star	05064
+1	Black Hole	05065
+1	Solar Eclipse	05066
+1	H-Quark	03062
+1	H-Electron	03063
+1	H-Neutron	03064
+1	H-Proton	03065
+1	H-DarkMatter	03066
+1	H-AntiMatter	07062
+1	H-Crab Nebula	07063
+1	H-Neutron Star	07064
+1	H-Black Hole	07065
+1	H-Solar Eclipse	07066
+1	Ugh	01047
+1	Dirt	01048
+1	Slime	01049
+1	Glob	01050
+1	Mud	01055
+1	Gunk	01056
+1	Slop	01051
+1	Yuck	01052
+1	Sludge	01053
+1	Poopy	01054
+1	H-Ugh	03047
+1	H-Dirt	03048
+1	H-Slime	03049
+1	H-Glob	03050
+1	H-Mud	03055
+1	H-Gunk	03056
+1	H-Slop	03051
+1	H-Yuck	03052
+1	H-Sludge	03053
+1	H-Poopy	03054
+1	Goodbye	01107
+1	Last Dance	01108
+1	Lights Out	01109
+1	So Long Sucker	01110
+1	Adios Amigo	01111
+1	Hasta La Vista	01112
+1	Later Gator	01113
+1	Midnight Call	01114
+1	Kiss of the Don	01115
+1	Gameover	01116
+1	H-Goodbye	03107
+1	H-Last Dance	03108
+1	H-Lights Out	03109
+1	H-So Long Sucker	03110
+1	H-Adios Amigo	03111
+1	H-Hasta La Vista	03112
+1	H-Later Gator	03113
+1	H-Midnight Call	03114
+1	H-Kiss of the Don	03115
+1	H-Gameover	03116
+1	Silent Singe	01042
+1	Talons Spark	01043
+1	Assasins Candle	01044
+1	Pyromania	01045
+1	Solar Flame	01046
+1	Fork of Fire	05042
+1	Tongues of Flame	05043
+1	Fiery Rain	05044
+1	Dragons Hail	05045
+1	Depths of Hades	05046
+1	H-Silent Singe	03042
+1	H-Talons Spark	03043
+1	H-Assasins Candle	03044
+1	H-Pyromania	03045
+1	H-Solar Flame	03046
+1	H-Fork of Fire	07042
+1	H-Tongues of Flame	07043
+1	H-Fiery Rain	07044
+1	H-Dragons Hail	07045
+1	H-Depths of Hades	07046
+1	Searing Pain	01102
+1	Heat Stroke	01103
+1	Soul Blaze	01104
+1	Combustor	01105
+1	Burning Star	01106
+1	Demon Fire	05102
+1	Charred Remnant	05103
+1	Deep Broiler	05104
+1	Hot Tamales	05105
+1	Unholy Infernus	05106
+1	H-Searing Pain	03102
+1	H-Heat Stroke	03103
+1	H-Soul Blaze	03104
+1	H-Combustor	03105
+1	H-Burning Star	03106
+1	H-Demon Fire	07102
+1	H-Charred Remnant	07103
+1	H-Deep Broiler	07104
+1	H-Hot Tamales	07105
+1	H-Unholy Infernus	07106
+1	Radiation Filter	00340
+1	Infrared Visor	00335
+1	Targeting Goggles	00341
+1	Prism Crystal Visor	00586
+1	Prism Crystal Visor Mk2	00589
+1	Centris ALT Gm1	00593
+1	Prism Crystal Visor Mk3	00588
+1	Centris ALT Gm2	00587
+1	Centris LFT Gm1	00602
+1	Centris ALT Gm3	00604
+1	Centris LFT Gm2	00603
+1	Centris WSS Goggles	00605
+1	Spring Mechanism	00376
+1	Shot Reloader	00378
+1	Auto Loader	00379
+1	Super Loader	00371
+1	Magnesium Casing	01013
+1	Static Casing	01014
+1	Electro Casing	01015
+1	Ion Casing	01016
+1	Surge Casing	01017
+1	Sensor Amplifier	00124
+1	Proximity Sensor	00132
+1	E-Sensor Amplifier	00125
+1	Sensor Array	00126
+1	Maxus Sensor Matrix	00585
+1	Maxus EX Sensor	00592
+1	Optima 2800S Array	00594
+1	Maxus Sensor Matrix Mk2	00590
+1	Maxus EX Sensor Mk2	00591
+1	Optima 300R Sensor	00595
+1	Maxus XS Matrix	00597
+1	Optima 300S Sensor	00596
+1	Maxus XS Matrix Mk2	00598
+1	U-Sensor Amplifier	02124
+1	U-Proximity Sensor	02132
+1	U-E-Sensor Amplifier	02125
+1	U-Sensor Array	02126
+1	U-Maxus Sensor Matrix	02585
+1	U-Maxus EX Sensor	02592
+1	U-Optima 2800S Array	02594
+1	U-Maxus Sensor Matrix Mk2	02590
+1	U-Maxus EX Sensor Mk2	02591
+1	U-Optima 300R Sensor	02595
+1	U-Maxus XS Matrix	02597
+1	U-Optima 300S Sensor	02596
+1	U-Maxus XS Matrix Mk2	02598
+1	Tachyon Scanner	00127
+1	E-Tachyon Scanner	00129
+1	A-Tachyon Scanner	00128
+1	Radar Jammer	00122
+1	E-Jammer	00123
+1	TACS M1	02127
+1	RTS SG1	02122
+1	TACS M2	02129
+1	RTS SG2	02123
+1	TACS M3	02128
+1	RTS SG3	04122
+1	TACS M4	04127
+1	RTS SG4	04123
+1	TACS M5	04129
+1	RTS SG5	02185
+1	Magnetic Coif	00648
+1	Magnetic Helmet	00649
+1	Magnetic Sallet	00650
+1	Magnetic Great Helm	00651
+1	Advanced Cloak Module	00453
+1	AC Evador	00630
+1	Extra Cell	02648
+1	Magna Cell	02649
+1	Ultra Cell	02650
+1	Quickstep	01129
+1	QuickstepV2	07129
+1	QuickstepV3	05129
+1	Personal Coupler	00365
+1	Anti-Grav Harness	00429
+1	Biostimulator	00336
+1	Personal Phase Facilitator	00439
+1	Personal Cloak	00366
+1	Compact Cloak	02366
+1	Vehicular Coupler	00363
+1	Tinker Capacitors	00105
+1	Cloaking Device	00313
+1	Voras Terminus CD	06313
+1	Iturons Dorian CD	06546
+1	Afterburner	00499
+1	Intensity Afterburner	00411
+1	Improved Afterburner	00498
+1	M-Afterburner	02499
+1	M-Intensity Afterburner	02411
+1	M-Improved Afterburner	02498
+1	H-Afterburner	04499
+1	H-Intensity Afterburner	04411
+1	H-Improved Afterburner	04498
+1	V-Afterburner	06499
+1	VI-Afterburner	06411
+1	Vimp-Afterburner	06498
+1	P-Afterburner	08499
+1	PI-Afterburner	08411
+1	Pimp-Afterburner	08498
+1	Industrial Coupler	00362
+1	Industrial Inertial Damper	00183
+1	Improved IID	02183
+1	Advanced IID	04183
+1	Radar	00121
+1	Shield Generator	00609
+1	First-Aid Kit	00187
+1	Tool Kit	00103
+1	Medkit	00337
+1	Repair Assembly	00338
+1	Improved Medkit	00541
+1	Assembly Arm	00360
+1	Advance Medkit	00542
+1	Restoration Gear	00070
+1	Medical Regenerator	00699
+1	Repair Machine	00186
+1	H-First-Aid Kit	02187
+1	H-Tool Kit	02103
+1	H-Medkit	02337
+1	H-Repair Assembly	02338
+1	H-Improved Medkit	02541
+1	H-Assembly Arm	02360
+1	H-Advance Medkit	02542
+1	H-Restoration Gear	02070
+1	H-Medical Regenerator	02699
+1	Shatter Mine	00015
+1	Splinter Mine	00420
+1	Chem Mine	04418
+1	EMP Mine	00098
+1	Flame Mine	00014
+1	I-EMP Mine	00097
+1	Incineration Mine	00417
+1	Adv Chem Mine	04420
+1	Burst Mine	00418
+1	Blaze Mine	00419
+1	Igneous Mine	00421
+1	H-Shatter Mine	02015
+1	H-Splinter Mine	02420
+1	H-Chem Mine	06418
+1	H-EMP Mine	02098
+1	H-Flame Mine	02014
+1	H-I-EMP Mine	02097
+1	H-Incineration Mine	02417
+1	H-Adv Chem Mine	06420
+1	H-Burst Mine	02418
+1	H-Blaze Mine	02419
+1	H-Igneous Mine	02421
+1	Gryphon Cloak Detect	02131
+1	Centris TD Cloak	00364
+1	Centris TD Camo	02364
+1	Centris TD Infil	04364
+1	Centris TDHG Cloak	00601
+1	Centris TDHG Camo	02601
+1	Centris TDHG Infil	04601
+1	OB Phase-I	00922
+1	OB Phase-II	02922
+1	OB Phase-III	04922
+1	OB Cloak	02313
+1	Regen Pad	01162
+1	Regen Pod	01163
+1	Regen Foci	01164
+1	Regen Aura	01165
+1	Regen Field	01166
+1	H-Regen Pad	03162
+1	H-Regen Pod	03163
+1	H-Regen Foci	03164
+1	H-Regen Aura	03165
+1	H-Regen Field	03166
+1	NRG Pad	05162
+1	NRG Pod	05163
+1	NRG Foci	05164
+1	NRG Aura	05165
+1	NRG Field	05166
+1	H-NRG Pad	07162
+1	H-NRG Pod	07163
+1	H-NRG Foci	07164
+1	H-NRG Aura	07165
+1	H-NRG Field	07166
+1	Alien Teleporter	00088
+1	Alien Transporter	02088
+1	Alien Phaser	04088
+1	Opticon Disruptor	01130
+1	Opticon Shade	03130
+1	Opticon Cloak	05130
+1	Light Bender	00400
+1	Light Distorter	06400
+1	Light Illusor	04400
+1	Elementary Pouch	00883
+1	Holding Cavity	02883
+1	Reinforced Cavity	04883
+1	Gaseous Booster	00606
+1	Gaseous Burner	02606
+1	Penetrating Eye	00558
+1	EverPresentEye	02558
+1	Org Displacer	00613
+1	Org Warp	02613
+1	Org Shift	04613
+1	Tendon Enhancer	02948
+1	Phasic Implant	00947
+1	Minor Carpace	00956
+1	Avoider	02176
+1	F-Afterburner	00686
+1	F-Intensity Afterburner	00628
+1	F-Improved Afterburner	00629
+1	FM-Afterburner	02686
+1	FM-Intensity Afterburner	02628
+1	FM-Improved Afterburner	02629
+1	FH-Afterburner	04686
+1	FH-Intensity Afterburner	04628
+1	FH-Improved Afterburner	04629
+1	Concussion Grenade	00425
+1	Incendiary Grenade	00426
+1	EMP Grenade	00095
+1	Shatter Grenade	00423
+1	Incineration Grenade	00424
+1	EMP Blast Grenade	00115
+1	Plasma Grenade	00427
+1	Camouflage Field Generator	00433
+1	Camouflage Field Modulator	00339
+1	Rumble	00612
+1	Frenzy	00658
+1	Earthquake	00659
+1	Trespasser	00430
+1	Intruder	02430
+1	Infiltrator	04430
+1	ImpArb	06430
+1	Flare	00071
+1	Efficiency Flare	02071
+1	Distance Flare	04071
+1	ShadeWarp	06071
+1	Stinger	00083
+1	Claw	00084
+1	Fang	00085
+1	Talon	00431
+1	H-Stinger	02083
+1	H-Claw	02084
+1	H-Fang	02085
+1	H-Talon	02431
+1	Cloak FGen	00180
+1	Cloak FGen-Mk2	00184
+1	Chimmine	06317
+1	EMP Blaster	00072
+1	Impact Shell	00919
+1	Concussion Shell	00920
+1	Force Shell	00921
+1	XDC Floatsam	04599
+1	Transport Hold	00171
+1	Phase Generator	00317
+1	Improved PG	02317
+1	Advanced PG	04317
+1	Centris FD	00599
+1	Centris FDHG	00600
+1	Floater	04412
+1	Adv Floater	06412
+1	SensorE30	04176
+1	SensorE45	06176
+1	Megathrusters	00176
+1	Whisper Sheath	00412
+1	Whisper Sheath v2	02412
+1	Fusion Generator	00644
+1	Improved FG	02644
+1	Advanced FG	04644
+1	AltCharge Remover	06599
+1	AltCharge Eradicator	08599
+1	CondorNuke	04089
+1	Genus CKB	00089
+1	Terminus Oliphant	00111
+1	Maxus Curler	00109
+1	Genus HR-N	00527
+1	Synker Clasher	00579
+1	Maxus Twister	00110
+1	Genus HR-V	00536
+1	Terminus Mammoth	00112
+1	Synker Crasher	00581
+1	Genus PD	00574
+1	Terminus Goliath	00580
+1	Maxus Cyclone	00582
+1	H-Genus CKB	02089
+1	H-Terminus Oliphant	02111
+1	H-Maxus Curler	02109
+1	H-Genus HR-N	02527
+1	H-Synker Clasher	02579
+1	H-Maxus Twister	02110
+1	H-Genus HR-V	02536
+1	H-Terminus Mammoth	02112
+1	H-Synker Crasher	02581
+1	H-Genus PD	02574
+1	H-Terminus Goliath	02580
+1	H-Maxus Cyclone	02582
+1	Incendiary Altcharge	00432
+1	Incineration Altcharge	00479
+1	Burst Altcharge	00480
+1	Pyrotechnic Altcharge	00557
+1	H-Incendiary Altcharge	02432
+1	H-Incineration Altcharge	02479
+1	H-Burst Altcharge	02480
+1	H-Pyrotechnic Altcharge	02557
+1	Biodrive Scrambler	00416
+1	MD Cloak	02180
+1	Medic Warp Device	02096
+1	Mine Detector	00096
+1	Incendiary Detonator	00102
+1	Plasma Detonator	00101
+1	Suicide Mine	00422
+1	Cloak Screen	02400
+1	Camouflage Unit	04433
+1	PG Generator	00316
+1	PG Disperser	00314
+1	PG Centralizer	00315
+1	B Shield Generator	02609
+1	Fallout Coupler	00428
+1	Translucence Field	00646
+1	Edison BioSRac	00067
+1	Fallout TurboCoupler	02428
+1	Edison BioSRag	00068
+1	Fallout Megacoupler	04428
+1	Blender	00715
+1	Blender Mk-2	02715
+1	Gryphon Hover Device	00131
+1	Hafnium Flame Shield	00805
+1	Hafnium Laser Shield	04814
+1	Hafnium Ballistic Shield	00811
+1	Hafnium Missile Shield	06817
+1	T Phaser	00997
+1	T Disperser	00998
+1	T Localizer	00999
+1	T Centralizer	01000
+1	Final Breath	01159
+1	Death Warrant	01160
+1	Rigor Mortis	01176
+1	H-Final Breath	03159
+1	H-Death Warrant	03160
+1	H-Rigor Mortis	03176
+1	Shadow Flex	01172
+1	Shadow Flux	01173
+1	Surge Spark	02094
+1	Surge Voltage	06069
+1	Surge Lightning	04130
+1	Surge Bolt	02175
+1	Surge Current	02050
+1	Surge Shock	08069
+1	Surge Coupler	06362
+1	Surge Coupler M2	08362
+1	Q-Rumble	02612
+1	Q-Frenzy	02658
+1	Q-Earthquake	02659
+1	Q-Camo Gen	02433
+1	Q-Camo Mod	02339
+1	Instadeath	08153
+1	Instadeath	08153
+1	RCSD	08817
+1	Overloader M1	00549
+1	Supershot M1	00501
+1	Rapidfire M1	00500
+1	Overloader M2	01097
+1	Supershot M2	01098
+1	Rapidfire M2	01099
+1	H-Overloader M1	02549
+1	H-Supershot M1	02501
+1	H-Rapidfire M1	02500
+1	H-Overloader M2	03097
+1	H-Supershot M2	03098
+1	H-Rapidfire M2	03099
+1	Aerial Supplementer	00753
+1	Aerial Augmenter	00767
+1	Aerial Exaggerater	00781
+1	Surface Supplementer	00910
+1	Surface Augmenter	00905
+1	Surface Exaggerater	00913
+1	Brinell Booster	00106
+1	Brinell Breeze	00181
+1	Brinell Bowler	00182
+1	Brinell Boots	00051
+1	Brinell Bustler	01001
+1	Angel Harness	02923
+1	Bulwark Wing	02976
+1	Acid Burn	01128
+1	Alien Flame Tongue	01133
+1	Acid Pod	01167
+1	Corrosive Burn	00924
+1	Air Lob	00928
+1	Org Range Extender	00948
+1	Camo Eye	06924
+1	Infil Eye	06948
+1	Cloak Eye	06928
+1	CamoInfil Eye	04924
+1	InfilCloak Eye	04948
+1	CloakCamo Eye	04928
+1	Super Detector	04862
+1	NRG Sapper	00869
+1	NRG Drain	02869
+1	Psychoshock	00990
+1	Mindshock	02990
+1	Flesh Restorer	00949
+1	Flesh Regenerator	00925
+1	Flesh Synthesizer	02949
+1	Flesh Generator	02925
+1	Flesh Elevator	04949
+1	Flesh Reconstructor	04925
+1	MegaBarrier	00645
+1	GigaBarrier	02645
+1	Teraview	06943
+1	Toxic Sac	00943
+1	Acid Sac	02943
+1	Acid Pouch	04943
+1	Chameleon Derma	00814
+1	Outer CamoShell	02814
+1	Gold Tinker Widget	10391
+1	Gold Autorifle	10054
+1	Gold Prism Opal	10002
+1	Gold Prism Sapphire	10004
+1	Gold Dorian Pulse	10392
+1	Gold MA Musket	10446
+1	Gold Prism Emerald	10019
+1	Gold MA Carbine	10450
+1	Gold Dorian Maser	10442
+1	Gold Tinker Masterpiece	10443
+1	Gold Dorian Ultra-Pulse	10451
+1	Gold MA Shotgun	10449
+1	Gold Fireball	10452
+1	Gold MA Tommy Gun	10445
+1	Gold H-Tinker Widget	12391
+1	Gold H-Autorifle	12054
+1	Gold H-Prism Opal	12002
+1	Gold H-Prism Sapphire	12004
+1	Gold H-Dorian Pulse	12392
+1	Gold H-MA Musket	12446
+1	Gold H-Prism Emerald	12019
+1	Gold H-MA Carbine	12450
+1	Gold H-Dorian Maser	12442
+1	Gold H-Tinker Masterpiece	12443
+1	Gold H-Dorian Ultra-Pulse	12451
+1	Gold H-MA Shotgun	12449
+1	Gold H-Fireball	12452
+1	Gold H-MA Tommy Gun	12445
+1	Gold Titanium Fist	10053
+1	Gold Titanium Claw	10133
+1	Gold Spiked Fist	10413
+1	Gold Charged Fist	10328
+1	Gold Blade Fist	10330
+1	Gold Clawed Fist	10737
+1	Gold Lightning Fist	10329
+1	Gold Burst Fist	10768
+1	Gold Hammer Fist	10415
+1	Gold Shock Fist	10703
+1	Gold Sabre Fist	10414
+1	Gold Polar Fist	10720
+1	Gold Plutonic Fist	10134
+1	Gold H-Titanium Fist	12053
+1	Gold H-Titanium Claw	12133
+1	Gold H-Spiked Fist	12413
+1	Gold H-Charged Fist	12328
+1	Gold H-Blade Fist	12330
+1	Gold H-Clawed Fist	12737
+1	Gold H-Lightning Fist	12329
+1	Gold H-Burst Fist	12768
+1	Gold H-Hammer Fist	12415
+1	Gold H-Shock Fist	12703
+1	Gold H-Sabre Fist	12414
+1	Gold H-Polar Fist	12720
+1	Gold H-Plutonic Fist	12134
+1	Gold Trillian SM10	10507
+1	Gold MA Match	10458
+1	Gold MA Ignite	10456
+1	Gold Trillian SM20	10508
+1	Gold MA Fuse	10457
+1	Gold MA Cinerate	10454
+1	Gold Trillian SM40	10509
+1	Gold MA Radiate	10455
+1	Gold Pyro Burn	10523
+1	Gold Pyro Blaze	10520
+1	Gold Trillian SM100	10510
+1	Gold Pyro Singe	10521
+1	Gold Trillian SM200	10511
+1	Gold Pyro Sear	10524
+1	Gold Pyro Scorch	10522
+1	Gold H-Trillian SM10	12507
+1	Gold H-MA Match	12458
+1	Gold H-MA Ignite	12456
+1	Gold H-Trillian SM20	12508
+1	Gold H-MA Fuse	12457
+1	Gold H-MA Cinerate	12454
+1	Gold H-Trillian SM40	12509
+1	Gold H-MA Radiate	12455
+1	Gold H-Pyro Burn	12523
+1	Gold H-Pyro Blaze	12520
+1	Gold H-Trillian SM100	12510
+1	Gold H-Pyro Singe	12521
+1	Gold H-Trillian SM200	12511
+1	Gold H-Pyro Sear	12524
+1	Gold H-Pyro Scorch	12522
+1	Gold Trillian VS10	10075
+1	Gold Terminus Flock-V11	10078
+1	Gold Maxus Jabber	10074
+1	Gold Terminus Flock-V17	10079
+1	Gold Trillian TVS10	10073
+1	Gold Terminus Swarm-V22	10080
+1	Gold Maxus Flame Prodder	10077
+1	Gold Terminus Swarm-V25	10081
+1	Gold Trillian TVS Flame	10076
+1	Gold Trillian TVS20	14073
+1	Gold Maxus Flame Smolder	10573
+1	Gold Terminus Flock-V9	10575
+1	Gold Trillian MVS18	10576
+1	Gold Maxus Flame Ender	10578
+1	Gold Trillian NVS14	10577
+1	Gold H-Trillian VS10	12075
+1	Gold H-Terminus Flock-V11	12078
+1	Gold H-Maxus Jabber	12074
+1	Gold H-Terminus Flock-V17	12079
+1	Gold H-Trillian TVS10	12073
+1	Gold H-Terminus Swarm-V22	12080
+1	Gold H-Maxus Flame Prodder	12077
+1	Gold H-Terminus Swarm-V25	12081
+1	Gold H-Trillian TVS Flame	12076
+1	Gold H-Trillian TVS20	16073
+1	Gold H-Maxus Flame Smolder	12573
+1	Gold H-Terminus Flock-V9	12575
+1	Gold H-Trillian MVS18	12576
+1	Gold H-Maxus Flame Ender	12578
+1	Gold H-Trillian NVS14	12577
+1	Gold Lotus GT	10082
+1	Gold Odin Needle	10461
+1	Gold Lotus ATA	10459
+1	Gold Odin Pick	10466
+1	Gold Lotus ATS	10464
+1	Gold Odin Spike	10467
+1	Gold Lotus AGA	10460
+1	Gold Synker JS	10532
+1	Gold Synker JST	10525
+1	Gold Odin Thorn	10468
+1	Gold Lotus AGS	10465
+1	Gold Synker DJST	10528
+1	Gold Lotus ASA	10064
+1	Gold Lotus TASA	10058
+1	Gold H-Lotus GT	12082
+1	Gold H-Odin Needle	12461
+1	Gold H-Lotus ATA	12459
+1	Gold H-Odin Pick	12466
+1	Gold H-Lotus ATS	12464
+1	Gold H-Odin Spike	12467
+1	Gold H-Lotus AGA	12460
+1	Gold H-Synker JS	12532
+1	Gold H-Synker JST	12525
+1	Gold H-Odin Thorn	12468
+1	Gold H-Lotus AGS	12465
+1	Gold H-Synker DJST	12528
+1	Gold H-Lotus ASA	12064
+1	Gold H-Lotus TASA	12058
+1	Gold Tinker Doohickey	10396
+1	Gold Lotus LG	10001
+1	Gold Prism Thunderbolt	10398
+1	Gold Tinker Thingamajig	10060
+1	Gold Dorian Blaster	10393
+1	Gold Terminus Persecutor	10447
+1	Gold MA Marksman	10394
+1	Gold MA Drizzler	10061
+1	Gold Terminus Torturer	10448
+1	Gold Terminus Tormentor	10397
+1	Gold Lotus MG	10017
+1	Gold Prism Firebolt	10399
+1	Gold MA Sniper	10395
+1	Gold Terminus Punisher	10444
+1	Gold H-Tinker Doohickey	12396
+1	Gold H-Lotus LG	12001
+1	Gold H-Prism Thunderbolt	12398
+1	Gold H-Tinker Thingamajig	12060
+1	Gold H-Dorian Blaster	12393
+1	Gold H-Terminus Persecutor	12447
+1	Gold H-MA Marksman	12394
+1	Gold H-MA Drizzler	12061
+1	Gold H-Terminus Torturer	12448
+1	Gold H-Terminus Tormentor	12397
+1	Gold H-Lotus MG	12017
+1	Gold H-Prism Firebolt	12399
+1	Gold H-MA Sniper	12395
+1	Gold H-Terminus Punisher	12444
+1	Gold MA VT-33	10007
+1	Gold MA VX-5	10020
+1	Gold MA VT-46	10008
+1	Gold MA VX-7	10021
+1	Gold Maxus Infliction	10481
+1	Gold Prism Topaz	10469
+1	Gold Maxus Affliction	10482
+1	Gold MA VX-8	10022
+1	Gold Prism Citrinite	10470
+1	Gold Maxus Casualty	10483
+1	Gold Prism Aureolite	10471
+1	Gold Maxus Calamity	10484
+1	Gold Prism Xanthite	10472
+1	Gold Maxus Catastrophe	10485
+1	Gold Prism Saffronite	10473
+1	Gold H-MA VT-33	12007
+1	Gold H-MA VX-5	12020
+1	Gold H-MA VT-46	12008
+1	Gold H-MA VX-7	12021
+1	Gold H-Maxus Infliction	12481
+1	Gold H-Prism Topaz	12469
+1	Gold H-Maxus Affliction	12482
+1	Gold H-MA VX-8	12022
+1	Gold H-Prism Citrinite	12470
+1	Gold H-Maxus Casualty	12483
+1	Gold H-Prism Aureolite	12471
+1	Gold H-Maxus Calamity	12484
+1	Gold H-Prism Xanthite	12472
+1	Gold H-Maxus Catastrophe	12485
+1	Gold H-Prism Saffronite	12473
+1	Gold Ion Blade	10622
+1	Gold AM Blade	10794
+1	Gold Charged Blade	10623
+1	Gold Ion Cutlass	10625
+1	Gold Charged Cutlass	10624
+1	Gold E-AM Blade	10795
+1	Gold Plasma Sword	10798
+1	Gold C-AM Blade	10796
+1	Gold Ion Flamberge	10626
+1	Gold Plasma Edge	10800
+1	Gold C-PAM Blade	10797
+1	Gold C-Plasma Edge	10801
+1	Gold Blood Blade	10627
+1	Gold H-Ion Blade	12622
+1	Gold H-AM Blade	12794
+1	Gold H-Charged Blade	12623
+1	Gold H-Ion Cutlass	12625
+1	Gold H-Charged Cutlass	12624
+1	Gold H-E-AM Blade	12795
+1	Gold H-Plasma Sword	12798
+1	Gold H-C-AM Blade	12796
+1	Gold H-Ion Flamberge	12626
+1	Gold H-Plasma Edge	12800
+1	Gold H-C-PAM Blade	12797
+1	Gold H-C-Plasma Edge	12801
+1	Gold H-Blood Blade	12627
+1	Gold Tinker Gimmick	10390
+1	Gold Prism F-Opal	10016
+1	Gold MA SR2	10052
+1	Gold MA SR71	11057
+1	Gold Trillian SM8	10512
+1	Gold Trillian NFG	11058
+1	Gold Tinker Excel	10757
+1	Gold Tinker Trickster	11059
+1	Gold Trillian SM9	10513
+1	Gold MA Stripes	11060
+1	Gold Trillian AAR	11061
+1	Gold MA SR3	10546
+1	Gold H-Tinker Gimmick	12390
+1	Gold H-Prism F-Opal	12016
+1	Gold H-MA SR2	12052
+1	Gold H-MA SR71	13057
+1	Gold H-Trillian SM8	12512
+1	Gold H-Trillian NFG	13058
+1	Gold H-Tinker Excel	12757
+1	Gold H-Tinker Trickster	13059
+1	Gold H-Trillian SM9	12513
+1	Gold H-MA Stripes	13060
+1	Gold H-Trillian AAR	13061
+1	Gold H-MA SR3	12546
+1	Gold Falerian Shiv	10697
+1	Gold Odin Hammer	10611
+1	Gold Odin Flintlock	10705
+1	Gold Falerian Shank	10714
+1	Gold Odin Dart	10722
+1	Gold Falerian Skean	10731
+1	Gold Odin Bolt	10783
+1	Gold Falerian Buckshot	10748
+1	Gold Odin Cleave	10615
+1	Gold Falerian Plasma Bolt	10779
+1	Gold Odin Javelin	10770
+1	Gold Odin Bazooka	10789
+1	Gold Falerian Masershot	10707
+1	Gold Odin Firepod	10724
+1	Gold Odin Jackhammer	10756
+1	Gold H-Falerian Shiv	12697
+1	Gold H-Odin Hammer	12611
+1	Gold H-Odin Flintlock	12705
+1	Gold H-Falerian Shank	12714
+1	Gold H-Odin Dart	12722
+1	Gold H-Falerian Skean	12731
+1	Gold H-Odin Bolt	12783
+1	Gold H-Falerian Buckshot	12748
+1	Gold H-Odin Cleave	12615
+1	Gold H-Falerian Plasma Bolt	12779
+1	Gold H-Odin Javelin	12770
+1	Gold H-Odin Bazooka	12789
+1	Gold H-Falerian Masershot	12707
+1	Gold H-Odin Firepod	12724
+1	Gold H-Odin Jackhammer	12756
+1	Gold Tinker Pea Shooter	10696
+1	Gold Trillian P-12 Shell	10701
+1	Gold Trillian P-14 Shell	10713
+1	Gold Terminus Stormbrand	10718
+1	Gold Trillian P-21 Buckshot	10730
+1	Gold Terminus Fury	10706
+1	Gold Terminus Thunderclap	10747
+1	Gold Trillian P-29 Buckshot	10752
+1	Gold Tinker Perfection	10735
+1	Gold Trillian P-33 Shell	10764
+1	Gold Terminus Bloodlust	10723
+1	Gold Terminus Rage	10740
+1	Gold Terminus Razorbolt	10765
+1	Gold Trillian P-40 Buckshot	10766
+1	Gold Terminus Rampage	10784
+1	Gold H-Tinker Pea Shooter	12696
+1	Gold H-Trillian P-12 Shell	12701
+1	Gold H-Trillian P-14 Shell	12713
+1	Gold H-Terminus Stormbrand	12718
+1	Gold H-Trillian P-21 Buckshot	12730
+1	Gold H-Terminus Fury	12706
+1	Gold H-Terminus Thunderclap	12747
+1	Gold H-Trillian P-29 Buckshot	12752
+1	Gold H-Tinker Perfection	12735
+1	Gold H-Trillian P-33 Shell	12764
+1	Gold H-Terminus Bloodlust	12723
+1	Gold H-Terminus Rage	12740
+1	Gold H-Terminus Razorbolt	12765
+1	Gold H-Trillian P-40 Buckshot	12766
+1	Gold H-Terminus Rampage	12784
+1	Gold Lovinac Defender	10868
+1	Gold Lotus Drag Missile	10867
+1	Gold Lovinac Shield	10882
+1	Gold Lovinac Guard	10891
+1	Gold Lotus Dyn Missile	10881
+1	Gold Lovinac Escort	10898
+1	Gold Lovinac Stabilizer	10904
+1	Gold Lotus Warp Missile	10890
+1	Gold Lovinac Wall	10909
+1	Gold Lotus Striker III	10897
+1	Gold Lovinac Lash	10912
+1	Gold Lotus Striker V	10903
+1	Gold Lotus Striker VI	10908
+1	Gold Lovinac Angel	10915
+1	Gold H-Lovinac Defender	12868
+1	Gold H-Lotus Drag Missile	12867
+1	Gold H-Lovinac Shield	12882
+1	Gold H-Lovinac Guard	12891
+1	Gold H-Lotus Dyn Missile	12881
+1	Gold H-Lovinac Escort	12898
+1	Gold H-Lovinac Stabilizer	12904
+1	Gold H-Lotus Warp Missile	12890
+1	Gold H-Lovinac Wall	12909
+1	Gold H-Lotus Striker III	12897
+1	Gold H-Lovinac Lash	12912
+1	Gold H-Lotus Striker V	12903
+1	Gold H-Lotus Striker VI	12908
+1	Gold H-Lovinac Angel	12915
+1	Gold Virus Decay	15175
+1	Gold Venom Decay	15174
+1	Gold Acid Decay	15167
+1	Gold Doom Decay	15161
+1	Gold H-Virus Decay	17175
+1	Gold H-Venom Decay	17174
+1	Gold H-Acid Decay	17167
+1	Gold H-Doom Decay	17161
+1	Gold Terminus Disarray	11144
+1	Gold Terminus Tumult	11145
+1	Gold Terminus Disorder	11146
+1	Gold Terminus Lawless	11147
+1	Gold Terminus Discord	11148
+1	Gold Terminus Chaos	11149
+1	Gold Terminus Turmoil	11150
+1	Gold Terminus Anarchy	10556
+1	Gold Terminus Pandemonium	10555
+1	Gold Terminus Bedlam	10986
+1	Gold H-Terminus Disarray	13144
+1	Gold H-Terminus Tumult	13145
+1	Gold H-Terminus Disorder	13146
+1	Gold H-Terminus Lawless	13147
+1	Gold H-Terminus Discord	13148
+1	Gold H-Terminus Chaos	13149
+1	Gold H-Terminus Turmoil	13150
+1	Gold H-Terminus Anarchy	12556
+1	Gold H-Terminus Pandemonium	12555
+1	Gold H-Terminus Bedlam	12986
+1	Gold Prism Peridot	10059
+1	Gold Odin Smasher	10009
+1	Gold Trillian XG10	10011
+1	Gold MA Driller	10055
+1	Gold Trillian Butcher	10382
+1	Gold Dorian Mounted Pulse	10383
+1	Gold Trillian XG20	10012
+1	Gold Lynx GLB-I	10543
+1	Gold Lynx GLC-I	10545
+1	Gold Prism Zircon	10384
+1	Gold MA Piercer	10006
+1	Gold Trillian XG50	10013
+1	Gold Trillian Cutthroat	10388
+1	Gold Lynx GLB-2	10547
+1	Gold H-Prism Peridot	12059
+1	Gold H-Odin Smasher	12009
+1	Gold H-Trillian XG10	12011
+1	Gold H-MA Driller	12055
+1	Gold H-Trillian Butcher	12382
+1	Gold H-Dorian Mounted Pulse	12383
+1	Gold H-Trillian XG20	12012
+1	Gold H-Lynx GLB-I	12543
+1	Gold H-Lynx GLC-I	12545
+1	Gold H-Prism Zircon	12384
+1	Gold H-MA Piercer	12006
+1	Gold H-Trillian XG50	12013
+1	Gold H-Trillian Cutthroat	12388
+1	Gold H-Lynx GLB-2	12547
+1	Gold Dorian Light Laser	10003
+1	Gold Odin Crusher	10010
+1	Gold Prism Azurite	10135
+1	Gold Maxus Skyhopper	10005
+1	Gold Dorian Flex Laser	10389
+1	Gold Dorian Mounted Beam	10381
+1	Gold Prism Crossfire	10407
+1	Gold Dorian Ultra Flex	10380
+1	Gold Lotus Jolt	10462
+1	Gold Dorian Plasma Laser	10385
+1	Gold Grimwell Hawk	10405
+1	Gold Lotus Thrust	10463
+1	Gold Synker SK149	10540
+1	Gold Maxus Striker	10538
+1	Gold Synker SK216	10537
+1	Gold Maxus M-Striker	10535
+1	Gold H-Dorian Light Laser	12003
+1	Gold H-Odin Crusher	12010
+1	Gold H-Prism Azurite	12135
+1	Gold H-Maxus Skyhopper	12005
+1	Gold H-Dorian Flex Laser	12389
+1	Gold H-Dorian Mounted Beam	12381
+1	Gold H-Prism Crossfire	12407
+1	Gold H-Dorian Ultra Flex	12380
+1	Gold H-Lotus Jolt	12462
+1	Gold H-Dorian Plasma Laser	12385
+1	Gold H-Grimwell Hawk	12405
+1	Gold H-Lotus Thrust	12463
+1	Gold H-Synker SK149	12540
+1	Gold H-Maxus Stiker	12538
+1	Gold H-Synker SK216	12537
+1	Gold H-Maxus M-Striker	12535
+1	Gold Prism Rhodonite	10062
+1	Gold Lynx MC-I	10514
+1	Gold Prism Malachite	10136
+1	Gold Maxus Ordnance	10495
+1	Gold Lynx MC-II	10515
+1	Gold Prism Obsidian	10137
+1	Gold Maxus Carronade	10493
+1	Gold Lynx MC-III	10516
+1	Gold Maxus Mortar	10496
+1	Gold Lynx LC-R	10519
+1	Gold Maxus Culverin	10494
+1	Gold Lynx LC-S	10518
+1	Gold Lynx LC-X	10517
+1	Gold Maxus Howitzer	10497
+1	Gold H-Prism Rhodonite	12062
+1	Gold H-Lynx MC-I	12514
+1	Gold H-Prism Malachite	12136
+1	Gold H-Maxus Ordnance	12495
+1	Gold H-Lynx MC-II	12515
+1	Gold H-Prism Obsidian	12137
+1	Gold H-Maxus Carronade	12493
+1	Gold H-Lynx MC-III	12516
+1	Gold H-Maxus Mortar	12496
+1	Gold H-Lynx LC-R	12519
+1	Gold H-Maxus Culverin	12494
+1	Gold H-Lynx LC-S	12518
+1	Gold H-Lynx LC-X	12517
+1	Gold H-Maxus Howitzer	12497
+1	Gold Terminus Crow	10403
+1	Gold Odin Executioner	10023
+1	Gold Grimwell Vulture	10404
+1	Gold Odin Exterminator	10063
+1	Gold Odin Suppressor	10108
+1	Gold Prism Spitfire	10408
+1	Gold Odin Redeemer	10401
+1	Gold Odin Widowmaker	10402
+1	Gold Grimwell Eagle	10406
+1	Gold Odin Peacekeeper	10410
+1	Gold Grimwell Ox	10561
+1	Gold Prism Hellfire	10409
+1	Gold Grimwell Bull	10562
+1	Gold H-Terminus Crow	12403
+1	Gold H-Odin Executioner	12023
+1	Gold H-Grimwell Vulture	12404
+1	Gold H-Odin Exterminator	12063
+1	Gold H-Odin Suppressor	12108
+1	Gold H-Prism Spitfire	12408
+1	Gold H-Odin Redeemer	12401
+1	Gold H-Odin Widowmaker	12402
+1	Gold H-Grimwell Eagle	12406
+1	Gold H-Odin Peacekeeper	12410
+1	Gold H-Grimwell Ox	12561
+1	Gold H-Prism Hellfire	12409
+1	Gold H-Grimwell Bull	12562
+1	Gold Lotus CB-11	10708
+1	Gold MA RX-7	10710
+1	Gold Lotus CB-13	10725
+1	Gold MA RX-8	10727
+1	Gold Lotus CB-14	10742
+1	Gold MA RX-8B	10744
+1	Gold Lotus CNB-21	10759
+1	Gold MA RX-8C	10761
+1	Gold Lotus CNB-22	10773
+1	Gold MA RX-8D	10775
+1	Gold Lotus CNB-25	10786
+1	Gold MA RX-9	10788
+1	Gold Lotus CUB-31	10790
+1	Gold MA RX-9B	10792
+1	Gold H-Lotus CB-11	12708
+1	Gold H-MA RX-7	12710
+1	Gold H-Lotus CB-13	12725
+1	Gold H-MA RX-8	12727
+1	Gold H-Lotus CB-14	12742
+1	Gold H-MA RX-8B	12744
+1	Gold H-Lotus CNB-21	12759
+1	Gold H-MA RX-8C	12761
+1	Gold H-Lotus CNB-22	12773
+1	Gold H-MA RX-8D	12775
+1	Gold H-Lotus CNB-25	12786
+1	Gold H-MA RX-9	12788
+1	Gold H-Lotus CUB-31	12790
+1	Gold H-MA RX-9B	12792
+1	Gold MA Piston	10099
+1	Gold MA Stopple	10559
+1	Gold Linshear Burst I	10865
+1	Gold MA Spigot	10560
+1	Gold Linshear Spray	10879
+1	Gold MA Bozar	10631
+1	Gold Linshear Burst II	10888
+1	Gold Linshear Discharge	10895
+1	Gold MA Flux Torpedo	10632
+1	Gold MA Drill Torpedo	10633
+1	Gold Linshear Detonate	10901
+1	Gold MA Bolt Torpedo	10634
+1	Gold Nose-hair Torpedo	10635
+1	Gold H-MA Piston	12099
+1	Gold H-MA Stopple	12559
+1	Gold H-Linshear Burst I	12865
+1	Gold H-MA Spigot	12560
+1	Gold H-Linshear Spray	12879
+1	Gold H-MA Bozar	12631
+1	Gold H-Linshear Burst II	12888
+1	Gold H-Linshear Discharge	12895
+1	Gold H-MA Flux Torpedo	12632
+1	Gold H-MA Drill Torpedo	12633
+1	Gold H-Linshear Detonate	12901
+1	Gold H-MA Bolt Torpedo	12634
+1	Gold H-Nose-hair Torpedo	12635
+1	Gold Linshear 105mm	10661
+1	Gold Falerian Vortex	10662
+1	Gold CRB G3	10663
+1	Gold Linshear 247mm	10664
+1	Gold CRB G4	10665
+1	Gold Falerian Orion	10666
+1	Gold Linshear 135mm	10386
+1	Gold Falerian Nebula	10387
+1	Gold Falerian Maelstrom	10695
+1	Gold Linshear 122mm	10712
+1	Gold Falerian Nova	10729
+1	Gold Falerian Efflux	10763
+1	Gold CRB G5	10777
+1	Gold H-Linshear 105mm	12661
+1	Gold H-Falerian Vortex	12662
+1	Gold H-CRB G3	12663
+1	Gold H-Linshear 247mm	12664
+1	Gold H-CRB G4	12665
+1	Gold H-Falerian Orion	12666
+1	Gold H-Linshear 135mm	12386
+1	Gold H-Falerian Nebula	12387
+1	Gold H-Falerian Maelstrom	12695
+1	Gold H-Linshear 122mm	12712
+1	Gold H-Falerian Nova	12729
+1	Gold H-Falerian Efflux	12763
+1	Gold H-CRB G5	12777
+1	Gold Tinker Thingum	10066
+1	Gold Effective Negation	10056
+1	Gold Grimwell Shout	10367
+1	Gold Excessive Negation	10100
+1	Gold Grimwell Howl	10368
+1	Gold Genus Mosquito	10486
+1	Gold Maxus Chaser	10086
+1	Gold Genus Fly	10487
+1	Gold Maxus Hunter	10087
+1	Gold Genus Moth	10488
+1	Gold Synker Sidewiper	10529
+1	Gold Genus Bat	10539
+1	Gold Synker Sidewinder	10533
+1	Gold Genus Crow	10531
+1	Gold H-Tinker Thingum	12066
+1	Gold H-Effective Negation	12056
+1	Gold H-Grimwell Shout	12367
+1	Gold H-Excessive Negation	12100
+1	Gold H-Grimwell Howl	12368
+1	Gold H-Genus Mosquito	12486
+1	Gold H-Maxus Chaser	12086
+1	Gold H-Genus Fly	12487
+1	Gold H-Maxus Hunter	12087
+1	Gold H-Genus Moth	12488
+1	Gold H-Synker Sidewiper	12529
+1	Gold H-Genus Bat	12539
+1	Gold H-Synker Sidewinder	12533
+1	Gold H-Genus Crow	12531
+1	Gold Tinker Doodad	10065
+1	Gold Extreme Negation	10018
+1	Gold Grimwell Shriek	10369
+1	Gold Dorian Dual Beam	10138
+1	Gold Lynx CNB	10544
+1	Gold Skysweeper	10113
+1	Gold Grimwell Scream	10370
+1	Gold Dorian Tri-Beam	10139
+1	Gold Lynx DCNB	10569
+1	Gold Dorian Quad-Beam	10564
+1	Gold Lynx TCNB	10570
+1	Gold Lynx TSNB	10571
+1	Gold Dorian Sync-Beam	10583
+1	Gold Lynx DCSNB	10572
+1	Gold H-Tinker Doodad	12065
+1	Gold H-Extreme Negation	12018
+1	Gold H-Grimwell Shriek	12369
+1	Gold H-Dorian Dual Beam	12138
+1	Gold H-Lynx CNB	12544
+1	Gold H-Skysweeper	12113
+1	Gold H-Grimwell Scream	12370
+1	Gold H-Dorian Tri-Beam	12139
+1	Gold H-Lynx DCNB	12569
+1	Gold H-Dorian Quad-Beam	12564
+1	Gold H-Lynx TCNB	12570
+1	Gold H-Lynx TSNB	12571
+1	Gold H-Dorian Sync-Beam	12583
+1	Gold H-Lynx DCSNB	12572
+1	Gold Lynx Pu	10502
+1	Gold Genus Splash	10489
+1	Gold Lynx Pl	10503
+1	Gold Genus Gush	10490
+1	Gold Lynx EPl	10506
+1	Gold Genus Flush	10491
+1	Gold Lynx Ph	10504
+1	Gold Genus Flux	10492
+1	Gold Lynx EPh	10505
+1	Gold Lynx NuB	10565
+1	Gold Lynx CNuB	10566
+1	Gold Lynx QCNuB	10567
+1	Gold Lynx AMB	10568
+1	Gold H-Lynx Pu	12502
+1	Gold H-Genus Splash	12489
+1	Gold H-Lynx Pl	12503
+1	Gold H-Genus Gush	12490
+1	Gold H-Lynx EPl	12506
+1	Gold H-Genus Flush	12491
+1	Gold H-Lynx Ph	12504
+1	Gold H-Genus Flux	12492
+1	Gold H-Lynx EPh	12505
+1	Gold H-Lynx NuB	12565
+1	Gold H-Lynx CNuB	12566
+1	Gold H-Lynx QCNuB	12567
+1	Gold H-Lynx AMB	12568
+1	Gold Pyro Warm	11142
+1	Gold Genus Blind	10526
+1	Gold Pyro Mild	11143
+1	Gold Genus Sighter	10530
+1	Gold Pyro Hot	11151
+1	Gold Pyro Spice	11152
+1	Gold Pyro Traditional	11153
+1	Gold Pyro Atomic	11154
+1	Gold Pyro Thermo	11155
+1	Gold Genus Blazer	10534
+1	Gold Pyro Nuclear	11156
+1	Gold Pyro Global	11157
+1	Gold Pyro Emergency	11158
+1	Gold H-Pyro Warm	13142
+1	Gold H-Genus Blind	12526
+1	Gold H-Pyro Mild	13143
+1	Gold H-Genus Sighter	12530
+1	Gold H-Pyro Hot	13151
+1	Gold H-Pyro Spice	13152
+1	Gold H-Pyro Traditional	13153
+1	Gold H-Pyro Atomic	13154
+1	Gold H-Pyro Thermo	13155
+1	Gold H-Genus Blazer	12534
+1	Gold H-Pyro Nuclear	13156
+1	Gold H-Pyro Global	13157
+1	Gold H-Pyro Emergency	13158
+1	Gold Edison AAA-Bolt	10640
+1	Gold Edison AA-Bolt	10643
+1	Gold Cerulean Ripple	10656
+1	Gold Edison C-Bolt	10642
+1	Gold Cerulean Splash	10657
+1	Gold Edison D-Bolt	10641
+1	Gold Dorian Shocker	10667
+1	Gold Edison A-Bolt	14640
+1	Gold Cerulean Wave	10655
+1	Gold Dorian Zapper	14643
+1	Gold Cerulean Torrent	10654
+1	Gold Edison S-Bolt	14656
+1	Gold Dorian Jolter	10668
+1	Gold H-Edison AAA-Bolt	12640
+1	Gold H-Edison AA-Bolt	12643
+1	Gold H-Cerulean Ripple	12656
+1	Gold H-Edison C-Bolt	12642
+1	Gold H-Cerulean Splash	12657
+1	Gold H-Edison D-Bolt	12641
+1	Gold H-Dorian Shocker	12667
+1	Gold H-Edison A-Bolt	16640
+1	Gold H-Cerulean Wave	12655
+1	Gold H-Dorian Zapper	16643
+1	Gold H-Cerulean Torrent	12654
+1	Gold H-Edison S-Bolt	16656
+1	Gold H-Dorian Jolter	12668
+1	Gold Surge AK064 Cap	10670
+1	Gold Surge AK096 Cap	10669
+1	Gold Surge AX1011 Cap	10675
+1	Gold Surge AK128 Cap	10677
+1	Gold Surge BX1 Cap	10671
+1	Gold Surge AX2011 Cap	10674
+1	Gold Surge AK256 Cap	10678
+1	Gold Surge BX2 Cap	10672
+1	Gold Surge AX3011 Cap	10676
+1	Gold Surge BX3 Cap	10673
+1	Gold Surge BZ2 Cap	10684
+1	Gold Surge AK900 Cap	10679
+1	Gold Surge BZ3 Cap	10680
+1	Gold Surge CX Cap	10681
+1	Gold H-Surge AK064 Cap	14670
+1	Gold H-Surge AK096 Cap	14669
+1	Gold H-Surge AX1011 Cap	14675
+1	Gold H-Surge AK128 Cap	14677
+1	Gold H-Surge BX1 Cap	14671
+1	Gold H-Surge AX2011 Cap	14674
+1	Gold H-Surge AK256 Cap	14678
+1	Gold H-Surge BX2 Cap	14672
+1	Gold H-Surge AX3011 Cap	14676
+1	Gold H-Surge BX3 Cap	14673
+1	Gold H-Surge BZ2 Cap	14684
+1	Gold H-Surge AK900 Cap	14679
+1	Gold H-Surge BZ3 Cap	14680
+1	Gold H-Surge CX Cap	14681
+1	Gold Genus Manta	10866
+1	Gold Genus Thornback	10880
+1	Gold Genus Piranha	10889
+1	Gold Genus Barracuda	10896
+1	Gold Genus Devilray	10902
+1	Gold Genus Horn	10709
+1	Gold Genus Porbeagle	10787
+1	Gold Genus Stingray	10907
+1	Gold Genus Dusky	10726
+1	Gold Genus Galapagos	10793
+1	Gold Genus Mako	10743
+1	Gold Genus Hammerhead	10774
+1	Gold Genus Thresher	10760
+1	Gold Genus MegaMouth	10791
+1	Gold H-Genus Manta	12866
+1	Gold H-Genus Thornback	12880
+1	Gold H-Genus Piranha	12889
+1	Gold H-Genus Barracuda	12896
+1	Gold H-Genus Devilray	12902
+1	Gold H-Genus Horn	12709
+1	Gold H-Genus Porbeagle	12787
+1	Gold H-Genus Stingray	12907
+1	Gold H-Genus Dusky	12726
+1	Gold H-Genus Galapagos	12793
+1	Gold H-Genus Mako	12743
+1	Gold H-Genus Hammerhead	12774
+1	Gold H-Genus Thresher	12760
+1	Gold H-Genus MegaMouth	12791
+1	Gold Terminus Havocblast	10682
+1	Gold Terminus Tombstone	10683
+1	Gold Terminus Craterbomb	10685
+1	Gold Terminus Aftershock	10687
+1	Gold Terminus Ragerunner	10688
+1	Gold Terminus Blazebringer	10689
+1	Gold Terminus Tormentstorm	10690
+1	Gold Terminus Torrentblaze	14682
+1	Gold Terminus Earthcrusher	10691
+1	Gold Terminus Shatterpulse	14683
+1	Gold Terminus Gravedigger	10692
+1	Gold Terminus Cometflume	14685
+1	Gold Terminus Shootingstar	10693
+1	Gold H-Terminus Havocblast	12682
+1	Gold H-Terminus Tombstone	12683
+1	Gold H-Terminus Craterbomb	12685
+1	Gold H-Terminus Aftershock	12687
+1	Gold H-Terminus Ragerunner	12688
+1	Gold H-Terminus Blazebringer	12689
+1	Gold H-Terminus Tormentstorm	12690
+1	Gold H-Terminus Torrentblaze	16682
+1	Gold H-Terminus Earthcrusher	12691
+1	Gold H-Terminus Shatterpulse	16683
+1	Gold H-Terminus Gravedigger	12692
+1	Gold H-Terminus Cometflume	16685
+1	Gold H-Terminus Shootingstar	12693

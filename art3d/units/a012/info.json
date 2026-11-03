@@ -1,0 +1,488 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a012",
+ "kind": "air",
+ "chassis": [
+  "Miasmal-Evo1",
+  "Miasmal-Evo2",
+  "Miasmal-Evo3",
+  "Miasmal-Evo4",
+  "Miasmal-Evo5",
+  "Miasmal-Evo6",
+  "Miasmal-Evo7",
+  "Miasmal-Evo8",
+  "Miasmal-Evo9"
+ ],
+ "base_chassis": [
+  "Miasmal-Evo1",
+  "Miasmal-Evo2",
+  "Miasmal-Evo3",
+  "Miasmal-Evo4",
+  "Miasmal-Evo5",
+  "Miasmal-Evo6",
+  "Miasmal-Evo7",
+  "Miasmal-Evo8",
+  "Miasmal-Evo9"
+ ],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": "Miasmal",
+ "manual": [
+  {
+   "name": "Miasmal-Evo1",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 3,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 18,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 4350,
+   "base_armor": 36,
+   "speed_m_s": 4.6,
+   "view_range_m": 75,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo2",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 17,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 19,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 4980,
+   "base_armor": 42,
+   "speed_m_s": 4.8,
+   "view_range_m": 77.5,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo3",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 31,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 21,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 5910,
+   "base_armor": 48,
+   "speed_m_s": 4.8,
+   "view_range_m": 80,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo4",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 45,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 22,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 7200,
+   "base_armor": 57,
+   "speed_m_s": 5,
+   "view_range_m": 82.5,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo5",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 59,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 24,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 8940,
+   "base_armor": 66,
+   "speed_m_s": 5,
+   "view_range_m": 85,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo6",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 73,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 26,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 11160,
+   "base_armor": 72,
+   "speed_m_s": 5.2,
+   "view_range_m": 87.5,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo7",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 87,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 27,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 13980,
+   "base_armor": 81,
+   "speed_m_s": 5.2,
+   "view_range_m": 90,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo8",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 101,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 29,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 17430,
+   "base_armor": 87,
+   "speed_m_s": 5.4,
+   "view_range_m": 92.5,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  },
+  {
+   "name": "Miasmal-Evo9",
+   "category": "Organic",
+   "group": "Miasmal",
+   "unit_quality": 115,
+   "slots": 10,
+   "max_weight_kg": 136,
+   "max_space_l": 31,
+   "unit_weight_kg": 400,
+   "type": "Biological",
+   "base_health": 21600,
+   "base_armor": 93,
+   "speed_m_s": 5.6,
+   "view_range_m": 95,
+   "view_type": "Omni",
+   "chassis_code": "a012"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a012at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 5,
+   "type_raw": 5,
+   "canvas": [
+    305,
+    315
+   ],
+   "pivot": [
+    158,
+    189
+   ],
+   "frame_count": 10,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      158,
+      123
+     ]
+    ],
+    "1": [
+     [
+      158,
+      123
+     ]
+    ],
+    "2": [
+     [
+      158,
+      123
+     ]
+    ],
+    "3": [
+     [
+      158,
+      123
+     ]
+    ],
+    "4": [
+     [
+      158,
+      123
+     ]
+    ],
+    "5": [
+     [
+      158,
+      123
+     ]
+    ],
+    "6": [
+     [
+      158,
+      123
+     ]
+    ],
+    "7": [
+     [
+      158,
+      123
+     ]
+    ],
+    "8": [
+     [
+      158,
+      123
+     ]
+    ],
+    "9": [
+     [
+      158,
+      123
+     ]
+    ]
+   },
+   "sheet": "sheets/a012at.png",
+   "sheet_crop": [
+    61,
+    79,
+    221,
+    240
+   ],
+   "cell": [
+    160,
+    161
+   ],
+   "pivot_in_cell": [
+    97,
+    110
+   ]
+  },
+  {
+   "file": "a012ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    305,
+    315
+   ],
+   "pivot": [
+    158,
+    189
+   ],
+   "frame_count": 10,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "a012da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    305,
+    315
+   ],
+   "pivot": [
+    158,
+    189
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a012da.png",
+   "sheet_crop": [
+    79,
+    112,
+    246,
+    239
+   ],
+   "cell": [
+    167,
+    127
+   ],
+   "pivot_in_cell": [
+    79,
+    77
+   ]
+  },
+  {
+   "file": "a012mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    305,
+    315
+   ],
+   "pivot": [
+    158,
+    189
+   ],
+   "frame_count": 10,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a012mo.png",
+   "sheet_crop": [
+    61,
+    79,
+    221,
+    240
+   ],
+   "cell": [
+    160,
+    161
+   ],
+   "pivot_in_cell": [
+    97,
+    110
+   ]
+  },
+  {
+   "file": "a012mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    305,
+    315
+   ],
+   "pivot": [
+    158,
+    189
+   ],
+   "frame_count": 10,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "a012st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    305,
+    315
+   ],
+   "pivot": [
+    158,
+    189
+   ],
+   "frame_count": 10,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a012st.png",
+   "sheet_crop": [
+    61,
+    79,
+    221,
+    240
+   ],
+   "cell": [
+    160,
+    161
+   ],
+   "pivot_in_cell": [
+    97,
+    110
+   ]
+  },
+  {
+   "file": "a012sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    305,
+    315
+   ],
+   "pivot": [
+    158,
+    189
+   ],
+   "frame_count": 10,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": true
+  }
+ ],
+ "views": [],
+ "pictures": [],
+ "turnaround": null
+}

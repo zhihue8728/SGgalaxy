@@ -1,0 +1,601 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a011",
+ "kind": "air",
+ "chassis": [
+  "War Pigeon",
+  "War Pigeon-Mk2",
+  "War Pigeon-Mk3",
+  "War Pigeon-Mk4",
+  "War Pigeon-Mk5",
+  "War Pigeon-Mk6",
+  "War Pigeon-Mk7",
+  "War Pigeon-Mk8"
+ ],
+ "base_chassis": [
+  "War Pigeon"
+ ],
+ "names_cn": {
+  "War Pigeon": "战鸽"
+ },
+ "names_tw": {
+  "War Pigeon": "戰鴿"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "War Pigeon",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 16,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 14,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 1200,
+   "base_armor": 0,
+   "speed_m_s": 3,
+   "view_range_m": 4,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "chassis_image": "a011st.xpf",
+   "description_summary": "Bombs ground forces with an endless supply of ordnance."
+  },
+  {
+   "name": "War Pigeon-Mk2",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 30,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 15,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 1410,
+   "base_armor": 3,
+   "speed_m_s": 3.2,
+   "view_range_m": 4.25,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "chassis_image": "a011st.xpf",
+   "description_summary": "Aircraft that saturates foes below with a seemingly unlimited bomb stockpile."
+  },
+  {
+   "name": "War Pigeon-Mk3",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 16,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 1740,
+   "base_armor": 6,
+   "speed_m_s": 3.4,
+   "view_range_m": 4.5,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "chassis_image": "a011st.xpf",
+   "description_summary": "Drops endless bombs to wipe out enemy ground forces."
+  },
+  {
+   "name": "War Pigeon-Mk4",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 58,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 17,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 2130,
+   "base_armor": 9,
+   "speed_m_s": 3.6,
+   "view_range_m": 4.75,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "chassis_image": "a011st.xpf",
+   "description_summary": "Bomber that saturates ground enemies with endless bombs."
+  },
+  {
+   "name": "War Pigeon-Mk5",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 72,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 19,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 2670,
+   "base_armor": 12,
+   "speed_m_s": 3.9,
+   "view_range_m": 5,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "description_summary": "Carpet-bombs ground forces with an endless supply of bombs."
+  },
+  {
+   "name": "War Pigeon-Mk6",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 86,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 20,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 3360,
+   "base_armor": 15,
+   "speed_m_s": 4.1,
+   "view_range_m": 5.25,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "chassis_image": "a011st.xpf",
+   "description_summary": "Bombs carpet enemy ground forces using an apparently endless bomb supply."
+  },
+  {
+   "name": "War Pigeon-Mk7",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 100,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 21,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 4170,
+   "base_armor": 18,
+   "speed_m_s": 4.3,
+   "view_range_m": 5.5,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "chassis_image": "a011st.xpf",
+   "description_summary": "Blankets ground with endless bombs to wipe out enemy ground forces."
+  },
+  {
+   "name": "War Pigeon-Mk8",
+   "category": "Aviation",
+   "group": "Geo-raptor",
+   "influence": 114,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 23,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 5190,
+   "base_armor": 21,
+   "speed_m_s": 4.6,
+   "view_range_m": 5.75,
+   "view_type": "Omni",
+   "chassis_code": "a011",
+   "chassis_image": "a011st.xpf",
+   "description_summary": "Carpet-bombs ground enemies with an endless supply of bombs."
+  }
+ ],
+ "layers": [
+  {
+   "file": "a011at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      95,
+      53
+     ]
+    ],
+    "1": [
+     [
+      90,
+      68
+     ]
+    ],
+    "2": [
+     [
+      69,
+      70
+     ]
+    ],
+    "3": [
+     [
+      52,
+      67
+     ]
+    ],
+    "4": [
+     [
+      45,
+      53
+     ]
+    ],
+    "5": [
+     [
+      52,
+      39
+     ]
+    ],
+    "6": [
+     [
+      71,
+      36
+     ]
+    ],
+    "7": [
+     [
+      88,
+      41
+     ]
+    ]
+   },
+   "sheet": "sheets/a011at.png",
+   "sheet_crop": [
+    42,
+    27,
+    100,
+    76
+   ],
+   "cell": [
+    58,
+    49
+   ],
+   "pivot_in_cell": [
+    28,
+    23
+   ]
+  },
+  {
+   "file": "a011ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a011da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a011da.png",
+   "sheet_crop": [
+    36,
+    37,
+    109,
+    75
+   ],
+   "cell": [
+    73,
+    38
+   ],
+   "pivot_in_cell": [
+    34,
+    13
+   ]
+  },
+  {
+   "file": "a011mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a011mo.png",
+   "sheet_crop": [
+    42,
+    27,
+    100,
+    76
+   ],
+   "cell": [
+    58,
+    49
+   ],
+   "pivot_in_cell": [
+    28,
+    23
+   ]
+  },
+  {
+   "file": "a011mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a011mob.png",
+   "sheet_crop": [
+    51,
+    30,
+    90,
+    60
+   ],
+   "cell": [
+    39,
+    30
+   ],
+   "pivot_in_cell": [
+    19,
+    20
+   ]
+  },
+  {
+   "file": "a011mod.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a011mod.png",
+   "sheet_crop": [
+    35,
+    26,
+    108,
+    85
+   ],
+   "cell": [
+    73,
+    59
+   ],
+   "pivot_in_cell": [
+    35,
+    24
+   ]
+  },
+  {
+   "file": "a011mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a011st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a011st.png",
+   "sheet_crop": [
+    42,
+    28,
+    100,
+    77
+   ],
+   "cell": [
+    58,
+    49
+   ],
+   "pivot_in_cell": [
+    28,
+    22
+   ]
+  },
+  {
+   "file": "a011stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a011stb.png",
+   "sheet_crop": [
+    51,
+    32,
+    90,
+    61
+   ],
+   "cell": [
+    39,
+    29
+   ],
+   "pivot_in_cell": [
+    19,
+    18
+   ]
+  },
+  {
+   "file": "a011sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    101
+   ],
+   "pivot": [
+    70,
+    50
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

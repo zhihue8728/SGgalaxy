@@ -1,0 +1,646 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g016",
+ "kind": "ground",
+ "chassis": [
+  "Medic",
+  "Medic-Mk2",
+  "Medic-Mk3",
+  "Medic-Mk4",
+  "Medic-Mk5",
+  "Medic-Mk6",
+  "Medic-Mk7",
+  "Medic-Mk8",
+  "Medic-Mk9"
+ ],
+ "base_chassis": [
+  "Medic"
+ ],
+ "names_cn": {
+  "Medic": "医疗兵"
+ },
+ "names_tw": {
+  "Medic": "醫療兵"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Medic",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 7,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 9,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 1500,
+   "base_armor": 0,
+   "speed_m_s": 2.4,
+   "view_range_m": 4.5,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "description_summary": "Biological chassis carrying organic particles to repair, infect, or destroy biodrives."
+  },
+  {
+   "name": "Medic-Mk2",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 21,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 10,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 1740,
+   "base_armor": 3,
+   "speed_m_s": 2.4,
+   "view_range_m": 4.75,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "description_summary": "Organic-particle chassis that repairs, infects, or self-destructs biodrives."
+  },
+  {
+   "name": "Medic-Mk3",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 35,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 10,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 2070,
+   "base_armor": 6,
+   "speed_m_s": 2.4,
+   "view_range_m": 5,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "description_summary": "Biological case that repairs, infects, or self-destructs biodrives; naturally repairable."
+  },
+  {
+   "name": "Medic-Mk4",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 49,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 11,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 2550,
+   "base_armor": 9,
+   "speed_m_s": 2.6,
+   "view_range_m": 5.25,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "description_summary": "Biological chassis that repairs, infects, or self-destructs biodrives using organic particles"
+  },
+  {
+   "name": "Medic-Mk5",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 63,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 12,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 3180,
+   "base_armor": 12,
+   "speed_m_s": 2.6,
+   "view_range_m": 5.5,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "chassis_image": "g016st.xpf",
+   "description_summary": "Biological case that repairs, infects, or destroys biodrives; self-repairing."
+  },
+  {
+   "name": "Medic-Mk6",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 77,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 13,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 3960,
+   "base_armor": 15,
+   "speed_m_s": 2.8,
+   "view_range_m": 5.75,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "chassis_image": "g016st.xpf",
+   "description_summary": "Biological weapon case carrying organic particles to repair or infect biodrives"
+  },
+  {
+   "name": "Medic-Mk7",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 91,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 14,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 4950,
+   "base_armor": 18,
+   "speed_m_s": 2.8,
+   "view_range_m": 6,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "description_summary": "Biological chassis using organic particles to repair, infect, or destroy biodrives."
+  },
+  {
+   "name": "Medic-Mk8",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 105,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 15,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 6180,
+   "base_armor": 21,
+   "speed_m_s": 3,
+   "view_range_m": 6.25,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "description_summary": "Biological chassis carrying organic particles to repair infect or destroy biodrives"
+  },
+  {
+   "name": "Medic-Mk9",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 119,
+   "slots": 10,
+   "max_weight_kg": 56,
+   "max_space_l": 16,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 7620,
+   "base_armor": 24,
+   "speed_m_s": 3.2,
+   "view_range_m": 6.5,
+   "view_type": "Cone",
+   "chassis_code": "g016",
+   "chassis_image": "g016st.xpf",
+   "description_summary": "Biological case that repairs, infects, or self-destructs biodrives."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g016at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g016at.png",
+   "sheet_crop": [
+    57,
+    59,
+    93,
+    108
+   ],
+   "cell": [
+    36,
+    49
+   ],
+   "pivot_in_cell": [
+    16,
+    39
+   ]
+  },
+  {
+   "file": "g016atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g016atb.png",
+   "sheet_crop": [
+    57,
+    59,
+    91,
+    90
+   ],
+   "cell": [
+    34,
+    31
+   ],
+   "pivot_in_cell": [
+    16,
+    39
+   ]
+  },
+  {
+   "file": "g016atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g016atd.png",
+   "sheet_crop": [
+    51,
+    53,
+    108,
+    93
+   ],
+   "cell": [
+    57,
+    40
+   ],
+   "pivot_in_cell": [
+    22,
+    45
+   ]
+  },
+  {
+   "file": "g016ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g016da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    71,
+    82
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g016da.png",
+   "sheet_crop": [
+    50,
+    61,
+    103,
+    100
+   ],
+   "cell": [
+    53,
+    39
+   ],
+   "pivot_in_cell": [
+    21,
+    21
+   ]
+  },
+  {
+   "file": "g016mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g016mo.png",
+   "sheet_crop": [
+    57,
+    61,
+    93,
+    111
+   ],
+   "cell": [
+    36,
+    50
+   ],
+   "pivot_in_cell": [
+    16,
+    37
+   ]
+  },
+  {
+   "file": "g016mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g016mob.png",
+   "sheet_crop": [
+    61,
+    68,
+    88,
+    91
+   ],
+   "cell": [
+    27,
+    23
+   ],
+   "pivot_in_cell": [
+    12,
+    30
+   ]
+  },
+  {
+   "file": "g016mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g016mop.png",
+   "sheet_crop": [
+    60,
+    89,
+    89,
+    109
+   ],
+   "cell": [
+    29,
+    20
+   ],
+   "pivot_in_cell": [
+    13,
+    9
+   ]
+  },
+  {
+   "file": "g016mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g016st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 1827,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g016st.png",
+   "sheet_crop": [
+    60,
+    61,
+    89,
+    109
+   ],
+   "cell": [
+    29,
+    48
+   ],
+   "pivot_in_cell": [
+    13,
+    37
+   ]
+  },
+  {
+   "file": "g016stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": false,
+   "sheet": "sheets/g016stb.png",
+   "sheet_crop": [
+    60,
+    66,
+    89,
+    90
+   ],
+   "cell": [
+    29,
+    24
+   ],
+   "pivot_in_cell": [
+    13,
+    32
+   ]
+  },
+  {
+   "file": "g016sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    151,
+    147
+   ],
+   "pivot": [
+    73,
+    98
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

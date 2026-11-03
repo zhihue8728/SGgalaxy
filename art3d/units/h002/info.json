@@ -1,0 +1,222 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "h002",
+ "kind": "hero",
+ "chassis": [],
+ "base_chassis": [],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": null,
+ "manual": [],
+ "layers": [
+  {
+   "file": "h002em.xpf",
+   "dat": "tc.dat",
+   "action": "em",
+   "action_doc": "hero emote (not confirmed)",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    53,
+    81
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/h002em.png",
+   "sheet_crop": [
+    29,
+    19,
+    78,
+    89
+   ],
+   "cell": [
+    49,
+    70
+   ],
+   "pivot_in_cell": [
+    24,
+    62
+   ]
+  },
+  {
+   "file": "h002ems.xpf",
+   "dat": "tc.dat",
+   "action": "em",
+   "action_doc": "hero emote (not confirmed)",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    53,
+    81
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  },
+  {
+   "file": "h002mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    54,
+    79
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/h002mo.png",
+   "sheet_crop": [
+    29,
+    19,
+    78,
+    93
+   ],
+   "cell": [
+    49,
+    74
+   ],
+   "pivot_in_cell": [
+    25,
+    60
+   ]
+  },
+  {
+   "file": "h002mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    54,
+    79
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  },
+  {
+   "file": "h002st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    54,
+    79
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/h002st.png",
+   "sheet_crop": [
+    38,
+    20,
+    69,
+    89
+   ],
+   "cell": [
+    31,
+    69
+   ],
+   "pivot_in_cell": [
+    16,
+    59
+   ]
+  },
+  {
+   "file": "h002sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    54,
+    79
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png",
+ "note": "commander body (look 2)"
+}

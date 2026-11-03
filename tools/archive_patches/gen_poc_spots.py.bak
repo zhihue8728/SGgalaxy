@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+"""Precompute POC positions for every province map (pam.dat/pam3.dat) -> server/poc_spots.json.
+.nm = u8 ver, u16 w, u16 h (LE), w*h x {u16 tile, u8 flags}, u16 n, n x {u8 x, u8 y, u16 type}.
+Cell flag bit 0x01 = blocked (the client's collision mask 0048c6f0), bit 0x20 = second mask (0048c610, unknown) -> avoided too.
+For N = 1..5 POCs the ideal points are: 1 centre; 2 opposite; 3 triangle; 4 square; 5 centre + square (radius R tiles
+around the map centre), each snapped to a cell that is (a) in the main connected free area, (b) has >= CLEAR free cells
+around it, (c) >= MARGIN from the border and >= EXIT_DIST from exit-like objects (types 55-57, 100-102), and the POCs are
+>= SEP tiles apart.  usage: gen_poc_spots.py GAMEDIR OUT.json"""
+import struct, sys, json, math, collections, os
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
+import sgdat
+CLEAR, MARGIN, EXIT_DIST, SEP, R = 3, 10, 8, 12, 28
+BLOCK = 0x21
+def load(path):
+    d = open(path, "rb").read()
+    return d, {n.lower(): (o, s) for n, o, s in sgdat.read_index(d) if n.lower().endswith(".nm")}
+def parse(b):
+    w, h = struct.unpack_from("<HH", b, 1); p = 5
+    cells = [b[p + 3 * i + 2] for i in range(w * h)]
+    q = p + 3 * w * h; n = struct.unpack_from("<H", b, q)[0]
+    objs = [struct.unpack_from("<BBH", b, q + 2 + 4 * i) for i in range(n)]
+    return w, h, cells, objs
+def spots_for(w, h, cells, objs):
+    blocked = [(c & BLOCK) != 0 for c in cells]
+    def free(x, y): return 0 <= x < w and 0 <= y < h and not blocked[y * w + x]
+    # clearance = Chebyshev distance to the nearest blocked cell / border (capped), multi-source BFS
+    INF = 99; dist = [INF] * (w * h); dq = collections.deque()
+    for y in range(h):
+        for x in range(w):
+            if blocked[y * w + x] or x in (0, w - 1) or y in (0, h - 1):
+                dist[y * w + x] = 0; dq.append((x, y))
+    while dq:
+        x, y = dq.popleft(); dv = dist[y * w + x]
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                nx, ny = x + dx, y + dy
+                if 0 <= nx < w and 0 <= ny < h and dist[ny * w + nx] > dv + 1:
+                    dist[ny * w + nx] = dv + 1; dq.append((nx, ny))
+    exits = [(o[0], o[1]) for o in objs if o[2] in (55, 56, 57, 100, 101, 102)]
+    cand = [(x, y) for y in range(MARGIN, h - MARGIN) for x in range(MARGIN, w - MARGIN)
+            if dist[y * w + x] > CLEAR and all(max(abs(x - ex), abs(y - ey)) > EXIT_DIST for ex, ey in exits)]
+    if not cand:
+        return None
+    cs = set(cand)
+    # connected components of the candidate cells (8-neighbour); keep the one nearest the centre that is big enough
+    seen = {}; comps = []
+    for c in cand:
+        if c in seen: continue
+        comp = [c]; seen[c] = len(comps); st = [c]
+        while st:
+            x, y = st.pop()
+            for dx in (-1, 0, 1):
+                for dy in (-1, 0, 1):
+                    n2 = (x + dx, y + dy)
+                    if n2 in cs and n2 not in seen:
+                        seen[n2] = len(comps); comp.append(n2); st.append(n2)
+        comps.append(comp)
+    comp = max(comps, key=len)
+    # grow connectivity across thin gaps: the free area (not only candidates) is what units walk on, so also accept
+    # candidates whose free-area component equals the biggest free component
+    cx, cy = w // 2, h // 2
+    def snap(ix, iy, taken):
+        best = None
+        for x, y in comp:
+            if any(max(abs(x - tx), abs(y - ty)) < SEP for tx, ty in taken):
+                continue
+            d = (x - ix) ** 2 + (y - iy) ** 2
+            if best is None or d < best[0]:
+                best = (d, x, y)
+        return (best[1], best[2]) if best else None
+    plans = {1: [(0, 0)], 2: [(R, 0), (-R, 0)], 3: [(0, -R), (R * 0.87, R * 0.5), (-R * 0.87, R * 0.5)],
+             4: [(R, 0), (-R, 0), (0, R), (0, -R)], 5: [(0, 0), (R, R), (-R, R), (R, -R), (-R, -R)]}
+    out = {}
+    for n, pts in plans.items():
+        taken = []
+        for dx, dy in pts:
+            p = snap(cx + dx, cy + dy, taken)
+            if p is None:
+                p = snap(cx + dx, cy + dy, [])          # relax the separation on cramped maps
+            taken.append(p)
+        out[str(n)] = [[x * 32 + 16, y * 32 + 16] for x, y in taken]
+    return out
+def main():
+    gd, outp = sys.argv[1], sys.argv[2]
+    res = {}; bad = []
+    for fn in ("pam.dat", "pam3.dat"):
+        d, names = load(os.path.join(gd, fn))
+        for nm, (o, s) in names.items():
+            key = nm[:-3]
+            try:
+                w, h, cells, objs = parse(d[o:o + s])
+            except Exception:
+                continue
+            if (w, h) != (128, 128):
+                continue
+            sp = spots_for(w, h, cells, objs)
+            if sp: res[key] = sp
+            else: bad.append(key)
+    json.dump(res, open(outp, "w"), separators=(",", ":"))
+    print(len(res), "maps; no spot:", bad)
+main()

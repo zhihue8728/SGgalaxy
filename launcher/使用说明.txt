@@ -1,0 +1,19 @@
+﻿银河霸主（Galactic Overlord）安装与启动说明
+==========================================
+
+安装
+1. 执行 GalacticOverlord_Setup_<版本>.exe，按「下一步」完成安装。
+   - 不需要先安装原版游戏，也不需要从服务器下载资料档。
+   - 建议使用默认路径 C:\GalacticOverlord（不要装在 Program Files，否则每次更新都要管理员权限）。
+2. 安装后桌面和开始菜单会有「银河霸主」捷径。
+
+启动
+- 用「银河霸主」捷径（SGLauncher.exe）打开游戏：启动器会先更新，再开游戏。
+- 直接双击 SG.exe 也会自动转去开启动器。
+- 以后的更新都只下载有变动的部分。
+
+说明
+- 需要 Windows 10 / 11（自带 .NET Framework 4）。
+- 启动器会自动使用 UDP 加速（SGRelay），减少战斗卡顿；网络不支持时会自动改用直连。
+  如果想停用加速，在游戏文件夹放一个空白的 norelay.txt。
+- 加速日志：%LOCALAPPDATA%\SGLauncher\relay.log（反馈连接问题时请附上）。

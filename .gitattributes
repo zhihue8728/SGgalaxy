@@ -1,0 +1,2 @@
+# store every file byte-for-byte: no LF/CRLF conversion (shell scripts must stay LF, game data is binary)
+* -text

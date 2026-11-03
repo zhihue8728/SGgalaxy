@@ -1,0 +1,236 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g007",
+ "kind": "ground",
+ "chassis": [],
+ "base_chassis": [],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": null,
+ "manual": [],
+ "layers": [
+  {
+   "file": "g007da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    66,
+    66
+   ],
+   "pivot": [
+    32,
+    47
+   ],
+   "frame_count": 6,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g007da.png",
+   "sheet_crop": [
+    12,
+    26,
+    56,
+    58
+   ],
+   "cell": [
+    44,
+    32
+   ],
+   "pivot_in_cell": [
+    20,
+    21
+   ]
+  },
+  {
+   "file": "g007mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    42,
+    60
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g007mo.png",
+   "sheet_crop": [
+    23,
+    24,
+    67,
+    73
+   ],
+   "cell": [
+    44,
+    49
+   ],
+   "pivot_in_cell": [
+    19,
+    36
+   ]
+  },
+  {
+   "file": "g007mod.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    42,
+    60
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g007mod.png",
+   "sheet_crop": [
+    14,
+    19,
+    73,
+    77
+   ],
+   "cell": [
+    59,
+    58
+   ],
+   "pivot_in_cell": [
+    28,
+    41
+   ]
+  },
+  {
+   "file": "g007mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    86,
+    83
+   ],
+   "pivot": [
+    42,
+    60
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g007st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    42,
+    60
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g007st.png",
+   "sheet_crop": [
+    27,
+    27,
+    64,
+    71
+   ],
+   "cell": [
+    37,
+    44
+   ],
+   "pivot_in_cell": [
+    15,
+    33
+   ]
+  },
+  {
+   "file": "g007sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    87,
+    83
+   ],
+   "pivot": [
+    42,
+    60
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

@@ -1,0 +1,43 @@
+ksOutOfSync0		Out of sync. You are experiencing difficulties maintaining a proper connection to the server.  We suggest retreating from this battle.
+ksOutOfSync1		Out of sync. If you encounter a third out of sync error during this battle, you will be disconnected and lose wealth and experience as if you had been defeated. Please retreat immediately.
+ksOutOfSync		Out of sync. To reduce the inconvenience for other players, you have been disconnected. Please read the SG manual for more information.
+ksWhisperPrevent	 is ignoring you. Perhaps you offended them in some way.
+ksSeeingBoard		 is viewing the planetary map and might not be able to respond promptly.
+ksSeeingCityHall	 is in the FHQ and might not be able to respond promptly.
+ksSeeingLab		 is upgrading in the Lab and might not be able to respond promptly.
+ksSeeingResource	 is at the REM and might not be able to respond promptly.
+ksSeeingStarCenter	 is at the Star center and might not be able to respond promptly.
+ksSeeingStarGate	 is at the Star gate and might not be able to respond promptly.
+ksSeeingUnitShop	 is at the Factory and might not be able to respond promptly.
+ksSeeingUnitManage	 is deploying their units and might not be able to respond promptly.
+ksSeeingUseExpWnd	 is distributing exp from subordinates and might not be able to respond promptly.
+ksSetCapital		Claim this province as the capital of your faction?
+ksNotInStarcenterMap	At least one province must be between your capital and the inter-planetary portal.
+ksNotInAnotherPlanet	Your capital must be built on your founding planet.
+ksNotNearCapital	At least one province must be between your capital and any other faction capitals.
+ksPlanetMove		Welcome Commander!\n \nWe hope you had a safe trip.  It is now time to claim your destiny and spread your name across the galaxy!
+ksBackToCapital		Do you wish to instantly transport back to your capital?
+ksNoUnitActive		Deploy units by pressing <F7>. Then you will again be ready to fight!
+ksUnitArriveTime	Your units will enter the battle in %d seconds.
+ksReinforceTime		You can reinforce after %d seconds.\nPress <F7> to ready your next squad!
+ksReinforceTimeElapsed	You must reinforce now\n or you will retreat in %d seconds.
+ksWaitingUserNo		%d users are waiting to reinforce.
+ksConfirmTeacher	%s is requesting to be your Subordinate.
+ksCantConfirm		This hero cannot respond to your request. Please try again later.
+ksTeacherAccept		You have pledged your Word of Honor to %s. They are now your Superior.
+ksTeacherDeny		This hero does not accept you as a Subordinate. Find a more worthy master.
+ksFormationPresent	Formation %c is predefined. Can't override it.
+ksFormationNowSaved	Formation %c defined
+ksFormationNotDefined	Formation %c doesn't exist
+ksFormationDefined	Formation changing to %c
+
+ksQMNoBattle			No suitable battle available.
+ksQMGoBackToCapitalToUpgrade	There is no Lab in this province. You might want to get back to your capital to upgrade your units. Do you want to instantly transport back to your capital?
+ksQMGoBackToCapitalToRepair	There is no Shop in this province. You might want to get back to your capital to repair your units. Do you want to instantly transport back to your capital?
+ksQMOnGoingToAttack		You are on the way to the enemy province.
+ksQMNoWhereToAttack		You cannot reach an enemy province to initiate an attack.
+
+ksREWellDone		Well Done!!! Press "OK".
+ksREJobFail		Transaction Failed. Press "OK" and try it again.
+
+ksRRCantEnter		Unable to enter. Press "Cancel".

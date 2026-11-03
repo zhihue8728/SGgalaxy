@@ -1,0 +1,8378 @@
+{
+ "source": "https://www.sgalaxy.com/manual_oml/",
+ "pages": [
+  {
+   "index": "I-Biodrv",
+   "title": "Alien Biodrive",
+   "file": "I-G1000.txt",
+   "slot": 1000,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Health",
+    "Power (kJ)",
+    "Energy Drain (kJ)"
+   ],
+   "rows": [
+    {
+     "Item": "Alien Biodrive",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight (kg)": 0,
+     "Health": 150,
+     "Power (kJ)": 300,
+     "Energy Drain (kJ)": 0
+    }
+   ]
+  },
+  {
+   "index": "I-Biodrv",
+   "title": "All Biodrives",
+   "file": "I-G1001.txt",
+   "slot": 1001,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Health",
+    "Power",
+    "Energy Drain",
+    "Space",
+    "Energy Use",
+    "Special",
+    "XP Bonus"
+   ],
+   "rows": [
+    {
+     "Item": "Primordial Biodrive",
+     "Tech Level": 2,
+     "Complexity": 2,
+     "Weight": 20,
+     "Health": 300,
+     "Power": 230,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Developed Biodrive",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight": 20,
+     "Health": 375,
+     "Power": 230,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Evolved Biodrive",
+     "Tech Level": 20,
+     "Complexity": 3,
+     "Weight": 25,
+     "Health": 450,
+     "Power": 280,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Cohesive Biodrive",
+     "Tech Level": 30,
+     "Complexity": 3,
+     "Weight": 20,
+     "Health": 525,
+     "Power": 230,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Mutated Biodrive",
+     "Tech Level": 40,
+     "Complexity": 6,
+     "Weight": 25,
+     "Health": 570,
+     "Power": 290,
+     "Energy Drain": 0,
+     "Space": 8,
+     "Energy Use": 25,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Terminus Biodrive",
+     "Tech Level": 40,
+     "Complexity": 7,
+     "Weight": 27,
+     "Health": 570,
+     "Power": 315,
+     "Energy Drain": 0,
+     "Space": 6,
+     "Energy Use": 25,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Resilient Biodrive",
+     "Tech Level": 50,
+     "Complexity": 4,
+     "Weight": 26,
+     "Health": 675,
+     "Power": 290,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Sentient Biodrive",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight": 22,
+     "Health": 690,
+     "Power": 250,
+     "Energy Drain": 0,
+     "XP Bonus": 2
+    },
+    {
+     "Item": "Basic Biocase",
+     "Tech Level": 70,
+     "Complexity": 1,
+     "Weight": 23,
+     "Health": 825,
+     "Power": 265,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Phasic Biodrive",
+     "Tech Level": 80,
+     "Complexity": 8,
+     "Weight": 22,
+     "Health": 900,
+     "Power": 270,
+     "Energy Drain": 0,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "Refined Biocase",
+     "Tech Level": 90,
+     "Complexity": 1,
+     "Weight": 28,
+     "Health": 975,
+     "Power": 310,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Mutated Biocase",
+     "Tech Level": 100,
+     "Complexity": 2,
+     "Weight": 25,
+     "Health": 750,
+     "Power": 286,
+     "Energy Drain": 0,
+     "Space": 7,
+     "Energy Use": 22,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Advanced Biocase",
+     "Tech Level": 110,
+     "Complexity": 1,
+     "Weight": 21,
+     "Health": 1050,
+     "Power": 290,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Charged Biocase",
+     "Tech Level": 120,
+     "Complexity": 2,
+     "Weight": 24,
+     "Health": 1200,
+     "Power": 255,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Primordial Biodrive",
+     "Tech Level": 3,
+     "Complexity": 3,
+     "Weight": 47,
+     "Health": 1350,
+     "Power": 330,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Developed Biodrive",
+     "Tech Level": 11,
+     "Complexity": 3,
+     "Weight": 43,
+     "Health": 1380,
+     "Power": 330,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Evolved Biodrive",
+     "Tech Level": 21,
+     "Complexity": 5,
+     "Weight": 59,
+     "Health": 1680,
+     "Power": 410,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Cohesive Biodrive",
+     "Tech Level": 31,
+     "Complexity": 4,
+     "Weight": 42,
+     "Health": 1530,
+     "Power": 300,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Mutated Biodrive",
+     "Tech Level": 41,
+     "Complexity": 8,
+     "Weight": 49,
+     "Health": 1440,
+     "Power": 350,
+     "Energy Drain": 0,
+     "Space": 8,
+     "Energy Use": 23,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "H-Terminus Biodrive",
+     "Tech Level": 41,
+     "Complexity": 10,
+     "Weight": 53,
+     "Health": 1440,
+     "Power": 385,
+     "Energy Drain": 0,
+     "Space": 6,
+     "Energy Use": 23,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "H-Resilient Biodrive",
+     "Tech Level": 51,
+     "Complexity": 6,
+     "Weight": 59,
+     "Health": 1830,
+     "Power": 410,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Sentient Biodrive",
+     "Tech Level": 61,
+     "Complexity": 0,
+     "Weight": 43,
+     "Health": 1560,
+     "Power": 300,
+     "Energy Drain": 0,
+     "XP Bonus": 2
+    },
+    {
+     "Item": "H-Basic Biocase",
+     "Tech Level": 71,
+     "Complexity": 2,
+     "Weight": 54,
+     "Health": 2040,
+     "Power": 370,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Phasic Biodrive",
+     "Tech Level": 81,
+     "Complexity": 12,
+     "Weight": 51,
+     "Health": 2070,
+     "Power": 380,
+     "Energy Drain": 0,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "H-Refined Biocase",
+     "Tech Level": 91,
+     "Complexity": 1,
+     "Weight": 51,
+     "Health": 1710,
+     "Power": 350,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Mutated Biocase",
+     "Tech Level": 101,
+     "Complexity": 3,
+     "Weight": 62,
+     "Health": 2070,
+     "Power": 420,
+     "Energy Drain": 0,
+     "Space": 7,
+     "Energy Use": 20,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "H-Advanced Biocase",
+     "Tech Level": 111,
+     "Complexity": 1,
+     "Weight": 38,
+     "Health": 1770,
+     "Power": 270,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Charged Biocase",
+     "Tech Level": 120,
+     "Complexity": 3,
+     "Weight": 51,
+     "Health": 2190,
+     "Power": 350,
+     "Energy Drain": 0
+    }
+   ]
+  },
+  {
+   "index": "I-Biodrv",
+   "title": "Promo Biodrives",
+   "file": "I-G1049.txt",
+   "slot": 1049,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Health",
+    "Power (kJ)",
+    "Energy Drain (kJ)",
+    "Space (L)",
+    "Energy Use (kJ)",
+    "Special",
+    "XP Bonus"
+   ],
+   "rows": [
+    {
+     "Item": "Broken Heart",
+     "Tech Level": 2,
+     "Complexity": 2,
+     "Weight (kg)": 20,
+     "Health": 150,
+     "Power (kJ)": 230,
+     "Energy Drain (kJ)": 0
+    },
+    {
+     "Item": "Noxious Heart",
+     "Tech Level": 20,
+     "Complexity": 3,
+     "Weight (kg)": 25,
+     "Health": 450,
+     "Power (kJ)": 280,
+     "Energy Drain (kJ)": 0
+    },
+    {
+     "Item": "Bane Heart",
+     "Tech Level": 40,
+     "Complexity": 6,
+     "Weight (kg)": 25,
+     "Health": 600,
+     "Power (kJ)": 290,
+     "Energy Drain (kJ)": 0,
+     "Space (L)": 8,
+     "Energy Use (kJ)": 25,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Dread Heart",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight (kg)": 22,
+     "Health": 690,
+     "Power (kJ)": 250,
+     "Energy Drain (kJ)": 0,
+     "XP Bonus": 2
+    },
+    {
+     "Item": "Sinister Heart",
+     "Tech Level": 80,
+     "Complexity": 8,
+     "Weight (kg)": 22,
+     "Health": 900,
+     "Power (kJ)": 270,
+     "Energy Drain (kJ)": 0,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "Cursed Heart",
+     "Tech Level": 100,
+     "Complexity": 2,
+     "Weight (kg)": 25,
+     "Health": 750,
+     "Power (kJ)": 286,
+     "Energy Drain (kJ)": 0,
+     "Space (L)": 7,
+     "Energy Use (kJ)": 22,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Aceof Heart",
+     "Tech Level": 120,
+     "Complexity": 2,
+     "Weight (kg)": 24,
+     "Health": 1200,
+     "Power (kJ)": 255,
+     "Energy Drain (kJ)": 0
+    },
+    {
+     "Item": "H-Broken Heart",
+     "Tech Level": 3,
+     "Complexity": 3,
+     "Weight (kg)": 47,
+     "Health": 1350,
+     "Power (kJ)": 330,
+     "Energy Drain (kJ)": 0
+    },
+    {
+     "Item": "H-Noxious Heart",
+     "Tech Level": 21,
+     "Complexity": 5,
+     "Weight (kg)": 59,
+     "Health": 1680,
+     "Power (kJ)": 410,
+     "Energy Drain (kJ)": 0
+    },
+    {
+     "Item": "H-Bane Heart",
+     "Tech Level": 41,
+     "Complexity": 8,
+     "Weight (kg)": 49,
+     "Health": 1470,
+     "Power (kJ)": 350,
+     "Energy Drain (kJ)": 0,
+     "Space (L)": 8,
+     "Energy Use (kJ)": 23,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "H-Dread Heart",
+     "Tech Level": 61,
+     "Complexity": 0,
+     "Weight (kg)": 43,
+     "Health": 1560,
+     "Power (kJ)": 300,
+     "Energy Drain (kJ)": 0,
+     "XP Bonus": 2
+    },
+    {
+     "Item": "H-Sinister Heart",
+     "Tech Level": 81,
+     "Complexity": 12,
+     "Weight (kg)": 51,
+     "Health": 2070,
+     "Power (kJ)": 380,
+     "Energy Drain (kJ)": 0,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "H-Cursed Heart",
+     "Tech Level": 101,
+     "Complexity": 3,
+     "Weight (kg)": 62,
+     "Health": 2070,
+     "Power (kJ)": 420,
+     "Energy Drain (kJ)": 0,
+     "Space (L)": 7,
+     "Energy Use (kJ)": 20,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "H-Aceof Heart",
+     "Tech Level": 120,
+     "Complexity": 3,
+     "Weight (kg)": 51,
+     "Health": 2190,
+     "Power (kJ)": 350,
+     "Energy Drain (kJ)": 0
+    }
+   ]
+  },
+  {
+   "index": "I-Biodrv",
+   "title": "Super Biodrives",
+   "file": "I-G1501.txt",
+   "slot": 1501,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Health",
+    "Power",
+    "Energy Drain",
+    "XP Bonus"
+   ],
+   "rows": [
+    {
+     "Item": "Basic Nucleoid",
+     "Tech Level": 2,
+     "Complexity": 2,
+     "Weight": 20,
+     "Health": 637,
+     "Power": 230,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Enhanced Nucleoid",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight": 22,
+     "Health": 796,
+     "Power": 250,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Improved Nucleoid",
+     "Tech Level": 20,
+     "Complexity": 3,
+     "Weight": 25,
+     "Health": 956,
+     "Power": 280,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Optimized Nucleoid",
+     "Tech Level": 30,
+     "Complexity": 3,
+     "Weight": 20,
+     "Health": 1115,
+     "Power": 230,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Augmented Nucleoid",
+     "Tech Level": 40,
+     "Complexity": 6,
+     "Weight": 25,
+     "Health": 1211,
+     "Power": 290,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Superior Nucleoid",
+     "Tech Level": 50,
+     "Complexity": 4,
+     "Weight": 26,
+     "Health": 1211,
+     "Power": 290,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Intelligent Nucleoid",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight": 22,
+     "Health": 1434,
+     "Power": 250,
+     "Energy Drain": 0,
+     "XP Bonus": 2
+    },
+    {
+     "Item": "Primary Biocore",
+     "Tech Level": 70,
+     "Complexity": 1,
+     "Weight": 23,
+     "Health": 1466,
+     "Power": 265,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Strengthened Biocore",
+     "Tech Level": 80,
+     "Complexity": 8,
+     "Weight": 22,
+     "Health": 1860,
+     "Power": 270,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Reinforced Biocore",
+     "Tech Level": 90,
+     "Complexity": 1,
+     "Weight": 28,
+     "Health": 1912,
+     "Power": 310,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Amplified Biocore",
+     "Tech Level": 100,
+     "Complexity": 2,
+     "Weight": 25,
+     "Health": 2071,
+     "Power": 286,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Boosted Biocore",
+     "Tech Level": 110,
+     "Complexity": 1,
+     "Weight": 21,
+     "Health": 1593,
+     "Power": 290,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Ultimate Biocore",
+     "Tech Level": 120,
+     "Complexity": 2,
+     "Weight": 24,
+     "Health": 2231,
+     "Power": 255,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Basic Nucleoid",
+     "Tech Level": 3,
+     "Complexity": 3,
+     "Weight": 47,
+     "Health": 2679,
+     "Power": 330,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Enhanced Nucleoid",
+     "Tech Level": 11,
+     "Complexity": 3,
+     "Weight": 47,
+     "Health": 2463,
+     "Power": 330,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Improved Nucleoid",
+     "Tech Level": 21,
+     "Complexity": 5,
+     "Weight": 59,
+     "Health": 2998,
+     "Power": 410,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Optimized Nucleoid",
+     "Tech Level": 31,
+     "Complexity": 4,
+     "Weight": 42,
+     "Health": 2731,
+     "Power": 300,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Augmented Nucleoid",
+     "Tech Level": 41,
+     "Complexity": 8,
+     "Weight": 49,
+     "Health": 3675,
+     "Power": 350,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Superior Nucleoid",
+     "Tech Level": 51,
+     "Complexity": 6,
+     "Weight": 59,
+     "Health": 2570,
+     "Power": 410,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Intelligent Nucleoid",
+     "Tech Level": 61,
+     "Complexity": 0,
+     "Weight": 43,
+     "Health": 2640,
+     "Power": 300,
+     "Energy Drain": 0,
+     "XP Bonus": 2
+    },
+    {
+     "Item": "H-Primary Biocore",
+     "Tech Level": 71,
+     "Complexity": 2,
+     "Weight": 54,
+     "Health": 2784,
+     "Power": 370,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Strengthened Biocore",
+     "Tech Level": 81,
+     "Complexity": 10,
+     "Weight": 51,
+     "Health": 3768,
+     "Power": 380,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Reinforced Biocore",
+     "Tech Level": 91,
+     "Complexity": 1,
+     "Weight": 51,
+     "Health": 3675,
+     "Power": 350,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Amplified Biocore",
+     "Tech Level": 101,
+     "Complexity": 3,
+     "Weight": 62,
+     "Health": 3765,
+     "Power": 420,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Boosted Biocore",
+     "Tech Level": 111,
+     "Complexity": 1,
+     "Weight": 38,
+     "Health": 3540,
+     "Power": 270,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "H-Ultimate Biocore",
+     "Tech Level": 120,
+     "Complexity": 3,
+     "Weight": 51,
+     "Health": 3930,
+     "Power": 350,
+     "Energy Drain": 0
+    }
+   ]
+  },
+  {
+   "index": "I-MechEn",
+   "title": "All Mechanical Engines",
+   "file": "I-G1101.txt",
+   "slot": 1101,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Health",
+    "Power",
+    "Energy Drain",
+    "Energy Use",
+    "Range",
+    "View Range",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Tinker Contraption",
+     "Tech Level": 2,
+     "Complexity": 6,
+     "Weight": 50,
+     "Health": 450,
+     "Power": 515,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Tinker Gadget",
+     "Tech Level": 2,
+     "Complexity": 5,
+     "Weight": 35,
+     "Health": 390,
+     "Power": 360,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Tinker Gizmo",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 25,
+     "Health": 315,
+     "Power": 250,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Dorian Light Engine",
+     "Tech Level": 12,
+     "Complexity": 6,
+     "Weight": 28,
+     "Health": 540,
+     "Power": 295,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Economy Nautilus",
+     "Tech Level": 24,
+     "Complexity": 7,
+     "Weight": 30,
+     "Health": 420,
+     "Power": 320,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Dorian Light Matrix",
+     "Tech Level": 36,
+     "Complexity": 6,
+     "Weight": 48,
+     "Health": 900,
+     "Power": 495,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Optima 2200",
+     "Tech Level": 48,
+     "Complexity": 6,
+     "Weight": 50,
+     "Health": 660,
+     "Power": 660,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Genus FSN-B",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 38,
+     "Health": 750,
+     "Power": 395,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Centris TEngine",
+     "Tech Level": 72,
+     "Complexity": 16,
+     "Weight": 60,
+     "Health": 840,
+     "Power": 685,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Range": 1,
+     "View Range": 1,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Dorian Light Drive",
+     "Tech Level": 84,
+     "Complexity": 6,
+     "Weight": 45,
+     "Health": 1350,
+     "Power": 465,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Deluxe Nautilus",
+     "Tech Level": 96,
+     "Complexity": 8,
+     "Weight": 32,
+     "Health": 1020,
+     "Power": 345,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Genus FSN-P",
+     "Tech Level": 108,
+     "Complexity": 6,
+     "Weight": 34,
+     "Health": 1110,
+     "Power": 355,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Optima 3000",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight": 70,
+     "Health": 1200,
+     "Power": 715,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Deluxe Dorian LD",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight": 38,
+     "Health": 1500,
+     "Power": 415,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "Genus FSN-Y",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight": 26,
+     "Health": 600,
+     "Power": 315,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Tinker Contraption",
+     "Tech Level": 3,
+     "Complexity": 9,
+     "Weight": 120,
+     "Health": 1620,
+     "Power": 760,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Tinker Gadget",
+     "Tech Level": 3,
+     "Complexity": 8,
+     "Weight": 83,
+     "Health": 1560,
+     "Power": 510,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Tinker Gizmo",
+     "Tech Level": 3,
+     "Complexity": 4,
+     "Weight": 50,
+     "Health": 1200,
+     "Power": 300,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Dorian Light Engine",
+     "Tech Level": 13,
+     "Complexity": 9,
+     "Weight": 62,
+     "Health": 1650,
+     "Power": 390,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Economy Nautilus",
+     "Tech Level": 25,
+     "Complexity": 10,
+     "Weight": 60,
+     "Health": 1620,
+     "Power": 150,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Dorian Light Matrix",
+     "Tech Level": 37,
+     "Complexity": 9,
+     "Weight": 118,
+     "Health": 2220,
+     "Power": 740,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Optima 2200",
+     "Tech Level": 49,
+     "Complexity": 9,
+     "Weight": 115,
+     "Health": 1875,
+     "Power": 800,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Genus FSN-B",
+     "Tech Level": 61,
+     "Complexity": 9,
+     "Weight": 94,
+     "Health": 2070,
+     "Power": 580,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Centris TEngine",
+     "Tech Level": 73,
+     "Complexity": 15,
+     "Weight": 85,
+     "Health": 1350,
+     "Power": 830,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Range": 1,
+     "View Range": 1,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Dorian Light Drive",
+     "Tech Level": 85,
+     "Complexity": 9,
+     "Weight": 98,
+     "Health": 2400,
+     "Power": 610,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Deluxe Nautilus",
+     "Tech Level": 97,
+     "Complexity": 12,
+     "Weight": 76,
+     "Health": 2280,
+     "Power": 490,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Genus FSN-P",
+     "Tech Level": 109,
+     "Complexity": 8,
+     "Weight": 61,
+     "Health": 1830,
+     "Power": 380,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Optima 3000",
+     "Tech Level": 120,
+     "Complexity": 9,
+     "Weight": 120,
+     "Health": 2400,
+     "Power": 950,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Deluxe Dorian LD",
+     "Tech Level": 120,
+     "Complexity": 9,
+     "Weight": 96,
+     "Health": 2850,
+     "Power": 620,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    },
+    {
+     "Item": "H-Genus FSN-Y",
+     "Tech Level": 120,
+     "Complexity": 8,
+     "Weight": 53,
+     "Health": 1800,
+     "Power": 450,
+     "Energy Drain": 0,
+     "Energy Use": 50,
+     "Special": "Speed Boost"
+    }
+   ]
+  },
+  {
+   "index": "I-MechEn",
+   "title": "All Aviation Engines",
+   "file": "I-G1201.txt",
+   "slot": 1201,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Health",
+    "Power",
+    "Energy Drain",
+    "Range",
+    "View Range"
+   ],
+   "rows": [
+    {
+     "Item": "A-Tinker Contraption",
+     "Tech Level": 2,
+     "Complexity": 6,
+     "Weight": 50,
+     "Health": 435,
+     "Power": 515,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Tinker Gadget",
+     "Tech Level": 2,
+     "Complexity": 5,
+     "Weight": 35,
+     "Health": 375,
+     "Power": 360,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Tinker Gizmo",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 25,
+     "Health": 315,
+     "Power": 250,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Dorian Light Engine",
+     "Tech Level": 12,
+     "Complexity": 6,
+     "Weight": 28,
+     "Health": 540,
+     "Power": 295,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Economy Nautilus",
+     "Tech Level": 24,
+     "Complexity": 7,
+     "Weight": 30,
+     "Health": 420,
+     "Power": 320,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Dorian Light Matrix",
+     "Tech Level": 36,
+     "Complexity": 6,
+     "Weight": 48,
+     "Health": 900,
+     "Power": 495,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Optima 2200",
+     "Tech Level": 48,
+     "Complexity": 6,
+     "Weight": 50,
+     "Health": 660,
+     "Power": 660,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Genus FSN-B",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 38,
+     "Health": 750,
+     "Power": 395,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Centris TEngine",
+     "Tech Level": 72,
+     "Complexity": 16,
+     "Weight": 60,
+     "Health": 840,
+     "Power": 685,
+     "Energy Drain": 0,
+     "Range": 1,
+     "View Range": 1
+    },
+    {
+     "Item": "A-Dorian Light Drive",
+     "Tech Level": 84,
+     "Complexity": 6,
+     "Weight": 45,
+     "Health": 1350,
+     "Power": 465,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Deluxe Nautilus",
+     "Tech Level": 96,
+     "Complexity": 8,
+     "Weight": 32,
+     "Health": 1020,
+     "Power": 345,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Genus FSN-P",
+     "Tech Level": 108,
+     "Complexity": 6,
+     "Weight": 34,
+     "Health": 1110,
+     "Power": 355,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Optima 3000",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight": 60,
+     "Health": 1200,
+     "Power": 715,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Deluxe Dorian LD",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight": 38,
+     "Health": 1500,
+     "Power": 415,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "A-Genus FSN-Y",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight": 26,
+     "Health": 600,
+     "Power": 315,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Tinker Contraption",
+     "Tech Level": 3,
+     "Complexity": 9,
+     "Weight": 118,
+     "Health": 1620,
+     "Power": 760,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Tinker Gadget",
+     "Tech Level": 3,
+     "Complexity": 8,
+     "Weight": 83,
+     "Health": 1560,
+     "Power": 510,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Tinker Gizmo",
+     "Tech Level": 3,
+     "Complexity": 4,
+     "Weight": 50,
+     "Health": 1200,
+     "Power": 300,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Dorian Light Engine",
+     "Tech Level": 13,
+     "Complexity": 9,
+     "Weight": 62,
+     "Health": 1650,
+     "Power": 390,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Economy Nautilus",
+     "Tech Level": 25,
+     "Complexity": 10,
+     "Weight": 60,
+     "Health": 1620,
+     "Power": 150,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Dorian Light Matrix",
+     "Tech Level": 37,
+     "Complexity": 9,
+     "Weight": 118,
+     "Health": 2220,
+     "Power": 740,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Optima 2200",
+     "Tech Level": 49,
+     "Complexity": 9,
+     "Weight": 115,
+     "Health": 1875,
+     "Power": 800,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Genus FSN-B",
+     "Tech Level": 61,
+     "Complexity": 9,
+     "Weight": 94,
+     "Health": 2070,
+     "Power": 580,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Centris TEngine",
+     "Tech Level": 73,
+     "Complexity": 15,
+     "Weight": 85,
+     "Health": 1350,
+     "Power": 830,
+     "Energy Drain": 0,
+     "Range": 1,
+     "View Range": 1
+    },
+    {
+     "Item": "AH-Dorian Light Drive",
+     "Tech Level": 85,
+     "Complexity": 9,
+     "Weight": 98,
+     "Health": 2400,
+     "Power": 610,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Deluxe Nautilus",
+     "Tech Level": 97,
+     "Complexity": 12,
+     "Weight": 76,
+     "Health": 2280,
+     "Power": 490,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Genus FSN-P",
+     "Tech Level": 109,
+     "Complexity": 8,
+     "Weight": 61,
+     "Health": 1830,
+     "Power": 380,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Optima 3000",
+     "Tech Level": 120,
+     "Complexity": 9,
+     "Weight": 120,
+     "Health": 2400,
+     "Power": 950,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Deluxe Dorian LD",
+     "Tech Level": 120,
+     "Complexity": 8,
+     "Weight": 94,
+     "Health": 2850,
+     "Power": 620,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "AH-Genus FSN-Y",
+     "Tech Level": 120,
+     "Complexity": 8,
+     "Weight": 53,
+     "Health": 1290,
+     "Power": 330,
+     "Energy Drain": 0
+    }
+   ]
+  },
+  {
+   "index": "I-Comput",
+   "title": "Alien Computer",
+   "file": "I-G3000.txt",
+   "slot": 3000,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Max Complexity",
+    "Weight (kg)",
+    "Energy Drain (kJ)"
+   ],
+   "rows": [
+    {
+     "Item": "Alien Mark III",
+     "Tech Level": 1,
+     "Max Complexity": 25,
+     "Weight (kg)": 0,
+     "Energy Drain (kJ)": 0
+    }
+   ]
+  },
+  {
+   "index": "I-Comput",
+   "title": "All Computers",
+   "file": "I-G3001.txt",
+   "slot": 3001,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Max Complexity",
+    "Weight",
+    "Energy Drain",
+    "XP Bonus"
+   ],
+   "rows": [
+    {
+     "Item": "Orion Mark I",
+     "Tech Level": 2,
+     "Max Complexity": 17,
+     "Weight": 6,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Orion Mark II",
+     "Tech Level": 2,
+     "Max Complexity": 21,
+     "Weight": 10,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Orion Supercomputer",
+     "Tech Level": 2,
+     "Max Complexity": 38,
+     "Weight": 37,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Orion Mark III",
+     "Tech Level": 12,
+     "Max Complexity": 25,
+     "Weight": 15,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Centris Learning Adapter",
+     "Tech Level": 18,
+     "Max Complexity": 27,
+     "Weight": 20,
+     "Energy Drain": 0,
+     "XP Bonus": 4
+    },
+    {
+     "Item": "Orion Neural Network",
+     "Tech Level": 26,
+     "Max Complexity": 31,
+     "Weight": 25,
+     "Energy Drain": 0,
+     "XP Bonus": 2
+    },
+    {
+     "Item": "Orion Parallel Processor",
+     "Tech Level": 35,
+     "Max Complexity": 59,
+     "Weight": 40,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Centris Knowledge Array",
+     "Tech Level": 45,
+     "Max Complexity": 44,
+     "Weight": 35,
+     "Energy Drain": 0,
+     "XP Bonus": 6
+    },
+    {
+     "Item": "Gnossis Machine",
+     "Tech Level": 60,
+     "Max Complexity": 40,
+     "Weight": 20,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Gnossis Parallel Circuit",
+     "Tech Level": 75,
+     "Max Complexity": 33,
+     "Weight": 11,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Gnossis Central Processor",
+     "Tech Level": 90,
+     "Max Complexity": 65,
+     "Weight": 33,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Centris MegaLink",
+     "Tech Level": 105,
+     "Max Complexity": 35,
+     "Weight": 13,
+     "Energy Drain": 0
+    },
+    {
+     "Item": "Centris HyperLink",
+     "Tech Level": 120,
+     "Max Complexity": 42,
+     "Weight": 15,
+     "Energy Drain": 0
+    }
+   ]
+  },
+  {
+   "index": "I-PowerS",
+   "title": "All Power Supplies",
+   "file": "I-G2001.txt",
+   "slot": 2001,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Max Energy",
+    "Energy Drain",
+    "Energy Recharge",
+    "Special",
+    "Space"
+   ],
+   "rows": [
+    {
+     "Item": "Edison Accumulator",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 10,
+     "Max Energy": 6640,
+     "Energy Drain": 0,
+     "Energy Recharge": 330
+    },
+    {
+     "Item": "Methane Reactor",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 14,
+     "Max Energy": 10090,
+     "Energy Drain": 0,
+     "Energy Recharge": 110
+    },
+    {
+     "Item": "Photovoltaic Cell",
+     "Tech Level": 2,
+     "Complexity": 6,
+     "Weight": 12,
+     "Max Energy": 1616,
+     "Energy Drain": 0,
+     "Energy Recharge": 15
+    },
+    {
+     "Item": "Dual Methane Reactor",
+     "Tech Level": 2,
+     "Complexity": 4,
+     "Weight": 18,
+     "Max Energy": 10790,
+     "Energy Drain": 0,
+     "Energy Recharge": 114
+    },
+    {
+     "Item": "Sodium-Sulfur Accumulator",
+     "Tech Level": 10,
+     "Complexity": 4,
+     "Weight": 10,
+     "Max Energy": 6750,
+     "Energy Drain": 0,
+     "Energy Recharge": 363
+    },
+    {
+     "Item": "Advanced Photovoltaic Cell",
+     "Tech Level": 15,
+     "Complexity": 7,
+     "Weight": 14,
+     "Max Energy": 1608,
+     "Energy Drain": 0,
+     "Energy Recharge": 17
+    },
+    {
+     "Item": "Fallout A-1 Reactor",
+     "Tech Level": 20,
+     "Complexity": 8,
+     "Weight": 15,
+     "Max Energy": 5680,
+     "Energy Drain": -4,
+     "Energy Recharge": 5,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "Photovoltaic Matrix",
+     "Tech Level": 25,
+     "Complexity": 6,
+     "Weight": 14,
+     "Max Energy": 1544,
+     "Energy Drain": 0,
+     "Energy Recharge": 18
+    },
+    {
+     "Item": "Lovinac Accumulator",
+     "Tech Level": 30,
+     "Complexity": 4,
+     "Weight": 19,
+     "Max Energy": 8740,
+     "Energy Drain": 0,
+     "Energy Recharge": 297
+    },
+    {
+     "Item": "Advanced Methane Reactor",
+     "Tech Level": 35,
+     "Complexity": 3,
+     "Weight": 16,
+     "Max Energy": 10990,
+     "Energy Drain": 0,
+     "Energy Recharge": 123
+    },
+    {
+     "Item": "Fallout A-4 Reactor",
+     "Tech Level": 40,
+     "Complexity": 8,
+     "Weight": 14,
+     "Max Energy": 5770,
+     "Energy Drain": -5,
+     "Energy Recharge": 5,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "Solar Collectors",
+     "Tech Level": 45,
+     "Complexity": 8,
+     "Weight": 15,
+     "Max Energy": 1488,
+     "Energy Drain": 0,
+     "Energy Recharge": 21
+    },
+    {
+     "Item": "Crowfoot Cell",
+     "Tech Level": 50,
+     "Complexity": 11,
+     "Weight": 11,
+     "Max Energy": 17752,
+     "Energy Drain": 0,
+     "Energy Recharge": 0,
+     "Space": "3 L"
+    },
+    {
+     "Item": "Leclanche Cell",
+     "Tech Level": 50,
+     "Complexity": 11,
+     "Weight": 11,
+     "Max Energy": 12752,
+     "Energy Drain": 0,
+     "Energy Recharge": 0
+    },
+    {
+     "Item": "I-Sodium-Sulfur Accumulator",
+     "Tech Level": 55,
+     "Complexity": 4,
+     "Weight": 10,
+     "Max Energy": 7290,
+     "Energy Drain": 0,
+     "Energy Recharge": 396
+    },
+    {
+     "Item": "Solar Array",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 16,
+     "Max Energy": 1488,
+     "Energy Drain": 0,
+     "Energy Recharge": 23
+    },
+    {
+     "Item": "Gamma Collectors",
+     "Tech Level": 60,
+     "Complexity": 10,
+     "Weight": 10,
+     "Max Energy": 1104,
+     "Energy Drain": 0,
+     "Energy Recharge": 30
+    },
+    {
+     "Item": "Fallout B-5 Reactor",
+     "Tech Level": 60,
+     "Complexity": 9,
+     "Weight": 10,
+     "Max Energy": 5610,
+     "Energy Drain": -6,
+     "Energy Recharge": 5,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "Methane Extractor",
+     "Tech Level": 65,
+     "Complexity": 5,
+     "Weight": 19,
+     "Max Energy": 12060,
+     "Energy Drain": 0,
+     "Energy Recharge": 132
+    },
+    {
+     "Item": "Radial Solar Array",
+     "Tech Level": 70,
+     "Complexity": 7,
+     "Weight": 19,
+     "Max Energy": 1520,
+     "Energy Drain": 0,
+     "Energy Recharge": 24
+    },
+    {
+     "Item": "Lead-acid Accumulator",
+     "Tech Level": 75,
+     "Complexity": 5,
+     "Weight": 16,
+     "Max Energy": 8960,
+     "Energy Drain": 0,
+     "Energy Recharge": 314
+    },
+    {
+     "Item": "Gamma Array",
+     "Tech Level": 80,
+     "Complexity": 11,
+     "Weight": 11,
+     "Max Energy": 648,
+     "Energy Drain": 0,
+     "Energy Recharge": 35
+    },
+    {
+     "Item": "Dual Methane Extractor",
+     "Tech Level": 85,
+     "Complexity": 5,
+     "Weight": 24,
+     "Max Energy": 13250,
+     "Energy Drain": 0,
+     "Energy Recharge": 141
+    },
+    {
+     "Item": "Solar Cluster",
+     "Tech Level": 90,
+     "Complexity": 8,
+     "Weight": 14,
+     "Max Energy": 1384,
+     "Energy Drain": 0,
+     "Energy Recharge": 27
+    },
+    {
+     "Item": "Fallout C-8 Reactor",
+     "Tech Level": 95,
+     "Complexity": 10,
+     "Weight": 17,
+     "Max Energy": 6590,
+     "Energy Drain": -7,
+     "Energy Recharge": 5,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "Gamma Cluster",
+     "Tech Level": 100,
+     "Complexity": 12,
+     "Weight": 12,
+     "Max Energy": 640,
+     "Energy Drain": 0,
+     "Energy Recharge": 39
+    },
+    {
+     "Item": "Daniell Cell",
+     "Tech Level": 105,
+     "Complexity": 12,
+     "Weight": 12,
+     "Max Energy": 13880,
+     "Energy Drain": 0,
+     "Energy Recharge": 0
+    },
+    {
+     "Item": "Gravity Cell",
+     "Tech Level": 105,
+     "Complexity": 12,
+     "Weight": 12,
+     "Max Energy": 18880,
+     "Energy Drain": 0,
+     "Energy Recharge": 0,
+     "Space": "3 L"
+    },
+    {
+     "Item": "Methane Refiner",
+     "Tech Level": 110,
+     "Complexity": 4,
+     "Weight": 22,
+     "Max Energy": 13310,
+     "Energy Drain": 0,
+     "Energy Recharge": 141
+    },
+    {
+     "Item": "I-Lovinac Accumulator",
+     "Tech Level": 115,
+     "Complexity": 6,
+     "Weight": 20,
+     "Max Energy": 10020,
+     "Energy Drain": 0,
+     "Energy Recharge": 330
+    },
+    {
+     "Item": "Radial Gamma Cluster",
+     "Tech Level": 120,
+     "Complexity": 12,
+     "Weight": 13,
+     "Max Energy": 632,
+     "Energy Drain": 0,
+     "Energy Recharge": 44
+    },
+    {
+     "Item": "Fallout C-10 Reactor",
+     "Tech Level": 120,
+     "Complexity": 10,
+     "Weight": 13,
+     "Max Energy": 6450,
+     "Energy Drain": -8,
+     "Energy Recharge": 5,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "H-Edison Accumulator",
+     "Tech Level": 3,
+     "Complexity": 4,
+     "Weight": 20,
+     "Max Energy": 7880,
+     "Energy Drain": 0,
+     "Energy Recharge": 432
+    },
+    {
+     "Item": "H-Methane Reactor",
+     "Tech Level": 3,
+     "Complexity": 4,
+     "Weight": 28,
+     "Max Energy": 12520,
+     "Energy Drain": 0,
+     "Energy Recharge": 146
+    },
+    {
+     "Item": "H-Photovoltaic Cell",
+     "Tech Level": 3,
+     "Complexity": 8,
+     "Weight": 22,
+     "Max Energy": 1832,
+     "Energy Drain": 0,
+     "Energy Recharge": 20
+    },
+    {
+     "Item": "H-Dual Methane Reactor",
+     "Tech Level": 3,
+     "Complexity": 6,
+     "Weight": 44,
+     "Max Energy": 15300,
+     "Energy Drain": 0,
+     "Energy Recharge": 164
+    },
+    {
+     "Item": "H-Sodium-Sulfur Accumulator",
+     "Tech Level": 11,
+     "Complexity": 6,
+     "Weight": 24,
+     "Max Energy": 8500,
+     "Energy Drain": 0,
+     "Energy Recharge": 515
+    },
+    {
+     "Item": "H-Advanced Photovoltaic Cell",
+     "Tech Level": 16,
+     "Complexity": 11,
+     "Weight": 32,
+     "Max Energy": 2000,
+     "Energy Drain": 0,
+     "Energy Recharge": 23
+    },
+    {
+     "Item": "H-Fallout A-1 Reactor",
+     "Tech Level": 21,
+     "Complexity": 11,
+     "Weight": 28,
+     "Max Energy": 6950,
+     "Energy Drain": -5,
+     "Energy Recharge": 6,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "H-Photovoltaic Matrix",
+     "Tech Level": 26,
+     "Complexity": 9,
+     "Weight": 33,
+     "Max Energy": 1944,
+     "Energy Drain": 0,
+     "Energy Recharge": 26
+    },
+    {
+     "Item": "H-Lovinac Accumulator",
+     "Tech Level": 31,
+     "Complexity": 6,
+     "Weight": 47,
+     "Max Energy": 12450,
+     "Energy Drain": 0,
+     "Energy Recharge": 428
+    },
+    {
+     "Item": "H-Advanced Methane Reactor",
+     "Tech Level": 36,
+     "Complexity": 5,
+     "Weight": 40,
+     "Max Energy": 15150,
+     "Energy Drain": 0,
+     "Energy Recharge": 178
+    },
+    {
+     "Item": "H-Fallout A-4 Reactor",
+     "Tech Level": 41,
+     "Complexity": 13,
+     "Weight": 35,
+     "Max Energy": 7830,
+     "Energy Drain": -7,
+     "Energy Recharge": 7,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "H-Solar Collectors",
+     "Tech Level": 46,
+     "Complexity": 12,
+     "Weight": 31,
+     "Max Energy": 1840,
+     "Energy Drain": 0,
+     "Energy Recharge": 29
+    },
+    {
+     "Item": "H-Crowfoot Cell",
+     "Tech Level": 51,
+     "Complexity": 16,
+     "Weight": 23,
+     "Max Energy": 20664,
+     "Energy Drain": 0,
+     "Energy Recharge": 0,
+     "Space": "3 L"
+    },
+    {
+     "Item": "H-Leclanche Cell",
+     "Tech Level": 51,
+     "Complexity": 16,
+     "Weight": 23,
+     "Max Energy": 14664,
+     "Energy Drain": 0,
+     "Energy Recharge": 0
+    },
+    {
+     "Item": "H-I-Sodium-Sulfur Accumulator",
+     "Tech Level": 56,
+     "Complexity": 6,
+     "Weight": 20,
+     "Max Energy": 8560,
+     "Energy Drain": 0,
+     "Energy Recharge": 524
+    },
+    {
+     "Item": "H-Solar Array",
+     "Tech Level": 61,
+     "Complexity": 9,
+     "Weight": 36,
+     "Max Energy": 1904,
+     "Energy Drain": 0,
+     "Energy Recharge": 32
+    },
+    {
+     "Item": "H-Gamma Collectors",
+     "Tech Level": 61,
+     "Complexity": 16,
+     "Weight": 25,
+     "Max Energy": 1456,
+     "Energy Drain": 0,
+     "Energy Recharge": 44
+    },
+    {
+     "Item": "H-Fallout B-5 Reactor",
+     "Tech Level": 61,
+     "Complexity": 12,
+     "Weight": 18,
+     "Max Energy": 6440,
+     "Energy Drain": -8,
+     "Energy Recharge": 6,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "H-Methane Extractor",
+     "Tech Level": 66,
+     "Complexity": 8,
+     "Weight": 47,
+     "Max Energy": 16960,
+     "Energy Drain": 0,
+     "Energy Recharge": 190
+    },
+    {
+     "Item": "H-Radial Solar Array",
+     "Tech Level": 71,
+     "Complexity": 9,
+     "Weight": 35,
+     "Max Energy": 1856,
+     "Energy Drain": 0,
+     "Energy Recharge": 30
+    },
+    {
+     "Item": "H-Lead-acid Accumulator",
+     "Tech Level": 76,
+     "Complexity": 7,
+     "Weight": 31,
+     "Max Energy": 10990,
+     "Energy Drain": 0,
+     "Energy Recharge": 410
+    },
+    {
+     "Item": "H-Gamma Array",
+     "Tech Level": 81,
+     "Complexity": 17,
+     "Weight": 27,
+     "Max Energy": 872,
+     "Energy Drain": 0,
+     "Energy Recharge": 50
+    },
+    {
+     "Item": "H-Dual Methane Extractor",
+     "Tech Level": 86,
+     "Complexity": 8,
+     "Weight": 55,
+     "Max Energy": 18660,
+     "Energy Drain": 0,
+     "Energy Recharge": 196
+    },
+    {
+     "Item": "H-Solar Cluster",
+     "Tech Level": 91,
+     "Complexity": 12,
+     "Weight": 34,
+     "Max Energy": 1816,
+     "Energy Drain": 0,
+     "Energy Recharge": 39
+    },
+    {
+     "Item": "H-Fallout C-8 Reactor",
+     "Tech Level": 96,
+     "Complexity": 14,
+     "Weight": 34,
+     "Max Energy": 8280,
+     "Energy Drain": -9,
+     "Energy Recharge": 7,
+     "Special": "Self Destruct"
+    },
+    {
+     "Item": "H-Gamma Cluster",
+     "Tech Level": 101,
+     "Complexity": 18,
+     "Weight": 27,
+     "Max Energy": 856,
+     "Energy Drain": 0,
+     "Energy Recharge": 54
+    },
+    {
+     "Item": "H-Daniell Cell",
+     "Tech Level": 106,
+     "Complexity": 16,
+     "Weight": 21,
+     "Max Energy": 15112,
+     "Energy Drain": 0,
+     "Energy Recharge": 0
+    },
+    {
+     "Item": "H-Gravity Cell",
+     "Tech Level": 106,
+     "Complexity": 16,
+     "Weight": 21,
+     "Max Energy": 21112,
+     "Energy Drain": 0,
+     "Energy Recharge": 0,
+     "Space": "3 L"
+    },
+    {
+     "Item": "H-Methane Refiner",
+     "Tech Level": 111,
+     "Complexity": 6,
+     "Weight": 42,
+     "Max Energy": 16800,
+     "Energy Drain": 0,
+     "Energy Recharge": 182
+    },
+    {
+     "Item": "H-I-Lovinac Accumulator",
+     "Tech Level": 116,
+     "Complexity": 9,
+     "Weight": 50,
+     "Max Energy": 14050,
+     "Energy Drain": 0,
+     "Energy Recharge": 474
+    },
+    {
+     "Item": "H-Radial Gamma Cluster",
+     "Tech Level": 120,
+     "Complexity": 18,
+     "Weight": 28,
+     "Max Energy": 848,
+     "Energy Drain": 0,
+     "Energy Recharge": 59
+    },
+    {
+     "Item": "H-Fallout C-10 Reactor",
+     "Tech Level": 120,
+     "Complexity": 14,
+     "Weight": 27,
+     "Max Energy": 7850,
+     "Energy Drain": -11,
+     "Energy Recharge": 7,
+     "Special": "Self Destruct"
+    }
+   ]
+  },
+  {
+   "index": "I-PowerS",
+   "title": "Volte Power Supplies",
+   "file": "I-G2055.txt",
+   "slot": 2055,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Max Energy",
+    "Energy Drain",
+    "Energy Recharge"
+   ],
+   "rows": [
+    {
+     "Item": "Galvatron",
+     "Tech Level": 2,
+     "Complexity": 4,
+     "Weight": 10,
+     "Max Energy": 2000,
+     "Energy Drain": 0,
+     "Energy Recharge": 50
+    }
+   ]
+  },
+  {
+   "index": "I-PowerS",
+   "title": "Virus Power Supplies",
+   "file": "I-G2077.txt",
+   "slot": 2077,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Max Energy",
+    "Energy Drain",
+    "Energy Recharge"
+   ],
+   "rows": [
+    {
+     "Item": "Surge Battery",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 10,
+     "Max Energy": 10000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "Surge Accumulator",
+     "Tech Level": 60,
+     "Complexity": 3,
+     "Weight": 10,
+     "Max Energy": 12000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "Surge Methane",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 10,
+     "Max Energy": 10000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "Surge Extractor",
+     "Tech Level": 60,
+     "Complexity": 3,
+     "Weight": 10,
+     "Max Energy": 12000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "Ultimate Surge Bat",
+     "Tech Level": 80,
+     "Complexity": 3,
+     "Weight": 10,
+     "Max Energy": 15000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "Ultimate Surge Meth",
+     "Tech Level": 80,
+     "Complexity": 3,
+     "Weight": 10,
+     "Max Energy": 15000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "H-Surge Battery",
+     "Tech Level": 4,
+     "Complexity": 5,
+     "Weight": 24,
+     "Max Energy": 14000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "H-Surge Accumulator",
+     "Tech Level": 62,
+     "Complexity": 5,
+     "Weight": 25,
+     "Max Energy": 16000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "H-Surge Methane",
+     "Tech Level": 4,
+     "Complexity": 5,
+     "Weight": 23,
+     "Max Energy": 14000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    },
+    {
+     "Item": "H-Surge Extractor",
+     "Tech Level": 62,
+     "Complexity": 4,
+     "Weight": 19,
+     "Max Energy": 16000,
+     "Energy Drain": 0,
+     "Energy Recharge": 4000
+    }
+   ]
+  },
+  {
+   "index": "I-AInf",
+   "title": "Infantry Armor",
+   "file": "I-G5001.txt",
+   "slot": 5001,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Health",
+    "Armor"
+   ],
+   "rows": [
+    {
+     "Item": "H-Kevlar Ultimate",
+     "Tech Level": 46,
+     "Complexity": 0,
+     "Weight": 55,
+     "Space": 25,
+     "Health": 1680,
+     "Armor": 96
+    },
+    {
+     "Item": "H-Hybrid Minimal",
+     "Tech Level": 61,
+     "Complexity": 0,
+     "Weight": 24,
+     "Space": 9,
+     "Health": 2670,
+     "Armor": 35
+    },
+    {
+     "Item": "H-Hybrid Light",
+     "Tech Level": 71,
+     "Complexity": 0,
+     "Weight": 30,
+     "Space": 14,
+     "Health": 3090,
+     "Armor": 48
+    },
+    {
+     "Item": "H-Hybrid Standard",
+     "Tech Level": 79,
+     "Complexity": 0,
+     "Weight": 36,
+     "Space": 18,
+     "Health": 3600,
+     "Armor": 57
+    },
+    {
+     "Item": "H-Hybrid Heavy",
+     "Tech Level": 87,
+     "Complexity": 0,
+     "Weight": 51,
+     "Space": 23,
+     "Health": 4980,
+     "Armor": 54
+    },
+    {
+     "Item": "H-Hybrid Ultimate",
+     "Tech Level": 95,
+     "Complexity": 0,
+     "Weight": 63,
+     "Space": 25,
+     "Health": 5430,
+     "Armor": 63
+    },
+    {
+     "Item": "H-Morganan Minimal",
+     "Tech Level": 101,
+     "Complexity": 0,
+     "Weight": 23,
+     "Space": 13,
+     "Health": 3210,
+     "Armor": 56
+    },
+    {
+     "Item": "H-Morganan Light",
+     "Tech Level": 111,
+     "Complexity": 0,
+     "Weight": 32,
+     "Space": 19,
+     "Health": 4260,
+     "Armor": 66
+    },
+    {
+     "Item": "H-Morganan Standard",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 42,
+     "Space": 24,
+     "Health": 5100,
+     "Armor": 72
+    },
+    {
+     "Item": "L-Ablative Minimal",
+     "Tech Level": 4,
+     "Complexity": 0,
+     "Weight": 10,
+     "Space": 2,
+     "Health": 90,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Kevlar Minimal",
+     "Tech Level": 4,
+     "Complexity": 0,
+     "Weight": 8,
+     "Space": 6,
+     "Health": 0,
+     "Armor": 3
+    },
+    {
+     "Item": "L-Ablative Light",
+     "Tech Level": 12,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 2,
+     "Health": 150,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Kevlar Light",
+     "Tech Level": 17,
+     "Complexity": 0,
+     "Weight": 9,
+     "Space": 7,
+     "Health": 0,
+     "Armor": 8
+    },
+    {
+     "Item": "L-Ablative Standard",
+     "Tech Level": 22,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 6,
+     "Health": 240,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Kevlar Standard",
+     "Tech Level": 27,
+     "Complexity": 0,
+     "Weight": 10,
+     "Space": 10,
+     "Health": 0,
+     "Armor": 12
+    },
+    {
+     "Item": "L-Ablative Heavy",
+     "Tech Level": 32,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 8,
+     "Health": 450,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Kevlar Heavy",
+     "Tech Level": 37,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 13,
+     "Health": 0,
+     "Armor": 17
+    },
+    {
+     "Item": "L-Ablative Ultimate",
+     "Tech Level": 47,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 10,
+     "Health": 1680,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Kevlar Ultimate",
+     "Tech Level": 47,
+     "Complexity": 0,
+     "Weight": 17,
+     "Space": 19,
+     "Health": 0,
+     "Armor": 48
+    },
+    {
+     "Item": "L-Hybrid Minimal",
+     "Tech Level": 62,
+     "Complexity": 0,
+     "Weight": 8,
+     "Space": 6,
+     "Health": 150,
+     "Armor": 6
+    },
+    {
+     "Item": "L-Hybrid Light",
+     "Tech Level": 72,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 10,
+     "Health": 330,
+     "Armor": 15
+    },
+    {
+     "Item": "L-Hybrid Standard",
+     "Tech Level": 80,
+     "Complexity": 0,
+     "Weight": 12,
+     "Space": 13,
+     "Health": 960,
+     "Armor": 23
+    },
+    {
+     "Item": "L-Hybrid Heavy",
+     "Tech Level": 88,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 16,
+     "Health": 2190,
+     "Armor": 36
+    },
+    {
+     "Item": "L-Hybrid Ultimate",
+     "Tech Level": 96,
+     "Complexity": 0,
+     "Weight": 18,
+     "Space": 18,
+     "Health": 2760,
+     "Armor": 42
+    },
+    {
+     "Item": "L-Morganan Minimal",
+     "Tech Level": 102,
+     "Complexity": 0,
+     "Weight": 8,
+     "Space": 9,
+     "Health": 300,
+     "Armor": 12
+    },
+    {
+     "Item": "L-Morganan Light",
+     "Tech Level": 112,
+     "Complexity": 0,
+     "Weight": 10,
+     "Space": 14,
+     "Health": 540,
+     "Armor": 36
+    },
+    {
+     "Item": "L-Morganan Standard",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 17,
+     "Health": 1590,
+     "Armor": 56
+    },
+    {
+     "Item": "Ablative Minimal",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 17,
+     "Space": 2,
+     "Health": 360,
+     "Armor": 0
+    },
+    {
+     "Item": "Kevlar Minimal",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 7,
+     "Health": 0,
+     "Armor": 6
+    },
+    {
+     "Item": "Ablative Light",
+     "Tech Level": 10,
+     "Complexity": 0,
+     "Weight": 18,
+     "Space": 3,
+     "Health": 660,
+     "Armor": 0
+    },
+    {
+     "Item": "Kevlar Light",
+     "Tech Level": 15,
+     "Complexity": 0,
+     "Weight": 18,
+     "Space": 9,
+     "Health": 420,
+     "Armor": 20
+    },
+    {
+     "Item": "Ablative Standard",
+     "Tech Level": 20,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 7,
+     "Health": 1320,
+     "Armor": 0
+    },
+    {
+     "Item": "Kevlar Standard",
+     "Tech Level": 25,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 12,
+     "Health": 540,
+     "Armor": 30
+    },
+    {
+     "Item": "Ablative Heavy",
+     "Tech Level": 30,
+     "Complexity": 0,
+     "Weight": 22,
+     "Space": 10,
+     "Health": 2250,
+     "Armor": 0
+    },
+    {
+     "Item": "Kevlar Heavy",
+     "Tech Level": 35,
+     "Complexity": 0,
+     "Weight": 23,
+     "Space": 16,
+     "Health": 600,
+     "Armor": 50
+    },
+    {
+     "Item": "Ablative Ultimate",
+     "Tech Level": 45,
+     "Complexity": 0,
+     "Weight": 25,
+     "Space": 13,
+     "Health": 3330,
+     "Armor": 0
+    },
+    {
+     "Item": "Kevlar Ultimate",
+     "Tech Level": 45,
+     "Complexity": 0,
+     "Weight": 26,
+     "Space": 24,
+     "Health": 600,
+     "Armor": 71
+    },
+    {
+     "Item": "Hybrid Minimal",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight": 14,
+     "Space": 8,
+     "Health": 1350,
+     "Armor": 18
+    },
+    {
+     "Item": "Hybrid Light",
+     "Tech Level": 70,
+     "Complexity": 0,
+     "Weight": 15,
+     "Space": 12,
+     "Health": 1710,
+     "Armor": 26
+    },
+    {
+     "Item": "Hybrid Standard",
+     "Tech Level": 78,
+     "Complexity": 0,
+     "Weight": 17,
+     "Space": 16,
+     "Health": 2070,
+     "Armor": 36
+    },
+    {
+     "Item": "Hybrid Heavy",
+     "Tech Level": 86,
+     "Complexity": 0,
+     "Weight": 23,
+     "Space": 20,
+     "Health": 3390,
+     "Armor": 39
+    },
+    {
+     "Item": "Hybrid Ultimate",
+     "Tech Level": 94,
+     "Complexity": 0,
+     "Weight": 25,
+     "Space": 22,
+     "Health": 3600,
+     "Armor": 47
+    },
+    {
+     "Item": "Morganan Minimal",
+     "Tech Level": 100,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 11,
+     "Health": 1500,
+     "Armor": 39
+    },
+    {
+     "Item": "Morganan Light",
+     "Tech Level": 110,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 17,
+     "Health": 2310,
+     "Armor": 53
+    },
+    {
+     "Item": "Morganan Standard",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 21,
+     "Health": 2820,
+     "Armor": 66
+    },
+    {
+     "Item": "H-Ablative Minimal",
+     "Tech Level": 3,
+     "Complexity": 0,
+     "Weight": 31,
+     "Space": 3,
+     "Health": 2250,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Kevlar Minimal",
+     "Tech Level": 3,
+     "Complexity": 0,
+     "Weight": 28,
+     "Space": 8,
+     "Health": 210,
+     "Armor": 44
+    },
+    {
+     "Item": "H-Ablative Light",
+     "Tech Level": 11,
+     "Complexity": 0,
+     "Weight": 34,
+     "Space": 4,
+     "Health": 2820,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Kevlar Light",
+     "Tech Level": 16,
+     "Complexity": 0,
+     "Weight": 33,
+     "Space": 10,
+     "Health": 510,
+     "Armor": 60
+    },
+    {
+     "Item": "H-Ablative Standard",
+     "Tech Level": 21,
+     "Complexity": 0,
+     "Weight": 38,
+     "Space": 8,
+     "Health": 3510,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Kevlar Standard",
+     "Tech Level": 26,
+     "Complexity": 0,
+     "Weight": 37,
+     "Space": 14,
+     "Health": 780,
+     "Armor": 71
+    },
+    {
+     "Item": "H-Ablative Heavy",
+     "Tech Level": 31,
+     "Complexity": 0,
+     "Weight": 39,
+     "Space": 12,
+     "Health": 4020,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Kevlar Heavy",
+     "Tech Level": 36,
+     "Complexity": 0,
+     "Weight": 42,
+     "Space": 18,
+     "Health": 1110,
+     "Armor": 81
+    },
+    {
+     "Item": "H-Ablative Ultimate",
+     "Tech Level": 46,
+     "Complexity": 0,
+     "Weight": 47,
+     "Space": 15,
+     "Health": 5190,
+     "Armor": 0
+    }
+   ]
+  },
+  {
+   "index": "I-AInf",
+   "title": "Super Armors",
+   "file": "I-G5501.txt",
+   "slot": 5501,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Health",
+    "Armor"
+   ],
+   "rows": [
+    {
+     "Item": "Minimal Derma",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 17,
+     "Space": 2,
+     "Health": 855,
+     "Armor": 0
+    },
+    {
+     "Item": "Minimal Sheathing",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 7,
+     "Health": 210,
+     "Armor": 18
+    },
+    {
+     "Item": "Light Derma",
+     "Tech Level": 10,
+     "Complexity": 0,
+     "Weight": 18,
+     "Space": 3,
+     "Health": 1380,
+     "Armor": 0
+    },
+    {
+     "Item": "Light Sheathing",
+     "Tech Level": 15,
+     "Complexity": 0,
+     "Weight": 18,
+     "Space": 9,
+     "Health": 630,
+     "Armor": 30
+    },
+    {
+     "Item": "Standard Derma",
+     "Tech Level": 20,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 7,
+     "Health": 2160,
+     "Armor": 0
+    },
+    {
+     "Item": "Standard Sheathing",
+     "Tech Level": 25,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 12,
+     "Health": 750,
+     "Armor": 42
+    },
+    {
+     "Item": "Heavy Derma",
+     "Tech Level": 30,
+     "Complexity": 0,
+     "Weight": 22,
+     "Space": 10,
+     "Health": 3060,
+     "Armor": 0
+    },
+    {
+     "Item": "Heavy Sheathing",
+     "Tech Level": 35,
+     "Complexity": 0,
+     "Weight": 23,
+     "Space": 16,
+     "Health": 1290,
+     "Armor": 54
+    },
+    {
+     "Item": "Ultimate Derma",
+     "Tech Level": 45,
+     "Complexity": 0,
+     "Weight": 25,
+     "Space": 13,
+     "Health": 4245,
+     "Armor": 0
+    },
+    {
+     "Item": "Ultimate Sheathing",
+     "Tech Level": 45,
+     "Complexity": 0,
+     "Weight": 26,
+     "Space": 24,
+     "Health": 1050,
+     "Armor": 81
+    },
+    {
+     "Item": "Minimal Husk",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight": 14,
+     "Space": 8,
+     "Health": 1800,
+     "Armor": 27
+    },
+    {
+     "Item": "Light Husk",
+     "Tech Level": 70,
+     "Complexity": 0,
+     "Weight": 15,
+     "Space": 12,
+     "Health": 2160,
+     "Armor": 36
+    },
+    {
+     "Item": "Standard Husk",
+     "Tech Level": 78,
+     "Complexity": 0,
+     "Weight": 17,
+     "Space": 16,
+     "Health": 2445,
+     "Armor": 48
+    },
+    {
+     "Item": "Heavy Husk",
+     "Tech Level": 86,
+     "Complexity": 0,
+     "Weight": 23,
+     "Space": 20,
+     "Health": 4590,
+     "Armor": 36
+    },
+    {
+     "Item": "Ultimate Husk",
+     "Tech Level": 94,
+     "Complexity": 0,
+     "Weight": 25,
+     "Space": 22,
+     "Health": 4740,
+     "Armor": 48
+    },
+    {
+     "Item": "Grafted Minimum",
+     "Tech Level": 100,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 11,
+     "Health": 2520,
+     "Armor": 45
+    },
+    {
+     "Item": "Grafted Standard",
+     "Tech Level": 110,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 17,
+     "Health": 3060,
+     "Armor": 66
+    },
+    {
+     "Item": "Grafted Ultimate",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 21,
+     "Health": 4500,
+     "Armor": 63
+    },
+    {
+     "Item": "H-Minimal Derma",
+     "Tech Level": 3,
+     "Complexity": 0,
+     "Weight": 31,
+     "Space": 3,
+     "Health": 3000,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Minimal Sheathing",
+     "Tech Level": 3,
+     "Complexity": 0,
+     "Weight": 28,
+     "Space": 8,
+     "Health": 480,
+     "Armor": 54
+    },
+    {
+     "Item": "H-Light Derma",
+     "Tech Level": 11,
+     "Complexity": 0,
+     "Weight": 34,
+     "Space": 4,
+     "Health": 3600,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Light Sheathing",
+     "Tech Level": 16,
+     "Complexity": 0,
+     "Weight": 33,
+     "Space": 10,
+     "Health": 900,
+     "Armor": 69
+    },
+    {
+     "Item": "H-Standard Derma",
+     "Tech Level": 21,
+     "Complexity": 0,
+     "Weight": 38,
+     "Space": 8,
+     "Health": 4350,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Standard Sheathing",
+     "Tech Level": 26,
+     "Complexity": 0,
+     "Weight": 37,
+     "Space": 14,
+     "Health": 1305,
+     "Armor": 78
+    },
+    {
+     "Item": "H-Heavy Derma",
+     "Tech Level": 31,
+     "Complexity": 0,
+     "Weight": 39,
+     "Space": 12,
+     "Health": 4875,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Heavy Sheathing",
+     "Tech Level": 36,
+     "Complexity": 0,
+     "Weight": 42,
+     "Space": 18,
+     "Health": 1455,
+     "Armor": 90
+    },
+    {
+     "Item": "H-Ultimate Derma",
+     "Tech Level": 46,
+     "Complexity": 0,
+     "Weight": 47,
+     "Space": 15,
+     "Health": 6075,
+     "Armor": 0
+    },
+    {
+     "Item": "H-Ultimate Sheathing",
+     "Tech Level": 46,
+     "Complexity": 0,
+     "Weight": 55,
+     "Space": 27,
+     "Health": 1410,
+     "Armor": 108
+    },
+    {
+     "Item": "H-Minimal Husk",
+     "Tech Level": 61,
+     "Complexity": 0,
+     "Weight": 24,
+     "Space": 9,
+     "Health": 2985,
+     "Armor": 48
+    },
+    {
+     "Item": "H-Light Husk",
+     "Tech Level": 71,
+     "Complexity": 0,
+     "Weight": 30,
+     "Space": 14,
+     "Health": 3450,
+     "Armor": 63
+    },
+    {
+     "Item": "H-Standard Husk",
+     "Tech Level": 79,
+     "Complexity": 0,
+     "Weight": 36,
+     "Space": 18,
+     "Health": 4200,
+     "Armor": 66
+    },
+    {
+     "Item": "H-Heavy Husk",
+     "Tech Level": 87,
+     "Complexity": 0,
+     "Weight": 51,
+     "Space": 23,
+     "Health": 5280,
+     "Armor": 72
+    },
+    {
+     "Item": "H-Ultimate Husk",
+     "Tech Level": 95,
+     "Complexity": 0,
+     "Weight": 63,
+     "Space": 25,
+     "Health": 5715,
+     "Armor": 84
+    },
+    {
+     "Item": "H-Grafted Minimum",
+     "Tech Level": 101,
+     "Complexity": 0,
+     "Weight": 23,
+     "Space": 13,
+     "Health": 3795,
+     "Armor": 72
+    },
+    {
+     "Item": "H-Grafted Standard",
+     "Tech Level": 111,
+     "Complexity": 0,
+     "Weight": 32,
+     "Space": 19,
+     "Health": 5025,
+     "Armor": 81
+    },
+    {
+     "Item": "H-Grafted Ultimate",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 42,
+     "Space": 24,
+     "Health": 5715,
+     "Armor": 87
+    },
+    {
+     "Item": "L-Minimal Derma",
+     "Tech Level": 4,
+     "Complexity": 0,
+     "Weight": 10,
+     "Space": 2,
+     "Health": 315,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Minimal Sheathing",
+     "Tech Level": 4,
+     "Complexity": 0,
+     "Weight": 8,
+     "Space": 6,
+     "Health": 0,
+     "Armor": 9
+    },
+    {
+     "Item": "L-Light Derma",
+     "Tech Level": 12,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 2,
+     "Health": 510,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Light Sheathing",
+     "Tech Level": 17,
+     "Complexity": 0,
+     "Weight": 9,
+     "Space": 7,
+     "Health": 0,
+     "Armor": 24
+    },
+    {
+     "Item": "L-Standard Derma",
+     "Tech Level": 22,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 6,
+     "Health": 1050,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Standard Sheathing",
+     "Tech Level": 27,
+     "Complexity": 0,
+     "Weight": 10,
+     "Space": 10,
+     "Health": 0,
+     "Armor": 33
+    },
+    {
+     "Item": "L-Heavy Derma",
+     "Tech Level": 32,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 8,
+     "Health": 1455,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Heavy Sheathing",
+     "Tech Level": 37,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 13,
+     "Health": 0,
+     "Armor": 42
+    },
+    {
+     "Item": "L-Ultimate Derma",
+     "Tech Level": 47,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 10,
+     "Health": 2235,
+     "Armor": 0
+    },
+    {
+     "Item": "L-Ultimate Sheathing",
+     "Tech Level": 47,
+     "Complexity": 0,
+     "Weight": 17,
+     "Space": 19,
+     "Health": 315,
+     "Armor": 57
+    },
+    {
+     "Item": "L-Minimal Husk",
+     "Tech Level": 62,
+     "Complexity": 0,
+     "Weight": 8,
+     "Space": 6,
+     "Health": 375,
+     "Armor": 24
+    },
+    {
+     "Item": "L-Light Husk",
+     "Tech Level": 72,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 10,
+     "Health": 675,
+     "Armor": 33
+    },
+    {
+     "Item": "L-Standard Husk",
+     "Tech Level": 80,
+     "Complexity": 0,
+     "Weight": 12,
+     "Space": 13,
+     "Health": 1350,
+     "Armor": 45
+    },
+    {
+     "Item": "L-Heavy Husk",
+     "Tech Level": 88,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 16,
+     "Health": 3300,
+     "Armor": 33
+    },
+    {
+     "Item": "L-Ultimate Husk",
+     "Tech Level": 96,
+     "Complexity": 0,
+     "Weight": 18,
+     "Space": 18,
+     "Health": 2970,
+     "Armor": 48
+    },
+    {
+     "Item": "L-Grafted Minimum",
+     "Tech Level": 102,
+     "Complexity": 0,
+     "Weight": 8,
+     "Space": 9,
+     "Health": 435,
+     "Armor": 30
+    },
+    {
+     "Item": "L-Grafted Standard",
+     "Tech Level": 112,
+     "Complexity": 0,
+     "Weight": 10,
+     "Space": 14,
+     "Health": 1335,
+     "Armor": 51
+    },
+    {
+     "Item": "L-Grafted Ultimate",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 17,
+     "Health": 2625,
+     "Armor": 57
+    }
+   ]
+  },
+  {
+   "index": "I-AMech",
+   "title": "Mobile Armor",
+   "file": "I-G5101.txt",
+   "slot": 5101,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Health",
+    "Armor",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Reinforced Steel",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 21,
+     "Space": 6,
+     "Health": 90,
+     "Armor": 14
+    },
+    {
+     "Item": "Moly Steel",
+     "Tech Level": 10,
+     "Complexity": 0,
+     "Weight": 20,
+     "Space": 7,
+     "Health": 120,
+     "Armor": 15
+    },
+    {
+     "Item": "Zirconium",
+     "Tech Level": 18,
+     "Complexity": 0,
+     "Weight": 22,
+     "Space": 8,
+     "Health": 450,
+     "Armor": 24
+    },
+    {
+     "Item": "Impervious Steel",
+     "Tech Level": 26,
+     "Complexity": 0,
+     "Weight": 28,
+     "Space": 12,
+     "Health": 1710,
+     "Armor": 24
+    },
+    {
+     "Item": "Iridium Steel",
+     "Tech Level": 34,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 10,
+     "Health": 240,
+     "Armor": 24
+    },
+    {
+     "Item": "Vanadium Steel",
+     "Tech Level": 42,
+     "Complexity": 0,
+     "Weight": 26,
+     "Space": 15,
+     "Health": 750,
+     "Armor": 50
+    },
+    {
+     "Item": "Titanium Steel",
+     "Tech Level": 50,
+     "Complexity": 0,
+     "Weight": 22,
+     "Space": 9,
+     "Health": 480,
+     "Armor": 45
+    },
+    {
+     "Item": "Tungsten Steel",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight": 30,
+     "Space": 18,
+     "Health": 1710,
+     "Armor": 57
+    },
+    {
+     "Item": "Phasic Plating",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight": 25,
+     "Space": 14,
+     "Health": 1170,
+     "Armor": 30,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "Tantalum Carbide",
+     "Tech Level": 70,
+     "Complexity": 0,
+     "Weight": 26,
+     "Space": 22,
+     "Health": 1200,
+     "Armor": 69
+    },
+    {
+     "Item": "Kritskonium Shell",
+     "Tech Level": 80,
+     "Complexity": 0,
+     "Weight": 20,
+     "Space": 24,
+     "Health": 1080,
+     "Armor": 75
+    },
+    {
+     "Item": "Tyraloid Plate",
+     "Tech Level": 90,
+     "Complexity": 0,
+     "Weight": 32,
+     "Space": 11,
+     "Health": 2250,
+     "Armor": 74
+    },
+    {
+     "Item": "Lyssaic Plating",
+     "Tech Level": 100,
+     "Complexity": 0,
+     "Weight": 26,
+     "Space": 26,
+     "Health": 2100,
+     "Armor": 96
+    },
+    {
+     "Item": "Haltyrium Sheet",
+     "Tech Level": 110,
+     "Complexity": 0,
+     "Weight": 29,
+     "Space": 17,
+     "Health": 2910,
+     "Armor": 75
+    },
+    {
+     "Item": "Podaictantalum Sheet",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 27,
+     "Space": 15,
+     "Health": 2640,
+     "Armor": 84
+    },
+    {
+     "Item": "H-Reinforced Steel",
+     "Tech Level": 3,
+     "Complexity": 0,
+     "Weight": 50,
+     "Space": 7,
+     "Health": 2400,
+     "Armor": 24
+    },
+    {
+     "Item": "H-Moly Steel",
+     "Tech Level": 11,
+     "Complexity": 0,
+     "Weight": 38,
+     "Space": 8,
+     "Health": 810,
+     "Armor": 44
+    },
+    {
+     "Item": "H-Zirconium",
+     "Tech Level": 19,
+     "Complexity": 0,
+     "Weight": 53,
+     "Space": 9,
+     "Health": 1230,
+     "Armor": 63
+    },
+    {
+     "Item": "H-Impervious Steel",
+     "Tech Level": 27,
+     "Complexity": 0,
+     "Weight": 62,
+     "Space": 14,
+     "Health": 4560,
+     "Armor": 20
+    },
+    {
+     "Item": "H-Iridium Steel",
+     "Tech Level": 35,
+     "Complexity": 0,
+     "Weight": 41,
+     "Space": 12,
+     "Health": 1170,
+     "Armor": 69
+    },
+    {
+     "Item": "H-Vanadium Steel",
+     "Tech Level": 43,
+     "Complexity": 0,
+     "Weight": 49,
+     "Space": 17,
+     "Health": 990,
+     "Armor": 86
+    },
+    {
+     "Item": "H-Titanium Steel",
+     "Tech Level": 51,
+     "Complexity": 0,
+     "Weight": 54,
+     "Space": 10,
+     "Health": 1890,
+     "Armor": 78
+    },
+    {
+     "Item": "H-Tungsten Steel",
+     "Tech Level": 61,
+     "Complexity": 0,
+     "Weight": 62,
+     "Space": 20,
+     "Health": 3300,
+     "Armor": 69
+    },
+    {
+     "Item": "H-Phasic Plating",
+     "Tech Level": 61,
+     "Complexity": 0,
+     "Weight": 50,
+     "Space": 16,
+     "Health": 1710,
+     "Armor": 60,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "H-Tantalum Carbide",
+     "Tech Level": 71,
+     "Complexity": 0,
+     "Weight": 59,
+     "Space": 25,
+     "Health": 2490,
+     "Armor": 96
+    },
+    {
+     "Item": "H-Kritskonium Shell",
+     "Tech Level": 81,
+     "Complexity": 0,
+     "Weight": 59,
+     "Space": 27,
+     "Health": 2850,
+     "Armor": 99
+    },
+    {
+     "Item": "H-Tyraloid Plate",
+     "Tech Level": 91,
+     "Complexity": 0,
+     "Weight": 62,
+     "Space": 14,
+     "Health": 3180,
+     "Armor": 83
+    },
+    {
+     "Item": "H-Lyssaic Plating",
+     "Tech Level": 101,
+     "Complexity": 0,
+     "Weight": 63,
+     "Space": 28,
+     "Health": 4620,
+     "Armor": 108
+    },
+    {
+     "Item": "H-Haltyrium Sheet",
+     "Tech Level": 111,
+     "Complexity": 0,
+     "Weight": 61,
+     "Space": 19,
+     "Health": 3300,
+     "Armor": 102
+    },
+    {
+     "Item": "H-Podaictantalum Sheet",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 49,
+     "Space": 17,
+     "Health": 4290,
+     "Armor": 87
+    },
+    {
+     "Item": "L-Reinforced Steel",
+     "Tech Level": 4,
+     "Complexity": 0,
+     "Weight": 14,
+     "Space": 5,
+     "Health": 90,
+     "Armor": 3
+    },
+    {
+     "Item": "L-Moly Steel",
+     "Tech Level": 12,
+     "Complexity": 0,
+     "Weight": 13,
+     "Space": 6,
+     "Health": 60,
+     "Armor": 6
+    },
+    {
+     "Item": "L-Zirconium",
+     "Tech Level": 20,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 6,
+     "Health": 150,
+     "Armor": 11
+    },
+    {
+     "Item": "L-Impervious Steel",
+     "Tech Level": 28,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 10,
+     "Health": 300,
+     "Armor": 14
+    },
+    {
+     "Item": "L-Iridium Steel",
+     "Tech Level": 36,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 8,
+     "Health": 120,
+     "Armor": 15
+    },
+    {
+     "Item": "L-Vanadium Steel",
+     "Tech Level": 44,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 12,
+     "Health": 120,
+     "Armor": 23
+    },
+    {
+     "Item": "L-Titanium Steel",
+     "Tech Level": 52,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 7,
+     "Health": 300,
+     "Armor": 12
+    },
+    {
+     "Item": "L-Tungsten Steel",
+     "Tech Level": 62,
+     "Complexity": 0,
+     "Weight": 20,
+     "Space": 14,
+     "Health": 1650,
+     "Armor": 29
+    },
+    {
+     "Item": "L-Tantalum Carbide",
+     "Tech Level": 72,
+     "Complexity": 0,
+     "Weight": 14,
+     "Space": 18,
+     "Health": 300,
+     "Armor": 33
+    },
+    {
+     "Item": "L-Kritskonium Shell",
+     "Tech Level": 82,
+     "Complexity": 0,
+     "Weight": 11,
+     "Space": 19,
+     "Health": 240,
+     "Armor": 36
+    },
+    {
+     "Item": "L-Tyraloid Plate",
+     "Tech Level": 92,
+     "Complexity": 0,
+     "Weight": 21,
+     "Space": 11,
+     "Health": 1500,
+     "Armor": 47
+    },
+    {
+     "Item": "L-Lyssaic Plating",
+     "Tech Level": 102,
+     "Complexity": 0,
+     "Weight": 16,
+     "Space": 21,
+     "Health": 2100,
+     "Armor": 63
+    },
+    {
+     "Item": "L-Haltyrium Sheet",
+     "Tech Level": 112,
+     "Complexity": 0,
+     "Weight": 19,
+     "Space": 14,
+     "Health": 2400,
+     "Armor": 51
+    },
+    {
+     "Item": "L-Podaictantalum Sheet",
+     "Tech Level": 120,
+     "Complexity": 0,
+     "Weight": 15,
+     "Space": 12,
+     "Health": 2700,
+     "Armor": 29
+    }
+   ]
+  },
+  {
+   "index": "I-AMech",
+   "title": "Mantlet Armor",
+   "file": "I-G5171.txt",
+   "slot": 5171,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Health",
+    "Armor",
+    "Energy Use"
+   ],
+   "rows": [
+    {
+     "Item": "Parapet Defense",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 21,
+     "Space": 4,
+     "Health": 0,
+     "Armor": 17,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Tower Defense",
+     "Tech Level": 10,
+     "Complexity": 0,
+     "Weight": 35,
+     "Space": 5,
+     "Health": 0,
+     "Armor": 32,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Porticullis Defense",
+     "Tech Level": 21,
+     "Complexity": 0,
+     "Weight": 22,
+     "Space": 6,
+     "Health": 0,
+     "Armor": 30,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Rampart Defense",
+     "Tech Level": 30,
+     "Complexity": 0,
+     "Weight": 34,
+     "Space": 5,
+     "Health": 0,
+     "Armor": 42,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Parapet Field",
+     "Tech Level": 37,
+     "Complexity": 0,
+     "Weight": 18,
+     "Space": 7,
+     "Health": 0,
+     "Armor": 50,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Tower Field",
+     "Tech Level": 45,
+     "Complexity": 0,
+     "Weight": 28,
+     "Space": 5,
+     "Health": 0,
+     "Armor": 79,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Porticullis Field",
+     "Tech Level": 56,
+     "Complexity": 0,
+     "Weight": 32,
+     "Space": 6,
+     "Health": 0,
+     "Armor": 87,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Rampart Field",
+     "Tech Level": 65,
+     "Complexity": 0,
+     "Weight": 42,
+     "Space": 4,
+     "Health": 0,
+     "Armor": 99,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Parapet Armor",
+     "Tech Level": 77,
+     "Complexity": 0,
+     "Weight": 31,
+     "Space": 5,
+     "Health": 0,
+     "Armor": 128,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Tower Armor",
+     "Tech Level": 85,
+     "Complexity": 0,
+     "Weight": 35,
+     "Space": 6,
+     "Health": 0,
+     "Armor": 136,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Porticullis Armor",
+     "Tech Level": 96,
+     "Complexity": 0,
+     "Weight": 29,
+     "Space": 7,
+     "Health": 0,
+     "Armor": 141,
+     "Energy Use": 1
+    },
+    {
+     "Item": "Rampart Armor",
+     "Tech Level": 105,
+     "Complexity": 0,
+     "Weight": 50,
+     "Space": 8,
+     "Health": 0,
+     "Armor": 149,
+     "Energy Use": 1
+    }
+   ]
+  },
+  {
+   "index": "I-Scan",
+   "title": "Infantry Sensors",
+   "file": "I-G6001.txt",
+   "slot": 6001,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Ground Damage",
+    "Ground Cooldown",
+    "Armor",
+    "Ground Range",
+    "Air Range",
+    "View Range"
+   ],
+   "rows": [
+    {
+     "Item": "Radiation Filter",
+     "Tech Level": 2,
+     "Complexity": 2,
+     "Weight": 2,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 2.2,
+     "Air Range": 2.2,
+     "View Range": 7.5
+    },
+    {
+     "Item": "Infrared Visor",
+     "Tech Level": 14,
+     "Complexity": 3,
+     "Weight": 3,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 2.5,
+     "Air Range": 2.5,
+     "View Range": 8.5
+    },
+    {
+     "Item": "Targeting Goggles",
+     "Tech Level": 23,
+     "Complexity": 5,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.2,
+     "Air Range": 4.2,
+     "View Range": 14
+    },
+    {
+     "Item": "Prism Crystal Visor",
+     "Tech Level": 32,
+     "Complexity": 4,
+     "Weight": 2,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 2.8,
+     "Air Range": 2.8,
+     "View Range": 9.5
+    },
+    {
+     "Item": "Prism Crystal Visor Mk2",
+     "Tech Level": 41,
+     "Complexity": 5,
+     "Weight": 2,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3,
+     "Air Range": 3,
+     "View Range": 10
+    },
+    {
+     "Item": "Centris ALT Gm1",
+     "Tech Level": 50,
+     "Complexity": 5,
+     "Weight": 5,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.2,
+     "Air Range": 4.2,
+     "View Range": 14
+    },
+    {
+     "Item": "Prism Crystal Visor Mk3",
+     "Tech Level": 60,
+     "Complexity": 5,
+     "Weight": 3,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.3,
+     "Air Range": 3.3,
+     "View Range": 11.2
+    },
+    {
+     "Item": "Centris ALT Gm2",
+     "Tech Level": 70,
+     "Complexity": 5,
+     "Weight": 4,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.8,
+     "Air Range": 4.8,
+     "View Range": 16
+    },
+    {
+     "Item": "Centris LFT Gm1",
+     "Tech Level": 80,
+     "Complexity": 3,
+     "Weight": 5,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.7,
+     "Air Range": 3.7,
+     "View Range": 12.5
+    },
+    {
+     "Item": "Centris ALT Gm3",
+     "Tech Level": 90,
+     "Complexity": 4,
+     "Weight": 4,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.5,
+     "Air Range": 4.5,
+     "View Range": 15
+    },
+    {
+     "Item": "Centris LFT Gm2",
+     "Tech Level": 105,
+     "Complexity": 3,
+     "Weight": 5,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.2,
+     "Air Range": 4.2,
+     "View Range": 14
+    },
+    {
+     "Item": "Centris WSS Goggles",
+     "Tech Level": 120,
+     "Complexity": 4,
+     "Weight": 4,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 5.1,
+     "Air Range": 5.1,
+     "View Range": 17
+    },
+    {
+     "Item": "Spring Mechanism",
+     "Tech Level": 2,
+     "Complexity": 4,
+     "Weight": 5,
+     "Ground Damage": 0,
+     "Ground Cooldown": -0.1,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Shot Reloader",
+     "Tech Level": 25,
+     "Complexity": 5,
+     "Weight": 4,
+     "Ground Damage": 0,
+     "Ground Cooldown": -0.2,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Auto Loader",
+     "Tech Level": 50,
+     "Complexity": 6,
+     "Weight": 2,
+     "Ground Damage": 0,
+     "Ground Cooldown": -0.3,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Super Loader",
+     "Tech Level": 75,
+     "Complexity": 4,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": -0.5,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Magnesium Casing",
+     "Tech Level": 15,
+     "Complexity": 4,
+     "Weight": 6,
+     "Ground Damage": 10,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Static Casing",
+     "Tech Level": 40,
+     "Complexity": 6,
+     "Weight": 3,
+     "Ground Damage": 16,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Electro Casing",
+     "Tech Level": 65,
+     "Complexity": 4,
+     "Weight": 5,
+     "Ground Damage": 20,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Ion Casing",
+     "Tech Level": 80,
+     "Complexity": 3,
+     "Weight": 6,
+     "Ground Damage": 30,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    },
+    {
+     "Item": "Surge Casing",
+     "Tech Level": 105,
+     "Complexity": 5,
+     "Weight": 7,
+     "Ground Damage": 45,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0
+    }
+   ]
+  },
+  {
+   "index": "I-Scan",
+   "title": "Revenant Helmet",
+   "file": "I-G6003.txt",
+   "slot": 6003,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Ground Damage",
+    "Ground Cooldown",
+    "Armor",
+    "Ground Range",
+    "Air Range",
+    "View Range",
+    "Space"
+   ],
+   "rows": [
+    {
+     "Item": "Magnetic Coif",
+     "Tech Level": 22,
+     "Complexity": 0,
+     "Weight": 24,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 15,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0,
+     "Space": 2
+    },
+    {
+     "Item": "Magnetic Helmet",
+     "Tech Level": 47,
+     "Complexity": 0,
+     "Weight": 26,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 21,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0,
+     "Space": 2
+    },
+    {
+     "Item": "Magnetic Sallet",
+     "Tech Level": 62,
+     "Complexity": 0,
+     "Weight": 28,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 30,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0,
+     "Space": 3
+    },
+    {
+     "Item": "Magnetic Great Helm",
+     "Tech Level": 95,
+     "Complexity": 0,
+     "Weight": 22,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 24,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 0,
+     "Space": 2
+    }
+   ]
+  },
+  {
+   "index": "I-Scan",
+   "title": "Mobile and Aviation Sensors",
+   "file": "I-G6101.txt",
+   "slot": 6101,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Ground Damage",
+    "Ground Cooldown",
+    "Armor",
+    "Ground Range",
+    "Air Range",
+    "View Range",
+    "Space"
+   ],
+   "rows": [
+    {
+     "Item": "Sensor Amplifier",
+     "Tech Level": 2,
+     "Complexity": 1,
+     "Weight": 4,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 2.4,
+     "Air Range": 2.4,
+     "View Range": 8
+    },
+    {
+     "Item": "Proximity Sensor",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight": 5,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 2.1,
+     "Air Range": 2.1,
+     "View Range": 7
+    },
+    {
+     "Item": "E-Sensor Amplifier",
+     "Tech Level": 20,
+     "Complexity": 2,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 2.7,
+     "Air Range": 2.7,
+     "View Range": 9.2
+    },
+    {
+     "Item": "Sensor Array",
+     "Tech Level": 30,
+     "Complexity": 3,
+     "Weight": 10,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.3,
+     "Air Range": 3.3,
+     "View Range": 11
+    },
+    {
+     "Item": "Maxus Sensor Matrix",
+     "Tech Level": 40,
+     "Complexity": 6,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.1,
+     "Air Range": 3.1,
+     "View Range": 10.5
+    },
+    {
+     "Item": "Maxus EX Sensor",
+     "Tech Level": 50,
+     "Complexity": 4,
+     "Weight": 7,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.2,
+     "Air Range": 4.2,
+     "View Range": 14
+    },
+    {
+     "Item": "Optima 2800S Array",
+     "Tech Level": 60,
+     "Complexity": 8,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.3,
+     "Air Range": 4.3,
+     "View Range": 14.5
+    },
+    {
+     "Item": "Maxus Sensor Matrix Mk2",
+     "Tech Level": 70,
+     "Complexity": 6,
+     "Weight": 7,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.9,
+     "Air Range": 3.9,
+     "View Range": 13
+    },
+    {
+     "Item": "Maxus EX Sensor Mk2",
+     "Tech Level": 80,
+     "Complexity": 4,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.4,
+     "Air Range": 3.4,
+     "View Range": 11.5
+    },
+    {
+     "Item": "Optima 300R Sensor",
+     "Tech Level": 90,
+     "Complexity": 4,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.7,
+     "Air Range": 3.7,
+     "View Range": 12.5
+    },
+    {
+     "Item": "Maxus XS Matrix",
+     "Tech Level": 100,
+     "Complexity": 5,
+     "Weight": 7,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.3,
+     "Air Range": 4.3,
+     "View Range": 14.5
+    },
+    {
+     "Item": "Optima 300S Sensor",
+     "Tech Level": 110,
+     "Complexity": 4,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4,
+     "Air Range": 4,
+     "View Range": 13.5
+    },
+    {
+     "Item": "Maxus XS Matrix Mk2",
+     "Tech Level": 120,
+     "Complexity": 5,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.9,
+     "Air Range": 4.9,
+     "View Range": 16.5
+    },
+    {
+     "Item": "U-Sensor Amplifier",
+     "Tech Level": 4,
+     "Complexity": 1,
+     "Weight": 4,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.4,
+     "Air Range": 3.4,
+     "View Range": 11.5,
+     "Space": 1
+    },
+    {
+     "Item": "U-Proximity Sensor",
+     "Tech Level": 12,
+     "Complexity": 2,
+     "Weight": 5,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.6,
+     "Air Range": 3.6,
+     "View Range": 12.3,
+     "Space": 1
+    },
+    {
+     "Item": "U-E-Sensor Amplifier",
+     "Tech Level": 22,
+     "Complexity": 3,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 3.9,
+     "Air Range": 3.9,
+     "View Range": 13.3,
+     "Space": 2
+    },
+    {
+     "Item": "U-Sensor Array",
+     "Tech Level": 32,
+     "Complexity": 3,
+     "Weight": 10,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.3,
+     "Air Range": 4.3,
+     "View Range": 14.5,
+     "Space": 1
+    },
+    {
+     "Item": "U-Maxus Sensor Matrix",
+     "Tech Level": 42,
+     "Complexity": 6,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.5,
+     "Air Range": 4.5,
+     "View Range": 15.1,
+     "Space": 1
+    },
+    {
+     "Item": "U-Maxus EX Sensor",
+     "Tech Level": 52,
+     "Complexity": 4,
+     "Weight": 10,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 4.8,
+     "Air Range": 4.8,
+     "View Range": 16,
+     "Space": 1
+    },
+    {
+     "Item": "U-Optima 2800S Array",
+     "Tech Level": 62,
+     "Complexity": 8,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 5.1,
+     "Air Range": 5.1,
+     "View Range": 17,
+     "Space": 1
+    },
+    {
+     "Item": "U-Maxus Sensor Matrix Mk2",
+     "Tech Level": 72,
+     "Complexity": 6,
+     "Weight": 7,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 5.3,
+     "Air Range": 5.3,
+     "View Range": 17.9,
+     "Space": 2
+    },
+    {
+     "Item": "U-Maxus EX Sensor Mk2",
+     "Tech Level": 82,
+     "Complexity": 4,
+     "Weight": 10,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 5.6,
+     "Air Range": 5.6,
+     "View Range": 18.8,
+     "Space": 2
+    },
+    {
+     "Item": "U-Optima 300R Sensor",
+     "Tech Level": 92,
+     "Complexity": 4,
+     "Weight": 9,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 5.9,
+     "Air Range": 5.9,
+     "View Range": 19.8,
+     "Space": 1
+    },
+    {
+     "Item": "U-Maxus XS Matrix",
+     "Tech Level": 102,
+     "Complexity": 5,
+     "Weight": 7,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 6.2,
+     "Air Range": 6.2,
+     "View Range": 20.7,
+     "Space": 2
+    },
+    {
+     "Item": "U-Optima 300S Sensor",
+     "Tech Level": 112,
+     "Complexity": 4,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 6.4,
+     "Air Range": 6.4,
+     "View Range": 21.6,
+     "Space": 2
+    },
+    {
+     "Item": "U-Maxus XS Matrix Mk2",
+     "Tech Level": 120,
+     "Complexity": 5,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 6.7,
+     "Air Range": 6.7,
+     "View Range": 22.4,
+     "Space": 1
+    }
+   ]
+  },
+  {
+   "index": "I-Scan",
+   "title": "Trebuchet Sensors",
+   "file": "I-G6137.txt",
+   "slot": 6137,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Ground Damage",
+    "Ground Cooldown (s)",
+    "Armor",
+    "Ground Range (m)",
+    "Air Range (m)",
+    "View Range (m)",
+    "Space (L)",
+    "Special",
+    "Energy Use (kJ)"
+   ],
+   "rows": [
+    {
+     "Item": "Advanced Cloak Module",
+     "Tech Level": 22,
+     "Complexity": 2,
+     "Weight (kg)": 9,
+     "Ground Damage": 0,
+     "Ground Cooldown (s)": 0,
+     "Armor": 0,
+     "Ground Range (m)": 0,
+     "Air Range (m)": 0,
+     "View Range (m)": 0,
+     "Space (L)": 8,
+     "Special": "Cloak",
+     "Energy Use (kJ)": 20
+    }
+   ]
+  },
+  {
+   "index": "I-Scan",
+   "title": "Artillery Sensors",
+   "file": "I-G6201.txt",
+   "slot": 6201,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Ground Damage",
+    "Ground Cooldown",
+    "Armor",
+    "Ground Range",
+    "Air Range",
+    "View Range"
+   ],
+   "rows": [
+    {
+     "Item": "TACS M1",
+     "Tech Level": 2,
+     "Complexity": 1,
+     "Weight": 4,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 5
+    },
+    {
+     "Item": "RTS SG1",
+     "Tech Level": 10,
+     "Complexity": 4,
+     "Weight": 10,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 4
+    },
+    {
+     "Item": "TACS M2",
+     "Tech Level": 20,
+     "Complexity": 2,
+     "Weight": 5,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 5.5
+    },
+    {
+     "Item": "RTS SG2",
+     "Tech Level": 45,
+     "Complexity": 8,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 4.5
+    },
+    {
+     "Item": "TACS M3",
+     "Tech Level": 50,
+     "Complexity": 2,
+     "Weight": 6,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 6
+    },
+    {
+     "Item": "RTS SG3",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 7,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 5
+    },
+    {
+     "Item": "TACS M4",
+     "Tech Level": 75,
+     "Complexity": 3,
+     "Weight": 10,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 6.5
+    },
+    {
+     "Item": "RTS SG4",
+     "Tech Level": 90,
+     "Complexity": 4,
+     "Weight": 10,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 5.5
+    },
+    {
+     "Item": "TACS M5",
+     "Tech Level": 105,
+     "Complexity": 6,
+     "Weight": 8,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 7
+    },
+    {
+     "Item": "RTS SG5",
+     "Tech Level": 120,
+     "Complexity": 4,
+     "Weight": 9,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 6
+    }
+   ]
+  },
+  {
+   "index": "I-Scan",
+   "title": "Red Eye Sensors",
+   "file": "I-G6601.txt",
+   "slot": 6601,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Ground Damage",
+    "Ground Cooldown",
+    "Armor",
+    "Ground Range",
+    "Air Range",
+    "View Range",
+    "Special",
+    "Energy Use"
+   ],
+   "rows": [
+    {
+     "Item": "Tachyon Scanner",
+     "Tech Level": 2,
+     "Complexity": 4,
+     "Weight": 7,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 25,
+     "Special": "Identify",
+     "Energy Use": 100
+    },
+    {
+     "Item": "E-Tachyon Scanner",
+     "Tech Level": 60,
+     "Complexity": 8,
+     "Weight": 14,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 40,
+     "Special": "Identify",
+     "Energy Use": 80
+    },
+    {
+     "Item": "A-Tachyon Scanner",
+     "Tech Level": 120,
+     "Complexity": 12,
+     "Weight": 20,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 50,
+     "Special": "Identify",
+     "Energy Use": 60
+    },
+    {
+     "Item": "Radar Jammer",
+     "Tech Level": 24,
+     "Complexity": 8,
+     "Weight": 15,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 2.5,
+     "Special": "Radar Jammer",
+     "Energy Use": 1330
+    },
+    {
+     "Item": "E-Jammer",
+     "Tech Level": 36,
+     "Complexity": 10,
+     "Weight": 20,
+     "Ground Damage": 0,
+     "Ground Cooldown": 0,
+     "Armor": 0,
+     "Ground Range": 0,
+     "Air Range": 0,
+     "View Range": 7.5,
+     "Special": "Radar Jammer",
+     "Energy Use": 1200
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Infantry General Misc",
+   "file": "I-G7000.txt",
+   "slot": 7000,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Energy Use (kJ)",
+    "Space (L)",
+    "Special",
+    "Effectiveness",
+    "Health",
+    "Power (kJ)"
+   ],
+   "rows": [
+    {
+     "Item": "Personal Coupler",
+     "Tech Level": 15,
+     "Complexity": 2,
+     "Weight (kg)": 3,
+     "Energy Use (kJ)": 90,
+     "Special": "Refuel",
+     "Effectiveness": 100
+    },
+    {
+     "Item": "Anti-Grav Harness",
+     "Tech Level": 18,
+     "Complexity": 3,
+     "Weight (kg)": 3,
+     "Energy Use (kJ)": 30,
+     "Special": "Anti-Grav Harness",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "Biostimulator",
+     "Tech Level": 20,
+     "Complexity": 0,
+     "Weight (kg)": 5,
+     "Energy Use (kJ)": 3,
+     "Health": 300,
+     "Power (kJ)": 30
+    },
+    {
+     "Item": "Personal Phase Facilitator",
+     "Tech Level": 29,
+     "Complexity": 7,
+     "Weight (kg)": 8,
+     "Space (L)": 2,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "Personal Cloak",
+     "Tech Level": 40,
+     "Complexity": 8,
+     "Weight (kg)": 10,
+     "Energy Use (kJ)": 22,
+     "Space (L)": 4,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Compact Cloak",
+     "Tech Level": 55,
+     "Complexity": 9,
+     "Weight (kg)": 6,
+     "Energy Use (kJ)": 45,
+     "Space (L)": 1,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Medic Medpacks",
+   "file": "I-G7011.txt",
+   "slot": 7011,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "First-Aid Kit",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 5,
+     "Space": 2,
+     "Energy Use": 42,
+     "Special": "Heal",
+     "Effectiveness": 606
+    },
+    {
+     "Item": "Tool Kit",
+     "Tech Level": 2,
+     "Complexity": 5,
+     "Weight": 6,
+     "Space": 2,
+     "Energy Use": 54,
+     "Effectiveness": 648
+    },
+    {
+     "Item": "Medkit",
+     "Tech Level": 30,
+     "Complexity": 6,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 57,
+     "Special": "Heal",
+     "Effectiveness": 777
+    },
+    {
+     "Item": "Repair Assembly",
+     "Tech Level": 45,
+     "Complexity": 7,
+     "Weight": 8,
+     "Space": 4,
+     "Energy Use": 76,
+     "Effectiveness": 999
+    },
+    {
+     "Item": "Improved Medkit",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 5,
+     "Space": 6,
+     "Energy Use": 49,
+     "Special": "Heal",
+     "Effectiveness": 939
+    },
+    {
+     "Item": "Assembly Arm",
+     "Tech Level": 75,
+     "Complexity": 7,
+     "Weight": 4,
+     "Space": 6,
+     "Energy Use": 44,
+     "Effectiveness": 1035
+    },
+    {
+     "Item": "Advance Medkit",
+     "Tech Level": 90,
+     "Complexity": 6,
+     "Weight": 8,
+     "Space": 8,
+     "Energy Use": 72,
+     "Special": "Heal",
+     "Effectiveness": 1425
+    },
+    {
+     "Item": "Restoration Gear",
+     "Tech Level": 105,
+     "Complexity": 7,
+     "Weight": 8,
+     "Space": 8,
+     "Energy Use": 76,
+     "Effectiveness": 1659
+    },
+    {
+     "Item": "Medical Regenerator",
+     "Tech Level": 120,
+     "Complexity": 7,
+     "Weight": 5,
+     "Space": 9,
+     "Energy Use": 52,
+     "Special": "Heal",
+     "Effectiveness": 1587
+    },
+    {
+     "Item": "Repair Machine",
+     "Tech Level": 120,
+     "Complexity": 7,
+     "Weight": 7,
+     "Space": 9,
+     "Energy Use": 68,
+     "Effectiveness": 1770
+    },
+    {
+     "Item": "H-First-Aid Kit",
+     "Tech Level": 3,
+     "Complexity": 10,
+     "Weight": 10,
+     "Space": 2,
+     "Energy Use": 105,
+     "Special": "Heal",
+     "Effectiveness": 903
+    },
+    {
+     "Item": "H-Tool Kit",
+     "Tech Level": 3,
+     "Complexity": 6,
+     "Weight": 11,
+     "Space": 2,
+     "Energy Use": 96,
+     "Effectiveness": 852
+    },
+    {
+     "Item": "H-Medkit",
+     "Tech Level": 31,
+     "Complexity": 8,
+     "Weight": 16,
+     "Space": 4,
+     "Energy Use": 142,
+     "Special": "Heal",
+     "Effectiveness": 1398
+    },
+    {
+     "Item": "H-Repair Assembly",
+     "Tech Level": 46,
+     "Complexity": 7,
+     "Weight": 12,
+     "Space": 4,
+     "Energy Use": 107,
+     "Effectiveness": 1242
+    },
+    {
+     "Item": "H-Improved Medkit",
+     "Tech Level": 61,
+     "Complexity": 8,
+     "Weight": 12,
+     "Space": 6,
+     "Energy Use": 111,
+     "Special": "Heal",
+     "Effectiveness": 1446
+    },
+    {
+     "Item": "H-Assembly Arm",
+     "Tech Level": 76,
+     "Complexity": 8,
+     "Weight": 14,
+     "Space": 6,
+     "Energy Use": 127,
+     "Effectiveness": 1848
+    },
+    {
+     "Item": "H-Advance Medkit",
+     "Tech Level": 91,
+     "Complexity": 9,
+     "Weight": 11,
+     "Space": 8,
+     "Energy Use": 108,
+     "Special": "Heal",
+     "Effectiveness": 1842
+    },
+    {
+     "Item": "H-Restoration Gear",
+     "Tech Level": 106,
+     "Complexity": 8,
+     "Weight": 14,
+     "Space": 8,
+     "Energy Use": 127,
+     "Effectiveness": 2391
+    },
+    {
+     "Item": "H-Medical Regenerator",
+     "Tech Level": 120,
+     "Complexity": 11,
+     "Weight": 12,
+     "Space": 9,
+     "Energy Use": 126,
+     "Special": "Heal",
+     "Effectiveness": 2673
+    },
+    {
+     "Item": "H-Repair Machine",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight": 15,
+     "Space": 9,
+     "Energy Use": 127,
+     "Effectiveness": 2700
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Sapper Mines",
+   "file": "I-G7031.txt",
+   "slot": 7031,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Space (L)",
+    "Energy Use (kJ)",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Shatter Mine",
+     "Tech Level": 2,
+     "Complexity": 5,
+     "Weight (kg)": 8,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 168,
+     "Special": "Charge Mine",
+     "Effectiveness": 246
+    },
+    {
+     "Item": "Splinter Mine",
+     "Tech Level": 15,
+     "Complexity": 6,
+     "Weight (kg)": 8,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 182.4,
+     "Special": "Charge Mine",
+     "Effectiveness": 262
+    },
+    {
+     "Item": "Chem Mine",
+     "Tech Level": 20,
+     "Complexity": 7,
+     "Weight (kg)": 9,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 160,
+     "Special": "Chemical Mine",
+     "Effectiveness": 10
+    },
+    {
+     "Item": "EMP Mine",
+     "Tech Level": 30,
+     "Complexity": 8,
+     "Weight (kg)": 6,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 155.2,
+     "Special": "Charge EMP Mine",
+     "Effectiveness": 338.2
+    },
+    {
+     "Item": "Flame Mine",
+     "Tech Level": 45,
+     "Complexity": 5,
+     "Weight (kg)": 10,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 200,
+     "Special": "Charge Mine",
+     "Effectiveness": 328
+    },
+    {
+     "Item": "I-EMP Mine",
+     "Tech Level": 55,
+     "Complexity": 9,
+     "Weight (kg)": 7,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 184,
+     "Special": "Charge EMP Mine",
+     "Effectiveness": 456
+    },
+    {
+     "Item": "Incineration Mine",
+     "Tech Level": 60,
+     "Complexity": 7,
+     "Weight (kg)": 11,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 240,
+     "Special": "Charge Mine",
+     "Effectiveness": 387
+    },
+    {
+     "Item": "Adv Chem Mine",
+     "Tech Level": 70,
+     "Complexity": 6,
+     "Weight (kg)": 9,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 200,
+     "Special": "Chemical Mine",
+     "Effectiveness": 30
+    },
+    {
+     "Item": "Burst Mine",
+     "Tech Level": 80,
+     "Complexity": 6,
+     "Weight (kg)": 7,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 131.2,
+     "Special": "Charge Mine",
+     "Effectiveness": 388
+    },
+    {
+     "Item": "Blaze Mine",
+     "Tech Level": 100,
+     "Complexity": 5,
+     "Weight (kg)": 8,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 166.4,
+     "Special": "Charge Mine",
+     "Effectiveness": 462
+    },
+    {
+     "Item": "Igneous Mine",
+     "Tech Level": 120,
+     "Complexity": 7,
+     "Weight (kg)": 5,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 124.8,
+     "Special": "Charge Mine",
+     "Effectiveness": 497
+    },
+    {
+     "Item": "H-Shatter Mine",
+     "Tech Level": 3,
+     "Complexity": 8,
+     "Weight (kg)": 19,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 400,
+     "Special": "Charge Mine",
+     "Effectiveness": 352
+    },
+    {
+     "Item": "H-Splinter Mine",
+     "Tech Level": 16,
+     "Complexity": 9,
+     "Weight (kg)": 14,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 316.8,
+     "Special": "Charge Mine",
+     "Effectiveness": 327
+    },
+    {
+     "Item": "H-Chem Mine",
+     "Tech Level": 25,
+     "Complexity": 6,
+     "Weight (kg)": 8,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 200,
+     "Special": "Chemical Mine",
+     "Effectiveness": 20
+    },
+    {
+     "Item": "H-EMP Mine",
+     "Tech Level": 31,
+     "Complexity": 11,
+     "Weight (kg)": 16,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 377.6,
+     "Special": "Charge EMP Mine",
+     "Effectiveness": 568.1
+    },
+    {
+     "Item": "H-Flame Mine",
+     "Tech Level": 46,
+     "Complexity": 9,
+     "Weight (kg)": 14,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 315.2,
+     "Special": "Charge Mine",
+     "Effectiveness": 399
+    },
+    {
+     "Item": "H-I-EMP Mine",
+     "Tech Level": 56,
+     "Complexity": 10,
+     "Weight (kg)": 14,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 326.4,
+     "Special": "Charge EMP Mine",
+     "Effectiveness": 644.1
+    },
+    {
+     "Item": "H-Incineration Mine",
+     "Tech Level": 61,
+     "Complexity": 9,
+     "Weight (kg)": 15,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 334.4,
+     "Special": "Charge Mine",
+     "Effectiveness": 465
+    },
+    {
+     "Item": "H-Adv Chem Mine",
+     "Tech Level": 75,
+     "Complexity": 6,
+     "Weight (kg)": 8,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 280,
+     "Special": "Chemical Mine",
+     "Effectiveness": 45
+    },
+    {
+     "Item": "H-Burst Mine",
+     "Tech Level": 81,
+     "Complexity": 8,
+     "Weight (kg)": 15,
+     "Space (L)": 4,
+     "Energy Use (kJ)": 323.2,
+     "Special": "Charge Mine",
+     "Effectiveness": 536
+    },
+    {
+     "Item": "H-Blaze Mine",
+     "Tech Level": 101,
+     "Complexity": 6,
+     "Weight (kg)": 15,
+     "Space (L)": 4,
+     "Energy Use (kJ)": 307.2,
+     "Special": "Charge Mine",
+     "Effectiveness": 612
+    },
+    {
+     "Item": "H-Igneous Mine",
+     "Tech Level": 120,
+     "Complexity": 10,
+     "Weight (kg)": 16,
+     "Space (L)": 4,
+     "Energy Use (kJ)": 364.8,
+     "Special": "Charge Mine",
+     "Effectiveness": 810
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Mobile General Misc",
+   "file": "I-G7100.txt",
+   "slot": 7100,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Max Energy",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Vehicular Coupler",
+     "Tech Level": 13,
+     "Complexity": 3,
+     "Weight": 10,
+     "Energy Use": 160,
+     "Special": "Refuel",
+     "Effectiveness": 250
+    },
+    {
+     "Item": "Tinker Capacitors",
+     "Tech Level": 27,
+     "Complexity": 4,
+     "Weight": 20,
+     "Energy Use": 160,
+     "Max Energy": 2400,
+     "Special": "Refuel",
+     "Effectiveness": 250
+    },
+    {
+     "Item": "Cloaking Device",
+     "Tech Level": 50,
+     "Complexity": 8,
+     "Weight": 20,
+     "Space": 20,
+     "Energy Use": 25,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Voras Terminus CD",
+     "Tech Level": 50,
+     "Complexity": 4,
+     "Weight": 10,
+     "Space": 19,
+     "Energy Use": 15,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Iturons Dorian CD",
+     "Tech Level": 50,
+     "Complexity": 10,
+     "Weight": 20,
+     "Space": 12,
+     "Energy Use": 30,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Gryphon General Misc",
+   "file": "I-G7101.txt",
+   "slot": 7101,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Energy Use (kJ)",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Gryphon Cloak Detect",
+     "Tech Level": 22,
+     "Complexity": 1,
+     "Weight (kg)": 2,
+     "Energy Use (kJ)": 150,
+     "Special": "Detect",
+     "Effectiveness": 1
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "RedEye General Misc",
+   "file": "I-G7131.txt",
+   "slot": 7131,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Space (L)",
+    "Energy Use (kJ)",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Radar",
+     "Tech Level": 2,
+     "Complexity": 4,
+     "Weight (kg)": 15,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 400,
+     "Special": "Radar",
+     "Effectiveness": 400
+    },
+    {
+     "Item": "Shield Generator",
+     "Tech Level": 50,
+     "Complexity": 2,
+     "Weight (kg)": 20,
+     "Space (L)": 6,
+     "Energy Use (kJ)": 200,
+     "Special": "Shield",
+     "Effectiveness": 160
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Orbus General Misc",
+   "file": "I-G7135.txt",
+   "slot": 7135,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Space (L)",
+    "Energy Use (kJ)",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "OB Phase-I",
+     "Tech Level": 20,
+     "Complexity": 6,
+     "Weight (kg)": 12,
+     "Space (L)": 6,
+     "Energy Use (kJ)": 300,
+     "Special": "Teleport Unit",
+     "Effectiveness": 6
+    },
+    {
+     "Item": "OB Phase-II",
+     "Tech Level": 50,
+     "Complexity": 7,
+     "Weight (kg)": 12,
+     "Space (L)": 9,
+     "Energy Use (kJ)": 250,
+     "Special": "Teleport Unit",
+     "Effectiveness": 3
+    },
+    {
+     "Item": "OB Phase-III",
+     "Tech Level": 100,
+     "Complexity": 8,
+     "Weight (kg)": 12,
+     "Space (L)": 7,
+     "Energy Use (kJ)": 200,
+     "Special": "Teleport Unit",
+     "Effectiveness": 4
+    },
+    {
+     "Item": "OB Cloak",
+     "Tech Level": 30,
+     "Complexity": 8,
+     "Weight (kg)": 20,
+     "Space (L)": 5,
+     "Energy Use (kJ)": 15,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Volte NRG Pads",
+   "file": "I-G7155.txt",
+   "slot": 7155,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "NRG Pad",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 5,
+     "Space": 2,
+     "Energy Use": 25,
+     "Effectiveness": 633
+    },
+    {
+     "Item": "NRG Pod",
+     "Tech Level": 20,
+     "Complexity": 5,
+     "Weight": 6,
+     "Space": 2,
+     "Energy Use": 25,
+     "Effectiveness": 663
+    },
+    {
+     "Item": "NRG Foci",
+     "Tech Level": 50,
+     "Complexity": 6,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 25,
+     "Effectiveness": 753
+    },
+    {
+     "Item": "NRG Aura",
+     "Tech Level": 70,
+     "Complexity": 7,
+     "Weight": 8,
+     "Space": 4,
+     "Energy Use": 25,
+     "Effectiveness": 813
+    },
+    {
+     "Item": "NRG Field",
+     "Tech Level": 100,
+     "Complexity": 6,
+     "Weight": 5,
+     "Space": 6,
+     "Energy Use": 25,
+     "Effectiveness": 903
+    },
+    {
+     "Item": "H-NRG Pad",
+     "Tech Level": 3,
+     "Complexity": 14,
+     "Weight": 21,
+     "Space": 2,
+     "Energy Use": 25,
+     "Effectiveness": 783
+    },
+    {
+     "Item": "H-NRG Pod",
+     "Tech Level": 21,
+     "Complexity": 9,
+     "Weight": 25,
+     "Space": 2,
+     "Energy Use": 25,
+     "Effectiveness": 843
+    },
+    {
+     "Item": "H-NRG Foci",
+     "Tech Level": 51,
+     "Complexity": 11,
+     "Weight": 35,
+     "Space": 4,
+     "Energy Use": 25,
+     "Effectiveness": 1113
+    },
+    {
+     "Item": "H-NRG Aura",
+     "Tech Level": 71,
+     "Complexity": 11,
+     "Weight": 27,
+     "Space": 4,
+     "Energy Use": 25,
+     "Effectiveness": 1143
+    },
+    {
+     "Item": "H-NRG Field",
+     "Tech Level": 101,
+     "Complexity": 12,
+     "Weight": 27,
+     "Space": 6,
+     "Energy Use": 25,
+     "Effectiveness": 1353
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Aviation General Misc",
+   "file": "I-G7200.txt",
+   "slot": 7200,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Afterburner",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight": 8,
+     "Space": 3,
+     "Energy Use": 15,
+     "Special": "After Burner",
+     "Effectiveness": 15
+    },
+    {
+     "Item": "Intensity Afterburner",
+     "Tech Level": 50,
+     "Complexity": 3,
+     "Weight": 4,
+     "Space": 2,
+     "Energy Use": 45,
+     "Special": "After Burner",
+     "Effectiveness": 25
+    },
+    {
+     "Item": "Improved Afterburner",
+     "Tech Level": 107,
+     "Complexity": 2,
+     "Weight": 12,
+     "Space": 1,
+     "Energy Use": 15,
+     "Special": "After Burner",
+     "Effectiveness": 20
+    },
+    {
+     "Item": "M-Afterburner",
+     "Tech Level": 20,
+     "Complexity": 3,
+     "Weight": 10,
+     "Space": 3,
+     "Energy Use": 90,
+     "Special": "After Burner",
+     "Effectiveness": 30
+    },
+    {
+     "Item": "M-Intensity Afterburner",
+     "Tech Level": 70,
+     "Complexity": 4,
+     "Weight": 6,
+     "Space": 2,
+     "Energy Use": 110,
+     "Special": "After Burner",
+     "Effectiveness": 60
+    },
+    {
+     "Item": "M-Improved Afterburner",
+     "Tech Level": 110,
+     "Complexity": 3,
+     "Weight": 14,
+     "Space": 1,
+     "Energy Use": 80,
+     "Special": "After Burner",
+     "Effectiveness": 40
+    },
+    {
+     "Item": "H-Afterburner",
+     "Tech Level": 30,
+     "Complexity": 4,
+     "Weight": 8,
+     "Space": 3,
+     "Energy Use": 200,
+     "Special": "After Burner",
+     "Effectiveness": 40
+    },
+    {
+     "Item": "H-Intensity Afterburner",
+     "Tech Level": 80,
+     "Complexity": 4,
+     "Weight": 4,
+     "Space": 2,
+     "Energy Use": 300,
+     "Special": "After Burner",
+     "Effectiveness": 100
+    },
+    {
+     "Item": "H-Improved Afterburner",
+     "Tech Level": 120,
+     "Complexity": 3,
+     "Weight": 14,
+     "Space": 3,
+     "Energy Use": 100,
+     "Special": "After Burner",
+     "Effectiveness": 80
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Roc General Misc",
+   "file": "I-G7201.txt",
+   "slot": 7201,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Industrial Coupler",
+     "Tech Level": 9,
+     "Complexity": 4,
+     "Weight": 45,
+     "Energy Use": 580,
+     "Special": "Refuel",
+     "Effectiveness": 600
+    },
+    {
+     "Item": "Industrial Inertial Damper",
+     "Tech Level": 47,
+     "Complexity": 4,
+     "Weight": 55,
+     "Space": 2,
+     "Energy Use": 30,
+     "Special": "After Burner",
+     "Effectiveness": 25
+    },
+    {
+     "Item": "Improved IID",
+     "Tech Level": 85,
+     "Complexity": 5,
+     "Weight": 50,
+     "Energy Use": 15,
+     "Special": "After Burner",
+     "Effectiveness": 20
+    },
+    {
+     "Item": "Advanced IID",
+     "Tech Level": 120,
+     "Complexity": 4,
+     "Weight": 65,
+     "Energy Use": 25,
+     "Special": "After Burner",
+     "Effectiveness": 35
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Vulture General Misc",
+   "file": "I-G7202.txt",
+   "slot": 7202,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "V-Afterburner",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight": 8,
+     "Space": 2,
+     "Energy Use": 75,
+     "Special": "After Burner",
+     "Effectiveness": 20
+    },
+    {
+     "Item": "VI-Afterburner",
+     "Tech Level": 50,
+     "Complexity": 3,
+     "Weight": 4,
+     "Space": 2,
+     "Energy Use": 125,
+     "Special": "After Burner",
+     "Effectiveness": 50
+    },
+    {
+     "Item": "Vimp-Afterburner",
+     "Tech Level": 107,
+     "Complexity": 2,
+     "Weight": 12,
+     "Space": 2,
+     "Energy Use": 75,
+     "Special": "After Burner",
+     "Effectiveness": 40
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "War Pigeon General Misc",
+   "file": "I-G7211.txt",
+   "slot": 7211,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "P-Afterburner",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight": 22,
+     "Space": 4,
+     "Energy Use": 175,
+     "Special": "After Burner",
+     "Effectiveness": 25
+    },
+    {
+     "Item": "PI-Afterburner",
+     "Tech Level": 50,
+     "Complexity": 3,
+     "Weight": 20,
+     "Space": 3,
+     "Energy Use": 350,
+     "Special": "After Burner",
+     "Effectiveness": 55
+    },
+    {
+     "Item": "Pimp-Afterburner",
+     "Tech Level": 107,
+     "Complexity": 2,
+     "Weight": 18,
+     "Space": 4,
+     "Energy Use": 150,
+     "Special": "After Burner",
+     "Effectiveness": 35
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Albatross General Misc",
+   "file": "I-G7213.txt",
+   "slot": 7213,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Centris TD Cloak",
+     "Tech Level": 10,
+     "Complexity": 5,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 50,
+     "Special": "Detect",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "Centris TD Camo",
+     "Tech Level": 10,
+     "Complexity": 5,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 50,
+     "Special": "Detect",
+     "Effectiveness": 100
+    },
+    {
+     "Item": "Centris TD Infil",
+     "Tech Level": 10,
+     "Complexity": 5,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 50,
+     "Special": "Detect",
+     "Effectiveness": 10
+    },
+    {
+     "Item": "Centris TDHG Cloak",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 30,
+     "Special": "Detect",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "Centris TDHG Camo",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 30,
+     "Special": "Detect",
+     "Effectiveness": 100
+    },
+    {
+     "Item": "Centris TDHG Infil",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 30,
+     "Special": "Detect",
+     "Effectiveness": 10
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Falcon General Misc",
+   "file": "I-G7214.txt",
+   "slot": 7214,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Avoider",
+     "Tech Level": 10,
+     "Complexity": 1,
+     "Weight": 1,
+     "Energy Use": 1,
+     "Special": "Anti-Grav Harness",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "F-Afterburner",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight": 8,
+     "Space": 3,
+     "Energy Use": 15,
+     "Special": "After Burner",
+     "Effectiveness": 15
+    },
+    {
+     "Item": "F-Intensity Afterburner",
+     "Tech Level": 50,
+     "Complexity": 3,
+     "Weight": 4,
+     "Space": 2,
+     "Energy Use": 30,
+     "Special": "After Burner",
+     "Effectiveness": 25
+    },
+    {
+     "Item": "F-Improved Afterburner",
+     "Tech Level": 107,
+     "Complexity": 2,
+     "Weight": 12,
+     "Space": 1,
+     "Energy Use": 15,
+     "Special": "After Burner",
+     "Effectiveness": 20
+    },
+    {
+     "Item": "FM-Afterburner",
+     "Tech Level": 20,
+     "Complexity": 3,
+     "Weight": 10,
+     "Space": 3,
+     "Energy Use": 90,
+     "Special": "After Burner",
+     "Effectiveness": 30
+    },
+    {
+     "Item": "FM-Intensity Afterburner",
+     "Tech Level": 70,
+     "Complexity": 4,
+     "Weight": 6,
+     "Space": 2,
+     "Energy Use": 110,
+     "Special": "After Burner",
+     "Effectiveness": 60
+    },
+    {
+     "Item": "FM-Improved Afterburner",
+     "Tech Level": 110,
+     "Complexity": 3,
+     "Weight": 14,
+     "Space": 1,
+     "Energy Use": 80,
+     "Special": "After Burner",
+     "Effectiveness": 40
+    },
+    {
+     "Item": "FH-Afterburner",
+     "Tech Level": 30,
+     "Complexity": 4,
+     "Weight": 8,
+     "Space": 3,
+     "Energy Use": 200,
+     "Special": "After Burner",
+     "Effectiveness": 40
+    },
+    {
+     "Item": "FH-Intensity Afterburner",
+     "Tech Level": 80,
+     "Complexity": 4,
+     "Weight": 4,
+     "Space": 2,
+     "Energy Use": 300,
+     "Special": "After Burner",
+     "Effectiveness": 100
+    },
+    {
+     "Item": "FH-Improved Afterburner",
+     "Tech Level": 120,
+     "Complexity": 3,
+     "Weight": 14,
+     "Space": 3,
+     "Energy Use": 100,
+     "Special": "After Burner",
+     "Effectiveness": 80
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Organic General Misc",
+   "file": "I-G7300.txt",
+   "slot": 7300,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Health",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Tendon Enhancer",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 0,
+     "Health": 450
+    },
+    {
+     "Item": "Phasic Implant",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 0,
+     "Special": "Allow Phase"
+    },
+    {
+     "Item": "Minor Carpace",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 0
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Jorias Misc",
+   "file": "I-G7522.txt",
+   "slot": 7522,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Space (L)",
+    "Energy Use (kJ)",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Alien Teleporter",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight (kg)": 0,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 500,
+     "Special": "Teleport Unit",
+     "Effectiveness": 5
+    },
+    {
+     "Item": "Alien Transporter",
+     "Tech Level": 50,
+     "Complexity": 0,
+     "Weight (kg)": 0,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 300,
+     "Special": "Teleport Unit",
+     "Effectiveness": 5
+    },
+    {
+     "Item": "Alien Phaser",
+     "Tech Level": 100,
+     "Complexity": 0,
+     "Weight (kg)": 0,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 100,
+     "Special": "Teleport Unit",
+     "Effectiveness": 5
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Charnal and Rayoks Misc",
+   "file": "I-G7550.txt",
+   "slot": 7550,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Org Displacer",
+     "Tech Level": 10,
+     "Complexity": 0,
+     "Weight": 5,
+     "Space": 4,
+     "Energy Use": 40,
+     "Special": "Warp",
+     "Effectiveness": 44
+    },
+    {
+     "Item": "Org Warp",
+     "Tech Level": 20,
+     "Complexity": 0,
+     "Weight": 5,
+     "Space": 3,
+     "Energy Use": 20,
+     "Special": "Warp",
+     "Effectiveness": 44
+    },
+    {
+     "Item": "Org Shift",
+     "Tech Level": 50,
+     "Complexity": 0,
+     "Weight": 5,
+     "Space": 1,
+     "Energy Use": 15,
+     "Special": "Warp",
+     "Effectiveness": 44
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Vytyr Misc",
+   "file": "I-G7552.txt",
+   "slot": 7552,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Opticon Disruptor",
+     "Tech Level": 10,
+     "Complexity": 0,
+     "Weight": 0,
+     "Space": 3,
+     "Energy Use": 40,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Opticon Shade",
+     "Tech Level": 75,
+     "Complexity": 0,
+     "Weight": 0,
+     "Space": 2,
+     "Energy Use": 40,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Opticon Cloak",
+     "Tech Level": 110,
+     "Complexity": 0,
+     "Weight": 0,
+     "Space": 1,
+     "Energy Use": 30,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Miasmal and Miasam Misc",
+   "file": "I-G7612.txt",
+   "slot": 7612,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Health",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Elementary Pouch",
+     "Tech Level": 10,
+     "Complexity": 0,
+     "Weight": 12,
+     "Space": 7,
+     "Health": 750,
+     "Special": "Transport Unit"
+    },
+    {
+     "Item": "Holding Cavity",
+     "Tech Level": 60,
+     "Complexity": 0,
+     "Weight": 14,
+     "Space": 7,
+     "Health": 1650,
+     "Special": "Transport Unit"
+    },
+    {
+     "Item": "Reinforced Cavity",
+     "Tech Level": 110,
+     "Complexity": 0,
+     "Weight": 15,
+     "Space": 6,
+     "Health": 2400,
+     "Special": "Transport Unit"
+    },
+    {
+     "Item": "Gaseous Booster",
+     "Tech Level": 40,
+     "Complexity": 0,
+     "Weight": 10,
+     "Space": 5,
+     "Energy Use": 50,
+     "Special": "After Burner",
+     "Effectiveness": 30
+    },
+    {
+     "Item": "Gaseous Burner",
+     "Tech Level": 80,
+     "Complexity": 0,
+     "Weight": 8,
+     "Space": 5,
+     "Energy Use": 50,
+     "Special": "After Burner",
+     "Effectiveness": 45
+    },
+    {
+     "Item": "Penetrating Eye",
+     "Tech Level": 30,
+     "Complexity": 0,
+     "Weight": 4,
+     "Energy Use": 200,
+     "Special": "Detect",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "EverPresentEye",
+     "Tech Level": 70,
+     "Complexity": 0,
+     "Weight": 4,
+     "Energy Use": 200,
+     "Special": "Detect",
+     "Effectiveness": 111
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Charise and Dythe Misc",
+   "file": "I-G7622.txt",
+   "slot": 7622,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Light Bender",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 0,
+     "Space": 3,
+     "Energy Use": 40,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Light Distorter",
+     "Tech Level": 65,
+     "Complexity": 0,
+     "Weight": 0,
+     "Space": 2,
+     "Energy Use": 30,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Light Illusor",
+     "Tech Level": 100,
+     "Complexity": 0,
+     "Weight": 0,
+     "Space": 1,
+     "Energy Use": 30,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Misc",
+   "title": "Triage Regen Pads",
+   "file": "I-G7771.txt",
+   "slot": 7771,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Regen Pad",
+     "Tech Level": 2,
+     "Complexity": 3,
+     "Weight": 5,
+     "Space": 2,
+     "Energy Use": 50,
+     "Effectiveness": 450
+    },
+    {
+     "Item": "Regen Pod",
+     "Tech Level": 20,
+     "Complexity": 5,
+     "Weight": 6,
+     "Space": 2,
+     "Energy Use": 50,
+     "Effectiveness": 540
+    },
+    {
+     "Item": "Regen Foci",
+     "Tech Level": 50,
+     "Complexity": 6,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 50,
+     "Effectiveness": 630
+    },
+    {
+     "Item": "Regen Aura",
+     "Tech Level": 70,
+     "Complexity": 7,
+     "Weight": 8,
+     "Space": 4,
+     "Energy Use": 50,
+     "Effectiveness": 720
+    },
+    {
+     "Item": "Regen Field",
+     "Tech Level": 100,
+     "Complexity": 6,
+     "Weight": 5,
+     "Space": 6,
+     "Energy Use": 50,
+     "Effectiveness": 810
+    },
+    {
+     "Item": "H-Regen Pad",
+     "Tech Level": 3,
+     "Complexity": 14,
+     "Weight": 21,
+     "Space": 2,
+     "Energy Use": 100,
+     "Effectiveness": 720
+    },
+    {
+     "Item": "H-Regen Pod",
+     "Tech Level": 21,
+     "Complexity": 9,
+     "Weight": 25,
+     "Space": 2,
+     "Energy Use": 100,
+     "Effectiveness": 810
+    },
+    {
+     "Item": "H-Regen Foci",
+     "Tech Level": 51,
+     "Complexity": 11,
+     "Weight": 35,
+     "Space": 4,
+     "Energy Use": 100,
+     "Effectiveness": 1080
+    },
+    {
+     "Item": "H-Regen Aura",
+     "Tech Level": 71,
+     "Complexity": 11,
+     "Weight": 27,
+     "Space": 4,
+     "Energy Use": 100,
+     "Effectiveness": 1080
+    },
+    {
+     "Item": "H-Regen Field",
+     "Tech Level": 101,
+     "Complexity": 12,
+     "Weight": 27,
+     "Space": 6,
+     "Energy Use": 100,
+     "Effectiveness": 1350
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Alien Special",
+   "file": "I-G8000.txt",
+   "slot": 8000,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Instadeath (rare)",
+     "Tech Level": 1,
+     "Complexity": 0,
+     "Weight": 0,
+     "Energy Use": 1
+    },
+    {
+     "Item": "RCSD (rare)",
+     "Tech Level": 1,
+     "Complexity": 0,
+     "Weight": 1,
+     "Energy Use": 1,
+     "Special": "Self Destruct",
+     "Effectiveness": 15000
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Daeva Special",
+   "file": "I-G8001.txt",
+   "slot": 8001,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Concussion Grenade",
+     "Tech Level": 8,
+     "Complexity": 3,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 84,
+     "Special": "Grenade",
+     "Effectiveness": 90
+    },
+    {
+     "Item": "Incendiary Grenade",
+     "Tech Level": 26,
+     "Complexity": 3,
+     "Weight": 7,
+     "Space": 5,
+     "Energy Use": 95,
+     "Special": "Grenade",
+     "Effectiveness": 111
+    },
+    {
+     "Item": "EMP Grenade",
+     "Tech Level": 44,
+     "Complexity": 8,
+     "Weight": 3,
+     "Space": 2,
+     "Energy Use": 391,
+     "Special": "EMP Grenade",
+     "Effectiveness": 350
+    },
+    {
+     "Item": "Shatter Grenade",
+     "Tech Level": 62,
+     "Complexity": 2,
+     "Weight": 9,
+     "Space": 6,
+     "Energy Use": 112,
+     "Special": "Grenade",
+     "Effectiveness": 135
+    },
+    {
+     "Item": "Incineration Grenade",
+     "Tech Level": 80,
+     "Complexity": 8,
+     "Weight": 6,
+     "Space": 7,
+     "Energy Use": 121,
+     "Special": "Grenade",
+     "Effectiveness": 165
+    },
+    {
+     "Item": "EMP Blast Grenade",
+     "Tech Level": 98,
+     "Complexity": 8,
+     "Weight": 4,
+     "Space": 2,
+     "Energy Use": 467,
+     "Special": "EMP Grenade",
+     "Effectiveness": 600
+    },
+    {
+     "Item": "Plasma Grenade",
+     "Tech Level": 116,
+     "Complexity": 10,
+     "Weight": 10,
+     "Space": 8,
+     "Energy Use": 152,
+     "Special": "Grenade",
+     "Effectiveness": 210
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Revenant Special",
+   "file": "I-G8003.txt",
+   "slot": 8003,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Camouflage Field Generator",
+     "Tech Level": 36,
+     "Complexity": 4,
+     "Weight": 8,
+     "Space": 8,
+     "Energy Use": 9,
+     "Special": "Camouflage"
+    },
+    {
+     "Item": "Camouflage Field Modulator",
+     "Tech Level": 97,
+     "Complexity": 4,
+     "Weight": 10,
+     "Space": 9,
+     "Energy Use": 7,
+     "Special": "Camouflage"
+    },
+    {
+     "Item": "Rumble",
+     "Tech Level": 30,
+     "Complexity": 4,
+     "Weight": 8,
+     "Space": 8,
+     "Energy Use": 330,
+     "Special": "Earthquake",
+     "Effectiveness": 108
+    },
+    {
+     "Item": "Frenzy",
+     "Tech Level": 70,
+     "Complexity": 4,
+     "Weight": 7,
+     "Space": 8,
+     "Energy Use": 390,
+     "Special": "Earthquake",
+     "Effectiveness": 162
+    },
+    {
+     "Item": "Earthquake",
+     "Tech Level": 110,
+     "Complexity": 4,
+     "Weight": 6,
+     "Space": 8,
+     "Energy Use": 450,
+     "Special": "Earthquake",
+     "Effectiveness": 216
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Imp Special",
+   "file": "I-G8004.txt",
+   "slot": 8004,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Space (L)",
+    "Energy Use (kJ)",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Trespasser",
+     "Tech Level": 20,
+     "Complexity": 3,
+     "Weight (kg)": 4,
+     "Space (L)": 10,
+     "Energy Use (kJ)": 10,
+     "Special": "Disguise"
+    },
+    {
+     "Item": "Intruder",
+     "Tech Level": 60,
+     "Complexity": 3,
+     "Weight (kg)": 5,
+     "Space (L)": 8,
+     "Energy Use (kJ)": 13,
+     "Special": "Disguise"
+    },
+    {
+     "Item": "Infiltrator",
+     "Tech Level": 120,
+     "Complexity": 3,
+     "Weight (kg)": 3,
+     "Space (L)": 6,
+     "Energy Use (kJ)": 12,
+     "Special": "Disguise"
+    },
+    {
+     "Item": "ImpArb (rare)",
+     "Tech Level": 1,
+     "Complexity": 1,
+     "Weight (kg)": 1,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 1,
+     "Special": "Air Bombard"
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Banshee Special",
+   "file": "I-G8005.txt",
+   "slot": 8005,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Flare",
+     "Tech Level": 2,
+     "Complexity": 0,
+     "Weight": 2,
+     "Energy Use": 45,
+     "Special": "Flare",
+     "Effectiveness": 24
+    },
+    {
+     "Item": "Efficiency Flare",
+     "Tech Level": 30,
+     "Complexity": 0,
+     "Weight": 1,
+     "Energy Use": 30,
+     "Special": "Flare",
+     "Effectiveness": 18
+    },
+    {
+     "Item": "Distance Flare",
+     "Tech Level": 75,
+     "Complexity": 0,
+     "Weight": 3,
+     "Energy Use": 55,
+     "Special": "Flare",
+     "Effectiveness": 30
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Spectre Special",
+   "file": "I-G8006.txt",
+   "slot": 8006,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Stinger",
+     "Tech Level": 20,
+     "Complexity": 10,
+     "Weight": 20,
+     "Space": 8,
+     "Energy Use": 2000,
+     "Special": "IRBM",
+     "Effectiveness": 750
+    },
+    {
+     "Item": "Claw",
+     "Tech Level": 45,
+     "Complexity": 12,
+     "Weight": 15,
+     "Space": 10,
+     "Energy Use": 2200,
+     "Special": "IRBM",
+     "Effectiveness": 900
+    },
+    {
+     "Item": "Fang",
+     "Tech Level": 70,
+     "Complexity": 14,
+     "Weight": 20,
+     "Space": 12,
+     "Energy Use": 1800,
+     "Special": "IRBM",
+     "Effectiveness": 1305
+    },
+    {
+     "Item": "Talon",
+     "Tech Level": 105,
+     "Complexity": 16,
+     "Weight": 20,
+     "Space": 12,
+     "Energy Use": 1600,
+     "Special": "IRBM",
+     "Effectiveness": 1920
+    },
+    {
+     "Item": "H-Stinger",
+     "Tech Level": 21,
+     "Complexity": 11,
+     "Weight": 38,
+     "Space": 8,
+     "Energy Use": 3700,
+     "Special": "IRBM",
+     "Effectiveness": 1125
+    },
+    {
+     "Item": "H-Claw",
+     "Tech Level": 46,
+     "Complexity": 12,
+     "Weight": 30,
+     "Space": 10,
+     "Energy Use": 4000,
+     "Special": "IRBM",
+     "Effectiveness": 1200
+    },
+    {
+     "Item": "H-Fang",
+     "Tech Level": 71,
+     "Complexity": 10,
+     "Weight": 45,
+     "Space": 12,
+     "Energy Use": 3100,
+     "Special": "IRBM",
+     "Effectiveness": 1875
+    },
+    {
+     "Item": "H-Talon",
+     "Tech Level": 105,
+     "Complexity": 17,
+     "Weight": 42,
+     "Space": 12,
+     "Energy Use": 2800,
+     "Special": "IRBM",
+     "Effectiveness": 2640
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Medic Special",
+   "file": "I-G8016.txt",
+   "slot": 8016,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Biodrive Scrambler",
+     "Tech Level": 22,
+     "Complexity": 8,
+     "Weight": 6,
+     "Energy Use": 600,
+     "Special": "Mind Warp",
+     "Effectiveness": 20
+    },
+    {
+     "Item": "MD Cloak",
+     "Tech Level": 15,
+     "Complexity": 5,
+     "Weight": 5,
+     "Space": 4,
+     "Energy Use": 10,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Medic Warp Device",
+     "Tech Level": 20,
+     "Complexity": 5,
+     "Weight": 4,
+     "Space": 5,
+     "Energy Use": 10,
+     "Special": "Warp",
+     "Effectiveness": 44
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Sapper Special",
+   "file": "I-G8017.txt",
+   "slot": 8017,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Mine Detector",
+     "Tech Level": 2,
+     "Complexity": 2,
+     "Weight": 4,
+     "Energy Use": 1,
+     "Special": "Mine Detector",
+     "Effectiveness": 2
+    },
+    {
+     "Item": "Incendiary Detonator",
+     "Tech Level": 18,
+     "Complexity": 3,
+     "Weight": 5,
+     "Space": 5,
+     "Energy Use": 250,
+     "Special": "Self Destruct",
+     "Effectiveness": 930
+    },
+    {
+     "Item": "Plasma Detonator",
+     "Tech Level": 50,
+     "Complexity": 4,
+     "Weight": 8,
+     "Space": 5,
+     "Energy Use": 300,
+     "Special": "Self Destruct",
+     "Effectiveness": 1200
+    },
+    {
+     "Item": "Suicide Mine",
+     "Tech Level": 98,
+     "Complexity": 6,
+     "Weight": 10,
+     "Space": 5,
+     "Energy Use": 400,
+     "Special": "Self Destruct",
+     "Effectiveness": 1650
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Wraith Special",
+   "file": "I-G8018.txt",
+   "slot": 8018,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "EMP Blaster",
+     "Tech Level": 15,
+     "Complexity": 5,
+     "Weight": 4,
+     "Space": 5,
+     "Energy Use": 100,
+     "Special": "EMP Attack",
+     "Effectiveness": 500
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Liche Special",
+   "file": "I-G8021.txt",
+   "slot": 8021,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Impact Shell",
+     "Tech Level": 20,
+     "Complexity": 2,
+     "Weight": 5,
+     "Energy Use": 200,
+     "Special": "IRBM Defense",
+     "Effectiveness": 100
+    },
+    {
+     "Item": "Concussion Shell",
+     "Tech Level": 45,
+     "Complexity": 2,
+     "Weight": 5,
+     "Energy Use": 200,
+     "Special": "IRBM Defense",
+     "Effectiveness": 300
+    },
+    {
+     "Item": "Force Shell",
+     "Tech Level": 70,
+     "Complexity": 2,
+     "Weight": 5,
+     "Energy Use": 200,
+     "Special": "IRBM Defense",
+     "Effectiveness": 600
+    },
+    {
+     "Item": "XDC Floatsam",
+     "Tech Level": 17,
+     "Complexity": 6,
+     "Weight": 12,
+     "Space": 5,
+     "Energy Use": 10,
+     "Special": "Anti-Grav Harness",
+     "Effectiveness": 3
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Phantom Special",
+   "file": "I-G8040.txt",
+   "slot": 8040,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Shadow Flex",
+     "Tech Level": 20,
+     "Complexity": 4,
+     "Weight": 3,
+     "Space": 1,
+     "Energy Use": 13,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Shadow Flux",
+     "Tech Level": 85,
+     "Complexity": 5,
+     "Weight": 3,
+     "Energy Use": 13,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Spirit Special",
+   "file": "I-G8041.txt",
+   "slot": 8041,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Fallout Coupler",
+     "Tech Level": 10,
+     "Complexity": 7,
+     "Weight": 5,
+     "Space": 6,
+     "Energy Use": 600,
+     "Special": "Short Circuit",
+     "Effectiveness": 7
+    },
+    {
+     "Item": "Translucence Field",
+     "Tech Level": 18,
+     "Complexity": 2,
+     "Weight": 2,
+     "Space": 3,
+     "Energy Use": 3,
+     "Special": "Sensor Evasion",
+     "Effectiveness": 40
+    },
+    {
+     "Item": "Edison BioSRac",
+     "Tech Level": 35,
+     "Complexity": 6,
+     "Weight": 4,
+     "Energy Use": 200,
+     "Special": "Mind Warp",
+     "Effectiveness": 10
+    },
+    {
+     "Item": "Fallout TurboCoupler",
+     "Tech Level": 55,
+     "Complexity": 7,
+     "Weight": 3,
+     "Space": 4,
+     "Energy Use": 150,
+     "Special": "Short Circuit",
+     "Effectiveness": 3
+    },
+    {
+     "Item": "Edison BioSRag",
+     "Tech Level": 80,
+     "Complexity": 7,
+     "Weight": 4,
+     "Energy Use": 300,
+     "Special": "Mind Warp",
+     "Effectiveness": 15
+    },
+    {
+     "Item": "Fallout Megacoupler",
+     "Tech Level": 100,
+     "Complexity": 8,
+     "Weight": 5,
+     "Space": 7,
+     "Energy Use": 750,
+     "Special": "Short Circuit",
+     "Effectiveness": 14
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Apparition Special",
+   "file": "I-G8042.txt",
+   "slot": 8042,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Blender",
+     "Tech Level": 40,
+     "Complexity": 4,
+     "Weight": 2,
+     "Space": 6,
+     "Energy Use": 19,
+     "Special": "Camouflage"
+    },
+    {
+     "Item": "Blender Mk-2",
+     "Tech Level": 40,
+     "Complexity": 4,
+     "Weight": 3,
+     "Space": 8,
+     "Energy Use": 13,
+     "Special": "Camouflage"
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Wight Special",
+   "file": "I-G8059.txt",
+   "slot": 8059,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight (kg)",
+    "Space (L)",
+    "Energy Use (kJ)",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Overloader M1",
+     "Tech Level": 2,
+     "Complexity": 4,
+     "Weight (kg)": 4,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 300,
+     "Effectiveness": 15
+    },
+    {
+     "Item": "Supershot M1",
+     "Tech Level": 20,
+     "Complexity": 4,
+     "Weight (kg)": 4,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 300,
+     "Effectiveness": 20
+    },
+    {
+     "Item": "Rapidfire M1",
+     "Tech Level": 40,
+     "Complexity": 3,
+     "Weight (kg)": 4,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 350,
+     "Effectiveness": 25
+    },
+    {
+     "Item": "Overloader M2",
+     "Tech Level": 80,
+     "Complexity": 5,
+     "Weight (kg)": 4,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 400,
+     "Effectiveness": 30
+    },
+    {
+     "Item": "Supershot M2",
+     "Tech Level": 100,
+     "Complexity": 4,
+     "Weight (kg)": 3,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 425,
+     "Effectiveness": 35
+    },
+    {
+     "Item": "Rapidfire M2",
+     "Tech Level": 120,
+     "Complexity": 6,
+     "Weight (kg)": 7,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 450,
+     "Effectiveness": 40
+    },
+    {
+     "Item": "H-Overloader M1",
+     "Tech Level": 10,
+     "Complexity": 2,
+     "Weight (kg)": 24,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 400,
+     "Effectiveness": 30
+    },
+    {
+     "Item": "H-Supershot M1",
+     "Tech Level": 30,
+     "Complexity": 4,
+     "Weight (kg)": 26,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 500,
+     "Effectiveness": 35
+    },
+    {
+     "Item": "H-Rapidfire M1",
+     "Tech Level": 50,
+     "Complexity": 4,
+     "Weight (kg)": 21,
+     "Space (L)": 1,
+     "Energy Use (kJ)": 600,
+     "Effectiveness": 45
+    },
+    {
+     "Item": "H-Overloader M2",
+     "Tech Level": 70,
+     "Complexity": 6,
+     "Weight (kg)": 23,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 700,
+     "Effectiveness": 55
+    },
+    {
+     "Item": "H-Supershot M2",
+     "Tech Level": 90,
+     "Complexity": 5,
+     "Weight (kg)": 26,
+     "Space (L)": 2,
+     "Energy Use (kJ)": 750,
+     "Effectiveness": 65
+    },
+    {
+     "Item": "H-Rapidfire M2",
+     "Tech Level": 110,
+     "Complexity": 6,
+     "Weight (kg)": 24,
+     "Space (L)": 3,
+     "Energy Use (kJ)": 800,
+     "Effectiveness": 70
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Virus Special",
+   "file": "I-G8077.txt",
+   "slot": 8077,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Final Breath",
+     "Tech Level": 20,
+     "Complexity": 8,
+     "Weight": 10,
+     "Space": 4,
+     "Energy Use": 8000,
+     "Effectiveness": 690
+    },
+    {
+     "Item": "Death Warrant",
+     "Tech Level": 50,
+     "Complexity": 12,
+     "Weight": 10,
+     "Space": 5,
+     "Energy Use": 8000,
+     "Effectiveness": 795
+    },
+    {
+     "Item": "Rigor Mortis",
+     "Tech Level": 90,
+     "Complexity": 10,
+     "Weight": 14,
+     "Space": 4,
+     "Energy Use": 8000,
+     "Effectiveness": 1245
+    },
+    {
+     "Item": "H-Final Breath",
+     "Tech Level": 21,
+     "Complexity": 11,
+     "Weight": 38,
+     "Space": 4,
+     "Energy Use": 8000,
+     "Effectiveness": 900
+    },
+    {
+     "Item": "H-Death Warrant",
+     "Tech Level": 53,
+     "Complexity": 12,
+     "Weight": 30,
+     "Space": 5,
+     "Energy Use": 8000,
+     "Effectiveness": 1065
+    },
+    {
+     "Item": "H-Rigor Mortis",
+     "Tech Level": 92,
+     "Complexity": 10,
+     "Weight": 40,
+     "Space": 4,
+     "Energy Use": 8000,
+     "Effectiveness": 1860
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Chimera Special",
+   "file": "I-G8108.txt",
+   "slot": 8108,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Chimmine (rare)",
+     "Tech Level": 1,
+     "Complexity": 1,
+     "Weight": 1,
+     "Space": 1,
+     "Energy Use": 1,
+     "Special": "Altcharge",
+     "Effectiveness": 60
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Pegasus Special",
+   "file": "I-G8109.txt",
+   "slot": 8109,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Cloak FGen",
+     "Tech Level": 15,
+     "Complexity": 5,
+     "Weight": 5,
+     "Space": 5,
+     "Energy Use": 40,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Cloak FGen-Mk2",
+     "Tech Level": 60,
+     "Complexity": 5,
+     "Weight": 6,
+     "Space": 5,
+     "Energy Use": 30,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Geardoc Special",
+   "file": "I-G8123.txt",
+   "slot": 8123,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Cloak Screen",
+     "Tech Level": 20,
+     "Complexity": 4,
+     "Weight": 4,
+     "Space": 1,
+     "Energy Use": 20,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Camouflage Unit",
+     "Tech Level": 36,
+     "Complexity": 2,
+     "Weight": 6,
+     "Space": 1,
+     "Energy Use": 12,
+     "Special": "Camouflage"
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Orbus Special",
+   "file": "I-G8135.txt",
+   "slot": 8135,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "PG Generator",
+     "Tech Level": 2,
+     "Complexity": 6,
+     "Weight": 10,
+     "Energy Use": 2,
+     "Special": "Link Gate"
+    },
+    {
+     "Item": "PG Disperser",
+     "Tech Level": 56,
+     "Complexity": 7,
+     "Weight": 10,
+     "Energy Use": 1,
+     "Special": "Link Gate"
+    },
+    {
+     "Item": "PG Centralizer",
+     "Tech Level": 117,
+     "Complexity": 8,
+     "Weight": 10,
+     "Energy Use": 1,
+     "Special": "Link Gate"
+    },
+    {
+     "Item": "B Shield Generator",
+     "Tech Level": 75,
+     "Complexity": 2,
+     "Weight": 5,
+     "Space": 6,
+     "Energy Use": 150,
+     "Special": "Shield",
+     "Effectiveness": 160
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Gryphon Special",
+   "file": "I-G8143.txt",
+   "slot": 8143,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Gryphon Hover Device",
+     "Tech Level": 1,
+     "Complexity": 0,
+     "Weight": 0,
+     "Energy Use": 1,
+     "Special": "Anti-Grav Harness",
+     "Effectiveness": 1
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Leviathan Special",
+   "file": "I-G8145.txt",
+   "slot": 8145,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Hafnium Flame Shield",
+     "Tech Level": 15,
+     "Complexity": 0,
+     "Weight": 16,
+     "Energy Use": 400,
+     "Special": "Neutron Shield"
+    },
+    {
+     "Item": "Hafnium Laser Shield",
+     "Tech Level": 25,
+     "Complexity": 0,
+     "Weight": 17,
+     "Energy Use": 400,
+     "Special": "Neutron Shield"
+    },
+    {
+     "Item": "Hafnium Ballistic Shield",
+     "Tech Level": 65,
+     "Complexity": 0,
+     "Weight": 22,
+     "Energy Use": 400,
+     "Special": "Neutron Shield"
+    },
+    {
+     "Item": "Hafnium Missile Shield",
+     "Tech Level": 45,
+     "Complexity": 0,
+     "Weight": 20,
+     "Energy Use": 400,
+     "Special": "Neutron Shield"
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Volte Special",
+   "file": "I-G8155.txt",
+   "slot": 8155,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Surge Spark",
+     "Tech Level": 2,
+     "Complexity": 11,
+     "Weight": 17,
+     "Energy Use": 140,
+     "Special": "EMP Attack",
+     "Effectiveness": 540
+    },
+    {
+     "Item": "Surge Voltage",
+     "Tech Level": 20,
+     "Complexity": 16,
+     "Weight": 17,
+     "Energy Use": 200,
+     "Special": "EMP Attack",
+     "Effectiveness": 600
+    },
+    {
+     "Item": "Surge Lightning",
+     "Tech Level": 40,
+     "Complexity": 10,
+     "Weight": 34,
+     "Energy Use": 260,
+     "Special": "EMP Attack",
+     "Effectiveness": 660
+    },
+    {
+     "Item": "Surge Bolt",
+     "Tech Level": 70,
+     "Complexity": 8,
+     "Weight": 33,
+     "Energy Use": 330,
+     "Special": "EMP Attack",
+     "Effectiveness": 730
+    },
+    {
+     "Item": "Surge Current",
+     "Tech Level": 100,
+     "Complexity": 16,
+     "Weight": 16,
+     "Energy Use": 375,
+     "Special": "EMP Attack",
+     "Effectiveness": 775
+    },
+    {
+     "Item": "Surge Shock",
+     "Tech Level": 110,
+     "Complexity": 19,
+     "Weight": 9,
+     "Energy Use": 410,
+     "Special": "EMP Attack",
+     "Effectiveness": 810
+    },
+    {
+     "Item": "Surge Coupler",
+     "Tech Level": 12,
+     "Complexity": 5,
+     "Weight": 45,
+     "Energy Use": 600,
+     "Special": "Refuel",
+     "Effectiveness": 2000
+    },
+    {
+     "Item": "Surge Coupler M2",
+     "Tech Level": 60,
+     "Complexity": 5,
+     "Weight": 45,
+     "Energy Use": 750,
+     "Special": "Refuel",
+     "Effectiveness": 4000
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Roc Special",
+   "file": "I-G8201.txt",
+   "slot": 8201,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Transport Hold",
+     "Tech Level": 2,
+     "Complexity": 4,
+     "Weight": 200,
+     "Space": 8,
+     "Special": "Transport Unit"
+    },
+    {
+     "Item": "Phase Generator",
+     "Tech Level": 20,
+     "Complexity": 10,
+     "Weight": 250,
+     "Space": 17,
+     "Energy Use": 1600,
+     "Special": "Teleport Unit",
+     "Effectiveness": 8
+    },
+    {
+     "Item": "Improved PG",
+     "Tech Level": 50,
+     "Complexity": 12,
+     "Weight": 240,
+     "Space": 17,
+     "Energy Use": 1500,
+     "Special": "Teleport Unit",
+     "Effectiveness": 3
+    },
+    {
+     "Item": "Advanced PG",
+     "Tech Level": 100,
+     "Complexity": 16,
+     "Weight": 220,
+     "Space": 16,
+     "Energy Use": 1300,
+     "Special": "Teleport Unit",
+     "Effectiveness": 6
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Owl Special",
+   "file": "I-G8202.txt",
+   "slot": 8202,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Centris FD",
+     "Tech Level": 10,
+     "Complexity": 4,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 300,
+     "Special": "Detect",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "Centris FDHG",
+     "Tech Level": 60,
+     "Complexity": 6,
+     "Weight": 6,
+     "Space": 4,
+     "Energy Use": 150,
+     "Special": "Detect",
+     "Effectiveness": 101
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Hawk Special",
+   "file": "I-G8204.txt",
+   "slot": 8204,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Floater",
+     "Tech Level": 20,
+     "Complexity": 7,
+     "Weight": 2,
+     "Energy Use": 1,
+     "Special": "Anti-Grav Harness",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "Adv Floater",
+     "Tech Level": 85,
+     "Complexity": 1,
+     "Weight": 1,
+     "Energy Use": 1,
+     "Special": "Anti-Grav Harness",
+     "Effectiveness": 1
+    },
+    {
+     "Item": "SensorE30",
+     "Tech Level": 20,
+     "Complexity": 5,
+     "Weight": 2,
+     "Energy Use": 25,
+     "Special": "Sensor Evasion",
+     "Effectiveness": 30
+    },
+    {
+     "Item": "SensorE45",
+     "Tech Level": 85,
+     "Complexity": 5,
+     "Weight": 2,
+     "Energy Use": 25,
+     "Special": "Sensor Evasion",
+     "Effectiveness": 45
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Eagle Special",
+   "file": "I-G8208.txt",
+   "slot": 8208,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Megathrusters",
+     "Tech Level": 35,
+     "Complexity": 6,
+     "Weight": 12,
+     "Space": 5,
+     "Energy Use": 250,
+     "Special": "After Burner",
+     "Effectiveness": 100
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "War Pigeon Special",
+   "file": "I-G8211.txt",
+   "slot": 8211,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Genus CKB",
+     "Tech Level": 2,
+     "Complexity": 7,
+     "Weight": 13,
+     "Space": 2,
+     "Energy Use": 109,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 31.5
+    },
+    {
+     "Item": "Terminus Oliphant",
+     "Tech Level": 11,
+     "Complexity": 5,
+     "Weight": 23,
+     "Space": 3,
+     "Energy Use": 178,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 37.575
+    },
+    {
+     "Item": "Maxus Curler",
+     "Tech Level": 22,
+     "Complexity": 11,
+     "Weight": 8,
+     "Space": 3,
+     "Energy Use": 90,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 34.2
+    },
+    {
+     "Item": "Genus HR-N",
+     "Tech Level": 33,
+     "Complexity": 7,
+     "Weight": 21,
+     "Space": 3,
+     "Energy Use": 169,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 42.975
+    },
+    {
+     "Item": "Synker Clasher",
+     "Tech Level": 44,
+     "Complexity": 9,
+     "Weight": 16,
+     "Space": 3,
+     "Energy Use": 140,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 44.325
+    },
+    {
+     "Item": "Maxus Twister",
+     "Tech Level": 55,
+     "Complexity": 15,
+     "Weight": 7,
+     "Space": 3,
+     "Energy Use": 108,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 45.675
+    },
+    {
+     "Item": "Genus HR-V",
+     "Tech Level": 66,
+     "Complexity": 6,
+     "Weight": 21,
+     "Space": 4,
+     "Energy Use": 166,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 55.8
+    },
+    {
+     "Item": "Terminus Mammoth",
+     "Tech Level": 77,
+     "Complexity": 5,
+     "Weight": 26,
+     "Space": 5,
+     "Energy Use": 201,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 65.25
+    },
+    {
+     "Item": "Synker Crasher",
+     "Tech Level": 88,
+     "Complexity": 14,
+     "Weight": 14,
+     "Space": 5,
+     "Energy Use": 153,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 65.25
+    },
+    {
+     "Item": "Genus PD",
+     "Tech Level": 99,
+     "Complexity": 16,
+     "Weight": 5,
+     "Space": 5,
+     "Energy Use": 101,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 64.575
+    },
+    {
+     "Item": "Terminus Goliath",
+     "Tech Level": 110,
+     "Complexity": 5,
+     "Weight": 27,
+     "Space": 6,
+     "Energy Use": 208,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 85.725
+    },
+    {
+     "Item": "Maxus Cyclone",
+     "Tech Level": 120,
+     "Complexity": 17,
+     "Weight": 7,
+     "Space": 6,
+     "Energy Use": 124,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 79.2
+    },
+    {
+     "Item": "H-Genus CKB",
+     "Tech Level": 3,
+     "Complexity": 17,
+     "Weight": 31,
+     "Space": 3,
+     "Energy Use": 304,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 45.225
+    },
+    {
+     "Item": "H-Terminus Oliphant",
+     "Tech Level": 12,
+     "Complexity": 14,
+     "Weight": 44,
+     "Space": 4,
+     "Energy Use": 378,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 54.675
+    },
+    {
+     "Item": "H-Maxus Curler",
+     "Tech Level": 23,
+     "Complexity": 9,
+     "Weight": 38,
+     "Space": 4,
+     "Energy Use": 304,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 51.3
+    },
+    {
+     "Item": "H-Genus HR-N",
+     "Tech Level": 34,
+     "Complexity": 11,
+     "Weight": 47,
+     "Space": 5,
+     "Energy Use": 381,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 64.35
+    },
+    {
+     "Item": "H-Synker Clasher",
+     "Tech Level": 45,
+     "Complexity": 11,
+     "Weight": 40,
+     "Space": 5,
+     "Energy Use": 329,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 63.675
+    },
+    {
+     "Item": "H-Maxus Twister",
+     "Tech Level": 56,
+     "Complexity": 14,
+     "Weight": 42,
+     "Space": 6,
+     "Energy Use": 363,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 74.25
+    },
+    {
+     "Item": "H-Genus HR-V",
+     "Tech Level": 67,
+     "Complexity": 18,
+     "Weight": 34,
+     "Space": 6,
+     "Energy Use": 335,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 77.175
+    },
+    {
+     "Item": "H-Terminus Mammoth",
+     "Tech Level": 78,
+     "Complexity": 17,
+     "Weight": 36,
+     "Space": 6,
+     "Energy Use": 341,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 85.275
+    },
+    {
+     "Item": "H-Synker Crasher",
+     "Tech Level": 89,
+     "Complexity": 15,
+     "Weight": 47,
+     "Space": 8,
+     "Energy Use": 407,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 105.525
+    },
+    {
+     "Item": "H-Genus PD",
+     "Tech Level": 100,
+     "Complexity": 15,
+     "Weight": 43,
+     "Space": 8,
+     "Energy Use": 377,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 108.9
+    },
+    {
+     "Item": "H-Terminus Goliath",
+     "Tech Level": 111,
+     "Complexity": 10,
+     "Weight": 40,
+     "Space": 8,
+     "Energy Use": 324,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 107.325
+    },
+    {
+     "Item": "H-Maxus Cyclone",
+     "Tech Level": 120,
+     "Complexity": 14,
+     "Weight": 39,
+     "Space": 9,
+     "Energy Use": 340,
+     "Special": "Carpet Bomb",
+     "Effectiveness": 118.35
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Albatross Special",
+   "file": "I-G8213.txt",
+   "slot": 8213,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Incendiary Altcharge",
+     "Tech Level": 2,
+     "Complexity": 7,
+     "Weight": 18,
+     "Energy Use": 100,
+     "Special": "Altcharge",
+     "Effectiveness": 24
+    },
+    {
+     "Item": "Incineration Altcharge",
+     "Tech Level": 40,
+     "Complexity": 11,
+     "Weight": 18,
+     "Energy Use": 60,
+     "Special": "Altcharge",
+     "Effectiveness": 29
+    },
+    {
+     "Item": "Burst Altcharge",
+     "Tech Level": 80,
+     "Complexity": 12,
+     "Weight": 13,
+     "Energy Use": 105,
+     "Special": "Altcharge",
+     "Effectiveness": 37
+    },
+    {
+     "Item": "Pyrotechnic Altcharge",
+     "Tech Level": 120,
+     "Complexity": 12,
+     "Weight": 17,
+     "Energy Use": 150,
+     "Special": "Altcharge",
+     "Effectiveness": 52
+    },
+    {
+     "Item": "H-Incendiary Altcharge",
+     "Tech Level": 3,
+     "Complexity": 17,
+     "Weight": 46,
+     "Energy Use": 100,
+     "Special": "Altcharge",
+     "Effectiveness": 33
+    },
+    {
+     "Item": "H-Incineration Altcharge",
+     "Tech Level": 41,
+     "Complexity": 19,
+     "Weight": 41,
+     "Energy Use": 50,
+     "Special": "Altcharge",
+     "Effectiveness": 40
+    },
+    {
+     "Item": "H-Burst Altcharge",
+     "Tech Level": 81,
+     "Complexity": 17,
+     "Weight": 42,
+     "Energy Use": 100,
+     "Special": "Altcharge",
+     "Effectiveness": 54
+    },
+    {
+     "Item": "H-Pyrotechnic Altcharge",
+     "Tech Level": 120,
+     "Complexity": 17,
+     "Weight": 52,
+     "Energy Use": 150,
+     "Special": "Altcharge",
+     "Effectiveness": 85
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Falcon Special",
+   "file": "I-G8214.txt",
+   "slot": 8214,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special"
+   ],
+   "rows": [
+    {
+     "Item": "Whisper Sheath",
+     "Tech Level": 20,
+     "Complexity": 4,
+     "Weight": 3,
+     "Space": 1,
+     "Energy Use": 16,
+     "Special": "Cloak"
+    },
+    {
+     "Item": "Whisper Sheath v2",
+     "Tech Level": 85,
+     "Complexity": 5,
+     "Weight": 3,
+     "Space": 2,
+     "Energy Use": 13,
+     "Special": "Cloak"
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Condor Special",
+   "file": "I-G8216.txt",
+   "slot": 8216,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "Fusion Generator",
+     "Tech Level": 20,
+     "Complexity": 20,
+     "Weight": 12,
+     "Space": 10,
+     "Energy Use": 1700,
+     "Special": "Fusion Storm",
+     "Effectiveness": 80
+    },
+    {
+     "Item": "Improved FG",
+     "Tech Level": 70,
+     "Complexity": 23,
+     "Weight": 15,
+     "Space": 4,
+     "Energy Use": 950,
+     "Special": "Fusion Storm",
+     "Effectiveness": 25
+    },
+    {
+     "Item": "Advanced FG",
+     "Tech Level": 120,
+     "Complexity": 16,
+     "Weight": 12,
+     "Space": 8,
+     "Energy Use": 2100,
+     "Special": "Fusion Storm",
+     "Effectiveness": 50
+    },
+    {
+     "Item": "AltCharge Remover",
+     "Tech Level": 15,
+     "Complexity": 13,
+     "Weight": 9,
+     "Space": 2,
+     "Energy Use": 20,
+     "Special": "Mine Detector",
+     "Effectiveness": 2
+    },
+    {
+     "Item": "AltCharge Eradicator",
+     "Tech Level": 55,
+     "Complexity": 14,
+     "Weight": 8,
+     "Space": 1,
+     "Energy Use": 20,
+     "Special": "Mine Detector",
+     "Effectiveness": 5
+    },
+    {
+     "Item": "CondorNuke (rare)",
+     "Tech Level": 1,
+     "Complexity": 1,
+     "Weight": 1,
+     "Space": 1,
+     "Energy Use": 5000,
+     "Special": "IRBM",
+     "Effectiveness": 15
+    }
+   ]
+  },
+  {
+   "index": "I-Specl",
+   "title": "Triage Special",
+   "file": "I-G8771.txt",
+   "slot": 8771,
+   "columns": [
+    "Item",
+    "Tech Level",
+    "Complexity",
+    "Weight",
+    "Space",
+    "Energy Use",
+    "Special",
+    "Effectiveness"
+   ],
+   "rows": [
+    {
+     "Item": "T Phaser",
+     "Tech Level": 20,
+     "Complexity": 6,
+     "Weight": 10,
+     "Space": 3,
+     "Energy Use": 800,
+     "Special": "Teleport Unit",
+     "Effectiveness": 7
+    },
+    {
+     "Item": "T Disperser",
+     "Tech Level": 40,
+     "Complexity": 7,
+     "Weight": 10,
+     "Space": 4,
+     "Energy Use": 800,
+     "Special": "Teleport Unit",
+     "Effectiveness": 4
+    },
+    {
+     "Item": "T Localizer",
+     "Tech Level": 70,
+     "Complexity": 8,
+     "Weight": 10,
+     "Space": 6,
+     "Energy Use": 600,
+     "Special": "Teleport Unit",
+     "Effectiveness": 5
+    },
+    {
+     "Item": "T Centralizer",
+     "Tech Level": 90,
+     "Complexity": 7,
+     "Weight": 10,
+     "Space": 3,
+     "Energy Use": 600,
+     "Special": "Teleport Unit",
+     "Effectiveness": 3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,637 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g039",
+ "kind": "ground",
+ "chassis": [
+  "Ghast",
+  "Ghast-Mk2",
+  "Ghast-Mk3",
+  "Ghast-Mk4",
+  "Ghast-Mk5",
+  "Ghast-Mk6",
+  "Ghast-Mk7",
+  "Ghast-Mk8",
+  "Ghast-Mk9"
+ ],
+ "base_chassis": [
+  "Ghast"
+ ],
+ "names_cn": {
+  "Ghast": "恶鬼"
+ },
+ "names_tw": {
+  "Ghast": "惡鬼"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Ghast",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 3,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 10,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 1128,
+   "base_armor": 0,
+   "speed_m_s": 5,
+   "view_range_m": 5.5,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Paladin-like champion charges into battle wielding ion sword; naturally phasic."
+  },
+  {
+   "name": "Ghast-Mk2",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 17,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 11,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 1290,
+   "base_armor": 0,
+   "speed_m_s": 5.2,
+   "view_range_m": 5.75,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Champion charges into battle, ion sword raised like a paladin."
+  },
+  {
+   "name": "Ghast-Mk3",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 31,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 12,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 1530,
+   "base_armor": 0,
+   "speed_m_s": 5.5,
+   "view_range_m": 6,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Paladin-like chassis charges into battle, ion sword raised high."
+  },
+  {
+   "name": "Ghast-Mk4",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 45,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 12,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 1860,
+   "base_armor": 0,
+   "speed_m_s": 5.7,
+   "view_range_m": 6.25,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Champion charges into battle with a raised ion sword, naturally phasic."
+  },
+  {
+   "name": "Ghast-Mk5",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 59,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 13,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 2310,
+   "base_armor": 0,
+   "speed_m_s": 6,
+   "view_range_m": 6.5,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Paladin-like champion charges into combat, ion sword raised, naturally phasic."
+  },
+  {
+   "name": "Ghast-Mk6",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 73,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 14,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 2910,
+   "base_armor": 0,
+   "speed_m_s": 6.2,
+   "view_range_m": 6.75,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Champion charges into combat with a raised ion sword, naturally phasic."
+  },
+  {
+   "name": "Ghast-Mk7",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 87,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 15,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 3630,
+   "base_armor": 0,
+   "speed_m_s": 6.4,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Champion charges into battle wielding a raised ion sword, naturally phasic"
+  },
+  {
+   "name": "Ghast-Mk8",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 101,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 16,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 4530,
+   "base_armor": 0,
+   "speed_m_s": 6.6,
+   "view_range_m": 7.25,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Champion charges into battle, ion sword raised, naturally phasic."
+  },
+  {
+   "name": "Ghast-Mk9",
+   "category": "Infantry",
+   "group": "Gaia-frame",
+   "influence": 115,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 17,
+   "unit_weight_kg": 70,
+   "type": "Biological",
+   "base_health": 5610,
+   "base_armor": 0,
+   "speed_m_s": 6.8,
+   "view_range_m": 7.5,
+   "view_type": "Cone",
+   "chassis_code": "g039",
+   "chassis_image": "g039st.xpf",
+   "description_summary": "Naturally phasic chassis charges into battle, wielding a raised ion sword."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g039at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 16931,
+   "canvas": [
+    177,
+    178
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 112,
+   "dirs": 8,
+   "frames_per_dir": 14,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g039at.png",
+   "sheet_crop": [
+    16,
+    10,
+    160,
+    142
+   ],
+   "cell": [
+    144,
+    132
+   ],
+   "pivot_in_cell": [
+    73,
+    99
+   ]
+  },
+  {
+   "file": "g039atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 11,
+   "type_raw": 267,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 112,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g039atb.png",
+   "sheet_crop": [
+    5,
+    4,
+    174,
+    162
+   ],
+   "cell": [
+    169,
+    158
+   ],
+   "pivot_in_cell": [
+    84,
+    105
+   ]
+  },
+  {
+   "file": "g039ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    190,
+    178
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 112,
+   "dirs": 8,
+   "frames_per_dir": 14,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g039da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g039da.png",
+   "sheet_crop": [
+    67,
+    67,
+    123,
+    127
+   ],
+   "cell": [
+    56,
+    60
+   ],
+   "pivot_in_cell": [
+    22,
+    42
+   ]
+  },
+  {
+   "file": "g039das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    235,
+    177
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g039mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 10243,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g039mo.png",
+   "sheet_crop": [
+    32,
+    36,
+    146,
+    124
+   ],
+   "cell": [
+    114,
+    88
+   ],
+   "pivot_in_cell": [
+    57,
+    73
+   ]
+  },
+  {
+   "file": "g039mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 11,
+   "type_raw": 1803,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g039mob.png",
+   "sheet_crop": [
+    20,
+    24,
+    158,
+    124
+   ],
+   "cell": [
+    138,
+    100
+   ],
+   "pivot_in_cell": [
+    69,
+    85
+   ]
+  },
+  {
+   "file": "g039mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    139
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g039mop.png",
+   "sheet_crop": [
+    67,
+    79,
+    99,
+    108
+   ],
+   "cell": [
+    32,
+    29
+   ],
+   "pivot_in_cell": [
+    22,
+    30
+   ]
+  },
+  {
+   "file": "g039mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  },
+  {
+   "file": "g039st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g039st.png",
+   "sheet_crop": [
+    42,
+    37,
+    136,
+    122
+   ],
+   "cell": [
+    94,
+    85
+   ],
+   "pivot_in_cell": [
+    47,
+    72
+   ]
+  },
+  {
+   "file": "g039stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 11,
+   "type_raw": 1803,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.44,
+   "mask_only": false,
+   "sheet": "sheets/g039stb.png",
+   "sheet_crop": [
+    29,
+    25,
+    147,
+    116
+   ],
+   "cell": [
+    118,
+    91
+   ],
+   "pivot_in_cell": [
+    60,
+    84
+   ]
+  },
+  {
+   "file": "g039sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 24082,
+   "canvas": [
+    179,
+    179
+   ],
+   "pivot": [
+    89,
+    109
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

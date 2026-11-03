@@ -1,0 +1,1207 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g038",
+ "kind": "ground",
+ "chassis": [
+  "Hydra",
+  "Hydra-Mk2",
+  "Hydra-Mk3",
+  "Hydra-Mk4",
+  "Hydra-Mk5",
+  "Hydra-Mk6",
+  "Hydra-Mk7"
+ ],
+ "base_chassis": [
+  "Hydra"
+ ],
+ "names_cn": {
+  "Hydra": "九头蛇"
+ },
+ "names_tw": {
+  "Hydra": "九頭蛇"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Hydra",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 47,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 16,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 3600,
+   "base_armor": 4,
+   "speed_m_s": 4.2,
+   "view_range_m": 9,
+   "view_type": "Cone",
+   "chassis_code": "g038",
+   "chassis_image": "g038st.xpf",
+   "description_summary": "Fires volleys of lasers and missiles skyward, deterring any aircraft."
+  },
+  {
+   "name": "Hydra-Mk2",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 59,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 17,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 4320,
+   "base_armor": 7,
+   "speed_m_s": 4.2,
+   "view_range_m": 9.25,
+   "view_type": "Cone",
+   "chassis_code": "g038",
+   "chassis_image": "g038st.xpf",
+   "description_summary": "Fires endless lasers and missiles skyward, overwhelming any aerial unit."
+  },
+  {
+   "name": "Hydra-Mk3",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 71,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 18,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 5250,
+   "base_armor": 9,
+   "speed_m_s": 4.5,
+   "view_range_m": 9.5,
+   "view_type": "Cone",
+   "chassis_code": "g038",
+   "chassis_image": "g038st.xpf",
+   "description_summary": "Fires continuous laser and missile volleys skyward, devastating any aircraft."
+  },
+  {
+   "name": "Hydra-Mk4",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 83,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 20,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 6360,
+   "base_armor": 13,
+   "speed_m_s": 4.5,
+   "view_range_m": 9.75,
+   "view_type": "Cone",
+   "chassis_code": "g038",
+   "chassis_image": "g038st.xpf",
+   "description_summary": "Fires volleys of lasers and missiles skyward, devastating any aircraft"
+  },
+  {
+   "name": "Hydra-Mk5",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 95,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 21,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 7680,
+   "base_armor": 17,
+   "speed_m_s": 4.8,
+   "view_range_m": 10,
+   "view_type": "Cone",
+   "chassis_code": "g038",
+   "chassis_image": "g038st.xpf",
+   "description_summary": "Fires laser and missile barrages skyward, deadly to any aircraft."
+  },
+  {
+   "name": "Hydra-Mk6",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 107,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 23,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 9270,
+   "base_armor": 20,
+   "speed_m_s": 4.8,
+   "view_range_m": 10.25,
+   "view_type": "Cone",
+   "chassis_code": "g038",
+   "chassis_image": "g038st.xpf",
+   "description_summary": "Fires laser and missile barrages skyward, devastating any air unit."
+  },
+  {
+   "name": "Hydra-Mk7",
+   "category": "Mobile",
+   "group": "Cyclo-rig",
+   "influence": 120,
+   "slots": 10,
+   "max_weight_kg": 112,
+   "max_space_l": 24,
+   "unit_weight_kg": 250,
+   "type": "Mechanical",
+   "base_health": 11280,
+   "base_armor": 24,
+   "speed_m_s": 5.4,
+   "view_range_m": 10.5,
+   "view_type": "Cone",
+   "chassis_code": "g038",
+   "chassis_image": "g038st.xpf",
+   "description_summary": "Fires laser and missile barrages skyward, deadly to any airborne unit."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g038at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      59,
+      50
+     ],
+     [
+      57,
+      63
+     ]
+    ],
+    "1": [
+     [
+      61,
+      51
+     ],
+     [
+      54,
+      65
+     ]
+    ],
+    "2": [
+     [
+      62,
+      52
+     ],
+     [
+      53,
+      62
+     ]
+    ],
+    "3": [
+     [
+      66,
+      56
+     ],
+     [
+      48,
+      59
+     ]
+    ],
+    "4": [
+     [
+      64,
+      58
+     ],
+     [
+      46,
+      56
+     ]
+    ],
+    "5": [
+     [
+      61,
+      60
+     ],
+     [
+      45,
+      56
+     ]
+    ],
+    "6": [
+     [
+      59,
+      58
+     ],
+     [
+      46,
+      53
+     ]
+    ],
+    "7": [
+     [
+      56,
+      59
+     ],
+     [
+      51,
+      52
+     ]
+    ],
+    "8": [
+     [
+      53,
+      60
+     ],
+     [
+      54,
+      50
+     ]
+    ],
+    "9": [
+     [
+      50,
+      65
+     ],
+     [
+      56,
+      49
+     ]
+    ],
+    "10": [
+     [
+      46,
+      60
+     ],
+     [
+      60,
+      50
+     ]
+    ],
+    "11": [
+     [
+      48,
+      56
+     ],
+     [
+      58,
+      54
+     ]
+    ],
+    "12": [
+     [
+      48,
+      53
+     ],
+     [
+      62,
+      53
+     ]
+    ],
+    "13": [
+     [
+      48,
+      51
+     ],
+     [
+      64,
+      55
+     ]
+    ],
+    "14": [
+     [
+      51,
+      48
+     ],
+     [
+      63,
+      56
+     ]
+    ],
+    "15": [
+     [
+      52,
+      51
+     ],
+     [
+      57,
+      55
+     ]
+    ],
+    "16": [
+     [
+      59,
+      50
+     ],
+     [
+      57,
+      63
+     ]
+    ],
+    "17": [
+     [
+      61,
+      51
+     ],
+     [
+      54,
+      65
+     ]
+    ],
+    "18": [
+     [
+      62,
+      52
+     ],
+     [
+      53,
+      62
+     ]
+    ],
+    "19": [
+     [
+      66,
+      56
+     ],
+     [
+      48,
+      59
+     ]
+    ],
+    "20": [
+     [
+      64,
+      58
+     ],
+     [
+      46,
+      56
+     ]
+    ],
+    "21": [
+     [
+      61,
+      60
+     ],
+     [
+      45,
+      56
+     ]
+    ],
+    "22": [
+     [
+      59,
+      58
+     ],
+     [
+      46,
+      53
+     ]
+    ],
+    "23": [
+     [
+      56,
+      59
+     ],
+     [
+      51,
+      52
+     ]
+    ],
+    "24": [
+     [
+      53,
+      60
+     ],
+     [
+      54,
+      50
+     ]
+    ],
+    "25": [
+     [
+      50,
+      65
+     ],
+     [
+      56,
+      49
+     ]
+    ],
+    "26": [
+     [
+      46,
+      60
+     ],
+     [
+      60,
+      50
+     ]
+    ],
+    "27": [
+     [
+      48,
+      56
+     ],
+     [
+      58,
+      54
+     ]
+    ],
+    "28": [
+     [
+      48,
+      53
+     ],
+     [
+      62,
+      53
+     ]
+    ],
+    "29": [
+     [
+      48,
+      51
+     ],
+     [
+      64,
+      55
+     ]
+    ],
+    "30": [
+     [
+      51,
+      48
+     ],
+     [
+      63,
+      56
+     ]
+    ],
+    "31": [
+     [
+      52,
+      51
+     ],
+     [
+      57,
+      55
+     ]
+    ],
+    "32": [
+     [
+      59,
+      50
+     ],
+     [
+      57,
+      63
+     ]
+    ],
+    "33": [
+     [
+      61,
+      51
+     ],
+     [
+      54,
+      65
+     ]
+    ],
+    "34": [
+     [
+      62,
+      52
+     ],
+     [
+      53,
+      62
+     ]
+    ],
+    "35": [
+     [
+      66,
+      56
+     ],
+     [
+      48,
+      59
+     ]
+    ],
+    "36": [
+     [
+      64,
+      58
+     ],
+     [
+      46,
+      56
+     ]
+    ],
+    "37": [
+     [
+      61,
+      60
+     ],
+     [
+      45,
+      56
+     ]
+    ],
+    "38": [
+     [
+      59,
+      58
+     ],
+     [
+      46,
+      53
+     ]
+    ],
+    "39": [
+     [
+      56,
+      59
+     ],
+     [
+      51,
+      52
+     ]
+    ],
+    "40": [
+     [
+      53,
+      60
+     ],
+     [
+      54,
+      50
+     ]
+    ],
+    "41": [
+     [
+      50,
+      65
+     ],
+     [
+      56,
+      49
+     ]
+    ],
+    "42": [
+     [
+      46,
+      60
+     ],
+     [
+      60,
+      50
+     ]
+    ],
+    "43": [
+     [
+      48,
+      56
+     ],
+     [
+      58,
+      54
+     ]
+    ],
+    "44": [
+     [
+      48,
+      53
+     ],
+     [
+      62,
+      53
+     ]
+    ],
+    "45": [
+     [
+      48,
+      51
+     ],
+     [
+      64,
+      55
+     ]
+    ],
+    "46": [
+     [
+      51,
+      48
+     ],
+     [
+      63,
+      56
+     ]
+    ],
+    "47": [
+     [
+      52,
+      51
+     ],
+     [
+      57,
+      55
+     ]
+    ],
+    "48": [
+     [
+      59,
+      50
+     ],
+     [
+      57,
+      63
+     ]
+    ],
+    "49": [
+     [
+      61,
+      51
+     ],
+     [
+      54,
+      65
+     ]
+    ],
+    "50": [
+     [
+      62,
+      52
+     ],
+     [
+      53,
+      62
+     ]
+    ],
+    "51": [
+     [
+      66,
+      56
+     ],
+     [
+      48,
+      59
+     ]
+    ],
+    "52": [
+     [
+      64,
+      58
+     ],
+     [
+      46,
+      56
+     ]
+    ],
+    "53": [
+     [
+      61,
+      60
+     ],
+     [
+      45,
+      56
+     ]
+    ],
+    "54": [
+     [
+      59,
+      58
+     ],
+     [
+      46,
+      53
+     ]
+    ],
+    "55": [
+     [
+      56,
+      59
+     ],
+     [
+      51,
+      52
+     ]
+    ],
+    "56": [
+     [
+      53,
+      60
+     ],
+     [
+      54,
+      50
+     ]
+    ],
+    "57": [
+     [
+      50,
+      65
+     ],
+     [
+      56,
+      49
+     ]
+    ],
+    "58": [
+     [
+      46,
+      60
+     ],
+     [
+      60,
+      50
+     ]
+    ],
+    "59": [
+     [
+      48,
+      56
+     ],
+     [
+      58,
+      54
+     ]
+    ],
+    "60": [
+     [
+      48,
+      53
+     ],
+     [
+      62,
+      53
+     ]
+    ],
+    "61": [
+     [
+      48,
+      51
+     ],
+     [
+      64,
+      55
+     ]
+    ],
+    "62": [
+     [
+      51,
+      48
+     ],
+     [
+      63,
+      56
+     ]
+    ],
+    "63": [
+     [
+      52,
+      51
+     ],
+     [
+      57,
+      55
+     ]
+    ]
+   },
+   "sheet": "sheets/g038at.png",
+   "sheet_crop": [
+    30,
+    37,
+    85,
+    88
+   ],
+   "cell": [
+    55,
+    51
+   ],
+   "pivot_in_cell": [
+    25,
+    32
+   ]
+  },
+  {
+   "file": "g038atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.94,
+   "mask_only": false,
+   "sheet": "sheets/g038atb.png",
+   "sheet_crop": [
+    36,
+    50,
+    79,
+    79
+   ],
+   "cell": [
+    43,
+    29
+   ],
+   "pivot_in_cell": [
+    19,
+    19
+   ]
+  },
+  {
+   "file": "g038ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g038da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g038da.png",
+   "sheet_crop": [
+    35,
+    38,
+    82,
+    90
+   ],
+   "cell": [
+    47,
+    52
+   ],
+   "pivot_in_cell": [
+    20,
+    31
+   ]
+  },
+  {
+   "file": "g038das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g038mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g038mo.png",
+   "sheet_crop": [
+    30,
+    37,
+    85,
+    88
+   ],
+   "cell": [
+    55,
+    51
+   ],
+   "pivot_in_cell": [
+    25,
+    32
+   ]
+  },
+  {
+   "file": "g038mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 63553,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.94,
+   "mask_only": false,
+   "sheet": "sheets/g038mob.png",
+   "sheet_crop": [
+    36,
+    50,
+    79,
+    79
+   ],
+   "cell": [
+    43,
+    29
+   ],
+   "pivot_in_cell": [
+    19,
+    19
+   ]
+  },
+  {
+   "file": "g038mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  },
+  {
+   "file": "g038st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g038st.png",
+   "sheet_crop": [
+    30,
+    37,
+    85,
+    88
+   ],
+   "cell": [
+    55,
+    51
+   ],
+   "pivot_in_cell": [
+    25,
+    32
+   ]
+  },
+  {
+   "file": "g038stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 63553,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.94,
+   "mask_only": false,
+   "sheet": "sheets/g038stb.png",
+   "sheet_crop": [
+    36,
+    50,
+    79,
+    79
+   ],
+   "cell": [
+    43,
+    29
+   ],
+   "pivot_in_cell": [
+    19,
+    19
+   ]
+  },
+  {
+   "file": "g038sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    109,
+    108
+   ],
+   "pivot": [
+    55,
+    69
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

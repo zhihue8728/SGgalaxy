@@ -1,0 +1,341 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g029",
+ "kind": "ground",
+ "chassis": [
+  "Knell-Amplus",
+  "Knell-Extremus",
+  "Knell-Magnus",
+  "Knell-Maximus",
+  "Knell-Primus"
+ ],
+ "base_chassis": [
+  "Knell-Amplus",
+  "Knell-Extremus",
+  "Knell-Magnus",
+  "Knell-Maximus",
+  "Knell-Primus"
+ ],
+ "names_cn": {
+  "Knell-Amplus": "奈尔进阶",
+  "Knell-Extremus": "奈尔究极",
+  "Knell-Magnus": "奈尔强化",
+  "Knell-Maximus": "奈尔极致",
+  "Knell-Primus": "奈尔初阶"
+ },
+ "names_tw": {
+  "Knell-Amplus": "奈爾進階",
+  "Knell-Extremus": "奈爾究極",
+  "Knell-Magnus": "奈爾強化",
+  "Knell-Maximus": "奈爾極致",
+  "Knell-Primus": "奈爾初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Knell-Amplus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4170,
+   "base_armor": 0,
+   "speed_m_s": 6.8,
+   "view_range_m": 12.25,
+   "view_type": "Cone",
+   "chassis_code": "g029",
+   "chassis_image": "g029st.xpf"
+  },
+  {
+   "name": "Knell-Extremus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 6264,
+   "base_armor": 0,
+   "speed_m_s": 7.5,
+   "view_range_m": 13,
+   "view_type": "Cone",
+   "chassis_code": "g029",
+   "chassis_image": "g029st.xpf"
+  },
+  {
+   "name": "Knell-Magnus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 100,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4476,
+   "base_armor": 0,
+   "speed_m_s": 7.1,
+   "view_range_m": 12.5,
+   "view_type": "Cone",
+   "chassis_code": "g029",
+   "chassis_image": "g029st.xpf"
+  },
+  {
+   "name": "Knell-Maximus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 110,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 5298,
+   "base_armor": 0,
+   "speed_m_s": 7.3,
+   "view_range_m": 12.75,
+   "view_type": "Cone",
+   "chassis_code": "g029",
+   "chassis_image": "g029st.xpf"
+  },
+  {
+   "name": "Knell-Primus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 80,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3960,
+   "base_armor": 0,
+   "speed_m_s": 6.6,
+   "view_range_m": 12,
+   "view_type": "Cone",
+   "chassis_code": "g029",
+   "chassis_image": "g029st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g029at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    74,
+    107
+   ],
+   "frame_count": 20,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g029at.png",
+   "sheet_crop": [
+    55,
+    75,
+    95,
+    117
+   ],
+   "cell": [
+    40,
+    42
+   ],
+   "pivot_in_cell": [
+    19,
+    32
+   ]
+  },
+  {
+   "file": "g029atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 9,
+   "type_raw": 9,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    74,
+    107
+   ],
+   "frame_count": 20,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g029atd.png",
+   "sheet_crop": [
+    37,
+    80,
+    115,
+    136
+   ],
+   "cell": [
+    78,
+    56
+   ],
+   "pivot_in_cell": [
+    37,
+    27
+   ]
+  },
+  {
+   "file": "g029da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    74,
+    102
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g029da.png",
+   "sheet_crop": [
+    51,
+    89,
+    99,
+    119
+   ],
+   "cell": [
+    48,
+    30
+   ],
+   "pivot_in_cell": [
+    23,
+    13
+   ]
+  },
+  {
+   "file": "g029mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    225,
+    233
+   ],
+   "pivot": [
+    109,
+    146
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g029mo.png",
+   "sheet_crop": [
+    44,
+    84,
+    182,
+    194
+   ],
+   "cell": [
+    138,
+    110
+   ],
+   "pivot_in_cell": [
+    65,
+    62
+   ]
+  },
+  {
+   "file": "g029st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    225,
+    233
+   ],
+   "pivot": [
+    109,
+    146
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g029st.png",
+   "sheet_crop": [
+    44,
+    84,
+    181,
+    194
+   ],
+   "cell": [
+    137,
+    110
+   ],
+   "pivot_in_cell": [
+    65,
+    62
+   ]
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

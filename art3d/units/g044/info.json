@@ -1,0 +1,1043 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g044",
+ "kind": "ground",
+ "chassis": [
+  "Mephit",
+  "Mephit-Mk2",
+  "Mephit-Mk3",
+  "Mephit-Mk4",
+  "Mephit-Mk5"
+ ],
+ "base_chassis": [
+  "Mephit"
+ ],
+ "names_cn": {
+  "Mephit": "梅菲特"
+ },
+ "names_tw": {
+  "Mephit": "梅菲特"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Mephit",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 55,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 19,
+   "unit_weight_kg": 100,
+   "type": "Biological",
+   "base_health": 2895,
+   "base_armor": 30,
+   "speed_m_s": 1.8,
+   "view_range_m": 8.5,
+   "view_type": "Cone",
+   "chassis_code": "g044",
+   "description_summary": "The heaviest available infantry chassis, built for intense firefights by Terminus. Naturally phasic."
+  },
+  {
+   "name": "Mephit-Mk2",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 72,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 20,
+   "unit_weight_kg": 100,
+   "type": "Biological",
+   "base_health": 4005,
+   "base_armor": 45,
+   "speed_m_s": 2,
+   "view_range_m": 8.75,
+   "view_type": "Cone",
+   "chassis_code": "g044",
+   "description_summary": "A heavy infantry chassis built by Terminus for intense firefights, and naturally phasic."
+  },
+  {
+   "name": "Mephit-Mk3",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 90,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 22,
+   "unit_weight_kg": 100,
+   "type": "Biological",
+   "base_health": 5100,
+   "base_armor": 60,
+   "speed_m_s": 2.2,
+   "view_range_m": 9,
+   "view_type": "Cone",
+   "chassis_code": "g044",
+   "description_summary": "Heaviest infantry chassis, built for intense firefights; naturally phasic."
+  },
+  {
+   "name": "Mephit-Mk4",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 107,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 24,
+   "unit_weight_kg": 100,
+   "type": "Biological",
+   "base_health": 6210,
+   "base_armor": 75,
+   "speed_m_s": 2.4,
+   "view_range_m": 9.25,
+   "view_type": "Cone",
+   "chassis_code": "g044",
+   "description_summary": "Terminus's heaviest infantry, built for intense firefights. This chassis is naturally phasic."
+  },
+  {
+   "name": "Mephit-Mk5",
+   "category": "Infantry",
+   "group": "Geo-frame",
+   "influence": 120,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 26,
+   "unit_weight_kg": 100,
+   "type": "Biological",
+   "base_health": 7320,
+   "base_armor": 90,
+   "speed_m_s": 2.6,
+   "view_range_m": 9.5,
+   "view_type": "Cone",
+   "chassis_code": "g044",
+   "description_summary": "Terminus's answer to intense firefights, this Enforcer is the heaviest infantry; the chassis is naturally phasic."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g044at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 63333,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 64,
+   "dirs": 16,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.19,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      141,
+      110
+     ]
+    ],
+    "1": [
+     [
+      135,
+      121
+     ]
+    ],
+    "2": [
+     [
+      122,
+      131
+     ]
+    ],
+    "3": [
+     [
+      104,
+      134
+     ]
+    ],
+    "4": [
+     [
+      88,
+      136
+     ]
+    ],
+    "5": [
+     [
+      70,
+      132
+     ]
+    ],
+    "6": [
+     [
+      57,
+      126
+     ]
+    ],
+    "7": [
+     [
+      46,
+      113
+     ]
+    ],
+    "8": [
+     [
+      45,
+      100
+     ]
+    ],
+    "9": [
+     [
+      49,
+      88
+     ]
+    ],
+    "10": [
+     [
+      62,
+      78
+     ]
+    ],
+    "11": [
+     [
+      79,
+      69
+     ]
+    ],
+    "12": [
+     [
+      97,
+      69
+     ]
+    ],
+    "13": [
+     [
+      116,
+      73
+     ]
+    ],
+    "14": [
+     [
+      131,
+      83
+     ]
+    ],
+    "15": [
+     [
+      138,
+      95
+     ]
+    ],
+    "16": [
+     [
+      141,
+      110
+     ]
+    ],
+    "17": [
+     [
+      135,
+      121
+     ]
+    ],
+    "18": [
+     [
+      122,
+      131
+     ]
+    ],
+    "19": [
+     [
+      104,
+      134
+     ]
+    ],
+    "20": [
+     [
+      88,
+      136
+     ]
+    ],
+    "21": [
+     [
+      70,
+      132
+     ]
+    ],
+    "22": [
+     [
+      57,
+      126
+     ]
+    ],
+    "23": [
+     [
+      46,
+      113
+     ]
+    ],
+    "24": [
+     [
+      45,
+      100
+     ]
+    ],
+    "25": [
+     [
+      49,
+      88
+     ]
+    ],
+    "26": [
+     [
+      62,
+      78
+     ]
+    ],
+    "27": [
+     [
+      79,
+      69
+     ]
+    ],
+    "28": [
+     [
+      97,
+      69
+     ]
+    ],
+    "29": [
+     [
+      116,
+      73
+     ]
+    ],
+    "30": [
+     [
+      131,
+      83
+     ]
+    ],
+    "31": [
+     [
+      138,
+      95
+     ]
+    ],
+    "32": [
+     [
+      140,
+      104
+     ]
+    ],
+    "33": [
+     [
+      134,
+      118
+     ]
+    ],
+    "34": [
+     [
+      122,
+      127
+     ]
+    ],
+    "35": [
+     [
+      104,
+      134
+     ]
+    ],
+    "36": [
+     [
+      88,
+      134
+     ]
+    ],
+    "37": [
+     [
+      70,
+      132
+     ]
+    ],
+    "38": [
+     [
+      57,
+      122
+     ]
+    ],
+    "39": [
+     [
+      46,
+      113
+     ]
+    ],
+    "40": [
+     [
+      46,
+      97
+     ]
+    ],
+    "41": [
+     [
+      50,
+      85
+     ]
+    ],
+    "42": [
+     [
+      62,
+      72
+     ]
+    ],
+    "43": [
+     [
+      77,
+      66
+     ]
+    ],
+    "44": [
+     [
+      96,
+      65
+     ]
+    ],
+    "45": [
+     [
+      114,
+      71
+     ]
+    ],
+    "46": [
+     [
+      130,
+      78
+     ]
+    ],
+    "47": [
+     [
+      139,
+      92
+     ]
+    ],
+    "48": [
+     [
+      141,
+      110
+     ]
+    ],
+    "49": [
+     [
+      135,
+      121
+     ]
+    ],
+    "50": [
+     [
+      122,
+      131
+     ]
+    ],
+    "51": [
+     [
+      104,
+      134
+     ]
+    ],
+    "52": [
+     [
+      88,
+      136
+     ]
+    ],
+    "53": [
+     [
+      70,
+      132
+     ]
+    ],
+    "54": [
+     [
+      57,
+      126
+     ]
+    ],
+    "55": [
+     [
+      46,
+      113
+     ]
+    ],
+    "56": [
+     [
+      45,
+      100
+     ]
+    ],
+    "57": [
+     [
+      49,
+      88
+     ]
+    ],
+    "58": [
+     [
+      62,
+      78
+     ]
+    ],
+    "59": [
+     [
+      79,
+      69
+     ]
+    ],
+    "60": [
+     [
+      97,
+      69
+     ]
+    ],
+    "61": [
+     [
+      116,
+      73
+     ]
+    ],
+    "62": [
+     [
+      131,
+      83
+     ]
+    ],
+    "63": [
+     [
+      138,
+      95
+     ]
+    ]
+   },
+   "sheet": "sheets/g044at.png",
+   "sheet_crop": [
+    41,
+    63,
+    146,
+    150
+   ],
+   "cell": [
+    105,
+    87
+   ],
+   "pivot_in_cell": [
+    51,
+    71
+   ]
+  },
+  {
+   "file": "g044atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 63553,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 64,
+   "dirs": 32,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.06,
+   "mask_only": false,
+   "sheet": "sheets/g044atb.png",
+   "sheet_crop": [
+    74,
+    88,
+    113,
+    142
+   ],
+   "cell": [
+    39,
+    54
+   ],
+   "pivot_in_cell": [
+    18,
+    46
+   ]
+  },
+  {
+   "file": "g044ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 63312,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 64,
+   "dirs": 32,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.06,
+   "mask_only": true
+  },
+  {
+   "file": "g044da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 63489,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g044da.png",
+   "sheet_crop": [
+    55,
+    75,
+    126,
+    138
+   ],
+   "cell": [
+    71,
+    63
+   ],
+   "pivot_in_cell": [
+    37,
+    59
+   ]
+  },
+  {
+   "file": "g044das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 63504,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g044dt.xpf",
+   "dat": "tc2.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g044dt.png",
+   "sheet_crop": [
+    47,
+    74,
+    140,
+    148
+   ],
+   "cell": [
+    93,
+    74
+   ],
+   "pivot_in_cell": [
+    45,
+    60
+   ]
+  },
+  {
+   "file": "g044dtb.xpf",
+   "dat": "tc2.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 46851,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g044dtb.png",
+   "sheet_crop": [
+    75,
+    90,
+    111,
+    141
+   ],
+   "cell": [
+    36,
+    51
+   ],
+   "pivot_in_cell": [
+    17,
+    44
+   ]
+  },
+  {
+   "file": "g044dts.xpf",
+   "dat": "tc2.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g044mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g044mo.png",
+   "sheet_crop": [
+    47,
+    74,
+    140,
+    148
+   ],
+   "cell": [
+    93,
+    74
+   ],
+   "pivot_in_cell": [
+    45,
+    60
+   ]
+  },
+  {
+   "file": "g044mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 46851,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g044mob.png",
+   "sheet_crop": [
+    75,
+    90,
+    111,
+    141
+   ],
+   "cell": [
+    36,
+    51
+   ],
+   "pivot_in_cell": [
+    17,
+    44
+   ]
+  },
+  {
+   "file": "g044mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 41987,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 16,
+   "dirs": 8,
+   "frames_per_dir": 2,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g044mop.png",
+   "sheet_crop": [
+    70,
+    112,
+    118,
+    146
+   ],
+   "cell": [
+    48,
+    34
+   ],
+   "pivot_in_cell": [
+    22,
+    22
+   ]
+  },
+  {
+   "file": "g044mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g044st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g044st.png",
+   "sheet_crop": [
+    46,
+    72,
+    141,
+    147
+   ],
+   "cell": [
+    95,
+    75
+   ],
+   "pivot_in_cell": [
+    46,
+    62
+   ]
+  },
+  {
+   "file": "g044stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g044stb.png",
+   "sheet_crop": [
+    76,
+    91,
+    111,
+    139
+   ],
+   "cell": [
+    35,
+    48
+   ],
+   "pivot_in_cell": [
+    16,
+    43
+   ]
+  },
+  {
+   "file": "g044sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    183,
+    183
+   ],
+   "pivot": [
+    92,
+    134
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

@@ -1,0 +1,76 @@
+ksBadWordForUnitName	That name contains a restricted word. Please choose another name.
+ksPatchMessage		A new SG upgrade is available! Your game is version %d and will be patched to version %d. Proceed?
+ksPollLoadingData	Loading poll information from BBS server.
+ksPollAlreadyVote	You have already submitted your opinion.
+ksPollHideResult	We have received your vote on this question. Thanks!
+
+ksRankInfantry		Infantry
+ksRankMobile		Mobile
+ksRankAviation		Aviation
+ksRankAuxiliary		Organic
+
+ksConnectFail		Server connection failure...Press OK to try again.
+ksVersionIncorrect	Incorrect version of SG. Please reinstall from your CD.
+ksConnectingServer	Connecting to %s Server
+ksConnectedToServer	Connected to %s Server
+ksAllServerImpossible	Server connection failure.
+
+ksSCLevelLimitToFound	You must reach level %d before founding a faction.
+ksSCJoinNation		You will become a member of %s. Are you certain you wish to join this faction?
+ksSCJoinNationPenalty	You will become a member of %s. WARNING YOU WILL LOSE URANIUM AND HONOR IF YOU JOIN THIS FACTION. Are you certain you wish to join this faction?
+ksSCVisitNation		Do you want to visit %s?
+ksSCTimeNoReach		%d %s is not accepting new members at this time, please try again later.
+ksSCReturnMaxUnit	Your new incarnation will not be able to own more than %d units.
+ksSCReturnCountMax	You cannot reincarnate more than %d times.
+ksSCSetNationFirst	First select the faction.
+ksSCNowPossible		Now Possible.
+ksSCLaterPossible	%3d later possible
+ksSCNoFaction		There are currently no factions open at this time.
+ksSCPenaltyAll		LOSE ALL UNITS
+ksSCPenaltyZero		No Penalty
+kssCPenaltyText		WARNING YOU WILL LOSE ALL YOUR UNITS AND HONOR IF YOU JOIN THIS FACTION.
+
+ksSGTerrain		Terrain :
+ksSGGravity		Gravity :
+ksSGAtmosphere		Atmosphere : 	
+ksSGCloudCover		Cloud Cover :  
+ksSGRadiation		Radiation :  
+ksSGResourceAbundance	Resource Abundance : 
+ksSGDistanceFromSun	Distance from Sun : 
+ksSGDistanceFromHero	Distance from %s : 
+ksSGTimeToEscape	Time until out of range : 
+ksSGTimeWithin		Time until within range : 
+ksSGTimePassed		                %2dh %2dm
+ksSGTimeOver		        More than 2 days
+ksSGDistanceOver	That planet is too far for you to reach.
+ksSGNewbieDistance	It is too far from here to reach. But because it's a novice planet, travel is possible. Note that you will not be able to return here from that destination.
+ksSGNowTraveling	Now traveling to the destination. Please wait for a while.
+
+ksChatPublic		Public
+ksChatAllies		Allies
+ksChatApprentice	To Subordinates
+ksChatMentor		To Superior
+
+ksNoDuplication		The same message can't be repeated more than three times.
+ksChatGroup		Group
+
+ksMacroDefault1		Protect the POC.
+ksMacroDefault2		I need Air to Air protection.
+ksMacroDefault3		I need Air to Ground protection.
+ksMacroDefault4		I need Artillery support.
+ksMacroDefault5		Locate the enemy artillery.
+ksMacroDefault6	
+ksMacroDefault7	
+ksMacroDefault8	
+ksMacroDefault9	
+ksMacroDefault0		Please repair/heal me!
+
+ksMacroMessage		Use Macro (CTRL + SHIFT + #>
+
+ksSetupMenuNewHero		Create a New Hero.
+ksSetupMenuContinue		Log in
+ksSetupMenuOption		Set Options
+ksSetupMenuBriefingRoom		View Battle Recordings
+ksSetupMenuCredits		View Credits
+ksSetupMenuExit			Exit
+

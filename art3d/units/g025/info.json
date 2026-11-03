@@ -1,0 +1,1223 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g025",
+ "kind": "ground",
+ "chassis": [
+  "Larva-Amplus",
+  "Larva-Magnus",
+  "Larva-Maximus",
+  "Larva-Primus"
+ ],
+ "base_chassis": [
+  "Larva-Amplus",
+  "Larva-Magnus",
+  "Larva-Maximus",
+  "Larva-Primus"
+ ],
+ "names_cn": {
+  "Larva-Amplus": "幼虫进阶",
+  "Larva-Magnus": "幼虫强化",
+  "Larva-Maximus": "幼虫极致",
+  "Larva-Primus": "幼虫初阶"
+ },
+ "names_tw": {
+  "Larva-Amplus": "幼蟲進階",
+  "Larva-Magnus": "幼蟲強化",
+  "Larva-Maximus": "幼蟲極致",
+  "Larva-Primus": "幼蟲初階"
+ },
+ "alien_role": "Larva",
+ "manual": [
+  {
+   "name": "Larva-Amplus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 10,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1710,
+   "base_armor": 0,
+   "speed_m_s": 5.3,
+   "view_range_m": 10.25,
+   "view_type": "Cone",
+   "chassis_code": "g025",
+   "chassis_image": "g025st.xpf"
+  },
+  {
+   "name": "Larva-Magnus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 20,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1872,
+   "base_armor": 0,
+   "speed_m_s": 5.3,
+   "view_range_m": 10.5,
+   "view_type": "Cone",
+   "chassis_code": "g025",
+   "chassis_image": "g025st.xpf"
+  },
+  {
+   "name": "Larva-Maximus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 30,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2091,
+   "base_armor": 0,
+   "speed_m_s": 5.8,
+   "view_range_m": 10.75,
+   "view_type": "Cone",
+   "chassis_code": "g025",
+   "chassis_image": "g025st.xpf"
+  },
+  {
+   "name": "Larva-Primus",
+   "category": "Organic",
+   "group": "Xeno-scavus",
+   "unit_quality": 0,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1575,
+   "base_armor": 0,
+   "speed_m_s": 5,
+   "view_range_m": 10,
+   "view_type": "Cone",
+   "chassis_code": "g025",
+   "chassis_image": "g025st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g025at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    92
+   ],
+   "frame_count": 144,
+   "dirs": 8,
+   "frames_per_dir": 18,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      113,
+      93
+     ]
+    ],
+    "1": [
+     [
+      102,
+      110
+     ]
+    ],
+    "2": [
+     [
+      76,
+      113
+     ]
+    ],
+    "3": [
+     [
+      49,
+      107
+     ]
+    ],
+    "4": [
+     [
+      42,
+      91
+     ]
+    ],
+    "5": [
+     [
+      56,
+      77
+     ]
+    ],
+    "6": [
+     [
+      75,
+      73
+     ]
+    ],
+    "7": [
+     [
+      101,
+      79
+     ]
+    ],
+    "8": [
+     [
+      113,
+      93
+     ]
+    ],
+    "9": [
+     [
+      102,
+      110
+     ]
+    ],
+    "10": [
+     [
+      76,
+      113
+     ]
+    ],
+    "11": [
+     [
+      49,
+      107
+     ]
+    ],
+    "12": [
+     [
+      42,
+      91
+     ]
+    ],
+    "13": [
+     [
+      56,
+      77
+     ]
+    ],
+    "14": [
+     [
+      75,
+      73
+     ]
+    ],
+    "15": [
+     [
+      101,
+      79
+     ]
+    ],
+    "16": [
+     [
+      113,
+      93
+     ]
+    ],
+    "17": [
+     [
+      102,
+      110
+     ]
+    ],
+    "18": [
+     [
+      76,
+      113
+     ]
+    ],
+    "19": [
+     [
+      49,
+      107
+     ]
+    ],
+    "20": [
+     [
+      42,
+      91
+     ]
+    ],
+    "21": [
+     [
+      56,
+      77
+     ]
+    ],
+    "22": [
+     [
+      75,
+      73
+     ]
+    ],
+    "23": [
+     [
+      101,
+      79
+     ]
+    ],
+    "24": [
+     [
+      95,
+      71
+     ]
+    ],
+    "25": [
+     [
+      91,
+      81
+     ]
+    ],
+    "26": [
+     [
+      73,
+      82
+     ]
+    ],
+    "27": [
+     [
+      63,
+      78
+     ]
+    ],
+    "28": [
+     [
+      59,
+      71
+     ]
+    ],
+    "29": [
+     [
+      65,
+      65
+     ]
+    ],
+    "30": [
+     [
+      75,
+      63
+     ]
+    ],
+    "31": [
+     [
+      90,
+      63
+     ]
+    ],
+    "32": [
+     [
+      113,
+      93
+     ]
+    ],
+    "33": [
+     [
+      102,
+      110
+     ]
+    ],
+    "34": [
+     [
+      76,
+      113
+     ]
+    ],
+    "35": [
+     [
+      49,
+      107
+     ]
+    ],
+    "36": [
+     [
+      42,
+      91
+     ]
+    ],
+    "37": [
+     [
+      56,
+      77
+     ]
+    ],
+    "38": [
+     [
+      75,
+      73
+     ]
+    ],
+    "39": [
+     [
+      101,
+      79
+     ]
+    ],
+    "40": [
+     [
+      113,
+      93
+     ]
+    ],
+    "41": [
+     [
+      102,
+      110
+     ]
+    ],
+    "42": [
+     [
+      76,
+      113
+     ]
+    ],
+    "43": [
+     [
+      49,
+      107
+     ]
+    ],
+    "44": [
+     [
+      42,
+      91
+     ]
+    ],
+    "45": [
+     [
+      56,
+      77
+     ]
+    ],
+    "46": [
+     [
+      75,
+      73
+     ]
+    ],
+    "47": [
+     [
+      101,
+      79
+     ]
+    ],
+    "48": [
+     [
+      113,
+      93
+     ]
+    ],
+    "49": [
+     [
+      102,
+      110
+     ]
+    ],
+    "50": [
+     [
+      76,
+      113
+     ]
+    ],
+    "51": [
+     [
+      49,
+      107
+     ]
+    ],
+    "52": [
+     [
+      42,
+      91
+     ]
+    ],
+    "53": [
+     [
+      56,
+      77
+     ]
+    ],
+    "54": [
+     [
+      75,
+      73
+     ]
+    ],
+    "55": [
+     [
+      101,
+      79
+     ]
+    ],
+    "56": [
+     [
+      113,
+      93
+     ]
+    ],
+    "57": [
+     [
+      102,
+      110
+     ]
+    ],
+    "58": [
+     [
+      76,
+      113
+     ]
+    ],
+    "59": [
+     [
+      49,
+      107
+     ]
+    ],
+    "60": [
+     [
+      42,
+      91
+     ]
+    ],
+    "61": [
+     [
+      56,
+      77
+     ]
+    ],
+    "62": [
+     [
+      75,
+      73
+     ]
+    ],
+    "63": [
+     [
+      101,
+      79
+     ]
+    ],
+    "64": [
+     [
+      113,
+      93
+     ]
+    ],
+    "65": [
+     [
+      102,
+      110
+     ]
+    ],
+    "66": [
+     [
+      76,
+      113
+     ]
+    ],
+    "67": [
+     [
+      49,
+      107
+     ]
+    ],
+    "68": [
+     [
+      42,
+      91
+     ]
+    ],
+    "69": [
+     [
+      56,
+      77
+     ]
+    ],
+    "70": [
+     [
+      75,
+      73
+     ]
+    ],
+    "71": [
+     [
+      101,
+      79
+     ]
+    ],
+    "72": [
+     [
+      113,
+      93
+     ]
+    ],
+    "73": [
+     [
+      102,
+      110
+     ]
+    ],
+    "74": [
+     [
+      76,
+      113
+     ]
+    ],
+    "75": [
+     [
+      49,
+      107
+     ]
+    ],
+    "76": [
+     [
+      42,
+      91
+     ]
+    ],
+    "77": [
+     [
+      56,
+      77
+     ]
+    ],
+    "78": [
+     [
+      75,
+      73
+     ]
+    ],
+    "79": [
+     [
+      101,
+      79
+     ]
+    ],
+    "80": [
+     [
+      113,
+      93
+     ]
+    ],
+    "81": [
+     [
+      102,
+      110
+     ]
+    ],
+    "82": [
+     [
+      76,
+      113
+     ]
+    ],
+    "83": [
+     [
+      49,
+      107
+     ]
+    ],
+    "84": [
+     [
+      42,
+      91
+     ]
+    ],
+    "85": [
+     [
+      56,
+      77
+     ]
+    ],
+    "86": [
+     [
+      75,
+      73
+     ]
+    ],
+    "87": [
+     [
+      101,
+      79
+     ]
+    ],
+    "88": [
+     [
+      113,
+      93
+     ]
+    ],
+    "89": [
+     [
+      102,
+      110
+     ]
+    ],
+    "90": [
+     [
+      76,
+      113
+     ]
+    ],
+    "91": [
+     [
+      49,
+      107
+     ]
+    ],
+    "92": [
+     [
+      42,
+      91
+     ]
+    ],
+    "93": [
+     [
+      56,
+      77
+     ]
+    ],
+    "94": [
+     [
+      75,
+      73
+     ]
+    ],
+    "95": [
+     [
+      101,
+      79
+     ]
+    ],
+    "96": [
+     [
+      113,
+      93
+     ]
+    ],
+    "97": [
+     [
+      102,
+      110
+     ]
+    ],
+    "98": [
+     [
+      76,
+      113
+     ]
+    ],
+    "99": [
+     [
+      49,
+      107
+     ]
+    ],
+    "100": [
+     [
+      42,
+      91
+     ]
+    ],
+    "101": [
+     [
+      56,
+      77
+     ]
+    ],
+    "102": [
+     [
+      75,
+      73
+     ]
+    ],
+    "103": [
+     [
+      101,
+      79
+     ]
+    ],
+    "104": [
+     [
+      113,
+      93
+     ]
+    ],
+    "105": [
+     [
+      102,
+      110
+     ]
+    ],
+    "106": [
+     [
+      76,
+      113
+     ]
+    ],
+    "107": [
+     [
+      49,
+      107
+     ]
+    ],
+    "108": [
+     [
+      42,
+      91
+     ]
+    ],
+    "109": [
+     [
+      56,
+      77
+     ]
+    ],
+    "110": [
+     [
+      75,
+      73
+     ]
+    ],
+    "111": [
+     [
+      101,
+      79
+     ]
+    ],
+    "112": [
+     [
+      113,
+      93
+     ]
+    ],
+    "113": [
+     [
+      102,
+      110
+     ]
+    ],
+    "114": [
+     [
+      76,
+      113
+     ]
+    ],
+    "115": [
+     [
+      49,
+      107
+     ]
+    ],
+    "116": [
+     [
+      42,
+      91
+     ]
+    ],
+    "117": [
+     [
+      56,
+      77
+     ]
+    ],
+    "118": [
+     [
+      75,
+      73
+     ]
+    ],
+    "119": [
+     [
+      101,
+      79
+     ]
+    ],
+    "120": [
+     [
+      113,
+      93
+     ]
+    ],
+    "121": [
+     [
+      102,
+      110
+     ]
+    ],
+    "122": [
+     [
+      76,
+      113
+     ]
+    ],
+    "123": [
+     [
+      49,
+      107
+     ]
+    ],
+    "124": [
+     [
+      42,
+      91
+     ]
+    ],
+    "125": [
+     [
+      56,
+      77
+     ]
+    ],
+    "126": [
+     [
+      75,
+      73
+     ]
+    ],
+    "127": [
+     [
+      101,
+      79
+     ]
+    ],
+    "128": [
+     [
+      113,
+      93
+     ]
+    ],
+    "129": [
+     [
+      102,
+      110
+     ]
+    ],
+    "130": [
+     [
+      76,
+      113
+     ]
+    ],
+    "131": [
+     [
+      49,
+      107
+     ]
+    ],
+    "132": [
+     [
+      42,
+      91
+     ]
+    ],
+    "133": [
+     [
+      56,
+      77
+     ]
+    ],
+    "134": [
+     [
+      75,
+      73
+     ]
+    ],
+    "135": [
+     [
+      101,
+      79
+     ]
+    ],
+    "136": [
+     [
+      113,
+      93
+     ]
+    ],
+    "137": [
+     [
+      102,
+      110
+     ]
+    ],
+    "138": [
+     [
+      76,
+      113
+     ]
+    ],
+    "139": [
+     [
+      49,
+      107
+     ]
+    ],
+    "140": [
+     [
+      42,
+      91
+     ]
+    ],
+    "141": [
+     [
+      56,
+      77
+     ]
+    ],
+    "142": [
+     [
+      75,
+      73
+     ]
+    ],
+    "143": [
+     [
+      101,
+      79
+     ]
+    ]
+   },
+   "sheet": "sheets/g025at.png",
+   "sheet_crop": [
+    31,
+    53,
+    124,
+    123
+   ],
+   "cell": [
+    93,
+    70
+   ],
+   "pivot_in_cell": [
+    42,
+    39
+   ]
+  },
+  {
+   "file": "g025ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    92
+   ],
+   "frame_count": 144,
+   "dirs": 8,
+   "frames_per_dir": 18,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g025da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    160
+   ],
+   "pivot": [
+    73,
+    92
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g025da.png",
+   "sheet_crop": [
+    56,
+    76,
+    95,
+    107
+   ],
+   "cell": [
+    39,
+    31
+   ],
+   "pivot_in_cell": [
+    17,
+    16
+   ]
+  },
+  {
+   "file": "g025mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.56,
+   "mask_only": false,
+   "sheet": "sheets/g025mo.png",
+   "sheet_crop": [
+    32,
+    66,
+    123,
+    122
+   ],
+   "cell": [
+    91,
+    56
+   ],
+   "pivot_in_cell": [
+    41,
+    26
+   ]
+  },
+  {
+   "file": "g025mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.56,
+   "mask_only": true
+  },
+  {
+   "file": "g025st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g025st.png",
+   "sheet_crop": [
+    32,
+    57,
+    123,
+    122
+   ],
+   "cell": [
+    91,
+    65
+   ],
+   "pivot_in_cell": [
+    41,
+    35
+   ]
+  },
+  {
+   "file": "g025sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    73,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

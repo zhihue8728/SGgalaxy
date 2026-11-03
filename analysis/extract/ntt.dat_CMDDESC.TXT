@@ -1,0 +1,61 @@
+ksICBMImp		It requires 5 minutes for %s to fully arm the IRBM. The gauge above the unit's health bar indicates how much time remains until the IRBM is armed and ready for launch.
+ksAttackImp		%s is not equipped to carry out that attack order.
+ksTeleportImp	%s cannot be phased.
+ksTransportImp	%s cannot be transported.
+ksTunnelImp		%s can't be the destination of the teleport link. Make sure the target is installed and has the Link Gate ability.
+ksYamatoImp		%s cannot fire at that target. The Fusion Storm can only target air units and must recharge before each use.
+ksPatriotImp		%s can't target here
+ksMove			Moves the unit to the destination you click on. The unit will ignore all enemies until it reaches its destination.
+ksStop			Stops this unit from moving and attacking.
+ksAttackObj		Attacks an enemy unit or move to a location, attacking any enemies encountered on the way.
+ksAttackLand	 
+ksInstall		Installs the unit. Installed units cannot move. Some special abilities can only be used when installed.
+ksInstallRelease	Uninstalls the unit.
+ksAmbush		Installs the unit and bombards a ground region in the direction it is facing. The unit must be uninstalled to change direction.
+ksAmbushRelease		Uninstalls the unit.
+ksUnitIdentity		Obtains detailed information on the next unit you click on.
+ksRadar			Scans the map for enemy units.
+ksTransportIn		Loads the next friendly unit you click on. You can then transport the unit to another location. Only one unit may be transported at a time.
+ksTransportOut		Immediately unloads the unit being carried by this transport.
+ksHeal			Heals the next biological unit you click on. Note that most infantry units are biological.
+ksRepair		Repairs the next mechanical unit you click on. Note that most aviation and mobile units are mechanical.
+ksTeleport		Teleports the next unit you click on to this location. Note that most units cannot be teleported unless they are equipped with Phasic armor or a Phase Facilitator.
+ksMine			Sets a mine at this location. Mines are not detonated by friendly units. Mines are invisible to enemies.
+ksRadarJam		Scrambles enemy Mini-maps.
+ksMineDetect		When activated, nearby enemy mines can be removed harmlessly.
+ksRefuel		Transfers energy from this unit to the next unit you click on.
+ksCloak			Cloaks this unit, making it difficult to see by enemies. Enemy units can still target your unit directly and area of effect attacks will still harm your unit. Cloak drains energy while activated.
+ksEMPMine		Sets an EMP mine at this location. EMP mines drain energy instead of causing damage. Mines are not detonated by friendly units. Mines are invisible to enemies.
+ksEMPAttack		Fires an electromagnetic pulse at the next unit you click on. That unit's energy will be drained. Units with no energy cannot move, fire, or use special abilities.
+ksGrenadeAttack		Launches a grenade at the next unit you click on. Grenades cause splash damage.
+ksPsycho		Confuses the next biological unit you click on, perhaps causing it to attack its allies. Most infantry are biological.
+ksStealth		While activated, this unit becomes invisible to radar. Evasion drains energy while activated.
+ksIronCurtain		While activated, this unit becomes immune to all damage causing attacks. Units protected by a Neutron Shield cannot capture a POC. The Neutron Shield drains energy while activated.
+ksAfterBurner		While activated, this unit's speed is increased. Afterburners drain energy while activated.
+ksEMPGrenadeAttack	Launches an EMP grenade at the next unit you click on. EMP attacks drain energy instead of causing damage.
+ksDisguise		While activated, enemy units will think this unit is an ally. Disguise drains energy while activated.
+ksSelfDestruction	Begins a self-destruct sequence. Self-destruct causes great damage to all nearby units. A self-destructing unit cannot move.
+ksLevitate		Levitating units do not leave footprints and do not set off mines. Levitate drains energy while activated.
+ksLockDown		Short circuit briefly immobilizes the next mechanical unit you click on. Most aviation and mobile units are mechanical.
+ksICBM			The powerful IRBM causes great damage to all units in a large area. This ability can only be used every several minutes.
+ksCamouflage		While activated, this unit cannot be seen, be targeted, capture a POC, move, or attack. Camouflages units can be damaged by area of effect weapons.
+ksAirMine		Sets a floating mine at this location. Floating mines are triggered by enemy aircraft passing by them.
+ksAirAmbush		Installs the unit and bombards an air region in the direction it is facing. The unit must be uninstalled to change direction.
+ksAirAmbushRelease	Uninstalls the unit.
+ksBooster		While activated, this unit's speed is increased. Boosters drain energy while activated.
+ksTunnel		Sets up a portal from this unit to the allied Gate unit you click on. Friendly units can then freely move from this Gate to the destination Gate.
+ksCarpetBombing		Blanket an area with bombs.
+ksDefensiveMatrix	Sheath an ally in a Defensive Matrix.
+ksFlare			Launch a flare.
+ksShield		Set up a defense shield, protecting nearby units from attack.
+ksShieldRelease		Unistalls the unit.
+ksDynamite		Set explosives.
+ksDynamiteBlow		Ignite set explosives.
+ksDetector		Uses tacyhon radiation to detect hidden units.
+ksSnipe			Installs the unit and snipes a sharp reagion in the direction it is facing. The unit must be uninstalled to change direction.
+ksSnipeRelease		Uninstalls the unit.
+ksChemicalMine		Sets a chemical mine at the location. Chemical mines slow down their victim and are triggered by enemy unit ground passing over them.
+ksEarthquake		Earthquake
+ksPatriot		Set up defense system to protect against IRBM.
+ksPatriotRelease	Uninstalls the unit.
+ksYamato		Unlease Fusion Storm.

@@ -1,0 +1,92 @@
+kStep_None	
+kStep_01a	Hey %s! Welcome to the Shattered Galaxy! I'll be your mentor while you learn the ways of our world. You are now in your faction capital. Your capital functions as a safe zone. 
+kStep_01b	You can communicate with others by typing messages in your chat box. You can move by clicking wherever you want to go. Let's get familiar with your capital and take a stroll around.
+kStep_02a	You are urgently needed at the front! Would you like to accept the mission? By completing this mission you'll earn VALUABLE XP for your hero.
+kStep_02b	Your eagerness is admirable! Please go to the Combat Training Facility (CTF). The CTF is located in area D4 of the capital. You can find it on the Mini-map in the D4 quadrant.
+kStep_03a	You are not fully trained for battle. Do you wish to quit the training and lose out on valuable XP for your hero?
+kStep_03b	You are late for the mission training. Please head over to the CTF. Do you wish to continue with your mission?
+kStep_04b	As you wish. Good luck in your journeys!
+kStep_05a	Welcome to the mission training! This is where you will familiarize yourself with the war units used in battles. 
+kStep_05b	Your hero will never personally fight in any battles. Instead you will command specialized war machines to do your bidding.
+kStep_05bb	Use these practice units to familiarize yourself with the units and their abilities. Don't worry, you have nothing to lose here.
+kStep_06a	Each unit has various commands at their disposal. All commands available to each unit are shown in the Command Wheel located at the bottom right of the screen.
+kStep_06b	You can give your units a command by clicking the command and then a target. You can also simply right-click a target to have your unit automatically move, or attack it.
+kStep_07a	For this battle you must capture the Point of Contention (POC). In the lower right hand corner is a timer showing you how much time you have to complete your objectives.
+kStep_07b	The POC is located in C3. Quadrants containing POCs are always outlined in red on the mini-maps. To capture a POC a ground unit must stay on it until all the lights light up.
+kStep_add01	This unit has these commands available:  To command your unit, press the button on the Command Wheel in the bottom left.
+kStep_add02	A - Attack.
+kStep_add03	You're a natural! Just hold this position until it turns red and you'll win. Everytime you are capturing a POC, MAKE CERTAIN to press the (S)top button to hold your ground!
+kStep_add04	Congratulations! Now let's get ready for some real action!
+kStep_08a	Now that you are familiar with the units, it's time to assemble your own squads. Head over to the factory to assemble your army.
+kStep_08b	It's pretty tough to fight a war without troops. We highly suggest you head over to the factory to buy some units. Do you want to continue with the training?
+kStep_09a	Please head over to the factory to assemble your army.
+kStep_09b	Welcome to the Factory. This is where you purchase, repair, and sell your units. To build your army you first need to buy some basic war units.
+kStep_09bb	Please click the "PURCHASE" button to purchase some war machines to do your bidding.
+kStep_10a	You really should buy some units. It is pretty difficult to win a war without an army. Are you sure you want to explore the world without any units?
+kStep_10b	Behind are your reserve units. Below are the 4 Divisions of units you may purchase from. Simply select a unit to buy and press the "PURCHASE" button located in the lower right.
+kStep_10bb	Each unit requires a certain amount of Influence to purchase. If you do not have enough Influence, that unit will remain greyed out until you raise your influence to the correct levels.
+kStep_11a	To the lower left is a brief description for each unit. We strongly advise you to buy units in squads of similar units.  Mixing squads generally decreases your efficiency.
+kStep_11b	We strongly suggest purchasing at least 18 units for the first battle. Do you wish to exit the factory without purchasing additional units?
+kStep_12a	Now that you have some loyal troops you need to set them up into squads. Please open the Unit Deployment Screen by clicking the deployment icon or pressing <F7>.
+kStep_12b	I strongly advise you to organize your forces before heading out. Do you wish to go on without organizing your troops?
+kStep_13a	You better decide who you want fighting for you. You can access the Unit Deployment Screen by pressing the unit deployment icon or by pressing <F7>.
+kStep_13b	Welcome to the Unit Deployment Screen. This is where you set up and deploy your squads. The area behind shows the units you will control when you enter a battle.  
+kStep_13bb	Below are the reserve units you can use to modify your current squad. We HIGHLY suggest deploying similar units per squad. When your done press OK.
+kStep_14a	Now that you've set up your squad, let's see how tough they are. Let's go splatter some alien critters at the Zoo! The Zoo is located in the C2 quadrant of the capital.
+kStep_14b	Are you sure you want to go out into the world with your unproven units?
+kStep_15a	Let's put your units to the test! Head over to the Zoo to kick some alien butt!
+kStep_15b	Welcome to the Zoo. The Zoo functions as a training ground for low level units. You simply need to capture the single POC found in quadrant B4. Good Luck!
+kStep_16a	Congratulations on your first battle. After every battle you will receive the "Spoils of War" info. The area above right shows how much experience your units gained from the battle.
+kStep_16b	To the left shows how much experience you have gained for each your Divisions. You gain XP when a unit gains a level. Near the Division info are the resources earned from battle.
+kStep_17b	Your troops got a little beat up. Maybe you should head over to the factory and get them repaired.
+kStep_18a	You really should get your units repaired. Do you want to repair your units?
+kStep_18b	Then what are you waiting for? Let's get these scraps back together at the Factory!
+kStep_19a	Here you are again at the factory. You can see the Health Bar under your units. The portion of red out of the yellow bar is how much the unit is damaged.
+kStep_19b	You really should get your units repaired. Are you sure you want to explore the world with your damaged units?
+kStep_20a	So your troops were able to withstand the zoo! Let's see if they can handle more intense battles. Why don't you head over to the alien cave?
+kStep_20b	Are you scared to fight in more difficult battles?
+kStep_21a	Let's show them what you're made of. Head over to the Subterranean Cavern.
+kStep_21b	Welcome to the Subterranean Caverns. These caves are a good place to get battle experience. The objective of any alien cave is to capture all the POC and hold them concurrently.
+kStep_22a	Quadrants containing POC are always outlined in red in the mini-map. Many maps have several POC. When you capture a POC, a section inside the Command Wheel lights up.
+kStep_22b	When you have captured all the POCs, the inner Command Wheel will completely light up showing that you've captured the region. Now go out there and defeat the alien scum!
+kStep_23a	Good Job! Now you've proven yourself, its time to see some real action! Before you head out to the front, you better repair your units at the factory.
+kStep_23b	Persistence is key in becoming a great commander. Patch up your units at the factory and try again.
+kStep_24a	Let's head back to the alien caves and show them who's boss!
+kStep_24b	This is the Strategic Map of your planet. As you can see, there are several factions fighting to dominate the planet. The province you are located in is shown by blinking red.
+kStep_25a	The little person icon shows the occupants of each province. The big person icons represent 10 heroes. The medium icons 5. The small icons 1. The colors of the icons shows the faction.
+kStep_25b	Province ownership is shown by the faction colors. Small explosion icons designate provinces with ongoing battles. Battle outcomes affect the your faction's status.
+kStep_26a	Battle that are open to everyone are designated by a blue circle. Closed battles are shown with a red circle. Battles that are full are shown with a full battle symbol (three red men).
+kStep_26b	You can travel to a different province by right-clicking on it. To join a battle, you can simply right-click a province under attack.
+kStep_26bb	Now let's get into battle and help your faction out. Reinforce an ongoing battle by right-clicking it. We highly recommend you to reinforce an open battle (a battle with a blue circle).
+kStep_27a	You are now on your way to your first true battle. The timer at top shows how long it will take for your troops to arrive. When the timer reaches zero you'll enter the battle.
+kStep_27b	Welcome to your first battle. Depending on the battle situation you will have different objectives. 
+kStep_27bb	If you are attacking a hostile province, your objective is to capture the opposing POC. If you are defending a province, you must hold off the enemy for the duration of the battle, located in the Command Wheel.
+kStep_28a	As you can see, battles can be pretty intense. Unfortunately I cannot help out with any real battle advice. You will need to learn the ways of combat through your own experiences. Good luck Commander!
+kStep_28b	Ouch! Lost your first squad? Don't worry, you can always repair them later. Right now assemble a new squad and reinforce the battle as soon as you can.
+kStep_29a	You can reassemble your squad through the Unit Deployment Screen (<F7>). You can then reinforce the battle by pressing the "Reinforce" button located at the top right once the time penalty runs out.
+kStep_29b	Are you a pacifist? If you are, then you've come to the wrong place. Let's get out there for the good of your faction. Don't you want to help our your faction?
+kStep_30a	Then let's head out to the battlefront! Please click on the "MAP" button or press <F2>.
+kStep_30b	Good job on your training! I can already see that you will make your faction proud!  Go out there for the glory of your faction!
+kStep_31a	Here in the factory, you can always repair any of your damaged or destroyed units for a minimal price. You can repair your units with the repair buttons below.
+kStep_32a	This is the Pre-Battle Screen. This screen appears before you enter any battle. Your current squad is shown above. Info on the battle is shown on the left.
+kStep_32b	When your team is defending, you can "ASSIST" your allies. To initiate or enter a battle click the "ATTACK" button. Get into battle by clicking the appropriate option.
+kStep_33a	Ah, so you decided you'd rather walk to the battle. I like your attitude. Now get into battle and show them who's in charge!
+kStep_33b	Seems like we weren't able to make it to the battle in time. Let's find another battle to reinforce. Take another look at the Strategic Map. You can access the Strategic Map by clicking the "MAP" button or by pressing <F2>.
+kStep_35a	Good Job! Now let's get you where the action is! Open the Strategic Map to find a battle. You can view the strategic map by clicking the "MAP" button or pressing the <F2>.
+kStep_04a01	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a02	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a03	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a04	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a05	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a06	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a07	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a08	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a09	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a10	You are about to quit your training. Are you sure you want to quit the tutorial? 
+kStep_04a11	You are about to quit your training. Are you sure you want to quit the tutorial?
+kStep_18a01	You really should get your units repaired. Do you want to repair your units?
+kStep_18b01	Then what are you waiting for? Let's get these scraps back together at the Factory!
+kStep_18a02	You really should get your units repaired. Do you want to repair your units?
+kStep_18b02	Then what are you waiting for? Let's get these scraps back together at the Factory!
+kStep_repair01	Let's repair these scraps and get back out there!
+kStep_repair02	Let's repair these scraps and get back out there!

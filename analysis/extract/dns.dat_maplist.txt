@@ -1,0 +1,50 @@
+Z4.nm	A City In Space	B	407
+256_08.nm	Air Screw	A	301
+A5.nm	Alice Maniac	A	504
+e3.nm	Amazon	A	2
+plain01.nm	Battle Field	A	506
+256_02.nm	Blind Flare	A	104
+256_01.nm	Blood Plain	A	3
+D3.nm	Bloody Road	A	4
+rm01.nm	Bug	B	303
+G1.nm	Bullet In River	A	503
+rm6.nm	Butterfly	A	5
+c5.nm	Cell	A	304
+D0.nm	Chaos	A	6
+Z3.nm	City Hunter	B	7
+Z2.nm	Civil War	A	305
+A1-L.nm	Conquerer	A	501
+RM12.nm	Cross	A	0
+om01.nm	Cross Road	A	100
+Bnet256.nm	Demolition	A	507
+e7.nm	Dragon Castle	A	306
+D5.nm	Drowning Pool	A	101
+c4.nm	Encounter	A	102
+Z5.nm	Enigma	A	103
+f5.nm	Flare	A	307
+CM2.nm	Genocide	A	400
+RM3.nm	Get In The Ring	A	302
+rm5.nm	Hexa	A	106
+b3.nm	Holocaust	A	107
+RM13.nm	Infinity Loop	A	401
+e5.nm	Jungle	A	402
+Korea.nm	Korea	A	200
+D4.nm	Little Wing	A	505
+e0.nm	Long Bridge	A	201
+E4-1.nm	Lost City	B	403
+Free.nm	Machine	B	404
+malibu.nm	Malibu	A	600
+rm4.nm	Mountain	A	202
+RM8.nm	NEXIA	A	203
+RM14.nm	Nine Hills	A	204
+RM15.nm	Red Eyes	A	205
+RM10.nm	Rest In Peace	A	105
+RM11.nm	Rifle	A	1
+A1-DR2.nm	Run and Gun	A	502
+om2.nm	Six Death	A	206
+256_00.nm	Slaughter	A	207
+RM9.nm	Spider	A	405
+rm7.nm	Taeguk	A	300
+h4.nm	War Heads	A	406
+Z1.nm	X-Hill	B	500
+

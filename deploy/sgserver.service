@@ -1,0 +1,21 @@
+[Unit]
+Description=SGalaxy game server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=sg
+WorkingDirectory=/opt/sgserver/server
+ExecStart=/usr/bin/python3 -u sgserver.py --port @PORT@ --public-ip @IP@ --update-port @UPORT@ --relay-port @RPORT@ --log /opt/sgserver/logs/sgserver.log
+# the server saves accounts / NPCs on shutdown (SIGINT -> KeyboardInterrupt path)
+KillSignal=SIGINT
+TimeoutStopSec=20
+Restart=always
+RestartSec=3
+# console output is not needed (the log file has everything)
+StandardOutput=null
+StandardError=journal
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

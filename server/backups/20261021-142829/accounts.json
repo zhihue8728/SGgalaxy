@@ -1,0 +1,707 @@
+{
+ "zhihue": {
+  "password": "ji3g4go6",
+  "email": "ivan.chan@well-buy.com"
+ },
+ "iiiiiiii": {
+  "password": "ji3g4go6",
+  "email": "ivan.chan@well-buy.com"
+ },
+ "zzzzzzzz": {
+  "password": "ji3g4go6",
+  "email": "ivan.chan@well-buy.com"
+ },
+ "hhhhhhhh": {
+  "password": "ji3g4go6",
+  "email": "ivan.chan@well-buy.com",
+  "commander": {
+   "nation": 14,
+   "look": 3,
+   "attrs": [
+    25,
+    5,
+    5,
+    5
+   ],
+   "points": 0,
+   "tier": 2,
+   "branches": {
+    "inf": {
+     "level": 50,
+     "xp": 0
+    },
+    "mob": {
+     "level": 1,
+     "xp": 0
+    },
+    "avi": {
+     "level": 1,
+     "xp": 0
+    },
+    "org": {
+     "level": 1,
+     "xp": 0
+    }
+   },
+   "honor": 0,
+   "xp_bonus_nation": 0,
+   "stats": {},
+   "medals": [
+    [
+     3002,
+     "Explorer: Advanced planet"
+    ]
+   ]
+  },
+  "hero_uid": 3,
+  "units": [
+   {
+    "uid": 1054,
+    "chassis": "g009",
+    "deploy": 1,
+    "hp": 1248
+   },
+   {
+    "uid": 1055,
+    "chassis": "g009",
+    "deploy": 2,
+    "hp": 1248
+   },
+   {
+    "uid": 1056,
+    "chassis": "g009",
+    "deploy": 3,
+    "hp": 1248
+   },
+   {
+    "uid": 1057,
+    "chassis": "g009",
+    "deploy": 4,
+    "hp": 1248
+   },
+   {
+    "uid": 1058,
+    "chassis": "g009",
+    "deploy": 5,
+    "hp": 1248
+   },
+   {
+    "uid": 1059,
+    "chassis": "g009",
+    "deploy": 6,
+    "hp": 1248
+   },
+   {
+    "uid": 1060,
+    "chassis": "g009",
+    "deploy": 7,
+    "hp": 1248
+   },
+   {
+    "uid": 1061,
+    "chassis": "g009",
+    "deploy": 0
+   },
+   {
+    "uid": 1062,
+    "chassis": "g009",
+    "deploy": 0
+   },
+   {
+    "uid": 1063,
+    "chassis": "g009",
+    "deploy": 0
+   },
+   {
+    "uid": 1064,
+    "chassis": "g009",
+    "deploy": 0
+   },
+   {
+    "uid": 1065,
+    "chassis": "g009",
+    "deploy": 0
+   }
+  ],
+  "resources": [
+   3800,
+   260,
+   380,
+   50,
+   100
+  ],
+  "next_uid": 1066,
+  "deploy_init": true,
+  "home_day": "2026-10-21",
+  "home_used": 1
+ },
+ "jjjjjjjj": {
+  "password": "ji3g4go6",
+  "email": "ivan.chan@well-buy.com",
+  "commander": {
+   "nation": 14,
+   "look": 8,
+   "attrs": [
+    120,
+    100,
+    120,
+    120
+   ],
+   "points": 0,
+   "tier": 2,
+   "branches": {
+    "inf": {
+     "level": 30,
+     "xp": 140
+    },
+    "mob": {
+     "level": 42,
+     "xp": 520
+    },
+    "avi": {
+     "level": 40,
+     "xp": 140
+    },
+    "org": {
+     "level": 3,
+     "xp": 20
+    }
+   },
+   "prestige": 1150,
+   "wins": 16,
+   "honor": 2504544,
+   "stats": {
+    "kills": 58,
+    "captures": 11,
+    "pocs": 17
+   },
+   "medals": [
+    [
+     13001,
+     "First Blood"
+    ],
+    [
+     14001,
+     "Veteran: 100 kills"
+    ],
+    [
+     2002,
+     "Conqueror: first province"
+    ],
+    [
+     4002,
+     "Warlord: 10 provinces"
+    ],
+    [
+     8001,
+     "Survivor: victory without losses"
+    ],
+    [
+     3002,
+     "Explorer: Advanced planet"
+    ],
+    [
+     23008,
+     "Elite: Elite planet"
+    ],
+    [
+     22004,
+     "Reborn"
+    ],
+    [
+     21003,
+     "Honor Guard: 1000 honor"
+    ],
+    [
+     18002,
+     "Cave Raider: 10 cave wins"
+    ],
+    [
+     7002,
+     "POC Master: 50 POCs"
+    ],
+    [
+     27004,
+     "Centurion: division level 100"
+    ]
+   ],
+   "mercenary": false,
+   "reincarnations": 1,
+   "pr_elo": true,
+   "xp_bonus_nation": 0,
+   "losses": 1,
+   "spent_attrs": [
+    0,
+    14,
+    0,
+    90
+   ]
+  },
+  "units": [
+   {
+    "uid": 1050,
+    "chassis": "Gear-Doc",
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "deploy": 0,
+    "items": [
+     154,
+     160,
+     140,
+     4041,
+     124,
+     337,
+     2400
+    ],
+    "label": null
+   },
+   {
+    "uid": 1053,
+    "chassis": "Ballista",
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "deploy": 0,
+    "items": [
+     154,
+     160,
+     140,
+     114,
+     4041,
+     2127
+    ]
+   },
+   {
+    "uid": 1052,
+    "chassis": "Volte",
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "deploy": 0,
+    "items": [
+     154,
+     4876,
+     141,
+     1073,
+     4041
+    ]
+   },
+   {
+    "uid": 1084,
+    "chassis": "Albatross",
+    "items": [
+     124,
+     4177,
+     104,
+     146,
+     432,
+     2374,
+     2601
+    ],
+    "label": null,
+    "deploy": 11,
+    "hp": 2580,
+    "level": 1,
+    "xp": 0,
+    "kills": 0
+   },
+   {
+    "uid": 1078,
+    "chassis": "Volte",
+    "items": [
+     146,
+     155,
+     2039
+    ],
+    "label": null,
+    "deploy": 0,
+    "hp": 5190,
+    "level": 1,
+    "xp": 0,
+    "kills": 0
+   },
+   {
+    "uid": 1079,
+    "chassis": "Mantlet",
+    "deploy": 0,
+    "items": [
+     125,
+     146,
+     155,
+     2374
+    ],
+    "label": null,
+    "level": 1,
+    "xp": 0,
+    "kills": 0
+   },
+   {
+    "uid": 1048,
+    "chassis": "g010",
+    "items": [
+     4039,
+     143,
+     155,
+     347,
+     2093,
+     2127,
+     2131
+    ],
+    "label": "Arbalest",
+    "deploy": 0,
+    "hp": 2041
+   },
+   {
+    "uid": 1049,
+    "chassis": "g010",
+    "items": [
+     90,
+     146,
+     153,
+     374,
+     2122,
+     2131
+    ],
+    "label": "Arbalest",
+    "deploy": 0,
+    "hp": 2095
+   },
+   {
+    "uid": 1066,
+    "chassis": "g002",
+    "items": [
+     129,
+     144,
+     155,
+     2170,
+     600,
+     609
+    ],
+    "label": "Red-Eye",
+    "deploy": 0,
+    "hp": 2196
+   },
+   {
+    "uid": 1071,
+    "chassis": "Apparition",
+    "items": [
+     333,
+     160,
+     140,
+     4024,
+     340
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 0
+   },
+   {
+    "uid": 1076,
+    "chassis": "Leviathan",
+    "items": [
+     154,
+     160,
+     141,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 0
+   },
+   {
+    "uid": 1077,
+    "chassis": "Hydra",
+    "items": [
+     154,
+     160,
+     141,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 0
+   },
+   {
+    "uid": 1080,
+    "chassis": "g020",
+    "items": [
+     154,
+     160,
+     141,
+     516,
+     4041,
+     124
+    ],
+    "deploy": 0
+   },
+   {
+    "uid": 1081,
+    "chassis": "g018",
+    "items": [
+     333,
+     160,
+     140,
+     394,
+     4024,
+     340
+    ],
+    "deploy": 0
+   },
+   {
+    "uid": 1083,
+    "chassis": "Condor",
+    "items": [
+     132,
+     146,
+     374,
+     641,
+     2046,
+     4499,
+     6177
+    ],
+    "level": 4,
+    "xp": 350,
+    "kills": 2,
+    "label": null,
+    "deploy": 2
+   },
+   {
+    "uid": 1098,
+    "chassis": "Condor",
+    "items": [
+     132,
+     146,
+     374,
+     641,
+     2046,
+     4499,
+     6177
+    ],
+    "level": 3,
+    "xp": 225,
+    "kills": 1,
+    "label": null,
+    "deploy": 3
+   },
+   {
+    "uid": 1099,
+    "chassis": "Condor",
+    "items": [
+     132,
+     146,
+     374,
+     641,
+     2046,
+     4499,
+     6177
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 4
+   },
+   {
+    "uid": 1100,
+    "chassis": "Condor",
+    "items": [
+     132,
+     146,
+     374,
+     641,
+     2046,
+     4499,
+     6177
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 9
+   },
+   {
+    "uid": 1101,
+    "chassis": "Condor",
+    "items": [
+     132,
+     146,
+     2046,
+     4499,
+     4148
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 5
+   },
+   {
+    "uid": 1102,
+    "chassis": "Condor",
+    "items": [
+     4154,
+     4041,
+     132,
+     146,
+     374,
+     641
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 1
+   },
+   {
+    "uid": 1103,
+    "chassis": "Condor",
+    "items": [
+     4154,
+     160,
+     140,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 6
+   },
+   {
+    "uid": 1104,
+    "chassis": "Condor",
+    "items": [
+     4154,
+     160,
+     140,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 8
+   },
+   {
+    "uid": 1105,
+    "chassis": "Condor",
+    "items": [
+     4154,
+     160,
+     140,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 0
+   },
+   {
+    "uid": 1106,
+    "chassis": "Condor",
+    "items": [
+     4154,
+     160,
+     140,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 7
+   },
+   {
+    "uid": 1107,
+    "chassis": "Condor",
+    "items": [
+     4154,
+     160,
+     140,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 10
+   },
+   {
+    "uid": 1108,
+    "chassis": "Condor",
+    "items": [
+     4154,
+     160,
+     140,
+     4041,
+     124
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 0
+   },
+   {
+    "uid": 1096,
+    "chassis": "a008",
+    "items": [
+     4154,
+     160,
+     140,
+     489,
+     4041,
+     124
+    ],
+    "deploy": 0
+   },
+   {
+    "uid": 1097,
+    "chassis": "a008",
+    "items": [
+     160,
+     140,
+     489,
+     124,
+     4153
+    ],
+    "level": 1,
+    "xp": 0,
+    "kills": 0,
+    "label": null,
+    "deploy": 0
+   }
+  ],
+  "resources": [
+   4747,
+   664,
+   7874,
+   1098,
+   11510
+  ],
+  "next_uid": 1109,
+  "hero_uid": 2,
+  "home_day": "2026-10-21",
+  "home_used": 3,
+  "deploy_init": true,
+  "hero_items": [
+   374,
+   641
+  ]
+ }
+}

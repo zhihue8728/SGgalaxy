@@ -1,0 +1,636 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g013",
+ "kind": "ground",
+ "chassis": [
+  "Tyr-Amplus",
+  "Tyr-Magnus",
+  "Tyr-Maximus",
+  "Tyr-Primus"
+ ],
+ "base_chassis": [
+  "Tyr-Amplus",
+  "Tyr-Magnus",
+  "Tyr-Maximus",
+  "Tyr-Primus"
+ ],
+ "names_cn": {
+  "Tyr-Amplus": "提尔进阶",
+  "Tyr-Magnus": "提尔强化",
+  "Tyr-Maximus": "提尔极致",
+  "Tyr-Primus": "提尔初阶"
+ },
+ "names_tw": {
+  "Tyr-Amplus": "提爾進階",
+  "Tyr-Magnus": "提爾強化",
+  "Tyr-Maximus": "提爾極致",
+  "Tyr-Primus": "提爾初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Tyr-Amplus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 50,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2619,
+   "base_armor": 0,
+   "speed_m_s": 4.6,
+   "view_range_m": 17.5,
+   "view_type": "Cone",
+   "chassis_code": "g013",
+   "chassis_image": "g013st.xpf"
+  },
+  {
+   "name": "Tyr-Magnus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3063,
+   "base_armor": 0,
+   "speed_m_s": 4.8,
+   "view_range_m": 18,
+   "view_type": "Cone",
+   "chassis_code": "g013",
+   "chassis_image": "g013st.xpf"
+  },
+  {
+   "name": "Tyr-Maximus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 70,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3606,
+   "base_armor": 0,
+   "speed_m_s": 4.8,
+   "view_range_m": 18.5,
+   "view_type": "Cone",
+   "chassis_code": "g013",
+   "chassis_image": "g013st.xpf"
+  },
+  {
+   "name": "Tyr-Primus",
+   "category": "Organic",
+   "group": "Xeno-ventus",
+   "unit_quality": 40,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2265,
+   "base_armor": 0,
+   "speed_m_s": 4.6,
+   "view_range_m": 17,
+   "view_type": "Cone",
+   "chassis_code": "g013",
+   "chassis_image": "g013st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g013at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    62,
+    79
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      77,
+      62
+     ]
+    ],
+    "1": [
+     [
+      75,
+      71
+     ]
+    ],
+    "2": [
+     [
+      62,
+      74
+     ]
+    ],
+    "3": [
+     [
+      50,
+      71
+     ]
+    ],
+    "4": [
+     [
+      45,
+      62
+     ]
+    ],
+    "5": [
+     [
+      50,
+      52
+     ]
+    ],
+    "6": [
+     [
+      62,
+      50
+     ]
+    ],
+    "7": [
+     [
+      75,
+      53
+     ]
+    ],
+    "8": [
+     [
+      77,
+      62
+     ]
+    ],
+    "9": [
+     [
+      75,
+      71
+     ]
+    ],
+    "10": [
+     [
+      62,
+      74
+     ]
+    ],
+    "11": [
+     [
+      50,
+      71
+     ]
+    ],
+    "12": [
+     [
+      45,
+      62
+     ]
+    ],
+    "13": [
+     [
+      50,
+      52
+     ]
+    ],
+    "14": [
+     [
+      62,
+      50
+     ]
+    ],
+    "15": [
+     [
+      75,
+      53
+     ]
+    ],
+    "16": [
+     [
+      77,
+      62
+     ]
+    ],
+    "17": [
+     [
+      75,
+      71
+     ]
+    ],
+    "18": [
+     [
+      62,
+      74
+     ]
+    ],
+    "19": [
+     [
+      50,
+      71
+     ]
+    ],
+    "20": [
+     [
+      45,
+      62
+     ]
+    ],
+    "21": [
+     [
+      50,
+      52
+     ]
+    ],
+    "22": [
+     [
+      62,
+      50
+     ]
+    ],
+    "23": [
+     [
+      75,
+      53
+     ]
+    ],
+    "24": [
+     [
+      77,
+      62
+     ]
+    ],
+    "25": [
+     [
+      75,
+      71
+     ]
+    ],
+    "26": [
+     [
+      62,
+      74
+     ]
+    ],
+    "27": [
+     [
+      50,
+      71
+     ]
+    ],
+    "28": [
+     [
+      45,
+      62
+     ]
+    ],
+    "29": [
+     [
+      50,
+      52
+     ]
+    ],
+    "30": [
+     [
+      62,
+      50
+     ]
+    ],
+    "31": [
+     [
+      75,
+      53
+     ]
+    ],
+    "32": [
+     [
+      85,
+      61
+     ]
+    ],
+    "33": [
+     [
+      77,
+      73
+     ]
+    ],
+    "34": [
+     [
+      62,
+      76
+     ]
+    ],
+    "35": [
+     [
+      46,
+      73
+     ]
+    ],
+    "36": [
+     [
+      39,
+      61
+     ]
+    ],
+    "37": [
+     [
+      45,
+      49
+     ]
+    ],
+    "38": [
+     [
+      62,
+      45
+     ]
+    ],
+    "39": [
+     [
+      80,
+      48
+     ]
+    ]
+   },
+   "sheet": "sheets/g013at.png",
+   "sheet_crop": [
+    23,
+    27,
+    103,
+    104
+   ],
+   "cell": [
+    80,
+    77
+   ],
+   "pivot_in_cell": [
+    39,
+    52
+   ]
+  },
+  {
+   "file": "g013ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    136,
+    125
+   ],
+   "pivot": [
+    62,
+    79
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": true
+  },
+  {
+   "file": "g013da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    143,
+    143
+   ],
+   "pivot": [
+    72,
+    92
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g013da.png",
+   "sheet_crop": [
+    45,
+    66,
+    97,
+    107
+   ],
+   "cell": [
+    52,
+    41
+   ],
+   "pivot_in_cell": [
+    27,
+    26
+   ]
+  },
+  {
+   "file": "g013mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    62,
+    79
+   ],
+   "frame_count": 88,
+   "dirs": 8,
+   "frames_per_dir": 11,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g013mo.png",
+   "sheet_crop": [
+    23,
+    27,
+    105,
+    111
+   ],
+   "cell": [
+    82,
+    84
+   ],
+   "pivot_in_cell": [
+    39,
+    52
+   ]
+  },
+  {
+   "file": "g013mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    62,
+    79
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g013mop.png",
+   "sheet_crop": [
+    51,
+    70,
+    75,
+    87
+   ],
+   "cell": [
+    24,
+    17
+   ],
+   "pivot_in_cell": [
+    11,
+    9
+   ]
+  },
+  {
+   "file": "g013mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    139,
+    125
+   ],
+   "pivot": [
+    62,
+    79
+   ],
+   "frame_count": 88,
+   "dirs": 8,
+   "frames_per_dir": 11,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g013st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    62,
+    79
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g013st.png",
+   "sheet_crop": [
+    22,
+    29,
+    108,
+    108
+   ],
+   "cell": [
+    86,
+    79
+   ],
+   "pivot_in_cell": [
+    40,
+    50
+   ]
+  },
+  {
+   "file": "g013sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    137,
+    125
+   ],
+   "pivot": [
+    62,
+    79
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

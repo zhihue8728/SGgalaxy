@@ -1,0 +1,729 @@
+[
+ {
+  "id": 4052,
+  "code": "04052",
+  "name": "MA S-14",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 2,
+   "Complexity": 11,
+   "Weight": 8,
+   "Ground Damage": 247,
+   "Ground Range": 51,
+   "Ground Cooldown": 5,
+   "Energy Use": 86,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6052,
+  "code": "06052",
+  "name": "MA S-15",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 15,
+   "Complexity": 10,
+   "Weight": 10,
+   "Ground Damage": 296,
+   "Ground Range": 51,
+   "Ground Cooldown": 5.5,
+   "Energy Use": 95,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8052,
+  "code": "08052",
+  "name": "Terminus Sharpshooter",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 30,
+   "Complexity": 12,
+   "Weight": 11,
+   "Ground Damage": 305,
+   "Ground Range": 65,
+   "Ground Cooldown": 5,
+   "Energy Use": 113,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4390,
+  "code": "04390",
+  "name": "MA S-17",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 45,
+   "Complexity": 14,
+   "Weight": 7,
+   "Ground Damage": 348,
+   "Ground Range": 51,
+   "Ground Cooldown": 5,
+   "Energy Use": 97,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6390,
+  "code": "06390",
+  "name": "Terminus Sniper",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 60,
+   "Complexity": 11,
+   "Weight": 9,
+   "Ground Damage": 281,
+   "Ground Range": 37.5,
+   "Ground Cooldown": 3,
+   "Energy Use": 93,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8390,
+  "code": "08390",
+  "name": "Maxus Settler",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 75,
+   "Complexity": 9,
+   "Weight": 12,
+   "Ground Damage": 430,
+   "Ground Range": 70,
+   "Ground Cooldown": 5,
+   "Energy Use": 105,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4016,
+  "code": "04016",
+  "name": "MA S-25",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 85,
+   "Complexity": 12,
+   "Weight": 10,
+   "Ground Damage": 519,
+   "Ground Range": 51,
+   "Ground Cooldown": 5,
+   "Energy Use": 106,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6016,
+  "code": "06016",
+  "name": "MA S-26",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 95,
+   "Complexity": 14,
+   "Weight": 9,
+   "Ground Damage": 510,
+   "Ground Range": 57.5,
+   "Ground Cooldown": 4.5,
+   "Energy Use": 111,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8016,
+  "code": "08016",
+  "name": "Terminus Assassin",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 105,
+   "Complexity": 10,
+   "Weight": 10,
+   "Ground Damage": 418,
+   "Ground Range": 37.5,
+   "Ground Cooldown": 3,
+   "Energy Use": 95,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 5057,
+  "code": "05057",
+  "name": "Maxus Finality",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 120,
+   "Complexity": 16,
+   "Weight": 7,
+   "Ground Damage": 660,
+   "Ground Range": 70,
+   "Ground Cooldown": 5,
+   "Energy Use": 111,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 7057,
+  "code": "07057",
+  "name": "H-MA S-14",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 3,
+   "Complexity": 18,
+   "Weight": 19,
+   "Ground Damage": 353,
+   "Ground Range": 51,
+   "Ground Cooldown": 5,
+   "Energy Use": 213,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 9057,
+  "code": "09057",
+  "name": "H-MA S-15",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 16,
+   "Complexity": 17,
+   "Weight": 21,
+   "Ground Damage": 426,
+   "Ground Range": 51,
+   "Ground Cooldown": 5.5,
+   "Energy Use": 219,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4512,
+  "code": "04512",
+  "name": "H-Terminus Sharpshooter",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 31,
+   "Complexity": 18,
+   "Weight": 19,
+   "Ground Damage": 404,
+   "Ground Range": 65,
+   "Ground Cooldown": 5,
+   "Energy Use": 213,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6512,
+  "code": "06512",
+  "name": "H-MA S-17",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 46,
+   "Complexity": 17,
+   "Weight": 16,
+   "Ground Damage": 444,
+   "Ground Range": 51,
+   "Ground Cooldown": 5,
+   "Energy Use": 183,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8512,
+  "code": "08512",
+  "name": "H-Terminus Sniper",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 61,
+   "Complexity": 18,
+   "Weight": 20,
+   "Ground Damage": 408,
+   "Ground Range": 37.5,
+   "Ground Cooldown": 3,
+   "Energy Use": 220,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 5058,
+  "code": "05058",
+  "name": "H-Maxus Settler",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 76,
+   "Complexity": 17,
+   "Weight": 18,
+   "Ground Damage": 565,
+   "Ground Range": 70,
+   "Ground Cooldown": 5,
+   "Energy Use": 197,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 7058,
+  "code": "07058",
+  "name": "H-MA S-25",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 86,
+   "Complexity": 17,
+   "Weight": 20,
+   "Ground Damage": 722,
+   "Ground Range": 51,
+   "Ground Cooldown": 5,
+   "Energy Use": 212,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 9058,
+  "code": "09058",
+  "name": "H-MA S-26",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 96,
+   "Complexity": 17,
+   "Weight": 23,
+   "Ground Damage": 707,
+   "Ground Range": 57.5,
+   "Ground Cooldown": 4.2,
+   "Energy Use": 233,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4757,
+  "code": "04757",
+  "name": "H-Terminus Assassin",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 106,
+   "Complexity": 15,
+   "Weight": 18,
+   "Ground Damage": 536,
+   "Ground Range": 37.5,
+   "Ground Cooldown": 3,
+   "Energy Use": 182,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6757,
+  "code": "06757",
+  "name": "H-Maxus Finality",
+  "slot": 4042,
+  "type": 4,
+  "page": "Apparition Weapons",
+  "stats": {
+   "Tech Level": 120,
+   "Complexity": 18,
+   "Weight": 17,
+   "Ground Damage": 727,
+   "Ground Range": 70,
+   "Ground Cooldown": 4.2,
+   "Energy Use": 199,
+   "Special": "Snipe"
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6535,
+  "code": "06535",
+  "name": "Terminus Hawk",
+  "slot": 4109,
+  "type": 4,
+  "page": "Pegasus Weapons",
+  "stats": {
+   "Tech Level": 70,
+   "Complexity": 10,
+   "Weight": 7,
+   "Ground Damage": 143,
+   "Ground Range": 14.5,
+   "Ground Cooldown": 2.5,
+   "Energy Use": 44
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8535,
+  "code": "08535",
+  "name": "H-Terminus Hawk",
+  "slot": 4109,
+  "type": 4,
+  "page": "Pegasus Weapons",
+  "stats": {
+   "Tech Level": 71,
+   "Complexity": 13,
+   "Weight": 20,
+   "Ground Damage": 244,
+   "Ground Range": 15.5,
+   "Ground Cooldown": 2.45,
+   "Energy Use": 110
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4403,
+  "code": "04403",
+  "name": "Terminus Vulture",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 20,
+   "Complexity": 16,
+   "Weight": 17,
+   "Air Damage": 255,
+   "Air Range": 36,
+   "Air Cooldown": 4.8,
+   "Energy Use": 183
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6403,
+  "code": "06403",
+  "name": "Terminus Eagle",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 80,
+   "Complexity": 16,
+   "Weight": 12,
+   "Air Damage": 486,
+   "Air Range": 38,
+   "Air Cooldown": 3.7,
+   "Energy Use": 151
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8403,
+  "code": "08403",
+  "name": "Terminus Ox",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 100,
+   "Complexity": 16,
+   "Weight": 16,
+   "Air Damage": 669,
+   "Air Range": 43,
+   "Air Cooldown": 4.8,
+   "Energy Use": 261
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4023,
+  "code": "04023",
+  "name": "Terminus Bull",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 120,
+   "Complexity": 17,
+   "Weight": 9,
+   "Air Damage": 612,
+   "Air Range": 35,
+   "Air Cooldown": 3.3,
+   "Energy Use": 46
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6023,
+  "code": "06023",
+  "name": "H-Terminus Vulture",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 21,
+   "Complexity": 18,
+   "Weight": 46,
+   "Air Damage": 372,
+   "Air Range": 36,
+   "Air Cooldown": 4.8,
+   "Energy Use": 240
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8023,
+  "code": "08023",
+  "name": "H-Terminus Eagle",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 81,
+   "Complexity": 14,
+   "Weight": 52,
+   "Air Damage": 630,
+   "Air Range": 38,
+   "Air Cooldown": 3.7,
+   "Energy Use": 222
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4063,
+  "code": "04063",
+  "name": "H-Terminus Ox",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 101,
+   "Complexity": 11,
+   "Weight": 43,
+   "Air Damage": 723,
+   "Air Range": 43,
+   "Air Cooldown": 4.8,
+   "Energy Use": 310
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6063,
+  "code": "06063",
+  "name": "H-Terminus Bull",
+  "slot": 4132,
+  "type": 4,
+  "page": "Manticore Weapons",
+  "stats": {
+   "Tech Level": 120,
+   "Complexity": 11,
+   "Weight": 51,
+   "Air Damage": 801,
+   "Air Range": 35,
+   "Air Cooldown": 3.3,
+   "Energy Use": 136
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4066,
+  "code": "04066",
+  "name": "Terminus Shout",
+  "slot": 4202,
+  "type": 4,
+  "page": "Owl Weapons",
+  "stats": {
+   "Tech Level": 10,
+   "Complexity": 8,
+   "Weight": 10,
+   "Air Damage": 125,
+   "Air Range": 15,
+   "Air Cooldown": 2.4,
+   "Energy Use": 35
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6066,
+  "code": "06066",
+  "name": "Terminus Howl",
+  "slot": 4202,
+  "type": 4,
+  "page": "Owl Weapons",
+  "stats": {
+   "Tech Level": 30,
+   "Complexity": 7,
+   "Weight": 11,
+   "Air Damage": 132,
+   "Air Range": 15,
+   "Air Cooldown": 2.2,
+   "Energy Use": 36
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8066,
+  "code": "08066",
+  "name": "H-Terminus Shout",
+  "slot": 4202,
+  "type": 4,
+  "page": "Owl Weapons",
+  "stats": {
+   "Tech Level": 11,
+   "Complexity": 19,
+   "Weight": 46,
+   "Air Damage": 202,
+   "Air Range": 15,
+   "Air Cooldown": 2.4,
+   "Energy Use": 166
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4056,
+  "code": "04056",
+  "name": "H-Terminus Howl",
+  "slot": 4202,
+  "type": 4,
+  "page": "Owl Weapons",
+  "stats": {
+   "Tech Level": 31,
+   "Complexity": 11,
+   "Weight": 48,
+   "Air Damage": 201,
+   "Air Range": 15,
+   "Air Cooldown": 2.2,
+   "Energy Use": 149
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6572,
+  "code": "06572",
+  "name": "Terminus Shriek",
+  "slot": 4204,
+  "type": 4,
+  "page": "Hawk Weapons",
+  "stats": {
+   "Tech Level": 10,
+   "Complexity": 8,
+   "Weight": 6,
+   "Ground Damage": 102,
+   "Ground Range": 11.5,
+   "Ground Cooldown": 2.4,
+   "Air Damage": 102,
+   "Air Range": 11.5,
+   "Air Cooldown": 2.4,
+   "Energy Use": 50
+  },
+  "manual_only": true
+ },
+ {
+  "id": 8572,
+  "code": "08572",
+  "name": "Terminus Scream",
+  "slot": 4204,
+  "type": 4,
+  "page": "Hawk Weapons",
+  "stats": {
+   "Tech Level": 50,
+   "Complexity": 8,
+   "Weight": 4,
+   "Air Damage": 144,
+   "Air Range": 27,
+   "Air Cooldown": 2.6,
+   "Energy Use": 38
+  },
+  "manual_only": true
+ },
+ {
+  "id": 4065,
+  "code": "04065",
+  "name": "H-Terminus Shriek",
+  "slot": 4204,
+  "type": 4,
+  "page": "Hawk Weapons",
+  "stats": {
+   "Tech Level": 11,
+   "Complexity": 13,
+   "Weight": 21,
+   "Ground Damage": 135,
+   "Ground Range": 11.5,
+   "Ground Cooldown": 2.4,
+   "Air Damage": 135,
+   "Air Range": 11.5,
+   "Air Cooldown": 2.4,
+   "Energy Use": 165
+  },
+  "manual_only": true
+ },
+ {
+  "id": 6065,
+  "code": "06065",
+  "name": "H-Terminus Scream",
+  "slot": 4204,
+  "type": 4,
+  "page": "Hawk Weapons",
+  "stats": {
+   "Tech Level": 51,
+   "Complexity": 8,
+   "Weight": 17,
+   "Air Damage": 200,
+   "Air Range": 27,
+   "Air Cooldown": 2.6,
+   "Energy Use": 118
+  },
+  "manual_only": true
+ },
+ {
+  "id": 2186,
+  "code": "02186",
+  "name": "H-Repair Machine",
+  "slot": 7011,
+  "type": 7,
+  "page": "Medic Medpacks",
+  "stats": {
+   "Tech Level": 120,
+   "Complexity": 6,
+   "Weight": 15,
+   "Space": 9,
+   "Energy Use": 127,
+   "Effectiveness": 2700
+  },
+  "manual_only": true
+ }
+]

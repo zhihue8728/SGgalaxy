@@ -1,0 +1,24 @@
+Controls@Controls.txt
+Glossary@http://www.sgalaxy.com/manual_oml/Glossary.txt
+Places@http://www.sgalaxy.com/manual_oml/POI-001.txt
+Factions@http://www.sgalaxy.com/manual_oml/FAC-001.txt
+Units
+	Infantry@http://www.sgalaxy.com/manual_oml/U-Infant.txt
+	Mobile@http://www.sgalaxy.com/manual_oml/U-Mobile.txt
+	Aviation@http://www.sgalaxy.com/manual_oml/U-Aviatn.txt
+	Organic@http://www.sgalaxy.com/manual_oml/U-Spclst.txt
+Items
+	Biodrives@http://www.sgalaxy.com/manual_oml/I-Biodrv.txt
+	Mech. Engines@http://www.sgalaxy.com/manual_oml/I-MechEn.txt
+	Computers@http://www.sgalaxy.com/manual_oml/I-Comput.txt
+	Power Supplies@http://www.sgalaxy.com/manual_oml/I-PowerS.txt
+	Infantry Weapons@http://www.sgalaxy.com/manual_oml/I-WInf.txt
+	Mobile Weapons@http://www.sgalaxy.com/manual_oml/I-WMob.txt
+	Aviation Weapons@http://www.sgalaxy.com/manual_oml/I-WAvi.txt
+	Infantry Armor@http://www.sgalaxy.com/manual_oml/I-AInf.txt
+	Mechanical Armor@http://www.sgalaxy.com/manual_oml/I-AMech.txt
+	Sensors@http://www.sgalaxy.com/manual_oml/I-Scan.txt
+	Misc@http://www.sgalaxy.com/manual_oml/I-Misc.txt
+	Special@http://www.sgalaxy.com/manual_oml/I-Specl.txt
+
+

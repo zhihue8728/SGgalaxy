@@ -1,0 +1,44 @@
+<br>
+Hero Mode<br>
+<table>
+<tr><td width=35>F1</td><td>Help</td></tr>
+<tr><td>F4</td><td>Hero Introspection</td></tr>
+<tr><td>F2</td><td>Strategic Command</td></tr>
+<tr><td>F3</td><td>Strategic Map with Communication capabilities</td></tr>
+<tr><td>F6</td><td>Who-list/Regiment List</td></tr>
+<tr><td>F7</td><td>Unit Deployment</td></tr>
+<tr><td>F9</td><td>Screen shot</td></tr>
+<tr><td>Left-Clicking on hero's name in who-list</td><td>adds that hero to your recipient list</td></tr>
+<tr><td>SPACE</td><td>Centers action window on your hero</td></tr>
+<tr><td></td><td>clicking on a building in the action window directs your hero to enter that building.</td></tr>
+<tr><td></td><td>left-clicking on an object in the mini-map centers the action window on that object.</td></tr>
+<tr><td></td><td>right-clicking on the mini-map moves your hero or selected unit(s) to the destination.</td></tr>
+</table>
+<br><br>
+Communication<br>
+<table>
+<tr><td width=35>'</td><td>public shortcut</td></tr>
+<tr><td>"</td><td>private shortcut</td></tr>
+<tr><td>/</td><td>allied shortcut</td></tr>
+<tr><td>ESC</td><td>witches to communication window<br></td></tr>
+</table>
+<br><br>
+Battle Mode<br>
+<table>
+<tr><td width=35>(1-9, 0, -, =)</td><td>selects a specific unit</td></tr>
+<tr><td>SHIFT + (1-9, 0, -, =)</td><td>selects multiple units</td></tr>
+<tr><td>BACKSPACE</td><td>selects all units</td></tr>
+<tr><td>(1-9, 0, -, =) + (1-9, 0, -, =)</td><td>centers action window on that unit</td></tr>
+<tr><td>M + left-click destination</td><td>(M)ove</td></tr>
+<tr><td>A + left-click on target</td><td>(A)ttack</td></tr>
+<tr><td>S</td><td>(S)top</td></tr>
+<tr><td>SHIFT + RIGHT-CLICK</td><td>select a specific path of travel.</td></tr>
+<tr><td>CTRL + RIGHT-CLICK</td><td>rotate units</td></tr>
+<tr><td></td><td>Double clicking on a unit selects all units of that type.</td></tr>
+</table>
+<br><br>
+Strategic Map-Mode<br>
+<table>
+<tr><td width=35>SHIFT + RIGHT-CLICK</td><td>select a specific path of travel.</td></tr>
+<tr><td>LEFT OR RIGHT CLICK</td><td>allows the computer to find path of travel.</td></tr>
+</table>

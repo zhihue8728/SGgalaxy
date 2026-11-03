@@ -1,0 +1,43 @@
+ksPowerOver		This power must be removed from another council member if you wish to assign it to %s.
+ksJoinNation		You are going to be a member of %s. Are you certain you wish to join this faction?
+ksJoinNationBonus	You are going to be a member of %s. If you join this faction, you can get 50%% of XP bonus for each of your units. Are you certain you wish to join this faction?
+ksLeaveNation		You are going to leave %s. Are you sure to become a mercenary? Once you become a mercenary, you can't go back to any of four nations in this planet.
+ksLeaveNationConfirm	You will lose 200% of XP for all of your units when you are leaving nation. Are you still certain you wish to leave?
+ksInvalidCouncil	Invalid!!! Check if there's multiple assignment of the same regiment or council members.
+
+ksNotImplemented	Not yet implemented.
+ksEnemyWeOfferCF	You want to offer %s a cease-fire? Have you forgotten the atrocities they have committed against us?
+ksWeOfferCFEnemy	You have come to your senses! Shall we now finish off %s?
+ksTheyOfferCFEnemy	Excellent! Shall we show %s where they can put their flag of truce?
+ksTheyOfferCFNeutral	You accept the cease fire offered by %s? But they are filled with treacherous scoundrels! Are you insane?
+ksNeutralEnemy		The people are eager to fight evil %s. Will you allow us to do so?
+ksNeutralWeOfferRally	You must be confused. You wish to offer inferior %s an alliance?
+ksWeOfferRallyNeutral	Yes, let us retract our offer to the undeserving %s.
+ksTheyOfferRallyNeutral	Better to slit the throats of %s than ally with them, yes?
+ksTheyOfferRallyAlly	Do you really think we can trust %s? Do they deserve an alliance with us?
+ksAllyNeutral		Yes, let us end our agreement with %s so that we may slit their throats later! Agreed?
+ksVictoryDefeat		%d Victories %d Defeats
+kCabinetCategoryPresident	Overlord
+
+ksVoteCampaign			Do you want to run for the position of %s?
+ksVoteCompaignCancel		Do you want to withdraw from the race for %s?
+ksVoteNominate			Do you nominate %s for the position of %s? You can only nominate one person for this position.
+ksVoteDoVote			Do you vote for %s in the race for %s? You can only cast one vote in each election.
+ksVoteAlreadyNominate		You have already placed your nomination for the position of %s.
+ksVoteAlreadyVote		You have voted in the race for %s.
+ksVoteAlreadySupport		You can only support or oppose the %s once per day.
+ksVoteDurationPresidentialService	The position of %s is occupied.
+ksVoteDurationPresidentialService2	  Nominations cannot be placed at this time.
+ksVoteDurationCampaign		%s Nomination period
+ksVoteDurationVote		%s Voting period
+ksVoteRemain			Time remaining: %d hours %d minutes
+ksVoteSupport			Support
+ksVoteOppose			Oppose
+ksVoteSupportAsk		The strength of the Overlord's rule is determined by the ratio of his support to his opposition. Do you support the rule of %s as Overlord?
+ksVoteOpposeAsk			If the opposition to the Overlord becomes too great, an election for a new leader will immediately begin. Do you oppose the rule of %s as Overlord?
+ksVoteCampaignNationFail	You do not belong to %s.
+ksVoteSupportNationFail		You do not belong to %s.
+ksVoteOpposeNationFail		You do not belong to %s.
+ksVoteNominateNationFail	You do not belong to %s.
+ksVoteNationFail		You do not belong to %s.
+ksStatementNotYetReady		No statement made.

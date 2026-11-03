@@ -1,0 +1,693 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g057",
+ "kind": "ground",
+ "chassis": [
+  "Virus",
+  "Virus-Mk2",
+  "Virus-Mk3",
+  "Virus-Mk4",
+  "Virus-Mk5",
+  "Virus-Mk6",
+  "Virus-Mk7"
+ ],
+ "base_chassis": [
+  "Virus"
+ ],
+ "names_cn": {
+  "Virus": "病毒"
+ },
+ "names_tw": {
+  "Virus": "病毒"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Virus",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 32,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 11,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 1500,
+   "base_armor": 9,
+   "speed_m_s": 5.4,
+   "view_range_m": 2,
+   "view_type": "Cone",
+   "chassis_code": "g057",
+   "description_summary": "Healthy unit self-destructing suddenly may hide a Virus chassis nearby."
+  },
+  {
+   "name": "Virus-Mk2",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 46,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 12,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 1830,
+   "base_armor": 12,
+   "speed_m_s": 5.6,
+   "view_range_m": 2.5,
+   "view_type": "Cone",
+   "chassis_code": "g057",
+   "chassis_image": "g057st.xpf",
+   "description_summary": "Healthy unit self-destructing hints at hidden phasic Virus chassis."
+  },
+  {
+   "name": "Virus-Mk3",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 60,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 13,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 2280,
+   "base_armor": 15,
+   "speed_m_s": 5.8,
+   "view_range_m": 3,
+   "view_type": "Cone",
+   "chassis_code": "g057",
+   "chassis_image": "g057st.xpf",
+   "description_summary": "Healthy units self-destructing may signal a hidden phasic Virus chassis."
+  },
+  {
+   "name": "Virus-Mk4",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 74,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 14,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 2850,
+   "base_armor": 18,
+   "speed_m_s": 6,
+   "view_range_m": 3.5,
+   "view_type": "Cone",
+   "chassis_code": "g057",
+   "chassis_image": "g057st.xpf",
+   "description_summary": "Healthy unit self-destructing may signal hidden Virus chassis; naturally phasic."
+  },
+  {
+   "name": "Virus-Mk5",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 88,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 15,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 3540,
+   "base_armor": 21,
+   "speed_m_s": 6.2,
+   "view_range_m": 4,
+   "view_type": "Cone",
+   "chassis_code": "g057",
+   "chassis_image": "g057st.xpf",
+   "description_summary": "Healthy units self-destructing may conceal a hidden Virus chassis; naturally phasic."
+  },
+  {
+   "name": "Virus-Mk6",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 102,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 16,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 4440,
+   "base_armor": 24,
+   "speed_m_s": 6.4,
+   "view_range_m": 4.5,
+   "view_type": "Cone",
+   "chassis_code": "g057",
+   "description_summary": "Healthy units self-destructing hint at a hidden Virus chassis; naturally phasic."
+  },
+  {
+   "name": "Virus-Mk7",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 116,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 17,
+   "unit_weight_kg": 50,
+   "type": "Biological",
+   "base_health": 5490,
+   "base_armor": 27,
+   "speed_m_s": 6.6,
+   "view_range_m": 5,
+   "view_type": "Cone",
+   "chassis_code": "g057",
+   "chassis_image": "g057st.xpf",
+   "description_summary": "Healthy unit self-destructing may hide Virus chassis; naturally phasic."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g057at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 256,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": 0.31,
+   "mask_only": false,
+   "muzzle_points": {
+    "128": [
+     [
+      79,
+      60
+     ]
+    ],
+    "129": [
+     [
+      76,
+      64
+     ]
+    ],
+    "130": [
+     [
+      67,
+      65
+     ]
+    ],
+    "131": [
+     [
+      62,
+      66
+     ]
+    ],
+    "132": [
+     [
+      55,
+      62
+     ]
+    ],
+    "133": [
+     [
+      49,
+      57
+     ]
+    ],
+    "134": [
+     [
+      48,
+      53
+     ]
+    ],
+    "135": [
+     [
+      49,
+      48
+     ]
+    ],
+    "136": [
+     [
+      53,
+      44
+     ]
+    ],
+    "137": [
+     [
+      59,
+      40
+     ]
+    ],
+    "138": [
+     [
+      65,
+      40
+     ]
+    ],
+    "139": [
+     [
+      72,
+      38
+     ]
+    ],
+    "140": [
+     [
+      78,
+      41
+     ]
+    ],
+    "141": [
+     [
+      82,
+      46
+     ]
+    ],
+    "142": [
+     [
+      85,
+      52
+     ]
+    ],
+    "143": [
+     [
+      84,
+      57
+     ]
+    ]
+   },
+   "sheet": "sheets/g057at.png",
+   "sheet_crop": [
+    32,
+    33,
+    102,
+    100
+   ],
+   "cell": [
+    70,
+    67
+   ],
+   "pivot_in_cell": [
+    32,
+    48
+   ]
+  },
+  {
+   "file": "g057atb.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 256,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g057atb.png",
+   "sheet_crop": [
+    43,
+    34,
+    93,
+    91
+   ],
+   "cell": [
+    50,
+    57
+   ],
+   "pivot_in_cell": [
+    21,
+    47
+   ]
+  },
+  {
+   "file": "g057ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 256,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g057da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g057da.png",
+   "sheet_crop": [
+    38,
+    47,
+    100,
+    86
+   ],
+   "cell": [
+    62,
+    39
+   ],
+   "pivot_in_cell": [
+    26,
+    34
+   ]
+  },
+  {
+   "file": "g057das.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g057mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g057mo.png",
+   "sheet_crop": [
+    44,
+    48,
+    92,
+    100
+   ],
+   "cell": [
+    48,
+    52
+   ],
+   "pivot_in_cell": [
+    20,
+    33
+   ]
+  },
+  {
+   "file": "g057mob.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g057mob.png",
+   "sheet_crop": [
+    46,
+    50,
+    90,
+    88
+   ],
+   "cell": [
+    44,
+    38
+   ],
+   "pivot_in_cell": [
+    18,
+    31
+   ]
+  },
+  {
+   "file": "g057mop.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g057mop.png",
+   "sheet_crop": [
+    63,
+    81,
+    81,
+    98
+   ],
+   "cell": [
+    18,
+    17
+   ],
+   "pivot_in_cell": [
+    1,
+    0
+   ]
+  },
+  {
+   "file": "g057mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  },
+  {
+   "file": "g057st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.44,
+   "mask_only": false,
+   "sheet": "sheets/g057st.png",
+   "sheet_crop": [
+    42,
+    41,
+    90,
+    99
+   ],
+   "cell": [
+    48,
+    58
+   ],
+   "pivot_in_cell": [
+    22,
+    40
+   ]
+  },
+  {
+   "file": "g057stb.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g057stb.png",
+   "sheet_crop": [
+    42,
+    42,
+    91,
+    79
+   ],
+   "cell": [
+    49,
+    37
+   ],
+   "pivot_in_cell": [
+    22,
+    39
+   ]
+  },
+  {
+   "file": "g057sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    135,
+    135
+   ],
+   "pivot": [
+    64,
+    81
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

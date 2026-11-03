@@ -1,0 +1,18 @@
+// xrefs to FUN_005a8f10: 0047e587(0047e540) 004638a4(00463880) 005b4ce3(005b4cb0) 00548de9(00548c50) 0047e79c(0047e630) 0054783e(00547820) 0054789e(00547880) 0054790e(005478f0) 004aad17(004aaca0) 00547b1e(00547b00) 00531a41(00531a20) 0054854a(00548510) 0054ecce(0054ecb0) 00547a81(00547a60) 005655c8(00565530) 0057d437(0057d410) 005c5fe7(005c5fc0) 004de772(004de6e0) 0057d2ee(0057d2d0) 004a26b8(004a2680) 0054726e(00547250) 0049e12e(0049e110) 004de896(004de840) 0056570e(005656f0) 004017c8(004017c0) 
+
+undefined4 * __thiscall FUN_005a8f10(undefined4 *param_1,undefined4 param_2)
+
+{
+  undefined1 *puVar1;
+  
+  *param_1 = CSendPacket::vftable;
+  param_1[1] = 0x40;
+  puVar1 = (undefined1 *)FUN_00551dc0(0x40);
+  param_1[4] = puVar1;
+  param_1[3] = param_2;
+  *puVar1 = (char)param_2;
+  param_1[2] = 1;
+  return param_1;
+}
+
+

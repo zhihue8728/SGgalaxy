@@ -1,0 +1,222 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "h003",
+ "kind": "hero",
+ "chassis": [],
+ "base_chassis": [],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": null,
+ "manual": [],
+ "layers": [
+  {
+   "file": "h003em.xpf",
+   "dat": "tc.dat",
+   "action": "em",
+   "action_doc": "hero emote (not confirmed)",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    131,
+    125
+   ],
+   "pivot": [
+    64,
+    97
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/h003em.png",
+   "sheet_crop": [
+    33,
+    19,
+    96,
+    107
+   ],
+   "cell": [
+    63,
+    88
+   ],
+   "pivot_in_cell": [
+    31,
+    78
+   ]
+  },
+  {
+   "file": "h003ems.xpf",
+   "dat": "tc.dat",
+   "action": "em",
+   "action_doc": "hero emote (not confirmed)",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    131,
+    125
+   ],
+   "pivot": [
+    63,
+    94
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "h003mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    131,
+    125
+   ],
+   "pivot": [
+    65,
+    96
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/h003mo.png",
+   "sheet_crop": [
+    40,
+    27,
+    89,
+    110
+   ],
+   "cell": [
+    49,
+    83
+   ],
+   "pivot_in_cell": [
+    25,
+    69
+   ]
+  },
+  {
+   "file": "h003mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    131,
+    125
+   ],
+   "pivot": [
+    65,
+    96
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  },
+  {
+   "file": "h003st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 19747,
+   "canvas": [
+    131,
+    125
+   ],
+   "pivot": [
+    65,
+    96
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/h003st.png",
+   "sheet_crop": [
+    37,
+    29,
+    92,
+    107
+   ],
+   "cell": [
+    55,
+    78
+   ],
+   "pivot_in_cell": [
+    28,
+    67
+   ]
+  },
+  {
+   "file": "h003sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 19730,
+   "canvas": [
+    131,
+    125
+   ],
+   "pivot": [
+    65,
+    96
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png",
+ "note": "commander body (look 3)"
+}

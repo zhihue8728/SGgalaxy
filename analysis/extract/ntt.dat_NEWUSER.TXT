@@ -1,0 +1,53 @@
+khiGirlServer		Reading planet data from server. Please wait..
+khiGirlGreet		Welcome to the Morgana Star System. Press <ENTER> to select your home world and faction.
+khiGirlConfirmPlanet	Choose your starting planet and faction by using the arrows to the right.
+khiGirlNoNewbie		This planet is not open to new heroes. Please press <ENTER> to view an available planet.
+khiGirlConfirmNation	Did you choose your faction? Then, just click the "Next" button below, or Press <ENTER>.
+khiGirlSelectNation		The faction you have selected is %s, the current overlord is %s.
+khiGirlServerError		You have lost your connection to the game server.
+khiGirlSelectPlanet		Please choose your home world by using the arrow buttons.
+khiGirlMaxPopulation	This faction is not accepting new members at this time. Please press <ENTER> to view an available faction.
+khiGirlInvalidPlanet		This faction's capital is on another planet. Please press <ENTER> to view an available faction.
+
+khiGirlSelectHero	Select your physical appearance. Press <ENTER> when you ready.
+khiGirlAttribute	Adjust your attributes. Use the "Disk" button to fix an attribute while changing others.
+khiGirlNoAttribute	
+khiGirlConfirmhero	Click the "Next" button, or press <ENTER> to go to next process
+khiGirlTactics		Tactics represents a hero's ability to command troops in battle.
+khiGirlPolitics		Clout represents a hero's socio-political power and gives you quicker access to new units.
+khiGirlKnowledge	Education represents a hero's intellectual training and give quicker access to advanced technologies.
+khiGirlSkill		Mechanical aptitude represents a hero's mechanical engineering training and allows your unit to hold more.
+
+ksTacticsExplanation	TACTICS   - Tactics determines the size of your battle squad. You gain control of an extra unit in battle for every 20 points of tactics.
+ksPoliticsExplanation	CLOUT     - High clout gives you earlier access to more advanced units and allows you to upgrade sooner.  More clout means more HP and armor for your units.
+ksKnowledgeExplanation	EDUCATION - Higher Education gains access to advanced items for your units.  More education mean better items for your units. 
+ksSkillExplanation	MECHANICAL APTITUDE - Mech Apt increases the weight capacity when designing units.  More Mech Ap means you can equip more items per unit.
+
+ksGirlWrongInformation		There was an error in the information you have entered. Please re-enter your information.
+ksGirlInputIdAndPassword	Enter your name, password, & email address. Choose your password carefully and share it with no one. Nexon will never ask you for your password.
+ksGirlWelcomeToTC		Welcome to the world of Shattered Galaxy! I will be your trainer from now on. Please click "OK" and then add your new hero to your account by confirming your password.
+
+ksInvitedByEmail		
+ksWaitForServer			
+ksFriendFoundSuccess		
+ksFriendFoundFail		
+ksInputYourFriendName	
+
+ksCurrentPlanet			      PLANET : 
+ksCurrentNation			      FACTION:  
+
+ksCurrentPlanet2		      PLANET : %s
+ksCurrentNation2		      FACTION:  %s
+ksNotAllowedToNewbie		This planet is not \n open to new heroes.
+
+ksWelcomeAndNamePwd	Welcome to the Shattered Galaxy! Please enter your name, password, & email address. Choose your password carefully and share it with no one. Nexon will NEVER ask you for your hero's password.
+ksChooseHeroPic		Please choose your hero. Your hero represents you in the Shattered Galaxy so please choose well.
+ksHeroChosen		Good choice! Please distribute your attribute points.  Your attributes determine your strengths and weaknesses.
+ksChooseAttribute	Please distribute your attribute points. Your attributes determine your strengths and weaknesses. Above are descriptions of the various stats you can develop.
+ksHeroAttrRemained	You still have bonus points to use. If you are certain you wish to go ahead to the next step, click "Next" or press <ENTER>.
+ksChoosePlanet		Please choose a home planet for your new hero. You can view the planets currently available by pressing the arrow keys located near the planet name above.
+ksPlanetChosen		You have chosen a fine home planet. Please press the "Next" button to now choose your home faction.
+ksChooseFaction		You must now swear allegience to a faction.  Please choose one of the available factions for whom you wish to fight for.
+ksFactionChosen		Now press "Next" to start Shattered Galaxy!
+ksClickOnWrongArea	You clicked on open Space. Please press <ENTER> to view an available planet.
+ksWaitForServerConfirm	Waiting for server confirmation...please wait.

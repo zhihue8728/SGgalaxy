@@ -1,0 +1,15 @@
+kPortalNone	Subterranean Cavern
+kPortalGen	Portal
+kPortalShop	Factory
+kPortalLab	Lab
+kPortalSim	Sim
+kPortalExchangeShop	REM
+kPortalRR	Royal Rumble
+kPortalCityHall	FHQ
+kPortalExercise	CTF
+kPortalCave	Zoo
+kPortalStarCenter	Faction Pledge Center
+kPortalStarGate	Dimensional Matrix
+kPortalStarView	Observatory
+kPortalNewbieBattle	CCF
+kPortalGenToSpaceStation	Star Portal

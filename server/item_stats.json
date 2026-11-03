@@ -1,0 +1,1264 @@
+{
+ "_about": "Weapon / special stats from Bahamut guides (electrock 2004, Taiwan TC names). They are applied IN ORDER to the unit's English weapon family (items whose slot is the unit's weapon slot, InfoTbl order). The TC and SG item lists differ in length, so the name match is approximate.",
+ "_fields": "tech = required tech level, fire = fire power, range = m, cooldown = s between shots, attr = ballistic/fire, energy = energy per use",
+ "units": {
+  "g003": {
+   "name": "Revenant 巨人",
+   "source": "[攻略] 巨人武器．特殊裝備排序",
+   "weapons": [
+    {
+     "zh": "鉛拳",
+     "tech": 1,
+     "fire": 90,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 6
+    },
+    {
+     "zh": "鐵拳",
+     "tech": 5,
+     "fire": 102,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 6
+    },
+    {
+     "zh": "鋼拳",
+     "tech": 14,
+     "fire": 119,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 8
+    },
+    {
+     "zh": "鈦拳",
+     "tech": 24,
+     "fire": 147,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 9
+    },
+    {
+     "zh": "超合金拳",
+     "tech": 39,
+     "fire": 180,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 10
+    },
+    {
+     "zh": "岩肘",
+     "tech": 52,
+     "fire": 216,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 13
+    },
+    {
+     "zh": "火燄拳",
+     "tech": 58,
+     "fire": 120,
+     "range": 3,
+     "cooldown": 1.0,
+     "attr": "fire",
+     "energy": 14
+    },
+    {
+     "zh": "拳刀",
+     "tech": 64,
+     "fire": 258,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 16
+    },
+    {
+     "zh": "尖錐拳",
+     "tech": 76,
+     "fire": 302,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": 16
+    },
+    {
+     "zh": "雙刃拳",
+     "tech": 93,
+     "fire": 347,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "肘擊拳",
+     "tech": 109,
+     "fire": 240,
+     "range": 4,
+     "cooldown": 1.0,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "雙重鉤爪拳",
+     "tech": 113,
+     "fire": 427,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "刃金戊拳",
+     "tech": 140,
+     "fire": 540,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": null
+    }
+   ],
+   "special": [
+    {
+     "zh": "深度隱形裝置",
+     "tech": 30,
+     "effect": 0,
+     "energy": 20
+    },
+    {
+     "zh": "魔幻靈光",
+     "tech": 41,
+     "effect": 0,
+     "energy": 40
+    },
+    {
+     "zh": "流星震擊",
+     "tech": 43,
+     "effect": 300,
+     "energy": 1300
+    },
+    {
+     "zh": "綠蝙蝠加速器",
+     "tech": 62,
+     "effect": 70,
+     "energy": 40
+    },
+    {
+     "zh": "隕石震擊",
+     "tech": 91,
+     "effect": 600,
+     "energy": 4000
+    },
+    {
+     "zh": "慧星震擊",
+     "tech": 110,
+     "effect": 900,
+     "energy": 6000
+    }
+   ]
+  },
+  "g039": {
+   "name": "Ghast 刀鋒者",
+   "source": "[攻略] 刀鋒武器．特殊裝備排序",
+   "weapons": [
+    {
+     "zh": "閃靈光劍",
+     "tech": 1,
+     "fire": 124,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "名劍燄靈",
+     "tech": 45,
+     "fire": 75,
+     "range": 3,
+     "cooldown": 1.0,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "青靈光劍",
+     "tech": 57,
+     "fire": 140,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "綠燄光劍",
+     "tech": 64,
+     "fire": 148,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "中子光劍",
+     "tech": 72,
+     "fire": 159,
+     "range": 5,
+     "cooldown": 1.0,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "原子力光劍",
+     "tech": 81,
+     "fire": 169,
+     "range": 5,
+     "cooldown": 0.9,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "玄離光劍",
+     "tech": 91,
+     "fire": 194,
+     "range": 5,
+     "cooldown": 0.9,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "炫光劍",
+     "tech": 97,
+     "fire": 220,
+     "range": 5,
+     "cooldown": 0.9,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "燄靈真打",
+     "tech": 100,
+     "fire": 115,
+     "range": 4,
+     "cooldown": 0.9,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "白灼光劍",
+     "tech": 105,
+     "fire": 234,
+     "range": 5,
+     "cooldown": 0.9,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "電炫光劍",
+     "tech": 109,
+     "fire": 250,
+     "range": 5,
+     "cooldown": 0.9,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "哈努光劍",
+     "tech": 113,
+     "fire": 269,
+     "range": 5,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "魚叉光劍",
+     "tech": 124,
+     "fire": 280,
+     "range": 5,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "流火光劍",
+     "tech": 130,
+     "fire": 280,
+     "range": 5,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "迷幻光劍",
+     "tech": 136,
+     "fire": 280,
+     "range": 5,
+     "cooldown": 0.6,
+     "attr": "ballistic",
+     "energy": null
+    }
+   ],
+   "special": [
+    {
+     "zh": "UCD生物器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200
+    },
+    {
+     "zh": "MCD機械器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200
+    },
+    {
+     "zh": "懸浮器",
+     "tech": 27,
+     "effect": 0,
+     "energy": 25
+    },
+    {
+     "zh": "隱形裝置",
+     "tech": 41,
+     "effect": 0,
+     "energy": 60
+    },
+    {
+     "zh": "時間藥丸",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200
+    },
+    {
+     "zh": "微修理器",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200
+    },
+    {
+     "zh": "隱形裝置X",
+     "tech": 95,
+     "effect": 0,
+     "energy": 45
+    }
+   ]
+  },
+  "g019": {
+   "name": "Shade 艾克斯諾",
+   "source": "武器(雙管巴爾幹+艾克斯諾)",
+   "weapons": [
+    {
+     "zh": "標準機槍",
+     "tech": 1,
+     "fire": 22,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 4
+    },
+    {
+     "zh": "X式機槍",
+     "tech": 6,
+     "fire": 22,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.6,
+     "attr": "ballistic",
+     "energy": 4
+    },
+    {
+     "zh": "G1強力機槍",
+     "tech": 13,
+     "fire": 30,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 5
+    },
+    {
+     "zh": "刺針飛彈",
+     "tech": 18,
+     "fire": 31,
+     "target": "ground+air",
+     "range": 16,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": 7
+    },
+    {
+     "zh": "V式飛彈",
+     "tech": 23,
+     "fire": 35,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": 5
+    },
+    {
+     "zh": "紅外線微型飛彈I型",
+     "tech": 30,
+     "fire": 33,
+     "target": "air",
+     "range": 14,
+     "cooldown": 0.5,
+     "attr": "missile",
+     "energy": 7
+    },
+    {
+     "zh": "G2強力機槍",
+     "tech": 35,
+     "fire": 40,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 5
+    },
+    {
+     "zh": "V2機槍",
+     "tech": 41,
+     "fire": 45,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 5
+    },
+    {
+     "zh": "M1飛彈",
+     "tech": 47,
+     "fire": 47,
+     "target": "ground+air",
+     "range": 16,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": 7
+    },
+    {
+     "zh": "G3強力機槍",
+     "tech": 50,
+     "fire": 54,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 6
+    },
+    {
+     "zh": "標靶機槍",
+     "tech": 58,
+     "fire": 62,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 7
+    },
+    {
+     "zh": "G4強力機槍",
+     "tech": 67,
+     "fire": 67,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 8
+    },
+    {
+     "zh": "凱特林重機槍",
+     "tech": 72,
+     "fire": 73,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 8
+    },
+    {
+     "zh": "(名稱不明)",
+     "tech": 80,
+     "fire": null,
+     "target": null,
+     "range": null,
+     "cooldown": null,
+     "attr": null,
+     "energy": 8
+    },
+    {
+     "zh": "紅外線微型飛彈二型",
+     "tech": 81,
+     "fire": 93,
+     "target": "air",
+     "range": 15,
+     "cooldown": 0.5,
+     "attr": "missile",
+     "energy": 10
+    },
+    {
+     "zh": "西西里機槍",
+     "tech": 88,
+     "fire": 85,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 9
+    },
+    {
+     "zh": "M2飛彈",
+     "tech": 93,
+     "fire": 87,
+     "target": "ground+air",
+     "range": 16,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "G6強力機槍",
+     "tech": 99,
+     "fire": 92,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "MX飛彈",
+     "tech": 109,
+     "fire": 99,
+     "target": "ground+air",
+     "range": 17,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "脈衝機槍",
+     "tech": 113,
+     "fire": 103,
+     "target": "ground+air",
+     "range": 14,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "地虎飛彈",
+     "tech": 124,
+     "fire": 117,
+     "target": "ground+air",
+     "range": 18,
+     "cooldown": 1.0,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "天龍飛彈",
+     "tech": 134,
+     "fire": 127,
+     "target": "ground+air",
+     "range": 20,
+     "cooldown": 1.0,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "MZ飛彈",
+     "tech": 140,
+     "fire": 140,
+     "target": "ground+air",
+     "range": 20,
+     "cooldown": 1.0,
+     "attr": "missile",
+     "energy": null
+    }
+   ],
+   "special": [
+    {
+     "zh": "UCD生物器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200,
+     "note": "補生物的血"
+    },
+    {
+     "zh": "MCD機械器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200,
+     "note": "修理機械的血量"
+    },
+    {
+     "zh": "懸浮器",
+     "tech": 27,
+     "effect": 0,
+     "energy": 25,
+     "note": "不會踩到地雷,但不能站poc"
+    },
+    {
+     "zh": "隱形裝置",
+     "tech": 41,
+     "effect": 0,
+     "energy": 40,
+     "note": ""
+    },
+    {
+     "zh": "X型懸浮器",
+     "tech": 41,
+     "effect": 1,
+     "energy": 25,
+     "note": "閃避自走的攻擊"
+    },
+    {
+     "zh": "托斯特護罩",
+     "tech": 47,
+     "effect": 0,
+     "energy": 120,
+     "note": "隔絕一切的外力"
+    },
+    {
+     "zh": "時間藥丸",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200,
+     "note": "補生物的血"
+    },
+    {
+     "zh": "微修理器",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200,
+     "note": "修理機械的血量"
+    },
+    {
+     "zh": "巨石推進器",
+     "tech": 53,
+     "effect": 40,
+     "energy": 32,
+     "note": ""
+    },
+    {
+     "zh": "貝爾護罩",
+     "tech": 82,
+     "effect": 0,
+     "energy": 100,
+     "note": "隔絕一切的外力"
+    }
+   ]
+  },
+  "g005": {
+   "name": "Banshee 雙管巴爾幹",
+   "source": "武器(雙管巴爾幹+艾克斯諾)",
+   "weapons": [
+    {
+     "zh": "標準機槍",
+     "tech": 1,
+     "fire": 22,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 4
+    },
+    {
+     "zh": "X式機槍",
+     "tech": 6,
+     "fire": 22,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.6,
+     "attr": "ballistic",
+     "energy": 4
+    },
+    {
+     "zh": "G1強力機槍",
+     "tech": 13,
+     "fire": 30,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 5
+    },
+    {
+     "zh": "刺針飛彈",
+     "tech": 18,
+     "fire": 31,
+     "target": "ground+air",
+     "range": 16,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": 7
+    },
+    {
+     "zh": "V式飛彈",
+     "tech": 23,
+     "fire": 35,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": 5
+    },
+    {
+     "zh": "紅外線微型飛彈I型",
+     "tech": 30,
+     "fire": 33,
+     "target": "air",
+     "range": 14,
+     "cooldown": 0.5,
+     "attr": "missile",
+     "energy": 7
+    },
+    {
+     "zh": "G2強力機槍",
+     "tech": 35,
+     "fire": 40,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 5
+    },
+    {
+     "zh": "V2機槍",
+     "tech": 41,
+     "fire": 45,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 5
+    },
+    {
+     "zh": "M1飛彈",
+     "tech": 47,
+     "fire": 47,
+     "target": "ground+air",
+     "range": 16,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": 7
+    },
+    {
+     "zh": "G3強力機槍",
+     "tech": 50,
+     "fire": 54,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 6
+    },
+    {
+     "zh": "標靶機槍",
+     "tech": 58,
+     "fire": 62,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 7
+    },
+    {
+     "zh": "G4強力機槍",
+     "tech": 67,
+     "fire": 67,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 8
+    },
+    {
+     "zh": "凱特林重機槍",
+     "tech": 72,
+     "fire": 73,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 8
+    },
+    {
+     "zh": "(名稱不明)",
+     "tech": 80,
+     "fire": null,
+     "target": null,
+     "range": null,
+     "cooldown": null,
+     "attr": null,
+     "energy": 8
+    },
+    {
+     "zh": "紅外線微型飛彈二型",
+     "tech": 81,
+     "fire": 93,
+     "target": "air",
+     "range": 15,
+     "cooldown": 0.5,
+     "attr": "missile",
+     "energy": 10
+    },
+    {
+     "zh": "西西里機槍",
+     "tech": 88,
+     "fire": 85,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": 9
+    },
+    {
+     "zh": "M2飛彈",
+     "tech": 93,
+     "fire": 87,
+     "target": "ground+air",
+     "range": 16,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "G6強力機槍",
+     "tech": 99,
+     "fire": 92,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "MX飛彈",
+     "tech": 109,
+     "fire": 99,
+     "target": "ground+air",
+     "range": 17,
+     "cooldown": 0.8,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "脈衝機槍",
+     "tech": 113,
+     "fire": 103,
+     "target": "ground+air",
+     "range": 14,
+     "cooldown": 0.8,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "地虎飛彈",
+     "tech": 124,
+     "fire": 117,
+     "target": "ground+air",
+     "range": 18,
+     "cooldown": 1.0,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "天龍飛彈",
+     "tech": 134,
+     "fire": 127,
+     "target": "ground+air",
+     "range": 20,
+     "cooldown": 1.0,
+     "attr": "missile",
+     "energy": null
+    },
+    {
+     "zh": "MZ飛彈",
+     "tech": 140,
+     "fire": 140,
+     "target": "ground+air",
+     "range": 20,
+     "cooldown": 1.0,
+     "attr": "missile",
+     "energy": null
+    }
+   ],
+   "special": [
+    {
+     "zh": "UCD生物器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200,
+     "note": "補生物的血"
+    },
+    {
+     "zh": "MCD機械器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200,
+     "note": "修理機械的血量"
+    },
+    {
+     "zh": "EMP槍",
+     "tech": 26,
+     "effect": 600,
+     "energy": 40,
+     "note": "吸別人的電"
+    },
+    {
+     "zh": "懸浮器",
+     "tech": 27,
+     "effect": 0,
+     "energy": 25,
+     "note": ""
+    },
+    {
+     "zh": "隱形裝置",
+     "tech": 41,
+     "effect": 0,
+     "energy": 40,
+     "note": ""
+    },
+    {
+     "zh": "反隱形泡沫",
+     "tech": 41,
+     "effect": 1,
+     "energy": 50,
+     "note": "讓隱形的敵軍現形"
+    },
+    {
+     "zh": "EMP槍二型",
+     "tech": 46,
+     "effect": 900,
+     "energy": 65,
+     "note": ""
+    },
+    {
+     "zh": "時間藥丸",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200,
+     "note": ""
+    },
+    {
+     "zh": "微修理器",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200,
+     "note": ""
+    },
+    {
+     "zh": "高級EMP槍",
+     "tech": 75,
+     "effect": 1500,
+     "energy": 90,
+     "note": ""
+    },
+    {
+     "zh": "反隱形感應組",
+     "tech": 100,
+     "effect": 1,
+     "energy": 30,
+     "note": ""
+    },
+    {
+     "zh": "頂級EMP槍",
+     "tech": 120,
+     "effect": 1900,
+     "energy": 120,
+     "note": ""
+    },
+    {
+     "zh": "特製EMP槍",
+     "tech": 165,
+     "effect": 2300,
+     "energy": 140,
+     "note": ""
+    }
+   ]
+  },
+  "g004": {
+   "name": "Imp 戰猿",
+   "source": "(戰猿武器表)",
+   "weapons": [
+    {
+     "zh": "火燄噴射筒",
+     "tech": 1,
+     "fire": 22,
+     "target": "ground",
+     "range": 10,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "戰虎鯊步槍I型",
+     "tech": 6,
+     "fire": 21,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "火燄槍I型",
+     "tech": 12,
+     "fire": 33,
+     "target": "ground",
+     "range": 10,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "戰虎鯊步槍II型",
+     "tech": 19,
+     "fire": 33,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "火燄槍II型",
+     "tech": 23,
+     "fire": 46,
+     "target": "ground",
+     "range": 10,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "火燄槍III型",
+     "tech": 32,
+     "fire": 57,
+     "target": "ground",
+     "range": 10,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "戰虎鯊步槍III型",
+     "tech": 40,
+     "fire": 45,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "火燄槍IV型",
+     "tech": 50,
+     "fire": 67,
+     "target": "ground",
+     "range": 10,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "魟式戰鬥步槍I",
+     "tech": 53,
+     "fire": 57,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "苯烯火燄槍",
+     "tech": 61,
+     "fire": 150,
+     "target": "ground",
+     "range": 12,
+     "cooldown": 2.0,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "禿鷹瓦斯槍",
+     "tech": 71,
+     "fire": 94,
+     "target": "ground",
+     "range": 12,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "魟式戰鬥步槍II",
+     "tech": 76,
+     "fire": 68,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "幻火",
+     "tech": 80,
+     "fire": 108,
+     "target": "ground",
+     "range": 12,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "魟式戰鬥步槍III",
+     "tech": 92,
+     "fire": 83,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "苯烯火燄槍II型",
+     "tech": 97,
+     "fire": 120,
+     "target": "ground",
+     "range": 12,
+     "cooldown": 1.3,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "重型苯烯火焰槍",
+     "tech": 110,
+     "fire": 200,
+     "target": "ground",
+     "range": 12,
+     "cooldown": 2.0,
+     "attr": "fire",
+     "energy": null
+    },
+    {
+     "zh": "終極魟式戰鬥步槍",
+     "tech": 112,
+     "fire": 97,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "黑熊貓戰鬥步槍",
+     "tech": 123,
+     "fire": 113,
+     "target": "ground+air",
+     "range": 15,
+     "cooldown": 0.7,
+     "attr": "ballistic",
+     "energy": null
+    },
+    {
+     "zh": "終極苯烯火焰",
+     "tech": 135,
+     "fire": 130,
+     "target": "ground",
+     "range": 12,
+     "cooldown": 1.2,
+     "attr": "fire",
+     "energy": null
+    }
+   ],
+   "special": [
+    {
+     "zh": "UCD生物器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200,
+     "note": ""
+    },
+    {
+     "zh": "MCD機械器",
+     "tech": 16,
+     "effect": 30,
+     "energy": 200,
+     "note": ""
+    },
+    {
+     "zh": "懸浮器",
+     "tech": 27,
+     "effect": 0,
+     "energy": 25,
+     "note": ""
+    },
+    {
+     "zh": "偽裝器",
+     "tech": 29,
+     "effect": 0,
+     "energy": 30,
+     "note": ""
+    },
+    {
+     "zh": "隱形裝置",
+     "tech": 41,
+     "effect": 0,
+     "energy": 40,
+     "note": ""
+    },
+    {
+     "zh": "電子干擾器",
+     "tech": 43,
+     "effect": 10,
+     "energy": 800,
+     "note": ""
+    },
+    {
+     "zh": "時間藥丸",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200,
+     "note": ""
+    },
+    {
+     "zh": "微修理器",
+     "tech": 52,
+     "effect": 50,
+     "energy": 200,
+     "note": ""
+    },
+    {
+     "zh": "新陳代謝加速器",
+     "tech": 55,
+     "effect": 50,
+     "energy": 40,
+     "note": ""
+    },
+    {
+     "zh": "強化電子干擾器",
+     "tech": 91,
+     "effect": 15,
+     "energy": 800,
+     "note": ""
+    },
+    {
+     "zh": "神經束加速器",
+     "tech": 96,
+     "effect": 100,
+     "energy": 70,
+     "note": ""
+    }
+   ]
+  }
+ }
+}

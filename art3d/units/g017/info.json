@@ -1,0 +1,993 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g017",
+ "kind": "ground",
+ "chassis": [
+  "Sapper",
+  "Sapper-Mk2",
+  "Sapper-Mk3",
+  "Sapper-Mk4",
+  "Sapper-Mk5",
+  "Sapper-Mk6",
+  "Sapper-Mk7",
+  "Sapper-Mk8",
+  "Sapper-Mk9"
+ ],
+ "base_chassis": [
+  "Sapper"
+ ],
+ "names_cn": {
+  "Sapper": "工兵"
+ },
+ "names_tw": {
+  "Sapper": "工兵"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Sapper",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 2,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 10,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 1440,
+   "base_armor": 0,
+   "speed_m_s": 2.8,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "chassis_image": "g017st.xpf",
+   "description_summary": "Digs trenches, lays mines, and self-destructs as a last defense."
+  },
+  {
+   "name": "Sapper-Mk2",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 16,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 11,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 1650,
+   "base_armor": 3,
+   "speed_m_s": 3,
+   "view_range_m": 7.25,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "description_summary": "Digs trenches, lays mines, and self-destructs as final defense."
+  },
+  {
+   "name": "Sapper-Mk3",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 30,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 12,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 1950,
+   "base_armor": 6,
+   "speed_m_s": 3,
+   "view_range_m": 7.5,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "description_summary": "Digs trenches and lays mines; can self-destruct as a last defense."
+  },
+  {
+   "name": "Sapper-Mk4",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 12,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 2370,
+   "base_armor": 9,
+   "speed_m_s": 3.2,
+   "view_range_m": 7.75,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "chassis_image": "g017st.xpf",
+   "description_summary": "Digs trenches and lays mines; a self-destructing last line of defense"
+  },
+  {
+   "name": "Sapper-Mk5",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 58,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 13,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 2940,
+   "base_armor": 12,
+   "speed_m_s": 3.2,
+   "view_range_m": 8,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "chassis_image": "g017st.xpf",
+   "description_summary": "Digs trenches and lays mines; can self-destruct as last defense."
+  },
+  {
+   "name": "Sapper-Mk6",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 72,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 14,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 3660,
+   "base_armor": 15,
+   "speed_m_s": 3.4,
+   "view_range_m": 8.25,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "description_summary": "Digs trenches, lays mines, first defense; can self-destruct as last line."
+  },
+  {
+   "name": "Sapper-Mk7",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 86,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 15,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 4590,
+   "base_armor": 18,
+   "speed_m_s": 3.4,
+   "view_range_m": 8.5,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "description_summary": "Digs trenches, lays mines, and can self-destruct as last defense."
+  },
+  {
+   "name": "Sapper-Mk8",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 100,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 16,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 5730,
+   "base_armor": 21,
+   "speed_m_s": 3.6,
+   "view_range_m": 8.75,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "description_summary": "Digs trenches, lays mines, and self-destructs as a last defense."
+  },
+  {
+   "name": "Sapper-Mk9",
+   "category": "Infantry",
+   "group": "Sci-frame",
+   "influence": 114,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 17,
+   "unit_weight_kg": 65,
+   "type": "Biological",
+   "base_health": 7110,
+   "base_armor": 24,
+   "speed_m_s": 3.8,
+   "view_range_m": 9,
+   "view_type": "Cone",
+   "chassis_code": "g017",
+   "description_summary": "Digs trenches and lays mines; can self-destruct as last defense."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g017at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 39,
+   "type_raw": 39,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      90,
+      93
+     ]
+    ],
+    "1": [
+     [
+      80,
+      95
+     ]
+    ],
+    "2": [
+     [
+      71,
+      97
+     ]
+    ],
+    "3": [
+     [
+      60,
+      94
+     ]
+    ],
+    "4": [
+     [
+      57,
+      89
+     ]
+    ],
+    "5": [
+     [
+      61,
+      80
+     ]
+    ],
+    "6": [
+     [
+      73,
+      78
+     ]
+    ],
+    "7": [
+     [
+      81,
+      82
+     ]
+    ],
+    "8": [
+     [
+      90,
+      93
+     ]
+    ],
+    "9": [
+     [
+      80,
+      95
+     ]
+    ],
+    "10": [
+     [
+      71,
+      97
+     ]
+    ],
+    "11": [
+     [
+      60,
+      94
+     ]
+    ],
+    "12": [
+     [
+      57,
+      89
+     ]
+    ],
+    "13": [
+     [
+      61,
+      80
+     ]
+    ],
+    "14": [
+     [
+      73,
+      78
+     ]
+    ],
+    "15": [
+     [
+      81,
+      82
+     ]
+    ],
+    "16": [
+     [
+      90,
+      93
+     ]
+    ],
+    "17": [
+     [
+      80,
+      95
+     ]
+    ],
+    "18": [
+     [
+      71,
+      97
+     ]
+    ],
+    "19": [
+     [
+      60,
+      94
+     ]
+    ],
+    "20": [
+     [
+      57,
+      89
+     ]
+    ],
+    "21": [
+     [
+      61,
+      80
+     ]
+    ],
+    "22": [
+     [
+      73,
+      78
+     ]
+    ],
+    "23": [
+     [
+      81,
+      82
+     ]
+    ],
+    "24": [
+     [
+      90,
+      93
+     ]
+    ],
+    "25": [
+     [
+      80,
+      95
+     ]
+    ],
+    "26": [
+     [
+      71,
+      97
+     ]
+    ],
+    "27": [
+     [
+      60,
+      94
+     ]
+    ],
+    "28": [
+     [
+      57,
+      89
+     ]
+    ],
+    "29": [
+     [
+      61,
+      80
+     ]
+    ],
+    "30": [
+     [
+      73,
+      78
+     ]
+    ],
+    "31": [
+     [
+      81,
+      82
+     ]
+    ],
+    "32": [
+     [
+      97,
+      84
+     ]
+    ],
+    "33": [
+     [
+      92,
+      96
+     ]
+    ],
+    "34": [
+     [
+      73,
+      103
+     ]
+    ],
+    "35": [
+     [
+      56,
+      98
+     ]
+    ],
+    "36": [
+     [
+      47,
+      87
+     ]
+    ],
+    "37": [
+     [
+      53,
+      71
+     ]
+    ],
+    "38": [
+     [
+      72,
+      65
+     ]
+    ],
+    "39": [
+     [
+      89,
+      72
+     ]
+    ]
+   },
+   "sheet": "sheets/g017at.png",
+   "sheet_crop": [
+    38,
+    44,
+    108,
+    108
+   ],
+   "cell": [
+    70,
+    64
+   ],
+   "pivot_in_cell": [
+    33,
+    44
+   ]
+  },
+  {
+   "file": "g017atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g017atb.png",
+   "sheet_crop": [
+    46,
+    53,
+    100,
+    99
+   ],
+   "cell": [
+    54,
+    46
+   ],
+   "pivot_in_cell": [
+    25,
+    35
+   ]
+  },
+  {
+   "file": "g017ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    131,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g017da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1793,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    65,
+    67
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g017da.png",
+   "sheet_crop": [
+    40,
+    49,
+    92,
+    90
+   ],
+   "cell": [
+    52,
+    41
+   ],
+   "pivot_in_cell": [
+    25,
+    18
+   ]
+  },
+  {
+   "file": "g017dt.xpf",
+   "dat": "tc.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g017dt.png",
+   "sheet_crop": [
+    57,
+    50,
+    89,
+    99
+   ],
+   "cell": [
+    32,
+    49
+   ],
+   "pivot_in_cell": [
+    14,
+    38
+   ]
+  },
+  {
+   "file": "g017dtb.xpf",
+   "dat": "tc.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g017dtb.png",
+   "sheet_crop": [
+    60,
+    60,
+    86,
+    78
+   ],
+   "cell": [
+    26,
+    18
+   ],
+   "pivot_in_cell": [
+    11,
+    28
+   ]
+  },
+  {
+   "file": "g017dts.xpf",
+   "dat": "tc.dat",
+   "action": "dt",
+   "action_doc": "not confirmed",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g017m.xpf",
+   "dat": "tc.dat",
+   "action": "m",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    27,
+    27
+   ],
+   "pivot": [
+    13,
+    15
+   ],
+   "frame_count": 2,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g017m.png",
+   "sheet_crop": [
+    5,
+    10,
+    23,
+    21
+   ],
+   "cell": [
+    18,
+    11
+   ],
+   "pivot_in_cell": [
+    8,
+    5
+   ]
+  },
+  {
+   "file": "g017mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g017mo.png",
+   "sheet_crop": [
+    57,
+    50,
+    89,
+    99
+   ],
+   "cell": [
+    32,
+    49
+   ],
+   "pivot_in_cell": [
+    14,
+    38
+   ]
+  },
+  {
+   "file": "g017mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g017mob.png",
+   "sheet_crop": [
+    60,
+    60,
+    86,
+    78
+   ],
+   "cell": [
+    26,
+    18
+   ],
+   "pivot_in_cell": [
+    11,
+    28
+   ]
+  },
+  {
+   "file": "g017mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g017mop.png",
+   "sheet_crop": [
+    58,
+    78,
+    87,
+    99
+   ],
+   "cell": [
+    29,
+    21
+   ],
+   "pivot_in_cell": [
+    13,
+    10
+   ]
+  },
+  {
+   "file": "g017mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g017st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 1827,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g017st.png",
+   "sheet_crop": [
+    58,
+    51,
+    89,
+    97
+   ],
+   "cell": [
+    31,
+    46
+   ],
+   "pivot_in_cell": [
+    13,
+    37
+   ]
+  },
+  {
+   "file": "g017stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g017stb.png",
+   "sheet_crop": [
+    60,
+    61,
+    86,
+    78
+   ],
+   "cell": [
+    26,
+    17
+   ],
+   "pivot_in_cell": [
+    11,
+    27
+   ]
+  },
+  {
+   "file": "g017sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    129,
+    125
+   ],
+   "pivot": [
+    71,
+    88
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

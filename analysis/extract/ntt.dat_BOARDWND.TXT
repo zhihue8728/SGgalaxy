@@ -1,0 +1,29 @@
+ksSelectFirst		Please select a province first.
+ksReinforcement		\n=================================\n          Reinforcements\n=================================\n
+ksReinforcementUnit	%-12s : %s\n
+ksArrived		arrived
+ksAddingRecipient	%s was added to recipient list.
+ksDesc			\n=================================\n
+
+ksJoinBattleInstant		Do you want to reinforce the battle in %s between %s and %s?
+ksJoinBattleRecommendMvp	No suitable battles against other factions are available. Do you wish to join a battle against the aliens?
+ksBackToCapital			Do you want to instantly transport back to your capital (you can use F8 to invoke this ability)?
+ksOverlordMarker		***Overlord Marker
+ksRulerMarker			***Commander Marker
+ksCommanderMarker		***Captain Marker
+ksAutoEnter			\nYou can automatically join this battle.
+ksAutoReject			\nThe Battlefield Commander has closed this battle.
+ksFieldFull			\nThis battle is full.
+ksForceOpen			\nThis battle has been Forced Opened by a council member.\nYou can automatically join this battle.
+ksNoPath			You cannot reach this province!
+ksTooEarly			Battlefield Com System will be enabled in %d seconds. At that time, you will be able to reserve a place in the battle.
+ksIJUnable			Battlefield Com System enabled in %d seconds.
+ksLevelLimit			[Level %d or over cannot gain XP here.]
+ksWhichAreIn		which are in 
+
+ksTimePast			This information is %d seconds old.
+ksChangeRegiment		You are already a member of %s. Do you wish to leave your regiment and join %s?
+ksJoinRegiment			Do you want to join regiment %s?
+ksLeaveRegiment			Do you want to leave regiment %s?
+ksOpenRegiment			You are going to open %s. Are you sure to open this regiment?
+ksCloseRegiment			Do you want to close regiment %s to new members?

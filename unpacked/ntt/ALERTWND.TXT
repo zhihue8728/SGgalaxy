@@ -1,0 +1,9 @@
+ksReinforcement			User %s is trying to enter this field.\nDo you confirm?\n\nCtrl-F7 enables you to change the reinforcement confirm mode to automatic or manual.
+ksMercenaryHelp			Mercenary %s offers his services for a share of the spoils of victory. Do you accept?\n\nCtrl-F7 enables you to change the reinforcement confirm mode to automatic or manual.
+ksReinforcementInstant		User %s is trying to enter this field from far away.\nIt will take some time for him to arrive here.\nDo you confirm?\n\nCtrl-F7 enables you to change the reinforcement confirm mode to automatic or manual.
+ksReinforcementForWatch		User %s is trying to watch this battle.\nDo you confirm?\n\nCtrl-F7 enables you to change the reinforcement confirm mode to automatic or manual.
+ksRetreat			Unit %s is trying to escape from this field.\nDo you confirm?\n\n!! Caution !! If you retreat a unit through this gate,\nevery other unit has to retreat through this gate.
+ksRetreatToEnemyField		Unit %s is trying to escape from this field.\nThe destination field is owned by an enemy faction. Retreat through another portal.
+ksRetreatTimeOut		Too much time has passed since %s reached an exit portal. Approach the exit portal again in order to retreat.
+ksPasswordDetected		Shattered Galaxy detected that you were about to transmit your password to another player. Nexon will NEVER ask you for your hero's password. Any losses caused by another person using your hero will not be reimbursed by Nexon. Do not give your password to anyone.
+ksConnectionFailure		Your connection with the game server was lost. Please reconnect.

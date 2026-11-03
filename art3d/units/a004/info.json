@@ -1,0 +1,1831 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a004",
+ "kind": "air",
+ "chassis": [
+  "Hawk",
+  "Hawk-Mk2",
+  "Hawk-Mk3",
+  "Hawk-Mk4",
+  "Hawk-Mk5",
+  "Hawk-Mk6",
+  "Hawk-Mk7",
+  "Hawk-Mk8",
+  "Hawk-Mk9"
+ ],
+ "base_chassis": [
+  "Hawk"
+ ],
+ "names_cn": {
+  "Hawk": "鹞鹰"
+ },
+ "names_tw": {
+  "Hawk": "鷂鷹"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Hawk",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 2,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 7,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 984,
+   "base_armor": 0,
+   "speed_m_s": 7.7,
+   "view_range_m": 11.5,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "description_summary": "Quick maneuverable airship with varied weapons; excels at hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk2",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 16,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 7,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 1110,
+   "base_armor": 1,
+   "speed_m_s": 8.8,
+   "view_range_m": 11.75,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "chassis_image": "a004st.xpf",
+   "description_summary": "Quick, maneuverable airship with varied weapons, specializing in hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk3",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 30,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 8,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 1320,
+   "base_armor": 3,
+   "speed_m_s": 8.8,
+   "view_range_m": 12,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "chassis_image": "a004st.xpf",
+   "description_summary": "Agile airship with diverse weapons, specialized in hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk4",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 9,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 1620,
+   "base_armor": 6,
+   "speed_m_s": 8.8,
+   "view_range_m": 12.25,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "chassis_image": "a004st.xpf",
+   "description_summary": "Quick, maneuverable airship with many weapons, excelling at hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk5",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 58,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 9,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 2010,
+   "base_armor": 9,
+   "speed_m_s": 8.8,
+   "view_range_m": 12.5,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "chassis_image": "a004st.xpf",
+   "description_summary": "Quick, maneuverable airship with many weapons; excels at hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk6",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 72,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 10,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 2520,
+   "base_armor": 12,
+   "speed_m_s": 9.9,
+   "view_range_m": 12.75,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "description_summary": "Fast, agile airship with varied weapons, specialized in hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk7",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 86,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 11,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 3150,
+   "base_armor": 15,
+   "speed_m_s": 9.9,
+   "view_range_m": 13,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "chassis_image": "a004st.xpf",
+   "description_summary": "Quick, maneuverable airship with varied weapons, excelling at hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk8",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 100,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 11,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 3900,
+   "base_armor": 18,
+   "speed_m_s": 10.2,
+   "view_range_m": 13.25,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "description_summary": "Quick, agile airship with many weapons, excelling at hunting other airships."
+  },
+  {
+   "name": "Hawk-Mk9",
+   "category": "Aviation",
+   "group": "Cyclo-raptor",
+   "influence": 114,
+   "slots": 10,
+   "max_weight_kg": 60,
+   "max_space_l": 12,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 4860,
+   "base_armor": 21,
+   "speed_m_s": 10.5,
+   "view_range_m": 13.5,
+   "view_type": "Omni",
+   "chassis_code": "a004",
+   "chassis_image": "a004st.xpf",
+   "description_summary": "Agile airship with many weapons, best at hunting other airships."
+  }
+ ],
+ "layers": [
+  {
+   "file": "a004at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      54,
+      43
+     ],
+     [
+      52,
+      73
+     ]
+    ],
+    "1": [
+     [
+      64,
+      44
+     ],
+     [
+      43,
+      71
+     ]
+    ],
+    "2": [
+     [
+      70,
+      48
+     ],
+     [
+      39,
+      70
+     ]
+    ],
+    "3": [
+     [
+      73,
+      52
+     ],
+     [
+      34,
+      64
+     ]
+    ],
+    "4": [
+     [
+      74,
+      58
+     ],
+     [
+      34,
+      58
+     ]
+    ],
+    "5": [
+     [
+      73,
+      63
+     ],
+     [
+      34,
+      53
+     ]
+    ],
+    "6": [
+     [
+      66,
+      68
+     ],
+     [
+      39,
+      47
+     ]
+    ],
+    "7": [
+     [
+      59,
+      71
+     ],
+     [
+      46,
+      45
+     ]
+    ],
+    "8": [
+     [
+      53,
+      72
+     ],
+     [
+      54,
+      43
+     ]
+    ],
+    "9": [
+     [
+      46,
+      73
+     ],
+     [
+      66,
+      45
+     ]
+    ],
+    "10": [
+     [
+      39,
+      68
+     ],
+     [
+      69,
+      48
+     ]
+    ],
+    "11": [
+     [
+      34,
+      64
+     ],
+     [
+      73,
+      51
+     ]
+    ],
+    "12": [
+     [
+      34,
+      58
+     ],
+     [
+      75,
+      58
+     ]
+    ],
+    "13": [
+     [
+      34,
+      52
+     ],
+     [
+      72,
+      62
+     ]
+    ],
+    "14": [
+     [
+      40,
+      47
+     ],
+     [
+      68,
+      67
+     ]
+    ],
+    "15": [
+     [
+      46,
+      45
+     ],
+     [
+      62,
+      71
+     ]
+    ],
+    "16": [
+     [
+      54,
+      43
+     ],
+     [
+      52,
+      73
+     ]
+    ],
+    "17": [
+     [
+      64,
+      44
+     ],
+     [
+      43,
+      71
+     ]
+    ],
+    "18": [
+     [
+      70,
+      48
+     ],
+     [
+      39,
+      70
+     ]
+    ],
+    "19": [
+     [
+      73,
+      52
+     ],
+     [
+      34,
+      64
+     ]
+    ],
+    "20": [
+     [
+      74,
+      58
+     ],
+     [
+      34,
+      58
+     ]
+    ],
+    "21": [
+     [
+      73,
+      63
+     ],
+     [
+      34,
+      53
+     ]
+    ],
+    "22": [
+     [
+      66,
+      68
+     ],
+     [
+      39,
+      47
+     ]
+    ],
+    "23": [
+     [
+      59,
+      71
+     ],
+     [
+      46,
+      45
+     ]
+    ],
+    "24": [
+     [
+      53,
+      72
+     ],
+     [
+      54,
+      43
+     ]
+    ],
+    "25": [
+     [
+      46,
+      73
+     ],
+     [
+      66,
+      45
+     ]
+    ],
+    "26": [
+     [
+      39,
+      68
+     ],
+     [
+      69,
+      48
+     ]
+    ],
+    "27": [
+     [
+      34,
+      64
+     ],
+     [
+      73,
+      51
+     ]
+    ],
+    "28": [
+     [
+      34,
+      58
+     ],
+     [
+      75,
+      58
+     ]
+    ],
+    "29": [
+     [
+      34,
+      52
+     ],
+     [
+      72,
+      62
+     ]
+    ],
+    "30": [
+     [
+      40,
+      47
+     ],
+     [
+      68,
+      67
+     ]
+    ],
+    "31": [
+     [
+      46,
+      45
+     ],
+     [
+      62,
+      71
+     ]
+    ],
+    "32": [
+     [
+      54,
+      43
+     ],
+     [
+      52,
+      73
+     ]
+    ],
+    "33": [
+     [
+      64,
+      44
+     ],
+     [
+      43,
+      71
+     ]
+    ],
+    "34": [
+     [
+      70,
+      48
+     ],
+     [
+      39,
+      70
+     ]
+    ],
+    "35": [
+     [
+      73,
+      52
+     ],
+     [
+      34,
+      64
+     ]
+    ],
+    "36": [
+     [
+      74,
+      58
+     ],
+     [
+      34,
+      58
+     ]
+    ],
+    "37": [
+     [
+      73,
+      63
+     ],
+     [
+      34,
+      53
+     ]
+    ],
+    "38": [
+     [
+      66,
+      68
+     ],
+     [
+      39,
+      47
+     ]
+    ],
+    "39": [
+     [
+      59,
+      71
+     ],
+     [
+      46,
+      45
+     ]
+    ],
+    "40": [
+     [
+      53,
+      72
+     ],
+     [
+      54,
+      43
+     ]
+    ],
+    "41": [
+     [
+      46,
+      73
+     ],
+     [
+      66,
+      45
+     ]
+    ],
+    "42": [
+     [
+      39,
+      68
+     ],
+     [
+      69,
+      48
+     ]
+    ],
+    "43": [
+     [
+      34,
+      64
+     ],
+     [
+      73,
+      51
+     ]
+    ],
+    "44": [
+     [
+      34,
+      58
+     ],
+     [
+      75,
+      58
+     ]
+    ],
+    "45": [
+     [
+      34,
+      52
+     ],
+     [
+      72,
+      62
+     ]
+    ],
+    "46": [
+     [
+      40,
+      47
+     ],
+     [
+      68,
+      67
+     ]
+    ],
+    "47": [
+     [
+      46,
+      45
+     ],
+     [
+      62,
+      71
+     ]
+    ]
+   },
+   "sheet": "sheets/a004at.png",
+   "sheet_crop": [
+    20,
+    33,
+    89,
+    85
+   ],
+   "cell": [
+    69,
+    52
+   ],
+   "pivot_in_cell": [
+    33,
+    25
+   ]
+  },
+  {
+   "file": "a004atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a004atb.png",
+   "sheet_crop": [
+    22,
+    35,
+    87,
+    82
+   ],
+   "cell": [
+    65,
+    47
+   ],
+   "pivot_in_cell": [
+    31,
+    23
+   ]
+  },
+  {
+   "file": "a004atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.94,
+   "mask_only": false,
+   "sheet": "sheets/a004atd.png",
+   "sheet_crop": [
+    19,
+    28,
+    90,
+    87
+   ],
+   "cell": [
+    71,
+    59
+   ],
+   "pivot_in_cell": [
+    34,
+    30
+   ]
+  },
+  {
+   "file": "a004ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a004da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a004da.png",
+   "sheet_crop": [
+    33,
+    33,
+    91,
+    81
+   ],
+   "cell": [
+    58,
+    48
+   ],
+   "pivot_in_cell": [
+    20,
+    25
+   ]
+  },
+  {
+   "file": "a004das.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "a004mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a004mo.png",
+   "sheet_crop": [
+    21,
+    33,
+    89,
+    84
+   ],
+   "cell": [
+    68,
+    51
+   ],
+   "pivot_in_cell": [
+    32,
+    25
+   ]
+  },
+  {
+   "file": "a004mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a004mob.png",
+   "sheet_crop": [
+    23,
+    35,
+    87,
+    82
+   ],
+   "cell": [
+    64,
+    47
+   ],
+   "pivot_in_cell": [
+    30,
+    23
+   ]
+  },
+  {
+   "file": "a004mod.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/a004mod.png",
+   "sheet_crop": [
+    17,
+    27,
+    92,
+    90
+   ],
+   "cell": [
+    75,
+    63
+   ],
+   "pivot_in_cell": [
+    36,
+    31
+   ]
+  },
+  {
+   "file": "a004mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a004sa.xpf",
+   "dat": "tc.dat",
+   "action": "sa",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      53,
+      43
+     ],
+     [
+      53,
+      71
+     ]
+    ],
+    "1": [
+     [
+      61,
+      44
+     ],
+     [
+      45,
+      71
+     ]
+    ],
+    "2": [
+     [
+      68,
+      48
+     ],
+     [
+      38,
+      69
+     ]
+    ],
+    "3": [
+     [
+      73,
+      53
+     ],
+     [
+      34,
+      62
+     ]
+    ],
+    "4": [
+     [
+      74,
+      58
+     ],
+     [
+      32,
+      58
+     ]
+    ],
+    "5": [
+     [
+      74,
+      63
+     ],
+     [
+      36,
+      52
+     ]
+    ],
+    "6": [
+     [
+      70,
+      67
+     ],
+     [
+      40,
+      48
+     ]
+    ],
+    "7": [
+     [
+      61,
+      71
+     ],
+     [
+      47,
+      44
+     ]
+    ],
+    "8": [
+     [
+      53,
+      73
+     ],
+     [
+      53,
+      43
+     ]
+    ],
+    "9": [
+     [
+      47,
+      71
+     ],
+     [
+      60,
+      45
+     ]
+    ],
+    "10": [
+     [
+      40,
+      69
+     ],
+     [
+      69,
+      48
+     ]
+    ],
+    "11": [
+     [
+      36,
+      64
+     ],
+     [
+      75,
+      54
+     ]
+    ],
+    "12": [
+     [
+      33,
+      60
+     ],
+     [
+      75,
+      60
+     ]
+    ],
+    "13": [
+     [
+      33,
+      55
+     ],
+     [
+      72,
+      64
+     ]
+    ],
+    "14": [
+     [
+      34,
+      48
+     ],
+     [
+      68,
+      69
+     ]
+    ],
+    "15": [
+     [
+      41,
+      44
+     ],
+     [
+      59,
+      71
+     ]
+    ],
+    "16": [
+     [
+      53,
+      43
+     ],
+     [
+      53,
+      71
+     ]
+    ],
+    "17": [
+     [
+      61,
+      44
+     ],
+     [
+      45,
+      71
+     ]
+    ],
+    "18": [
+     [
+      68,
+      48
+     ],
+     [
+      38,
+      69
+     ]
+    ],
+    "19": [
+     [
+      73,
+      53
+     ],
+     [
+      34,
+      62
+     ]
+    ],
+    "20": [
+     [
+      74,
+      58
+     ],
+     [
+      32,
+      58
+     ]
+    ],
+    "21": [
+     [
+      74,
+      63
+     ],
+     [
+      36,
+      52
+     ]
+    ],
+    "22": [
+     [
+      70,
+      67
+     ],
+     [
+      40,
+      48
+     ]
+    ],
+    "23": [
+     [
+      61,
+      71
+     ],
+     [
+      47,
+      44
+     ]
+    ],
+    "24": [
+     [
+      53,
+      73
+     ],
+     [
+      53,
+      43
+     ]
+    ],
+    "25": [
+     [
+      47,
+      71
+     ],
+     [
+      60,
+      45
+     ]
+    ],
+    "26": [
+     [
+      40,
+      69
+     ],
+     [
+      69,
+      48
+     ]
+    ],
+    "27": [
+     [
+      36,
+      64
+     ],
+     [
+      75,
+      54
+     ]
+    ],
+    "28": [
+     [
+      33,
+      60
+     ],
+     [
+      75,
+      60
+     ]
+    ],
+    "29": [
+     [
+      33,
+      55
+     ],
+     [
+      72,
+      64
+     ]
+    ],
+    "30": [
+     [
+      34,
+      48
+     ],
+     [
+      68,
+      69
+     ]
+    ],
+    "31": [
+     [
+      41,
+      44
+     ],
+     [
+      59,
+      71
+     ]
+    ],
+    "32": [
+     [
+      53,
+      43
+     ],
+     [
+      53,
+      71
+     ]
+    ],
+    "33": [
+     [
+      61,
+      44
+     ],
+     [
+      45,
+      71
+     ]
+    ],
+    "34": [
+     [
+      68,
+      48
+     ],
+     [
+      38,
+      69
+     ]
+    ],
+    "35": [
+     [
+      73,
+      53
+     ],
+     [
+      34,
+      62
+     ]
+    ],
+    "36": [
+     [
+      74,
+      58
+     ],
+     [
+      32,
+      58
+     ]
+    ],
+    "37": [
+     [
+      74,
+      63
+     ],
+     [
+      36,
+      52
+     ]
+    ],
+    "38": [
+     [
+      70,
+      67
+     ],
+     [
+      40,
+      48
+     ]
+    ],
+    "39": [
+     [
+      61,
+      71
+     ],
+     [
+      47,
+      44
+     ]
+    ],
+    "40": [
+     [
+      53,
+      73
+     ],
+     [
+      53,
+      43
+     ]
+    ],
+    "41": [
+     [
+      47,
+      71
+     ],
+     [
+      60,
+      45
+     ]
+    ],
+    "42": [
+     [
+      40,
+      69
+     ],
+     [
+      69,
+      48
+     ]
+    ],
+    "43": [
+     [
+      36,
+      64
+     ],
+     [
+      75,
+      54
+     ]
+    ],
+    "44": [
+     [
+      33,
+      60
+     ],
+     [
+      75,
+      60
+     ]
+    ],
+    "45": [
+     [
+      33,
+      55
+     ],
+     [
+      72,
+      64
+     ]
+    ],
+    "46": [
+     [
+      34,
+      48
+     ],
+     [
+      68,
+      69
+     ]
+    ],
+    "47": [
+     [
+      41,
+      44
+     ],
+     [
+      59,
+      71
+     ]
+    ]
+   },
+   "sheet": "sheets/a004sa.png",
+   "sheet_crop": [
+    19,
+    31,
+    91,
+    86
+   ],
+   "cell": [
+    72,
+    55
+   ],
+   "pivot_in_cell": [
+    34,
+    27
+   ]
+  },
+  {
+   "file": "a004sab.xpf",
+   "dat": "tc.dat",
+   "action": "sa",
+   "action_doc": "not confirmed",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a004sab.png",
+   "sheet_crop": [
+    21,
+    33,
+    89,
+    83
+   ],
+   "cell": [
+    68,
+    50
+   ],
+   "pivot_in_cell": [
+    32,
+    25
+   ]
+  },
+  {
+   "file": "a004sas.xpf",
+   "dat": "tc.dat",
+   "action": "sa",
+   "action_doc": "not confirmed",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a004sf.xpf",
+   "dat": "tc.dat",
+   "action": "sf",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 9,
+   "type_raw": 9,
+   "canvas": [
+    43,
+    45
+   ],
+   "pivot": [
+    20,
+    21
+   ],
+   "frame_count": 3,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a004sf.png",
+   "sheet_crop": [
+    17,
+    16,
+    28,
+    29
+   ],
+   "cell": [
+    11,
+    13
+   ],
+   "pivot_in_cell": [
+    3,
+    5
+   ]
+  },
+  {
+   "file": "a004sk.xpf",
+   "dat": "tc.dat",
+   "action": "sk",
+   "action_doc": "not confirmed",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 193,
+   "type_raw": 193,
+   "canvas": [
+    43,
+    45
+   ],
+   "pivot": [
+    21,
+    22
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.44,
+   "mask_only": false,
+   "sheet": "sheets/a004sk.png",
+   "sheet_crop": [
+    12,
+    16,
+    34,
+    31
+   ],
+   "cell": [
+    22,
+    15
+   ],
+   "pivot_in_cell": [
+    9,
+    6
+   ]
+  },
+  {
+   "file": "a004st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a004st.png",
+   "sheet_crop": [
+    21,
+    33,
+    89,
+    84
+   ],
+   "cell": [
+    68,
+    51
+   ],
+   "pivot_in_cell": [
+    32,
+    25
+   ]
+  },
+  {
+   "file": "a004stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a004stb.png",
+   "sheet_crop": [
+    23,
+    35,
+    87,
+    82
+   ],
+   "cell": [
+    64,
+    47
+   ],
+   "pivot_in_cell": [
+    30,
+    23
+   ]
+  },
+  {
+   "file": "a004sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    108,
+    105
+   ],
+   "pivot": [
+    53,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

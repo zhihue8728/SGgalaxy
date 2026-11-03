@@ -1,0 +1,1266 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g023",
+ "kind": "ground",
+ "chassis": [
+  "Gear-Doc",
+  "Gear-Doc-Mk2",
+  "Gear-Doc-Mk3",
+  "Gear-Doc-Mk4",
+  "Gear-Doc-Mk5"
+ ],
+ "base_chassis": [
+  "Gear-Doc"
+ ],
+ "names_cn": {
+  "Gear-Doc": "修理机"
+ },
+ "names_tw": {
+  "Gear-Doc": "修理機"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Gear-Doc",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 22,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 14,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 1728,
+   "base_armor": 0,
+   "speed_m_s": 3,
+   "view_range_m": 6,
+   "view_type": "Cone",
+   "chassis_code": "g023",
+   "chassis_image": "g023st.xpf"
+  },
+  {
+   "name": "Gear-Doc-Mk2",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 15,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 2310,
+   "base_armor": 1,
+   "speed_m_s": 3.2,
+   "view_range_m": 6.25,
+   "view_type": "Cone",
+   "chassis_code": "g023",
+   "chassis_image": "g023st.xpf"
+  },
+  {
+   "name": "Gear-Doc-Mk3",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 66,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 17,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 3270,
+   "base_armor": 3,
+   "speed_m_s": 3.2,
+   "view_range_m": 6.5,
+   "view_type": "Cone",
+   "chassis_code": "g023",
+   "chassis_image": "g023st.xpf"
+  },
+  {
+   "name": "Gear-Doc-Mk4",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 88,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 19,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 4650,
+   "base_armor": 4,
+   "speed_m_s": 3.4,
+   "view_range_m": 6.75,
+   "view_type": "Cone",
+   "chassis_code": "g023",
+   "chassis_image": "g023st.xpf"
+  },
+  {
+   "name": "Gear-Doc-Mk5",
+   "category": "Mobile",
+   "group": "Gyro-rig",
+   "influence": 110,
+   "slots": 10,
+   "max_weight_kg": 70,
+   "max_space_l": 21,
+   "unit_weight_kg": 100,
+   "type": "Mechanical",
+   "base_health": 6540,
+   "base_armor": 6,
+   "speed_m_s": 3.5,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g023",
+   "chassis_image": "g023st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g023at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 101,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 112,
+   "dirs": 16,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      121,
+      104
+     ]
+    ],
+    "1": [
+     [
+      118,
+      115
+     ]
+    ],
+    "2": [
+     [
+      110,
+      122
+     ]
+    ],
+    "3": [
+     [
+      101,
+      126
+     ]
+    ],
+    "4": [
+     [
+      87,
+      128
+     ]
+    ],
+    "5": [
+     [
+      75,
+      126
+     ]
+    ],
+    "6": [
+     [
+      65,
+      123
+     ]
+    ],
+    "7": [
+     [
+      57,
+      115
+     ]
+    ],
+    "8": [
+     [
+      55,
+      106
+     ]
+    ],
+    "9": [
+     [
+      55,
+      94
+     ]
+    ],
+    "10": [
+     [
+      65,
+      87
+     ]
+    ],
+    "11": [
+     [
+      74,
+      83
+     ]
+    ],
+    "12": [
+     [
+      86,
+      80
+     ]
+    ],
+    "13": [
+     [
+      97,
+      83
+     ]
+    ],
+    "14": [
+     [
+      108,
+      87
+     ]
+    ],
+    "15": [
+     [
+      117,
+      97
+     ]
+    ],
+    "16": [
+     [
+      121,
+      104
+     ]
+    ],
+    "17": [
+     [
+      118,
+      115
+     ]
+    ],
+    "18": [
+     [
+      110,
+      122
+     ]
+    ],
+    "19": [
+     [
+      101,
+      126
+     ]
+    ],
+    "20": [
+     [
+      87,
+      128
+     ]
+    ],
+    "21": [
+     [
+      75,
+      126
+     ]
+    ],
+    "22": [
+     [
+      65,
+      123
+     ]
+    ],
+    "23": [
+     [
+      57,
+      115
+     ]
+    ],
+    "24": [
+     [
+      55,
+      106
+     ]
+    ],
+    "25": [
+     [
+      55,
+      94
+     ]
+    ],
+    "26": [
+     [
+      65,
+      87
+     ]
+    ],
+    "27": [
+     [
+      74,
+      83
+     ]
+    ],
+    "28": [
+     [
+      86,
+      80
+     ]
+    ],
+    "29": [
+     [
+      97,
+      83
+     ]
+    ],
+    "30": [
+     [
+      108,
+      87
+     ]
+    ],
+    "31": [
+     [
+      117,
+      97
+     ]
+    ],
+    "32": [
+     [
+      121,
+      104
+     ]
+    ],
+    "33": [
+     [
+      118,
+      115
+     ]
+    ],
+    "34": [
+     [
+      110,
+      122
+     ]
+    ],
+    "35": [
+     [
+      101,
+      126
+     ]
+    ],
+    "36": [
+     [
+      87,
+      128
+     ]
+    ],
+    "37": [
+     [
+      75,
+      126
+     ]
+    ],
+    "38": [
+     [
+      65,
+      123
+     ]
+    ],
+    "39": [
+     [
+      57,
+      115
+     ]
+    ],
+    "40": [
+     [
+      55,
+      106
+     ]
+    ],
+    "41": [
+     [
+      55,
+      94
+     ]
+    ],
+    "42": [
+     [
+      65,
+      87
+     ]
+    ],
+    "43": [
+     [
+      74,
+      83
+     ]
+    ],
+    "44": [
+     [
+      86,
+      80
+     ]
+    ],
+    "45": [
+     [
+      97,
+      83
+     ]
+    ],
+    "46": [
+     [
+      108,
+      87
+     ]
+    ],
+    "47": [
+     [
+      117,
+      97
+     ]
+    ],
+    "48": [
+     [
+      121,
+      104
+     ]
+    ],
+    "49": [
+     [
+      118,
+      115
+     ]
+    ],
+    "50": [
+     [
+      110,
+      122
+     ]
+    ],
+    "51": [
+     [
+      101,
+      126
+     ]
+    ],
+    "52": [
+     [
+      87,
+      128
+     ]
+    ],
+    "53": [
+     [
+      75,
+      126
+     ]
+    ],
+    "54": [
+     [
+      65,
+      123
+     ]
+    ],
+    "55": [
+     [
+      57,
+      115
+     ]
+    ],
+    "56": [
+     [
+      55,
+      106
+     ]
+    ],
+    "57": [
+     [
+      55,
+      94
+     ]
+    ],
+    "58": [
+     [
+      65,
+      87
+     ]
+    ],
+    "59": [
+     [
+      74,
+      83
+     ]
+    ],
+    "60": [
+     [
+      86,
+      80
+     ]
+    ],
+    "61": [
+     [
+      97,
+      83
+     ]
+    ],
+    "62": [
+     [
+      108,
+      87
+     ]
+    ],
+    "63": [
+     [
+      117,
+      97
+     ]
+    ],
+    "64": [
+     [
+      121,
+      104
+     ]
+    ],
+    "65": [
+     [
+      118,
+      115
+     ]
+    ],
+    "66": [
+     [
+      110,
+      122
+     ]
+    ],
+    "67": [
+     [
+      101,
+      126
+     ]
+    ],
+    "68": [
+     [
+      87,
+      128
+     ]
+    ],
+    "69": [
+     [
+      75,
+      126
+     ]
+    ],
+    "70": [
+     [
+      65,
+      123
+     ]
+    ],
+    "71": [
+     [
+      57,
+      115
+     ]
+    ],
+    "72": [
+     [
+      55,
+      106
+     ]
+    ],
+    "73": [
+     [
+      55,
+      94
+     ]
+    ],
+    "74": [
+     [
+      65,
+      87
+     ]
+    ],
+    "75": [
+     [
+      74,
+      83
+     ]
+    ],
+    "76": [
+     [
+      86,
+      80
+     ]
+    ],
+    "77": [
+     [
+      97,
+      83
+     ]
+    ],
+    "78": [
+     [
+      108,
+      87
+     ]
+    ],
+    "79": [
+     [
+      117,
+      97
+     ]
+    ],
+    "80": [
+     [
+      121,
+      104
+     ]
+    ],
+    "81": [
+     [
+      118,
+      115
+     ]
+    ],
+    "82": [
+     [
+      110,
+      122
+     ]
+    ],
+    "83": [
+     [
+      101,
+      126
+     ]
+    ],
+    "84": [
+     [
+      87,
+      128
+     ]
+    ],
+    "85": [
+     [
+      75,
+      126
+     ]
+    ],
+    "86": [
+     [
+      65,
+      123
+     ]
+    ],
+    "87": [
+     [
+      57,
+      115
+     ]
+    ],
+    "88": [
+     [
+      55,
+      106
+     ]
+    ],
+    "89": [
+     [
+      55,
+      94
+     ]
+    ],
+    "90": [
+     [
+      65,
+      87
+     ]
+    ],
+    "91": [
+     [
+      74,
+      83
+     ]
+    ],
+    "92": [
+     [
+      86,
+      80
+     ]
+    ],
+    "93": [
+     [
+      97,
+      83
+     ]
+    ],
+    "94": [
+     [
+      108,
+      87
+     ]
+    ],
+    "95": [
+     [
+      117,
+      97
+     ]
+    ],
+    "96": [
+     [
+      121,
+      104
+     ]
+    ],
+    "97": [
+     [
+      118,
+      115
+     ]
+    ],
+    "98": [
+     [
+      110,
+      122
+     ]
+    ],
+    "99": [
+     [
+      101,
+      126
+     ]
+    ],
+    "100": [
+     [
+      87,
+      128
+     ]
+    ],
+    "101": [
+     [
+      75,
+      126
+     ]
+    ],
+    "102": [
+     [
+      65,
+      123
+     ]
+    ],
+    "103": [
+     [
+      57,
+      115
+     ]
+    ],
+    "104": [
+     [
+      55,
+      106
+     ]
+    ],
+    "105": [
+     [
+      55,
+      94
+     ]
+    ],
+    "106": [
+     [
+      65,
+      87
+     ]
+    ],
+    "107": [
+     [
+      74,
+      83
+     ]
+    ],
+    "108": [
+     [
+      86,
+      80
+     ]
+    ],
+    "109": [
+     [
+      97,
+      83
+     ]
+    ],
+    "110": [
+     [
+      108,
+      87
+     ]
+    ],
+    "111": [
+     [
+      117,
+      97
+     ]
+    ]
+   },
+   "sheet": "sheets/g023at.png",
+   "sheet_crop": [
+    47,
+    76,
+    129,
+    136
+   ],
+   "cell": [
+    82,
+    60
+   ],
+   "pivot_in_cell": [
+    39,
+    49
+   ]
+  },
+  {
+   "file": "g023atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 43329,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 112,
+   "dirs": 16,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g023atb.png",
+   "sheet_crop": [
+    65,
+    88,
+    111,
+    124
+   ],
+   "cell": [
+    46,
+    36
+   ],
+   "pivot_in_cell": [
+    21,
+    37
+   ]
+  },
+  {
+   "file": "g023atc.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "c",
+   "layer_doc": "extra layer (purpose not confirmed)",
+   "type": 9,
+   "type_raw": 9,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    91,
+    93
+   ],
+   "frame_count": 7,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g023atc.png",
+   "sheet_crop": [
+    71,
+    70,
+    126,
+    125
+   ],
+   "cell": [
+    55,
+    55
+   ],
+   "pivot_in_cell": [
+    20,
+    23
+   ]
+  },
+  {
+   "file": "g023ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 112,
+   "dirs": 16,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g023da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1793,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g023da.png",
+   "sheet_crop": [
+    55,
+    89,
+    116,
+    135
+   ],
+   "cell": [
+    61,
+    46
+   ],
+   "pivot_in_cell": [
+    31,
+    36
+   ]
+  },
+  {
+   "file": "g023das.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 1808,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g023mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g023mo.png",
+   "sheet_crop": [
+    47,
+    77,
+    129,
+    135
+   ],
+   "cell": [
+    82,
+    58
+   ],
+   "pivot_in_cell": [
+    39,
+    48
+   ]
+  },
+  {
+   "file": "g023mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g023mob.png",
+   "sheet_crop": [
+    65,
+    87,
+    112,
+    125
+   ],
+   "cell": [
+    47,
+    38
+   ],
+   "pivot_in_cell": [
+    21,
+    38
+   ]
+  },
+  {
+   "file": "g023mod.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 1803,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g023mod.png",
+   "sheet_crop": [
+    40,
+    59,
+    136,
+    150
+   ],
+   "cell": [
+    96,
+    91
+   ],
+   "pivot_in_cell": [
+    46,
+    66
+   ]
+  },
+  {
+   "file": "g023mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g023st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g023st.png",
+   "sheet_crop": [
+    47,
+    77,
+    129,
+    135
+   ],
+   "cell": [
+    82,
+    58
+   ],
+   "pivot_in_cell": [
+    39,
+    48
+   ]
+  },
+  {
+   "file": "g023stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g023stb.png",
+   "sheet_crop": [
+    65,
+    87,
+    112,
+    125
+   ],
+   "cell": [
+    47,
+    38
+   ],
+   "pivot_in_cell": [
+    21,
+    38
+   ]
+  },
+  {
+   "file": "g023sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    181,
+    175
+   ],
+   "pivot": [
+    86,
+    125
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

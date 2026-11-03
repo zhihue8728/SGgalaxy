@@ -1,0 +1,506 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g015",
+ "kind": "ground",
+ "chassis": [
+  "Slanth-Amplus",
+  "Slanth-Magnus",
+  "Slanth-Maximus",
+  "Slanth-Primus"
+ ],
+ "base_chassis": [
+  "Slanth-Amplus",
+  "Slanth-Magnus",
+  "Slanth-Maximus",
+  "Slanth-Primus"
+ ],
+ "names_cn": {
+  "Slanth-Amplus": "斯兰斯进阶",
+  "Slanth-Magnus": "斯兰斯强化",
+  "Slanth-Maximus": "斯兰斯极致",
+  "Slanth-Primus": "斯兰斯初阶"
+ },
+ "names_tw": {
+  "Slanth-Amplus": "斯蘭斯進階",
+  "Slanth-Magnus": "斯蘭斯強化",
+  "Slanth-Maximus": "斯蘭斯極致",
+  "Slanth-Primus": "斯蘭斯初階"
+ },
+ "alien_role": "Slanth",
+ "manual": [
+  {
+   "name": "Slanth-Amplus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 10,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1791,
+   "base_armor": 0,
+   "speed_m_s": 1.8,
+   "view_range_m": 33.75,
+   "view_type": "Cone",
+   "chassis_code": "g015",
+   "chassis_image": "g015st.xpf",
+   "description_summary": "Slow creature that flings corrosive acid balls over long distances."
+  },
+  {
+   "name": "Slanth-Magnus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 20,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1962,
+   "base_armor": 0,
+   "speed_m_s": 1.8,
+   "view_range_m": 34,
+   "view_type": "Cone",
+   "chassis_code": "g015",
+   "description_summary": "The sluggish Slanth can hurl caustic acid balls across immense distances."
+  },
+  {
+   "name": "Slanth-Maximus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 30,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2190,
+   "base_armor": 0,
+   "speed_m_s": 2,
+   "view_range_m": 34.25,
+   "view_type": "Cone",
+   "chassis_code": "g015",
+   "chassis_image": "g015st.xpf",
+   "description_summary": "The sluggish Slanth can hurl caustic acid balls across immense distances."
+  },
+  {
+   "name": "Slanth-Primus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 0,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1650,
+   "base_armor": 0,
+   "speed_m_s": 1.6,
+   "view_range_m": 33.5,
+   "view_type": "Cone",
+   "chassis_code": "g015",
+   "chassis_image": "g015st.xpf",
+   "description_summary": "Sluggish creature that throws caustic acid balls over long distances."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g015at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    42,
+    57
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      58,
+      49
+     ]
+    ],
+    "1": [
+     [
+      53,
+      58
+     ]
+    ],
+    "2": [
+     [
+      42,
+      61
+     ]
+    ],
+    "3": [
+     [
+      32,
+      61
+     ]
+    ],
+    "4": [
+     [
+      31,
+      55
+     ]
+    ],
+    "5": [
+     [
+      34,
+      46
+     ]
+    ],
+    "6": [
+     [
+      43,
+      47
+     ]
+    ],
+    "7": [
+     [
+      51,
+      50
+     ]
+    ],
+    "8": [
+     [
+      58,
+      49
+     ]
+    ],
+    "9": [
+     [
+      53,
+      58
+     ]
+    ],
+    "10": [
+     [
+      42,
+      61
+     ]
+    ],
+    "11": [
+     [
+      32,
+      61
+     ]
+    ],
+    "12": [
+     [
+      31,
+      55
+     ]
+    ],
+    "13": [
+     [
+      34,
+      46
+     ]
+    ],
+    "14": [
+     [
+      43,
+      47
+     ]
+    ],
+    "15": [
+     [
+      51,
+      50
+     ]
+    ],
+    "16": [
+     [
+      58,
+      49
+     ]
+    ],
+    "17": [
+     [
+      53,
+      58
+     ]
+    ],
+    "18": [
+     [
+      42,
+      61
+     ]
+    ],
+    "19": [
+     [
+      32,
+      61
+     ]
+    ],
+    "20": [
+     [
+      31,
+      55
+     ]
+    ],
+    "21": [
+     [
+      34,
+      46
+     ]
+    ],
+    "22": [
+     [
+      43,
+      47
+     ]
+    ],
+    "23": [
+     [
+      51,
+      50
+     ]
+    ]
+   },
+   "sheet": "sheets/g015at.png",
+   "sheet_crop": [
+    24,
+    37,
+    65,
+    70
+   ],
+   "cell": [
+    41,
+    33
+   ],
+   "pivot_in_cell": [
+    18,
+    20
+   ]
+  },
+  {
+   "file": "g015atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    42,
+    57
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "sheet": "sheets/g015atd.png",
+   "sheet_crop": [
+    20,
+    40,
+    69,
+    71
+   ],
+   "cell": [
+    49,
+    31
+   ],
+   "pivot_in_cell": [
+    22,
+    17
+   ]
+  },
+  {
+   "file": "g015ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    42,
+    57
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g015mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    42,
+    57
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g015mo.png",
+   "sheet_crop": [
+    24,
+    37,
+    65,
+    70
+   ],
+   "cell": [
+    41,
+    33
+   ],
+   "pivot_in_cell": [
+    18,
+    20
+   ]
+  },
+  {
+   "file": "g015mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    42,
+    57
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g015st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    42,
+    57
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g015st.png",
+   "sheet_crop": [
+    24,
+    37,
+    65,
+    72
+   ],
+   "cell": [
+    41,
+    35
+   ],
+   "pivot_in_cell": [
+    18,
+    20
+   ]
+  },
+  {
+   "file": "g015sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    97,
+    97
+   ],
+   "pivot": [
+    42,
+    57
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

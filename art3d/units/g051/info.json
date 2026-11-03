@@ -1,0 +1,426 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g051",
+ "kind": "ground",
+ "chassis": [
+  "Quorg",
+  "Quorg-Amplus",
+  "Quorg-Extremus",
+  "Quorg-Magnus",
+  "Quorg-Maximus"
+ ],
+ "base_chassis": [
+  "Quorg",
+  "Quorg-Amplus",
+  "Quorg-Extremus",
+  "Quorg-Magnus",
+  "Quorg-Maximus"
+ ],
+ "names_cn": {
+  "Quorg": "阔格",
+  "Quorg-Amplus": "阔格进阶",
+  "Quorg-Extremus": "阔格究极",
+  "Quorg-Magnus": "阔格强化",
+  "Quorg-Maximus": "阔格极致"
+ },
+ "names_tw": {
+  "Quorg": "闊格",
+  "Quorg-Amplus": "闊格進階",
+  "Quorg-Extremus": "闊格究極",
+  "Quorg-Magnus": "闊格強化",
+  "Quorg-Maximus": "闊格極致"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Quorg",
+   "category": "Organic",
+   "group": "Xeno-collisi",
+   "unit_quality": 1,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 16,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1320,
+   "base_armor": 6,
+   "speed_m_s": 3.2,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g051"
+  },
+  {
+   "name": "Quorg-Amplus",
+   "category": "Organic",
+   "group": "Xeno-collisi",
+   "unit_quality": 30,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 19,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 1800,
+   "base_armor": 18,
+   "speed_m_s": 3.3,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g051"
+  },
+  {
+   "name": "Quorg-Extremus",
+   "category": "Organic",
+   "group": "Xeno-collisi",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 28,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 7170,
+   "base_armor": 66,
+   "speed_m_s": 3.8,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g051",
+   "chassis_image": "g051st.xpf"
+  },
+  {
+   "name": "Quorg-Magnus",
+   "category": "Organic",
+   "group": "Xeno-collisi",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 22,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2790,
+   "base_armor": 30,
+   "speed_m_s": 3.6,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g051"
+  },
+  {
+   "name": "Quorg-Maximus",
+   "category": "Organic",
+   "group": "Xeno-collisi",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 104,
+   "max_space_l": 25,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4530,
+   "base_armor": 48,
+   "speed_m_s": 3.6,
+   "view_range_m": 7,
+   "view_type": "Cone",
+   "chassis_code": "g051",
+   "chassis_image": "g051st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g051at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 39,
+   "type_raw": 39,
+   "canvas": [
+    365,
+    365
+   ],
+   "pivot": [
+    183,
+    217
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "muzzle_points": {
+    "24": [
+     [
+      238,
+      190
+     ]
+    ],
+    "25": [
+     [
+      233,
+      224
+     ]
+    ],
+    "26": [
+     [
+      185,
+      238
+     ]
+    ],
+    "27": [
+     [
+      145,
+      224
+     ]
+    ],
+    "28": [
+     [
+      133,
+      194
+     ]
+    ],
+    "29": [
+     [
+      150,
+      167
+     ]
+    ],
+    "30": [
+     [
+      185,
+      159
+     ]
+    ],
+    "31": [
+     [
+      219,
+      170
+     ]
+    ]
+   },
+   "sheet": "sheets/g051at.png",
+   "sheet_crop": [
+    119,
+    154,
+    251,
+    257
+   ],
+   "cell": [
+    132,
+    103
+   ],
+   "pivot_in_cell": [
+    64,
+    63
+   ]
+  },
+  {
+   "file": "g051ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    365,
+    365
+   ],
+   "pivot": [
+    183,
+    217
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  },
+  {
+   "file": "g051da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    365,
+    365
+   ],
+   "pivot": [
+    183,
+    217
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g051da.png",
+   "sheet_crop": [
+    127,
+    185,
+    219,
+    242
+   ],
+   "cell": [
+    92,
+    57
+   ],
+   "pivot_in_cell": [
+    56,
+    32
+   ]
+  },
+  {
+   "file": "g051mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    365,
+    365
+   ],
+   "pivot": [
+    183,
+    217
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g051mo.png",
+   "sheet_crop": [
+    121,
+    159,
+    250,
+    262
+   ],
+   "cell": [
+    129,
+    103
+   ],
+   "pivot_in_cell": [
+    62,
+    58
+   ]
+  },
+  {
+   "file": "g051mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    365,
+    365
+   ],
+   "pivot": [
+    183,
+    217
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g051st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 1827,
+   "canvas": [
+    365,
+    365
+   ],
+   "pivot": [
+    183,
+    217
+   ],
+   "frame_count": 32,
+   "dirs": 8,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": false,
+   "sheet": "sheets/g051st.png",
+   "sheet_crop": [
+    119,
+    158,
+    251,
+    257
+   ],
+   "cell": [
+    132,
+    99
+   ],
+   "pivot_in_cell": [
+    64,
+    59
+   ]
+  },
+  {
+   "file": "g051sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    365,
+    365
+   ],
+   "pivot": [
+    183,
+    217
+   ],
+   "frame_count": 32,
+   "dirs": 8,
+   "frames_per_dir": 4,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

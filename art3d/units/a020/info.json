@@ -1,0 +1,529 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a020",
+ "kind": "air",
+ "chassis": [
+  "Charnal-Evo1",
+  "Charnal-Evo2",
+  "Charnal-Evo3",
+  "Charnal-Evo4",
+  "Charnal-Evo5",
+  "Charnal-Evo6",
+  "Charnal-Evo7"
+ ],
+ "base_chassis": [
+  "Charnal-Evo1",
+  "Charnal-Evo2",
+  "Charnal-Evo3",
+  "Charnal-Evo4",
+  "Charnal-Evo5",
+  "Charnal-Evo6",
+  "Charnal-Evo7"
+ ],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": "Charnal",
+ "manual": [
+  {
+   "name": "Charnal-Evo1",
+   "category": "Organic",
+   "group": "Charnal",
+   "unit_quality": 2,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 15,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 3300,
+   "base_armor": 18,
+   "speed_m_s": 7.2,
+   "view_range_m": 3.5,
+   "view_type": "Cone",
+   "chassis_code": "a020"
+  },
+  {
+   "name": "Charnal-Evo2",
+   "category": "Organic",
+   "group": "Charnal",
+   "unit_quality": 21,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 16,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 3990,
+   "base_armor": 24,
+   "speed_m_s": 7.8,
+   "view_range_m": 3.75,
+   "view_type": "Cone",
+   "chassis_code": "a020"
+  },
+  {
+   "name": "Charnal-Evo3",
+   "category": "Organic",
+   "group": "Charnal",
+   "unit_quality": 40,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 17,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 5130,
+   "base_armor": 30,
+   "speed_m_s": 8.8,
+   "view_range_m": 4,
+   "view_type": "Cone",
+   "chassis_code": "a020"
+  },
+  {
+   "name": "Charnal-Evo4",
+   "category": "Organic",
+   "group": "Charnal",
+   "unit_quality": 59,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 19,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 6840,
+   "base_armor": 36,
+   "speed_m_s": 9.6,
+   "view_range_m": 4.25,
+   "view_type": "Cone",
+   "chassis_code": "a020"
+  },
+  {
+   "name": "Charnal-Evo5",
+   "category": "Organic",
+   "group": "Charnal",
+   "unit_quality": 78,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 20,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 9270,
+   "base_armor": 42,
+   "speed_m_s": 10,
+   "view_range_m": 4.5,
+   "view_type": "Cone",
+   "chassis_code": "a020",
+   "chassis_image": "a020st.xpf"
+  },
+  {
+   "name": "Charnal-Evo6",
+   "category": "Organic",
+   "group": "Charnal",
+   "unit_quality": 97,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 21,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 12510,
+   "base_armor": 51,
+   "speed_m_s": 10.8,
+   "view_range_m": 4.75,
+   "view_type": "Cone",
+   "chassis_code": "a020"
+  },
+  {
+   "name": "Charnal-Evo7",
+   "category": "Organic",
+   "group": "Charnal",
+   "unit_quality": 116,
+   "slots": 10,
+   "max_weight_kg": 105,
+   "max_space_l": 23,
+   "unit_weight_kg": 350,
+   "type": "Biological",
+   "base_health": 16770,
+   "base_armor": 60,
+   "speed_m_s": 11.4,
+   "view_range_m": 5,
+   "view_type": "Cone",
+   "chassis_code": "a020"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a020at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 101,
+   "canvas": [
+    249,
+    249
+   ],
+   "pivot": [
+    124,
+    106
+   ],
+   "frame_count": 96,
+   "dirs": 16,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "80": [
+     [
+      166,
+      101
+     ]
+    ],
+    "81": [
+     [
+      167,
+      111
+     ]
+    ],
+    "82": [
+     [
+      159,
+      124
+     ]
+    ],
+    "83": [
+     [
+      144,
+      131
+     ]
+    ],
+    "84": [
+     [
+      125,
+      134
+     ]
+    ],
+    "85": [
+     [
+      106,
+      132
+     ]
+    ],
+    "86": [
+     [
+      91,
+      123
+     ]
+    ],
+    "87": [
+     [
+      83,
+      111
+     ]
+    ],
+    "88": [
+     [
+      83,
+      101
+     ]
+    ],
+    "89": [
+     [
+      89,
+      92
+     ]
+    ],
+    "90": [
+     [
+      99,
+      82
+     ]
+    ],
+    "91": [
+     [
+      111,
+      77
+     ]
+    ],
+    "92": [
+     [
+      125,
+      75
+     ]
+    ],
+    "93": [
+     [
+      140,
+      77
+     ]
+    ],
+    "94": [
+     [
+      151,
+      82
+     ]
+    ],
+    "95": [
+     [
+      164,
+      91
+     ]
+    ]
+   },
+   "sheet": "sheets/a020at.png",
+   "sheet_crop": [
+    58,
+    50,
+    195,
+    145
+   ],
+   "cell": [
+    137,
+    95
+   ],
+   "pivot_in_cell": [
+    66,
+    56
+   ]
+  },
+  {
+   "file": "a020ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 84,
+   "type_raw": 84,
+   "canvas": [
+    249,
+    249
+   ],
+   "pivot": [
+    124,
+    106
+   ],
+   "frame_count": 96,
+   "dirs": 16,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true,
+   "muzzle_points": {
+    "80": [
+     [
+      166,
+      101
+     ]
+    ],
+    "81": [
+     [
+      167,
+      111
+     ]
+    ],
+    "82": [
+     [
+      159,
+      124
+     ]
+    ],
+    "83": [
+     [
+      144,
+      131
+     ]
+    ],
+    "84": [
+     [
+      125,
+      134
+     ]
+    ],
+    "85": [
+     [
+      106,
+      132
+     ]
+    ],
+    "86": [
+     [
+      91,
+      123
+     ]
+    ],
+    "87": [
+     [
+      83,
+      111
+     ]
+    ],
+    "88": [
+     [
+      83,
+      101
+     ]
+    ],
+    "89": [
+     [
+      89,
+      92
+     ]
+    ],
+    "90": [
+     [
+      99,
+      82
+     ]
+    ],
+    "91": [
+     [
+      111,
+      77
+     ]
+    ],
+    "92": [
+     [
+      125,
+      75
+     ]
+    ],
+    "93": [
+     [
+      140,
+      77
+     ]
+    ],
+    "94": [
+     [
+      151,
+      82
+     ]
+    ],
+    "95": [
+     [
+      164,
+      91
+     ]
+    ]
+   }
+  },
+  {
+   "file": "a020da.xpf",
+   "dat": "tc2.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    213,
+    213
+   ],
+   "pivot": [
+    124,
+    106
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a020da.png",
+   "sheet_crop": [
+    75,
+    76,
+    145,
+    132
+   ],
+   "cell": [
+    70,
+    56
+   ],
+   "pivot_in_cell": [
+    49,
+    30
+   ]
+  },
+  {
+   "file": "a020mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    249,
+    249
+   ],
+   "pivot": [
+    124,
+    106
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a020mo.png",
+   "sheet_crop": [
+    59,
+    57,
+    193,
+    159
+   ],
+   "cell": [
+    134,
+    102
+   ],
+   "pivot_in_cell": [
+    65,
+    49
+   ]
+  },
+  {
+   "file": "a020mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    249,
+    249
+   ],
+   "pivot": [
+    124,
+    106
+   ],
+   "frame_count": 56,
+   "dirs": 8,
+   "frames_per_dir": 7,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

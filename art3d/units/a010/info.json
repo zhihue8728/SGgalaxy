@@ -1,0 +1,899 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a010",
+ "kind": "air",
+ "chassis": [
+  "Momas-Amplus",
+  "Momas-Extremus",
+  "Momas-Magnus",
+  "Momas-Maximus",
+  "Momas-Primus"
+ ],
+ "base_chassis": [
+  "Momas-Amplus",
+  "Momas-Extremus",
+  "Momas-Magnus",
+  "Momas-Maximus",
+  "Momas-Primus"
+ ],
+ "names_cn": {
+  "Momas-Amplus": "莫玛斯进阶",
+  "Momas-Extremus": "莫玛斯究极",
+  "Momas-Magnus": "莫玛斯强化",
+  "Momas-Maximus": "莫玛斯极致",
+  "Momas-Primus": "莫玛斯初阶"
+ },
+ "names_tw": {
+  "Momas-Amplus": "莫瑪斯進階",
+  "Momas-Extremus": "莫瑪斯究極",
+  "Momas-Magnus": "莫瑪斯強化",
+  "Momas-Maximus": "莫瑪斯極致",
+  "Momas-Primus": "莫瑪斯初階"
+ },
+ "alien_role": "Mamos",
+ "manual": [
+  {
+   "name": "Momas-Amplus",
+   "category": "Organic",
+   "group": "Xeno-hoverus",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3531,
+   "base_armor": 0,
+   "speed_m_s": 5.7,
+   "view_range_m": 29.5,
+   "view_type": "Cone",
+   "chassis_code": "a010",
+   "chassis_image": "a010st.xpf"
+  },
+  {
+   "name": "Momas-Extremus",
+   "category": "Organic",
+   "group": "Xeno-hoverus",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 5784,
+   "base_armor": 0,
+   "speed_m_s": 6.7,
+   "view_range_m": 31,
+   "view_type": "Cone",
+   "chassis_code": "a010",
+   "chassis_image": "a010st.xpf"
+  },
+  {
+   "name": "Momas-Magnus",
+   "category": "Organic",
+   "group": "Xeno-hoverus",
+   "unit_quality": 100,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4176,
+   "base_armor": 0,
+   "speed_m_s": 5.8,
+   "view_range_m": 30,
+   "view_type": "Cone",
+   "chassis_code": "a010",
+   "chassis_image": "a010st.xpf"
+  },
+  {
+   "name": "Momas-Maximus",
+   "category": "Organic",
+   "group": "Xeno-hoverus",
+   "unit_quality": 110,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4923,
+   "base_armor": 0,
+   "speed_m_s": 6.3,
+   "view_range_m": 30.5,
+   "view_type": "Cone",
+   "chassis_code": "a010"
+  },
+  {
+   "name": "Momas-Primus",
+   "category": "Organic",
+   "group": "Xeno-hoverus",
+   "unit_quality": 80,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2985,
+   "base_armor": 0,
+   "speed_m_s": 5.6,
+   "view_range_m": 29,
+   "view_type": "Cone",
+   "chassis_code": "a010"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a010at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      96,
+      87
+     ]
+    ],
+    "1": [
+     [
+      91,
+      93
+     ]
+    ],
+    "2": [
+     [
+      76,
+      98
+     ]
+    ],
+    "3": [
+     [
+      64,
+      92
+     ]
+    ],
+    "4": [
+     [
+      61,
+      86
+     ]
+    ],
+    "5": [
+     [
+      65,
+      77
+     ]
+    ],
+    "6": [
+     [
+      77,
+      73
+     ]
+    ],
+    "7": [
+     [
+      88,
+      79
+     ]
+    ],
+    "8": [
+     [
+      96,
+      87
+     ]
+    ],
+    "9": [
+     [
+      91,
+      93
+     ]
+    ],
+    "10": [
+     [
+      76,
+      98
+     ]
+    ],
+    "11": [
+     [
+      64,
+      92
+     ]
+    ],
+    "12": [
+     [
+      61,
+      86
+     ]
+    ],
+    "13": [
+     [
+      65,
+      77
+     ]
+    ],
+    "14": [
+     [
+      77,
+      73
+     ]
+    ],
+    "15": [
+     [
+      88,
+      79
+     ]
+    ],
+    "16": [
+     [
+      96,
+      87
+     ]
+    ],
+    "17": [
+     [
+      91,
+      93
+     ]
+    ],
+    "18": [
+     [
+      76,
+      98
+     ]
+    ],
+    "19": [
+     [
+      64,
+      92
+     ]
+    ],
+    "20": [
+     [
+      61,
+      86
+     ]
+    ],
+    "21": [
+     [
+      65,
+      77
+     ]
+    ],
+    "22": [
+     [
+      77,
+      73
+     ]
+    ],
+    "23": [
+     [
+      88,
+      79
+     ]
+    ],
+    "24": [
+     [
+      96,
+      87
+     ]
+    ],
+    "25": [
+     [
+      91,
+      93
+     ]
+    ],
+    "26": [
+     [
+      76,
+      98
+     ]
+    ],
+    "27": [
+     [
+      64,
+      92
+     ]
+    ],
+    "28": [
+     [
+      61,
+      86
+     ]
+    ],
+    "29": [
+     [
+      65,
+      77
+     ]
+    ],
+    "30": [
+     [
+      77,
+      73
+     ]
+    ],
+    "31": [
+     [
+      88,
+      79
+     ]
+    ],
+    "32": [
+     [
+      96,
+      87
+     ]
+    ],
+    "33": [
+     [
+      91,
+      93
+     ]
+    ],
+    "34": [
+     [
+      76,
+      98
+     ]
+    ],
+    "35": [
+     [
+      64,
+      92
+     ]
+    ],
+    "36": [
+     [
+      61,
+      86
+     ]
+    ],
+    "37": [
+     [
+      65,
+      77
+     ]
+    ],
+    "38": [
+     [
+      77,
+      73
+     ]
+    ],
+    "39": [
+     [
+      88,
+      79
+     ]
+    ],
+    "40": [
+     [
+      96,
+      87
+     ]
+    ],
+    "41": [
+     [
+      91,
+      93
+     ]
+    ],
+    "42": [
+     [
+      76,
+      98
+     ]
+    ],
+    "43": [
+     [
+      64,
+      92
+     ]
+    ],
+    "44": [
+     [
+      61,
+      86
+     ]
+    ],
+    "45": [
+     [
+      65,
+      77
+     ]
+    ],
+    "46": [
+     [
+      77,
+      73
+     ]
+    ],
+    "47": [
+     [
+      88,
+      79
+     ]
+    ],
+    "48": [
+     [
+      96,
+      87
+     ]
+    ],
+    "49": [
+     [
+      91,
+      93
+     ]
+    ],
+    "50": [
+     [
+      76,
+      98
+     ]
+    ],
+    "51": [
+     [
+      64,
+      92
+     ]
+    ],
+    "52": [
+     [
+      61,
+      86
+     ]
+    ],
+    "53": [
+     [
+      65,
+      77
+     ]
+    ],
+    "54": [
+     [
+      77,
+      73
+     ]
+    ],
+    "55": [
+     [
+      88,
+      79
+     ]
+    ],
+    "56": [
+     [
+      96,
+      87
+     ]
+    ],
+    "57": [
+     [
+      91,
+      93
+     ]
+    ],
+    "58": [
+     [
+      76,
+      98
+     ]
+    ],
+    "59": [
+     [
+      64,
+      92
+     ]
+    ],
+    "60": [
+     [
+      61,
+      86
+     ]
+    ],
+    "61": [
+     [
+      65,
+      77
+     ]
+    ],
+    "62": [
+     [
+      77,
+      73
+     ]
+    ],
+    "63": [
+     [
+      88,
+      79
+     ]
+    ],
+    "64": [
+     [
+      96,
+      87
+     ]
+    ],
+    "65": [
+     [
+      91,
+      93
+     ]
+    ],
+    "66": [
+     [
+      76,
+      98
+     ]
+    ],
+    "67": [
+     [
+      64,
+      92
+     ]
+    ],
+    "68": [
+     [
+      61,
+      86
+     ]
+    ],
+    "69": [
+     [
+      65,
+      77
+     ]
+    ],
+    "70": [
+     [
+      77,
+      73
+     ]
+    ],
+    "71": [
+     [
+      88,
+      79
+     ]
+    ],
+    "72": [
+     [
+      96,
+      87
+     ]
+    ],
+    "73": [
+     [
+      91,
+      93
+     ]
+    ],
+    "74": [
+     [
+      76,
+      98
+     ]
+    ],
+    "75": [
+     [
+      64,
+      92
+     ]
+    ],
+    "76": [
+     [
+      61,
+      86
+     ]
+    ],
+    "77": [
+     [
+      65,
+      77
+     ]
+    ],
+    "78": [
+     [
+      77,
+      73
+     ]
+    ],
+    "79": [
+     [
+      88,
+      79
+     ]
+    ]
+   },
+   "sheet": "sheets/a010at.png",
+   "sheet_crop": [
+    47,
+    69,
+    109,
+    115
+   ],
+   "cell": [
+    62,
+    46
+   ],
+   "pivot_in_cell": [
+    29,
+    23
+   ]
+  },
+  {
+   "file": "a010atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/a010atd.png",
+   "sheet_crop": [
+    46,
+    58,
+    107,
+    107
+   ],
+   "cell": [
+    61,
+    49
+   ],
+   "pivot_in_cell": [
+    30,
+    34
+   ]
+  },
+  {
+   "file": "a010ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a010da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/a010da.png",
+   "sheet_crop": [
+    51,
+    81,
+    94,
+    109
+   ],
+   "cell": [
+    43,
+    28
+   ],
+   "pivot_in_cell": [
+    25,
+    11
+   ]
+  },
+  {
+   "file": "a010mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a010mo.png",
+   "sheet_crop": [
+    53,
+    72,
+    103,
+    105
+   ],
+   "cell": [
+    50,
+    33
+   ],
+   "pivot_in_cell": [
+    23,
+    20
+   ]
+  },
+  {
+   "file": "a010mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a010st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a010st.png",
+   "sheet_crop": [
+    51,
+    72,
+    105,
+    113
+   ],
+   "cell": [
+    54,
+    41
+   ],
+   "pivot_in_cell": [
+    25,
+    20
+   ]
+  },
+  {
+   "file": "a010sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    92
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

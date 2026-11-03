@@ -1,0 +1,1012 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g020",
+ "kind": "ground",
+ "chassis": [
+  "Behemoth",
+  "Behemoth-Mk2",
+  "Behemoth-Mk3",
+  "Behemoth-Mk4",
+  "Behemoth-Mk5",
+  "Behemoth-Mk6",
+  "Behemoth-Mk7",
+  "Behemoth-Mk8",
+  "Behemoth-Mk9"
+ ],
+ "base_chassis": [
+  "Behemoth"
+ ],
+ "names_cn": {
+  "Behemoth": "巨兽"
+ },
+ "names_tw": {
+  "Behemoth": "巨獸"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Behemoth",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 2,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 16,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 2592,
+   "base_armor": 6,
+   "speed_m_s": 1.2,
+   "view_range_m": 9,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "description_summary": "Heaviest ground unit available, built to endure extreme punishment."
+  },
+  {
+   "name": "Behemoth-Mk2",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 16,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 17,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 2970,
+   "base_armor": 9,
+   "speed_m_s": 1.2,
+   "view_range_m": 9.25,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "chassis_image": "g020st.xpf",
+   "description_summary": "The heaviest ground unit available, able to endure extreme punishment"
+  },
+  {
+   "name": "Behemoth-Mk3",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 30,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 18,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 3510,
+   "base_armor": 12,
+   "speed_m_s": 1.3,
+   "view_range_m": 9.5,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "description_summary": "Heaviest ground unit, built to endure extreme punishment."
+  },
+  {
+   "name": "Behemoth-Mk4",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 20,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 4260,
+   "base_armor": 17,
+   "speed_m_s": 1.3,
+   "view_range_m": 9.75,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "chassis_image": "g020st.xpf",
+   "description_summary": "Heaviest ground unit, able to endure extreme punishment."
+  },
+  {
+   "name": "Behemoth-Mk5",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 58,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 21,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 5280,
+   "base_armor": 20,
+   "speed_m_s": 1.4,
+   "view_range_m": 10,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "description_summary": "The heaviest ground unit, able to endure extreme punishment."
+  },
+  {
+   "name": "Behemoth-Mk6",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 72,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 23,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 6600,
+   "base_armor": 23,
+   "speed_m_s": 1.5,
+   "view_range_m": 10.25,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "chassis_image": "g020st.xpf",
+   "description_summary": "The heaviest ground unit, able to endure extreme punishment."
+  },
+  {
+   "name": "Behemoth-Mk7",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 86,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 24,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 8250,
+   "base_armor": 26,
+   "speed_m_s": 1.6,
+   "view_range_m": 10.5,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "chassis_image": "g020st.xpf",
+   "description_summary": "Heaviest ground unit, built to endure extreme punishment"
+  },
+  {
+   "name": "Behemoth-Mk8",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 100,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 26,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 10320,
+   "base_armor": 33,
+   "speed_m_s": 1.7,
+   "view_range_m": 10.75,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "chassis_image": "g020st.xpf",
+   "description_summary": "Heaviest ground unit, able to endure extreme punishment."
+  },
+  {
+   "name": "Behemoth-Mk9",
+   "category": "Mobile",
+   "group": "Geo-rig",
+   "influence": 114,
+   "slots": 10,
+   "max_weight_kg": 152,
+   "max_space_l": 28,
+   "unit_weight_kg": 340,
+   "type": "Mechanical",
+   "base_health": 12780,
+   "base_armor": 39,
+   "speed_m_s": 1.8,
+   "view_range_m": 11,
+   "view_type": "Cone",
+   "chassis_code": "g020",
+   "chassis_image": "g020st.xpf",
+   "description_summary": "The heaviest ground unit, able to endure extreme punishment."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g020at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 101,
+   "type_raw": 101,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      85,
+      50
+     ]
+    ],
+    "1": [
+     [
+      80,
+      58
+     ]
+    ],
+    "2": [
+     [
+      76,
+      63
+     ]
+    ],
+    "3": [
+     [
+      67,
+      68
+     ]
+    ],
+    "4": [
+     [
+      56,
+      67
+     ]
+    ],
+    "5": [
+     [
+      45,
+      67
+     ]
+    ],
+    "6": [
+     [
+      38,
+      63
+     ]
+    ],
+    "7": [
+     [
+      30,
+      56
+     ]
+    ],
+    "8": [
+     [
+      28,
+      50
+     ]
+    ],
+    "9": [
+     [
+      30,
+      44
+     ]
+    ],
+    "10": [
+     [
+      38,
+      36
+     ]
+    ],
+    "11": [
+     [
+      46,
+      30
+     ]
+    ],
+    "12": [
+     [
+      56,
+      29
+     ]
+    ],
+    "13": [
+     [
+      66,
+      31
+     ]
+    ],
+    "14": [
+     [
+      74,
+      38
+     ]
+    ],
+    "15": [
+     [
+      81,
+      44
+     ]
+    ],
+    "16": [
+     [
+      85,
+      50
+     ]
+    ],
+    "17": [
+     [
+      80,
+      58
+     ]
+    ],
+    "18": [
+     [
+      76,
+      63
+     ]
+    ],
+    "19": [
+     [
+      67,
+      68
+     ]
+    ],
+    "20": [
+     [
+      56,
+      67
+     ]
+    ],
+    "21": [
+     [
+      45,
+      67
+     ]
+    ],
+    "22": [
+     [
+      38,
+      63
+     ]
+    ],
+    "23": [
+     [
+      30,
+      56
+     ]
+    ],
+    "24": [
+     [
+      28,
+      50
+     ]
+    ],
+    "25": [
+     [
+      30,
+      44
+     ]
+    ],
+    "26": [
+     [
+      38,
+      36
+     ]
+    ],
+    "27": [
+     [
+      46,
+      30
+     ]
+    ],
+    "28": [
+     [
+      56,
+      29
+     ]
+    ],
+    "29": [
+     [
+      66,
+      31
+     ]
+    ],
+    "30": [
+     [
+      74,
+      38
+     ]
+    ],
+    "31": [
+     [
+      81,
+      44
+     ]
+    ],
+    "32": [
+     [
+      85,
+      50
+     ]
+    ],
+    "33": [
+     [
+      80,
+      58
+     ]
+    ],
+    "34": [
+     [
+      76,
+      63
+     ]
+    ],
+    "35": [
+     [
+      67,
+      68
+     ]
+    ],
+    "36": [
+     [
+      56,
+      67
+     ]
+    ],
+    "37": [
+     [
+      45,
+      67
+     ]
+    ],
+    "38": [
+     [
+      38,
+      63
+     ]
+    ],
+    "39": [
+     [
+      30,
+      56
+     ]
+    ],
+    "40": [
+     [
+      28,
+      50
+     ]
+    ],
+    "41": [
+     [
+      30,
+      44
+     ]
+    ],
+    "42": [
+     [
+      38,
+      36
+     ]
+    ],
+    "43": [
+     [
+      46,
+      30
+     ]
+    ],
+    "44": [
+     [
+      56,
+      29
+     ]
+    ],
+    "45": [
+     [
+      66,
+      31
+     ]
+    ],
+    "46": [
+     [
+      74,
+      38
+     ]
+    ],
+    "47": [
+     [
+      81,
+      44
+     ]
+    ]
+   },
+   "sheet": "sheets/g020at.png",
+   "sheet_crop": [
+    26,
+    28,
+    88,
+    85
+   ],
+   "cell": [
+    62,
+    57
+   ],
+   "pivot_in_cell": [
+    30,
+    30
+   ]
+  },
+  {
+   "file": "g020atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g020atb.png",
+   "sheet_crop": [
+    26,
+    31,
+    88,
+    78
+   ],
+   "cell": [
+    62,
+    47
+   ],
+   "pivot_in_cell": [
+    30,
+    27
+   ]
+  },
+  {
+   "file": "g020atc.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "c",
+   "layer_doc": "extra layer (purpose not confirmed)",
+   "type": 9,
+   "type_raw": 9,
+   "canvas": [
+    56,
+    90
+   ],
+   "pivot": [
+    29,
+    63
+   ],
+   "frame_count": 7,
+   "dirs": null,
+   "frames_per_dir": null,
+   "layout": "unknown",
+   "layout_confident": false,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g020atc.png",
+   "sheet_crop": [
+    12,
+    29,
+    48,
+    75
+   ],
+   "cell": [
+    36,
+    46
+   ],
+   "pivot_in_cell": [
+    17,
+    34
+   ]
+  },
+  {
+   "file": "g020ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g020da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g020da.png",
+   "sheet_crop": [
+    24,
+    40,
+    81,
+    84
+   ],
+   "cell": [
+    57,
+    44
+   ],
+   "pivot_in_cell": [
+    32,
+    18
+   ]
+  },
+  {
+   "file": "g020das.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": true
+  },
+  {
+   "file": "g020mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g020mo.png",
+   "sheet_crop": [
+    26,
+    27,
+    88,
+    86
+   ],
+   "cell": [
+    62,
+    59
+   ],
+   "pivot_in_cell": [
+    30,
+    31
+   ]
+  },
+  {
+   "file": "g020mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g020mob.png",
+   "sheet_crop": [
+    31,
+    35,
+    83,
+    74
+   ],
+   "cell": [
+    52,
+    39
+   ],
+   "pivot_in_cell": [
+    25,
+    23
+   ]
+  },
+  {
+   "file": "g020mod.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g020mod.png",
+   "sheet_crop": [
+    18,
+    21,
+    96,
+    93
+   ],
+   "cell": [
+    78,
+    72
+   ],
+   "pivot_in_cell": [
+    38,
+    37
+   ]
+  },
+  {
+   "file": "g020mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g020mop.png",
+   "sheet_crop": [
+    26,
+    37,
+    88,
+    85
+   ],
+   "cell": [
+    62,
+    48
+   ],
+   "pivot_in_cell": [
+    30,
+    21
+   ]
+  },
+  {
+   "file": "g020mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g020st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g020st.png",
+   "sheet_crop": [
+    26,
+    27,
+    88,
+    86
+   ],
+   "cell": [
+    62,
+    59
+   ],
+   "pivot_in_cell": [
+    30,
+    31
+   ]
+  },
+  {
+   "file": "g020stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g020stb.png",
+   "sheet_crop": [
+    31,
+    35,
+    83,
+    74
+   ],
+   "cell": [
+    52,
+    39
+   ],
+   "pivot_in_cell": [
+    25,
+    23
+   ]
+  },
+  {
+   "file": "g020sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    112,
+    108
+   ],
+   "pivot": [
+    56,
+    58
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

@@ -1,0 +1,914 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "a018",
+ "kind": "air",
+ "chassis": [
+  "Onnir-Amplus",
+  "Onnir-Extremus",
+  "Onnir-Magnus",
+  "Onnir-Maximus",
+  "Onnir-Primus"
+ ],
+ "base_chassis": [
+  "Onnir-Amplus",
+  "Onnir-Extremus",
+  "Onnir-Magnus",
+  "Onnir-Maximus",
+  "Onnir-Primus"
+ ],
+ "names_cn": {
+  "Onnir-Amplus": "奥尼尔进阶",
+  "Onnir-Extremus": "奥尼尔究极",
+  "Onnir-Magnus": "奥尼尔强化",
+  "Onnir-Maximus": "奥尼尔极致",
+  "Onnir-Primus": "奥尼尔初阶"
+ },
+ "names_tw": {
+  "Onnir-Amplus": "奧尼爾進階",
+  "Onnir-Extremus": "奧尼爾究極",
+  "Onnir-Magnus": "奧尼爾強化",
+  "Onnir-Maximus": "奧尼爾極致",
+  "Onnir-Primus": "奧尼爾初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Onnir-Amplus",
+   "category": "Organic",
+   "group": "Xeno-frigus",
+   "unit_quality": 80,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 8526,
+   "base_armor": 0,
+   "speed_m_s": 5.6,
+   "view_range_m": 21.5,
+   "view_type": "Omni",
+   "chassis_code": "a018",
+   "chassis_image": "a018st.xpf"
+  },
+  {
+   "name": "Onnir-Extremus",
+   "category": "Organic",
+   "group": "Xeno-frigus",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 16524,
+   "base_armor": 0,
+   "speed_m_s": 6.5,
+   "view_range_m": 22.25,
+   "view_type": "Omni",
+   "chassis_code": "a018",
+   "chassis_image": "a018st.xpf"
+  },
+  {
+   "name": "Onnir-Magnus",
+   "category": "Organic",
+   "group": "Xeno-frigus",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 10092,
+   "base_armor": 0,
+   "speed_m_s": 6,
+   "view_range_m": 21.75,
+   "view_type": "Omni",
+   "chassis_code": "a018",
+   "chassis_image": "a018st.xpf"
+  },
+  {
+   "name": "Onnir-Maximus",
+   "category": "Organic",
+   "group": "Xeno-frigus",
+   "unit_quality": 100,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 11931,
+   "base_armor": 0,
+   "speed_m_s": 6.2,
+   "view_range_m": 22,
+   "view_type": "Omni",
+   "chassis_code": "a018",
+   "chassis_image": "a018st.xpf"
+  },
+  {
+   "name": "Onnir-Primus",
+   "category": "Organic",
+   "group": "Xeno-frigus",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 6123,
+   "base_armor": 0,
+   "speed_m_s": 5.6,
+   "view_range_m": 21.25,
+   "view_type": "Omni",
+   "chassis_code": "a018",
+   "chassis_image": "a018st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "a018at.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    70,
+    73
+   ],
+   "frame_count": 96,
+   "dirs": 16,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      90,
+      68
+     ]
+    ],
+    "1": [
+     [
+      92,
+      75
+     ]
+    ],
+    "2": [
+     [
+      93,
+      79
+     ]
+    ],
+    "3": [
+     [
+      82,
+      83
+     ]
+    ],
+    "4": [
+     [
+      71,
+      87
+     ]
+    ],
+    "5": [
+     [
+      61,
+      85
+     ]
+    ],
+    "6": [
+     [
+      57,
+      78
+     ]
+    ],
+    "7": [
+     [
+      51,
+      77
+     ]
+    ],
+    "8": [
+     [
+      48,
+      69
+     ]
+    ],
+    "9": [
+     [
+      48,
+      62
+     ]
+    ],
+    "10": [
+     [
+      55,
+      55
+     ]
+    ],
+    "11": [
+     [
+      66,
+      52
+     ]
+    ],
+    "12": [
+     [
+      73,
+      50
+     ]
+    ],
+    "13": [
+     [
+      84,
+      50
+     ]
+    ],
+    "14": [
+     [
+      91,
+      58
+     ]
+    ],
+    "15": [
+     [
+      98,
+      61
+     ]
+    ],
+    "16": [
+     [
+      90,
+      68
+     ]
+    ],
+    "17": [
+     [
+      92,
+      75
+     ]
+    ],
+    "18": [
+     [
+      93,
+      79
+     ]
+    ],
+    "19": [
+     [
+      82,
+      83
+     ]
+    ],
+    "20": [
+     [
+      71,
+      87
+     ]
+    ],
+    "21": [
+     [
+      61,
+      85
+     ]
+    ],
+    "22": [
+     [
+      57,
+      78
+     ]
+    ],
+    "23": [
+     [
+      51,
+      77
+     ]
+    ],
+    "24": [
+     [
+      48,
+      69
+     ]
+    ],
+    "25": [
+     [
+      48,
+      62
+     ]
+    ],
+    "26": [
+     [
+      55,
+      55
+     ]
+    ],
+    "27": [
+     [
+      66,
+      52
+     ]
+    ],
+    "28": [
+     [
+      73,
+      50
+     ]
+    ],
+    "29": [
+     [
+      84,
+      50
+     ]
+    ],
+    "30": [
+     [
+      91,
+      58
+     ]
+    ],
+    "31": [
+     [
+      98,
+      61
+     ]
+    ],
+    "32": [
+     [
+      90,
+      68
+     ]
+    ],
+    "33": [
+     [
+      92,
+      75
+     ]
+    ],
+    "34": [
+     [
+      93,
+      79
+     ]
+    ],
+    "35": [
+     [
+      82,
+      83
+     ]
+    ],
+    "36": [
+     [
+      71,
+      87
+     ]
+    ],
+    "37": [
+     [
+      61,
+      85
+     ]
+    ],
+    "38": [
+     [
+      57,
+      78
+     ]
+    ],
+    "39": [
+     [
+      51,
+      77
+     ]
+    ],
+    "40": [
+     [
+      48,
+      69
+     ]
+    ],
+    "41": [
+     [
+      48,
+      62
+     ]
+    ],
+    "42": [
+     [
+      55,
+      55
+     ]
+    ],
+    "43": [
+     [
+      66,
+      52
+     ]
+    ],
+    "44": [
+     [
+      73,
+      50
+     ]
+    ],
+    "45": [
+     [
+      84,
+      50
+     ]
+    ],
+    "46": [
+     [
+      91,
+      58
+     ]
+    ],
+    "47": [
+     [
+      98,
+      61
+     ]
+    ],
+    "48": [
+     [
+      90,
+      68
+     ]
+    ],
+    "49": [
+     [
+      92,
+      75
+     ]
+    ],
+    "50": [
+     [
+      93,
+      79
+     ]
+    ],
+    "51": [
+     [
+      82,
+      83
+     ]
+    ],
+    "52": [
+     [
+      71,
+      87
+     ]
+    ],
+    "53": [
+     [
+      61,
+      85
+     ]
+    ],
+    "54": [
+     [
+      57,
+      78
+     ]
+    ],
+    "55": [
+     [
+      51,
+      77
+     ]
+    ],
+    "56": [
+     [
+      48,
+      69
+     ]
+    ],
+    "57": [
+     [
+      48,
+      62
+     ]
+    ],
+    "58": [
+     [
+      55,
+      55
+     ]
+    ],
+    "59": [
+     [
+      66,
+      52
+     ]
+    ],
+    "60": [
+     [
+      73,
+      50
+     ]
+    ],
+    "61": [
+     [
+      84,
+      50
+     ]
+    ],
+    "62": [
+     [
+      91,
+      58
+     ]
+    ],
+    "63": [
+     [
+      98,
+      61
+     ]
+    ],
+    "64": [
+     [
+      90,
+      68
+     ]
+    ],
+    "65": [
+     [
+      92,
+      75
+     ]
+    ],
+    "66": [
+     [
+      93,
+      79
+     ]
+    ],
+    "67": [
+     [
+      82,
+      83
+     ]
+    ],
+    "68": [
+     [
+      71,
+      87
+     ]
+    ],
+    "69": [
+     [
+      61,
+      85
+     ]
+    ],
+    "70": [
+     [
+      57,
+      78
+     ]
+    ],
+    "71": [
+     [
+      51,
+      77
+     ]
+    ],
+    "72": [
+     [
+      48,
+      69
+     ]
+    ],
+    "73": [
+     [
+      48,
+      62
+     ]
+    ],
+    "74": [
+     [
+      55,
+      55
+     ]
+    ],
+    "75": [
+     [
+      66,
+      52
+     ]
+    ],
+    "76": [
+     [
+      73,
+      50
+     ]
+    ],
+    "77": [
+     [
+      84,
+      50
+     ]
+    ],
+    "78": [
+     [
+      91,
+      58
+     ]
+    ],
+    "79": [
+     [
+      98,
+      61
+     ]
+    ],
+    "80": [
+     [
+      90,
+      68
+     ]
+    ],
+    "81": [
+     [
+      92,
+      75
+     ]
+    ],
+    "82": [
+     [
+      93,
+      79
+     ]
+    ],
+    "83": [
+     [
+      82,
+      83
+     ]
+    ],
+    "84": [
+     [
+      71,
+      87
+     ]
+    ],
+    "85": [
+     [
+      61,
+      85
+     ]
+    ],
+    "86": [
+     [
+      57,
+      78
+     ]
+    ],
+    "87": [
+     [
+      51,
+      77
+     ]
+    ],
+    "88": [
+     [
+      48,
+      69
+     ]
+    ],
+    "89": [
+     [
+      48,
+      62
+     ]
+    ],
+    "90": [
+     [
+      55,
+      55
+     ]
+    ],
+    "91": [
+     [
+      66,
+      52
+     ]
+    ],
+    "92": [
+     [
+      73,
+      50
+     ]
+    ],
+    "93": [
+     [
+      84,
+      50
+     ]
+    ],
+    "94": [
+     [
+      91,
+      58
+     ]
+    ],
+    "95": [
+     [
+      98,
+      61
+     ]
+    ]
+   },
+   "sheet": "sheets/a018at.png",
+   "sheet_crop": [
+    12,
+    19,
+    134,
+    127
+   ],
+   "cell": [
+    122,
+    108
+   ],
+   "pivot_in_cell": [
+    58,
+    54
+   ]
+  },
+  {
+   "file": "a018ats.xpf",
+   "dat": "tc2.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    70,
+    73
+   ],
+   "frame_count": 96,
+   "dirs": 16,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a018mo.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 1795,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    70,
+    73
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a018mo.png",
+   "sheet_crop": [
+    5,
+    7,
+    141,
+    134
+   ],
+   "cell": [
+    136,
+    127
+   ],
+   "pivot_in_cell": [
+    65,
+    66
+   ]
+  },
+  {
+   "file": "a018mos.xpf",
+   "dat": "tc2.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 1810,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    70,
+    73
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "a018st.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    70,
+    73
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/a018st.png",
+   "sheet_crop": [
+    14,
+    19,
+    132,
+    127
+   ],
+   "cell": [
+    118,
+    108
+   ],
+   "pivot_in_cell": [
+    56,
+    54
+   ]
+  },
+  {
+   "file": "a018sts.xpf",
+   "dat": "tc2.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    145,
+    145
+   ],
+   "pivot": [
+    70,
+    73
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

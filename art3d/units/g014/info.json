@@ -1,0 +1,684 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g014",
+ "kind": "ground",
+ "chassis": [
+  "Crudgin-Amplus",
+  "Crudgin-Magnus",
+  "Crudgin-Maximus",
+  "Crudgin-Primus"
+ ],
+ "base_chassis": [
+  "Crudgin-Amplus",
+  "Crudgin-Magnus",
+  "Crudgin-Maximus",
+  "Crudgin-Primus"
+ ],
+ "names_cn": {
+  "Crudgin-Amplus": "克拉金进阶",
+  "Crudgin-Magnus": "克拉金强化",
+  "Crudgin-Maximus": "克拉金极致",
+  "Crudgin-Primus": "克拉金初阶"
+ },
+ "names_tw": {
+  "Crudgin-Amplus": "克拉金進階",
+  "Crudgin-Magnus": "克拉金強化",
+  "Crudgin-Maximus": "克拉金極致",
+  "Crudgin-Primus": "克拉金初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Crudgin-Amplus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 50,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2880,
+   "base_armor": 0,
+   "speed_m_s": 2,
+   "view_range_m": 34.75,
+   "view_type": "Cone",
+   "chassis_code": "g014",
+   "chassis_image": "g014st.xpf"
+  },
+  {
+   "name": "Crudgin-Magnus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 60,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3369,
+   "base_armor": 0,
+   "speed_m_s": 2,
+   "view_range_m": 35,
+   "view_type": "Cone",
+   "chassis_code": "g014",
+   "chassis_image": "g014st.xpf"
+  },
+  {
+   "name": "Crudgin-Maximus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 70,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 3966,
+   "base_armor": 0,
+   "speed_m_s": 2,
+   "view_range_m": 35.25,
+   "view_type": "Cone",
+   "chassis_code": "g014",
+   "chassis_image": "g014st.xpf"
+  },
+  {
+   "name": "Crudgin-Primus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 40,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 2493,
+   "base_armor": 0,
+   "speed_m_s": 2,
+   "view_range_m": 34.5,
+   "view_type": "Cone",
+   "chassis_code": "g014",
+   "chassis_image": "g014st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g014at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 7,
+   "type_raw": 7,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.75,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      120,
+      98
+     ]
+    ],
+    "1": [
+     [
+      112,
+      110
+     ]
+    ],
+    "2": [
+     [
+      94,
+      114
+     ]
+    ],
+    "3": [
+     [
+      74,
+      110
+     ]
+    ],
+    "4": [
+     [
+      66,
+      97
+     ]
+    ],
+    "5": [
+     [
+      74,
+      83
+     ]
+    ],
+    "6": [
+     [
+      94,
+      77
+     ]
+    ],
+    "7": [
+     [
+      112,
+      82
+     ]
+    ],
+    "8": [
+     [
+      120,
+      98
+     ]
+    ],
+    "9": [
+     [
+      112,
+      110
+     ]
+    ],
+    "10": [
+     [
+      94,
+      114
+     ]
+    ],
+    "11": [
+     [
+      74,
+      110
+     ]
+    ],
+    "12": [
+     [
+      66,
+      97
+     ]
+    ],
+    "13": [
+     [
+      74,
+      83
+     ]
+    ],
+    "14": [
+     [
+      94,
+      77
+     ]
+    ],
+    "15": [
+     [
+      112,
+      82
+     ]
+    ],
+    "16": [
+     [
+      120,
+      98
+     ]
+    ],
+    "17": [
+     [
+      112,
+      110
+     ]
+    ],
+    "18": [
+     [
+      94,
+      114
+     ]
+    ],
+    "19": [
+     [
+      74,
+      110
+     ]
+    ],
+    "20": [
+     [
+      66,
+      97
+     ]
+    ],
+    "21": [
+     [
+      74,
+      83
+     ]
+    ],
+    "22": [
+     [
+      94,
+      77
+     ]
+    ],
+    "23": [
+     [
+      112,
+      82
+     ]
+    ],
+    "24": [
+     [
+      120,
+      98
+     ]
+    ],
+    "25": [
+     [
+      112,
+      110
+     ]
+    ],
+    "26": [
+     [
+      94,
+      114
+     ]
+    ],
+    "27": [
+     [
+      74,
+      110
+     ]
+    ],
+    "28": [
+     [
+      66,
+      97
+     ]
+    ],
+    "29": [
+     [
+      74,
+      83
+     ]
+    ],
+    "30": [
+     [
+      94,
+      77
+     ]
+    ],
+    "31": [
+     [
+      112,
+      82
+     ]
+    ],
+    "32": [
+     [
+      120,
+      98
+     ]
+    ],
+    "33": [
+     [
+      112,
+      110
+     ]
+    ],
+    "34": [
+     [
+      94,
+      114
+     ]
+    ],
+    "35": [
+     [
+      74,
+      110
+     ]
+    ],
+    "36": [
+     [
+      66,
+      97
+     ]
+    ],
+    "37": [
+     [
+      74,
+      83
+     ]
+    ],
+    "38": [
+     [
+      94,
+      77
+     ]
+    ],
+    "39": [
+     [
+      112,
+      82
+     ]
+    ],
+    "40": [
+     [
+      120,
+      98
+     ]
+    ],
+    "41": [
+     [
+      112,
+      110
+     ]
+    ],
+    "42": [
+     [
+      94,
+      114
+     ]
+    ],
+    "43": [
+     [
+      74,
+      110
+     ]
+    ],
+    "44": [
+     [
+      66,
+      97
+     ]
+    ],
+    "45": [
+     [
+      74,
+      83
+     ]
+    ],
+    "46": [
+     [
+      94,
+      77
+     ]
+    ],
+    "47": [
+     [
+      112,
+      82
+     ]
+    ]
+   },
+   "sheet": "sheets/g014at.png",
+   "sheet_crop": [
+    33,
+    47,
+    156,
+    155
+   ],
+   "cell": [
+    123,
+    108
+   ],
+   "pivot_in_cell": [
+    61,
+    61
+   ]
+  },
+  {
+   "file": "g014ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    196,
+    189
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 48,
+   "dirs": 8,
+   "frames_per_dir": 6,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": true
+  },
+  {
+   "file": "g014da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    173,
+    173
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g014da.png",
+   "sheet_crop": [
+    53,
+    78,
+    120,
+    123
+   ],
+   "cell": [
+    67,
+    45
+   ],
+   "pivot_in_cell": [
+    41,
+    30
+   ]
+  },
+  {
+   "file": "g014mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g014mo.png",
+   "sheet_crop": [
+    54,
+    71,
+    136,
+    137
+   ],
+   "cell": [
+    82,
+    66
+   ],
+   "pivot_in_cell": [
+    40,
+    37
+   ]
+  },
+  {
+   "file": "g014mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": false,
+   "sheet": "sheets/g014mop.png",
+   "sheet_crop": [
+    63,
+    87,
+    126,
+    134
+   ],
+   "cell": [
+    63,
+    47
+   ],
+   "pivot_in_cell": [
+    31,
+    21
+   ]
+  },
+  {
+   "file": "g014mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    195,
+    189
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": true
+  },
+  {
+   "file": "g014st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    196,
+    189
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g014st.png",
+   "sheet_crop": [
+    55,
+    64,
+    135,
+    134
+   ],
+   "cell": [
+    80,
+    70
+   ],
+   "pivot_in_cell": [
+    39,
+    44
+   ]
+  },
+  {
+   "file": "g014sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    196,
+    189
+   ],
+   "pivot": [
+    94,
+    108
+   ],
+   "frame_count": 24,
+   "dirs": 8,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.62,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

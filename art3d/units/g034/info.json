@@ -1,0 +1,618 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g034",
+ "kind": "ground",
+ "chassis": [
+  "Ballista",
+  "Ballista-Mk2",
+  "Ballista-Mk3",
+  "Ballista-Mk4",
+  "Ballista-Mk5",
+  "Ballista-Mk6",
+  "Ballista-Mk7"
+ ],
+ "base_chassis": [
+  "Ballista"
+ ],
+ "names_cn": {
+  "Ballista": "重弩"
+ },
+ "names_tw": {
+  "Ballista": "重弩"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Ballista",
+   "category": "Mobile",
+   "group": "Flak-rig",
+   "influence": 30,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 20,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 1440,
+   "base_armor": 3,
+   "speed_m_s": 1.3,
+   "view_range_m": 3,
+   "view_type": "Omni",
+   "chassis_code": "g034",
+   "description_summary": "Launches flak shells skyward to destroy enemy aircraft; naturally phasic."
+  },
+  {
+   "name": "Ballista-Mk2",
+   "category": "Mobile",
+   "group": "Flak-rig",
+   "influence": 44,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 21,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 1740,
+   "base_armor": 5,
+   "speed_m_s": 1.3,
+   "view_range_m": 4.75,
+   "view_type": "Omni",
+   "chassis_code": "g034",
+   "chassis_image": "g034st.xpf",
+   "description_summary": "Flak-launching chassis bombards enemy air forces, naturally phasic."
+  },
+  {
+   "name": "Ballista-Mk3",
+   "category": "Mobile",
+   "group": "Flak-rig",
+   "influence": 58,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 23,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 2160,
+   "base_armor": 8,
+   "speed_m_s": 1.4,
+   "view_range_m": 6.5,
+   "view_type": "Omni",
+   "chassis_code": "g034",
+   "chassis_image": "g034st.xpf",
+   "description_summary": "Flak-firing chassis that lobs shells to down enemy aircraft, naturally phasic."
+  },
+  {
+   "name": "Ballista-Mk4",
+   "category": "Mobile",
+   "group": "Flak-rig",
+   "influence": 72,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 25,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 2700,
+   "base_armor": 11,
+   "speed_m_s": 1.4,
+   "view_range_m": 9.25,
+   "view_type": "Omni",
+   "chassis_code": "g034",
+   "chassis_image": "g034st.xpf",
+   "description_summary": "Launches flak shells skyward to destroy enemy air forces; naturally phasic."
+  },
+  {
+   "name": "Ballista-Mk5",
+   "category": "Mobile",
+   "group": "Flak-rig",
+   "influence": 86,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 27,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 3390,
+   "base_armor": 14,
+   "speed_m_s": 1.5,
+   "view_range_m": 11,
+   "view_type": "Omni",
+   "chassis_code": "g034",
+   "chassis_image": "g034st.xpf",
+   "description_summary": "Flak-shelling Mangonel wipes out enemy air; naturally phasic chassis."
+  },
+  {
+   "name": "Ballista-Mk6",
+   "category": "Mobile",
+   "group": "Flak-rig",
+   "influence": 100,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 29,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 4230,
+   "base_armor": 18,
+   "speed_m_s": 1.7,
+   "view_range_m": 12.75,
+   "view_type": "Omni",
+   "chassis_code": "g034",
+   "description_summary": "Flak-shell artillery that shreds enemy aircraft; naturally phasic chassis."
+  },
+  {
+   "name": "Ballista-Mk7",
+   "category": "Mobile",
+   "group": "Flak-rig",
+   "influence": 114,
+   "slots": 10,
+   "max_weight_kg": 96,
+   "max_space_l": 31,
+   "unit_weight_kg": 200,
+   "type": "Mechanical",
+   "base_health": 5250,
+   "base_armor": 21,
+   "speed_m_s": 2,
+   "view_range_m": 14.5,
+   "view_type": "Omni",
+   "chassis_code": "g034",
+   "chassis_image": "g034st.xpf",
+   "description_summary": "Flak-shell launcher that downs enemy aircraft, naturally phasic chassis."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g034da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g034da.png",
+   "sheet_crop": [
+    70,
+    83,
+    147,
+    146
+   ],
+   "cell": [
+    77,
+    63
+   ],
+   "pivot_in_cell": [
+    34,
+    32
+   ]
+  },
+  {
+   "file": "g034mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g034mo.png",
+   "sheet_crop": [
+    76,
+    78,
+    133,
+    137
+   ],
+   "cell": [
+    57,
+    59
+   ],
+   "pivot_in_cell": [
+    28,
+    37
+   ]
+  },
+  {
+   "file": "g034mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g034mob.png",
+   "sheet_crop": [
+    85,
+    95,
+    124,
+    125
+   ],
+   "cell": [
+    39,
+    30
+   ],
+   "pivot_in_cell": [
+    19,
+    20
+   ]
+  },
+  {
+   "file": "g034mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g034mop.png",
+   "sheet_crop": [
+    79,
+    97,
+    130,
+    136
+   ],
+   "cell": [
+    51,
+    39
+   ],
+   "pivot_in_cell": [
+    25,
+    18
+   ]
+  },
+  {
+   "file": "g034mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 8,
+   "dirs": 8,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g034sg.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 97,
+   "type_raw": 1889,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 144,
+   "dirs": 16,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g034sg.png",
+   "sheet_crop": [
+    65,
+    57,
+    144,
+    137
+   ],
+   "cell": [
+    79,
+    80
+   ],
+   "pivot_in_cell": [
+    39,
+    58
+   ]
+  },
+  {
+   "file": "g034sgb.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 144,
+   "dirs": 16,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g034sgb.png",
+   "sheet_crop": [
+    85,
+    87,
+    124,
+    125
+   ],
+   "cell": [
+    39,
+    38
+   ],
+   "pivot_in_cell": [
+    19,
+    28
+   ]
+  },
+  {
+   "file": "g034sgd.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.31,
+   "mask_only": false,
+   "sheet": "sheets/g034sgd.png",
+   "sheet_crop": [
+    67,
+    41,
+    145,
+    104
+   ],
+   "cell": [
+    78,
+    63
+   ],
+   "pivot_in_cell": [
+    37,
+    74
+   ]
+  },
+  {
+   "file": "g034sgs.xpf",
+   "dat": "tc.dat",
+   "action": "sg",
+   "action_doc": "siege / deployed (not confirmed)",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 1872,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 144,
+   "dirs": 16,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g034st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g034st.png",
+   "sheet_crop": [
+    76,
+    78,
+    133,
+    137
+   ],
+   "cell": [
+    57,
+    59
+   ],
+   "pivot_in_cell": [
+    28,
+    37
+   ]
+  },
+  {
+   "file": "g034stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g034stb.png",
+   "sheet_crop": [
+    85,
+    95,
+    124,
+    125
+   ],
+   "cell": [
+    39,
+    30
+   ],
+   "pivot_in_cell": [
+    19,
+    20
+   ]
+  },
+  {
+   "file": "g034sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    209,
+    211
+   ],
+   "pivot": [
+    104,
+    115
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

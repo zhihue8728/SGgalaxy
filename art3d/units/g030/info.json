@@ -1,0 +1,1618 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g030",
+ "kind": "ground",
+ "chassis": [
+  "Rouke-Amplus",
+  "Rouke-Extremus",
+  "Rouke-Magnus",
+  "Rouke-Maximus",
+  "Rouke-Primus"
+ ],
+ "base_chassis": [
+  "Rouke-Amplus",
+  "Rouke-Extremus",
+  "Rouke-Magnus",
+  "Rouke-Maximus",
+  "Rouke-Primus"
+ ],
+ "names_cn": {
+  "Rouke-Amplus": "鲁克进阶",
+  "Rouke-Extremus": "鲁克究极",
+  "Rouke-Magnus": "鲁克强化",
+  "Rouke-Maximus": "鲁克极致",
+  "Rouke-Primus": "鲁克初阶"
+ },
+ "names_tw": {
+  "Rouke-Amplus": "魯克進階",
+  "Rouke-Extremus": "魯克究極",
+  "Rouke-Magnus": "魯克強化",
+  "Rouke-Maximus": "魯克極致",
+  "Rouke-Primus": "魯克初階"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Rouke-Amplus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 90,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 5550,
+   "base_armor": 0,
+   "speed_m_s": 2.6,
+   "view_range_m": 35.75,
+   "view_type": "Cone",
+   "chassis_code": "g030",
+   "chassis_image": "g030st.xpf"
+  },
+  {
+   "name": "Rouke-Extremus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 120,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 9087,
+   "base_armor": 0,
+   "speed_m_s": 3.4,
+   "view_range_m": 36.5,
+   "view_type": "Cone",
+   "chassis_code": "g030",
+   "chassis_image": "g030st.xpf"
+  },
+  {
+   "name": "Rouke-Magnus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 100,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 6561,
+   "base_armor": 0,
+   "speed_m_s": 2.8,
+   "view_range_m": 36,
+   "view_type": "Cone",
+   "chassis_code": "g030",
+   "chassis_image": "g030st.xpf"
+  },
+  {
+   "name": "Rouke-Maximus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 110,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 7737,
+   "base_armor": 0,
+   "speed_m_s": 3,
+   "view_range_m": 36.25,
+   "view_type": "Cone",
+   "chassis_code": "g030",
+   "chassis_image": "g030st.xpf"
+  },
+  {
+   "name": "Rouke-Primus",
+   "category": "Organic",
+   "group": "Xeno-humus",
+   "unit_quality": 80,
+   "slots": 10,
+   "max_weight_kg": 120,
+   "max_space_l": 200,
+   "unit_weight_kg": 120,
+   "type": "Biological",
+   "base_health": 4689,
+   "base_armor": 0,
+   "speed_m_s": 2.4,
+   "view_range_m": 35.5,
+   "view_type": "Cone",
+   "chassis_code": "g030",
+   "chassis_image": "g030st.xpf"
+  }
+ ],
+ "layers": [
+  {
+   "file": "g030at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 39,
+   "type_raw": 39,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 200,
+   "dirs": 8,
+   "frames_per_dir": 25,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      96,
+      84
+     ]
+    ],
+    "1": [
+     [
+      89,
+      90
+     ]
+    ],
+    "2": [
+     [
+      78,
+      94
+     ]
+    ],
+    "3": [
+     [
+      66,
+      90
+     ]
+    ],
+    "4": [
+     [
+      63,
+      86
+     ]
+    ],
+    "5": [
+     [
+      66,
+      81
+     ]
+    ],
+    "6": [
+     [
+      76,
+      75
+     ]
+    ],
+    "7": [
+     [
+      87,
+      77
+     ]
+    ],
+    "8": [
+     [
+      96,
+      84
+     ]
+    ],
+    "9": [
+     [
+      89,
+      90
+     ]
+    ],
+    "10": [
+     [
+      78,
+      94
+     ]
+    ],
+    "11": [
+     [
+      66,
+      90
+     ]
+    ],
+    "12": [
+     [
+      63,
+      86
+     ]
+    ],
+    "13": [
+     [
+      66,
+      81
+     ]
+    ],
+    "14": [
+     [
+      76,
+      75
+     ]
+    ],
+    "15": [
+     [
+      87,
+      77
+     ]
+    ],
+    "16": [
+     [
+      96,
+      84
+     ]
+    ],
+    "17": [
+     [
+      89,
+      90
+     ]
+    ],
+    "18": [
+     [
+      78,
+      94
+     ]
+    ],
+    "19": [
+     [
+      66,
+      90
+     ]
+    ],
+    "20": [
+     [
+      63,
+      86
+     ]
+    ],
+    "21": [
+     [
+      66,
+      81
+     ]
+    ],
+    "22": [
+     [
+      76,
+      75
+     ]
+    ],
+    "23": [
+     [
+      87,
+      77
+     ]
+    ],
+    "24": [
+     [
+      96,
+      84
+     ]
+    ],
+    "25": [
+     [
+      89,
+      90
+     ]
+    ],
+    "26": [
+     [
+      78,
+      94
+     ]
+    ],
+    "27": [
+     [
+      66,
+      90
+     ]
+    ],
+    "28": [
+     [
+      63,
+      86
+     ]
+    ],
+    "29": [
+     [
+      66,
+      81
+     ]
+    ],
+    "30": [
+     [
+      76,
+      75
+     ]
+    ],
+    "31": [
+     [
+      87,
+      77
+     ]
+    ],
+    "32": [
+     [
+      96,
+      84
+     ]
+    ],
+    "33": [
+     [
+      89,
+      90
+     ]
+    ],
+    "34": [
+     [
+      78,
+      94
+     ]
+    ],
+    "35": [
+     [
+      66,
+      90
+     ]
+    ],
+    "36": [
+     [
+      63,
+      86
+     ]
+    ],
+    "37": [
+     [
+      66,
+      81
+     ]
+    ],
+    "38": [
+     [
+      76,
+      75
+     ]
+    ],
+    "39": [
+     [
+      87,
+      77
+     ]
+    ],
+    "40": [
+     [
+      96,
+      84
+     ]
+    ],
+    "41": [
+     [
+      89,
+      90
+     ]
+    ],
+    "42": [
+     [
+      78,
+      94
+     ]
+    ],
+    "43": [
+     [
+      66,
+      90
+     ]
+    ],
+    "44": [
+     [
+      63,
+      86
+     ]
+    ],
+    "45": [
+     [
+      66,
+      81
+     ]
+    ],
+    "46": [
+     [
+      76,
+      75
+     ]
+    ],
+    "47": [
+     [
+      87,
+      77
+     ]
+    ],
+    "48": [
+     [
+      96,
+      84
+     ]
+    ],
+    "49": [
+     [
+      89,
+      90
+     ]
+    ],
+    "50": [
+     [
+      78,
+      94
+     ]
+    ],
+    "51": [
+     [
+      66,
+      90
+     ]
+    ],
+    "52": [
+     [
+      63,
+      86
+     ]
+    ],
+    "53": [
+     [
+      66,
+      81
+     ]
+    ],
+    "54": [
+     [
+      76,
+      75
+     ]
+    ],
+    "55": [
+     [
+      87,
+      77
+     ]
+    ],
+    "56": [
+     [
+      96,
+      84
+     ]
+    ],
+    "57": [
+     [
+      89,
+      90
+     ]
+    ],
+    "58": [
+     [
+      78,
+      94
+     ]
+    ],
+    "59": [
+     [
+      66,
+      90
+     ]
+    ],
+    "60": [
+     [
+      63,
+      86
+     ]
+    ],
+    "61": [
+     [
+      66,
+      81
+     ]
+    ],
+    "62": [
+     [
+      76,
+      75
+     ]
+    ],
+    "63": [
+     [
+      87,
+      77
+     ]
+    ],
+    "64": [
+     [
+      96,
+      84
+     ]
+    ],
+    "65": [
+     [
+      89,
+      90
+     ]
+    ],
+    "66": [
+     [
+      78,
+      94
+     ]
+    ],
+    "67": [
+     [
+      66,
+      90
+     ]
+    ],
+    "68": [
+     [
+      63,
+      86
+     ]
+    ],
+    "69": [
+     [
+      66,
+      81
+     ]
+    ],
+    "70": [
+     [
+      76,
+      75
+     ]
+    ],
+    "71": [
+     [
+      87,
+      77
+     ]
+    ],
+    "72": [
+     [
+      96,
+      84
+     ]
+    ],
+    "73": [
+     [
+      89,
+      90
+     ]
+    ],
+    "74": [
+     [
+      78,
+      94
+     ]
+    ],
+    "75": [
+     [
+      66,
+      90
+     ]
+    ],
+    "76": [
+     [
+      63,
+      86
+     ]
+    ],
+    "77": [
+     [
+      66,
+      81
+     ]
+    ],
+    "78": [
+     [
+      76,
+      75
+     ]
+    ],
+    "79": [
+     [
+      87,
+      77
+     ]
+    ],
+    "80": [
+     [
+      96,
+      84
+     ]
+    ],
+    "81": [
+     [
+      89,
+      90
+     ]
+    ],
+    "82": [
+     [
+      78,
+      94
+     ]
+    ],
+    "83": [
+     [
+      66,
+      90
+     ]
+    ],
+    "84": [
+     [
+      63,
+      86
+     ]
+    ],
+    "85": [
+     [
+      66,
+      81
+     ]
+    ],
+    "86": [
+     [
+      76,
+      75
+     ]
+    ],
+    "87": [
+     [
+      87,
+      77
+     ]
+    ],
+    "88": [
+     [
+      96,
+      84
+     ]
+    ],
+    "89": [
+     [
+      89,
+      90
+     ]
+    ],
+    "90": [
+     [
+      78,
+      94
+     ]
+    ],
+    "91": [
+     [
+      66,
+      90
+     ]
+    ],
+    "92": [
+     [
+      63,
+      86
+     ]
+    ],
+    "93": [
+     [
+      66,
+      81
+     ]
+    ],
+    "94": [
+     [
+      76,
+      75
+     ]
+    ],
+    "95": [
+     [
+      87,
+      77
+     ]
+    ],
+    "96": [
+     [
+      96,
+      84
+     ]
+    ],
+    "97": [
+     [
+      89,
+      90
+     ]
+    ],
+    "98": [
+     [
+      78,
+      94
+     ]
+    ],
+    "99": [
+     [
+      66,
+      90
+     ]
+    ],
+    "100": [
+     [
+      63,
+      86
+     ]
+    ],
+    "101": [
+     [
+      66,
+      81
+     ]
+    ],
+    "102": [
+     [
+      76,
+      75
+     ]
+    ],
+    "103": [
+     [
+      87,
+      77
+     ]
+    ],
+    "104": [
+     [
+      96,
+      84
+     ]
+    ],
+    "105": [
+     [
+      89,
+      90
+     ]
+    ],
+    "106": [
+     [
+      78,
+      94
+     ]
+    ],
+    "107": [
+     [
+      66,
+      90
+     ]
+    ],
+    "108": [
+     [
+      63,
+      86
+     ]
+    ],
+    "109": [
+     [
+      66,
+      81
+     ]
+    ],
+    "110": [
+     [
+      76,
+      75
+     ]
+    ],
+    "111": [
+     [
+      87,
+      77
+     ]
+    ],
+    "112": [
+     [
+      96,
+      84
+     ]
+    ],
+    "113": [
+     [
+      89,
+      90
+     ]
+    ],
+    "114": [
+     [
+      78,
+      94
+     ]
+    ],
+    "115": [
+     [
+      66,
+      90
+     ]
+    ],
+    "116": [
+     [
+      63,
+      86
+     ]
+    ],
+    "117": [
+     [
+      66,
+      81
+     ]
+    ],
+    "118": [
+     [
+      76,
+      75
+     ]
+    ],
+    "119": [
+     [
+      87,
+      77
+     ]
+    ],
+    "120": [
+     [
+      96,
+      84
+     ]
+    ],
+    "121": [
+     [
+      89,
+      90
+     ]
+    ],
+    "122": [
+     [
+      78,
+      94
+     ]
+    ],
+    "123": [
+     [
+      66,
+      90
+     ]
+    ],
+    "124": [
+     [
+      63,
+      86
+     ]
+    ],
+    "125": [
+     [
+      66,
+      81
+     ]
+    ],
+    "126": [
+     [
+      76,
+      75
+     ]
+    ],
+    "127": [
+     [
+      87,
+      77
+     ]
+    ],
+    "128": [
+     [
+      96,
+      84
+     ]
+    ],
+    "129": [
+     [
+      89,
+      90
+     ]
+    ],
+    "130": [
+     [
+      78,
+      94
+     ]
+    ],
+    "131": [
+     [
+      66,
+      90
+     ]
+    ],
+    "132": [
+     [
+      63,
+      86
+     ]
+    ],
+    "133": [
+     [
+      66,
+      81
+     ]
+    ],
+    "134": [
+     [
+      76,
+      75
+     ]
+    ],
+    "135": [
+     [
+      87,
+      77
+     ]
+    ],
+    "136": [
+     [
+      96,
+      84
+     ]
+    ],
+    "137": [
+     [
+      89,
+      90
+     ]
+    ],
+    "138": [
+     [
+      78,
+      94
+     ]
+    ],
+    "139": [
+     [
+      66,
+      90
+     ]
+    ],
+    "140": [
+     [
+      63,
+      86
+     ]
+    ],
+    "141": [
+     [
+      66,
+      81
+     ]
+    ],
+    "142": [
+     [
+      76,
+      75
+     ]
+    ],
+    "143": [
+     [
+      87,
+      77
+     ]
+    ],
+    "144": [
+     [
+      96,
+      84
+     ]
+    ],
+    "145": [
+     [
+      89,
+      90
+     ]
+    ],
+    "146": [
+     [
+      78,
+      94
+     ]
+    ],
+    "147": [
+     [
+      66,
+      90
+     ]
+    ],
+    "148": [
+     [
+      63,
+      86
+     ]
+    ],
+    "149": [
+     [
+      66,
+      81
+     ]
+    ],
+    "150": [
+     [
+      76,
+      75
+     ]
+    ],
+    "151": [
+     [
+      87,
+      77
+     ]
+    ],
+    "152": [
+     [
+      96,
+      84
+     ]
+    ],
+    "153": [
+     [
+      89,
+      90
+     ]
+    ],
+    "154": [
+     [
+      78,
+      94
+     ]
+    ],
+    "155": [
+     [
+      66,
+      90
+     ]
+    ],
+    "156": [
+     [
+      63,
+      86
+     ]
+    ],
+    "157": [
+     [
+      66,
+      81
+     ]
+    ],
+    "158": [
+     [
+      76,
+      75
+     ]
+    ],
+    "159": [
+     [
+      87,
+      77
+     ]
+    ],
+    "160": [
+     [
+      96,
+      84
+     ]
+    ],
+    "161": [
+     [
+      89,
+      90
+     ]
+    ],
+    "162": [
+     [
+      78,
+      94
+     ]
+    ],
+    "163": [
+     [
+      66,
+      90
+     ]
+    ],
+    "164": [
+     [
+      63,
+      86
+     ]
+    ],
+    "165": [
+     [
+      66,
+      81
+     ]
+    ],
+    "166": [
+     [
+      76,
+      75
+     ]
+    ],
+    "167": [
+     [
+      87,
+      77
+     ]
+    ],
+    "168": [
+     [
+      96,
+      84
+     ]
+    ],
+    "169": [
+     [
+      89,
+      90
+     ]
+    ],
+    "170": [
+     [
+      78,
+      94
+     ]
+    ],
+    "171": [
+     [
+      66,
+      90
+     ]
+    ],
+    "172": [
+     [
+      63,
+      86
+     ]
+    ],
+    "173": [
+     [
+      66,
+      81
+     ]
+    ],
+    "174": [
+     [
+      76,
+      75
+     ]
+    ],
+    "175": [
+     [
+      87,
+      77
+     ]
+    ],
+    "176": [
+     [
+      96,
+      84
+     ]
+    ],
+    "177": [
+     [
+      89,
+      90
+     ]
+    ],
+    "178": [
+     [
+      78,
+      94
+     ]
+    ],
+    "179": [
+     [
+      66,
+      90
+     ]
+    ],
+    "180": [
+     [
+      63,
+      86
+     ]
+    ],
+    "181": [
+     [
+      66,
+      81
+     ]
+    ],
+    "182": [
+     [
+      76,
+      75
+     ]
+    ],
+    "183": [
+     [
+      87,
+      77
+     ]
+    ],
+    "184": [
+     [
+      96,
+      84
+     ]
+    ],
+    "185": [
+     [
+      89,
+      90
+     ]
+    ],
+    "186": [
+     [
+      78,
+      94
+     ]
+    ],
+    "187": [
+     [
+      66,
+      90
+     ]
+    ],
+    "188": [
+     [
+      63,
+      86
+     ]
+    ],
+    "189": [
+     [
+      66,
+      81
+     ]
+    ],
+    "190": [
+     [
+      76,
+      75
+     ]
+    ],
+    "191": [
+     [
+      87,
+      77
+     ]
+    ],
+    "192": [
+     [
+      96,
+      84
+     ]
+    ],
+    "193": [
+     [
+      89,
+      90
+     ]
+    ],
+    "194": [
+     [
+      78,
+      94
+     ]
+    ],
+    "195": [
+     [
+      66,
+      90
+     ]
+    ],
+    "196": [
+     [
+      63,
+      86
+     ]
+    ],
+    "197": [
+     [
+      66,
+      81
+     ]
+    ],
+    "198": [
+     [
+      76,
+      75
+     ]
+    ],
+    "199": [
+     [
+      87,
+      77
+     ]
+    ]
+   },
+   "sheet": "sheets/g030at.png",
+   "sheet_crop": [
+    27,
+    55,
+    129,
+    133
+   ],
+   "cell": [
+    102,
+    78
+   ],
+   "pivot_in_cell": [
+    49,
+    45
+   ]
+  },
+  {
+   "file": "g030atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 11,
+   "type_raw": 11,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 40,
+   "dirs": 8,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g030atd.png",
+   "sheet_crop": [
+    25,
+    32,
+    131,
+    134
+   ],
+   "cell": [
+    106,
+    102
+   ],
+   "pivot_in_cell": [
+    51,
+    68
+   ]
+  },
+  {
+   "file": "g030ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 200,
+   "dirs": 8,
+   "frames_per_dir": 25,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  },
+  {
+   "file": "g030da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g030da.png",
+   "sheet_crop": [
+    36,
+    76,
+    105,
+    129
+   ],
+   "cell": [
+    69,
+    53
+   ],
+   "pivot_in_cell": [
+    40,
+    24
+   ]
+  },
+  {
+   "file": "g030mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 63491,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/g030mo.png",
+   "sheet_crop": [
+    39,
+    63,
+    117,
+    126
+   ],
+   "cell": [
+    78,
+    63
+   ],
+   "pivot_in_cell": [
+    37,
+    37
+   ]
+  },
+  {
+   "file": "g030mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 63506,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.0,
+   "mask_only": true
+  },
+  {
+   "file": "g030st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g030st.png",
+   "sheet_crop": [
+    46,
+    63,
+    111,
+    124
+   ],
+   "cell": [
+    65,
+    61
+   ],
+   "pivot_in_cell": [
+    30,
+    37
+   ]
+  },
+  {
+   "file": "g030sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    155,
+    161
+   ],
+   "pivot": [
+    76,
+    100
+   ],
+   "frame_count": 80,
+   "dirs": 8,
+   "frames_per_dir": 10,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}

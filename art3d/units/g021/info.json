@@ -1,0 +1,1372 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "g021",
+ "kind": "ground",
+ "chassis": [
+  "Liche",
+  "Liche-Mk2",
+  "Liche-Mk3",
+  "Liche-Mk4",
+  "Liche-Mk5"
+ ],
+ "base_chassis": [
+  "Liche"
+ ],
+ "names_cn": {
+  "Liche": "巫妖"
+ },
+ "names_tw": {
+  "Liche": "巫妖"
+ },
+ "alien_role": null,
+ "manual": [
+  {
+   "name": "Liche",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 50,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 18,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 1575,
+   "base_armor": 6,
+   "speed_m_s": 2.2,
+   "view_range_m": 14.5,
+   "view_type": "Cone",
+   "chassis_code": "g021",
+   "chassis_image": "g021st.xpf",
+   "description_summary": "Deadly air predator; air units avoid its bite; naturally repairable chassis."
+  },
+  {
+   "name": "Liche-Mk2",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 65,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 19,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 1980,
+   "base_armor": 12,
+   "speed_m_s": 2.4,
+   "view_range_m": 14.75,
+   "view_type": "Cone",
+   "chassis_code": "g021",
+   "description_summary": "Deadliest air predator; others avoid its bite; naturally self-repairing chassis."
+  },
+  {
+   "name": "Liche-Mk3",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 80,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 21,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 2520,
+   "base_armor": 18,
+   "speed_m_s": 2.4,
+   "view_range_m": 15,
+   "view_type": "Cone",
+   "chassis_code": "g021",
+   "description_summary": "Apex aerial hunter feared by flyers, naturally self-repairing chassis."
+  },
+  {
+   "name": "Liche-Mk4",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 95,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 22,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 3210,
+   "base_armor": 24,
+   "speed_m_s": 2.6,
+   "view_range_m": 15.25,
+   "view_type": "Cone",
+   "chassis_code": "g021",
+   "chassis_image": "g021st.xpf",
+   "description_summary": "Apex air predator, air units avoid its bite, naturally repairable"
+  },
+  {
+   "name": "Liche-Mk5",
+   "category": "Infantry",
+   "group": "Cyclo-frame",
+   "influence": 110,
+   "slots": 10,
+   "max_weight_kg": 88,
+   "max_space_l": 22,
+   "unit_weight_kg": 90,
+   "type": "Biological",
+   "base_health": 4050,
+   "base_armor": 33,
+   "speed_m_s": 3,
+   "view_range_m": 15.5,
+   "view_type": "Cone",
+   "chassis_code": "g021",
+   "chassis_image": "g021st.xpf",
+   "description_summary": "Deadliest air predator; naturally repairable chassis that scares off air units."
+  }
+ ],
+ "layers": [
+  {
+   "file": "g021at.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 69,
+   "type_raw": 69,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "muzzle_points": {
+    "0": [
+     [
+      70,
+      71
+     ],
+     [
+      69,
+      88
+     ]
+    ],
+    "1": [
+     [
+      79,
+      70
+     ],
+     [
+      70,
+      86
+     ]
+    ],
+    "2": [
+     [
+      79,
+      75
+     ],
+     [
+      66,
+      85
+     ]
+    ],
+    "3": [
+     [
+      77,
+      78
+     ],
+     [
+      59,
+      85
+     ]
+    ],
+    "4": [
+     [
+      75,
+      85
+     ],
+     [
+      55,
+      85
+     ]
+    ],
+    "5": [
+     [
+      71,
+      84
+     ],
+     [
+      49,
+      79
+     ]
+    ],
+    "6": [
+     [
+      67,
+      84
+     ],
+     [
+      51,
+      75
+     ]
+    ],
+    "7": [
+     [
+      62,
+      84
+     ],
+     [
+      58,
+      72
+     ]
+    ],
+    "8": [
+     [
+      59,
+      84
+     ],
+     [
+      61,
+      72
+     ]
+    ],
+    "9": [
+     [
+      54,
+      81
+     ],
+     [
+      65,
+      70
+     ]
+    ],
+    "10": [
+     [
+      54,
+      78
+     ],
+     [
+      70,
+      72
+     ]
+    ],
+    "11": [
+     [
+      54,
+      75
+     ],
+     [
+      75,
+      70
+     ]
+    ],
+    "12": [
+     [
+      56,
+      73
+     ],
+     [
+      79,
+      72
+     ]
+    ],
+    "13": [
+     [
+      57,
+      72
+     ],
+     [
+      81,
+      77
+     ]
+    ],
+    "14": [
+     [
+      64,
+      70
+     ],
+     [
+      82,
+      81
+     ]
+    ],
+    "15": [
+     [
+      68,
+      70
+     ],
+     [
+      77,
+      84
+     ]
+    ],
+    "16": [
+     [
+      70,
+      71
+     ],
+     [
+      69,
+      88
+     ]
+    ],
+    "17": [
+     [
+      76,
+      74
+     ],
+     [
+      70,
+      86
+     ]
+    ],
+    "18": [
+     [
+      79,
+      75
+     ],
+     [
+      66,
+      85
+     ]
+    ],
+    "19": [
+     [
+      77,
+      78
+     ],
+     [
+      59,
+      85
+     ]
+    ],
+    "20": [
+     [
+      75,
+      80
+     ],
+     [
+      55,
+      85
+     ]
+    ],
+    "21": [
+     [
+      71,
+      84
+     ],
+     [
+      49,
+      79
+     ]
+    ],
+    "22": [
+     [
+      67,
+      84
+     ],
+     [
+      51,
+      75
+     ]
+    ],
+    "23": [
+     [
+      62,
+      84
+     ],
+     [
+      58,
+      72
+     ]
+    ],
+    "24": [
+     [
+      59,
+      84
+     ],
+     [
+      61,
+      72
+     ]
+    ],
+    "25": [
+     [
+      54,
+      81
+     ],
+     [
+      65,
+      70
+     ]
+    ],
+    "26": [
+     [
+      54,
+      78
+     ],
+     [
+      70,
+      72
+     ]
+    ],
+    "27": [
+     [
+      54,
+      75
+     ],
+     [
+      75,
+      70
+     ]
+    ],
+    "28": [
+     [
+      56,
+      73
+     ],
+     [
+      79,
+      72
+     ]
+    ],
+    "29": [
+     [
+      57,
+      72
+     ],
+     [
+      81,
+      77
+     ]
+    ],
+    "30": [
+     [
+      64,
+      70
+     ],
+     [
+      82,
+      81
+     ]
+    ],
+    "31": [
+     [
+      68,
+      70
+     ],
+     [
+      77,
+      84
+     ]
+    ],
+    "32": [
+     [
+      70,
+      71
+     ],
+     [
+      69,
+      88
+     ]
+    ],
+    "33": [
+     [
+      74,
+      72
+     ],
+     [
+      66,
+      84
+     ]
+    ],
+    "34": [
+     [
+      79,
+      75
+     ],
+     [
+      62,
+      88
+     ]
+    ],
+    "35": [
+     [
+      77,
+      78
+     ],
+     [
+      59,
+      85
+     ]
+    ],
+    "36": [
+     [
+      77,
+      80
+     ],
+     [
+      55,
+      83
+     ]
+    ],
+    "37": [
+     [
+      71,
+      84
+     ],
+     [
+      54,
+      77
+     ]
+    ],
+    "38": [
+     [
+      67,
+      84
+     ],
+     [
+      52,
+      74
+     ]
+    ],
+    "39": [
+     [
+      62,
+      84
+     ],
+     [
+      58,
+      72
+     ]
+    ],
+    "40": [
+     [
+      59,
+      84
+     ],
+     [
+      61,
+      72
+     ]
+    ],
+    "41": [
+     [
+      58,
+      83
+     ],
+     [
+      65,
+      70
+     ]
+    ],
+    "42": [
+     [
+      59,
+      81
+     ],
+     [
+      70,
+      72
+     ]
+    ],
+    "43": [
+     [
+      57,
+      77
+     ],
+     [
+      75,
+      70
+     ]
+    ],
+    "44": [
+     [
+      56,
+      73
+     ],
+     [
+      79,
+      72
+     ]
+    ],
+    "45": [
+     [
+      57,
+      72
+     ],
+     [
+      81,
+      77
+     ]
+    ],
+    "46": [
+     [
+      64,
+      70
+     ],
+     [
+      82,
+      81
+     ]
+    ],
+    "47": [
+     [
+      68,
+      70
+     ],
+     [
+      77,
+      84
+     ]
+    ],
+    "48": [
+     [
+      70,
+      71
+     ],
+     [
+      69,
+      88
+     ]
+    ],
+    "49": [
+     [
+      77,
+      73
+     ],
+     [
+      70,
+      86
+     ]
+    ],
+    "50": [
+     [
+      79,
+      75
+     ],
+     [
+      66,
+      85
+     ]
+    ],
+    "51": [
+     [
+      77,
+      78
+     ],
+     [
+      59,
+      85
+     ]
+    ],
+    "52": [
+     [
+      77,
+      80
+     ],
+     [
+      55,
+      85
+     ]
+    ],
+    "53": [
+     [
+      71,
+      84
+     ],
+     [
+      49,
+      79
+     ]
+    ],
+    "54": [
+     [
+      67,
+      84
+     ],
+     [
+      51,
+      75
+     ]
+    ],
+    "55": [
+     [
+      62,
+      84
+     ],
+     [
+      58,
+      72
+     ]
+    ],
+    "56": [
+     [
+      59,
+      84
+     ],
+     [
+      61,
+      72
+     ]
+    ],
+    "57": [
+     [
+      54,
+      81
+     ],
+     [
+      65,
+      70
+     ]
+    ],
+    "58": [
+     [
+      54,
+      78
+     ],
+     [
+      70,
+      72
+     ]
+    ],
+    "59": [
+     [
+      54,
+      75
+     ],
+     [
+      75,
+      70
+     ]
+    ],
+    "60": [
+     [
+      56,
+      73
+     ],
+     [
+      79,
+      72
+     ]
+    ],
+    "61": [
+     [
+      57,
+      72
+     ],
+     [
+      81,
+      77
+     ]
+    ],
+    "62": [
+     [
+      64,
+      70
+     ],
+     [
+      82,
+      81
+     ]
+    ],
+    "63": [
+     [
+      68,
+      70
+     ],
+     [
+      77,
+      84
+     ]
+    ],
+    "64": [
+     [
+      70,
+      71
+     ],
+     [
+      69,
+      88
+     ]
+    ],
+    "65": [
+     [
+      79,
+      70
+     ],
+     [
+      70,
+      86
+     ]
+    ],
+    "66": [
+     [
+      79,
+      75
+     ],
+     [
+      66,
+      85
+     ]
+    ],
+    "67": [
+     [
+      77,
+      78
+     ],
+     [
+      59,
+      85
+     ]
+    ],
+    "68": [
+     [
+      75,
+      85
+     ],
+     [
+      55,
+      85
+     ]
+    ],
+    "69": [
+     [
+      71,
+      84
+     ],
+     [
+      49,
+      79
+     ]
+    ],
+    "70": [
+     [
+      67,
+      84
+     ],
+     [
+      51,
+      75
+     ]
+    ],
+    "71": [
+     [
+      62,
+      84
+     ],
+     [
+      58,
+      72
+     ]
+    ],
+    "72": [
+     [
+      59,
+      84
+     ],
+     [
+      61,
+      72
+     ]
+    ],
+    "73": [
+     [
+      54,
+      81
+     ],
+     [
+      65,
+      70
+     ]
+    ],
+    "74": [
+     [
+      54,
+      78
+     ],
+     [
+      70,
+      72
+     ]
+    ],
+    "75": [
+     [
+      54,
+      75
+     ],
+     [
+      75,
+      70
+     ]
+    ],
+    "76": [
+     [
+      56,
+      73
+     ],
+     [
+      79,
+      72
+     ]
+    ],
+    "77": [
+     [
+      57,
+      72
+     ],
+     [
+      81,
+      77
+     ]
+    ],
+    "78": [
+     [
+      64,
+      70
+     ],
+     [
+      82,
+      81
+     ]
+    ],
+    "79": [
+     [
+      68,
+      70
+     ],
+     [
+      77,
+      84
+     ]
+    ]
+   },
+   "sheet": "sheets/g021at.png",
+   "sheet_crop": [
+    46,
+    63,
+    89,
+    113
+   ],
+   "cell": [
+    43,
+    50
+   ],
+   "pivot_in_cell": [
+    20,
+    42
+   ]
+  },
+  {
+   "file": "g021atb.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 65,
+   "type_raw": 65,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.69,
+   "mask_only": false,
+   "sheet": "sheets/g021atb.png",
+   "sheet_crop": [
+    46,
+    63,
+    89,
+    95
+   ],
+   "cell": [
+    43,
+    32
+   ],
+   "pivot_in_cell": [
+    20,
+    42
+   ]
+  },
+  {
+   "file": "g021atd.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "d",
+   "layer_doc": "glow / effect layer (type flag 0x08; purpose not confirmed)",
+   "type": 73,
+   "type_raw": 73,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 48,
+   "dirs": 16,
+   "frames_per_dir": 3,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g021atd.png",
+   "sheet_crop": [
+    36,
+    50,
+    101,
+    102
+   ],
+   "cell": [
+    65,
+    52
+   ],
+   "pivot_in_cell": [
+    30,
+    55
+   ]
+  },
+  {
+   "file": "g021ats.xpf",
+   "dat": "tc.dat",
+   "action": "at",
+   "action_doc": "attack",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 80,
+   "type_raw": 80,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 80,
+   "dirs": 16,
+   "frames_per_dir": 5,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g021da.xpf",
+   "dat": "tc.dat",
+   "action": "da",
+   "action_doc": "death / wreck",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 1,
+   "type_raw": 1,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    67,
+    94
+   ],
+   "frame_count": 1,
+   "dirs": 1,
+   "frames_per_dir": 1,
+   "layout": "single",
+   "layout_confident": true,
+   "mirror_check": null,
+   "mask_only": false,
+   "sheet": "sheets/g021da.png",
+   "sheet_crop": [
+    47,
+    76,
+    94,
+    109
+   ],
+   "cell": [
+    47,
+    33
+   ],
+   "pivot_in_cell": [
+    20,
+    18
+   ]
+  },
+  {
+   "file": "g021mo.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g021mo.png",
+   "sheet_crop": [
+    48,
+    60,
+    88,
+    115
+   ],
+   "cell": [
+    40,
+    55
+   ],
+   "pivot_in_cell": [
+    18,
+    45
+   ]
+  },
+  {
+   "file": "g021mob.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 96,
+   "dirs": 8,
+   "frames_per_dir": 12,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 1.0,
+   "mask_only": false,
+   "sheet": "sheets/g021mob.png",
+   "sheet_crop": [
+    48,
+    60,
+    88,
+    90
+   ],
+   "cell": [
+    40,
+    30
+   ],
+   "pivot_in_cell": [
+    18,
+    45
+   ]
+  },
+  {
+   "file": "g021mop.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "p",
+   "layer_doc": "footprints / ground marks",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 16,
+   "dirs": 16,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.25,
+   "mask_only": false,
+   "sheet": "sheets/g021mop.png",
+   "sheet_crop": [
+    56,
+    98,
+    79,
+    113
+   ],
+   "cell": [
+    23,
+    15
+   ],
+   "pivot_in_cell": [
+    10,
+    7
+   ]
+  },
+  {
+   "file": "g021mos.xpf",
+   "dat": "tc.dat",
+   "action": "mo",
+   "action_doc": "move",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 64,
+   "dirs": 8,
+   "frames_per_dir": 8,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  },
+  {
+   "file": "g021st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 35,
+   "type_raw": 35,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.88,
+   "mask_only": false,
+   "sheet": "sheets/g021st.png",
+   "sheet_crop": [
+    45,
+    59,
+    91,
+    113
+   ],
+   "cell": [
+    46,
+    54
+   ],
+   "pivot_in_cell": [
+    21,
+    46
+   ]
+  },
+  {
+   "file": "g021stb.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "b",
+   "layer_doc": "second colour layer (purpose not confirmed)",
+   "type": 3,
+   "type_raw": 3,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.5,
+   "mask_only": false,
+   "sheet": "sheets/g021stb.png",
+   "sheet_crop": [
+    49,
+    61,
+    86,
+    91
+   ],
+   "cell": [
+    37,
+    30
+   ],
+   "pivot_in_cell": [
+    17,
+    44
+   ]
+  },
+  {
+   "file": "g021sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 18,
+   "type_raw": 18,
+   "canvas": [
+    133,
+    137
+   ],
+   "pivot": [
+    66,
+    105
+   ],
+   "frame_count": 72,
+   "dirs": 8,
+   "frames_per_dir": 9,
+   "layout": "frame-major",
+   "layout_confident": true,
+   "mirror_check": 0.38,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png"
+ ],
+ "pictures": [
+  "picture.jpg",
+  "pictures.jpg"
+ ],
+ "turnaround": "turnaround.png"
+}

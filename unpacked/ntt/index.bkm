@@ -1,0 +1,47 @@
+; This is just index
+
+; CAdminDlg (0)
+AdminDlg.txt
+
+; The alert message (1)
+AlertWnd.txt
+
+; Battle Message (2)
+Battle.txt
+
+; BBS window (3)
+BBSDlg.txt
+
+; The description of command  (4)
+CmdDesc.txt
+
+; F2 Screen, all other board message (5)
+BoardWnd.txt
+
+; Lab interface (unit folder, item list, and so on) And the message for Factory (shop)(6)
+LabText.txt
+
+; Field message (7)
+FieldWnd.txt
+
+; Interactive help message (the dialog with handsome guy) (8)
+helpmsg.txt
+
+; Pyramid message (9)
+pyramid.txt
+
+; Headquarter message (10)
+fhqtext.txt
+
+; New user creation message (11)
+NewUser.txt
+
+; HelpMessage (button descriptions..) (12)
+HelpWnd.txt
+
+; CPortalMan (13,14)
+PortMan1.txt
+PortMan2.txt
+
+; Etc (StarCenter, StarGate) (15)
+etcText.txt

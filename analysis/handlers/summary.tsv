@@ -1,0 +1,77 @@
+00548c50	680	103	[]	21
+00547b00	93	20	[]	3
+00547bb0	382	46	[]	5
+00547370	112	18	[]	1
+00547d30	579	79	[]	9
+00547540	698	90	[]	12
+00547f80	1057	143	["%s Wrong Nation ID\n"]	14
+00547b90	26	7	[]	1
+005c96b0	534	102	["uniudi"]	10
+00549d30	1178	97	["mnsts"]	14
+005461a0	3738	460	["%s Wrong hot key : %d (User : %s)", "%s got invalid unit of type %d", "%s hot key duplication (User : %s)", "hot key duplication (User : %s)"]	22
+00545d40	699	92	["%s SET_INVENTORY on invalid ID %d. out of ", "(%d) "]	15
+0057e400	470	82	[]	7
+0057e5e0	374	66	[]	6
+00547b60	47	12	[]	2
+0054fc10	399	40	["mrkminf"]	5
+0054fdb0	472	47	["mrkmiu"]	6
+005c8ff0	1307	161	["uniuni1", "uniuni2"]	15
+00546000	152	23	[]	1
+005460a0	26	7	[]	1
+005473e0	119	28	[]	4
+00547470	205	34	[]	2
+005c9520	385	74	[]	10
+00547050	213	29	[]	2
+005460c0	219	33	[]	5
+0042eb40	238	38	["config"]	5
+0049e7f0	197	29	[]	5
+004aa340	258	56	[]	6
+0049ece0	148	29	[]	5
+004adf20	3206	399	["HR_BGM1.MP3|HR_BGM2.MP3", "HR_BGM8.MP3", "HR_BGM9.MP3", "S_FIELD", "atms.xpf", "atmsb.xpf"]	71
+004ad4c0	20	7	[]	1
+004a5ee0	150	26	[]	4
+004a3fb0	266	33	["UnitManage Wnd"]	4
+004a2500	189	38	[]	5
+004af1e0	1800	229	["fldbctrl"]	26
+004ac360	1183	133	["%s User Name length invalid", "S_HERO_PUT"]	22
+004a2730	135	22	[]	3
+004b0a20	5522	467	["%s ERROR On New Position. Unit doesn't exist ID : %d (cnt : %d / %d)", "%s Mission Objective ID doesn't exist : %d\n"]	26
+004a2090	447	77	["fldjb1", "fldjb2"]	6
+004b0040	2517	211	[]	14
+004b4980	2943	341	["fldhinfo1", "fldhinfo2", "fldinfo5", "fldinfo6", "fldinfo7", "fldinfo9"]	29
+00569e40	63	14	[]	2
+00569d90	164	34	[]	4
+00567ea0	1192	121	[]	9
+004a63d0	563	76	["HR_BGM10.MP3", "Shop Wnd"]	13
+004a6350	61	11	[]	3
+004a5d20	114	20	[]	2
+004a6290	63	11	[]	3
+004a6310	61	11	[]	3
+004a27c0	164	29	[]	4
+004a62d0	61	11	[]	3
+004a6390	61	11	[]	3
+004a23b0	329	38	[]	7
+0049ebe0	242	26	["fldltu"]	5
+00567300	226	33	[]	4
+004a6e20	252	28	["fldpmv1", "fldpmv2"]	2
+004a2290	275	31	["fldhsts"]	5
+004aadf0	566	66	[]	10
+004a1f80	267	32	["%s Mission Objective ID doesn't exist : %d\n"]	7
+004a19b0	160	22	[]	2
+004a1a50	230	34	[]	3
+004a1b40	184	29	[]	5
+004ad4e0	163	20	["Delayed Put"]	4
+004a6d70	167	24	[]	4
+004a4d20	28	10	[]	2
+004a9470	142	22	[]	2
+004ac000	810	85	["fldpyr1", "fldpyr2", "fldpyr3", "fldpyr4"]	14
+004a4c00	129	20	[]	3
+004a4d40	122	20	[]	2
+004aaa80	509	59	["fldrie1", "fldrie2"]	15
+004a1da0	138	19	[]	2
+004a8fd0	339	80	[]	6
+004b2610	516	71	["%s has left this battle.", "fldsr"]	8
+004a1e30	329	38	["fldbwl"]	8
+004afd80	684	129	["fldcuo"]	14
+004b4720	605	103	[]	9
+004390b0	1566	269	["chatcct", "ctrl0", "ctrl1", "runscript"]	34

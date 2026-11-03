@@ -1,0 +1,104 @@
+{
+  "_comment": "Files the launcher keeps up to date in the player's game folder (same as install_pam_fix.bat). key = path in the game folder, value = file in the repo (or {src, client: true} for the game exe whose code checksum the server checks). channel = cn (code page 936) / tw (950) / en (others). (2026-11-02) the .dat files and SGHud.pak are shipped ENCRYPTED: out/enc/... made by tools/sgcrypt_files.py from deploy/encrypt_files.json (publish.ps1 runs it); ddraw.dll / SGRender.dll decrypt while the game reads (claude/ENCRYPTION.md). (2026-11-02) game-folder names SG* -> GO* (user); the repo's own build names (client/sgrender/SGRender.dll, launcher/SGRelay.exe ...) stay.",
+  "root": "..",
+  "start": "GO.exe",
+  "common": {
+    "pam.dat": "out/enc/pam.dat",
+    "pam2.dat": "out/enc/pam2.dat",
+    "pam3.dat": "out/enc/pam3.dat",
+    "tc.dat": "out/enc/tc.dat",
+    "tc2.dat": "out/enc/tc2.dat",
+    "dns.dat": "out/enc/dns.dat",
+    "ddraw.dll": "client/sgrender/ddraw.dll",
+    "ddraw.ini": "third_party/cnc-ddraw/v7.1.0.0/ddraw.ini",
+    "GORelay.exe": "launcher/SGRelay.exe",
+    "GORender.dll": "client/sgrender/SGRender.dll",
+    "ddraw_cnc.dll": "third_party/cnc-ddraw/v7.1.0.0/ddraw.dll",
+    "GOHud.pak": "out/enc/SGHud.pak",
+    "NTFB.dat": "out/enc/NTFB.dat",
+    "ODVB.dat": "out/enc/ODVB.dat",
+    "oml.dat": "out/enc/oml.dat"
+  },
+  "channels": {
+    "cn": {
+      "hlp.dat": "out/enc/cn/hlp.dat",
+      "ntt.dat": "out/enc/cn/ntt.dat",
+      "NTF2.dat": "out/enc/cn/NTF2.dat",
+      "odv.dat": "out/enc/cn/odv.dat",
+      "GO.exe": {
+        "src": "out/SG_cn.exe",
+        "client": true
+      },
+      "GO_debug.exe": {
+        "src": "out/SG_cn.exe",
+        "client": true
+      }
+    },
+    "tw": {
+      "hlp.dat": "out/enc/tw/hlp.dat",
+      "ntt.dat": "out/enc/tw/ntt.dat",
+      "NTF2.dat": "out/enc/tw/NTF2.dat",
+      "odv.dat": "out/enc/tw/odv.dat",
+      "GO.exe": {
+        "src": "out/SG_tw.exe",
+        "client": true
+      },
+      "GO_debug.exe": {
+        "src": "out/SG_tw.exe",
+        "client": true
+      }
+    },
+    "en": {
+      "hlp.dat": "out/enc/en/hlp.dat",
+      "ntt.dat": "out/enc/en/ntt.dat",
+      "odv.dat": "out/enc/en/odv.dat",
+      "NTF2.dat": "out/enc/en/NTF2.dat",
+      "GO.exe": {
+        "src": "out/SG_en.exe",
+        "client": true
+      },
+      "GO_debug.exe": {
+        "src": "out/SG_en.exe",
+        "client": true
+      }
+    }
+  },
+  "_remove_comment": "Files of older releases the launcher deletes from the game folder (exact names; one still listed above is never removed). 1.0.86: the loose HUD art, now inside SGHud.pak. 1.0.94 (user: SG -> GO): the SG-named files (now GO.exe, GO_debug.exe, GORender.dll, GOHud.pak, GORelay.exe, GOLauncher.exe; the launcher copies itself to GOLauncher.exe) and Patcher.exe (ddraw.dll answers the check). SGRender.ini stays one release: GORender.dll copies it to GORender.ini at its first start.",
+  "remove": [
+    "SGHud-Cinzel.ttf",
+    "SGHud-login.jpg",
+    "SGHud-advisor.jpg",
+    "SGHud-hero-01.png",
+    "SGHud-hero-02.png",
+    "SGHud-hero-03.png",
+    "SGHud-hero-04.png",
+    "SGHud-hero-05.png",
+    "SGHud-hero-06.png",
+    "SGHud-hero-07.png",
+    "SGHud-hero-08.png",
+    "SGHud-hero-09.png",
+    "SGHud-hero-10.png",
+    "SGHud-hero-11.png",
+    "SGHud-heroport-01.png",
+    "SGHud-heroport-02.png",
+    "SGHud-heroport-03.png",
+    "SGHud-heroport-04.png",
+    "SGHud-heroport-05.png",
+    "SGHud-heroport-06.png",
+    "SGHud-heroport-07.png",
+    "SGHud-heroport-08.png",
+    "SGHud-heroport-09.png",
+    "SGHud-insg.png",
+    "SGHud-dcr.png",
+    "SGHud-brn.png",
+    "SG.exe",
+    "SG_debug.exe",
+    "SGRender.dll",
+    "SGHud.pak",
+    "SGRelay.exe",
+    "SGLauncher.exe",
+    "SGRender.log",
+    "SGCrypt.log",
+    "Patcher.exe"
+  ]
+}

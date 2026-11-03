@@ -1,0 +1,115 @@
+{
+ "version": 3,
+ "directions": "Sheets: one row per direction, one column per frame.  Direction 0 faces screen-right; the index turns clockwise on screen (D/4 = facing screen-down, D/2 = left, 3D/4 = up), D = 8, 16 or 32.  Checked by attack muzzle points (Behemoth, Chimera, Imp, Daeva, Wraith, Shade, Mephit, Spirit) and left/right mirror pairs; layers with layout_confident false need a visual check.",
+ "code": "d001",
+ "kind": "other",
+ "chassis": [],
+ "base_chassis": [],
+ "names_cn": {},
+ "names_tw": {},
+ "alien_role": null,
+ "manual": [],
+ "layers": [
+  {
+   "file": "d001st.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "",
+   "layer_doc": "body (colour)",
+   "type": 33,
+   "type_raw": 33,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    55,
+    82
+   ],
+   "frame_count": 32,
+   "dirs": 32,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": false,
+   "sheet": "sheets/d001st.png",
+   "sheet_crop": [
+    40,
+    36,
+    73,
+    93
+   ],
+   "cell": [
+    33,
+    57
+   ],
+   "pivot_in_cell": [
+    15,
+    46
+   ]
+  },
+  {
+   "file": "d001sts.xpf",
+   "dat": "tc.dat",
+   "action": "st",
+   "action_doc": "stand",
+   "layer": "s",
+   "layer_doc": "shadow (mask only)",
+   "type": 16,
+   "type_raw": 16,
+   "canvas": [
+    109,
+    105
+   ],
+   "pivot": [
+    55,
+    82
+   ],
+   "frame_count": 32,
+   "dirs": 32,
+   "frames_per_dir": 1,
+   "layout": "one-frame-per-direction",
+   "layout_confident": true,
+   "mirror_check": 0.12,
+   "mask_only": true
+  }
+ ],
+ "views": [
+  "views/dir00.png",
+  "views/dir01.png",
+  "views/dir02.png",
+  "views/dir03.png",
+  "views/dir04.png",
+  "views/dir05.png",
+  "views/dir06.png",
+  "views/dir07.png",
+  "views/dir08.png",
+  "views/dir09.png",
+  "views/dir10.png",
+  "views/dir11.png",
+  "views/dir12.png",
+  "views/dir13.png",
+  "views/dir14.png",
+  "views/dir15.png",
+  "views/dir16.png",
+  "views/dir17.png",
+  "views/dir18.png",
+  "views/dir19.png",
+  "views/dir20.png",
+  "views/dir21.png",
+  "views/dir22.png",
+  "views/dir23.png",
+  "views/dir24.png",
+  "views/dir25.png",
+  "views/dir26.png",
+  "views/dir27.png",
+  "views/dir28.png",
+  "views/dir29.png",
+  "views/dir30.png",
+  "views/dir31.png"
+ ],
+ "pictures": [],
+ "turnaround": "turnaround.png"
+}
