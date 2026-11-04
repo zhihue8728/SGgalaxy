@@ -86,6 +86,7 @@ def replace_raw(b, datas_new):
 
 GLOW_FX = True
 SWEEP = {}
+DIRS = 8               # --dirs 16 for 16-direction units (frames per direction = the original's count / dirs)
 GLOW_SCALE = 2.4      # hd_pack.glow_fx widths x this at 1x: ~2 px white core, ~6 px violet body, soft ~12 px halo
 
 
@@ -93,7 +94,7 @@ def glow_layer(items, w, h, act, sweep=None):
     """the original b layer look (user 11-04 "原版的光刀还有光影的效果"): a soft wide violet glow round a bright core,
     a light pulse along the blade and the swept afterimage while it moves -- hd_pack.glow_fx at sprite size"""
     import hd_pack
-    D = 1 if act == 'da' else 8; fpd = len(items) // D
+    D = DIRS if len(items) >= DIRS else 1; fpd = len(items) // D
     sil = [None] * len(items)
     for k, p in items:
         im = Image.open(p).convert('RGBA'); f = max(1, im.width // RW[act])
@@ -109,9 +110,9 @@ def glow_layer(items, w, h, act, sweep=None):
     return out
 
 
-def frame_paths(fr, act, ps):
-    D = 1 if act == 'da' else 8
-    for f in range(FRAMES[act]):
+def frame_paths(fr, act, ps, D=None, fpd=None):
+    D = D or (1 if act == 'da' else 8); fpd = fpd or FRAMES[act]
+    for f in range(fpd):
         for d in range(D):
             yield f * D + d, os.path.join(fr, act, ps, 'd%d_f%02d.png' % (d, f))
 
@@ -126,10 +127,12 @@ def build(code, fr, out, srcs):
         for ps, suffix in (('body', ''), ('glow', 'b'), ('shadow', 's')):
             name = '%s%s%s.xpf' % (code, act, suffix)
             if name not in files: continue
-            items = list(frame_paths(fr, act, ps))
-            if any(not os.path.exists(p) for _, p in items): continue
             b = files[name]; inf = xpfx.info(b); w, h = inf['w'], inf['h']
             n_orig = len(xpfx.offsets(b)) - 1
+            D = DIRS if n_orig >= DIRS else 1
+            RW[act] = w
+            items = list(frame_paths(fr, act, ps, D, n_orig // D))
+            if any(not os.path.exists(p) for _, p in items): continue
             if len(items) != n_orig: print('SKIP', name, 'frames', len(items), '!=', n_orig); continue
             if ps == 'shadow':
                 nb = replace_raw(b, {k: enc_mask(shadow_mask(p, w, h, RW[act])) for k, p in items})
@@ -137,7 +140,15 @@ def build(code, fr, out, srcs):
                 nb = xpf_write.replace_frames(b, glow_layer(items, w, h, act, SWEEP))
             else:
                 fn = body_img if ps == 'body' else glow_img
-                nb = xpf_write.replace_frames(b, {k: fn(p, w, h, RW[act]) for k, p in items})
+                imgs = {k: fn(p, w, h, RW[act]) for k, p in items}
+                if inf['type'] & 0x04:                       # muzzle points lead every frame: keep the original's
+                    offs = xpfx.offsets(b); raw = {}
+                    for k, im in imgs.items():
+                        fd = b[offs[k]:offs[k + 1]]; npt = fd[0]
+                        raw[k] = fd[:1 + 4 * npt] + xpf_write.enc_frame(im, w, h)
+                    nb = replace_raw(b, raw)
+                else:
+                    nb = xpf_write.replace_frames(b, imgs)
             inf2, fr2 = xpfx.frames(nb)
             assert (inf2['w'], inf2['h'], inf2['cx'], inf2['cy']) == (w, h, inf['cx'], inf['cy'])
             open(os.path.join(out, name), 'wb').write(nb); made.append(name)
@@ -148,8 +159,9 @@ def build(code, fr, out, srcs):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('code'); ap.add_argument('frames'); ap.add_argument('out')
-    ap.add_argument('--src', default='out/tc/tc2.dat,out/tc/tc.dat'); ap.add_argument('--dat', nargs=2, metavar=('SRC', 'DST')); ap.add_argument('--sweep')
+    ap.add_argument('--src', default='out/tc/tc2.dat,out/tc/tc.dat'); ap.add_argument('--dat', nargs=2, metavar=('SRC', 'DST')); ap.add_argument('--sweep'); ap.add_argument('--dirs', type=int, default=8)
     a = ap.parse_args()
+    DIRS = a.dirs
     if a.sweep:
         import json; SWEEP = json.load(open(a.sweep))
     made = build(a.code.lower(), a.frames, a.out, a.src.split(','))

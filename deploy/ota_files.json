@@ -29,7 +29,17 @@
     "hd/g039/g039mos.hds": "client/sgrender/hd/g039/g039mos.hds",
     "hd/g039/g039st.hds": "client/sgrender/hd/g039/g039st.hds",
     "hd/g039/g039stb.hds": "client/sgrender/hd/g039/g039stb.hds",
-    "hd/g039/g039sts.hds": "client/sgrender/hd/g039/g039sts.hds"
+    "hd/g039/g039sts.hds": "client/sgrender/hd/g039/g039sts.hds",
+    "hd/a025/a025at.hds": "client/sgrender/hd/a025/a025at.hds",
+    "hd/a025/a025atb.hds": "client/sgrender/hd/a025/a025atb.hds",
+    "hd/a025/a025ats.hds": "client/sgrender/hd/a025/a025ats.hds",
+    "hd/a025/a025mo.hds": "client/sgrender/hd/a025/a025mo.hds",
+    "hd/a025/a025mob.hds": "client/sgrender/hd/a025/a025mob.hds",
+    "hd/a025/a025mod.hds": "client/sgrender/hd/a025/a025mod.hds",
+    "hd/a025/a025mos.hds": "client/sgrender/hd/a025/a025mos.hds",
+    "hd/a025/a025st.hds": "client/sgrender/hd/a025/a025st.hds",
+    "hd/a025/a025stb.hds": "client/sgrender/hd/a025/a025stb.hds",
+    "hd/a025/a025sts.hds": "client/sgrender/hd/a025/a025sts.hds"
   },
   "channels": {
     "cn": {

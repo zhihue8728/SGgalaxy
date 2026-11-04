@@ -261,6 +261,8 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('out'); ap.add_argument('--scale', type=int, default=2)
     ap.add_argument('--from-dat'); ap.add_argument('--from-render', nargs=2, metavar=('DIR', 'CODE'))
+    ap.add_argument('--acts', help='e.g. st:16x1,mo:16x1,at:16x4 (dirs x frames per direction; default: g039)')
+    ap.add_argument('--pivot', help='xpf pivot x,y (default 89,109)'); ap.add_argument('--base', type=int, help='xpf canvas width (default 179)')
     ap.add_argument('--tint', action='store_true'); ap.add_argument('--plain-glow', action='store_true'); ap.add_argument('--sweep'); ap.add_argument('names', nargs='*')
     a = ap.parse_args()
     TINT = a.tint; GLOW_FX = not a.plain_glow
@@ -269,6 +271,13 @@ if __name__ == '__main__':
     if a.from_dat:
         from_dat(a.from_dat.split(','), a.names, a.scale, a.out)
     elif a.from_render:
-        from_render(a.from_render[0], a.from_render[1], a.scale, a.out)
+        if a.acts:
+            RENDER_ACTS.clear()
+            for it in a.acts.split(','):
+                k, v = it.split(':'); dd, ff = v.split('x'); RENDER_ACTS[k] = (int(dd), int(ff))
+        kw = {}
+        if a.pivot: kw['pivot'] = tuple(int(v) for v in a.pivot.split(','))
+        if a.base: kw['base'] = a.base
+        from_render(a.from_render[0], a.from_render[1], a.scale, a.out, **kw)
     else:
         sys.exit(__doc__)

@@ -5,7 +5,7 @@
  * slot 17: hd_record(site, Cxpf, file name, args) with args = the draw's stack arguments
  *     [0] CGraph*  [1] x  [2] y  (viewport coordinates of the pivot)  [3] direction index  [4] frame  [5..6] blend data
  * Return 0 = the game draws the sprite as always; nonzero = the stub returns without drawing (the draw's arguments
- * popped).  Every sprite of an HD art code ([display] hd_codes, default g039) is recorded for sgd3d9.c, which draws its
+ * popped).  Every sprite of an HD art code ([display] hd_codes, default g039,a025) is recorded for sgd3d9.c, which draws its
  * HD picture over the frame at screen resolution.  The frame position = viewport origin (CGraph +0x64 / +0x68) + x / y.
  *
  * STEP 3 (11-03): occlusion and fog.  When the D3D9 presenter is drawing HD units (sgr_hd_gpu in the last frames) and
@@ -154,7 +154,7 @@ static void hd_init(volatile DWORD *table)
     char buf[256];
     g_hd_on = GetPrivateProfileIntA("display", "hd_units", 1, ".\\GORender.ini") != 0;
     g_hd_dbg = GetPrivateProfileIntA("display", "hd_debug", 0, ".\\GORender.ini") != 0;
-    GetPrivateProfileStringA("display", "hd_codes", "g039", buf, sizeof buf, ".\\GORender.ini");
+    GetPrivateProfileStringA("display", "hd_codes", "g039,a025", buf, sizeof buf, ".\\GORender.ini");
     g_hd_ncodes = 0;
     for (char *t = strtok(buf, " ,;"); t && g_hd_ncodes < HD_MAXCODES; t = strtok(NULL, " ,;")) {
         strncpy(g_hd_codes[g_hd_ncodes], t, 7); g_hd_codes[g_hd_ncodes][7] = 0; g_hd_ncodes++;
