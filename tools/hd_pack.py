@@ -15,10 +15,12 @@ import sys, os, struct, argparse, math
 HERE = os.path.dirname(os.path.abspath(__file__)); REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(REPO, 'art3d'))
 import numpy as np
+import cv2
 from PIL import Image
 
 TINT = False
 GLOW_FX = True                         # --plain-glow: the rendered capsule as it is
+SWEEP = {}                             # --sweep blade_sweep.json (Blender): {act: {dir: {frame: [[hilt, tip] x substeps]}}}
 BLEND = {'normal': 0, 'add': 1, 'shadow': 2}
 
 
@@ -121,12 +123,22 @@ def _dist(gx, gy, a, b):
     return np.hypot(gx - (a[0] + t * d[0]), gy - (a[1] + t * d[1])), t
 
 
-def glow_fx(sil, dirs, fpd, act, scale):
+def glow_fx(sil, dirs, fpd, act, scale, sweep=None, cscale=None):
     """Laser blade (user 11-03 "光劍特效不生動"): from each rendered capsule silhouette (target resolution, 0..1)
     only the blade axis is kept (user: too thick); drawn as a thin white-hot core + violet glow + wide soft halo, with a bright
     pulse running hand -> tip, a looping flicker of brightness / halo width, and a swept afterimage between
     the last two frames' blades only while the blade moves (user: afterimage only when it moves).  Returns additive RGBA cells."""
+    cscale = scale if cscale is None else cscale
+    SW = {}
+    if sweep:                                            # true blade positions (Blender): current + sub-frame steps back
+        for d_, fr_ in sweep.items():
+            for f_, lst in fr_.items():
+                SW[(int(f_), int(d_))] = [None if q is None else (np.array(q[0], np.float32) * cscale,
+                                                                   np.array(q[1], np.float32) * cscale) for q in lst]
     segs = [None if s is None else _segment(s) for s in sil]
+    for k in range(len(segs)):
+        f_, d_ = divmod(k, dirs)
+        if SW.get((f_, d_)) and SW[(f_, d_)][0] is not None and sil[k] is not None: segs[k] = SW[(f_, d_)][0]
     C = {k: np.array(v, np.float32) for k, v in GLOW_COLORS.items()}
     out = []
     for k, s in enumerate(sil):
@@ -151,20 +163,50 @@ def glow_fx(sil, dirs, fpd, act, scale):
         pulse *= inner
         tipfade = 0.75 + 0.25 * (1 - t)                      # a little brighter at the hilt
         trail = np.zeros_like(core)
-        cur = (a, b)                                         # afterimage only while the blade moves (user 11-03)
-        for n in (1, 2):
-            if f - n < 0 or segs[k - n * dirs] is None: break
-            pv = segs[k - n * dirs]
-            move = max(float(np.hypot(*(pv[1] - cur[1]))), float(np.hypot(*(pv[0] - cur[0]))))
-            amt = min(max((move - 4.0 * r) / (14.0 * r), 0.0), 1.0) * (0.6 if n == 1 else 0.3)
-            if amt <= 0: break
-            nst = max(8, int(move / (1.2 * r)) + 1)
-            for j in range(1, nst):                          # sweep: a filled wedge between the two blades
-                u = j / float(nst)
-                sa = pv[0] * u + cur[0] * (1 - u); sb = pv[1] * u + cur[1] * (1 - u)
-                dd, tt = _dist(gx, gy, sa, sb)
-                trail = np.maximum(trail, amt * (1 - u * 0.75) * (0.4 + 0.6 * tt) * np.exp(-(dd / (2.0 * r)) ** 2))
-            cur = pv
+        path = SW.get((f, d))
+        if path and len(path) > 1:                           # curved afterimage along the real blade sweep (11-04)
+            pts = [q for q in path if q is not None]
+            prev = SW.get(((f - 1) % fpd, d))
+            if prev and f > 0: pts += [q for q in prev[1:len(prev) // 2 + 1] if q is not None]   # a longer tail
+            if len(pts) > 1:                                 # denser: 4 steps between sub-frame samples (no bands)
+                dense = [pts[0]]
+                for q0, q1 in zip(pts, pts[1:]):
+                    for u in (0.25, 0.5, 0.75, 1.0): dense.append((q0[0] * (1 - u) + q1[0] * u, q0[1] * (1 - u) + q1[1] * u))
+                pts = dense
+                tips = np.array([q[1] for q in pts]); move = float(np.sum(np.linalg.norm(np.diff(tips, axis=0), axis=1)))
+                amt = min(max((move - 4.0 * r) / (14.0 * r), 0.0), 1.0)
+                if amt > 0:
+                    lay = np.zeros((H, W), np.float32); n = len(pts) - 1
+                    for i in range(n):
+                        w = amt * (1 - i / (n + 1.0)) ** 1.3
+                        h0, t0 = pts[i]; h1, t1 = pts[i + 1]
+                        m0 = h0 + (t0 - h0) * 0.3; m1 = h1 + (t1 - h1) * 0.3
+                        poly = np.array([m0, t0, t1, m1], np.float32).round().astype(np.int32)
+                        tmp = np.zeros((H, W), np.uint8); cv2.fillConvexPoly(tmp, poly, 255, lineType=cv2.LINE_AA)
+                        lay = np.maximum(lay, tmp.astype(np.float32) / 255.0 * w)
+                    # brighter outer rim along the tip's curve (the original's crescent edge)
+                    rim = np.zeros((H, W), np.uint8)
+                    cv2.polylines(rim, [tips.round().astype(np.int32)], False, 255, max(1, int(round(1.2 * r))), cv2.LINE_AA)
+                    rimf = rim.astype(np.float32) / 255.0 * amt
+                    # fade from the tip edge inward: along-blade position of every pixel vs the current blade
+                    _, tt = _dist(gx, gy, a, b)
+                    lay = cv2.GaussianBlur(lay, (0, 0), max(0.6, 0.8 * r)) * (0.45 + 0.55 * tt)
+                    trail = np.maximum(lay, cv2.GaussianBlur(rimf, (0, 0), max(0.5, 0.6 * r)) * 1.1)
+        else:
+            cur = (a, b)                                     # (no sweep data) wedge between the last two blades
+            for n in (1, 2):
+                if f - n < 0 or segs[k - n * dirs] is None: break
+                pv = segs[k - n * dirs]
+                move = max(float(np.hypot(*(pv[1] - cur[1]))), float(np.hypot(*(pv[0] - cur[0]))))
+                amt = min(max((move - 4.0 * r) / (14.0 * r), 0.0), 1.0) * (0.6 if n == 1 else 0.3)
+                if amt <= 0: break
+                nst = max(8, int(move / (1.2 * r)) + 1)
+                for j in range(1, nst):
+                    u = j / float(nst)
+                    sa = pv[0] * u + cur[0] * (1 - u); sb = pv[1] * u + cur[1] * (1 - u)
+                    dd, tt = _dist(gx, gy, sa, sb)
+                    trail = np.maximum(trail, amt * (1 - u * 0.75) * (0.4 + 0.6 * tt) * np.exp(-(dd / (2.0 * r)) ** 2))
+                cur = pv
         rgb = ((core * 1.2 * tipfade)[:, :, None] * C['core'] + (inner * 0.70)[:, :, None] * C['inner']
                + (halo * 0.40)[:, :, None] * C['halo'] + (bloom * 0.14)[:, :, None] * C['halo']
                + (pulse * 0.60)[:, :, None] * C['core'] + (trail * 0.95)[:, :, None] * C['trail'])
@@ -192,7 +234,7 @@ def from_render(rdir, code, scale, outdir, pivot=(89, 109), base=179):
                     tw, th = round(im.width * scale / ss), round(im.height * scale / ss)
                     a = np.asarray(im, np.float32); m = (a[:, :, :3].max(2) * a[:, :, 3] / 255.0 > 6).astype(np.uint8) * 255
                     sil.append(np.asarray(Image.fromarray(m, 'L').resize((tw, th), Image.BOX), np.float32) / 255.0)
-                for im in glow_fx(sil, dirs, fpd, act, scale):
+                for im in glow_fx(sil, dirs, fpd, act, scale, sweep=SWEEP.get(act)):
                     cells.append((im, (pivot[0] * scale, pivot[1] * scale)) if im is not None else (None, None))
                 out = os.path.join(outdir, code, f'{code}{act}{suf}.hds')
                 aw, ah = pack(cells, dirs, fpd, blend, scale, out)
@@ -219,9 +261,11 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('out'); ap.add_argument('--scale', type=int, default=2)
     ap.add_argument('--from-dat'); ap.add_argument('--from-render', nargs=2, metavar=('DIR', 'CODE'))
-    ap.add_argument('--tint', action='store_true'); ap.add_argument('--plain-glow', action='store_true'); ap.add_argument('names', nargs='*')
+    ap.add_argument('--tint', action='store_true'); ap.add_argument('--plain-glow', action='store_true'); ap.add_argument('--sweep'); ap.add_argument('names', nargs='*')
     a = ap.parse_args()
     TINT = a.tint; GLOW_FX = not a.plain_glow
+    if a.sweep:
+        import json; SWEEP = json.load(open(a.sweep))
     if a.from_dat:
         from_dat(a.from_dat.split(','), a.names, a.scale, a.out)
     elif a.from_render:

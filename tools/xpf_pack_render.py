@@ -85,10 +85,11 @@ def replace_raw(b, datas_new):
 
 
 GLOW_FX = True
+SWEEP = {}
 GLOW_SCALE = 2.4      # hd_pack.glow_fx widths x this at 1x: ~2 px white core, ~6 px violet body, soft ~12 px halo
 
 
-def glow_layer(items, w, h, act):
+def glow_layer(items, w, h, act, sweep=None):
     """the original b layer look (user 11-04 "原版的光刀还有光影的效果"): a soft wide violet glow round a bright core,
     a light pulse along the blade and the swept afterimage while it moves -- hd_pack.glow_fx at sprite size"""
     import hd_pack
@@ -101,7 +102,7 @@ def glow_layer(items, w, h, act):
         c = np.zeros((h, w), np.float32); hh, ww = min(h, s.shape[0]), min(w, s.shape[1]); c[:hh, :ww] = s[:hh, :ww]
         sil[k] = c if c.max() > 0.3 else None
     out = {}
-    for k, im in enumerate(hd_pack.glow_fx(sil, D, fpd, act, GLOW_SCALE)):
+    for k, im in enumerate(hd_pack.glow_fx(sil, D, fpd, act, GLOW_SCALE, sweep=(sweep or {}).get(act), cscale=1.0)):
         if im is None: im = Image.new('RGBA', (w, h), (0, 0, 0, 0))
         a = np.asarray(im).copy(); a[..., 3] = np.where(a[..., :3].max(2) > 10, 255, 0)   # additive: dark = no change
         out[k] = Image.fromarray(a, 'RGBA')
@@ -133,7 +134,7 @@ def build(code, fr, out, srcs):
             if ps == 'shadow':
                 nb = replace_raw(b, {k: enc_mask(shadow_mask(p, w, h, RW[act])) for k, p in items})
             elif ps == 'glow' and GLOW_FX:
-                nb = xpf_write.replace_frames(b, glow_layer(items, w, h, act))
+                nb = xpf_write.replace_frames(b, glow_layer(items, w, h, act, SWEEP))
             else:
                 fn = body_img if ps == 'body' else glow_img
                 nb = xpf_write.replace_frames(b, {k: fn(p, w, h, RW[act]) for k, p in items})
@@ -147,8 +148,10 @@ def build(code, fr, out, srcs):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('code'); ap.add_argument('frames'); ap.add_argument('out')
-    ap.add_argument('--src', default='out/tc/tc2.dat,out/tc/tc.dat'); ap.add_argument('--dat', nargs=2, metavar=('SRC', 'DST'))
+    ap.add_argument('--src', default='out/tc/tc2.dat,out/tc/tc.dat'); ap.add_argument('--dat', nargs=2, metavar=('SRC', 'DST')); ap.add_argument('--sweep')
     a = ap.parse_args()
+    if a.sweep:
+        import json; SWEEP = json.load(open(a.sweep))
     made = build(a.code.lower(), a.frames, a.out, a.src.split(','))
     if a.dat:
         print('dat', sgdat_add.add(a.dat[0], a.dat[1], [os.path.join(a.out, m) for m in made]), len(made), 'files ->', a.dat[1])
